@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -19,7 +20,6 @@
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 class TColStd_MapTransientHasher;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference;

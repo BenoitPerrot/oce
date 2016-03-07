@@ -16,10 +16,10 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopOpeBRepDS_HDataStructure;
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_Curve;
 class TopoDS_Shape;

@@ -186,8 +186,7 @@ Standard_Boolean FUN_computeLIFfaces2d(const TopOpeBRepBuild_Builder& BU,
     Fsdm.Append(f);
   }
 
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference itI(LI); itI.More(); itI.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = itI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
 //    const TopOpeBRepDS_Transition& T = I->Transition();
     TopAbs_ShapeEnum SB,SA;Standard_Integer IB,IA;TopOpeBRepDS_Kind GT,ST;Standard_Integer G,S;
     FDS_Idata(I,SB,IB,SA,IA,GT,G,ST,S);

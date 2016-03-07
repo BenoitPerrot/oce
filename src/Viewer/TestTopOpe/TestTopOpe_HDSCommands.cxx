@@ -870,12 +870,9 @@ Standard_Integer SeeShapeISI(const Standard_Integer I,const TopoDS_Shape& S,Draw
   
   TopOpeBRepDS_Kind SK = TopOpeBRepDS::ShapeToKind(S.ShapeType());
   const TopOpeBRepDS_DataStructure& BDS = HDS->DS();
-  const TopOpeBRepDS_ListOfInterference& LOI = BDS.ShapeInterferences(S);
-  TopOpeBRepDS_ListIteratorOfListOfInterference ITLOI(LOI);
   TColStd_ListOfInteger LOKK,LOII;
   
-  for (;ITLOI.More();ITLOI.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& HI = ITLOI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& HI : BDS.ShapeInterferences(S)) {
     const TopOpeBRepDS_Transition& T = HI->Transition();
     
     TopAbs_ShapeEnum sb = T.ShapeBefore();TopOpeBRepDS_Kind sbk = TopOpeBRepDS::ShapeToKind(sb);
@@ -1304,13 +1301,13 @@ Standard_Integer tdsri(Draw_Interpretor& di,Standard_Integer na_in,const char** 
     is = Draw::Atoi(a[i1arg + 1]);
     const TopoDS_Shape& s = GetShape(is,Tpar.TS()); if (s.IsNull()) return 0;
     TopOpeBRepDS_ListOfInterference& li = BDS.ChangeShapeInterferences(is);
-    Standard_Integer i=0; TopOpeBRepDS_ListIteratorOfListOfInterference it(li);
-    while (it.More()) {
+    Standard_Integer i=0; TopOpeBRepDS_ListIteratorOfListOfInterference it(begin(li));
+    while (it != end(li)) {
       if(++i == ii) {
-	it.Value()->Dump(cout,"\n--> remove ","\n");
-	li.Remove(it);
+          (*it)->Dump(cout,"\n--> remove ","\n");
+	it = li.erase(it);
       }
-      else it.Next();
+      else ++it;
     }
   }
   return 0;

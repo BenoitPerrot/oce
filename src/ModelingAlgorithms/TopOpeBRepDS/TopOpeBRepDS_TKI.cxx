@@ -77,8 +77,7 @@ void TopOpeBRepDS_TKI::Clear()
 //=======================================================================
 void TopOpeBRepDS_TKI::FillOnGeometry(const TopOpeBRepDS_ListOfInterference& L)
 {
-  for(TopOpeBRepDS_ListIteratorOfListOfInterference it(L);it.More();it.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : L) {
     TopOpeBRepDS_Kind GT,ST; Standard_Integer G,S;
     FDS_data(I,GT,G,ST,S);
     Add(GT,G,I);
@@ -91,8 +90,7 @@ void TopOpeBRepDS_TKI::FillOnGeometry(const TopOpeBRepDS_ListOfInterference& L)
 //=======================================================================
 void TopOpeBRepDS_TKI::FillOnSupport(const TopOpeBRepDS_ListOfInterference& L)
 {
-  for(TopOpeBRepDS_ListIteratorOfListOfInterference it(L);it.More();it.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : L) {
     TopOpeBRepDS_Kind GT,ST; Standard_Integer G,S;
     FDS_data(I,GT,G,ST,S);
     Add(ST,S,I);
@@ -145,7 +143,7 @@ Standard_Boolean TopOpeBRepDS_TKI::HasInterferences(const TopOpeBRepDS_Kind K,co
   Standard_Boolean has = IsBound(K,G);
   if ( has ) {
     const TopOpeBRepDS_ListOfInterference& loi = Interferences(K,G);
-    Standard_Integer l = loi.Extent();
+    Standard_Integer l = loi.size();
     has = (l != 0 ) ;
   }
   return has;
@@ -180,7 +178,7 @@ void TopOpeBRepDS_TKI::Add(const TopOpeBRepDS_Kind K,const Standard_Integer G,co
   if (!ok) Standard_ProgramError::Raise("TopOpeBRepDS_TKI : Add K G HI");
 
   Add(K,G);
-  ChangeInterferences(K,G).Append(HI);
+  ChangeInterferences(K,G).push_back(HI);
 }
 
 //=======================================================================
@@ -241,9 +239,10 @@ void TopOpeBRepDS_TKI::DumpTKI
   else s = TopOpeBRepDS::SPrint(K,G,"at "," : ");
   TCollection_AsciiString sb(s.Length(),' ');
   Standard_Integer i=0;
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference it(L);it.More();it.Next(),i++) {
-    if (i) it.Value()->Dump(cout,sb,s2);
-    else   it.Value()->Dump(cout,s,s2);
+  for (auto x : L) {
+    if (i) x->Dump(cout,sb,s2);
+    else   x->Dump(cout,s,s2);
+    ++i;
   }
 }
 

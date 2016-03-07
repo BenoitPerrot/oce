@@ -786,13 +786,13 @@ static void PerformTwoCornerSameExt(TopOpeBRepDS_DataStructure& DStr,
     }    
     Interfp1=ChFi3d_FilPointInDS(TopAbs_FORWARD,indcurve, indpoint1, cint->FirstParameter());
     Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve,indpoint2, cint->LastParameter());
-    DStr.ChangeCurveInterferences(indcurve).Append(Interfp1);
-    DStr.ChangeCurveInterferences(indcurve).Append(Interfp2);
+    DStr.ChangeCurveInterferences(indcurve).push_back(Interfp1);
+    DStr.ChangeCurveInterferences(indcurve).push_back(Interfp2);
     Interfc=ChFi3d_FilCurveInDS(indcurve,indic1,C2dint1,orpcurve);
-    DStr.ChangeSurfaceInterferences(indic1).Append(Interfc);
+    DStr.ChangeSurfaceInterferences(indic1).push_back(Interfc);
     if (orsurf1==orsurf2) orpcurve=TopAbs::Reverse(orpcurve);
     Interfc=ChFi3d_FilCurveInDS(indcurve,indic2,C2dint2,orpcurve);
-    DStr.ChangeSurfaceInterferences(indic2).Append(Interfc);
+    DStr.ChangeSurfaceInterferences(indic2).push_back(Interfc);
   }   
 }
 
@@ -2422,8 +2422,8 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 				       indpoint.Value(ic,1),pardeb,IsVt1);
 	  Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve3d.Value(n3d),
 				       indpoint(icplus,0),parfin,IsVt2);
-	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp1);
-	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp2);
+	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp1);
+	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp2);
 	  if (!IsVt1) {
 	    TopOpeBRepDS_Point & tpt1= DStr.ChangePoint(indpoint(ic,1));
             tpt1.Tolerance (tpt1.Tolerance()+maxapp1);
@@ -2445,7 +2445,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
                 OrientationAreteViveConsecutive (Fvive.Value(ic,icplus) ,Evive.Value(ic),V1,orinterf);                                      
 	  } 
 	  Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),numfa.Value(ic,icplus),pcurve,orinterf);	  
-	  DStr.ChangeShapeInterferences(numfa.Value(ic,icplus)).Append(Interfc);
+	  DStr.ChangeShapeInterferences(numfa.Value(ic,icplus)).push_back(Interfc);
 	}
        } // end of processing by edge 
     } // end of the loop on edges 
@@ -2515,8 +2515,8 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 				       indpoint1,pardeb);
 	  Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve3d.Value(n3d),
 				       indpoint2,parfin);
-	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp1);
-	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp2);
+	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp1);
+	  DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp2);
 	  num=DStr.AddShape(Fproj.Value(nb));
 	  TopExp_Explorer ex;
 	  for(ex.Init(Fproj.Value(nb).Oriented(TopAbs_FORWARD),TopAbs_EDGE); 
@@ -2546,7 +2546,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	    }
 	  }
 	  Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),num,proj2d,orinterf);	  
-	  DStr.ChangeShapeInterferences(num).Append(Interfc);
+	  DStr.ChangeShapeInterferences(num).push_back(Interfc);
 	}
 	indice=ind;
 	if (nb!=nbface) {    
@@ -2555,7 +2555,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	  Indice.SetValue(n3d,indice);
 	  Standard_Integer Iarc1=DStr.AddShape(TopoDS::Edge(Ecom.Value(nb)));
 	  Interfp1=ChFi3d_FilPointInDS(orvt,Iarc1,indice,parcom.Value(nb));
-	  DStr.ChangeShapeInterferences(Iarc1).Append(Interfp1);
+	  DStr.ChangeShapeInterferences(Iarc1).push_back(Interfp1);
 	}
       }
     }                     
@@ -2628,8 +2628,8 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 				     indpoint1,ufirst,isvt1);
 	Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve3d.Value(n3d),
 				     indpoint2,ulast,isvt2);
-	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp1);
-	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append(Interfp2);
+	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp1);
+	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back(Interfp2);
       }
   } 
  
@@ -2723,7 +2723,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	  Standard_Real parVtx = BRep_Tool::Parameter(V1,Arcspine);
 	  Handle(TopOpeBRepDS_CurvePointInterference) 
 	    interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-	  DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+	  DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
 	}
       }
     
@@ -2758,7 +2758,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 					      SolInd,
 					      TopOpeBRepDS_SURFACE,
 					      Isurf);
-    SolidInterfs.Append(SSI);
+    SolidInterfs.push_back(SSI);
   
   // calculate orientation orien of pcurves of Plate
   // the curves from ic to icplus the pcurves of Plate 
@@ -2831,10 +2831,10 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	  Standard_Integer indcurv=DStr.AddCurve(tcurv3d);
 	  Interfp1=ChFi3d_FilPointInDS(TopAbs_FORWARD,indcurv,ind1,param1);
 	  Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurv,ind2,param2);
-	  DStr.ChangeCurveInterferences(indcurv).Append(Interfp1);
-	  DStr.ChangeCurveInterferences(indcurv).Append(Interfp2);
+	  DStr.ChangeCurveInterferences(indcurv).push_back(Interfp1);
+	  DStr.ChangeCurveInterferences(indcurv).push_back(Interfp2);
 	  Interfc=ChFi3d_FilCurveInDS(indcurv,Isurf,C2d,orien);
-	  DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+	  DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 	}
   }
     
@@ -2856,8 +2856,8 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 				     indpoint.Value(ic,0),pardeb);
 	Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve3d.Value(n3d),
 				     indpoint.Value(ic,1),parfin);
-	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append( Interfp1);
-	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).Append( Interfp2);
+	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back( Interfp1);
+	DStr.ChangeCurveInterferences(indcurve3d.Value(n3d)).push_back( Interfp2);
 	TopOpeBRepDS_Curve& tcourb = DStr.ChangeCurve(indcurve3d.Value(n3d));
 	
 	tcourb.Tolerance(errapp.Value(ic)+apperror);
@@ -2869,7 +2869,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
       // calculate surfaceinterference
 	Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),Isurf,
 				  PSurf.Curves2d()->Value(n3d),orien);     
-	DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+	DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 	regular.SetCurve(indcurve3d.Value(n3d));
 	regular.SetS1(Isurf,Standard_False);
 	indice=CD.Value(ic)->SetOfSurfData()->Value( i.Value(ic,icmoins))->Surf();
@@ -2898,7 +2898,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	    ori = TopAbs_REVERSED;
 	  Standard_Integer Iarc1=DStr.AddShape(TopoDS::Edge(Evive.Value(ic)));
 	  Interfp1=ChFi3d_FilPointInDS(ori,Iarc1,indpoint(ic,1),p.Value(ic,icplus));
-	  DStr.ChangeShapeInterferences(TopoDS::Edge(Evive.Value(ic))).Append(Interfp1);
+	  DStr.ChangeShapeInterferences(TopoDS::Edge(Evive.Value(ic))).push_back(Interfp1);
 	}
 	
 	if (!ponctuel.Value(ic) && !libre.Value(ic)) {
@@ -2915,7 +2915,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	    }
 	    Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),Isurf,
 					PSurf.Curves2d()->Value(n3d),orien);
-	    DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+	    DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 	    if( Order.Value(n3d)==1) {
 	      regular.SetCurve(indcurve3d.Value(n3d));
 	      regular.SetS1(Isurf,Standard_False);
@@ -2942,7 +2942,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	    }
 	    Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),Isurf,
 					PSurf.Curves2d()->Value(n3d),orien);
-	    DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+	    DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 	    if( Order.Value(n3d)==1) {
 	      regular.SetCurve(indcurve3d.Value(n3d));
 	      regular.SetS1(Isurf,Standard_False);
@@ -2965,7 +2965,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	  tcourb1.Tolerance(tcourb1.Tolerance()+apperror);
 	  Interfc=ChFi3d_FilCurveInDS(indcurve3d.Value(n3d),Isurf,
 				    PSurf.Curves2d()->Value(n3d),orien);
-	  DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+	  DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 	}	  
       } 
   }
@@ -2990,7 +2990,7 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
 	    ori = TopAbs_REVERSED;
 	  Standard_Integer Iarc1=DStr.AddShape(TopoDS::Edge(Evive.Value(ic)));
 	  Interfp1=ChFi3d_FilPointInDS(ori,Iarc1,indpoint(ic,1),p.Value(ic,icplus));
-	  DStr.ChangeShapeInterferences(TopoDS::Edge(Evive.Value(ic))).Append(Interfp1);
+	  DStr.ChangeShapeInterferences(TopoDS::Edge(Evive.Value(ic))).push_back(Interfp1);
 	}
       }
     }

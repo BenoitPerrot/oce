@@ -12,10 +12,10 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfInterferenceListOfInterference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 
 
 

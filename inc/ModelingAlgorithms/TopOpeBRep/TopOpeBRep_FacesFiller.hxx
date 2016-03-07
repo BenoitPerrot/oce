@@ -22,6 +22,7 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PointClassifier.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_PShapeClassifier.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/Handle_TopOpeBRep_FFDumper.hxx>
@@ -41,7 +42,6 @@ class TopTools_ListOfShape;
 class TopOpeBRep_VPointInterIterator;
 class TopOpeBRepDS_Transition;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 class TopOpeBRepDS_Point;
 class TopoDS_Face;
 class gp_Pnt;
@@ -155,7 +155,7 @@ public:
   //! else, add the point <DSP> in the <DS> and set <G> to the
   //! value of the new geometry such created.
   //! returns the value of ScanInterfList().
-  Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListIteratorOfListOfInterference& IT, const TopOpeBRep_VPointInter& VP, Standard_Integer& G, TopOpeBRepDS_Kind& K) ;
+    Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListOfInterference::const_iterator& IT, const TopOpeBRepDS_ListOfInterference::const_iterator& End, const TopOpeBRep_VPointInter& VP, Standard_Integer& G, TopOpeBRepDS_Kind& K) ;
   
   Standard_EXPORT   Standard_Integer MakeGeometry (const TopOpeBRep_VPointInter& VP, const Standard_Integer ShapeIndex, TopOpeBRepDS_Kind& K) ;
   

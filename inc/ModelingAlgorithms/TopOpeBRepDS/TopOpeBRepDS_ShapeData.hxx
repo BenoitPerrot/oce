@@ -17,7 +17,6 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_DataStructure;
-class TopOpeBRepDS_ListOfInterference;
 
 
 

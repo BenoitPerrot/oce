@@ -374,7 +374,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     Standard_Boolean addi = FUN_MoreSHAINT(EPit,ShapeInterf);
     while (addi) {
       const Handle(TopOpeBRepDS_Interference)& II = EPit.Value();
-      loiSHAINT.Append(II);
+      loiSHAINT.push_back(II);
       EPit.Next();
       addi = FUN_MoreSHAINT(EPit,ShapeInterf);
     }
@@ -413,9 +413,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
   Standard_Boolean kp6 = (!isSE); 
   if (kp6) {
     kp6 = Standard_False;
-    TopOpeBRepDS_ListIteratorOfListOfInterference it(loiSHAINT);
-    for (; it.More(); it.Next()){
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I : loiSHAINT) {
       TopOpeBRepDS_Kind ST = I->SupportType();
       if (ST != TopOpeBRepDS_FACE) continue;
       TopAbs_Orientation O = I->Transition().Orientation(TopAbs_IN);
@@ -452,7 +450,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     //          I1d=(T(E),V,E)
     
     if ((Kcur == TopOpeBRepDS_VERTEX) && (kp1 == Gcur)) {tki.Next();continue;}
-    const Handle(TopOpeBRepDS_Interference)& I = LICur.First();
+    const Handle(TopOpeBRepDS_Interference)& I = LICur.front();
     Standard_Real parSE = FDS_Parameter(I);
     TopOpeBRepDS_ListOfInterference LICurcopy; 
     TopOpeBRepDS_ListOfInterference l3dFcur; FDS_assign(LICur,LICurcopy); Standard_Integer n3d=FUN_selectSKinterference(LICurcopy,TopOpeBRepDS_FACE,l3dFcur);
@@ -527,7 +525,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
       Standard_Boolean B = (Kcur == TopOpeBRepDS_POINT) ? Standard_False : (Handle(TopOpeBRepDS_EdgeVertexInterference)::DownCast(I)->GBound()); 
       Handle(TopOpeBRepDS_Interference) newI = MakeEPVInterference(newT,S,Gcur,parSE,Kcur,B);
       
-      TopOpeBRepDS_ListOfInterference li; li.Append(newI); TopOpeBRepDS_PointIterator itCur(li);
+      TopOpeBRepDS_ListOfInterference li; li.push_back(newI); TopOpeBRepDS_PointIterator itCur(li);
       GFillPointTopologyPVS(E,itCur,G,PVS);
 #ifdef OCCT_DEBUG
       if(tSPS) {newI->Dump(cout,"\nnewinterf ","\n\n"); debfillp2(iEDS);}
@@ -538,7 +536,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     // - kp3 -
     // xpu200598 interference 2d at GPOINT
     Standard_Boolean kp3 = (n2d > 0) && point;
-    if (kp3) l2dFEcur.First()->Transition().Orientation(TopAbs_IN);
+    if (kp3) l2dFEcur.front()->Transition().Orientation(TopAbs_IN);
 
 
     TopOpeBRepDS_PointIterator itCur(LICur); Standard_Integer iICur=0;
@@ -569,8 +567,8 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
 #ifdef OCCT_DEBUG
 	    const Handle(TopOpeBRepDS_Interference)& i2d =
 #endif
-                               l2dFEcur.First();
-	    const Handle(TopOpeBRepDS_Interference)& i3d = l3dFcur.First();
+                               l2dFEcur.front();
+	    const Handle(TopOpeBRepDS_Interference)& i3d = l3dFcur.front();
 	    Standard_Boolean id3d = (I1 == i3d);
 	    keepinterf1 = id3d;
 #ifdef OCCT_DEBUG

@@ -133,14 +133,10 @@ Standard_Boolean TopOpeBRepDS_Check::ChkIntg()
 Standard_Boolean TopOpeBRepDS_Check::ChkIntgInterf
 (const TopOpeBRepDS_ListOfInterference& LI)
 {
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1;
-  it1.Initialize(LI);
   Standard_Boolean IsOK = Standard_True;
-  while (it1.More() ) {
-    Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I1 : LI) {
     IsOK = IsOK && CheckDS(I1->Support(), I1->SupportType());
     IsOK = IsOK && CheckDS(I1->Geometry(), I1->GeometryType());
-    it1.Next();
   }
   return IsOK;
 } 
@@ -456,16 +452,13 @@ Standard_Boolean TopOpeBRepDS_Check::OneVertexOnPnt(){
 ///Standard_Boolean TopOpeBRepDS_Check::CheckEdgeParameter() const
 Standard_Boolean CheckEdgeParameter(const Handle(TopOpeBRepDS_HDataStructure)& myHDS)
 {
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1;
   const TopOpeBRepDS_DataStructure& DS = myHDS->DS();
   Standard_Integer i,nshape = DS.NbShapes();
   Standard_Boolean IsOK = Standard_True;
   for (i = 1; i <= nshape; i++) {
     // Integrity of Interferences : Check parameter of EdgeInterferences
     const TopOpeBRepDS_ListOfInterference& LI = DS.ShapeInterferences(i);
-    it1.Initialize(LI);
-    while (it1.More() ) {
-      Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I1 : LI) {
       Handle(TopOpeBRepDS_EdgeVertexInterference) EVI =
 	Handle(TopOpeBRepDS_EdgeVertexInterference)::DownCast(I1);
       if(!EVI.IsNull()) {
@@ -480,7 +473,6 @@ Standard_Boolean CheckEdgeParameter(const Handle(TopOpeBRepDS_HDataStructure)& m
 	  IsOK = Standard_False;
 	}
       }
-      it1.Next();
     }
   }
   
@@ -488,9 +480,7 @@ Standard_Boolean CheckEdgeParameter(const Handle(TopOpeBRepDS_HDataStructure)& m
   for (i = 1; i <= ncurve; i++) {
     // Integrity of Interferences : Check parameter of CurvesInterferences
     const TopOpeBRepDS_ListOfInterference& LI = DS.CurveInterferences(i);
-    it1.Initialize(LI);
-    while (it1.More() ) {
-      const Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I1 : LI) {
       const Handle(TopOpeBRepDS_CurvePointInterference)& CPI =
 	Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(I1);
       if(!CPI.IsNull()) {
@@ -506,7 +496,6 @@ Standard_Boolean CheckEdgeParameter(const Handle(TopOpeBRepDS_HDataStructure)& m
 	  IsOK = Standard_False;
 	}
       }
-      it1.Next();
     }
     
   }

@@ -872,7 +872,7 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
       if(isfirstsam) OpcFopsam = TopAbs::Reverse(OpcFopsam);
       Handle(TopOpeBRepDS_SurfaceCurveInterference) 
 	interf = ChFi3d_FilCurveInDS(Icf,IFopsam,pcFopsam,OpcFopsam);
-      DStr.ChangeShapeInterferences(IFopsam).Append(interf);
+      DStr.ChangeShapeInterferences(IFopsam).push_back(interf);
 
       regdeb.SetCurve(Icf);
       regdeb.SetS1(coin->Surf(),0);

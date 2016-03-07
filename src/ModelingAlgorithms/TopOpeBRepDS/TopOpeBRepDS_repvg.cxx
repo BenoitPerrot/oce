@@ -63,16 +63,16 @@ Standard_EXPORT void FDS_repvg2
   Standard_Boolean ispoint  = (GT == TopOpeBRepDS_POINT);
   Standard_Boolean isvertex = (GT == TopOpeBRepDS_VERTEX);
 
-  Standard_Integer nLI = LI.Extent();
+  Standard_Integer nLI = LI.size();
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(LI);
-  while (it1.More()) {
-    const Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  TopOpeBRepDS_ListIteratorOfListOfInterference it1(begin(LI));
+  while (it1 != end(LI)) {
+    const Handle(TopOpeBRepDS_Interference)& I1 = *it1;
     TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1; TopAbs_ShapeEnum tsb1,tsa1; Standard_Integer isb1,isa1; 
     FDS_Idata(I1,tsb1,isb1,tsa1,isa1,GT1,G1,ST1,S1);
-    if (tsb1 != TopAbs_FACE) {it1.Next(); continue;}
-    if (tsa1 != TopAbs_FACE) {it1.Next(); continue;}
-    if (GT1 != GT) {it1.Next(); continue;}
+    if (tsb1 != TopAbs_FACE) {++it1; continue;}
+    if (tsa1 != TopAbs_FACE) {++it1; continue;}
+    if (GT1 != GT) {++it1; continue;}
 
     // xpu121198 : raise in PRO16303, if G1 is a vertex same domain, make sure 
     // rk(G1)= rk(E1)
@@ -80,7 +80,7 @@ Standard_EXPORT void FDS_repvg2
     Standard_Integer rkS1 = BDS.AncestorRank(S1);
     if (isvertex && (rkG1 != rkS1)) {
       TopoDS_Shape oovG; Standard_Boolean issd = FUN_ds_getoov(BDS.Shape(G1),BDS,oovG);
-      if (!issd) {it1.Next(); continue;} //!!NYIRAISE
+      if (!issd) {++it1; continue;} //!!NYIRAISE
       G1 = BDS.Shape(oovG);
     }
 
@@ -91,20 +91,20 @@ Standard_EXPORT void FDS_repvg2
     else if (isvertex) VDS = BDS.Shape(G1);
     else Standard_Failure::Raise("TopOpeBRepDS FDS_repvg2 1");
 
-    Standard_Boolean isEd1 = BRep_Tool::Degenerated(E1); if (isEd1) {it1.Next(); continue;}
-    TopOpeBRepDS_ListIteratorOfListOfInterference it2(it1); if (it2.More()) it2.Next(); else {it1.Next(); continue; }
+    Standard_Boolean isEd1 = BRep_Tool::Degenerated(E1); if (isEd1) {++it1; continue;}
+    TopOpeBRepDS_ListIteratorOfListOfInterference it2(it1); if (it2 != end(LI)) ++it2; else {++it1; continue; }
 
     TopOpeBRepDS_EdgeInterferenceTool EITool;
     Standard_Boolean memeS = Standard_False; TopOpeBRepDS_Transition TrmemeS; Standard_Boolean isComplex = Standard_False;
 
-    while ( it2.More() ) {
-      const Handle(TopOpeBRepDS_Interference)& I2 = it2.Value();
+    while ( it2 != end(LI) ) {
+      const Handle(TopOpeBRepDS_Interference)& I2 = *it2;
       TopOpeBRepDS_Kind GT2,ST2; Standard_Integer G2,S2; TopAbs_ShapeEnum tsb2,tsa2; Standard_Integer isb2,isa2; 
       FDS_Idata(I2,tsb2,isb2,tsa2,isa2,GT2,G2,ST2,S2);
-      if (tsb2 != TopAbs_FACE) {it2.Next(); continue;}
-      if (tsa2 != TopAbs_FACE) {it2.Next(); continue;}
+      if (tsb2 != TopAbs_FACE) {++it2; continue;}
+      if (tsa2 != TopAbs_FACE) {++it2; continue;}
 
-      Standard_Boolean cond = (G1 == G2); if (!cond) { it2.Next(); continue; }
+      Standard_Boolean cond = (G1 == G2); if (!cond) { ++it2; continue; }
   
 #ifdef OCCT_DEBUG
       if (TRC && isvertex && DSREDUEDGETRCE(BDS.Shape(VDS))) debreducerEV(EIX,BDS.Shape(VDS));
@@ -112,7 +112,7 @@ Standard_EXPORT void FDS_repvg2
       
       const TopoDS_Edge& E2 = TopoDS::Edge(BDS.Shape(S2));
       Standard_Boolean isEd2 = BRep_Tool::Degenerated(E2);
-      if (isEd2) {it2.Next(); continue;}
+      if (isEd2) {++it2; continue;}
 
       memeS = (S1 == S2);
       memeS = memeS && (nLI == 2);
@@ -129,28 +129,28 @@ Standard_EXPORT void FDS_repvg2
 	  Standard_Real pbef,paft; Standard_Boolean isonper; 
 	  Standard_Real pE = FDS_Parameter(I1);
 	  Standard_Boolean ok = FDS_LOIinfsup(BDS,E,pE,GT1,G1,LOI,pbef,paft,isonper); 
-	  if (!ok) {it2.Next();continue;}
-	  Standard_Real pE1;     ok = FUN_tool_parE(E,pE,E1,pE1);   if (!ok) {it2.Next();continue;}
-	  gp_Pnt2d uv; ok = FUN_tool_paronEF(E,pE,F1,uv); if (!ok) {it2.Next();continue;}
+	  if (!ok) {++it2;continue;}
+	  Standard_Real pE1;     ok = FUN_tool_parE(E,pE,E1,pE1);   if (!ok) {++it2;continue;}
+	  gp_Pnt2d uv; ok = FUN_tool_paronEF(E,pE,F1,uv); if (!ok) {++it2;continue;}
 	  Standard_Real factor = 0.789;
 	  TopOpeBRepTool_makeTransition MKT; 
 	  TopAbs_State stb = TopAbs_UNKNOWN,sta = TopAbs_UNKNOWN; 
 	  ok = MKT.Initialize(E,pbef,paft,pE, F1,uv, factor);
 	  if (ok) ok = MKT.SetRest(E1,pE1);
 	  if (ok) ok = MKT.MkTonE(stb,sta);
-	  if (!ok) {it2.Next();continue;}  
+	  if (!ok) {++it2;continue;}  
 	  TrmemeS.Before(stb); TrmemeS.After(sta);
 	}
 #endif
 	if (!mktone) {
 	  Standard_Real pE = FDS_Parameter(I1);
-	  Standard_Boolean ok = FDS_stateEwithF2d(BDS,E,pE,GT1,G1,F1,TrmemeS); if (!ok) {it2.Next();continue;}
+	  Standard_Boolean ok = FDS_stateEwithF2d(BDS,E,pE,GT1,G1,F1,TrmemeS); if (!ok) {++it2;continue;}
 	}
 
 #ifdef OCCT_DEBUG
 	if(TRC){cout<<"memeS result ";TrmemeS.Dump(cout);cout<<endl;}
 #endif
-	LI.Remove(it2);
+	it2 = LI.erase(it2);
       } // !isComplex && memeS
 
       if (!isComplex && !memeS) {
@@ -171,7 +171,7 @@ Standard_EXPORT void FDS_repvg2
 #endif      
 	if      (ispoint)  EITool.Add(E,PDS,I2);      
 	else if (isvertex) EITool.Add(E2,VDS,I2); 
-	LI.Remove(it2);
+	it2 = LI.erase(it2);
 #ifdef OCCT_DEBUG
 	if(TRC){cout<<"result ";Handle(TopOpeBRepDS_Interference) IBID = new TopOpeBRepDS_Interference();
 		EITool.Transition(IBID);IBID->Transition().Dump(cout);cout<<endl;}
@@ -179,24 +179,24 @@ Standard_EXPORT void FDS_repvg2
       } // (isComplex && !memeS)
 
       if (isComplex && memeS) {
-	it2.Next();
+	++it2;
 #ifdef OCCT_DEBUG
 #endif      
       } // (isComplex && memeS)
 
-    } // it2
+    }
     
     if      (!isComplex && memeS) {
       const TopOpeBRepDS_Transition& T1 = I1->Transition();
       TrmemeS.Index(T1.Index()); I1->ChangeTransition() = TrmemeS;
-      RLI.Append(I1); LI.Remove(it1);
+      RLI.push_back(I1); it1 = LI.erase(it1);
     }
     else if (isComplex && !memeS)  {
       EITool.Transition(I1);
-      RLI.Append(I1); LI.Remove(it1);
+      RLI.push_back(I1); it1 = LI.erase(it1);
     }
     else {
-      it1.Next();
+      ++it1;
     }
 
   } // it1
@@ -222,28 +222,26 @@ Standard_EXPORT void FDS_repvg
 
   // xpu211098 : cto904F6 (e10,FTRA1=f14,FTRA2=f17)
   MDSdmoiloi mapITRASHA;
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LOI);
-  while (it.More()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LOI) {
     Standard_Integer isa = I->Transition().Index();
     Standard_Boolean bound = mapITRASHA.IsBound(isa);
     if (!bound) {
-      TopOpeBRepDS_ListOfInterference loi; loi.Append(I);
+      TopOpeBRepDS_ListOfInterference loi; loi.push_back(I);
       mapITRASHA.Bind(isa,loi);
     }
-    else mapITRASHA.ChangeFind(isa).Append(I);
-    it.Next();
+    else mapITRASHA.ChangeFind(isa).push_back(I);
   }
   
-  LOI.Clear();
+  LOI.clear();
   MDSdmiodmoiloi itm(mapITRASHA);
   for (; itm.More(); itm.Next()){
     Standard_Integer isa = itm.Key();
     TopOpeBRepDS_ListOfInterference& loi = mapITRASHA.ChangeFind(isa);
-    Standard_Integer nloi = loi.Extent();
+    Standard_Integer nloi = loi.size();
     if (nloi < 2) continue;
     TopOpeBRepDS_ListOfInterference rloi; FDS_repvg2(BDS,EIX,GT,loi,rloi);
-    LOI.Append(loi); RLOI.Append(rloi);
+    LOI.insert(end(LOI), begin(loi), end(loi));
+    RLOI.insert(end(RLOI), begin(rloi), end(rloi));
   }  
 
   /*LOI.Clear();

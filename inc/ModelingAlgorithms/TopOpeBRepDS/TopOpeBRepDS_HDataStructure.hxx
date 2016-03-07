@@ -20,6 +20,8 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_DataStructure;
 class TopOpeBRepDS_Surface;
@@ -29,8 +31,6 @@ class TopOpeBRepDS_PointIterator;
 class TopOpeBRepDS_Point;
 class TopTools_ListIteratorOfListOfShape;
 class TopOpeBRepDS_SurfaceIterator;
-class TopOpeBRepDS_ListOfInterference;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 class TopOpeBRepDS_Interference;
 
 
@@ -169,14 +169,14 @@ public:
   //! returns True if such an interference has been found, False else.
   //! if True, iterator It points (by the Value() method) on the first
   //! interference accessing an identical 3D point.
-  Standard_EXPORT   Standard_Boolean ScanInterfList (TopOpeBRepDS_ListIteratorOfListOfInterference& IT, const TopOpeBRepDS_Point& PDS)  const;
+    Standard_EXPORT   Standard_Boolean ScanInterfList (TopOpeBRepDS_ListOfInterference::const_iterator& IT, const TopOpeBRepDS_ListOfInterference::const_iterator& End, const TopOpeBRepDS_Point& PDS)  const;
   
 
   //! Get the geometry of a DS point <PDS>.
   //! Search for it with ScanInterfList (previous method).
   //! if found, set <G,K> to the geometry,kind of the interference found.
   //! returns the value of ScanInterfList().
-  Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListIteratorOfListOfInterference& IT, const TopOpeBRepDS_Point& PDS, Standard_Integer& G, TopOpeBRepDS_Kind& K)  const;
+    Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListOfInterference::const_iterator& IT, const TopOpeBRepDS_ListOfInterference::const_iterator& End, const TopOpeBRepDS_Point& PDS, Standard_Integer& G, TopOpeBRepDS_Kind& K)  const;
   
 
   //! Add interference <I> to list <LI>.

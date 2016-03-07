@@ -41,7 +41,7 @@ Standard_EXPORT void FUN_ds_samRk(const TopOpeBRepDS_DataStructure& BDS, const S
 				  TopTools_ListOfShape& LI, TopTools_ListOfShape & LIsrk);
 Standard_EXPORT void FDS_dumpLI(const TopOpeBRepDS_ListOfInterference& LI,const char* str=NULL);
 Standard_EXPORT void FDS_data(const Handle(TopOpeBRepDS_Interference)& I,TopOpeBRepDS_Kind& GT1,Standard_Integer& G1,TopOpeBRepDS_Kind& ST1,Standard_Integer& S1);
-Standard_EXPORT Standard_Boolean FDS_data(const TopOpeBRepDS_ListIteratorOfListOfInterference& it,Handle(TopOpeBRepDS_Interference)& I,TopOpeBRepDS_Kind& GT1,Standard_Integer& G1,TopOpeBRepDS_Kind& ST1,Standard_Integer& S1);
+Standard_EXPORT Standard_Boolean FDS_data(const TopOpeBRepDS_ListOfInterference::const_iterator& it, const TopOpeBRepDS_ListOfInterference::const_iterator& end, Handle(TopOpeBRepDS_Interference)& I,TopOpeBRepDS_Kind& GT1,Standard_Integer& G1,TopOpeBRepDS_Kind& ST1,Standard_Integer& S1);
 Standard_EXPORT void FDS_Tdata(const Handle(TopOpeBRepDS_Interference)& I,TopAbs_ShapeEnum& SB,Standard_Integer& IB,TopAbs_ShapeEnum& SA,Standard_Integer& IA);
 Standard_EXPORT void FDS_Idata(const Handle(TopOpeBRepDS_Interference)& I,TopAbs_ShapeEnum& SB,Standard_Integer& IB,TopAbs_ShapeEnum& SA,Standard_Integer& IA,TopOpeBRepDS_Kind& GT1,Standard_Integer& G1,TopOpeBRepDS_Kind& ST1,Standard_Integer& S1);
 Standard_EXPORT Standard_Boolean FUN_ds_getVsdm(const TopOpeBRepDS_DataStructure& BDS, const Standard_Integer iV, Standard_Integer& iVsdm);

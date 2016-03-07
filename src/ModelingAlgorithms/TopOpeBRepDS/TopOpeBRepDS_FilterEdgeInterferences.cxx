@@ -87,7 +87,7 @@ void TopOpeBRepDS_Filter::ProcessEdgeInterferences
   
 //                 BDS.Shape(SIX);
   TopOpeBRepDS_ListOfInterference& LI = BDS.ChangeShapeInterferences(SIX);
-  TopOpeBRepDS_ListOfInterference lw, lE, lF, lUU, lall; lall.Assign(LI);
+  TopOpeBRepDS_ListOfInterference lw, lE, lF, lUU, lall(LI);
 
   // xpu : 270398 : 
   // deleting faulty interferences attached to section edge EIX
@@ -100,8 +100,8 @@ void TopOpeBRepDS_Filter::ProcessEdgeInterferences
 #endif
             ::FUN_selectTRAUNKinterference(lall,lUU);
   FUN_resolveEUNKNOWN(lUU,BDS,SIX);
-  lw.Append(lall);
-  lw.Append(lUU);
+  lw.insert(end(lw), begin(lall), end(lall));
+  lw.insert(end(lw), begin(lUU), end(lUU));
   
 #ifdef OCCT_DEBUG
   Standard_Integer nF =
@@ -137,9 +137,9 @@ void TopOpeBRepDS_Filter::ProcessEdgeInterferences
 #endif
   ::FUN_FilterEdge(lE,myHDS,SIX);
   
-  LI.Clear();
-  LI.Append(lF);
-  LI.Append(lE);
+  LI.clear();
+  LI.insert(end(LI), begin(lF), end(lF));
+  LI.insert(end(LI), begin(lE), end(lE));
   
 #ifdef OCCT_DEBUG
   if (TRC) {

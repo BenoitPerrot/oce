@@ -115,10 +115,8 @@ Standard_EXPORT void TopOpeBRepDS_SetThePCurve
 static Standard_Integer FUN_getG(const gp_Pnt P,const TopOpeBRepDS_ListOfInterference& LI,const Handle(TopOpeBRepDS_HDataStructure) HDS,Standard_Integer& iEinterf)
 //---------------------------------------------
 {
-  TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI);
   Handle(TopOpeBRepDS_CurvePointInterference) SSI;  
-  for (; ILI.More(); ILI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& I = ILI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     SSI = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(I);
     if (SSI.IsNull()) continue;
     Standard_Integer GI = SSI->Geometry();
@@ -180,7 +178,7 @@ static Standard_Boolean FUN_EPIforEvisoONperiodicF
   TopOpeBRepDS_Transition T(TopAbs_IN, TopAbs_IN, TopAbs_EDGE, TopAbs_EDGE); T.Index(iS);
   Handle(TopOpeBRepDS_CurvePointInterference) CPI = new TopOpeBRepDS_CurvePointInterference
       (T,TopOpeBRepDS_EDGE,iEinterf,TopOpeBRepDS_POINT,iG,parone); 
-  loCPI.Append(CPI);
+  loCPI.push_back(CPI);
   return Standard_True;
 } //FUN_EPIforEvisoONperiodicF
 
@@ -234,15 +232,13 @@ static Standard_Boolean FUN_EPIforEvisoONperiodicF
 static void FUN_getEPI(const TopOpeBRepDS_ListOfInterference& LI,TopOpeBRepDS_ListOfInterference& EPI)
 //---------------------------------------------
 {
-  TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI);
   Handle(TopOpeBRepDS_CurvePointInterference) CPI;  
-  for (; ILI.More(); ILI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& I = ILI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     CPI = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(I);
     if (CPI.IsNull()) continue;
     TopOpeBRepDS_Kind GT,ST;Standard_Integer GI,SI;FDS_data(CPI,GT,GI,ST,SI);
     if (GT != TopOpeBRepDS_POINT || ST != TopOpeBRepDS_FACE)  continue;
-    EPI.Append(I);
+    EPI.push_back(I);
   }
 }
 
@@ -961,10 +957,8 @@ void TopOpeBRepBuild_Builder::GMergeFaceSFS
 static Standard_Boolean FUN_SplitEvisoONperiodicF(const Handle(TopOpeBRepDS_HDataStructure)& HDS, const TopoDS_Shape& FF)
 {
   const TopOpeBRepDS_ListOfInterference& LLI = HDS->DS().ShapeInterferences(FF);
-  if (LLI.Extent() == 0) return Standard_True;
-  TopOpeBRepDS_ListOfInterference LI;
-  TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LLI);     
-  for (; ILI.More(); ILI.Next() ) LI.Append(ILI.Value());
+  if (LLI.empty()) return Standard_True;
+  TopOpeBRepDS_ListOfInterference LI(LLI);
 
   // LI3 = {I3 = (T(FACE),EG=EDGE,FS=FACE)}
   TopOpeBRepDS_ListOfInterference LI1; Standard_Integer nIGtEDGE = FUN_selectGKinterference(LI,TopOpeBRepDS_EDGE,LI1);
@@ -975,10 +969,9 @@ static Standard_Boolean FUN_SplitEvisoONperiodicF(const Handle(TopOpeBRepDS_HDat
   if (nITRASHAFACE < 1) return Standard_True;
 
   Handle(TopOpeBRepDS_ShapeShapeInterference) SSI; 
-  ILI.Initialize(LI3);
-  for (; ILI.More(); ILI.Next() ) {
+  for (auto x : LI3) {
 
-    SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(ILI.Value());
+    SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
     TopOpeBRepDS_Kind GT,ST;Standard_Integer GI,SI;FDS_data(SSI,GT,GI,ST,SI);
       
     const TopoDS_Face& FS = TopoDS::Face( HDS->Shape(SI)); 
@@ -1032,7 +1025,7 @@ static Standard_Boolean FUN_SplitEvisoONperiodicF(const Handle(TopOpeBRepDS_HDat
                   FUN_EPIforEvisoONperiodicF(EG,FS,EPIlist, HDS,loCPI);
 
     TopOpeBRepDS_ListOfInterference& lIEG = BDS.ChangeShapeInterferences(EG);
-    lIEG.Append(loCPI);
+    lIEG.insert(end(lIEG), begin(loCPI),end(loCPI));
     
 #ifdef OCCT_DEBUG
     Standard_Boolean trc = TopOpeBRepDS_GettraceSTRANGE();
@@ -1615,10 +1608,7 @@ void TopOpeBRepBuild_Builder::FindFacesTouchingEdge(const TopoDS_Shape& aFace,
   Standard_Integer anEdgeInd = BDS.Shape(anEdge);
   if (!anEdgeInd) return;
 
-  const TopOpeBRepDS_ListOfInterference& LI=BDS.ShapeInterferences(aFace);
-  TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI);
-  for (;ILI.More();ILI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& I=ILI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : BDS.ShapeInterferences(aFace)) {
     Handle(TopOpeBRepDS_ShapeShapeInterference) SSI=
       Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
     if (SSI.IsNull()) continue;

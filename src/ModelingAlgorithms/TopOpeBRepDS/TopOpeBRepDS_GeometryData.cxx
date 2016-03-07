@@ -43,12 +43,8 @@ TopOpeBRepDS_GeometryData::TopOpeBRepDS_GeometryData(const TopOpeBRepDS_Geometry
 //=======================================================================
 void TopOpeBRepDS_GeometryData::Assign(const TopOpeBRepDS_GeometryData& Other)
 {
-  myInterferences.Clear();
-
-  TopOpeBRepDS_ListIteratorOfListOfInterference anIt(Other.myInterferences);
-  for (; anIt.More(); anIt.Next()) {
-    myInterferences.Append(anIt.Value());
-  }
+  myInterferences.clear();
+  myInterferences.insert(end(myInterferences), begin(Other.myInterferences), end(Other.myInterferences));
 }
 //modified by NIZNHY-PKV Tue Oct 30 09:25:49 2001 t
 
@@ -79,5 +75,5 @@ TopOpeBRepDS_ListOfInterference& TopOpeBRepDS_GeometryData::ChangeInterferences(
 
 void TopOpeBRepDS_GeometryData::AddInterference(const Handle(TopOpeBRepDS_Interference)& I)
 {
-  myInterferences.Append(I);
+  myInterferences.push_back(I);
 }

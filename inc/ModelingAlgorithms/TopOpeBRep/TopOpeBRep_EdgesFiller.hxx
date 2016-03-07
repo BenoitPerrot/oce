@@ -16,6 +16,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_PDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRep/TopOpeBRep_PEdgesIntersector.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
@@ -25,12 +26,10 @@
 class TopOpeBRepDS_HDataStructure;
 class TopoDS_Shape;
 class TopOpeBRep_EdgesIntersector;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 class TopOpeBRep_Point2d;
 class TopOpeBRepDS_Transition;
 class TopOpeBRepDS_Interference;
 class TopoDS_Edge;
-class TopOpeBRepDS_ListOfInterference;
 
 
 //! Fills a TopOpeBRepDS_DataStructure with Edge/Edge
@@ -62,7 +61,7 @@ protected:
 private:
 
   
-  Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListIteratorOfListOfInterference& IT, const TopOpeBRep_Point2d& P, Standard_Integer& G, TopOpeBRepDS_Kind& K)  const;
+    Standard_EXPORT   Standard_Boolean GetGeometry (TopOpeBRepDS_ListOfInterference::const_iterator& IT, const TopOpeBRepDS_ListOfInterference::const_iterator& End, const TopOpeBRep_Point2d& P, Standard_Integer& G, TopOpeBRepDS_Kind& K)  const;
   
   Standard_EXPORT   Standard_Boolean MakeGeometry (const TopOpeBRep_Point2d& P, Standard_Integer& G, TopOpeBRepDS_Kind& K)  const;
   

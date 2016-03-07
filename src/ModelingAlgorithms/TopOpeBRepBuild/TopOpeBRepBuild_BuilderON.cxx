@@ -116,10 +116,7 @@ void TopOpeBRepBuild_BuilderON::Perform(const TopOpeBRepBuild_PBuilder& PB,const
   if (tFOR) debfillonf(iFOR);
 #endif
 
-  const TopOpeBRepDS_DataStructure& BDS=myPB->DataStructure()->DS();
-  const TopOpeBRepDS_ListOfInterference& LI=BDS.ShapeInterferences(myFace);  
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI);ILI.More();ILI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& I=ILI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : myPB->DataStructure()->DS().ShapeInterferences(myFace)) {
     GFillONPartsWES1(I);
   }
 }
@@ -1178,9 +1175,10 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 
     const TopoDS_Edge& e3 = TopoDS::Edge(le3.First()); Standard_Integer ie3 = BDS.Shape(e3);    
     Standard_Boolean ssif = Standard_False; Handle(TopOpeBRepDS_ShapeShapeInterference) ssie3;
-    TopOpeBRepDS_ListIteratorOfListOfInterference itssi(BDS.ShapeInterferences(FCX));
-    for (;itssi.More();itssi.Next()) {
-      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(itssi.Value()); if (ssi.IsNull()) continue;
+    for (auto x : BDS.ShapeInterferences(FCX)) {
+      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
+      if (ssi.IsNull())
+        continue;
       TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1; FDS_data(ssi,GT1,G1,ST1,S1);
       Standard_Boolean cond = (GT1 == TopOpeBRepDS_EDGE && ST1 == TopOpeBRepDS_FACE);
       cond = cond && (G1 == ie3); 

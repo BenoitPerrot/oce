@@ -151,9 +151,7 @@ void TopOpeBRepBuild_Builder::BuildEdges(const Handle(TopOpeBRepDS_HDataStructur
 //    const TopOpeBRepDS_Curve& C = cex.Curve();
 #endif
     Standard_Integer ic = cex.Index();
-    TopOpeBRepDS_ListIteratorOfListOfInterference it(BDS.CurveInterferences(ic));
-    for(;it.More();it.Next()) {
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I : BDS.CurveInterferences(ic) ) {
       {
         Standard_Integer ig = I->Geometry();
         TopOpeBRepDS_Kind kg = I->GeometryType();
@@ -172,9 +170,7 @@ void TopOpeBRepBuild_Builder::BuildEdges(const Handle(TopOpeBRepDS_HDataStructur
     if(S.IsNull()) continue;
     Standard_Boolean test = (S.ShapeType() == TopAbs_EDGE); 
     if ( !test ) continue;
-    TopOpeBRepDS_ListIteratorOfListOfInterference it(BDS.ShapeInterferences(is));
-    for(;it.More();it.Next()) {
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value(); 
+    for (const Handle(TopOpeBRepDS_Interference)& I : BDS.ShapeInterferences(is)) {
       {
         Standard_Integer ig = I->Geometry();
         TopOpeBRepDS_Kind kg = I->GeometryType();

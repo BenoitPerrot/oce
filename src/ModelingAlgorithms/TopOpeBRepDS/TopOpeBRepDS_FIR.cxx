@@ -86,9 +86,8 @@ Standard_Boolean FUN_isPonF(const TopOpeBRepDS_ListOfInterference& LIF,const gp_
   Standard_Boolean Pok = Standard_True;
   TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1;
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference itF(LIF);
-  for (;itF.More();itF.Next()) {
-    Handle(TopOpeBRepDS_Interference)& IF = itF.Value(); FDS_data(IF,GT1,G1,ST1,S1);
+  for (const Handle(TopOpeBRepDS_Interference)& IF : LIF) {
+    FDS_data(IF,GT1,G1,ST1,S1);
     const TopoDS_Face& F = TopoDS::Face(BDS.Shape(S1));
     TopAbs_Orientation oEinF; Standard_Boolean edonfa = FUN_tool_orientEinFFORWARD(E,F,oEinF );
     if ( edonfa ) Pok = Standard_True;
@@ -107,19 +106,18 @@ Standard_Boolean FUN_findPonF(const TopoDS_Edge& E,const TopOpeBRepDS_DataStruct
   Standard_Boolean Pok = Standard_False;
   BRepAdaptor_Curve BAC(E);
   const TopOpeBRepDS_ListOfInterference& LIE = BDS.ShapeInterferences(E);
-  TopOpeBRepDS_ListIteratorOfListOfInterference itI; itI.Initialize(LIE);
 
-  if ( !itI.More() ) {
+  if (LIE.empty()) {
     Pok = FUN_tool_findPinBAC(BAC,P,par);
     Pok = FUN_isPonF(LIF,P,BDS,E);
     return Pok;
   }
   
   TopOpeBRepDS_Kind GT1,ST1;Standard_Integer G1,S1;
-  for (;itI.More();itI.Next()) {
+  for (const Handle(TopOpeBRepDS_Interference)& I : LIE) {
     Standard_Boolean pardef = Standard_False;
     
-    Handle(TopOpeBRepDS_Interference)& I = itI.Value(); FDS_data(I,GT1,G1,ST1,S1);        
+    FDS_data(I,GT1,G1,ST1,S1);        
     const Handle(TopOpeBRepDS_CurvePointInterference)& CPI = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(I);
     const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
     if      (!CPI.IsNull()) {
@@ -232,7 +230,7 @@ void FUN_reduceEDGEgeometry1
   TRCF = FTRCF(iFI);if (TRCF) debredfac(iFI);
 #endif
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference ili(LI); if (!ili.More()) return; 
+  if (LI.empty()) return;
 
   // choix de l'arete Ecpx, lieu de resolution de la transition complexe
   const TopoDS_Face& FI = TopoDS::Face(BDS.Shape(iFI));
@@ -244,10 +242,10 @@ void FUN_reduceEDGEgeometry1
   TopOpeBRepDS_PDataStructure pbds = (TopOpeBRepDS_PDataStructure)(void*)&BDS;
   TopOpeBRepDS_FaceInterferenceTool FITool(pbds);
   gp_Pnt Pok; Standard_Boolean isPok = Standard_False; Standard_Real parPok;
-  if ( LI.Extent() >= 2) {
+  if ( LI.size() >= 2) {
     if ( isEGsp ) isPok = FUN_tool_findPinE(Ecpx,Pok,parPok);
     else          isPok = FUN_findPonF(Ecpx,BDS,LI,Pok,parPok); // NYI pas necessaire
-    if (!isPok) { LI.Clear(); return; }
+    if (!isPok) { LI.clear(); return; }
     FITool.SetEdgePntPar(Pok,parPok);
   }
 
@@ -270,18 +268,19 @@ void FUN_reduceEDGEgeometry1
   // LI = liste d'interf de geom iEG et dont les Support() sont a transitionner complexe
 
   Handle(TopOpeBRepDS_Interference) I1,I2; TopOpeBRepDS_Kind GT1,ST1,GT2,ST2; Standard_Integer G1,S1,G2,S2;
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1; it1.Initialize(LI);
-  while (it1.More()) {
-    Standard_Boolean u1 = FDS_data(it1,I1,GT1,G1,ST1,S1);if (u1) {it1.Next();continue;}
-    Standard_Boolean ya1 = (GT1 == MDSke); if (!ya1) {it1.Next();continue;}
+  TopOpeBRepDS_ListOfInterference::const_iterator it1(begin(LI));
+  while (it1 != end(LI)) {
+      Standard_Boolean u1 = FDS_data(it1,end(LI),I1,GT1,G1,ST1,S1);if (u1) {++it1;continue;}
+    Standard_Boolean ya1 = (GT1 == MDSke); if (!ya1) {++it1;continue;}
     
     Standard_Boolean isComplex = Standard_False; // True if at least two interfs on the same edge
     const TopoDS_Face& F1 = TopoDS::Face(BDS.Shape(S1));
     
-    TopOpeBRepDS_ListIteratorOfListOfInterference it2(it1); it2.Next();
-    while (it2.More()) {
-      Standard_Boolean u2 = FDS_data(it2,I2,GT2,G2,ST2,S2);if (u2) {it2.Next();continue;}
-      Standard_Boolean ya2 = (GT2==GT1 && G2==G1 && ST2==ST1); if (!ya2) {it2.Next();continue;}
+    TopOpeBRepDS_ListOfInterference::const_iterator it2(it1);
+    ++it2;
+    while (it2 != end(LI)) {
+        Standard_Boolean u2 = FDS_data(it2,end(LI),I2,GT2,G2,ST2,S2);if (u2) {++it2;continue;}
+      Standard_Boolean ya2 = (GT2==GT1 && G2==G1 && ST2==ST1); if (!ya2) {++it2;continue;}
       const TopoDS_Face& F2 = TopoDS::Face(BDS.Shape(S2));
       if (!isComplex) {
 	isComplex = Standard_True;
@@ -307,14 +306,14 @@ void FUN_reduceEDGEgeometry1
       FDS_ADDEDGE(TRCF,"add transition complexe F",iFI,FITool,FI,F2,Ecpx,isEGsp,I2);
 //      if (revT2) I2->ChangeTransition() = T2.Complement();  //xpu :090498 
 
-      LI.Remove(it2);
+      it2 = LI.erase(it2);
     }
     if (isComplex) {
       FITool.Transition(I1);
       FDS_DUMPTRANSITION(TRCF,"--> result transition on face ",iFI,FITool); // DEB
     }
-    it1.Next();
-  }  // it1.More()
+    ++it1;
+  }
 } // FUN_reduceEDGEgeometry1
 
 //------------------------------------------------------
@@ -322,13 +321,13 @@ void FUN_GmapS(TopOpeBRepDS_ListOfInterference& LI, const TopOpeBRepDS_DataStruc
 {
   mosd.Clear();
   TopOpeBRepDS_Kind GT1,ST1;Standard_Integer G1,S1;
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference it1(LI);it1.More();it1.Next()) {
-    Handle(TopOpeBRepDS_Interference)& I1=it1.Value(); FDS_data(I1,GT1,G1,ST1,S1); 
+  for (Handle(TopOpeBRepDS_Interference)& I1 : LI) {
+    FDS_data(I1,GT1,G1,ST1,S1);
     if ( GT1 != MDSke || ST1 != MDSkf ) continue;
     const TopoDS_Shape& SG1 = BDS.Shape(G1);
     TopOpeBRepDS_ShapeData thedata;
     if (!mosd.Contains(SG1)) mosd.Add(SG1, thedata);
-    mosd.ChangeFromKey(SG1).ChangeInterferences().Append(I1);
+    mosd.ChangeFromKey(SG1).ChangeInterferences().push_back(I1);
   }
 } 
 
@@ -357,7 +356,7 @@ void FUN_reduceEDGEgeometry
 (TopOpeBRepDS_ListOfInterference& LI,const TopOpeBRepDS_DataStructure& BDS,const Standard_Integer iFI,
 const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
 {
-  if (!LI.Extent()) return;
+  if (!LI.size()) return;
   
   TopOpeBRepDS_MapOfShapeData mosd; 
   FUN_GmapS(LI,BDS,mosd);
@@ -390,7 +389,7 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
 #endif
 
     TopOpeBRepDS_ListOfInterference& LIEG = mosd.ChangeFromKey(EG).ChangeInterferences();
-    Standard_Integer nExt = LIEG.Extent();
+    Standard_Integer nExt = LIEG.size();
     // LIEG = toutes les interferences dont le Support() est une 
     // face possedant une interference dont la Geometry() est EG.
     
@@ -402,7 +401,7 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
       continue;
     }
     if      (nExt == 1) {
-      LIout.Append(LIEG);
+        LIout.insert(end(LIout), begin(LIEG), end(LIEG));
     }
     
     else if (nExt >= 2) {
@@ -431,9 +430,7 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
 	  // LISFIN = liste des interferences de LI dont le Support()
 	  // est une face contenant geometriquement l'arete EGsp
 	  TopOpeBRepDS_ListOfInterference LISFIN;
-	  TopOpeBRepDS_ListIteratorOfListOfInterference itLIEG(LIEG);
-	  for(; itLIEG.More(); itLIEG.Next()) {
-	    const Handle(TopOpeBRepDS_Interference)& ILIEG = itLIEG.Value();
+	  for(const Handle(TopOpeBRepDS_Interference)& ILIEG : LIEG) {
 	    Standard_Integer  iS = ILIEG->Support();
 	    TopOpeBRepDS_Kind kS = ILIEG->SupportType();
 	    if ( kS == MDSkf ) {
@@ -447,32 +444,32 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
 	      }
 
 	      if (Pok) {
-		LISFIN.Append(ILIEG);
+		LISFIN.push_back(ILIEG);
 	      }
 	    }
-	  } // itLIEG.More
+	  }
 
-	  Standard_Integer nLISFIN = LISFIN.Extent();
+	  Standard_Integer nLISFIN = LISFIN.size();
 	  if (nLISFIN >= 2 ) {
 	    Standard_Boolean gb;
-	    gb = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(LISFIN.First())->GBound();
+	    gb = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(LISFIN.front())->GBound();
 	    
 	    if (gb) {
 	      //modified by NIZNHY-PKV Thu Mar 16 10:40:57 2000 f
 	      // we have to rest at least one  Interference on the face.
 	      // To kill all of them is too bravely. 
-	      Handle(TopOpeBRepDS_Interference) anInterference = LISFIN.First();
-	      LISFIN.Clear();
-	      LISFIN.Append(anInterference);
+	      Handle(TopOpeBRepDS_Interference) anInterference = LISFIN.front();
+	      LISFIN.clear();
+	      LISFIN.push_back(anInterference);
 	      //modified by NIZNHY-PKV Thu Mar 16 10:41:01 2000 t
 	    }
 	    else    
 	      FUN_reduceEDGEgeometry1(LISFIN,BDS,iFI,iEG,EGsp,MEsp);
 	  }
 
-	  nLISFIN = LISFIN.Extent();
+	  nLISFIN = LISFIN.size();
 	  if (nLISFIN) 
-	    LIout.Append(LISFIN);
+              LIout.insert(end(LIout), begin(LISFIN), end(LISFIN));
 	}
       } // isEGsp
       else {
@@ -482,13 +479,13 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
 	//        et dont les Support() sont a transitionner complexe
 	TopoDS_Shape Enull;
 	FUN_reduceEDGEgeometry1(LIEG,BDS,iFI,iEG,Enull,MEsp);
-	LIout.Append(LIEG);
+	LIout.insert(end(LIout), begin(LIEG), end(LIEG));
       }
     }
   }
 
-  LI.Clear();
-  LI.Append(LIout);
+  LI.clear();
+  LI.insert(end(LI), begin(LIout), end(LIout));
 } // FUN_reduceEDGEgeometry
 
 //=======================================================================
@@ -534,7 +531,7 @@ void TopOpeBRepDS_FIR::ProcessFaceInterferences
 //  const TopoDS_Shape& F = BDS.Shape(SIX);
 #endif
   TopOpeBRepDS_ListOfInterference& LI = BDS.ChangeShapeInterferences(SIX);
-  TopOpeBRepDS_ListOfInterference lw, lE, lFE, lFEF, lF; lw.Assign(LI);
+  TopOpeBRepDS_ListOfInterference lw(LI), lE, lFE, lFEF, lF;
 
 #ifdef OCCT_DEBUG
   Standard_Integer nF, nFE, nFEF, nE;
@@ -576,11 +573,11 @@ void TopOpeBRepDS_FIR::ProcessFaceInterferences
   }
 #endif
 
-  LI.Clear();
-  LI.Append(lF);
-  LI.Append(lFE);
-  LI.Append(lFEF);
-  LI.Append(lE);
+  LI.clear();
+  LI.insert(end(LI), begin(lF), end(lF));
+  LI.insert(end(LI), begin(lFE), end(lFE));
+  LI.insert(end(LI), begin(lFEF), end(lFEF));
+  LI.insert(end(LI), begin(lE), end(lE));
   // MSV: filter duplicates
   ::FUN_reducedoublons(LI,BDS,SIX);
 }

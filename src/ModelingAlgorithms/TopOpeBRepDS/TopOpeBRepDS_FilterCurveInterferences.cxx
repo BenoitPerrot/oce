@@ -43,11 +43,11 @@ void TopOpeBRepDS_Filter::ProcessCurveInterferences
 {
   TopOpeBRepDS_DataStructure& BDS = myHDS->ChangeDS();
   TopOpeBRepDS_ListOfInterference& LI = BDS.ChangeCurveInterferences(CIX);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(LI);
+  TopOpeBRepDS_ListIteratorOfListOfInterference it1(begin(LI));
   
   // process interferences of LI with VERTEX geometry
-  while( it1.More() ) {
-    const Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  while( it1 != end(LI) ) {
+    const Handle(TopOpeBRepDS_Interference)& I1 = *it1;
     Standard_Integer G1 = I1->Geometry();
     TopOpeBRepDS_Kind GT1 = I1->GeometryType();
     TopAbs_Orientation O1 = I1->Transition().Orientation(TopAbs_IN);
@@ -55,10 +55,10 @@ void TopOpeBRepDS_Filter::ProcessCurveInterferences
     if ( GT1 == TopOpeBRepDS_VERTEX ) {
       
       TopOpeBRepDS_ListIteratorOfListOfInterference it2(it1);
-      it2.Next();
+      ++it2;
       
-      while ( it2.More() ) {
-	const Handle(TopOpeBRepDS_Interference)& I2 = it2.Value();
+      while ( it2 != end(LI) ) {
+	const Handle(TopOpeBRepDS_Interference)& I2 = *it2;
 	Standard_Integer G2 = I2->Geometry();
 	TopOpeBRepDS_Kind GT2 = I2->GeometryType();
 	TopAbs_Orientation O2 = I2->Transition().Orientation(TopAbs_IN);
@@ -73,11 +73,11 @@ void TopOpeBRepDS_Filter::ProcessCurveInterferences
 	    cout<<"remove ";I2->Dump(cout);cout<<" from C "<<CIX<<endl;
 	  }
 #endif
-	  LI.Remove(it2);
+	  it2 = LI.erase(it2);
 	}
-	else it2.Next();
+	else ++it2;
       }
     }
-    it1.Next();
+    ++it1;
   }
 }

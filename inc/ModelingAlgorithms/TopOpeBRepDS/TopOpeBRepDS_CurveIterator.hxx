@@ -12,12 +12,12 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
 class Geom2d_Curve;
 

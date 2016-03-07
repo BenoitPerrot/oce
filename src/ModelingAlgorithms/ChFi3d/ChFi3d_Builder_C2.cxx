@@ -558,9 +558,9 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
     TopOpeBRepDS_ListOfInterference& Li = DStr.ChangeCurveInterferences(ICurv);
     Handle(TopOpeBRepDS_CurvePointInterference) Interfp;
     Interfp = ChFi3d_FilPointInDS(TopAbs_FORWARD,ICurv,IpointCo,WFirst);
-    Li.Append(Interfp);
+    Li.push_back(Interfp);
     Interfp = ChFi3d_FilPointInDS(TopAbs_REVERSED,ICurv,IpointMil,WLast);
-    Li.Append(Interfp);
+    Li.push_back(Interfp);
     
     // the transition of curves of intersection on the Big
     TopAbs_Orientation tra = BigFD->InterferenceOnS1().Transition();
@@ -574,7 +574,7 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
     Handle(TopOpeBRepDS_SurfaceCurveInterference) Interfc;
     Standard_Integer ISurf = BigFD->Surf();
     Interfc = ChFi3d_FilCurveInDS (ICurv,ISurf,PGc2,tracurv);
-    DStr.ChangeSurfaceInterferences(ISurf).Append(Interfc);
+    DStr.ChangeSurfaceInterferences(ISurf).push_back(Interfc);
     
     //The tolerances of points are updated (beginning).
     Bnd_Box bco,bmil,barc;
@@ -655,11 +655,11 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
     
     TopOpeBRepDS_ListOfInterference& Li7 = DStr.ChangeCurveInterferences(ICurv);
     Interfp = ChFi3d_FilPointInDS(TopAbs_FORWARD,ICurv,IpointMil,WFirst);
-    Li7.Append(Interfp);
+    Li7.push_back(Interfp);
     Interfp = ChFi3d_FilPointInDS(TopAbs_REVERSED,ICurv,IpointArc,WLast);
-    Li7.Append(Interfp);
+    Li7.push_back(Interfp);
     Interfc = ChFi3d_FilCurveInDS (ICurv,ISurf,PGc2,tracurv);
-    DStr.ChangeSurfaceInterferences(ISurf).Append(Interfc);
+    DStr.ChangeSurfaceInterferences(ISurf).push_back(Interfc);
     BigCD->InDS(isfirstBig);
     
     // Finally the information on faces is placed in the DS.
@@ -680,7 +680,7 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
       }
     }
     Interfc = ChFi3d_FilCurveInDS(ICurv,IShape,PGc1,tracurv);
-    DStr.ChangeShapeInterferences(IShape).Append(Interfc);
+    DStr.ChangeShapeInterferences(IShape).push_back(Interfc);
 
     //The tolerances of points are updated (end).
     Handle(ChFiDS_Stripe) bidst;

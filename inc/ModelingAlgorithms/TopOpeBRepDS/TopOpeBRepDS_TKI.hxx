@@ -19,7 +19,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class TopOpeBRepDS_HArray1OfDataMapOfIntegerListOfInterference;
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
 
 

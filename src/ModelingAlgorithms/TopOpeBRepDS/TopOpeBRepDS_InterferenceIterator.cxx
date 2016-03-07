@@ -57,7 +57,9 @@ TopOpeBRepDS_InterferenceIterator::TopOpeBRepDS_InterferenceIterator
 
 void TopOpeBRepDS_InterferenceIterator::Init(const TopOpeBRepDS_ListOfInterference& L)
 {
-  myIterator.Initialize(L);
+#warning Code refactoring / API changes are required to remove this const_cast
+  myIterator = begin(const_cast<TopOpeBRepDS_ListOfInterference&>(L));
+  myEnd = end(const_cast<TopOpeBRepDS_ListOfInterference&>(L));
   Match();
 }
 
@@ -117,11 +119,11 @@ void TopOpeBRepDS_InterferenceIterator::Support(const Standard_Integer S)
 
 void TopOpeBRepDS_InterferenceIterator::Match()
 {
-  while ( myIterator.More() ) {
-    Handle(TopOpeBRepDS_Interference) I = myIterator.Value();
+  while ( myIterator != myEnd ) {
+    Handle(TopOpeBRepDS_Interference) I = *myIterator;
     Standard_Boolean b = MatchInterference(I);
     if ( ! b ) {
-      myIterator.Next();
+      ++myIterator;
     }
     else break;
   }
@@ -151,7 +153,7 @@ Standard_Boolean TopOpeBRepDS_InterferenceIterator::MatchInterference
 
 Standard_Boolean TopOpeBRepDS_InterferenceIterator::More() const 
 {
-  return myIterator.More();
+  return myIterator != myEnd;
 }
 
 
@@ -162,8 +164,8 @@ Standard_Boolean TopOpeBRepDS_InterferenceIterator::More() const
 
 void TopOpeBRepDS_InterferenceIterator::Next()
 {
-  if ( myIterator.More() ) {
-    myIterator.Next();
+  if ( myIterator != myEnd ) {
+    ++myIterator;
     Match();
   }
 }
@@ -176,7 +178,7 @@ void TopOpeBRepDS_InterferenceIterator::Next()
 
 Handle(TopOpeBRepDS_Interference)& TopOpeBRepDS_InterferenceIterator::Value() const 
 {
-  return myIterator.Value();
+  return *myIterator;
 }
 
 
@@ -185,6 +187,7 @@ Handle(TopOpeBRepDS_Interference)& TopOpeBRepDS_InterferenceIterator::Value() co
 //purpose  : 
 //=======================================================================
 
+#warning CRTIICAL: REMOVE
 TopOpeBRepDS_ListIteratorOfListOfInterference& 
 TopOpeBRepDS_InterferenceIterator::ChangeIterator() 
 {

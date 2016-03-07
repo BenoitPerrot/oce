@@ -52,6 +52,15 @@ extern Standard_Boolean TopOpeBRepDS_GettraceSPSX(const Standard_Integer);
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS.hxx>
 #endif
 
+#warning should return the iterator
+static Standard_Boolean FindInterference(TopOpeBRepDS_ListIteratorOfListOfInterference& IT,
+                                         const TopOpeBRepDS_ListIteratorOfListOfInterference& End,
+                                         const Handle(TopOpeBRepDS_Interference)& I)
+{
+  for( ; IT != End; ++IT) if (*IT == I ) return Standard_True;
+  return Standard_False;
+}
+
 //=======================================================================
 //function : TopOpeBRepDS_DataStructure
 //purpose  : 
@@ -889,7 +898,7 @@ void TopOpeBRepDS_DataStructure::AncestorRank(const TopoDS_Shape& S, const Stand
 //=======================================================================
 void TopOpeBRepDS_DataStructure::AddShapeInterference(const TopoDS_Shape& S, const Handle(TopOpeBRepDS_Interference)& I)
 {
-  ChangeShapeInterferences(S).Append(I);
+  ChangeShapeInterferences(S).push_back(I);
 }
 
 
@@ -900,10 +909,10 @@ void TopOpeBRepDS_DataStructure::AddShapeInterference(const TopoDS_Shape& S, con
 void TopOpeBRepDS_DataStructure::RemoveShapeInterference(const TopoDS_Shape& S, const Handle(TopOpeBRepDS_Interference)& I)
 {
   TopOpeBRepDS_ListOfInterference& L = ChangeShapeInterferences(S);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(L);
-  Standard_Boolean b = FindInterference(it,I);
+  TopOpeBRepDS_ListIteratorOfListOfInterference it(begin(L));
+  Standard_Boolean b = FindInterference(it,end(L),I);
   if (b) {
-    L.Remove(it);
+    L.erase(it);
   }
 }
 
@@ -1294,7 +1303,7 @@ Standard_Boolean TopOpeBRepDS_DataStructure::HasGeometry(const TopoDS_Shape& S)c
 {
   Standard_Boolean has = HasShape(S);
   if ( has ) {
-    has = ! ShapeInterferences(S).IsEmpty();
+    has = ! ShapeInterferences(S).empty();
   }
   return has;
 }
@@ -1338,17 +1347,6 @@ const Handle(Geom_Surface)& TopOpeBRepDS_DataStructure::NewSurface(const TopoDS_
   if (HasNewSurface(F)) return myNewSurface.Find(F);
   return myEmptyGSurface;
 }
-
-//=======================================================================
-//function : FindInterference
-//purpose  : 
-//=======================================================================
-Standard_Boolean TopOpeBRepDS_DataStructure::FindInterference(TopOpeBRepDS_ListIteratorOfListOfInterference& IT,const Handle(TopOpeBRepDS_Interference)& I) const
-{
-  for( ; IT.More(); IT.Next()) if (IT.Value() == I ) return Standard_True;
-  return Standard_False;
-}
-
 
 //=======================================================================
 //function : Isfafa

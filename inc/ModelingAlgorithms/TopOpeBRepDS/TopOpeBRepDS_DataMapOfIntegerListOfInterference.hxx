@@ -12,12 +12,12 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfIntegerListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
-class TopOpeBRepDS_ListOfInterference;
 class TColStd_MapIntegerHasher;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfIntegerListOfInterference;
 class TopOpeBRepDS_DataMapIteratorOfDataMapOfIntegerListOfInterference;

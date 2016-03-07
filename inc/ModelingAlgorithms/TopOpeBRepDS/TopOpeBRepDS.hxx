@@ -22,7 +22,6 @@
 class TCollection_AsciiString;
 class TopOpeBRepDS_DataMapOfCheckStatus;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_InterferenceIterator;
 class TopOpeBRepDS_DataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapOfInterferenceShape;
@@ -86,8 +85,6 @@ class TopOpeBRepDS_IndexedDataMapOfShapeWithState;
 class TopOpeBRepDS_DataMapOfShapeState;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus;
 class TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus;
-class TopOpeBRepDS_ListNodeOfListOfInterference;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceShape;
@@ -177,7 +174,6 @@ private:
 
 friend class TopOpeBRepDS_DataMapOfCheckStatus;
 friend class TopOpeBRepDS_Interference;
-friend class TopOpeBRepDS_ListOfInterference;
 friend class TopOpeBRepDS_InterferenceIterator;
 friend class TopOpeBRepDS_DataMapOfInterferenceListOfInterference;
 friend class TopOpeBRepDS_DataMapOfInterferenceShape;
@@ -241,8 +237,6 @@ friend class TopOpeBRepDS_IndexedDataMapOfShapeWithState;
 friend class TopOpeBRepDS_DataMapOfShapeState;
 friend class TopOpeBRepDS_DataMapNodeOfDataMapOfCheckStatus;
 friend class TopOpeBRepDS_DataMapIteratorOfDataMapOfCheckStatus;
-friend class TopOpeBRepDS_ListNodeOfListOfInterference;
-friend class TopOpeBRepDS_ListIteratorOfListOfInterference;
 friend class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference;
 friend class TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference;
 friend class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceShape;

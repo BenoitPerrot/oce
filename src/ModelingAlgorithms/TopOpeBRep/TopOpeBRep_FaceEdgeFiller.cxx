@@ -41,6 +41,73 @@ extern void FEINT_DUMPPOINTS(TopOpeBRep_FaceEdgeIntersector& FEINT,
 extern Standard_Boolean TopOpeBRepDS_GettraceDSF(); 
 #endif
 
+//-----------------------------------------------------------------------
+// Search, among a list of interferences accessed by the iterator <IT>,
+// a geometry whose 3D point is identical yo the 3D point of a DS point <DSP>.
+// TheDSPointGeomTool is a tool able to access the 3D point of the DS point 
+// DSP,and to test identity (according to tolerance connected to DSP) of the
+// DS points.
+// return True if such an interference has been found, False else.
+// if True, iterator <IT> points (by the Value() method) on the first 
+// interference accessing an identical 3D point.
+//-----------------------------------------------------------------------
+//=======================================================================
+//function : ScanInterfList
+//purpose  : private
+//=======================================================================
+
+static Standard_Boolean ScanInterfList(TopOpeBRepDS_ListOfInterference::const_iterator& IT,
+                                       const TopOpeBRepDS_ListOfInterference::const_iterator& End,
+                                       const TopOpeBRepDS_Point& DSP,
+                                       const TopOpeBRepDS_DataStructure& BDS)
+{
+  for ( ; IT != End; ++IT ) {
+    Standard_Integer DSPG = (*IT)->Geometry();
+    const TopOpeBRepDS_Point& otherDSP = BDS.Point(DSPG);
+    if (TopOpeBRep_PointGeomTool::IsEqual(DSP,otherDSP)) return Standard_True;
+  }
+  return Standard_False;
+}
+
+//! Search for an interference in list <IT> which 3D geometry
+//! equals 3D geometry of the current intersection of <EI>.
+//! The search is performed by ScanInterfList.
+//! if found, set <G> to the geometry of the interference found.
+//! returns found.
+//=======================================================================
+//function : GetGeometry
+//purpose  : private
+//=======================================================================
+
+static Standard_Boolean GetGeometry(TopOpeBRepDS_ListOfInterference::const_iterator& IT,
+                                    const TopOpeBRepDS_ListOfInterference::const_iterator& End,
+                                    const TopOpeBRep_FaceEdgeIntersector& FEINT,
+                                    Standard_Integer& G,
+                                    const TopOpeBRepDS_DataStructure& BDS)
+{
+  TopOpeBRepDS_Point DSP = TopOpeBRep_PointGeomTool::MakePoint(FEINT);
+  Standard_Boolean found = ScanInterfList(IT,End,DSP,BDS);
+  if (found) G = (*IT)->Geometry();
+  return found;
+}
+
+//=======================================================================
+//function : GetGeometry
+//purpose  : private
+//=======================================================================
+
+static Standard_Boolean GetGeometry(const TopOpeBRepDS_ListOfInterference& L,
+                                    const TopOpeBRepDS_Point& DSP,
+                                    Standard_Integer& G,
+                                    TopOpeBRepDS_DataStructure& BDS)
+{
+  TopOpeBRepDS_ListOfInterference::const_iterator itI(begin(L));
+  Standard_Boolean Ifound = ScanInterfList(itI,end(L),DSP,BDS);
+  if (Ifound) G = (*itI)->Geometry();
+  else        G = BDS.AddPoint(DSP);
+  return Ifound;   // interference found or not
+}
+
 //=======================================================================
 //function : TopOpeBRep_FaceEdgeFiller
 //purpose  : 
@@ -116,8 +183,8 @@ void TopOpeBRep_FaceEdgeFiller::Insert
       // or get the index <DSPindex> of an equal geometry
       // among those of Edge/Point interferences connected to <FF> (or <EE>).
 
-      TopOpeBRepDS_ListIteratorOfListOfInterference itEIL1(EIL1);
-      EPIfound = GetGeometry(itEIL1,FEINT,DSPindex,BDS);
+      TopOpeBRepDS_ListOfInterference::const_iterator itEIL1(begin(EIL1));
+      EPIfound = GetGeometry(itEIL1,end(EIL1),FEINT,DSPindex,BDS);
       if ( ! EPIfound ) DSPindex = MakeGeometry(FEINT,BDS);
 
       // sur FF
@@ -181,71 +248,6 @@ void TopOpeBRep_FaceEdgeFiller::Insert
 // private methods
 // ===============
 
-//-----------------------------------------------------------------------
-// Search, among a list of interferences accessed by the iterator <IT>,
-// a geometry whose 3D point is identical yo the 3D point of a DS point <DSP>.
-// TheDSPointGeomTool is a tool able to access the 3D point of the DS point 
-// DSP,and to test identity (according to tolerance connected to DSP) of the
-// DS points.
-// return True if such an interference has been found, False else.
-// if True, iterator <IT> points (by the Value() method) on the first 
-// interference accessing an identical 3D point.
-//-----------------------------------------------------------------------
-//=======================================================================
-//function : ScanInterfList
-//purpose  : private
-//=======================================================================
-
-Standard_Boolean TopOpeBRep_FaceEdgeFiller::ScanInterfList
-   (TopOpeBRepDS_ListIteratorOfListOfInterference& IT,
-    const TopOpeBRepDS_Point& DSP,
-    const TopOpeBRepDS_DataStructure& BDS) const
-{
-  for ( ; IT.More(); IT.Next() ) {
-    Standard_Integer DSPG = IT.Value()->Geometry();
-    const TopOpeBRepDS_Point& otherDSP = BDS.Point(DSPG);
-    if (TopOpeBRep_PointGeomTool::IsEqual(DSP,otherDSP)) return Standard_True;
-  }
-  return Standard_False;
-}
-
-
-//=======================================================================
-//function : GetGeometry
-//purpose  : private
-//=======================================================================
-
-Standard_Boolean TopOpeBRep_FaceEdgeFiller::GetGeometry
-    (TopOpeBRepDS_ListIteratorOfListOfInterference& IT,
-     const TopOpeBRep_FaceEdgeIntersector& FEINT,
-     Standard_Integer& G,
-     const TopOpeBRepDS_DataStructure& BDS) const
-{
-  TopOpeBRepDS_Point DSP = TopOpeBRep_PointGeomTool::MakePoint(FEINT);
-  Standard_Boolean found = ScanInterfList(IT,DSP,BDS);
-  if (found) G = IT.Value()->Geometry();
-  return found;
-}
-
-
-//=======================================================================
-//function : GetGeometry
-//purpose  : private
-//=======================================================================
-
-Standard_Boolean TopOpeBRep_FaceEdgeFiller::GetGeometry
-    (const TopOpeBRepDS_ListOfInterference& L,
-     const TopOpeBRepDS_Point& DSP,
-     Standard_Integer& G,
-     TopOpeBRepDS_DataStructure& BDS) const
-{
-  TopOpeBRepDS_ListIteratorOfListOfInterference itI(L);
-  Standard_Boolean Ifound = ScanInterfList(itI,DSP,BDS);
-  if (Ifound) G = itI.Value()->Geometry();
-  else        G = BDS.AddPoint(DSP);
-  return Ifound;   // interference found or not
-}
-
 
 //-----------------------------------------------------------------------
 // StoreInterference : Append an interference I to a list of interference LI
@@ -262,7 +264,7 @@ void TopOpeBRep_FaceEdgeFiller::StoreInterference
  TopOpeBRepDS_DataStructure& BDS) const
 {
   // append I to list LI
-  LI.Append(I);
+  LI.push_back(I);
 
 #ifdef OCCT_DEBUG
   Standard_Boolean appendtoG = Standard_False;
@@ -282,14 +284,14 @@ void TopOpeBRep_FaceEdgeFiller::StoreInterference
 #ifdef OCCT_DEBUG
     appendtoG = Standard_True;
 #endif
-    BDS.ChangeSurfaceInterferences(G).Append(I);
+    BDS.ChangeSurfaceInterferences(G).push_back(I);
     break;
     
   case TopOpeBRepDS_CURVE :
 #ifdef OCCT_DEBUG
     appendtoG = Standard_True;
 #endif
-    BDS.ChangeCurveInterferences(G).Append(I);
+    BDS.ChangeCurveInterferences(G).push_back(I);
     break;
     
   case TopOpeBRepDS_POINT :

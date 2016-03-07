@@ -146,11 +146,11 @@ void BREP_correctgbound(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
     const TopoDS_Shape& s = BDS.Shape(i);
     TopAbs_ShapeEnum t = s.ShapeType();
     if ( t != TopAbs_EDGE ) continue;
-    TopOpeBRepDS_ListIteratorOfListOfInterference it;
-    it.Initialize(BDS.ChangeShapeInterferences(s));
-    if ( !it.More() ) continue;    
-    for (; it.More(); it.Next()) {
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+    auto loI = BDS.ChangeShapeInterferences(s);
+
+    if ( loI.empty() ) continue;
+
+    for (const Handle(TopOpeBRepDS_Interference)& I : loI) {
       Handle(TopOpeBRepDS_ShapeShapeInterference) SSI = 
 	Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
       if ( SSI.IsNull() ) continue;
@@ -159,7 +159,7 @@ void BREP_correctgbound(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
       
       ehassiv = Standard_True;
       break;
-    } // it.More
+    }
     
     if (! ehassiv ) continue;
     
@@ -168,9 +168,7 @@ void BREP_correctgbound(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
     TopTools_IndexedMapOfShape imev;
     TopExp::MapShapes(s,TopAbs_VERTEX,imev);
     
-    it.Initialize(BDS.ChangeShapeInterferences(s));
-    for (; it.More(); it.Next()) {
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I : BDS.ChangeShapeInterferences(s)) {
       Handle(TopOpeBRepDS_ShapeShapeInterference) SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
       if ( SSI.IsNull() ) continue;
       Standard_Integer GI = SSI->Geometry();
@@ -180,12 +178,10 @@ void BREP_correctgbound(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
       const TopoDS_Shape& v = BDS.Shape(GI);
       Standard_Boolean vofe = imev.Contains(v);
       SSI->SetGBound(vofe);
-    } // it.More()   
+    }
     
     // l'arete s a au moins une shapeshapeinterference de geometrie VERTEX.
-    it.Initialize(BDS.ChangeShapeInterferences(s));
-    for (; it.More(); it.Next()) {
-      const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I : BDS.ChangeShapeInterferences(s)) {
       Handle(TopOpeBRepDS_ShapeShapeInterference) SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
       if ( SSI.IsNull() ) continue;
       Standard_Integer GI = SSI->Geometry();
@@ -201,7 +197,7 @@ void BREP_correctgbound(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
       Standard_Boolean vrefofe = imev.Contains(vref);
       I->SetGeometry(ivref);
       SSI->SetGBound(vrefofe);    
-    } // it.More
+    }
   } // i
   return;
 } // correctGBound
@@ -248,19 +244,13 @@ static
   TopTools_IndexedMapOfShape map2; TopExp::MapShapes(F2,TopAbs_EDGE,map2);
   Standard_Real tola = Precision::Angular();
 
-  const TopOpeBRepDS_ListOfInterference& lIF1 = BDS.ShapeInterferences(F1);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(lIF1);
-  for (; it1.More(); it1.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I1 : BDS.ShapeInterferences(F1)) {
     Standard_Integer G = I1->Geometry(); TopOpeBRepDS_Kind GT = I1->GeometryType(); 
     if (GT != TopOpeBRepDS_EDGE) continue;
     const TopoDS_Shape& EG = BDS.Shape(G);
     if (map2.Contains(EG)) return Standard_False;
   }
-  const TopOpeBRepDS_ListOfInterference& lIF2 = BDS.ShapeInterferences(F2);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it2(lIF2);
-  for (; it2.More(); it2.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I2 = it2.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I2 : BDS.ShapeInterferences(F2)) {
     Standard_Integer G = I2->Geometry(); TopOpeBRepDS_Kind GT = I2->GeometryType(); 
     if (GT != TopOpeBRepDS_EDGE) continue;
     const TopoDS_Shape& EG = BDS.Shape(G);
@@ -280,10 +270,7 @@ static
       }
     }
 
-    const TopOpeBRepDS_ListOfInterference& lie1 = BDS.ShapeInterferences(e1);
-    TopOpeBRepDS_ListIteratorOfListOfInterference it1(lie1);
-    for (; it1.More(); it1.Next()){
-      const Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+    for (const Handle(TopOpeBRepDS_Interference)& I1 : BDS.ShapeInterferences(e1)){
       Standard_Integer S1 = I1->Support(); TopOpeBRepDS_Kind ST1 = I1->SupportType();
       if (ST1 != TopOpeBRepDS_EDGE) continue;
       const TopoDS_Edge& e2 = TopoDS::Edge(BDS.Shape(S1));
@@ -311,7 +298,7 @@ static
 	dot = gp_Dir(xxF1).Dot(gp_Dir(xxF2));
 	if (dot > 0) return Standard_False; // F1,F2 share geometric domain near G1
       }
-    }// it1.More()
+    }
   }// ex1(F1,EDGE)    
   return Standard_True;
 

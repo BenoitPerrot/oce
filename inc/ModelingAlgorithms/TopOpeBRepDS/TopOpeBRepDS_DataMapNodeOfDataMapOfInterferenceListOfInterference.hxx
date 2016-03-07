@@ -15,7 +15,6 @@
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 class TColStd_MapTransientHasher;
 class TopOpeBRepDS_DataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapIteratorOfDataMapOfInterferenceListOfInterference;

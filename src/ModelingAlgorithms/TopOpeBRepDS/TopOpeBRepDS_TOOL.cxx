@@ -43,21 +43,19 @@ static void FUN_Raise()
 static void FDS_sortGb(const Handle(TopOpeBRepDS_HDataStructure)& HDS,const TopOpeBRepDS_ListOfInterference& LI, TopOpeBRepDS_ListOfInterference& LIGb0,TopOpeBRepDS_ListOfInterference& LIGb1,TopOpeBRepDS_ListOfInterference& LIGbsd)
 {
   const TopOpeBRepDS_DataStructure& BDS = HDS->DS();
-  LIGb0.Clear(); LIGb1.Clear(); LIGbsd.Clear();
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  LIGb0.clear(); LIGb1.clear(); LIGbsd.clear();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     Handle(TopOpeBRepDS_ShapeShapeInterference) SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
-    if (SSI.IsNull()) {LIGb0.Append(I);continue;}
+    if (SSI.IsNull()) {LIGb0.push_back(I);continue;}
 
     Standard_Boolean gb1 = SSI->GBound();
     Standard_Integer G = I->Geometry();
     Standard_Boolean hsd = HDS->HasSameDomain(BDS.Shape(G));
-    if (hsd)          {LIGbsd.Append(I);continue;}
+    if (hsd)          {LIGbsd.push_back(I);continue;}
 
-    if (gb1) LIGb1.Append(I);
-    else     LIGb0.Append(I);                    
-  }//it(LI)  
+    if (gb1) LIGb1.push_back(I);
+    else     LIGb0.push_back(I);                    
+  }
 }
 
 //=======================================================================
@@ -96,15 +94,13 @@ Standard_Integer TopOpeBRepDS_TOOL::EShareG(const Handle(TopOpeBRepDS_HDataStruc
 //  Standard_Integer ngbsd = l1gbsd.Extent();
 #endif
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference it0(l1gb0);
-  for (; it0.More(); it0.Next()) mapesd.Add(BDS.Shape(it0.Value()->Support()));        
+  for (auto I : l1gb0)
+      mapesd.Add(BDS.Shape(I->Support()));        
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(l1gb1);
-  for (; it1.More(); it1.Next()) mapesd.Add(BDS.Shape(it1.Value()->Support()));        
+  for (auto I : l1gb1)
+      mapesd.Add(BDS.Shape(I->Support()));        
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference itsd(l1gbsd);
-  for (; itsd.More(); itsd.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = itsd.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : l1gbsd) {
     const TopoDS_Edge& Esd = TopoDS::Edge(BDS.Shape(I->Support()));
     Standard_Boolean isb = mapesd.Contains(Esd);
     if (isb) continue;

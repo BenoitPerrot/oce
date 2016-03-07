@@ -182,39 +182,38 @@ Standard_EXPORT void FUN_unkeepFdoubleGBoundinterferences
   Standard_Boolean TRC=TRCF(SIX);
 #endif
 //                 BDS.Shape(SIX);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1;
   
   // process interferences of LI with VERTEX geometry
   
-  it1.Initialize(LI);
-  while (it1.More() ) {
-    Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  TopOpeBRepDS_ListIteratorOfListOfInterference it1(begin(LI));
+  while (it1 != end(LI)) {
+    Handle(TopOpeBRepDS_Interference)& I1 = *it1;
     TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1;
     const TopOpeBRepDS_Transition& T1 = I1->Transition();
     Standard_Boolean isunk1 = T1.IsUnknown();
-    if (isunk1) { it1.Next(); continue; }
+    if (isunk1) { ++it1; continue; }
 
     FDS_data(I1,GT1,G1,ST1,S1);
     Handle(TopOpeBRepDS_ShapeShapeInterference) SSI1 = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I1);
-    if (SSI1.IsNull()) { it1.Next(); continue; }
+    if (SSI1.IsNull()) { ++it1; continue; }
 
     Standard_Boolean isB1 = SSI1->GBound();
     
     TopOpeBRepDS_ListIteratorOfListOfInterference it2(it1);
-    it2.Next();
+    ++it2;
     Standard_Boolean cond1 = Standard_False;    
     Standard_Boolean cond2 = Standard_False;    
     
-    while ( it2.More() ) {
-      const Handle(TopOpeBRepDS_Interference)& I2 = it2.Value();
+    while ( it2 != end(LI) ) {
+      const Handle(TopOpeBRepDS_Interference)& I2 = *it2;
       TopOpeBRepDS_Kind GT2,ST2; Standard_Integer G2,S2;
       const TopOpeBRepDS_Transition& T2 = I2->Transition();
       Standard_Boolean isunk2 = T2.IsUnknown();
-      if (isunk2) { it2.Next(); continue; }
+      if (isunk2) { ++it2; continue; }
 
       FDS_data(I2,GT2,G2,ST2,S2);
       Handle(TopOpeBRepDS_ShapeShapeInterference) SSI2 = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I2);
-      if ( SSI2.IsNull() ) { it2.Next(); continue; }
+      if ( SSI2.IsNull() ) { ++it2; continue; }
 
       Standard_Boolean isB2 = SSI2->GBound();       
       cond2 = (GT2 == GT1 && GT1 == TopOpeBRepDS_EDGE && G2 == G1 &&
@@ -226,18 +225,18 @@ Standard_EXPORT void FUN_unkeepFdoubleGBoundinterferences
 	if(TRC){cout<<"face "<<SIX<<" : G2 "<< G2 <<" GBound ";I2->Dump(cout);cout<<endl;}
 #endif
 	cond1 = Standard_True;
-	LI.Remove(it2);
+	it2 = LI.erase(it2);
       }
-      else it2.Next();
+      else ++it2;
     } // it2.More()
 
     if (cond1) {
 #ifdef OCCT_DEBUG
       if(TRC){cout<<"face "<<SIX<<" : G1 "<< G1 <<" GBound ";I1->Dump(cout);cout<<endl;}
 #endif
-      LI.Remove(it1);
+      it1 = LI.erase(it1);
     }
-    else it1.Next();
+    else ++it1;
   } // it1.More()
 
 } // FUN_unkeepFdoubleGBoundinterferences
@@ -256,15 +255,13 @@ Standard_EXPORT void FUN_resolveFUNKNOWN
 #endif
 
   const TopoDS_Shape& F = BDS.Shape(SIX);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1;
   
   const TopoDS_Face& FF = TopoDS::Face(F);
 //  Standard_Real fE,lE; BRep_Tool::Range(EE,fE,lE);
   
   // process interferences of LI with UNKNOWN transition
   
-  for (it1.Initialize(LI); it1.More(); it1.Next() ) {
-    Handle(TopOpeBRepDS_Interference)& I1 = it1.Value();
+  for (Handle(TopOpeBRepDS_Interference)& I1 : LI) {
     const TopOpeBRepDS_Transition& T1 = I1->Transition();
     Standard_Boolean isunk = T1.IsUnknown();
     if (!isunk) continue;

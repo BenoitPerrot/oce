@@ -1056,12 +1056,10 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
 	  StdFail_NotDone::Raise ("OneCorner : fillets have too big radiuses");
       }
     }
-    TopOpeBRepDS_ListIteratorOfListOfInterference
-      anIter(DStr.ChangeShapeInterferences(IShape));
-    for (; anIter.More(); anIter.Next())
+    for (auto x : DStr.ChangeShapeInterferences(IShape))
     {
       Handle(TopOpeBRepDS_SurfaceCurveInterference) anOtherIntrf =
-	Handle(TopOpeBRepDS_SurfaceCurveInterference)::DownCast(anIter.Value());
+	Handle(TopOpeBRepDS_SurfaceCurveInterference)::DownCast(x);
       // We need only interferences between cork face and curves
       // of intersection with another fillet surfaces
       if (anOtherIntrf.IsNull())
@@ -1081,7 +1079,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
 	StdFail_NotDone::Raise ("OneCorner : fillets have too big radiuses");
     }
     // 31/01/02 akm ^^^
-    DStr.ChangeShapeInterferences(IShape).Append(Interfc);
+    DStr.ChangeShapeInterferences(IShape).push_back(Interfc);
     //// modified by jgv, 26.03.02 for OCC32 ////
     ChFiDS_CommonPoint CV [2];
     CV[0] = CV1;
@@ -1138,16 +1136,16 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
           Interfp1 = ChFi3d_FilPointInDS( TopAbs_FORWARD,  indcurv, indpoint,  prm1, Standard_False );
           Interfp2 = ChFi3d_FilPointInDS( TopAbs_REVERSED, indcurv, indvertex, prm2, Standard_True );
         }
-        DStr.ChangeCurveInterferences(indcurv).Append(Interfp1);
-        DStr.ChangeCurveInterferences(indcurv).Append(Interfp2);
+        DStr.ChangeCurveInterferences(indcurv).push_back(Interfp1);
+        DStr.ChangeCurveInterferences(indcurv).push_back(Interfp2);
         Standard_Integer indface = DStr.AddShape( Fv );
         Interfc = ChFi3d_FilCurveInDS( indcurv, indface, Hc, CV[i].Arc().Orientation() );
-        DStr.ChangeShapeInterferences(indface).Append( Interfc );
+        DStr.ChangeShapeInterferences(indface).push_back( Interfc );
         TopoDS_Edge aLocalEdge = CV[i].Arc();
         aLocalEdge.Reverse();
         Handle(Geom2d_Curve) HcR = BRep_Tool::CurveOnSurface( aLocalEdge, Fv, first, last );
         Interfc = ChFi3d_FilCurveInDS( indcurv, indface, HcR, aLocalEdge.Orientation() );
-        DStr.ChangeShapeInterferences(indface).Append( Interfc );
+        DStr.ChangeShapeInterferences(indface).push_back( Interfc );
         //modify degenerated edge
         Standard_Boolean DegenExist = Standard_False;
         TopoDS_Edge Edeg;
@@ -1180,7 +1178,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
           Standard_Integer Ideg = DStr.AddShape(Edeg);
           TopAbs_Orientation ori = (par < fd)? TopAbs_FORWARD : TopAbs_REVERSED; //if par<fd => par>ld
           Interfp1 = ChFi3d_FilPointInDS( ori, Ideg, indvertex, par, Standard_True );
-          DStr.ChangeShapeInterferences(Ideg).Append(Interfp1);
+          DStr.ChangeShapeInterferences(Ideg).push_back(Interfp1);
         }
       }
     }
@@ -1198,18 +1196,18 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     ComputeCurve2d(curv1,Fv,c2d1);
     Handle(TopOpeBRepDS_SurfaceCurveInterference) InterFv;
     InterFv = ChFi3d_FilCurveInDS(Icurv1,IShape,c2d1,Et);
-    DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+    DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
     ComputeCurve2d(curv2,Fv,c2d2);
     InterFv = ChFi3d_FilCurveInDS(Icurv2,IShape,c2d2,Et);
-    DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+    DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
      // interferences of curv1 and curv2 on Isurf
     if (Fd->Orientation()== Fv.Orientation()) Et=TopAbs::Reverse(Et);
     c2d1=new Geom2d_TrimmedCurve(Ps,Udeb,par2);
     InterFv = ChFi3d_FilCurveInDS(Icurv1,Isurf,c2d1,Et);
-    DStr.ChangeSurfaceInterferences(Isurf).Append(InterFv);
+    DStr.ChangeSurfaceInterferences(Isurf).push_back(InterFv);
     c2d2=new Geom2d_TrimmedCurve(Ps,par2,Ufin);
        InterFv = ChFi3d_FilCurveInDS(Icurv2,Isurf,c2d2,Et);
-    DStr.ChangeSurfaceInterferences(Isurf).Append(InterFv);
+    DStr.ChangeSurfaceInterferences(Isurf).push_back(InterFv);
 
       // limitation of the sewing edge
     Standard_Integer Iarc=DStr.AddShape(edgecouture);
@@ -1224,7 +1222,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     if (Abs(par1-pard)<Abs(parf-par1)) ori=TopAbs_FORWARD;
     else ori=TopAbs_REVERSED;
     Interfedge = ChFi3d_FilPointInDS(ori,Iarc,indpt,par1);
-    DStr.ChangeShapeInterferences(Iarc).Append(Interfedge);
+    DStr.ChangeShapeInterferences(Iarc).push_back(Interfedge);
 
     // creation of CurveInterferences from Icurv1 and Icurv2
     stripe->InDS(isfirst);
@@ -1232,13 +1230,13 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     Standard_Integer ind2= stripe->IndexPoint(isfirst,2);
     Handle(TopOpeBRepDS_CurvePointInterference)
       interfprol = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv1,ind1,Udeb);
-    DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv1,indpt,par2);
-    DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv2,indpt,par2);
-    DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv2,ind2,Ufin);
-    DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
 
   }
 
@@ -1268,7 +1266,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     Standard_Real parVtx = BRep_Tool::Parameter(Vtx,Arcspine);
     Handle(TopOpeBRepDS_CurvePointInterference)
       interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-    DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+    DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
 
     // Now the missing curves are constructed.
     TopoDS_Vertex V2;
@@ -1355,10 +1353,10 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
       ComputeCurve2d(curv1,Fop,c2d1);
       Handle(TopOpeBRepDS_SurfaceCurveInterference)
 	InterFv = ChFi3d_FilCurveInDS(Icurv1,IShape,/*zob2dv*/c2d1,Et);
-      DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+      DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
       ComputeCurve2d(curv2,Fop,c2d2);
       InterFv = ChFi3d_FilCurveInDS(Icurv2,IShape,/*zob2dv*/c2d2,Et);
-      DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+      DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
 
       // limitation of the sewing edge
       Standard_Integer Iarc=DStr.AddShape(edgecouture);
@@ -1373,7 +1371,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
       if (Abs(par1-pard)<Abs(parf-par1)) ori=TopAbs_REVERSED;
       else ori=TopAbs_FORWARD;
       Interfedge = ChFi3d_FilPointInDS(ori,Iarc,indpt,par1);
-      DStr.ChangeShapeInterferences(Iarc).Append(Interfedge);
+      DStr.ChangeShapeInterferences(Iarc).push_back(Interfedge);
 
     //  interference of curv1 and curv2 on Iop
       Standard_Integer Iop = DStr.AddShape(Fop);
@@ -1381,31 +1379,31 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
       Handle(TopOpeBRepDS_SurfaceCurveInterference)  Interfop;
       ComputeCurve2d(curv1,Fop,c2d1);
       Interfop  = ChFi3d_FilCurveInDS(Icurv1,Iop,c2d1,Et);
-      DStr.ChangeShapeInterferences(Iop).Append(Interfop);
+      DStr.ChangeShapeInterferences(Iop).push_back(Interfop);
       ComputeCurve2d(curv2,Fop,c2d2);
       Interfop  = ChFi3d_FilCurveInDS(Icurv2,Iop,c2d2,Et);
-      DStr.ChangeShapeInterferences(Iop).Append(Interfop);
+      DStr.ChangeShapeInterferences(Iop).push_back(Interfop);
       Handle(TopOpeBRepDS_CurvePointInterference)
 	interfprol = ChFi3d_FilVertexInDS(TopAbs_FORWARD,Icurv1,IVtx,Udeb);
-      DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+      DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
       interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv1,indpt,par2);
-      DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+      DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
       Standard_Integer icc = stripe->IndexPoint(isfirst,IFopArc);
       interfprol = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv2,indpt,par2);
-      DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+      DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
       interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv2,icc,Ufin);
-      DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+      DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
     }
     else {
       Et = TopAbs::Reverse(TopAbs::Compose(OVtx,OArcprolv));
       Handle(TopOpeBRepDS_SurfaceCurveInterference)
 	InterFv = ChFi3d_FilCurveInDS(IZob,IShape,zob2dv,Et);
-      DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+      DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
       Et = TopAbs::Reverse(TopAbs::Compose(OVtx,OArcprolop));
       Standard_Integer Iop = DStr.AddShape(Fop);
       Handle(TopOpeBRepDS_SurfaceCurveInterference)
 	Interfop = ChFi3d_FilCurveInDS(IZob,Iop,zob2dop,Et);
-      DStr.ChangeShapeInterferences(Iop).Append(Interfop);
+      DStr.ChangeShapeInterferences(Iop).push_back(Interfop);
       Handle(TopOpeBRepDS_CurvePointInterference) interfprol;
       #ifdef VARIANT1
 	interfprol = ChFi3d_FilVertexInDS(TopAbs_FORWARD,IZob,IVtx,Udeb);
@@ -1415,10 +1413,10 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
 	interfprol = ChFi3d_FilVertexInDS(TopAbs_FORWARD,IZob,IV2,Udeb);
       }
       #endif
-      DStr.ChangeCurveInterferences(IZob).Append(interfprol);
+      DStr.ChangeCurveInterferences(IZob).push_back(interfprol);
       Standard_Integer icc = stripe->IndexPoint(isfirst,IFopArc);
       interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,IZob,icc,Ufin);
-      DStr.ChangeCurveInterferences(IZob).Append(interfprol);
+      DStr.ChangeCurveInterferences(IZob).push_back(interfprol);
       #ifdef VARIANT1 
       {
 	if (IFopArc == 1) box1.Add( zob3d->Value(Ufin) );
@@ -1429,7 +1427,7 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
         // cut off existing Arcprol
         Standard_Integer iArcprol = DStr.AddShape(Arcprol);
         interfprol = ChFi3d_FilPointInDS(OVtx,iArcprol,icc,Udeb);
-        DStr.ChangeShapeInterferences(Arcprol).Append(interfprol);
+        DStr.ChangeShapeInterferences(Arcprol).push_back(interfprol);
       }
       #endif
     }
@@ -2588,8 +2586,8 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
     Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurve[nb-1],
                                  indpoint2,Cc->LastParameter(),Isvtx2);
 
-    DStr.ChangeCurveInterferences(indcurve[nb-1]).Append(Interfp1);
-    DStr.ChangeCurveInterferences(indcurve[nb-1]).Append(Interfp2);
+    DStr.ChangeCurveInterferences(indcurve[nb-1]).push_back(Interfp1);
+    DStr.ChangeCurveInterferences(indcurve[nb-1]).push_back(Interfp2);
 
     //////////////////////////////////////////////////////////////////////
     // storage for the face
@@ -2779,11 +2777,11 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
         indcurv=DStr.AddCurve(tcurv);
         Interfp1=ChFi3d_FilPointInDS(TopAbs_FORWARD,indcurv,indp1,par1,vtx1);
         Interfp2=ChFi3d_FilPointInDS(TopAbs_REVERSED,indcurv,indp2,par2,vtx2);
-        DStr.ChangeCurveInterferences(indcurv).Append(Interfp1);
-        DStr.ChangeCurveInterferences(indcurv).Append(Interfp2);
+        DStr.ChangeCurveInterferences(indcurv).push_back(Interfp1);
+        DStr.ChangeCurveInterferences(indcurv).push_back(Interfp2);
 
         Interfc=ChFi3d_FilCurveInDS(indcurv,indice ,C2dint1,orient);
-        DStr.ChangeShapeInterferences(indice).Append(Interfc);
+        DStr.ChangeShapeInterferences(indice).push_back(Interfc);
         if (oneintersection1||oneintersection2) {
           indice=DStr.AddShape(facesau);
           if (facesau.Orientation()==Face[0].Orientation())
@@ -2809,7 +2807,7 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
         }
         if (!bordlibre) {
           Interfc=ChFi3d_FilCurveInDS(indcurv,indice,C2dint2,orient);
-          DStr.ChangeShapeInterferences(indice).Append(Interfc);
+          DStr.ChangeShapeInterferences(indice).push_back(Interfc);
         }
       }
     }
@@ -2836,7 +2834,7 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
       TCurv.Tolerance(Max(TCurv.Tolerance(),aTolreached));
 
       InterfPS[nb-1]=ChFi3d_FilCurveInDS(indcurve[nb-1],IsurfPrev,Ps,orcourbe);
-      DStr.ChangeSurfaceInterferences(IsurfPrev).Append(InterfPS[nb-1]);
+      DStr.ChangeSurfaceInterferences(IsurfPrev).push_back(InterfPS[nb-1]);
 
       if (isOnSame2) {
 	midP2d = p2d2;
@@ -2864,13 +2862,13 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
 
   for(nb=1;nb<=nbface;nb++) {
     Standard_Integer indice=DStr.AddShape(Face[nb-1]);
-    DStr.ChangeShapeInterferences(indice).Append(InterfPC[nb-1]);
+    DStr.ChangeShapeInterferences(indice).push_back(InterfPC[nb-1]);
     if (!shrink [nb-1])
-      DStr.ChangeSurfaceInterferences(Isurf).Append(InterfPS[nb-1]);
+      DStr.ChangeSurfaceInterferences(Isurf).push_back(InterfPS[nb-1]);
     if (!proledge[nb-1])
-      DStr.ChangeShapeInterferences(Edge[nb-1]).Append(Interfedge[nb-1]);
+      DStr.ChangeShapeInterferences(Edge[nb-1]).push_back(Interfedge[nb-1]);
   }
-  DStr.ChangeShapeInterferences(Edge[nbface]).Append(Interfedge[nbface]);
+  DStr.ChangeShapeInterferences(Edge[nbface]).push_back(Interfedge[nbface]);
 
   if (!isShrink)
     stripe->InDS(isfirst);
@@ -2913,9 +2911,9 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
     Interfp1 = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv,indpoint1,p1, Standard_False);
     Interfp2 = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv,indpoint2,p2, Standard_False);
     Interfc = ChFi3d_FilCurveInDS(Icurv,Isurf,Ps,orcourbe);
-    DStr.ChangeCurveInterferences(Icurv).Append(Interfp1);
-    DStr.ChangeCurveInterferences(Icurv).Append(Interfp2);
-    DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc);
+    DStr.ChangeCurveInterferences(Icurv).push_back(Interfp1);
+    DStr.ChangeCurveInterferences(Icurv).push_back(Interfp2);
+    DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc);
 
     // for SDprev
     aSurf = DStr.Surface(SDprev->Surf()).Surface();
@@ -2926,7 +2924,7 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
     
     Crv.Tolerance(Max(Crv.Tolerance(),aTolreached));
     Interfc= ChFi3d_FilCurveInDS (Icurv,IsurfPrev,Pc,TopAbs::Reverse(orcourbe));
-    DStr.ChangeSurfaceInterferences(IsurfPrev).Append(Interfc);
+    DStr.ChangeSurfaceInterferences(IsurfPrev).push_back(Interfc);
 
     //UV = isOnSame1 ? UV2 : UV1;
     //box.Add(aSurf->Value(UV.X(), UV.Y()));
@@ -3349,7 +3347,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 
   anInterfp1= ChFi3d_FilPointInDS(aCP1onArc.TransitionOnArc(), indArc1,
 				  indCP1onArc, aCP1onArc.ParameterOnArc());
-  DStr.ChangeShapeInterferences(aCP1onArc.Arc()).Append(anInterfp1);
+  DStr.ChangeShapeInterferences(aCP1onArc.Arc()).push_back(anInterfp1);
 
   TopOpeBRepDS_ListOfInterference &SolidInterfs  =
                                    DStr.ChangeShapeInterferences(indSol);
@@ -3358,7 +3356,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
                                       (TopOpeBRepDS_Transition(anOrSD1),
 				       TopOpeBRepDS_SOLID, indSol,
 				       TopOpeBRepDS_SURFACE, indSurf1);
-  SolidInterfs.Append(SSI);
+  SolidInterfs.push_back(SSI);
 
 // deletion of Surface Data.
   aSeqSurfData.Remove(anInd);
@@ -3454,14 +3452,14 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 				     indPoint1, aCint2->FirstParameter());
     anInterfp2 = ChFi3d_FilPointInDS(TopAbs_REVERSED, indCurve,
 				     indPoint2, aCint2->LastParameter());
-    DStr.ChangeCurveInterferences(indCurve).Append(anInterfp1);
-    DStr.ChangeCurveInterferences(indCurve).Append(anInterfp2);
+    DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp1);
+    DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp2);
 
   // interference of aCint2 on the SurfData number anIndPrev
     anInterfc = ChFi3d_FilCurveInDS(indCurve, aSurfData->Surf(),
 				    aPCint22, anOrSurf);
 
-    DStr.ChangeSurfaceInterferences(aSurfData->Surf()).Append(anInterfc);
+    DStr.ChangeSurfaceInterferences(aSurfData->Surf()).push_back(anInterfc);
   // interference of aCint2 on aFace
 
     if (anOrFace == anOrSD2)
@@ -3470,7 +3468,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
       anOrFace = anOrSurf;
 
     anInterfc = ChFi3d_FilCurveInDS(indCurve, indaFace, aPCint21, anOrFace);
-    DStr.ChangeShapeInterferences(indaFace).Append(anInterfc);
+    DStr.ChangeShapeInterferences(indaFace).push_back(anInterfc);
   }
 
   aTrCracc->D0(aTrCracc->FirstParameter(), aPext1);
@@ -3514,13 +3512,13 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 				   indPoint1, aTrCracc->FirstParameter());
   anInterfp2 = ChFi3d_FilPointInDS(TopAbs_REVERSED,indCurve,
 				   indPoint2, aTrCracc->LastParameter());
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp1);
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp2);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp1);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp2);
 
   // interference of aTrCracc on the SurfData number anIndPrev
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve,aSurfData->Surf(),aPCraccS, anOrSurf);
-  DStr.ChangeSurfaceInterferences(aSurfData->Surf()).Append(anInterfc);
+  DStr.ChangeSurfaceInterferences(aSurfData->Surf()).push_back(anInterfc);
   aStripe->InDS(isFirst);
 
   // interference of aTrCracc on the SurfData number anInd
@@ -3528,7 +3526,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
     anOrSurf = TopAbs::Reverse(anOrSurf);
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve, indSurf1, aPCurv1, anOrSurf);
-  DStr.ChangeSurfaceInterferences(indSurf1).Append(anInterfc);
+  DStr.ChangeSurfaceInterferences(indSurf1).push_back(anInterfc);
 
 // ---------------------------------------------------------------
 // storage of aCint1
@@ -3558,13 +3556,13 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 				   indPoint1, aCint1->FirstParameter());
   anInterfp2 = ChFi3d_FilPointInDS(TopAbs_REVERSED, indCurve,
 				   indPoint2, aCint1->LastParameter());
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp1);
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp2);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp1);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp2);
 
   // interference of aCint1 on the SurfData number anInd
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve, indSurf1, aPCint12, anOrSurf);
-  DStr.ChangeSurfaceInterferences(indSurf1).Append(anInterfc);
+  DStr.ChangeSurfaceInterferences(indSurf1).push_back(anInterfc);
 
   // interference of aCint1 on aFace
 
@@ -3576,7 +3574,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
     anOrFace = anOrSurf;
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve, indaFace, aPCint11, anOrFace);
-  DStr.ChangeShapeInterferences(indaFace).Append(anInterfc);
+  DStr.ChangeShapeInterferences(indaFace).push_back(anInterfc);
 // ---------------------------------------------------------------
 // storage of aCline passing through aCP1onArc and aCP2NotonArc
 
@@ -3611,13 +3609,13 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 				   indPoint1,aTrCline->FirstParameter());
   anInterfp2 = ChFi3d_FilPointInDS(TopAbs_REVERSED,indCurve,
 				   indPoint2,aTrCline->LastParameter());
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp1);
-  DStr.ChangeCurveInterferences(indCurve).Append(anInterfp2);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp1);
+  DStr.ChangeCurveInterferences(indCurve).push_back(anInterfp2);
 
   // interference of aTrCline on the SurfData number anInd
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve, indSurf1, aPClineOnSurf, anOrSurf);
-  DStr.ChangeSurfaceInterferences(indSurf1).Append(anInterfc);
+  DStr.ChangeSurfaceInterferences(indSurf1).push_back(anInterfc);
 
   // interference de ctlin par rapport a Fvoisin
   indShape = DStr.AddShape(aNeighborFace);
@@ -3629,7 +3627,7 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
     anOrFace = anOrSurf;
 
   anInterfc = ChFi3d_FilCurveInDS(indCurve, indShape, aPClineOnFace, anOrFace);
-  DStr.ChangeShapeInterferences(indShape).Append(anInterfc);
+  DStr.ChangeShapeInterferences(indShape).push_back(anInterfc);
 }
 //  Modified by Sergey KHROMOV - Thu Apr 11 12:23:40 2002 End
 
@@ -4166,7 +4164,7 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     ICurve = DStr.AddCurve(Tc);
     Handle(TopOpeBRepDS_SurfaceCurveInterference)
       Interfc = ChFi3d_FilCurveInDS(ICurve,IShape,Pc,Et);
-    DStr.ChangeShapeInterferences(IShape).Append(Interfc);
+    DStr.ChangeShapeInterferences(IShape).push_back(Interfc);
     stripe->ChangePCurve(isfirst)=Ps;
     stripe->SetCurve(ICurve,isfirst);
     stripe->SetParameters(isfirst,Udeb,Ufin);
@@ -4180,18 +4178,18 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     ComputeCurve2d(curv1,Fv,c2d1);
     Handle(TopOpeBRepDS_SurfaceCurveInterference) InterFv;
     InterFv = ChFi3d_FilCurveInDS(Icurv1,IShape,c2d1,Et);
-    DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+    DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
     ComputeCurve2d(curv2,Fv,c2d2);
     InterFv = ChFi3d_FilCurveInDS(Icurv2,IShape,c2d2,Et);
-    DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+    DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
      // interferences of curv1 and curv2 on Isurf
     if (Fd->Orientation()== Fv.Orientation()) Et=TopAbs::Reverse(Et);
     c2d1=new Geom2d_TrimmedCurve(Ps,Udeb,par2);
     InterFv = ChFi3d_FilCurveInDS(Icurv1,Isurf,c2d1,Et);
-    DStr.ChangeSurfaceInterferences(Isurf).Append(InterFv);
+    DStr.ChangeSurfaceInterferences(Isurf).push_back(InterFv);
     c2d2=new Geom2d_TrimmedCurve(Ps,par2,Ufin);
        InterFv = ChFi3d_FilCurveInDS(Icurv2,Isurf,c2d2,Et);
-    DStr.ChangeSurfaceInterferences(Isurf).Append(InterFv);
+    DStr.ChangeSurfaceInterferences(Isurf).push_back(InterFv);
 
       // limitation of the sewing edge
     Standard_Integer Iarc=DStr.AddShape(edgecouture);
@@ -4206,7 +4204,7 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     if (Abs(par1-pard)<Abs(parf-par1)) ori=TopAbs_FORWARD;
     else ori=TopAbs_REVERSED;
     Interfedge = ChFi3d_FilPointInDS(ori,Iarc,indpt,par1);
-    DStr.ChangeShapeInterferences(Iarc).Append(Interfedge);
+    DStr.ChangeShapeInterferences(Iarc).push_back(Interfedge);
 
     // creation of CurveInterferences from Icurv1 and Icurv2
     stripe->InDS(isfirst);
@@ -4214,13 +4212,13 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     Standard_Integer ind2= stripe->IndexPoint(isfirst,2);
     Handle(TopOpeBRepDS_CurvePointInterference)
       interfprol = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv1,ind1,Udeb);
-    DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv1,indpt,par2);
-    DStr.ChangeCurveInterferences(Icurv1).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv1).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv2,indpt,par2);
-    DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
     interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv2,ind2,Ufin);
-    DStr.ChangeCurveInterferences(Icurv2).Append(interfprol);
+    DStr.ChangeCurveInterferences(Icurv2).push_back(interfprol);
 
   }
 
@@ -4248,7 +4246,7 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     Standard_Real parVtx = BRep_Tool::Parameter(Vtx,Arcspine);
     Handle(TopOpeBRepDS_CurvePointInterference)
       interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-    DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+    DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
 
 
     //Modif of lvt to find the suite of Arcprol in the other face
@@ -4347,7 +4345,7 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
       Standard_Integer Iop = DStr.AddShape(Fop);
       Handle(TopOpeBRepDS_SurfaceCurveInterference)
 	InterFv = ChFi3d_FilCurveInDS(IZob,IShape,zob2dv,Et);
-      DStr.ChangeShapeInterferences(IShape).Append(InterFv);
+      DStr.ChangeShapeInterferences(IShape).push_back(InterFv);
       //OVtx = TopAbs::Reverse(OVtx);
 //  Modified by skv - Thu Aug 21 11:55:58 2008 OCC20222 Begin
 //      Et = TopAbs::Reverse(TopAbs::Compose(OVtx,OArcprolbis));
@@ -4357,13 +4355,13 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
 //      Et = TopAbs::Reverse(Et);
       Handle(TopOpeBRepDS_SurfaceCurveInterference)
 	Interfop = ChFi3d_FilCurveInDS(IZob,Iop,zob2dop,Et);
-      DStr.ChangeShapeInterferences(Iop).Append(Interfop);
+      DStr.ChangeShapeInterferences(Iop).push_back(Interfop);
       Handle(TopOpeBRepDS_CurvePointInterference)
 	interfprol = ChFi3d_FilVertexInDS(TopAbs_FORWARD,IZob,IVtx,Udeb);
-      DStr.ChangeCurveInterferences(IZob).Append(interfprol);
+      DStr.ChangeCurveInterferences(IZob).push_back(interfprol);
       Standard_Integer icc = stripe->IndexPoint(isfirst,IFopArc);
       interfprol = ChFi3d_FilPointInDS(TopAbs_REVERSED,IZob,icc,Ufin);
-      DStr.ChangeCurveInterferences(IZob).Append(interfprol);
+      DStr.ChangeCurveInterferences(IZob).push_back(interfprol);
 
     }
   }

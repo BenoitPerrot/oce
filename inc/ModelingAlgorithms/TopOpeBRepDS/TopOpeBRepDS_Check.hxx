@@ -12,6 +12,7 @@
 
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfCheckStatus.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -21,7 +22,6 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CheckStatus.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopOpeBRepDS_HDataStructure;
-class TopOpeBRepDS_ListOfInterference;
 class TopTools_ListOfShape;
 class TopOpeBRepDS_DataMapOfCheckStatus;
 

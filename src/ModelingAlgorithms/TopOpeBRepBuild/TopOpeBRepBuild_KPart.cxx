@@ -978,9 +978,8 @@ static Standard_Boolean allIonsectionedges(const Handle(TopOpeBRepDS_HDataStruct
 			      const TopTools_IndexedMapOfShape& mape2)
 // prequesitory : all interferences attached to <f1> are SSI
 {  
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(HDS->DS().ShapeInterferences(f1));
-  for (; it1.More(); it1.Next()){
-    const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI1 = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(it1.Value());    
+  for (auto x : HDS->DS().ShapeInterferences(f1)) {
+    const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI1 = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);    
     Standard_Integer G1 = SSI1->Geometry();
     Standard_Boolean isgbound = SSI1->GBound();
     const TopoDS_Shape& e1 = HDS->Shape(G1);

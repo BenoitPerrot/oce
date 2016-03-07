@@ -572,10 +572,10 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 #ifdef OCCT_DEBUG
 //    Standard_Integer iFF = BDS.Shape(FF);
 #endif
-    const TopOpeBRepDS_ListOfInterference& LI = BDS.ShapeInterferences(FF); Standard_Integer nLI = LI.Extent(); 
+    const TopOpeBRepDS_ListOfInterference& LI = BDS.ShapeInterferences(FF); Standard_Integer nLI = LI.size(); 
     if (nLI == 0) continue;
-    for (TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI); ILI.More(); ILI.Next() ) {
-      const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(ILI.Value()); 
+    for (auto x : LI) {
+      const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x); 
       if (SSI.IsNull()) continue;      
       TopOpeBRepDS_Kind GT,ST;Standard_Integer GI,SI;FDS_data(SSI,GT,GI,ST,SI); 
       if (ST != TopOpeBRepDS_FACE) continue;      
@@ -618,10 +618,10 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
     Standard_Boolean FFuper,FFvper; Standard_Boolean FFisper = FUN_periodic(FF,FFuper,FFvper);
     if (!FFisper) continue;
 
-    const TopOpeBRepDS_ListOfInterference& LI = BDS.ShapeInterferences(FF); Standard_Integer nLI = LI.Extent(); 
+    const TopOpeBRepDS_ListOfInterference& LI = BDS.ShapeInterferences(FF); Standard_Integer nLI = LI.size(); 
     if (nLI == 0) continue;
-    for (TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI); ILI.More(); ILI.Next() ) {
-      const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(ILI.Value()); 
+    for (auto x : LI) {
+      const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x); 
       if (SSI.IsNull()) continue;      
       TopOpeBRepDS_Kind GT,ST;Standard_Integer GI,SI;FDS_data(SSI,GT,GI,ST,SI); 
       if (ST != TopOpeBRepDS_FACE) continue;      
@@ -737,10 +737,7 @@ void TopOpeBRepBuild_Builder::SplitSectionEdge(const TopoDS_Shape& EA)
   // xpu161198 BUC60382(e3on) SE EOR has all its interferences "on bounds"
   Standard_Boolean allGb1=Standard_False;   
   TopoDS_Vertex vf,vl; TopExp::Vertices(TopoDS::Edge(EOR),vf,vl);
-  const TopOpeBRepDS_ListOfInterference& loi = BDS.ShapeInterferences(EOR);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(loi);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : BDS.ShapeInterferences(EOR)) {
     TopOpeBRepDS_Kind GT,ST; Standard_Integer G,S; FDS_data(I,GT,G,ST,S);    
     if (GT == TopOpeBRepDS_POINT) {allGb1=Standard_False; break;}
     Standard_Integer rkG = BDS.AncestorRank(G);

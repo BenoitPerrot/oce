@@ -564,18 +564,14 @@ void BRepAlgo_DSAccess::ChangeEdgeSet
 	Handle(TopOpeBRepDS_Interference) interf;
 
 	iF = myHB->GetDSFaceFromDSCurve(iC, 1);	
-	TopOpeBRepDS_ListOfInterference& list1 = 
-	   myHDS->ChangeDS().ChangeShapeInterferences(iF);
-	for(iter.Initialize(list1); iter.More(); iter.Next()) {
-	  interf = iter.Value();
+	for(auto x : myHDS->ChangeDS().ChangeShapeInterferences(iF)) {
+	  interf = x;
 	  if (interf->Geometry() == iC)
 	    interf->Transition(interf->Transition().Complement());
 	}
 	iF = myHB->GetDSFaceFromDSCurve(iC, 2);	
-	TopOpeBRepDS_ListOfInterference& list2 = 
-	  myHDS->ChangeDS().ChangeShapeInterferences(iF);
-	for(iter.Initialize(list2); iter.More(); iter.Next()) {
-	  interf = iter.Value();
+	for(auto x : myHDS->ChangeDS().ChangeShapeInterferences(iF)) {
+	  interf = x;
 	  if (interf->Geometry() == iC)
 	    interf->Transition(interf->Transition().Complement());
 	}
@@ -603,8 +599,8 @@ void BRepAlgo_DSAccess::ChangeEdgeSet
       if (DS.Shape(iE,0).ShapeType() == TopAbs_EDGE) { 
 	const TopOpeBRepDS_ListOfInterference& List = 
 	  myHDS->DS().ShapeInterferences(iE);
-	for(iter.Initialize(List); iter.More(); iter.Next()) {
-	  interf = iter.Value();
+	for(auto x : List) {
+	  interf = x;
 	  if (interf->GeometryType() == TopOpeBRepDS_POINT) {
 	    iP = interf->Geometry();
 	    if (RPoint.Contains(iP))
@@ -1042,8 +1038,7 @@ void BRepAlgo_DSAccess::RemoveEdgeInterferences
     TopOpeBRepDS_ListOfInterference& loi = 
       DS.ChangeShapeInterferences(DSEdge);
     //    RemInterf = Standard_True;
-    for(lioloi.Initialize(loi); lioloi.More(); lioloi.Next()) {
-      Handle(TopOpeBRepDS_Interference) I = lioloi.Value();
+    for(Handle(TopOpeBRepDS_Interference) I : loi) {
       if (I.IsNull()) continue;
       if((I->SupportType() != TopOpeBRepDS_EDGE) ||
 	 (I->Support() != iCurrE2)) {
@@ -1143,9 +1138,7 @@ void BRepAlgo_DSAccess::RemoveFaceInterferences
     const TopoDS_Shape& DSFace = DS.Shape(iCurrF1);
     if(DSFace.IsNull())
       continue;
-    const TopOpeBRepDS_ListOfInterference& loi = DS.ShapeInterferences(DSFace);
-    for(lioloi.Initialize(loi); lioloi.More(); lioloi.Next()) {
-      Handle(TopOpeBRepDS_Interference) I = lioloi.Value();
+    for(Handle(TopOpeBRepDS_Interference) I : DS.ShapeInterferences(DSFace)) {
       if (I.IsNull()) continue;
       if((I->SupportType() != TopOpeBRepDS_FACE) ||
 	 (I->Support() != iCurrF2)) {
@@ -1231,17 +1224,14 @@ void BRepAlgo_DSAccess::RemoveFaceInterferences
     iCurrF1 = ((i == 1) ? iF1 : iF2);
     iCurrF2 = ((i == 1) ? iF2 : iF1);
     const TopoDS_Shape& DSFace = DS.Shape(iCurrF1);
-    const TopOpeBRepDS_ListOfInterference& loi = DS.ShapeInterferences(DSFace);
-    for(lioloi.Initialize(loi); lioloi.More(); lioloi.Next()) {
-      Handle(TopOpeBRepDS_Interference) I = lioloi.Value();
+    for (Handle(TopOpeBRepDS_Interference) I : DS.ShapeInterferences(DSFace)) {
       if (I.IsNull()) continue;
       if((I->SupportType() != TopOpeBRepDS_FACE) ||
 	 (I->Support() != iCurrF2)) {
 	break;;
       }
     }
-    for(lioloi.Initialize(loi); lioloi.More(); lioloi.Next()) {
-      Handle(TopOpeBRepDS_Interference) I = lioloi.Value();
+    for (Handle(TopOpeBRepDS_Interference) I : DS.ShapeInterferences(DSFace)) {
       if (I.IsNull()) continue;
       if((I->SupportType() != TopOpeBRepDS_FACE) ||
 	 (I->Support() != iCurrF2)) {
@@ -1301,10 +1291,7 @@ void BRepAlgo_DSAccess::RemoveEdgeInterferencesFromFace
       const TopoDS_Shape& DSEdge = exp.Current();
       iE = DS.Shape(DSEdge, FindKeep);
       if(!iE) continue;
-      const TopOpeBRepDS_ListOfInterference& loi =
-	DS.ShapeInterferences(DSEdge);
-      for(lioloi.Initialize(loi); lioloi.More(); lioloi.Next()) {
-	Handle(TopOpeBRepDS_Interference) I = lioloi.Value();
+      for (Handle(TopOpeBRepDS_Interference) I : DS.ShapeInterferences(DSEdge)) {
 	if (I.IsNull()) continue;
 	sk = I->SupportType();
 	si = I->Support();

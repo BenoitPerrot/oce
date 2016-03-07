@@ -104,15 +104,16 @@ void TopOpeBRepDS_Filter::ProcessFaceInterferences
   if (TRC) cout <<"after reducedoublons nI = "<<nI<<endl;
 #endif
 
-  TopOpeBRepDS_ListOfInterference lw, lE, lFE, lFEF, lF, lUU, lall; lall.Assign(LI);
+  TopOpeBRepDS_ListOfInterference lw, lE, lFE, lFEF, lF, lUU, lall;
+  lall.insert(end(lall), begin(LI),end(LI));
 
 #ifdef OCCT_DEBUG
   Standard_Integer nUU =
 #endif
             ::FUN_selectTRAUNKinterference(lall,lUU);
   FUN_resolveFUNKNOWN(lUU,BDS,SIX,MEsp,myPShapeClassif);
-  lw.Append(lall);
-  lw.Append(lUU);
+  lw.insert(end(lw), begin(lall),end(lall));
+  lw.insert(end(lw), begin(lUU),end(lUU));
 
 #ifdef OCCT_DEBUG
   Standard_Integer nF, nFE, nFEF, nE;
@@ -155,10 +156,10 @@ void TopOpeBRepDS_Filter::ProcessFaceInterferences
   }
 #endif
   
-  LI.Clear();
-  LI.Append(lF);
-  LI.Append(lFE);
-  LI.Append(lFEF);
-  LI.Append(lE);
+  LI.clear();
+  LI.insert(end(LI), begin(lF),end(lF));
+  LI.insert(end(LI), begin(lFE),end(lFE));
+  LI.insert(end(LI), begin(lFEF),end(lFEF));
+  LI.insert(end(LI), begin(lE),end(lE));
 
 } // ProcessFaceInterferences

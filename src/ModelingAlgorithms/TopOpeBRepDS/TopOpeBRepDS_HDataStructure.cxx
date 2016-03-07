@@ -103,10 +103,7 @@ Standard_EXPORT Standard_Boolean FUN_HDS_FACESINTERFER
 //                         DS.Shape(F1);
   Standard_Integer iF2 = DS.Shape(F2);
 
-  const TopOpeBRepDS_ListOfInterference& L1 = DS.ShapeInterferences(F1);
-  TopOpeBRepDS_ListIteratorOfListOfInterference itL1(L1);
-  for (;itL1.More(); itL1.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = itL1.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : DS.ShapeInterferences(F1)) {
     TopOpeBRepDS_Kind GT = TopOpeBRepDS_UNKNOWN, ST = TopOpeBRepDS_UNKNOWN; Standard_Integer G,S = 0;
     FUN_HDS_data(I,GT,G,ST,S);
     // interference face1/edge/face2
@@ -565,7 +562,7 @@ Standard_EXPORT void FUN_TopOpeBRepDS_SortOnParameter
   // NYI : sort a list of Items, giving a sorting FUNCTION is impossible
   // NYI : --> foobar method complexity n2.
 
-  Standard_Integer iIntf=0,nIntf = List.Extent();
+  Standard_Integer iIntf=0,nIntf = List.size();
   if (nIntf == 0) return;
 
   Handle(TColStd_HArray1OfBoolean) HT;
@@ -587,7 +584,7 @@ Standard_EXPORT void FUN_TopOpeBRepDS_SortOnParameter
 	}
       }
     }
-    SList.Append(Intf);
+    SList.push_back(Intf);
     T(iIntf) = Standard_True;
   }
 }
@@ -608,25 +605,27 @@ void TopOpeBRepDS_HDataStructure::SortOnParameter
   // tete = interf FORWARD :
   // modifier TopOpeBRepBuild_ParametrizedVertexSet ::SortParametrizedVertex()
   Standard_Boolean found = Standard_False;
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(SList);
+
+#warning could be done in-place
   TopOpeBRepDS_ListOfInterference L1,L2;
 
-  for (; it.More(); it.Next() ) {
-    Handle(TopOpeBRepDS_Interference) I = it.Value();
+  for (Handle(TopOpeBRepDS_Interference) I : SList) {
     if ( ! found) {
       TopAbs_Orientation o = I->Transition().Orientation(TopAbs_IN);
       if (o == TopAbs_FORWARD) {
 	found = Standard_True;
-	L1.Append(I);
+	L1.push_back(I);
       }
-      else L2.Append(I);
+      else
+        L2.push_back(I);
     }
-    else L1.Append(I);
+    else
+      L1.push_back(I);
   }
 
-  SList.Clear();
-  SList.Append(L1);
-  SList.Append(L2);
+  SList.clear();
+  SList.insert(end(SList), begin(L1), end(L1));
+  SList.insert(end(SList), begin(L2), end(L2));
 }
 
 //=======================================================================
@@ -640,7 +639,7 @@ void TopOpeBRepDS_HDataStructure::SortOnParameter
   if (it.More()) {
     TopOpeBRepDS_ListOfInterference SList;
     SortOnParameter(List,SList);
-    List.Assign(SList);
+    List.insert(end(List), begin(SList), end(SList));
   }
 }
 
@@ -652,7 +651,7 @@ void TopOpeBRepDS_HDataStructure::MinMaxOnParameter
 (const TopOpeBRepDS_ListOfInterference& List,
  Standard_Real& parmin,Standard_Real& parmax) const 
 {
-  if ( ! List.IsEmpty() ) {
+  if ( ! List.empty() ) {
     Standard_Real parline;
     parmin = RealLast(); parmax = RealFirst();
     TopOpeBRepDS_PointIterator it(List);
@@ -676,12 +675,13 @@ void TopOpeBRepDS_HDataStructure::MinMaxOnParameter
 //purpose  : 
 //=======================================================================
 Standard_Boolean TopOpeBRepDS_HDataStructure::ScanInterfList
-(TopOpeBRepDS_ListIteratorOfListOfInterference& IT,
+(TopOpeBRepDS_ListOfInterference::const_iterator& IT,
+ const TopOpeBRepDS_ListOfInterference::const_iterator& End,
  const TopOpeBRepDS_Point& PDS) const
 {
-  for ( ; IT.More(); IT.Next() ) {
-    TopOpeBRepDS_Kind GT = IT.Value()->GeometryType();
-    Standard_Integer  G  = IT.Value()->Geometry();
+  for ( ; IT != End; ++IT) {
+    TopOpeBRepDS_Kind GT = (*IT)->GeometryType();
+    Standard_Integer  G  = (*IT)->Geometry();
     if ( GT == TopOpeBRepDS_POINT ) {
       const TopOpeBRepDS_Point& OOPDS = myDS.Point(G);
       Standard_Boolean iseq = PDS.IsEqual(OOPDS);
@@ -702,15 +702,16 @@ Standard_Boolean TopOpeBRepDS_HDataStructure::ScanInterfList
 //=======================================================================
 
 Standard_Boolean TopOpeBRepDS_HDataStructure::GetGeometry
-(TopOpeBRepDS_ListIteratorOfListOfInterference& IT,
+(TopOpeBRepDS_ListOfInterference::const_iterator& IT,
+ const TopOpeBRepDS_ListOfInterference::const_iterator& End,
  const TopOpeBRepDS_Point&                      PDS,
  Standard_Integer&                              G,
  TopOpeBRepDS_Kind&                             K) const 
 {
-  Standard_Boolean found = ScanInterfList(IT,PDS);
+  Standard_Boolean found = ScanInterfList(IT,End,PDS);
   if (found) {
-    G  = IT.Value()->Geometry();
-    K  = IT.Value()->GeometryType();
+    G  = (*IT)->Geometry();
+    K  = (*IT)->GeometryType();
   }
   return found;
 }
@@ -782,7 +783,7 @@ void TopOpeBRepDS_HDataStructure::StoreInterference
 #endif
 
   // append I to list LI
-  LI.Append(I);
+  LI.push_back(I);
 
 #ifdef OCCT_DEBUG
   Standard_Boolean appendtoG = Standard_False;
@@ -802,14 +803,14 @@ void TopOpeBRepDS_HDataStructure::StoreInterference
 #ifdef OCCT_DEBUG
     appendtoG = Standard_True;
 #endif
-    myDS.ChangeSurfaceInterferences(G).Append(I);
+    myDS.ChangeSurfaceInterferences(G).push_back(I);
     break;
     
   case TopOpeBRepDS_CURVE :
 #ifdef OCCT_DEBUG
     appendtoG = Standard_True;
 #endif
-    myDS.ChangeCurveInterferences(G).Append(I);
+    myDS.ChangeCurveInterferences(G).push_back(I);
     break;
     
   case TopOpeBRepDS_POINT :
@@ -898,9 +899,7 @@ void TopOpeBRepDS_HDataStructure::StoreInterferences
  ,const TCollection_AsciiString& )
 {
   TopOpeBRepDS_ListOfInterference& lids = myDS.ChangeShapeInterferences(IS);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI){
     StoreInterference(I,lids);
   }
 }
@@ -915,9 +914,7 @@ void TopOpeBRepDS_HDataStructure::StoreInterferences
  ,const TCollection_AsciiString& )
 {
   TopOpeBRepDS_ListOfInterference& lids = myDS.ChangeShapeInterferences(S);
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     StoreInterference(I,lids);
   }
 }
@@ -932,10 +929,8 @@ void TopOpeBRepDS_HDataStructure::ClearStoreInterferences
  ,const TCollection_AsciiString& )
 {
   TopOpeBRepDS_ListOfInterference& lids = myDS.ChangeShapeInterferences(IS);
-  lids.Clear();
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  lids.clear();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     StoreInterference(I,lids);
   }
 }
@@ -950,10 +945,8 @@ void TopOpeBRepDS_HDataStructure::ClearStoreInterferences
  ,const TCollection_AsciiString& )
 {
   TopOpeBRepDS_ListOfInterference& lids = myDS.ChangeShapeInterferences(S);
-  lids.Clear();
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  lids.clear();
+  for (const Handle(TopOpeBRepDS_Interference)& I : LI) {
     StoreInterference(I,lids);
   }
 }

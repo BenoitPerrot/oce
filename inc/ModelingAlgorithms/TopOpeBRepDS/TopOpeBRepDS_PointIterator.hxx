@@ -13,11 +13,11 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_InterferenceIterator.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
 
 

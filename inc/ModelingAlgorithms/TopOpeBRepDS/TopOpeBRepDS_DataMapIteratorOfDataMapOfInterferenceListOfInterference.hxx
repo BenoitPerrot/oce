@@ -11,11 +11,11 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference.hxx>
 class Standard_NoSuchObject;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 class TColStd_MapTransientHasher;
 class TopOpeBRepDS_DataMapOfInterferenceListOfInterference;
 class TopOpeBRepDS_DataMapNodeOfDataMapOfInterferenceListOfInterference;

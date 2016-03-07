@@ -14,12 +14,12 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_GapTool.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Association.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class TopOpeBRepDS_HDataStructure;
 class TopOpeBRepDS_GapTool;
 class TopOpeBRepDS_Association;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListOfInterference;
 class TopoDS_Shape;
 class TopoDS_Face;
 class TopoDS_Edge;

@@ -37,12 +37,12 @@ Standard_EXPORT void FUN_scanloi(const TopOpeBRepDS_ListOfInterference& lI,
 				 TopOpeBRepDS_ListOfInterference& lINT, Standard_Integer& INT,
 				 TopOpeBRepDS_ListOfInterference& lEXT, Standard_Integer& EXT)
 {
-  lFOR.Clear(); lREV.Clear(); lINT.Clear(); lEXT.Clear();
+  lFOR.clear(); lREV.clear(); lINT.clear(); lEXT.clear();
   FDS_assign(lI,lEXT);
   FOR=FUN_selectTRAORIinterference(lEXT,TopAbs_FORWARD,lFOR);
   REV=FUN_selectTRAORIinterference(lEXT,TopAbs_REVERSED,lREV);
   INT=FUN_selectTRAORIinterference(lEXT,TopAbs_INTERNAL,lINT);
-  EXT = lEXT.Extent();
+  EXT = lEXT.size();
 }
 
 Standard_EXPORT Standard_Boolean FUN_ds_redu2d1d(const TopOpeBRepDS_DataStructure& BDS, const Standard_Integer ISE,
@@ -87,11 +87,9 @@ Standard_EXPORT Standard_Boolean FUN_ds_redu2d1d(const TopOpeBRepDS_DataStructur
     return Standard_False;
   }
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference it1(l1d); 
   Standard_Boolean beforeIN1d=Standard_False, afterIN1d=Standard_False;
   // ------------------------------
-  for (; it1.More(); it1.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I1d = it1.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I1d : l1d) {
     TopAbs_ShapeEnum SB1,SA1; Standard_Integer IB1,IA1; TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1; FDS_Idata(I1d,SB1,IB1,SA1,IA1,GT1,G1,ST1,S1);
     if (IB1 != IA1) continue;
     TopAbs_Orientation O1 = I1d->Transition().Orientation(TopAbs_IN);
@@ -105,7 +103,7 @@ Standard_EXPORT Standard_Boolean FUN_ds_redu2d1d(const TopOpeBRepDS_DataStructur
     if (bIN && aIN) return Standard_False; //NYIRAISE I1d INTERNAL -> NO I2d!!
     if (bIN) beforeIN1d = Standard_True;
     if (aIN) afterIN1d = Standard_True;
-  }//it1
+  }
   
   if (beforeIN1d) newT2d.Before(TopAbs_IN);
   if (afterIN1d)  newT2d.After(TopAbs_IN);
@@ -155,32 +153,32 @@ Standard_EXPORT Standard_Boolean FUN_ds_GetTr(
   if      (beforeIN1d) {    
     stb = TopAbs_IN; bdim = 1;
     TopOpeBRepDS_ListOfInterference l1INb; FDS_copy(l1dREV,l1INb); FDS_copy(l1dINT,l1INb);
-    isb = l1INb.First()->Transition().IndexBefore();
+    isb = l1INb.front()->Transition().IndexBefore();
   }
   else if (beforeIN2d) {  
     stb = TopAbs_IN;  bdim = 2;
     TopOpeBRepDS_ListOfInterference l2INb; FDS_copy(l2dREV,l2INb); FDS_copy(l2dINT,l2INb);
-    isb = l2INb.First()->Transition().IndexBefore();
+    isb = l2INb.front()->Transition().IndexBefore();
   }
   else if (beforeIN3d) {  
     stb = TopAbs_IN; bdim = 3;
     TopOpeBRepDS_ListOfInterference l3INb; FDS_copy(l3dREV,l3INb); FDS_copy(l3dINT,l3INb);
-    isb = l3INb.First()->Transition().IndexBefore();   
+    isb = l3INb.front()->Transition().IndexBefore();   
   }
   else if (beforeOU3d) { 
     stb = TopAbs_OUT; bdim = 3;
     TopOpeBRepDS_ListOfInterference l3OUb; FDS_copy(l3dFOR,l3OUb); FDS_copy(l3dEXT,l3OUb);
-    isb = l3OUb.First()->Transition().IndexBefore();  
+    isb = l3OUb.front()->Transition().IndexBefore();  
   }
   else if (beforeOU2d) {
     stb = TopAbs_OUT; bdim = 2;
     TopOpeBRepDS_ListOfInterference l2OUb; FDS_copy(l2dFOR,l2OUb); FDS_copy(l2dEXT,l2OUb);
-    isb = l2OUb.First()->Transition().IndexBefore();  
+    isb = l2OUb.front()->Transition().IndexBefore();  
   }
   else if (beforeOU1d) {
     stb = TopAbs_OUT; bdim = 1;
     TopOpeBRepDS_ListOfInterference l1OUb; FDS_copy(l1dFOR,l1OUb); FDS_copy(l1dEXT,l1OUb);
-    isb = l1OUb.First()->Transition().IndexBefore();  
+    isb = l1OUb.front()->Transition().IndexBefore();  
   }
 
   // state after
@@ -188,32 +186,32 @@ Standard_EXPORT Standard_Boolean FUN_ds_GetTr(
   if      (afterIN1d) { 
     sta = TopAbs_IN; adim = 1;
     TopOpeBRepDS_ListOfInterference l1INb; FDS_copy(l1dFOR,l1INb); FDS_copy(l1dINT,l1INb);
-    isa = l1INb.First()->Transition().IndexAfter();
+    isa = l1INb.front()->Transition().IndexAfter();
   }
   else if (afterIN2d) { 
     sta = TopAbs_IN; adim = 2;
     TopOpeBRepDS_ListOfInterference l2INb; FDS_copy(l2dFOR,l2INb); FDS_copy(l2dINT,l2INb);
-    isa = l2INb.First()->Transition().IndexAfter();
+    isa = l2INb.front()->Transition().IndexAfter();
   }
   else if (afterIN3d) { 
     sta = TopAbs_IN; adim = 3;
     TopOpeBRepDS_ListOfInterference l3INb; FDS_copy(l3dFOR,l3INb); FDS_copy(l3dINT,l3INb);
-    isa = l3INb.First()->Transition().IndexAfter();   
+    isa = l3INb.front()->Transition().IndexAfter();   
   }
   else if (afterOU3d) {
     sta = TopAbs_OUT; adim = 3;
     TopOpeBRepDS_ListOfInterference l3OUb; FDS_copy(l3dREV,l3OUb); FDS_copy(l3dEXT,l3OUb);
-    isa = l3OUb.First()->Transition().IndexAfter();  
+    isa = l3OUb.front()->Transition().IndexAfter();  
   }
   else if (afterOU2d) {
     sta = TopAbs_OUT; adim = 2; 
     TopOpeBRepDS_ListOfInterference l2OUb; FDS_copy(l2dREV,l2OUb); FDS_copy(l2dEXT,l2OUb); 
-    isa = l2OUb.First()->Transition().IndexAfter();  
+    isa = l2OUb.front()->Transition().IndexAfter();  
   }
   else if (afterOU1d) {
     sta = TopAbs_OUT; adim = 1; 
     TopOpeBRepDS_ListOfInterference l1OUb; FDS_copy(l1dREV,l1OUb); FDS_copy(l1dEXT,l1OUb); 
-    isa = l1OUb.First()->Transition().IndexAfter();  
+    isa = l1OUb.front()->Transition().IndexAfter();  
   }
   return Standard_True;
 }

@@ -382,11 +382,9 @@ void TopOpeBRepBuild_HBuilder::MakeEdgeAncestorMap()
     if(fds.IsNull())
       continue;
     if (fds.ShapeType() != TopAbs_FACE) continue;
-    TopOpeBRepDS_ListIteratorOfListOfInterference 
-      it1(DS.ShapeInterferences(fds));
-    for (;it1.More();it1.Next()) {
+    for (auto x : DS.ShapeInterferences(fds)) {
       Handle(TopOpeBRepDS_ShapeShapeInterference) SSI = 
-	Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(it1.Value());
+	Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
       if (SSI.IsNull()) continue;
       gk = SSI->GeometryType();
       gi = SSI->Geometry();

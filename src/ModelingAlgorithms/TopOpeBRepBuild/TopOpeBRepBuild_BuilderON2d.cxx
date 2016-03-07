@@ -80,8 +80,7 @@ void TopOpeBRepBuild_BuilderON::Perform2d
 	       {iit.Value()->Dump(cout);cout<<endl;}}
 #endif
 
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference itI(lFEI); itI.More(); itI.Next()){
-    const Handle(TopOpeBRepDS_Interference)& I = itI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : lFEI) {
     TopOpeBRepDS_Kind GT,ST;Standard_Integer GI,SI;FDS_data(I,GT,GI,ST,SI);
 
     const TopoDS_Edge& EG=TopoDS::Edge(BDS.Shape(GI));

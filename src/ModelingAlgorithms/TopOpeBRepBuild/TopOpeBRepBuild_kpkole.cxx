@@ -786,10 +786,9 @@ Standard_EXPORT Standard_Boolean FUNKP_KPiskolesh(const TopOpeBRepBuild_Builder&
   if ( nfhg != 0 ) {
     TopTools_ListIteratorOfListOfShape its(lfhg);
     for(; its.More(); its.Next()) {
-      TopOpeBRepDS_ListIteratorOfListOfInterference iti(BDS.ShapeInterferences(its.Value()));
-      for (;iti.More();iti.Next()) {
+      for (auto x : BDS.ShapeInterferences(its.Value())) {
 	Handle(TopOpeBRepDS_ShapeShapeInterference) ssi;
-	ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(iti.Value());
+	ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
 	if (ssi.IsNull()) {
 	  return Standard_False;
 	}

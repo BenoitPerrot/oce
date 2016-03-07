@@ -106,15 +106,17 @@ Standard_EXPORT Standard_Boolean FUNBREP_topokpart
 //-----------------------------------------------------------------------
 
 Standard_EXPORT Standard_Boolean FUN_GetGonParameter
-(TopOpeBRepDS_ListIteratorOfListOfInterference& it, const Standard_Real& par, const Standard_Real& tolp,
+(TopOpeBRepDS_ListOfInterference::const_iterator& it,
+ const TopOpeBRepDS_ListOfInterference::const_iterator& end, 
+ const Standard_Real& par, const Standard_Real& tolp,
  Standard_Integer& G, TopOpeBRepDS_Kind& GT)
 {
-  while (it.More()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  while (it != end) {
+      const Handle(TopOpeBRepDS_Interference)& I = (*it);
     Standard_Real ipar; Standard_Boolean haspar = FDS_Parameter(I,ipar);
-    if (!haspar) {it.Next(); continue;}
+    if (!haspar) {++it; continue;}
     Standard_Boolean samepar = (Abs(par-ipar) < tolp);
-    if (!samepar){it.Next(); continue;}
+    if (!samepar){++it; continue;}
     TopOpeBRepDS_Kind ST; Standard_Integer S; FDS_data(I,GT,G,ST,S);
     return Standard_True;
   }
@@ -215,23 +217,23 @@ static void FUN_VPgeometryfound
   const TopOpeBRepDS_DataStructure& BDS = HDS->DS();
   if (BDS.HasShape(edge)) {
     const TopOpeBRepDS_ListOfInterference& EPIL = BDS.ShapeInterferences(edge);
-    TopOpeBRepDS_ListIteratorOfListOfInterference itEPIL(EPIL);
-    EPIfound = FF.GetGeometry(itEPIL,VP,PVIndex,PVKind);
+    TopOpeBRepDS_ListOfInterference::const_iterator itEPIL(begin(EPIL));
+    EPIfound = FF.GetGeometry(itEPIL,end(EPIL),VP,PVIndex,PVKind);
     if (!EPIfound) {
-      itEPIL.Initialize(EPIL);
-      EPIfound = FUN_GetGonParameter(itEPIL,par,tolp,PVIndex,PVKind);
+      itEPIL = begin(EPIL);
+      EPIfound = FUN_GetGonParameter(itEPIL,end(EPIL),par,tolp,PVIndex,PVKind);
     }
-    if (EPIfound) IEPI = itEPIL.Value();
+    if (EPIfound) IEPI = (*itEPIL);
   }
 
-  TopOpeBRepDS_ListIteratorOfListOfInterference itCPIL(DSCIL);
+  TopOpeBRepDS_ListOfInterference::const_iterator itCPIL(begin(DSCIL));
 #ifdef OCCT_DEBUG
   Standard_Boolean trc = Standard_False;
   if (trc) {TopOpeBRepDS_Dumper DSD(HDS); TCollection_AsciiString aa("DSCIL :");
 	    DSD.DumpLOI(DSCIL,cout,aa);}
 #endif
-  CPIfound = FF.GetGeometry(itCPIL,VP,PVIndex,PVKind);
-  if (CPIfound) ICPI = itCPIL.Value();
+  CPIfound = FF.GetGeometry(itCPIL,end(DSCIL),VP,PVIndex,PVKind);
+  if (CPIfound) ICPI = (*itCPIL);
     
   // - <VP> is of shapeindex 3 : is on <edge> and <OOedge>,
   // - <VP> is of shapeindex <ShapeIndex> and <VP> is given ON another edge <OOedge>
@@ -256,13 +258,13 @@ static void FUN_VPgeometryfound
     Standard_Real OOtolp = Precision::Parametric(tolOOe);
     if (BDS.HasShape(OOedge)) {
       const TopOpeBRepDS_ListOfInterference& OOEPIL = BDS.ShapeInterferences(OOedge);
-      TopOpeBRepDS_ListIteratorOfListOfInterference OOitEPIL(OOEPIL);
-      OOEPIfound = FF.GetGeometry(OOitEPIL,VP,PVIndex,PVKind);
+      TopOpeBRepDS_ListOfInterference::const_iterator OOitEPIL(begin(OOEPIL));
+      OOEPIfound = FF.GetGeometry(OOitEPIL,end(OOEPIL),VP,PVIndex,PVKind);
       if (!OOEPIfound) {
-	OOitEPIL.Initialize(OOEPIL);
-	FUN_GetGonParameter(OOitEPIL,OOpar,OOtolp,PVIndex,PVKind);
+        OOitEPIL = begin(OOEPIL);
+	FUN_GetGonParameter(OOitEPIL,end(OOEPIL),OOpar,OOtolp,PVIndex,PVKind);
       }
-      if (OOEPIfound) IOOEPI = OOitEPIL.Value();
+      if (OOEPIfound) IOOEPI = *OOitEPIL;
     }
   }        
 }
@@ -486,12 +488,12 @@ static void FUN_ScanInterfList(const TopOpeBRepDS_Point& PDS, const Handle(TopOp
 {
   // looks among the list of interferences <loI> for interferences
   // of geometry falling into <PDS>, add them to <loIfound>
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(loI);
-  while ( it.More()) {
-    Standard_Boolean found = HDS->ScanInterfList(it,PDS);
+  TopOpeBRepDS_ListOfInterference::const_iterator it(begin(loI));
+  while (it != end(loI)) {
+    Standard_Boolean found = HDS->ScanInterfList(it,end(loI),PDS);
     if (found) {
-      loIfound.Append(it.Value());
-      if (it.More()) it.Next();
+      loIfound.push_back(*it);
+      if (it != end(loI)) ++it;
     }
     else return;
   }
@@ -501,48 +503,42 @@ static Standard_Boolean FUN_selectTRAISHAinterference(const TopOpeBRepDS_ListOfI
 					 TopOpeBRepDS_ListOfInterference& lITRAonISHA)
 // purpose : <lITRAonISHA> = {I = (T on ITRASHA,G,S)}
 {
-  lITRAonISHA.Clear();
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(lI);
-  for (; it.More(); it.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
+  lITRAonISHA.clear();
+  for (const Handle(TopOpeBRepDS_Interference)& I : lI) {
     const TopOpeBRepDS_Transition& T = I->Transition(); 
     Standard_Integer iTRASHA = T.Index();
 // BUG :
 //POP : pb  : comparaison entre 2 enum differentes : on prend la valeur correspondante 
     if (T.Orientation(TopAbs_IN) == TopAbs_EXTERNAL) continue; //xpu030998
 //    if (T.Orientation(TopAbs_IN) == TopAbs_UNKNOWN) continue; //xpu030998
-    if (iTRASHA == ITRASHA) lITRAonISHA.Append(I);
+    if (iTRASHA == ITRASHA) lITRAonISHA.push_back(I);
   }
-  Standard_Boolean noIfound = lITRAonISHA.IsEmpty();
+  Standard_Boolean noIfound = lITRAonISHA.empty();
   return !noIfound;
 }
 
 static Standard_Boolean FUN_selectGinterference(const TopOpeBRepDS_ListOfInterference& lI, const Standard_Integer G,
 				   TopOpeBRepDS_ListOfInterference& lIonG)
 {
-  lIonG.Clear();
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(lI);
-  for (; it.More(); it.Next()) {
-    const Handle(TopOpeBRepDS_Interference)& I = it.Value();
-    if (I->Geometry() == G) lIonG.Append(I);
+  lIonG.clear();
+  for (const Handle(TopOpeBRepDS_Interference)& I : lI) {
+    if (I->Geometry() == G) lIonG.push_back(I);
   }
-  Standard_Boolean noIfound = lIonG.IsEmpty();
+  Standard_Boolean noIfound = lIonG.empty();
   return !noIfound;  
 }
 
 static Standard_Boolean FUN_sameGsameS(const TopOpeBRepDS_ListOfInterference& loI, const Standard_Integer& G, const Standard_Integer& S,
 			  TopOpeBRepDS_ListOfInterference& loIfound)
 {
-  loIfound.Clear();
+  loIfound.clear();
   // Gets among the list <loI> the interferences of :
   //  geometry <G>, and support <S>
-  TopOpeBRepDS_PointIterator PI(loI);   
-  for (; PI.More(); PI.Next()) {
-    Handle(TopOpeBRepDS_Interference) EPI = PI.Value();    
-    Standard_Integer GEPI = EPI->Geometry(); Standard_Integer SEPI = EPI->Support();      
-    if (GEPI == G && SEPI == S) loIfound.Append(EPI);
+  for (Handle(TopOpeBRepDS_Interference) EPI : loI) {
+    Standard_Integer GEPI = EPI->Geometry(); Standard_Integer SEPI = EPI->Support();
+    if (GEPI == G && SEPI == S) loIfound.push_back(EPI);
   }
-  return (loIfound.Extent() > 0);
+  return !loIfound.empty();
 }
 
 //-----------------------------------------------------------------------
@@ -572,8 +568,8 @@ static void FUN_processCPI
   
   // xpu010299 : we do not keep interferences with same parameters on curve 
   //             PRO16120(f3,f4 -> null c1)
-  if (!DSCIL.IsEmpty()) {
-    Standard_Real par = FDS_Parameter(DSCIL.Last()); // parameter on curve
+  if (!DSCIL.empty()) {
+    Standard_Real par = FDS_Parameter(DSCIL.back()); // parameter on curve
     Standard_Real dd = Abs(par-parline); // en fait, ce sont des entiers
     if (dd == 0) return;
   }
@@ -721,15 +717,15 @@ void TopOpeBRep_FacesFiller::ProcessVPonR
   // lasttransLine (for walking line)
   // -------------
   // set lasttransLine for a WALKING line
-  Standard_Boolean dscilempty = myDSCIL.IsEmpty();
+  Standard_Boolean dscilempty = myDSCIL.empty();
   Standard_Boolean setlastonwl = wline && !dscilempty;
   if (setlastonwl) { //xpu171198, FRA61896 (f7,f13-> null DSC1)
     Standard_Real parline = VP.ParameterOnLine();
-    Standard_Real par = FDS_Parameter(myDSCIL.Last()); // parameter on curve
+    Standard_Real par = FDS_Parameter(myDSCIL.back()); // parameter on curve
     Standard_Real dd = Abs(par-parline); // en fait, ce sont des entiers
     if (dd == 0) setlastonwl=Standard_False;
   }
-  TopOpeBRepDS_Transition lasttransLine; if (setlastonwl) lasttransLine = myDSCIL.Last()->Transition();
+  TopOpeBRepDS_Transition lasttransLine; if (setlastonwl) lasttransLine = myDSCIL.back()->Transition();
   
   // edgeori, transLine
   // ------------------
@@ -878,7 +874,7 @@ void TopOpeBRep_FacesFiller::ProcessVPonR
     if (found) { 
       // Getting first transition found
       // prequesitory : transition on edge / <OOF> on same geometry point is unchanged
-      TopOpeBRepDS_Transition Tr = lITOOFonVP.First()->Transition();
+      TopOpeBRepDS_Transition Tr = lITOOFonVP.front()->Transition();
       transEdge.Before(Tr.Before()); transEdge.After(Tr.After());
     }
     if (newtransEdge) {

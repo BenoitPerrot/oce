@@ -17,6 +17,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_MapOfShapeData.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
@@ -37,11 +38,9 @@ class TopOpeBRepDS_Curve;
 class TopOpeBRepDS_Point;
 class TopoDS_Shape;
 class TopoDS_Edge;
-class TopOpeBRepDS_ListOfInterference;
 class TopTools_ListOfShape;
 class TopOpeBRepDS_MapOfShapeData;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 class TopOpeBRepDS_IndexedDataMapOfShapeWithState;
 class TopOpeBRepDS_ShapeWithState;
 class TopTools_IndexedMapOfShape;
@@ -293,7 +292,6 @@ protected:
 private:
 
   
-  Standard_EXPORT   Standard_Boolean FindInterference (TopOpeBRepDS_ListIteratorOfListOfInterference& IT, const Handle(TopOpeBRepDS_Interference)& I)  const;
 
 
   Standard_Integer myNbSurfaces;

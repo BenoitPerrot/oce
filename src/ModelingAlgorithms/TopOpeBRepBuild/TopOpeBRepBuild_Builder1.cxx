@@ -1043,9 +1043,7 @@ void TopOpeBRepBuild_Builder1::PerformONParts(const TopoDS_Shape& FOR1,
   }
 
   //3 Process parts that can not be found on SD faces but must be included because they are ON the SD faces
-  const TopOpeBRepDS_ListOfInterference& LI = myDataStructure -> DS().ShapeInterferences(FOR1); 
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference ILI(LI);ILI.More();ILI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& I=ILI.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& I : myDataStructure->DS().ShapeInterferences(FOR1)) {
     Handle(TopOpeBRepDS_ShapeShapeInterference) SSI
       = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
 

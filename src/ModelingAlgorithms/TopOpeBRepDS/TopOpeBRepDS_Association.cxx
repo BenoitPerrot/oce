@@ -37,8 +37,8 @@ IMPLEMENT_STANDARD_RTTI(TopOpeBRepDS_Association)
 static Standard_Boolean Contains (const TopOpeBRepDS_ListOfInterference& LI,
 				  const Handle(TopOpeBRepDS_Interference)& I)
 {
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference it(LI); it.More(); it.Next()) {
-    if (I->HasSameGeometry(it.Value())) return 1;
+  for (auto i : LI) {
+    if (I->HasSameGeometry(i)) return 1;
   }
   return 0;
 }
@@ -65,18 +65,18 @@ void TopOpeBRepDS_Association::Associate(const Handle(TopOpeBRepDS_Interference)
   if (!myMap.IsBound(I)) {
     TopOpeBRepDS_ListOfInterference empty;
     myMap.Bind(I,empty);
-    myMap(I).Append(K);
+    myMap(I).push_back(K);
   }
   else if (!Contains(myMap(I),K)) {
-    myMap(I).Append(K);
+    myMap(I).push_back(K);
   }
   if (!myMap.IsBound(K)) {
     TopOpeBRepDS_ListOfInterference empty;
     myMap.Bind(K,empty);
-    myMap(K).Append(I);
+    myMap(K).push_back(I);
   }
   else if (!Contains(myMap(K),I)) {
-    myMap(K).Append(I);
+    myMap(K).push_back(I);
   }
 }
 
@@ -89,8 +89,8 @@ void TopOpeBRepDS_Association::Associate(const Handle(TopOpeBRepDS_Interference)
 void TopOpeBRepDS_Association::Associate(const Handle(TopOpeBRepDS_Interference)& I,
 					 const TopOpeBRepDS_ListOfInterference& LI) 
 {  
-  for (TopOpeBRepDS_ListIteratorOfListOfInterference it(LI); it.More(); it.Next()) {
-    Associate(I,it.Value());
+  for (auto i : LI) {
+    Associate(I,i);
   }
 }
 

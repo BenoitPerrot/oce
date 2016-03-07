@@ -57,7 +57,9 @@ void BREP_mergePDS(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
   for (;cex.More();cex.Next()) {
     
     const TopOpeBRepDS_Curve& c = cex.Curve(); const Standard_Integer ic = cex.Index();
-    TopOpeBRepDS_ListIteratorOfListOfInterference itI;itI.Initialize(BDS.ChangeCurveInterferences(ic));if (!itI.More()) continue;
+    auto L = BDS.ChangeCurveInterferences(ic);
+    TopOpeBRepDS_ListIteratorOfListOfInterference itI(begin(L));
+    if (itI == L.end()) continue;
     
     const TopoDS_Face& f1 = TopoDS::Face(c.Shape1());
 #ifdef OCCT_DEBUG
@@ -73,8 +75,8 @@ void BREP_mergePDS(const Handle(TopOpeBRepDS_HDataStructure)& HDS)
     Mvp1.Clear();BREP_makeIDMOVP(f1,Mvp1);
     Mvp2.Clear();BREP_makeIDMOVP(f2,Mvp2);
     
-    for (; itI.More(); itI.Next()) {
-      Handle(TopOpeBRepDS_Interference) ITF = itI.Value();
+    for (; itI != L.end(); ++itI) {
+      Handle(TopOpeBRepDS_Interference) ITF = (*itI);
       Handle(TopOpeBRepDS_CurvePointInterference) CPI = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(ITF); if (CPI.IsNull()) continue;
       TopOpeBRepDS_Kind GK = CPI->GeometryType(); if (GK != TopOpeBRepDS_POINT) continue;
       Standard_Integer GI = CPI->Geometry();

@@ -240,7 +240,7 @@ Standard_Boolean FUNBREP_topowalki_new
   Standard_Integer iINON1,iINONn,nINON; L.VPBounds(iINON1,iINONn,nINON);
   Standard_Boolean onsort = (transLine.Orientation(TopAbs_OUT) == TopAbs_FORWARD);
 
-  Standard_Boolean LITdefinie = DSCIL.IsEmpty()? Standard_False: !DSCIL.Last()->Transition().IsUnknown();
+  Standard_Boolean LITdefinie = DSCIL.empty()? Standard_False: !DSCIL.back()->Transition().IsUnknown();
 
   // dealing with INTERNAL/EXTERNAL <E> :
   // ------------------------------------
@@ -265,7 +265,7 @@ Standard_Boolean FUNBREP_topowalki_new
   Standard_Boolean keep = Standard_True;
   if  (LITdefinie) {
 
-    Handle(TopOpeBRepDS_Interference) I = DSCIL.Last();
+    Handle(TopOpeBRepDS_Interference) I = DSCIL.back();
     TopOpeBRepDS_Transition LIT = I->Transition();
     Standard_Boolean LITonsort = M_FORWARD( LIT.Orientation(TopAbs_OUT) );
     Standard_Boolean LprecIsEntrant = !LITonsort;
@@ -291,7 +291,7 @@ Standard_Boolean FUNBREP_topowalki_new
       //                  lastonentre && onsort, 
       //                  first VP is first walking point (PIfound == 1.0),
       //                  current VP is the second one on walking and not the last.
-      const Handle(TopOpeBRepDS_Interference)& I = DSCIL.First();     
+      const Handle(TopOpeBRepDS_Interference)& I = DSCIL.front();     
       const TopOpeBRepDS_Transition& lasttransLine = I->Transition();
       // xpu12-12-97 : line is built on only 2 vp,
       //  DSCIL->First() == DSCIL->Last()          
@@ -373,9 +373,9 @@ Standard_Boolean FUNBREP_topowalki
   Standard_Boolean LITonsort = Standard_False;
   TopOpeBRepDS_Transition LIT;
   Handle(TopOpeBRepDS_Interference) I;
-  Standard_Boolean nointerf = DSCIL.IsEmpty();
+  Standard_Boolean nointerf = DSCIL.empty();
   if (!nointerf) {
-    I = DSCIL.Last();
+    I = DSCIL.back();
     LIT = I->Transition();
     LITdefinie = ! LIT.IsUnknown();
     if (LITdefinie) LITonsort = (LIT.Orientation(TopAbs_OUT) == TopAbs_FORWARD);
@@ -514,7 +514,7 @@ Standard_Boolean FUNBREP_topogline_new
   // the line is described with (VPmin,VPmax) boundaries.
   // if VP == VPmax, as we are only regarding IN/OUT transitions->ok
   // if VP == VPmin :
-  Standard_Boolean dscilempty = DSCIL.IsEmpty();
+  Standard_Boolean dscilempty = DSCIL.empty();
   Standard_Boolean notkept = !dscilempty && (iVP == 1);
   if (notkept) return Standard_False;
 
@@ -527,7 +527,7 @@ Standard_Boolean FUNBREP_topogline_new
   Handle(TopOpeBRepDS_Interference) I;
   Standard_Boolean LITdefinie,LITonsort; LITdefinie = LITonsort = Standard_False;
   if ( !dscilempty ) {
-    I = DSCIL.Last();
+    I = DSCIL.back();
     LIT = I->Transition();
     LITdefinie = ! LIT.IsUnknown();
     if (LITdefinie) LITonsort = M_FORWARD( LIT.Orientation(TopAbs_OUT) );
@@ -587,7 +587,7 @@ Standard_Boolean FUNBREP_topogline_new
 
       // we have to parametrize the found interference (parameter PIfound)
       // and next interference (parline)
-      Handle(TopOpeBRepDS_Interference) Ifound = DSCIL.First();
+      Handle(TopOpeBRepDS_Interference) Ifound = DSCIL.front();
       Standard_Real PIfound = TopOpeBRepDS_InterferenceTool::Parameter(Ifound);
       FUNBREP_Periodize(L,Ifound,PIfound,parline);
       TopOpeBRepDS_InterferenceTool::Parameter(Ifound,PIfound);      
@@ -644,7 +644,7 @@ static Standard_Boolean FUNBREP_topogline
   Standard_Boolean LITonsort = Standard_False;
   TopOpeBRepDS_Transition LIT;
   Handle(TopOpeBRepDS_Interference) I;
-  Standard_Boolean dscilempty = DSCIL.IsEmpty();
+  Standard_Boolean dscilempty = DSCIL.empty();
 
   // xpu : 28-05-97 : if VP<iVP> is on 3 and 
   // VP on 1 has transition OUT/IN, VP on 2 has transition IN/OUT,
@@ -659,7 +659,7 @@ static Standard_Boolean FUNBREP_topogline
   }// 28-05-97 : xpu
 
   if ( !dscilempty ) {
-    I = DSCIL.Last();
+    I = DSCIL.back();
     LIT = I->Transition();
     LITdefinie = ! LIT.IsUnknown();
     if (LITdefinie) LITonsort = (LIT.Orientation(TopAbs_OUT) == TopAbs_FORWARD);
@@ -777,7 +777,7 @@ Standard_EXPORT Standard_Boolean FUNBREP_topokpart
   else           samepar = CPIfound ? TopoParameter(L,Ifound,parline,couture) : Standard_False;
 
   TopOpeBRepDS_Transition lasttransLine;
-  if (!DSCIL.IsEmpty()) lasttransLine = DSCIL.Last()->Transition(); // xpu12-12-97
+  if (!DSCIL.empty()) lasttransLine = DSCIL.back()->Transition(); // xpu12-12-97
 #ifdef OCCT_DEBUG
   if (TopOpeBRepDS_GettraceDSF()) {
     FUNBREP_topokpartDEB(Ifound,DSCIL,L,VP,lasttransLine,BDS,E,F,toluv,

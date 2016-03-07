@@ -21,16 +21,17 @@
 
 typedef TopOpeBRepDS_ListOfInterference* BOA_t;
 
+#warning ugly
 static int compll(const void* v1, const void* v2) {
   BOA_t l1 = *(BOA_t*)v1;
   BOA_t l2 = *(BOA_t*)v2;
-  if      (l1->Extent() == 0) return (0);
-  else if (l2->Extent() == 0) return (0);
+  if      (l1->size() == 0) return (0);
+  else if (l2->size() == 0) return (0);
 
-  Handle(TopOpeBRepDS_CurvePointInterference) i1 = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(l1->First());
+  Handle(TopOpeBRepDS_CurvePointInterference) i1 = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(l1->front());
   if (i1.IsNull())
     return 0;
-  Handle(TopOpeBRepDS_CurvePointInterference) i2 = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(l2->First());
+  Handle(TopOpeBRepDS_CurvePointInterference) i2 = Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(l2->front());
   if (i2.IsNull())
     return 0;
   Standard_Real p1 = i1->Parameter();
@@ -55,11 +56,11 @@ static void BREP_sortonparameter2(TopOpeBRepDS_ListOfInterference& LOI)
   for(tki.Init();tki.More();tki.Next(),j++)
     T[j]= &(tki.ChangeValue(K,G));
   qsort(T,sng,sad,compll);
-  LOI.Clear();
+  LOI.clear();
   for(j=0;j<ng;j++)
   {
     TopOpeBRepDS_ListOfInterference& l=*T[j];
-    LOI.Append(l);
+    LOI.insert(end(LOI), begin(l), end(l));
   }
   Standard::Free(T);
 }

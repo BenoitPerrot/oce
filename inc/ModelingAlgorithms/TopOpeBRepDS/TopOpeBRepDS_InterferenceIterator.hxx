@@ -10,14 +10,13 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Kind.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
-class TopOpeBRepDS_ListOfInterference;
 class TopOpeBRepDS_Interference;
-class TopOpeBRepDS_ListIteratorOfListOfInterference;
 
 
 //! Iterate  on  interferences  of  a  list,  matching
@@ -98,6 +97,7 @@ private:
 
 
   TopOpeBRepDS_ListIteratorOfListOfInterference myIterator;
+  TopOpeBRepDS_ListIteratorOfListOfInterference myEnd;
   Standard_Boolean myGKDef;
   TopOpeBRepDS_Kind myGK;
   Standard_Boolean myGDef;

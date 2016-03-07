@@ -1956,9 +1956,7 @@ static Standard_Boolean
     typepetit =  TopOpeBRepDS_VERTEX;
   else
     typepetit =  TopOpeBRepDS_POINT;
-  TopOpeBRepDS_ListIteratorOfListOfInterference itLI(LI);
-  for (; itLI.More(); itLI.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& cur = itLI.Value(); 
+  for (const Handle(TopOpeBRepDS_Interference)& cur : LI) {
     TopOpeBRepDS_Kind GK;
     TopOpeBRepDS_Kind SK;
     Standard_Integer S;
@@ -2005,9 +2003,7 @@ static void QueryAddVertexInEdge(TopOpeBRepDS_ListOfInterference& LI,
 				 const Standard_Real                    par,
 				 const TopAbs_Orientation               Or)
 {
-  TopOpeBRepDS_ListIteratorOfListOfInterference it(LI);
-  for (; it.More(); it.Next() ) {
-    const Handle(TopOpeBRepDS_Interference)& cur = it.Value();
+  for (const Handle(TopOpeBRepDS_Interference)& cur : LI) {
     const Handle(TopOpeBRepDS_CurvePointInterference)& cpi = 
       Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(cur);
     if(!cpi.IsNull()) {
@@ -2023,7 +2019,7 @@ static void QueryAddVertexInEdge(TopOpeBRepDS_ListOfInterference& LI,
   }
   Handle(TopOpeBRepDS_CurvePointInterference) interf = 
     ChFi3d_FilVertexInDS(Or,IC,IV,par);
-  LI.Append(interf);
+  LI.push_back(interf);
 }
 
 //=======================================================================
@@ -2070,15 +2066,13 @@ static Standard_Boolean
 
   TopOpeBRepDS_ListIteratorOfListOfInterference SCIIt, CPIIt;
   
-  SCIIt.Initialize (DStr.SurfaceInterferences(Fd->Surf()));
-  for (; SCIIt.More(); SCIIt.Next()) {
+  for (auto x : DStr.SurfaceInterferences(Fd->Surf())) {
     Handle(TopOpeBRepDS_SurfaceCurveInterference) SCI =
-      Handle(TopOpeBRepDS_SurfaceCurveInterference)::DownCast(SCIIt.Value());
+      Handle(TopOpeBRepDS_SurfaceCurveInterference)::DownCast(x);
     if (SCI.IsNull()) continue;
-    CPIIt.Initialize (DStr.CurveInterferences(SCI->Geometry()));
-    for (; CPIIt.More(); CPIIt.Next()) {
+    for (auto y : DStr.CurveInterferences(SCI->Geometry())) {
       Handle(TopOpeBRepDS_CurvePointInterference) CPI =
-	Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(CPIIt.Value());
+	Handle(TopOpeBRepDS_CurvePointInterference)::DownCast(y);
       if (CPI.IsNull()) continue;
       Standard_Integer iPoint = CPI->Geometry();
       TopOpeBRepDS_Point tp = DStr.Point(iPoint);
@@ -2200,7 +2194,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	 TopOpeBRepDS_SURFACE,
 	 Isurf);
     
-    SolidInterfs.Append(SSI);
+    SolidInterfs.push_back(SSI);
     
     const ChFiDS_FaceInterference& Fi1 = Fd->InterferenceOnS1();
     const ChFiDS_FaceInterference& Fi2 = Fd->InterferenceOnS2();     
@@ -2216,7 +2210,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    (V1.TransitionOnArc() != V3.TransitionOnArc()) ) {
 	  Interfp1= ChFi3d_FilPointInDS(V1.TransitionOnArc(),Iarc1,Ipoin1,
 					V1.ParameterOnArc());
-	  DStr.ChangeShapeInterferences(V1.Arc()).Append(Interfp1);
+	  DStr.ChangeShapeInterferences(V1.Arc()).push_back(Interfp1);
 	}
       }
 
@@ -2227,7 +2221,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    (V2.TransitionOnArc() != V4.TransitionOnArc()) ) {
 	  Interfp2= ChFi3d_FilPointInDS(V2.TransitionOnArc(),Iarc2,Ipoin2,
 					V2.ParameterOnArc());
-	  DStr.ChangeShapeInterferences(V2.Arc()).Append(Interfp2);
+	  DStr.ChangeShapeInterferences(V2.Arc()).push_back(Interfp2);
 	}
       }
     }
@@ -2310,7 +2304,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	   Standard_Real parVtx = BRep_Tool::Parameter(BoutdeVtx,Arcspine);
 	   Handle(TopOpeBRepDS_CurvePointInterference) 
 	     interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-	   DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+	   DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
 	 }
        }
       else {
@@ -2319,7 +2313,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	  if ( !ChFi3d_Contains(DStr.ShapeInterferences(Iarc1),Iarc1,Ipoin1) ) {
 	    Interfp1= ChFi3d_FilPointInDS(V1.TransitionOnArc(),Iarc1,Ipoin1,
 					  V1.ParameterOnArc(), isVertex1);
-	    DStr.ChangeShapeInterferences(V1.Arc()).Append(Interfp1);
+	    DStr.ChangeShapeInterferences(V1.Arc()).push_back(Interfp1);
 	  }
 	}
 
@@ -2328,7 +2322,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	  if ( !ChFi3d_Contains(DStr.ShapeInterferences(Iarc2),Iarc2,Ipoin2) ) {
 	    Interfp2= ChFi3d_FilPointInDS(V2.TransitionOnArc(),Iarc2,Ipoin2,
 					  V2.ParameterOnArc(),isVertex2);
-	    DStr.ChangeShapeInterferences(V2.Arc()).Append(Interfp2);
+	    DStr.ChangeShapeInterferences(V2.Arc()).push_back(Interfp2);
 	  }
 	}
       }
@@ -2344,7 +2338,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	CorDat->FirstParameters(Pardeb,Parfin);
 	
 	TopOpeBRepDS_ListOfInterference& Li = DStr.ChangeCurveInterferences(Icurv);
-	if (Li.IsEmpty()) {
+	if (Li.empty()) {
 	  if(CorDat->FirstPCurveOrientation()==TopAbs_REVERSED) {
 	    Interfp1=ChFi3d_FilPointInDS
 	      (TopAbs_REVERSED,Icurv,Ipoin1,Parfin,isVertex1);
@@ -2357,11 +2351,11 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    Interfp2=ChFi3d_FilPointInDS
 	      (TopAbs_REVERSED,Icurv,Ipoin2,Parfin,isVertex2);
 	  }
-	  Li.Append(Interfp1);
-	  Li.Append(Interfp2);
+	  Li.push_back(Interfp1);
+	  Li.push_back(Interfp2);
 	}
 	Interfc1= ChFi3d_FilCurveInDS (Icurv,Isurf,PCurv,ET1);
-	DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc1);
+	DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc1);
         if (Ipoin1 == Ipoin2) {
 	  TopOpeBRepDS_Curve& TCurv = DStr.ChangeCurve(Icurv);
 	  TCurv.ChangeCurve().Nullify();
@@ -2393,7 +2387,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
           Standard_Real parVtx = BRep_Tool::Parameter(BoutdeVtx,Arcspine);
           Handle(TopOpeBRepDS_CurvePointInterference) 
             interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-          DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+          DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
         } // End of the removal
 
         gp_Pnt2d UV1 = Fd->InterferenceOnS1().PCurveOnSurf()->
@@ -2405,7 +2399,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
           // pcurve is associated via SCI to TopOpeBRepDSCurve.
           ChFi3d_ComputePCurv(UV1,UV2,PCurv,Pardeb,Parfin);       
           Interfc1= ChFi3d_FilCurveInDS (Icurv,Isurf,PCurv,ET1);
-          DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc1);
+          DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc1);
           TCurv.ChangeCurve().Nullify();
           Handle(TopOpeBRepDS_Interference) bidinterf;
           TCurv.SetSCI(Interfc1,bidinterf);           
@@ -2419,7 +2413,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
                               Pardeb,Parfin,tol3d,tolreached);
           TCurv.Tolerance(Max(TCurv.Tolerance(),tolreached));
           Interfc1= ChFi3d_FilCurveInDS (Icurv,Isurf,PCurv,ET1);
-          DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc1);
+          DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc1);
         }
       }
     } // End of Interference between fillets 
@@ -2430,7 +2424,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
     if (IcFil1!=0 ) {
       Interfc3= ChFi3d_FilCurveInDS (IcFil1,Isurf,
 				     Fi1.PCurveOnSurf(),trafil1);
-      DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc3);
+      DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc3);
       Ishape1 = Fd->IndexOfS1();
       // Case of degenerated edge : pcurve is associated via SCI 
       // to TopOpeBRepDSCurve.
@@ -2448,13 +2442,13 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	  regon1.SetS2(Ishape1,Standard_False);
 	  Interfc1=ChFi3d_FilCurveInDS(IcFil1,Ishape1,Fi1.PCurveOnFace(),
 				       Fi1.Transition()); 
-	  DStr.ChangeSurfaceInterferences(Ishape1).Append(Interfc1);      
+	  DStr.ChangeSurfaceInterferences(Ishape1).push_back(Interfc1);      
 	}
 	else if ( Ishape1 > 0 ) {
 	  regon1.SetS2(Ishape1,Standard_True);
 	  Interfc1=ChFi3d_FilCurveInDS(IcFil1,Ishape1,Fi1.PCurveOnFace(),
 				       Fi1.Transition()); 
-	  DStr.ChangeShapeInterferences(Ishape1).Append(Interfc1);      
+	  DStr.ChangeShapeInterferences(Ishape1).push_back(Interfc1);      
 	}
 	reglist.push_back(regon1);
       }
@@ -2497,12 +2491,12 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	
 	Interfp1 = ChFi3d_FilPointInDS(TopAbs_FORWARD,IcFil1,Ipoin1,
 				       Fi1.FirstParameter(),isVertex1);
-	DStr.ChangeCurveInterferences(IcFil1).Append(Interfp1);
+	DStr.ChangeCurveInterferences(IcFil1).push_back(Interfp1);
       }
       if (ipoin == Ipoin1 || !ChFi3d_Contains(Li,IcFil1,ipoin)) { 
 	Interfp3 = ChFi3d_FilPointInDS(TopAbs_REVERSED,IcFil1,ipoin,
 				       Fi1.LastParameter(), isVertex);
-	DStr.ChangeCurveInterferences(IcFil1).Append(Interfp3);
+	DStr.ChangeCurveInterferences(IcFil1).push_back(Interfp3);
       }
       Ipoin1 = ipoin;
       isVertex1 = isVertex;
@@ -2512,7 +2506,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
     if (IcFil2!=0) {
       Interfc4=ChFi3d_FilCurveInDS(IcFil2,Isurf,
 				   Fi2.PCurveOnSurf(),trafil2);
-      DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc4);
+      DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc4);
       Ishape2 = Fd->IndexOfS2();
       // Case of degenerated edge : pcurve is associated via SCI 
       // to TopOpeBRepDSCurve.
@@ -2530,13 +2524,13 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	  regon2.SetS2(Ishape2,Standard_False);
 	  Interfc2=ChFi3d_FilCurveInDS(IcFil2,Ishape2,Fi2.PCurveOnFace(),
 				       Fi2.Transition());
-	  DStr.ChangeSurfaceInterferences(Ishape2).Append(Interfc2);      
+	  DStr.ChangeSurfaceInterferences(Ishape2).push_back(Interfc2);      
 	}
 	else if ( Ishape2 > 0 ) {
 	  regon2.SetS2(Ishape2,Standard_True);
 	  Interfc2=ChFi3d_FilCurveInDS(IcFil2,Ishape2,Fi2.PCurveOnFace(),
 				       Fi2.Transition());
-	  DStr.ChangeShapeInterferences(Ishape2).Append(Interfc2);      
+	  DStr.ChangeShapeInterferences(Ishape2).push_back(Interfc2);      
 	}
 	reglist.push_back(regon2);
       }
@@ -2583,12 +2577,12 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
       if (!ChFi3d_Contains(Li,IcFil2,Ipoin2)) { 
 	Interfp2 = ChFi3d_FilPointInDS(TopAbs_FORWARD,IcFil2,Ipoin2,
 				       Fi2.FirstParameter(), isVertex2);
-	DStr.ChangeCurveInterferences(IcFil2).Append(Interfp2);
+	DStr.ChangeCurveInterferences(IcFil2).push_back(Interfp2);
       }
       if (ipoin == Ipoin2 || !ChFi3d_Contains(Li,IcFil2,ipoin)) { 
 	Interfp4= ChFi3d_FilPointInDS(TopAbs_REVERSED,IcFil2,ipoin,
 				      Fi2.LastParameter(), isVertex );
-	DStr.ChangeCurveInterferences(IcFil2).Append(Interfp4);
+	DStr.ChangeCurveInterferences(IcFil2).push_back(Interfp4);
       }
       Ipoin2 = ipoin;
       isVertex2 = isVertex;      
@@ -2606,7 +2600,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	ET1 = TopAbs::Compose(ET1,CorDat->LastPCurveOrientation());
 	CorDat->LastParameters(Pardeb,Parfin);
 	TopOpeBRepDS_ListOfInterference& Li = DStr.ChangeCurveInterferences(Icurv);
-	if (Li.IsEmpty()) {
+	if (Li.empty()) {
 	  if(CorDat->LastPCurveOrientation()==TopAbs_REVERSED) {
 	    Interfp5=ChFi3d_FilPointInDS
 	      (TopAbs_REVERSED,Icurv,Ipoin1,Parfin, isVertex1);
@@ -2619,11 +2613,11 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    Interfp6=ChFi3d_FilPointInDS
 	      (TopAbs_REVERSED,Icurv,Ipoin2,Parfin, isVertex2);
 	  }
-	  Li.Append(Interfp5);
-	  Li.Append(Interfp6);
+	  Li.push_back(Interfp5);
+	  Li.push_back(Interfp6);
 	}
 	Interfc1= ChFi3d_FilCurveInDS(Icurv,Isurf,PCurv,ET1);
-	DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc1);
+	DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc1);
         if (Ipoin1 == Ipoin2) {
 	  TopOpeBRepDS_Curve& TCurv = DStr.ChangeCurve(Icurv);
 	  TCurv.ChangeCurve().Nullify();
@@ -2656,11 +2650,11 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
         regfilfil.SetCurve(Icurv);
         regfilfil.SetS1(Isurf,Standard_False);
         Interfp5 = ChFi3d_FilPointInDS(TopAbs_FORWARD,Icurv,Ipoin1,Pardeb, isVertex1);
-        DStr.ChangeCurveInterferences(Icurv).Append(Interfp5);
+        DStr.ChangeCurveInterferences(Icurv).push_back(Interfp5);
         Interfp6= ChFi3d_FilPointInDS(TopAbs_REVERSED,Icurv,Ipoin2,Parfin, isVertex2);
-        DStr.ChangeCurveInterferences(Icurv).Append(Interfp6);
+        DStr.ChangeCurveInterferences(Icurv).push_back(Interfp6);
         Interfc1= ChFi3d_FilCurveInDS(Icurv,Isurf,PCurv,ET1);
-        DStr.ChangeSurfaceInterferences(Isurf).Append(Interfc1);      
+        DStr.ChangeSurfaceInterferences(Isurf).push_back(Interfc1);      
       }
     }
    
@@ -2703,7 +2697,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	Standard_Real parVtx = BRep_Tool::Parameter(BoutdeVtx,Arcspine);
 	Handle(TopOpeBRepDS_CurvePointInterference) 
 	  interfv = ChFi3d_FilVertexInDS(OVtx,IArcspine,IVtx,parVtx);
-	DStr.ChangeShapeInterferences(IArcspine).Append(interfv);
+	DStr.ChangeShapeInterferences(IArcspine).push_back(interfv);
       }
     } // end of degenerated case
     else if (!(Closed && j == SeqFil.Length())) {
@@ -2715,7 +2709,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    Handle(TopOpeBRepDS_CurvePointInterference) Interfpp = 
 	      ChFi3d_FilPointInDS(V3.TransitionOnArc(),
 				  Iarc1,Ipoin1,V3.ParameterOnArc(), V3.IsVertex());
-	    DStr.ChangeShapeInterferences(V3.Arc()).Append(Interfpp);
+	    DStr.ChangeShapeInterferences(V3.Arc()).push_back(Interfpp);
 	  }
 	}
       }
@@ -2727,7 +2721,7 @@ void  ChFi3d_FilDS(const Standard_Integer       SolidIndex,
 	    Handle(TopOpeBRepDS_CurvePointInterference) Intfpp=
 	      ChFi3d_FilPointInDS(V4.TransitionOnArc(),
 				  Iarc2,Ipoin2,V4.ParameterOnArc(), V4.IsVertex());
-	    DStr.ChangeShapeInterferences(V4.Arc()).Append(Intfpp);
+	    DStr.ChangeShapeInterferences(V4.Arc()).push_back(Intfpp);
 	  }
 	}
       }
