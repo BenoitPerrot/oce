@@ -298,7 +298,7 @@ void BSplCLib::LocateParameter
  Standard_Real&                 NewU) 
 {
   Standard_Integer first,last;
-  if (!IS_NULL_REF(Mults)) {
+  if (&Mults) {
     if (Periodic) {
       first = Knots.Lower();
       last  = Knots.Upper();
@@ -1434,7 +1434,7 @@ void BSplCLib::BuildKnots(const Standard_Integer         Degree,
   const Standard_Real * pkn = &Knots(KLower);
   pkn -= KLower;
   Standard_Real *knot = &LK;
-  if (IS_NULL_REF(Mults)) {
+  if (&Mults == NULL) {
     switch (Degree) {
     case 1 : {
       Standard_Integer j = Index    ;
@@ -1672,7 +1672,7 @@ Standard_Boolean  BSplCLib::PrepareInsertKnots
  const Standard_Real            Tolerance,
  const Standard_Boolean         Add)
 {
-  Standard_Boolean addflat = IS_NULL_REF(AddMults);
+  Standard_Boolean addflat = &AddMults == NULL;
   
   Standard_Integer first,last;
   if (Periodic) {
@@ -1856,7 +1856,7 @@ void BSplCLib::InsertKnots
  const Standard_Real            Tolerance,
  const Standard_Boolean         Add)
 {
-  Standard_Boolean addflat  = IS_NULL_REF(AddMults);
+  Standard_Boolean addflat  = &AddMults == NULL;
   
   Standard_Integer i,k,mult,firstmult;
   Standard_Integer index,kn,curnk,curk;
@@ -3902,7 +3902,7 @@ void BSplCLib::Resolution(      Standard_Real&        Poles,
   num_poles = FlatKnots.Length() - Deg1;
   switch (ArrayDimension) {
   case 2 : {
-    if (!IS_NULL_REF(Weights)) {
+    if (&Weights != NULL) {
       const Standard_Real * WG = &Weights(Weights.Lower());
       min_weights = WG[0];
       
@@ -3970,7 +3970,7 @@ void BSplCLib::Resolution(      Standard_Real&        Poles,
     break;
   }
   case 3 : {
-    if (!IS_NULL_REF(Weights)) {
+    if (&Weights != NULL) {
       const Standard_Real * WG = &Weights(Weights.Lower());
       min_weights = WG[0];
       
@@ -4047,7 +4047,7 @@ void BSplCLib::Resolution(      Standard_Real&        Poles,
     break;
   }
   case 4 : {
-    if (!IS_NULL_REF(Weights)) {
+    if (&Weights != NULL) {
       const Standard_Real * WG = &Weights(Weights.Lower());
       min_weights = WG[0];
       
@@ -4134,7 +4134,7 @@ void BSplCLib::Resolution(      Standard_Real&        Poles,
   }
     default : {
       Standard_Integer kk;
-      if (!IS_NULL_REF(Weights)) {
+      if (&Weights != NULL) {
 	const Standard_Real * WG = &Weights(Weights.Lower());
 	min_weights = WG[0];
 	
