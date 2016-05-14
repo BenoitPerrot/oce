@@ -347,7 +347,7 @@ void TopOpeBRepTool_ShapeClassifier::Perform()
     // rejet des aretes de myPAvLS comme arete de classification
     // (le rejet simple de myPAvLS est insuffisant (connexite))
     myMapAvS.Clear();
-    TopAbs_ShapeEnum tAvS = myPAvLS->First().ShapeType();
+    TopAbs_ShapeEnum tAvS = myPAvLS->front().ShapeType();
     if ( tAvS == TopAbs_FACE ) {
       TopTools_ListIteratorOfListOfShape it((*myPAvLS));
       for (; it.More(); it.Next() ) {
@@ -666,7 +666,7 @@ const gp_Pnt2d& TopOpeBRepTool_ShapeClassifier::P2D() const
 
 Standard_Boolean TopOpeBRepTool_ShapeClassifier::HasAvLS() const
 {
-  Standard_Boolean hasavls = (myPAvLS) ? (!myPAvLS->IsEmpty()) : Standard_False;
+  Standard_Boolean hasavls = (myPAvLS) ? (!myPAvLS->empty()) : Standard_False;
   return hasavls;
 }
 

@@ -186,8 +186,8 @@ Standard_Boolean TopOpeBRepTool_REGUS::MapS()
     for (; exe.More(); exe.Next()){
       const TopoDS_Shape& e = exe.Current();
       Standard_Boolean isb = mymapeFs.IsBound(e);
-      if (isb) {mymapeFs.ChangeFind(e).Append(f); mymapeFsstatic.ChangeFind(e).Append(f);}
-      else     {TopTools_ListOfShape lof; lof.Append(f); mymapeFs.Bind(e,lof); mymapeFsstatic.Bind(e,lof);}      
+      if (isb) {mymapeFs.ChangeFind(e).push_back(f); mymapeFsstatic.ChangeFind(e).push_back(f);}
+      else     {TopTools_ListOfShape lof; lof.push_back(f); mymapeFs.Bind(e,lof); mymapeFsstatic.Bind(e,lof);}      
     }//exe
   }//exf
   mynF = myoldnF;
@@ -197,7 +197,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::MapS()
   for (; itm.More(); itm.Next()){
     const TopoDS_Shape& e = itm.Key();
     const TopTools_ListOfShape& lof  = itm.Value();
-    Standard_Integer nf = lof.Extent();
+    Standard_Integer nf = lof.size();
     if (nf > 2) mymapemult.Add(e);
 #ifdef OCCT_DEBUG
     if (trc) {
@@ -220,7 +220,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::WireToFace(const TopoDS_Face& Fanc, const
 #ifdef OCCT_DEBUG
   Standard_Boolean trc = TopOpeBRepTool_GettraceREGUSO();
 #endif
-  nFs.Clear();
+  nFs.clear();
   TopTools_DataMapOfShapeListOfShape mapWlow;
   TopoDS_Shape aLocalShape = Fanc.Oriented(TopAbs_FORWARD);
   TopoDS_Face aFace = TopoDS::Face(aLocalShape);
@@ -260,7 +260,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
   TopoDS_Face aFace = TopoDS::Face(aLocalShape);
 //  TopoDS_Face aFace = TopoDS::Face(Fanc.Oriented(TopAbs_FORWARD));
   
-  FSplits.Clear();
+  FSplits.clear();
 
   TopOpeBRepTool_REGUW REGUW(aFace);
   
@@ -276,7 +276,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
     TopExp_Explorer exe(w, TopAbs_EDGE);
     for (; exe.More(); exe.Next()){
       const TopoDS_Shape& e = exe.Current();
-      if (M_INTERNAL(e.Orientation())) eIs.Append(e);
+      if (M_INTERNAL(e.Orientation())) eIs.push_back(e);
     }//exe
 
     TopTools_ListIteratorOfListOfShape ite(eIs);
@@ -290,7 +290,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
 //      TopExp::Vertices(TopoDS::Edge(eI.Oriented(TopAbs_FORWARD)),vf,vl);
       TopOpeBRepTool_connexity cof; REGUW.Connexity(vf,cof); TopTools_ListOfShape lef; Standard_Integer nef = cof.AllItems(lef);
       TopOpeBRepTool_connexity col; REGUW.Connexity(vl,col); TopTools_ListOfShape lel; Standard_Integer nel = col.AllItems(lel);      
-      if ((nef <= 1)||(nel <= 1)) {eIs.Remove(ite);continue;}
+      if ((nef <= 1)||(nel <= 1)) {ite = eIs.erase(ite);continue;}
 
       // prequesitory : we do not have internal vertices in edges oriented FOR     
       aLocalShape = eI.Oriented(TopAbs_REVERSED);
@@ -326,7 +326,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
     Standard_Boolean spok = REGUW.REGU(); // only first step 
     if (!spok) {FUN_Raise(); return Standard_False;}
     REGUW.GetSplits(spW);
-    if (!spW.IsEmpty()) {nWs.Append(spW); hassp = Standard_True;}
+    if (!spW.empty()) {nWs.Append(spW); hassp = Standard_True;}
   }//exw 
 
   if (!hassp) return Standard_False;
@@ -334,7 +334,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
   if (!ok) {FUN_Raise(); return Standard_False;}
   
   TopTools_ListIteratorOfListOfShape itf(nFs);
-  for (; itf.More(); itf.Next()) FSplits.Append(itf.Value().Oriented(oAnc));  
+  for (; itf.More(); itf.Next()) FSplits.push_back(itf.Value().Oriented(oAnc));  
   return Standard_True;
 }
 
@@ -378,10 +378,10 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitFaces()
 	// <mymapeFs>
 	TopTools_ListOfShape& lof = mymapeFs.ChangeFind(e);
 	TopOpeBRepTool_TOOL::Remove(lof,f);
-	lof.Append(fsp);
+	lof.push_back(fsp);
 
 	// <mymapemult>
-	Standard_Integer nf = lof.Extent();
+	Standard_Integer nf = lof.size();
 	if (nf > 2) mymapemult.Add(e);
       }//exe(fsp)
     }//itf(lfsp)
@@ -457,10 +457,10 @@ Standard_Boolean TopOpeBRepTool_REGUS::REGU()
   //     delete it form the map.
   //
 //  TopTools_ListOfShape lFinBlock; // <lFinBlock> describes a valid closed shell when <myedstoconnect> is emptied.   
-  mylFinBlock.Clear();
+  mylFinBlock.clear();
   Standard_Integer nite = 0;
   while (nite <= mynF) {
-    Standard_Boolean startBlock = mylFinBlock.IsEmpty();
+    Standard_Boolean startBlock = mylFinBlock.empty();
     Standard_Boolean endBlock = myedstoconnect.IsEmpty() && (!startBlock);
 
 #ifdef OCCT_DEBUG
@@ -477,7 +477,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::REGU()
     // ---------
     if (endBlock) {
       // building up shell on <mylFinBlock>
-      Standard_Integer nFcur = mylFinBlock.Extent();
+      Standard_Integer nFcur = mylFinBlock.size();
       Standard_Boolean unchanged = (nFcur==myoldnF) && (mynF==myoldnF);
       if (unchanged) {
 #ifdef OCCT_DEBUG
@@ -487,13 +487,13 @@ Standard_Boolean TopOpeBRepTool_REGUS::REGU()
       }
       else {
 	TopoDS_Shell newShe; TopOpeBRepTool_TOOL::MkShell(mylFinBlock,newShe);
-	Splits.Append(newShe);
+	Splits.push_back(newShe);
 #ifdef OCCT_DEBUG
 	if (trc) {cout<<"#** shell "<<ishe<<" gives new shell "<<FUN_adds(newShe)<<endl;
 		  for (TopTools_ListIteratorOfListOfShape it(mylFinBlock); it.More(); it.Next()) cout <<";dins f"<<FUN_adds(it.Value());
 		  cout<<endl<<endl;}
 #endif
-	mylFinBlock.Clear(); 
+	mylFinBlock.clear(); 
 	startBlock = Standard_True;
       }
     }//endBlock
@@ -534,7 +534,7 @@ Standard_Boolean TopOpeBRepTool_REGUS::REGU()
       TopOpeBRepTool_TOOL::Remove(mymapeFs.ChangeFind(e),myf);
     }//exe        
 
-    mylFinBlock.Append(myf); nite++;
+    mylFinBlock.push_back(myf); nite++;
   }//nite <= mynF
 
   myOshNsh.Bind(S(), Splits);
@@ -553,14 +553,14 @@ Standard_Boolean TopOpeBRepTool_REGUS::InitBlock()
 
   TopTools_ListOfShape eds;
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itm(mymapeFs);
-  for (; itm.More(); itm.Next()) eds.Append(itm.Key());
+  for (; itm.More(); itm.Next()) eds.push_back(itm.Key());
 
   TopTools_ListIteratorOfListOfShape ite(eds);
   for (; ite.More(); ite.Next()){
     const TopoDS_Shape& e = ite.Value();
     const TopTools_ListOfShape& lof = mymapeFs.Find(e);
-    if (lof.IsEmpty()) {mymapeFs.UnBind(e); continue;}
-    myf = lof.First(); 
+    if (lof.empty()) {mymapeFs.UnBind(e); continue;}
+    myf = lof.front(); 
 #ifdef OCCT_DEBUG
     Standard_Boolean trc = TopOpeBRepTool_GettraceREGUSO(); 
     if (trc) cout<<"* Block : first face = f"<<FUN_adds(myf)<<endl;
@@ -586,9 +586,9 @@ Standard_Boolean TopOpeBRepTool_REGUS::NextinBlock()
   for (; exe.More(); exe.Next()){
     const TopoDS_Shape& e = exe.Current();
     Standard_Boolean isb = myedstoconnect.Contains(e);
-    if (isb) eds.Append(e);
+    if (isb) eds.push_back(e);
   }//exe
-  Standard_Boolean alleftouched = eds.IsEmpty();
+  Standard_Boolean alleftouched = eds.empty();
   if (alleftouched) {
     TopTools_MapIteratorOfMapOfShape itc(myedstoconnect);
     for (; itc.More(); itc.Next()){
@@ -597,12 +597,12 @@ Standard_Boolean TopOpeBRepTool_REGUS::NextinBlock()
       // all ancestor faces of <e> have been stored
       if (!isb)    {myedstoconnect.Remove(e); continue;}
 
-      const TopTools_ListOfShape& lof = mymapeFs.Find(e); Standard_Integer nf = lof.Extent();
+      const TopTools_ListOfShape& lof = mymapeFs.Find(e); Standard_Integer nf = lof.size();
       if (nf == 0) {myedstoconnect.Remove(e); mymapeFs.UnBind(e);
 		    continue;}
 
 //      myf = lof.First(); 130499
-      if (lof.Extent() == 1) myf = lof.First();
+      if (lof.size() == 1) myf = lof.front();
       else {
 	// looking for first face stored in the current block
 	// connexed to e
@@ -643,13 +643,13 @@ Standard_Boolean TopOpeBRepTool_REGUS::NextinBlock()
     // all ancestor faces of <e> have been stored
     if (!isb)    {myedstoconnect.Remove(e); continue;}
 
-    const TopTools_ListOfShape& lof = mymapeFs.Find(e); Standard_Integer nf = lof.Extent();
+    const TopTools_ListOfShape& lof = mymapeFs.Find(e); Standard_Integer nf = lof.size();
     if (nf == 0) {myedstoconnect.Remove(e); mymapeFs.UnBind(e);
 		  continue;}
 #ifdef OCCT_DEBUG
     if (trc) {cout<<"e"<<FUN_adds(e)<<" on "<<nf<<" untouched f:"<<endl;}
 #endif
-    if (nf == 1) myf = lof.First();
+    if (nf == 1) myf = lof.front();
     else {
       TopoDS_Face ffound; Standard_Boolean ok = NearestF(TopoDS::Edge(e),lof,ffound);
       if (!ok) return Standard_False;

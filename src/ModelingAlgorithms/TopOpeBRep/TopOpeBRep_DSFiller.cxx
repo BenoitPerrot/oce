@@ -962,7 +962,7 @@ Standard_Boolean TopOpeBRep_DSFiller::ClearShapeSameDomain
       if(HDS->HasSameDomain(Shape1)) {
 	TopTools_ListOfShape& los =
 	  DS.ChangeShapeSameDomain(Shape1); 
-	los.Clear();
+	los.clear();
       }
   }
   for(; exp2.More(); exp2.Next()) {
@@ -971,7 +971,7 @@ Standard_Boolean TopOpeBRep_DSFiller::ClearShapeSameDomain
       if(HDS->HasSameDomain(Shape2)) {
 	TopTools_ListOfShape& los =
 	  DS.ChangeShapeSameDomain(Shape2); 
-	los.Clear();
+	los.clear();
       }
   }
   return Standard_True;

@@ -38,44 +38,50 @@ public:
   Assign(Other);
 }
   
-  Standard_EXPORT   Standard_Integer Extent()  const;
+  Standard_EXPORT   Standard_Integer size()  const;
   
-  Standard_EXPORT   void Clear() ;
+  Standard_EXPORT   void clear() ;
+
 ~TopTools_ListOfShape()
 {
-  Clear();
+  clear();
 }
   
-      Standard_Boolean IsEmpty()  const;
+  Standard_Boolean empty()  const
+  {
+    return myFirst == 0L;
+  }
   
-  Standard_EXPORT   void Prepend (const TopoDS_Shape& I) ;
+  Standard_EXPORT   TopoDS_Shape& front()  const;
   
-  Standard_EXPORT   void Prepend (const TopoDS_Shape& I, TopTools_ListIteratorOfListOfShape& theIt) ;
+  Standard_EXPORT   TopoDS_Shape& back()  const;
+
+  Standard_EXPORT   void push_front (const TopoDS_Shape& I) ;
+
+  Standard_EXPORT   void push_back (const TopoDS_Shape& I) ;
+
+  Standard_EXPORT   void pop_front() ;
+
+  Standard_EXPORT   TopTools_ListIteratorOfListOfShape erase (TopTools_ListIteratorOfListOfShape& It) ;
   
+public:
   Standard_EXPORT   void Prepend (TopTools_ListOfShape& Other) ;
-  
-  Standard_EXPORT   void Append (const TopoDS_Shape& I) ;
   
   Standard_EXPORT   void Append (const TopoDS_Shape& I, TopTools_ListIteratorOfListOfShape& theIt) ;
   
   Standard_EXPORT   void Append (TopTools_ListOfShape& Other) ;
-  
-  Standard_EXPORT   TopoDS_Shape& First()  const;
-  
-  Standard_EXPORT   TopoDS_Shape& Last()  const;
-  
-  Standard_EXPORT   void RemoveFirst() ;
-  
-  Standard_EXPORT   void Remove (TopTools_ListIteratorOfListOfShape& It) ;
-  
+
   Standard_EXPORT   void InsertBefore (const TopoDS_Shape& I, TopTools_ListIteratorOfListOfShape& It) ;
   
   Standard_EXPORT   void InsertBefore (TopTools_ListOfShape& Other, TopTools_ListIteratorOfListOfShape& It) ;
-  
+
+private:
+  Standard_EXPORT   void Prepend (const TopoDS_Shape& I, TopTools_ListIteratorOfListOfShape& theIt) ;
+
   Standard_EXPORT   void InsertAfter (const TopoDS_Shape& I, TopTools_ListIteratorOfListOfShape& It) ;
   
   Standard_EXPORT   void InsertAfter (TopTools_ListOfShape& Other, TopTools_ListIteratorOfListOfShape& It) ;
-
+public:
 
 friend class TopTools_ListIteratorOfListOfShape;
 
@@ -106,8 +112,6 @@ private:
 #define TCollection_ListNode_Type_() TopTools_ListNodeOfListOfShape_Type_()
 #define TCollection_List TopTools_ListOfShape
 #define TCollection_List_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-
-#include <Foundation/TCollection/TCollection_List.lxx>
 
 #undef Item
 #undef Item_hxx

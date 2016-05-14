@@ -166,8 +166,8 @@ Standard_Boolean TopOpeBRepBuild_Builder::GTakeCommonOfDiff(const TopOpeBRepBuil
 //=======================================================================
 void TopOpeBRepBuild_Builder::GFindSamDom(const TopoDS_Shape& S,TopTools_ListOfShape& L1,TopTools_ListOfShape& L2) const 
 {
-  L1.Clear(); L2.Clear();
-  L1.Append(S);
+  L1.clear(); L2.clear();
+  L1.push_back(S);
   GFindSamDom(L1,L2);
 }
 
@@ -179,7 +179,7 @@ void TopOpeBRepBuild_Builder::GFindSamDom(const TopoDS_Shape& S,TopTools_ListOfS
 void TopOpeBRepBuild_Builder::GFindSamDom(TopTools_ListOfShape& L1,TopTools_ListOfShape& L2) const 
 {
   Standard_Integer i;
-  Standard_Integer nl1 = L1.Extent(), nl2 = L2.Extent();
+  Standard_Integer nl1 = L1.size(), nl2 = L2.size();
   
   while ( nl1 > 0 || nl2 > 0 )  {
     
@@ -197,7 +197,7 @@ void TopOpeBRepBuild_Builder::GFindSamDom(TopTools_ListOfShape& L1,TopTools_List
 #endif
 	Standard_Boolean found = GContains(S2,L2);
 	if ( ! found ) {
-	  L2.Prepend(S2);
+	  L2.push_front(S2);
 	  nl2++;
 	}
       }
@@ -219,7 +219,7 @@ void TopOpeBRepBuild_Builder::GFindSamDom(TopTools_ListOfShape& L1,TopTools_List
 #endif
 	Standard_Boolean found = GContains(S1,L1);
 	if ( ! found ) {
-	  L1.Prepend(S1);
+	  L1.push_front(S1);
 	  nl1++;
 	}
       }
@@ -237,9 +237,9 @@ void TopOpeBRepBuild_Builder::GFindSamDom(TopTools_ListOfShape& L1,TopTools_List
 //=======================================================================
 void TopOpeBRepBuild_Builder::GFindSamDomSODO(const TopoDS_Shape& S,TopTools_ListOfShape& LSO,TopTools_ListOfShape& LDO) const 
 {
-  LSO.Clear();
-  LDO.Clear();
-  LSO.Append(S);
+  LSO.clear();
+  LDO.clear();
+  LSO.push_back(S);
   GFindSamDomSODO(LSO,LDO);
 }
 
@@ -278,8 +278,8 @@ void TopOpeBRepBuild_Builder::GFindSamDomSODO(TopTools_ListOfShape& LSO,TopTools
 #ifdef OCCT_DEBUG
 //    Standard_Integer iS = myDataStructure->Shape(s);
 #endif
-    if      ( o == oref && !GContains(s,LLSO) ) LLSO.Append(s);
-    else if ( o != oref && !GContains(s,LLDO) ) LLDO.Append(s);
+    if      ( o == oref && !GContains(s,LLSO) ) LLSO.push_back(s);
+    else if ( o != oref && !GContains(s,LLDO) ) LLDO.push_back(s);
   }
   
   for (it.Initialize(LDO); it.More(); it.Next() ) {
@@ -288,8 +288,8 @@ void TopOpeBRepBuild_Builder::GFindSamDomSODO(TopTools_ListOfShape& LSO,TopTools
 #ifdef OCCT_DEBUG
 //    Standard_Integer iS = myDataStructure->Shape(s);
 #endif
-    if      ( o == oref && !GContains(s,LLSO) ) LLSO.Append(s);
-    else if ( o != oref && !GContains(s,LLDO) ) LLDO.Append(s);
+    if      ( o == oref && !GContains(s,LLSO) ) LLSO.push_back(s);
+    else if ( o != oref && !GContains(s,LLDO) ) LLDO.push_back(s);
   }
   
   LSO = LLSO;
@@ -333,7 +333,7 @@ void TopOpeBRepBuild_Builder::GFindSameRank
 #endif
     Standard_Integer r = GShapeRank(s);
     if ( r == Rank && !GContains(s,L2) ) {
-      L2.Append(s);
+      L2.push_back(s);
     }
   }
 }
@@ -390,7 +390,7 @@ void TopOpeBRepBuild_Builder::GCopyList(const TopTools_ListOfShape& Lin,const St
   for ( Standard_Integer i = 1; it.More(); it.Next(),i++ ) {
     const TopoDS_Shape& EL = it.Value();
     if ( i >= I1 && i <= I2 ) {
-      Lou.Append(EL);
+      Lou.push_back(EL);
       nadd++;
     }
   }
@@ -405,6 +405,6 @@ void TopOpeBRepBuild_Builder::GCopyList(const TopTools_ListOfShape& Lin,const St
 void TopOpeBRepBuild_Builder::GCopyList(const TopTools_ListOfShape& Lin,TopTools_ListOfShape& Lou)
 {
   const Standard_Integer I1 = 1;
-  const Standard_Integer I2 = Lin.Extent();
+  const Standard_Integer I2 = Lin.size();
   GCopyList(Lin,I1,I2,Lou);
 }

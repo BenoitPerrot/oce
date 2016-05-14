@@ -435,22 +435,22 @@ Standard_Boolean QANewBRepNaming_BooleanOperationFeat::IsWRCase(const BRepAlgoAP
     TopExp_Explorer anExp(ObjSh, TopAbs_FACE);
     for(;anExp.More();anExp.Next()) {      
       if(IsValidSurfType(TopoDS::Face(anExp.Current())))
-	aList.Append(anExp.Current());
+	aList.push_back(anExp.Current());
     }
   } else 
        if(IsValidSurfType(TopoDS::Face(ObjSh)))
-	aList.Append(ObjSh);
-  if(aList.Extent() == 1) {
+	aList.push_back(ObjSh);
+  if(aList.size() == 1) {
     if(Type2 != TopAbs_FACE) {
       TopExp_Explorer anExp(ToolSh, TopAbs_FACE);
       for(;anExp.More();anExp.Next()) {      
 	if(IsValidSurfType(TopoDS::Face(anExp.Current())))
-	  aList.Append(anExp.Current());
+	  aList.push_back(anExp.Current());
       }
     } else 
       if(IsValidSurfType(TopoDS::Face(ToolSh)))
-	aList.Append(ToolSh);
-    if(aList.Extent() == 2) return Standard_True;      
+	aList.push_back(ToolSh);
+    if(aList.size() == 2) return Standard_True;      
   }
   return Standard_False;      
 }
@@ -514,7 +514,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadModified11 (BRepAlgoAPI_BooleanOp
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    if(Shapes.Extent() == 1) {found = Standard_True; break;}
+    if(Shapes.size() == 1) {found = Standard_True; break;}
   }
     
   if(found) {
@@ -525,7 +525,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadModified11 (BRepAlgoAPI_BooleanOp
       const TopoDS_Shape& Root = ShapeExplorer.Current ();
       if (!View.Add(Root)) continue;
       const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-      if(Shapes.Extent() > 1) continue;
+      if(Shapes.size() > 1) continue;
       TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
       for (;ShapesIterator.More (); ShapesIterator.Next ()) {
 	const TopoDS_Shape& newShape = ShapesIterator.Value ();
@@ -553,7 +553,7 @@ static gp_Pnt GetCenterPoint(const TopoDS_Shape& theEdge)
 static void SortRootFaces(TopTools_ListOfShape& theList, const TopoDS_Shape& theShape)
 {
   TopTools_ListOfShape aList;
-  Standard_Integer aNum = theList.Extent();
+  Standard_Integer aNum = theList.size();
   if(aNum <= 1) return;
   gp_Ax1 anAx  = ComputeAxis(theShape);
   TopTools_Array1OfShape  ArS(1, aNum);
@@ -584,10 +584,10 @@ static void SortRootFaces(TopTools_ListOfShape& theList, const TopoDS_Shape& the
       }
     if (I == 0) continue;
     ArI.SetValue(I, -1);
-    aList.Append(ArS.Value(I));
-    if(aList.Extent() == aNum -1) {
+    aList.push_back(ArS.Value(I));
+    if(aList.size() == aNum -1) {
       for(i=1; i<=aNum;i++)
-	if(ArI.Value(i) != -1) aList.Append(ArS.Value(i));
+	if(ArI.Value(i) != -1) aList.push_back(ArS.Value(i));
     }
   }
   theList.Assign(aList);
@@ -600,8 +600,8 @@ static void Sort2Faces(const TopTools_ListOfShape& Shapes,
   TopTools_ListIteratorOfListOfShape It(Shapes);
   for(;It.More();It.Next()) {
     if(Identify(TopoDS::Face(It.Value()), theAx) == 1)
-      theList.Prepend(It.Value());   //Pos
-    else theList.Append(It.Value()); //Neg
+      theList.push_front(It.Value());   //Pos
+    else theList.push_back(It.Value()); //Neg
   }
 }
 
@@ -609,8 +609,8 @@ static void Sort2Faces(const TopTools_ListOfShape& Shapes,
 static void Sort3Faces(const TopTools_ListOfShape& theListIn, TopTools_ListOfShape& theListOut)
 {
   TopTools_ListIteratorOfListOfShape It (theListIn);
-  TopTools_Array1OfShape  ArS(1, theListIn.Extent());
-  TColgp_Array1OfPnt      ArP(1, theListIn.Extent());
+  TopTools_Array1OfShape  ArS(1, theListIn.size());
+  TColgp_Array1OfPnt      ArP(1, theListIn.size());
 
   Standard_Integer i;
   for(i=1;It.More();It.Next(),i++) {
@@ -662,9 +662,9 @@ static void Sort3Faces(const TopTools_ListOfShape& theListIn, TopTools_ListOfSha
     i=i2; i2=i1; //i1 < = > i2
     i1=i;
   }
-  theListOut.Append(ArS.Value(i1));
-  theListOut.Append(ArS.Value(i2));
-  theListOut.Append(ArS.Value(i3)); //single
+  theListOut.push_back(ArS.Value(i1));
+  theListOut.push_back(ArS.Value(i2));
+  theListOut.push_back(ArS.Value(i3)); //single
 }
 //=======================================================================
 //function : Load1nFaces
@@ -681,11 +681,11 @@ void QANewBRepNaming_BooleanOperationFeat::Load1nFaces(BRepAlgoAPI_BooleanOperat
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    if(Shapes.Extent() < 2) continue; 
-    aListR.Append(Root);
+    if(Shapes.size() < 2) continue; 
+    aListR.push_back(Root);
   }
   if(ShapeIn.IsEqual(MS.Shape1()))
-    if(aListR.Extent() > 1) SortRootFaces(aListR, ShapeIn);
+    if(aListR.size() > 1) SortRootFaces(aListR, ShapeIn);
    
   TopTools_ListIteratorOfListOfShape Itr(aListR);
   for(;Itr.More();Itr.Next()) {
@@ -693,9 +693,9 @@ void QANewBRepNaming_BooleanOperationFeat::Load1nFaces(BRepAlgoAPI_BooleanOperat
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
     TopTools_ListOfShape aList;
     gp_Ax1 anAx = ComputeAxis(MS.Shape2());	
-    if(Shapes.Extent() == 2)
+    if(Shapes.size() == 2)
       Sort2Faces(Shapes, anAx, aList);
-    else if(Shapes.Extent() == 3)
+    else if(Shapes.size() == 3)
       Sort3Faces(Shapes, aList);
     TopTools_ListIteratorOfListOfShape It(aList);
     for(;It.More();It.Next()) {
@@ -724,7 +724,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadModified1n (BRepAlgoAPI_BooleanOp
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    if(Shapes.Extent() >= 2) aNum += Shapes.Extent();
+    if(Shapes.size() >= 2) aNum += Shapes.size();
   }
   
   View.Clear();
@@ -734,7 +734,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadModified1n (BRepAlgoAPI_BooleanOp
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    if(Shapes.Extent() >= 2) aNum += Shapes.Extent();
+    if(Shapes.size() >= 2) aNum += Shapes.size();
   }
 
   Handle(TDataStd_IntegerArray) aSAR;
@@ -1144,7 +1144,7 @@ static void FindAdjacent2(const TopTools_ListOfShape& theList,
       TopExp_Explorer anExp2(aShape2, TopAbs_EDGE);
       for(;anExp2.More();anExp2.Next()) {  
 	if(anExp1.Current().IsSame(anExp2.Current()))
-	  theListOfEdges.Append(anExp1.Current());
+	  theListOfEdges.push_back(anExp1.Current());
       }
     }
   }
@@ -1153,9 +1153,9 @@ static void FindAdjacent2(const TopTools_ListOfShape& theList,
 static void FindAdjacent3(const TopTools_ListOfShape& theList, 
 			  TopTools_ListOfShape& theListOfEdges) {
   TopTools_ListIteratorOfListOfShape It (theList);
-  TopTools_Array1OfShape  ArS(1, theList.Extent());
-  TColgp_Array1OfPnt      ArP(1, theList.Extent());
-  TColgp_Array1OfDir      ArD(1, theList.Extent());
+  TopTools_Array1OfShape  ArS(1, theList.size());
+  TColgp_Array1OfPnt      ArP(1, theList.size());
+  TColgp_Array1OfDir      ArD(1, theList.size());
   Standard_Integer i;
   for(i=1;It.More();It.Next(),i++) {
     ArS.SetValue(i, It.Value());
@@ -1198,13 +1198,13 @@ static void FindAdjacent3(const TopTools_ListOfShape& theList,
     TopExp_Explorer anExp2(ArS.Value(i2), TopAbs_EDGE);
     for(;anExp2.More();anExp2.Next()) {  
       if(anExp1.Current().IsSame(anExp2.Current()))
-	{theListOfEdges.Append(anExp1.Current()); found=Standard_True; break;}
+	{theListOfEdges.push_back(anExp1.Current()); found=Standard_True; break;}
     }
     if(!found) {
       TopExp_Explorer anExp3(ArS.Value(i3), TopAbs_EDGE);
       for(;anExp3.More();anExp3.Next()) {  
 	if(anExp1.Current().IsSame(anExp3.Current()))
-	  {theListOfEdges.Append(anExp1.Current());break;}
+	  {theListOfEdges.push_back(anExp1.Current());break;}
       }
     }
   }
@@ -1213,9 +1213,9 @@ static void FindAdjacent3(const TopTools_ListOfShape& theList,
 static void FindAdjacent4(const TopTools_ListOfShape& theList, 
 			  TopTools_ListOfShape& theListOfEdges) {
   TopTools_ListIteratorOfListOfShape It (theList);
-  TopTools_Array1OfShape  ArS(1, theList.Extent());
-  TColgp_Array1OfPnt      ArP(1, theList.Extent());
-  TColgp_Array1OfDir      ArD(1, theList.Extent());
+  TopTools_Array1OfShape  ArS(1, theList.size());
+  TColgp_Array1OfPnt      ArP(1, theList.size());
+  TColgp_Array1OfDir      ArD(1, theList.size());
   Standard_Integer i;
   for(i=1;It.More();It.Next(),i++) {
     ArS.SetValue(i, It.Value());
@@ -1260,13 +1260,13 @@ static void FindAdjacent4(const TopTools_ListOfShape& theList,
     TopExp_Explorer anExp2(ArS.Value(i3), TopAbs_EDGE);
     for(;anExp2.More();anExp2.Next()) {  
       if(anExp1.Current().IsSame(anExp2.Current()))
-	{theListOfEdges.Append(anExp1.Current()); found=Standard_True; break;}
+	{theListOfEdges.push_back(anExp1.Current()); found=Standard_True; break;}
     }
     if(!found) {
       TopExp_Explorer anExp3(ArS.Value(i4), TopAbs_EDGE);
       for(;anExp3.More();anExp3.Next()) {  
 	if(anExp1.Current().IsSame(anExp3.Current()))
-	  {theListOfEdges.Append(anExp1.Current());break;}
+	  {theListOfEdges.push_back(anExp1.Current());break;}
       }
     }
   }
@@ -1277,13 +1277,13 @@ static void FindAdjacent4(const TopTools_ListOfShape& theList,
     TopExp_Explorer anExp2(ArS.Value(i3), TopAbs_EDGE);
     for(;anExp2.More();anExp2.Next()) {  
       if(anExp1.Current().IsSame(anExp2.Current()))
-	{theListOfEdges.Append(anExp1.Current()); found=Standard_True; break;}
+	{theListOfEdges.push_back(anExp1.Current()); found=Standard_True; break;}
     }
     if(!found) {
       TopExp_Explorer anExp3(ArS.Value(i4), TopAbs_EDGE);
       for(;anExp3.More();anExp3.Next()) {  
 	if(anExp1.Current().IsSame(anExp3.Current()))
-	  {theListOfEdges.Append(anExp1.Current());break;}
+	  {theListOfEdges.push_back(anExp1.Current());break;}
       }
     }
   }
@@ -1296,7 +1296,7 @@ static void SortEdges(const TopTools_ListOfShape& theListE, const gp_Ax1& theAx,
 		     TopTools_Array1OfShape& theARS)
 {
   
-  Standard_Integer aNE1 = theListE.Extent();
+  Standard_Integer aNE1 = theListE.size();
   TopTools_Array1OfShape  ArS(1, aNE1);
   TColgp_Array1OfPnt      ArP(1, aNE1);
   TColStd_Array1OfInteger ArI(1, aNE1); 
@@ -1351,17 +1351,17 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
   if (aResult.ShapeType() == TopAbs_COMPOUND) {
     TopoDS_Iterator itr(aResult);
     for (; itr.More(); itr.Next())
-      aList0.Append(itr.Value()); //collect separated entities (bodies)
+      aList0.push_back(itr.Value()); //collect separated entities (bodies)
     
   }
-  if(aList0.Extent() > 2) return; // case > 2 ent. is not considered
+  if(aList0.size() > 2) return; // case > 2 ent. is not considered
   TopTools_ListOfShape aList1, aList2;
   TopTools_ListIteratorOfListOfShape It (aList0); //each item (body) must have at least 1 pair 
   // of "cyl/con" surfaces (in some cases may be 3 or 4 faces depending on sim-edge position)
   for (;It.More (); It.Next ()) {
     const TopoDS_Shape& aShape = It.Value (); //1-st solid/shell
     TopTools_ListOfShape aList;
-    aList.Clear();
+    aList.clear();
 #ifdef OCCT_DEBUG
 //    ModDbgTools_Write(aShape, "S0");
 #endif
@@ -1369,20 +1369,20 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
       TopExp_Explorer anExp(aShape, TopAbs_FACE);      
       for(;anExp.More();anExp.Next()) {      
 	if(IsValidSurfType(TopoDS::Face(anExp.Current()))) 
-	  aList.Append(anExp.Current()); // faces of the current entity
+	  aList.push_back(anExp.Current()); // faces of the current entity
       }
     } else 
       if(IsValidSurfType(TopoDS::Face(ObjSh)))
-	aList.Append(aShape);
+	aList.push_back(aShape);
     
-    if(aList1.Extent() == 0 )
+    if(aList1.size() == 0 )
       aList1.Assign(aList);
     else 
       aList2.Assign(aList);
   }
 // aList1,2 contain pairs of faces having more then 1 neghbour edge (each pair)
-  const Standard_Integer aNF1 = aList1.Extent(); // keep n of faces of the first entity
-  const Standard_Integer aNF2 = aList2.Extent(); // keep n of faces of the second entity
+  const Standard_Integer aNF1 = aList1.size(); // keep n of faces of the first entity
+  const Standard_Integer aNF2 = aList2.size(); // keep n of faces of the second entity
   if(aNF1 + aNF2 < 2) return;
 
 //find Edges
@@ -1390,7 +1390,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
   Standard_Integer aNE1=0,aNE2=0;
   if(aNF1 == 2 && !aNF2) {//trivial case - only 2 faces
     FindAdjacent2(aList1, aListE1);
-    aNE1 = aListE1.Extent();
+    aNE1 = aListE1.size();
   }
   else { // result is compound of two ent.
     if (aNF1 == 2)  //first ent. has 2 valid faces
@@ -1400,7 +1400,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
     else if (aNF1 == 4)  //first ent. has 4 valid faces
       FindAdjacent4(aList1, aListE1);
 // set number of symmetry Edges of the first ent. 
-    aNE1 = aListE1.Extent();    
+    aNE1 = aListE1.size();    
 
 // Second ent.
     if (aNF2 == 2)  //second ent. has 2 valid faces
@@ -1410,7 +1410,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
     else if (aNF2 == 4) 
       FindAdjacent4(aList2, aListE2);
     
-    aNE2 =  aListE2.Extent();
+    aNE2 =  aListE2.size();
   }
 //aListE1, aListE2 - contains Edges
 //  if(aNE1 < 2) return;
@@ -1481,7 +1481,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
     TopTools_Array1OfShape  ArS2(1, aNE2);
     SortEdges(aListE2, anAx, ArS2);
 
-    gp_Pnt aPnt1 = GetCenterPoint(aListE1.First());
+    gp_Pnt aPnt1 = GetCenterPoint(aListE1.front());
 //    gp_Pnt aPnt2 = GetCenterPoint(aListE2.First());
     if(IsDirectionPositive(anAx, anAx.Location(), aPnt1)) {
       Standard_Integer i;
@@ -1543,11 +1543,11 @@ Standard_Boolean QANewBRepNaming_BooleanOperationFeat::IsWRCase2(const BRepAlgoA
       for(;anExp1.More();anExp1.Next()) {
 	if(!anExp1.Current().IsSame(anExp.Current()) && !IsValidSurfType(TopoDS::Face(anExp1.Current()))) {
 	  TopTools_ListOfShape aList;
-	  aList.Append(anExp.Current());
-	  aList.Append(anExp1.Current());
+	  aList.push_back(anExp.Current());
+	  aList.push_back(anExp1.Current());
 	  TopTools_ListOfShape anEList;
 	  FindAdjacent2(aList, anEList);
-	  if(anEList.Extent() == 2) {
+	  if(anEList.size() == 2) {
 	    return Standard_True;
 	  }
 	}
@@ -1575,16 +1575,16 @@ void QANewBRepNaming_BooleanOperationFeat::LoadWRCase(BRepAlgoAPI_BooleanOperati
       for(;anExp1.More();anExp1.Next()) {
 	if(!anExp1.Current().IsSame(anExp.Current()) && !IsValidSurfType(TopoDS::Face(anExp1.Current()))) {
 	  TopTools_ListOfShape aList;
-	  aList.Append(anExp.Current());
-	  aList.Append(anExp1.Current());
+	  aList.push_back(anExp.Current());
+	  aList.push_back(anExp1.Current());
 	  TopTools_ListOfShape anEList;
 	  FindAdjacent2(aList, anEList);
-	  if(anEList.Extent() == 2) {
+	  if(anEList.size() == 2) {
 	    
  	    TopTools_ListIteratorOfListOfShape anEIt(anEList);
 	    GProp_GProps anE1Props, anE2Props;
-	    BRepGProp::LinearProperties(anEList.First(), anE1Props);
-	    BRepGProp::LinearProperties(anEList.Last(), anE2Props);
+	    BRepGProp::LinearProperties(anEList.front(), anE1Props);
+	    BRepGProp::LinearProperties(anEList.back(), anE2Props);
 
 	    const TDF_Label& WRE1Label = ResultLabel().NewChild();
 	    const TDF_Label& WRE2Label = ResultLabel().NewChild();
@@ -1603,15 +1603,15 @@ void QANewBRepNaming_BooleanOperationFeat::LoadWRCase(BRepAlgoAPI_BooleanOperati
 	    TNaming_Builder aVBuilder2(WRV2Label);
 
 	    if(anE1Props.Mass() > anE2Props.Mass()) {
-	      anEBuilder1.Generated(anEList.Last());
-	      anEBuilder2.Generated(anEList.First());
-	      aVBuilder1.Generated(TopExp::FirstVertex(TopoDS::Edge(anEList.Last())));
-	      aVBuilder2.Generated(TopExp::LastVertex(TopoDS::Edge(anEList.Last())));
+	      anEBuilder1.Generated(anEList.back());
+	      anEBuilder2.Generated(anEList.front());
+	      aVBuilder1.Generated(TopExp::FirstVertex(TopoDS::Edge(anEList.back())));
+	      aVBuilder2.Generated(TopExp::LastVertex(TopoDS::Edge(anEList.back())));
 	    } else {
-	      anEBuilder1.Generated(anEList.First());
-	      anEBuilder2.Generated(anEList.Last());
-	      aVBuilder1.Generated(TopExp::FirstVertex(TopoDS::Edge(anEList.First())));
-	      aVBuilder2.Generated(TopExp::LastVertex(TopoDS::Edge(anEList.First())));
+	      anEBuilder1.Generated(anEList.front());
+	      anEBuilder2.Generated(anEList.back());
+	      aVBuilder1.Generated(TopExp::FirstVertex(TopoDS::Edge(anEList.front())));
+	      aVBuilder2.Generated(TopExp::LastVertex(TopoDS::Edge(anEList.front())));
 	    }
 	  }
 	}

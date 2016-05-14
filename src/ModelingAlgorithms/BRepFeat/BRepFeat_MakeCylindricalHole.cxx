@@ -326,7 +326,7 @@ void BRepFeat_MakeCylindricalHole::PerformUntilEnd(const Standard_Real Radius,
   for (Standard_Integer i=1; i<= theASI.NbPoints(); i++) {
     prm = theASI.Point(i).Parameter();
     if (prm >= First && prm <= Last) {
-      theList.Append(theASI.Point(i).Face());
+      theList.push_back(theASI.Point(i).Face());
     }
     else if (prm > Last) {
       break;
@@ -455,7 +455,7 @@ void BRepFeat_MakeCylindricalHole::Perform(const Standard_Real Radius,
   for (Standard_Integer i=1; i<= theASI.NbPoints(); i++) {
     prm = theASI.Point(i).Parameter();
     if (prm >= First && prm <= Last) {
-      theList.Append(theASI.Point(i).Face());
+      theList.push_back(theASI.Point(i).Face());
     }
     else if (prm > Last) {
       break;
@@ -582,7 +582,7 @@ void BRepFeat_MakeCylindricalHole::PerformBlind(const Standard_Real Radius,
 */
   // version for advanced control
   for (Standard_Integer i=IndFrom; i<= ITNext; i++) {
-    theList.Append(theASI.Point(i).Face());
+    theList.push_back(theASI.Point(i).Face());
   }
 
   First = theASI.Point(IndFrom).Parameter();

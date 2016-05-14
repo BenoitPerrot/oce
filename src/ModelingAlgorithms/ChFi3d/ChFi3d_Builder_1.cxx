@@ -341,7 +341,7 @@ Handle(Geom_Surface) ChFi3d_Builder::ComputedSurface(const Standard_Integer IC,
 
 Standard_Integer ChFi3d_Builder::NbFaultyVertices() const
 {
-  return badvertices.Extent();
+  return badvertices.size();
 }
 
 //=======================================================================

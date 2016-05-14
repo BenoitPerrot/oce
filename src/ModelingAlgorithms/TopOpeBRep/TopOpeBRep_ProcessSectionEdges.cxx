@@ -102,7 +102,7 @@ void TopOpeBRep_FacesFiller::GetESL(TopTools_ListOfShape& LES)
       }
       if (add) {
         mapES.Add(E);
-        LES.Append(E);
+        LES.push_back(E);
       }
 
 #ifdef OCCT_DEBUG
@@ -388,7 +388,7 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
 
       Standard_Boolean toappend = FUN_brep_sdmRE(E1,E2);
       if (toappend) { 
-	mapELE.ChangeFind(E1).Append(E2);
+	mapELE.ChangeFind(E1).push_back(E2);
       }
     }
   }

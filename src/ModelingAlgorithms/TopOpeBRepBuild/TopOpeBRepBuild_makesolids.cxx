@@ -135,7 +135,7 @@ void TopOpeBRepBuild_Builder::GSOBUMakeSolids
 	  const TopoDS_Edge& EE = TopoDS::Edge(E);
 	  Standard_Boolean degen = BRep_Tool::Degenerated(EE);
 	  if (degen) continue;
-	  Standard_Integer nbf = edgemap(iedge).Extent();
+	  Standard_Integer nbf = edgemap(iedge).size();
 	  if (nbf < 2) {
 	    closed = Standard_False;
 	    break;

@@ -223,31 +223,31 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     TopTools_ListOfShape Solids1,Solids2,Faces1,Faces2,Edges1,Edges2,Vertex1,Vertex2;
     TopExp_Explorer Ex;
     for(Ex.Init(myS1,TopAbs_SOLID),nbs1=0; Ex.More(); Ex.Next()) {
-      Solids1.Append(Ex.Current()); nbs1++;
+      Solids1.push_back(Ex.Current()); nbs1++;
     }
     for(Ex.Init(myS2,TopAbs_SOLID),nbs2=0; Ex.More(); Ex.Next()) { 
-      Solids2.Append(Ex.Current()); nbs2++;
+      Solids2.push_back(Ex.Current()); nbs2++;
     }
     //== Faces not  in a solid
     for(Ex.Init(myS1,TopAbs_FACE,TopAbs_SOLID),nbf1=0; Ex.More(); Ex.Next())  { 
-      Faces1.Append(Ex.Current()); nbf1++;
+      Faces1.push_back(Ex.Current()); nbf1++;
     }
     for(Ex.Init(myS2,TopAbs_FACE,TopAbs_SOLID),nbf2=0; Ex.More(); Ex.Next())  {
-      Faces2.Append(Ex.Current()); nbf2++;
+      Faces2.push_back(Ex.Current()); nbf2++;
     }
     //== Edges not in a solid
     for(Ex.Init(myS1,TopAbs_EDGE,TopAbs_FACE),nbe1=0;  Ex.More(); Ex.Next())  { 
-      Edges1.Append(Ex.Current()); nbe1++;
+      Edges1.push_back(Ex.Current()); nbe1++;
     }
     for(Ex.Init(myS2,TopAbs_EDGE,TopAbs_FACE),nbe2=0;  Ex.More(); Ex.Next()) {
-      Edges2.Append(Ex.Current()); nbe2++;
+      Edges2.push_back(Ex.Current()); nbe2++;
     }
     //== Vertices not in an edge
     for(Ex.Init(myS1,TopAbs_VERTEX,TopAbs_EDGE),nbv1=0;  Ex.More(); Ex.Next())  { 
-      Vertex1.Append(Ex.Current()); nbv1++;
+      Vertex1.push_back(Ex.Current()); nbv1++;
     }
     for(Ex.Init(myS2,TopAbs_VERTEX,TopAbs_EDGE),nbv2=0;  Ex.More(); Ex.Next()) {
-      Vertex2.Append(Ex.Current()); nbv2++;
+      Vertex2.push_back(Ex.Current()); nbv2++;
     }
 
     //-- cout<<"Solids1: "<<nbs1<<"  Faces1: "<<nbf1<<" Edges1:"<<nbe1<<" Vtx1:"<<nbv1<<endl;
@@ -356,7 +356,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 
 	sewing = Standard_False;
 
-	if(MergedShapes.Extent() != 0) {
+	if(MergedShapes.size() != 0) {
 	  TopTools_ListIteratorOfListOfShape its(MergedShapes);
 	  for(; its.More(); its.Next()) {
 	    BB.Add(myShape,its.Value());
@@ -397,7 +397,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	TopTools_IndexedMapOfShape aMapOfFaces;
 	sewing = Standard_False;
 
-	if(MergedShapes.Extent() != 0) {
+	if(MergedShapes.size() != 0) {
 	  TopTools_ListIteratorOfListOfShape its(MergedShapes);
 	  for(; its.More(); its.Next()) {
 	    BB.Add(myShape,its.Value());
@@ -675,8 +675,8 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	  ex2.Next();
 	  if (!ex2.More()) {
 	    ex2.Init(brts.SewedShape(), TopAbs_SHELL);
-	    theOldShell.Append(ex1.Current());
-	    theNewShell.Append(ex2.Current());
+	    theOldShell.push_back(ex1.Current());
+	    theNewShell.push_back(ex2.Current());
 	    modif =Standard_True;
 	    for (ex3.Init(ex1.Current(), TopAbs_EDGE); ex3.More(); ex3.Next()) {
 	      const TopoDS_Edge& ledg = TopoDS::Edge(ex3.Current());
@@ -703,14 +703,14 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     TopTools_ListIteratorOfListOfShape itl(theOldShell);
     TopTools_ListOfShape forSub;
     for (; itl.More();itl.Next()) {
-      forSub.Append(theNewShell.First());
+      forSub.push_back(theNewShell.front());
       bsub.Substitute(itl.Value(), forSub);
-      theNewShell.RemoveFirst();
-      forSub.Clear();
+      theNewShell.pop_front();
+      forSub.clear();
     }
     bsub.Build(myShape);
     if (bsub.IsCopied(myShape)) {
-      myShape=(bsub.Copy(myShape)).First();
+      myShape=(bsub.Copy(myShape)).front();
     }
   }
   
@@ -844,34 +844,34 @@ void BRepAlgo_BooleanOperation::InitParameters()
 //=======================================================================
 const TopTools_ListOfShape& BRepAlgo_BooleanOperation::Modified(const TopoDS_Shape& S) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   TopTools_MapOfShape aMap; // to check if shape can be added in list more then one time
   aMap.Clear();
   if (myHBuilder->IsSplit(S, TopAbs_OUT)) {
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_OUT));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
   if (myHBuilder->IsSplit(S, TopAbs_IN)) {
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_IN));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
   if (myHBuilder->IsSplit(S, TopAbs_ON)) {
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_ON));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
 
@@ -879,27 +879,27 @@ const TopTools_ListOfShape& BRepAlgo_BooleanOperation::Modified(const TopoDS_Sha
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_OUT));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
   if (myHBuilder->IsMerged(S, TopAbs_IN)) {
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_IN));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
   if (myHBuilder->IsMerged(S, TopAbs_ON)) {
     TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_ON));
     for(;It.More();It.Next()) {
       if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.Append(topToSew.Find(It.Value()));}
+	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.Append(It.Value());}
+	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
     }
   }
   return myGenerated;

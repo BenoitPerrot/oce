@@ -141,7 +141,7 @@ static Standard_Integer Loc(Draw_Interpretor& theCommands,
   TopTools_ListOfShape LF;
   for (Standard_Integer i=0; i<= narg-6; i++) {
     TopoDS_Shape aLocalShape(DBRep::Get(a[i+5],TopAbs_FACE));
-    LF.Append(aLocalShape);
+    LF.push_back(aLocalShape);
 //    LF.Append(TopoDS::Face(DBRep::Get(a[i+5],TopAbs_FACE)));
   }
 
@@ -421,9 +421,9 @@ static Standard_Integer PRW(Draw_Interpretor& theCommands,
 
   TopoDS_Shape ToPrism;
   const TopTools_ListOfShape& lleft = Spls.DirectLeft();
-  if (lleft.Extent() == 1) {
-    thePFace.Init(S,lleft.First(),F,V,fuse,Standard_True);
-    ToPrism = lleft.First();
+  if (lleft.size() == 1) {
+    thePFace.Init(S,lleft.front(),F,V,fuse,Standard_True);
+    ToPrism = lleft.front();
   }
   else {
     BRep_Builder B;
@@ -1078,13 +1078,13 @@ static Standard_Integer Debou(Draw_Interpretor& theCommands,
   TopTools_ListOfShape LF,LF2;
   for ( i=4; i<newnarg; i++) {
     TopoDS_Shape aLocalShape(DBRep::Get(a[i],TopAbs_FACE));
-    LF.Append(aLocalShape);
+    LF.push_back(aLocalShape);
 //    LF.Append(TopoDS::Face(DBRep::Get(a[i],TopAbs_FACE)));
   }
 
   for (i=newnarg+1; i<narg; i++) {
     TopoDS_Shape aLocalShape(DBRep::Get(a[i],TopAbs_FACE));
-    LF2.Append(aLocalShape);
+    LF2.push_back(aLocalShape);
 //    LF2.Append(TopoDS::Face(DBRep::Get(a[i],TopAbs_FACE)));
   }
 
@@ -1187,9 +1187,9 @@ static Standard_Integer ROW(Draw_Interpretor& theCommands,
 
   TopoDS_Shape ToRotate;
   const TopTools_ListOfShape& lleft = Spls.DirectLeft();
-  if (lleft.Extent() == 1) {
-    theRFace.Init(S,lleft.First(),F,theAxis,fuse,Standard_True);
-    ToRotate = lleft.First();
+  if (lleft.size() == 1) {
+    theRFace.Init(S,lleft.front(),F,theAxis,fuse,Standard_True);
+    ToRotate = lleft.front();
   }
   else {
     BRep_Builder B;

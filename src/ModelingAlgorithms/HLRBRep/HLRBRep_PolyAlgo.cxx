@@ -1249,7 +1249,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
   TopLoc_Location L;
   myBCurv.Initialize(E);
   if (connex) {
-    Standard_Integer nbConnex = LS.Extent();
+    Standard_Integer nbConnex = LS.size();
     if      (nbConnex == 1) {
       TopTools_ListIteratorOfListOfShape itn(LS);
       const TopoDS_Face& F1 = TopoDS::Face(itn.Value());

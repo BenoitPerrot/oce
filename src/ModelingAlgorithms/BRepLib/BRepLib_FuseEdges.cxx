@@ -342,7 +342,7 @@ Standard_Integer BRepLib_FuseEdges::NbVertices()
     for (itEdg.Initialize(myMapLstEdg); itEdg.More(); itEdg.Next()) {
       const Standard_Integer& iLst = itEdg.Key();
       const TopTools_ListOfShape& LmapEdg = myMapLstEdg.Find(iLst);
-      nbvertices += LmapEdg.Extent() - 1;
+      nbvertices += LmapEdg.size() - 1;
     }    
   }
 
@@ -415,7 +415,7 @@ void BRepLib_FuseEdges::BuildListEdges()
       if (myAvoidEdg.Contains(edgecur))
         continue;       // edge is not allowed to be fused
       BuildListConnexEdge(edgecur, mapUniqEdg, LstEdg);
-      if (LstEdg.Extent() > 1) {
+      if (LstEdg.size() > 1) {
 	myNbConnexEdge++;
 	myMapLstEdg.Bind(myNbConnexEdge,LstEdg);
       }
@@ -454,16 +454,16 @@ void BRepLib_FuseEdges::BuildListResultEdges()
       const Standard_Integer& iLst = itLstEdg.Key();
       const TopTools_ListOfShape& LmapEdg = myMapLstEdg.Find(iLst);
 
-      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.First());
+      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
 
       // the first edge of the list will be replaced by the result fusion edge
       if (OldEdge.Orientation()==TopAbs_REVERSED) {
-	VL = TopExp::FirstVertex(TopoDS::Edge(LmapEdg.First()),Standard_True);
-	VF = TopExp::LastVertex(TopoDS::Edge(LmapEdg.Last()),Standard_True);
+	VL = TopExp::FirstVertex(TopoDS::Edge(LmapEdg.front()),Standard_True);
+	VF = TopExp::LastVertex(TopoDS::Edge(LmapEdg.back()),Standard_True);
       }
       else {
-	VF = TopExp::FirstVertex(TopoDS::Edge(LmapEdg.First()),Standard_True);
-	VL = TopExp::LastVertex(TopoDS::Edge(LmapEdg.Last()),Standard_True);
+	VF = TopExp::FirstVertex(TopoDS::Edge(LmapEdg.front()),Standard_True);
+	VL = TopExp::LastVertex(TopoDS::Edge(LmapEdg.back()),Standard_True);
       }
       C = BRep_Tool::Curve(OldEdge,loc,f,l);
 
@@ -585,11 +585,11 @@ void BRepLib_FuseEdges::Perform()
       const TopTools_ListOfShape& LmapEdg = myMapLstEdg.Find(iLst);
       TopTools_ListIteratorOfListOfShape itEdg; 
 
-      EdgeToSubs.Clear();
-      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.First());
+      EdgeToSubs.clear();
+      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
 
 
-      EdgeToSubs.Append(myMapEdg(iLst));
+      EdgeToSubs.push_back(myMapEdg(iLst));
       Bsub.Substitute(OldEdge,EdgeToSubs);
 
       itEdg.Initialize(LmapEdg);
@@ -612,12 +612,12 @@ void BRepLib_FuseEdges::Perform()
     for (; exp.More(); exp.Next()) {
       const TopoDS_Shape& facecur = exp.Current();
       if (Bsub.IsCopied(facecur)) {
-	myMapFaces.Bind(facecur,(Bsub.Copy(facecur)).First());
+	myMapFaces.Bind(facecur,(Bsub.Copy(facecur)).front());
       }
     }
     
     if (Bsub.IsCopied(myShape)) {
-      myShape=(Bsub.Copy(myShape)).First();
+      myShape=(Bsub.Copy(myShape)).front();
     }
 
   }
@@ -648,8 +648,8 @@ void BRepLib_FuseEdges::BuildListConnexEdge(const TopoDS_Shape& theEdge,
   VL = TopExp::LastVertex(TopoDS::Edge(theEdge),Standard_True);
   TopoDS_Shape edgeconnex;
   TopoDS_Shape edgecur = theEdge;
-  theLstEdg.Clear();
-  theLstEdg.Append(edgecur);
+  theLstEdg.clear();
+  theLstEdg.push_back(edgecur);
   theMapUniq.Add(edgecur);
   TopAbs_Orientation ori2;
 
@@ -658,7 +658,7 @@ void BRepLib_FuseEdges::BuildListConnexEdge(const TopoDS_Shape& theEdge,
     if (theMapUniq.Contains(edgeconnex)) {
       break;
     }
-    theLstEdg.Append(edgeconnex);
+    theLstEdg.push_back(edgeconnex);
     edgecur = edgeconnex;
     // here take care about internal or external edges. It is non-sense to build
     // the connex list with such edges.
@@ -678,7 +678,7 @@ void BRepLib_FuseEdges::BuildListConnexEdge(const TopoDS_Shape& theEdge,
     if (theMapUniq.Contains(edgeconnex)) {
       break;
     }
-    theLstEdg.Prepend(edgeconnex);
+    theLstEdg.push_front(edgeconnex);
     edgecur = edgeconnex;
     // here take care about internal or external edges. It is non-sense to build
     // the connex list with such edges.
@@ -712,7 +712,7 @@ Standard_Boolean BRepLib_FuseEdges::NextConnexEdge(const TopoDS_Vertex& theVerte
   TopTools_ListIteratorOfListOfShape itEdg,itFac1,itFac2;
 
   // 1st condition 
-  if (LmapEdg.Extent() == 2) {
+  if (LmapEdg.size() == 2) {
     itEdg.Initialize(LmapEdg);
     theEdgeConnex = itEdg.Value();
     if (theEdge.IsSame(theEdgeConnex) ) {
@@ -728,7 +728,7 @@ Standard_Boolean BRepLib_FuseEdges::NextConnexEdge(const TopoDS_Vertex& theVerte
       const TopTools_ListOfShape& LmapFac1 = myMapEdgLstFac.FindFromKey(theEdge);
       const TopTools_ListOfShape& LmapFac2 = myMapEdgLstFac.FindFromKey(theEdgeConnex);
       
-      if (LmapFac1.Extent() ==  LmapFac2.Extent() && LmapFac1.Extent() < 3) {
+      if (LmapFac1.size() ==  LmapFac2.size() && LmapFac1.size() < 3) {
 	itFac1.Initialize(LmapFac1); 
 
 	// for each face in LmapFac1 we look in LmapFac2 if it exists
@@ -1054,7 +1054,7 @@ void BRepLib_FuseEdges::BuildAncestors
 	it.Next();
       }
       else {
-	Lsh.Remove(it);
+	it = Lsh.erase(it);
       }
     }
   }  

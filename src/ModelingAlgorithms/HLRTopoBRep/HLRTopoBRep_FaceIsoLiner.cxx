@@ -433,6 +433,6 @@ void HLRTopoBRep_FaceIsoLiner::MakeIsoLine (const TopoDS_Face& F,
   B.UpdateVertex (V1, U1, E, Tol);
   B.Add (E, V2);
   B.UpdateVertex (V2, U2, E, Tol);
-  DS.AddIsoL(F).Append(E);
+  DS.AddIsoL(F).push_back(E);
 }
 

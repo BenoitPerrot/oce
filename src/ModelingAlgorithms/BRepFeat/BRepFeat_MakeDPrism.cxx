@@ -159,13 +159,13 @@ void BRepFeat_MakeDPrism::Init(const TopoDS_Shape&    Sbase,
   myMap.Clear();
   myFShape.Nullify();
   myLShape.Nullify();
-  myTopEdges.Clear();
-  myLatEdges.Clear();
+  myTopEdges.clear();
+  myLatEdges.clear();
   TopExp_Explorer exp;
   for (exp.Init(mySbase,TopAbs_FACE);exp.More();exp.Next()) {
     TopTools_ListOfShape thelist;
     myMap.Bind(exp.Current(), thelist);
-    myMap(exp.Current()).Append(exp.Current());
+    myMap(exp.Current()).push_back(exp.Current());
   }
   myAngle = Angle;
 #ifdef OCCT_DEBUG
@@ -222,7 +222,7 @@ void BRepFeat_MakeDPrism::Add(const TopoDS_Edge& E,
     }
   }
   if (!itl.More()) {
-    mySlface(F).Append(E);
+    mySlface(F).push_back(E);
   }
 }
 
@@ -1052,7 +1052,7 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
   if (trc) cout << "BRepFeat_MakeDPrism::BossEdges (integer)" << endl;
 #endif
   TopTools_ListOfShape theLastShape;
-  theLastShape.Clear();
+  theLastShape.clear();
   if (signature == 1 || signature == -1) {
     theLastShape = FirstShape();
   }
@@ -1070,7 +1070,7 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
     const TopoDS_Face& FF = TopoDS::Face(itLS.Value());
     for (ExpE.Init(FF,TopAbs_EDGE);ExpE.More();ExpE.Next()) {
       const TopoDS_Edge& EE = TopoDS::Edge(ExpE.Current());
-      myTopEdges.Append(EE);  
+      myTopEdges.push_back(EE);  
     }
   }
   
@@ -1127,7 +1127,7 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
       TopTools_MapIteratorOfMapOfShape itMap;
       for (itMap.Initialize(MapE);itMap.More();itMap.Next()) {
 	if (!BRep_Tool::Degenerated(TopoDS::Edge(itMap.Key())))
-	  myLatEdges.Append(itMap.Key());
+	  myLatEdges.push_back(itMap.Key());
       }
     }
   }
@@ -1254,7 +1254,7 @@ static void MajMap(const TopoDS_Shape& theB,
       TopTools_ListOfShape thelist;
       theMap.Bind(theFShape, thelist);
       for (exp.Init(theP.FirstShape(),TopAbs_FACE);exp.More();exp.Next()) {
-	theMap(theFShape).Append(exp.Current());
+	theMap(theFShape).push_back(exp.Current());
       }
     }
   }
@@ -1266,7 +1266,7 @@ static void MajMap(const TopoDS_Shape& theB,
       TopTools_ListOfShape thelist1;
       theMap.Bind(theLShape, thelist1);
       for (exp.Init(theP.LastShape(),TopAbs_FACE);exp.More();exp.Next()) {
-	theMap(theLShape).Append(exp.Current());
+	theMap(theLShape).push_back(exp.Current());
       }
     }
   }

@@ -154,7 +154,7 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
       }
       newSh.Closed (BRep_Tool::IsClosed (newSh));
       if (!Manifold) {
-	lshell.Append(newSh.Oriented(TopAbs_INTERNAL));
+	lshell.push_back(newSh.Oriented(TopAbs_INTERNAL));
       }
       else {
 	TopTools_IndexedDataMapOfShapeListOfShape theMapEFbis;
@@ -163,7 +163,7 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
 	  const TopoDS_Edge& Ed = TopoDS::Edge(theMapEFbis.FindKey(k));
 	  TopAbs_Orientation OriEd = Ed.Orientation();
 	  if (OriEd != TopAbs_INTERNAL && OriEd != TopAbs_EXTERNAL) {  
-	    Standard_Integer Nbfac = theMapEFbis(k).Extent();
+	    Standard_Integer Nbfac = theMapEFbis(k).size();
 	    if (Nbfac > 2) { // peu probable
 	      break;
 	    }
@@ -181,14 +181,14 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
 	  BRepClass3d_SolidClassifier Class(newSo);
 	  Class.PerformInfinitePoint(Precision::Confusion());
 	  if (Class.State() == TopAbs_IN) {
-	    lresult.Append(newSh.Oriented(TopAbs_REVERSED));
+	    lresult.push_back(newSh.Oriented(TopAbs_REVERSED));
 	  }
 	  else {
-	    lresult.Append(newSh);
+	    lresult.push_back(newSh);
 	  }
 	}
 	else {
-	  lshell.Append(newSh.Oriented(TopAbs_INTERNAL));
+	  lshell.push_back(newSh.Oriented(TopAbs_INTERNAL));
 	}
       }
     }
@@ -217,8 +217,8 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
       const TopoDS_Shape& sh2 = itl2.Value();  
       if (!sh2.IsSame(sh)) {
 	if (IsInside(sh2, tempo)) {
-	  LIntern.Append(sh2);
-	  imbSh(sh).Append(sh2);
+	  LIntern.push_back(sh2);
+	  imbSh(sh).push_back(sh2);
 	}
       }
     }
@@ -241,7 +241,7 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
 //    for (TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm(imbSh);
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm(imbSh);
     for ( ; itdm.More(); itdm.Next()) {
-      if (itdm.Value().Extent() != 0) {
+      if (itdm.Value().size() != 0) {
 	break;
       }
     }
@@ -252,7 +252,7 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
       for (itl.Initialize(itdm.Value()); itl.More(); itl.Next()) {
 	B.Add(newSo,itl.Value().Reversed());
       }
-      lsolid.Append(newSo);
+      lsolid.push_back(newSo);
       imbSh.UnBind(itdm.Key());
     }
     else {
@@ -260,20 +260,20 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
 	TopoDS_Solid newSo;
 	B.MakeSolid(newSo);
 	B.Add(newSo,itdm.Key());
-	lsolid.Append(newSo);
+	lsolid.push_back(newSo);
       }
       imbSh.Clear();
     }
   } while (imbSh.Extent() != 0);
 
-  Standard_Integer nbsol = lsolid.Extent();
-  Standard_Integer nbshl = lshell.Extent();
+  Standard_Integer nbsol = lsolid.size();
+  Standard_Integer nbshl = lshell.size();
 
   if (nbsol == 1 && nbshl == 0) {
-    myRes = lsolid.First();
+    myRes = lsolid.front();
   }
   else if (nbsol == 0 && nbshl == 1) {
-    myRes = lshell.First();
+    myRes = lshell.front();
   }
   else {
     B.MakeCompound(TopoDS::Compound(myRes));

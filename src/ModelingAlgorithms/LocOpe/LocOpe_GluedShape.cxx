@@ -71,8 +71,8 @@ void LocOpe_GluedShape::Init(const TopoDS_Shape& S)
   myShape = S;
   myMap.Clear();
   myGShape.Clear();
-  myList.Clear();
-  myGEdges.Clear();
+  myList.clear();
+  myGEdges.clear();
 }
 
 
@@ -127,7 +127,7 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
 	continue;
       }
       // Est-ce un edge de connexite entre les faces collees
-      if (theMapEF.FindFromKey(edg).Extent() != 2) {
+      if (theMapEF.FindFromKey(edg).size() != 2) {
 	Standard_ConstructionError::Raise();
       }
       for (itl.Initialize(theMapEF.FindFromKey(edg)); itl.More(); itl.Next()) {
@@ -138,7 +138,7 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
 
       if (itl.More()) {
 //	myGEdges.Append(edg);
-	myGEdges.Append(edg.Reversed());
+	myGEdges.push_back(edg.Reversed());
 	myGShape.Bind(edg,itl.Value()); // voir orientation, 
 	                              //mais devrait etre bon
       }
@@ -181,7 +181,7 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
 
   for (exp.Init(myShape,TopAbs_FACE); exp.More(); exp.Next()) {
     if (!myMap.Contains(exp.Current())) {
-      myList.Append(exp.Current());
+      myList.push_back(exp.Current());
     }
   }
 }

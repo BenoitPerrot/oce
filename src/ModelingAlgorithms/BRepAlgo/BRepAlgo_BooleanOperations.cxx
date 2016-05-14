@@ -164,10 +164,10 @@ myApproxRelativeTol (Standard_True)
   HBuilder->MergeShapes (myS1, State1, myS2, State2) ;
 
   const TopTools_ListOfShape& ListResults = HBuilder->Merged (myS1, State1) ;
-  Standard_Integer NbResults = ListResults.Extent() ;
+  Standard_Integer NbResults = ListResults.size() ;
   if (NbResults > 0) {
     if (NbResults == 1) {
-      myShape = ListResults.First() ;
+      myShape = ListResults.front() ;
     } else {
       BRep_Builder Builder ;
       Builder.MakeCompound (TopoDS::Compound (myShape)) ;
@@ -233,10 +233,10 @@ myApproxRelativeTol (Standard_True)
   Handle(TopOpeBRepBuild_HBuilder)& HBuilder = myDSA.myHB ;
 
   const TopTools_ListOfShape& ListResults = HBuilder->Section() ;
-  Standard_Integer NbResults = ListResults.Extent() ;
+  Standard_Integer NbResults = ListResults.size() ;
   if (NbResults > 0) {
     if (NbResults == 1) {
-      myShape = ListResults.First() ;
+      myShape = ListResults.front() ;
     } else {
       BRep_Builder Builder ;
       Builder.MakeCompound (TopoDS::Compound (myShape)) ;
@@ -282,13 +282,13 @@ myApproxRelativeTol (Standard_True)
     BRepTools_Substitution Substitute ;
 
     TopTools_ListOfShape NullFaces ;
-    NullFaces.Clear() ;
+    NullFaces.clear() ;
 
     TopExp_Explorer ExpFac ;
     for (ExpFac.Init (ShapeToDel, TopAbs_FACE) ; ExpFac.More() ; ExpFac.Next()) {
       const TopoDS_Face& Face = TopoDS::Face (ExpFac.Current()) ;
       const TopTools_ListOfShape& ListResults = Modified (Face) ;
-      if (ListResults.Extent() == 0) {
+      if (ListResults.size() == 0) {
 	if (myMapShape.Contains (Face)) Substitute.Substitute (Face, NullFaces) ;
       } else {
 	TopTools_ListIteratorOfListOfShape ItrFace ;
@@ -301,9 +301,9 @@ myApproxRelativeTol (Standard_True)
     Substitute.Build (myShape) ;
     if (Substitute.IsCopied (myShape)) {
       const TopTools_ListOfShape& ListResults = Substitute.Copy (myShape) ;
-      Standard_Integer NbResults = ListResults.Extent() ;
+      Standard_Integer NbResults = ListResults.size() ;
       if (NbResults == 1) {
-	myResult = ListResults.First() ;
+	myResult = ListResults.front() ;
       } else if (NbResults > 1) {
 	BRep_Builder Builder ;
 	Builder.MakeCompound (TopoDS::Compound (myResult)) ;

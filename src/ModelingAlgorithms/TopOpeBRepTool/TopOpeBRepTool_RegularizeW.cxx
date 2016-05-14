@@ -116,7 +116,7 @@ Standard_Boolean TopOpeBRepTool::Regularize(const TopoDS_Face& theFace,
 			       TopTools_DataMapOfShapeListOfShape& ESplits) 
 {   
   TopOpeBRepTool_REGUW REGUW(theFace);
-  aListOfFaces.Clear();
+  aListOfFaces.clear();
   TopTools_DataMapOfShapeListOfShape mapoldWnewW;
   Standard_Boolean regu = TopOpeBRepTool::RegularizeWires(theFace,mapoldWnewW,ESplits);
   if (regu) {
@@ -647,7 +647,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
   TopTools_ListOfShape lOws;
   for (; itm.More(); itm.Next()){
     const TopoDS_Shape& owi = itm.Key(); 
-    lOws.Append(owi);
+    lOws.push_back(owi);
     const TopTools_ListOfShape& low = itm.Value();
     TopTools_ListOfShape lwresu; FUN_addOwlw(owi,low,lwresu);
     TopTools_ListIteratorOfListOfShape itw(lwresu);
@@ -658,7 +658,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
   Standard_Integer nOw = noldW;
   Standard_Integer nite = 0, nitemax = Standard_Integer(nOw*(nOw-1)/2);
   while (nite <= nitemax){
-    nOw = lOws.Extent();
+    nOw = lOws.size();
     if (nOw == 0) break;
 
     TopTools_ListIteratorOfListOfShape itOw(lOws);
@@ -700,7 +700,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
 #ifdef OCCT_DEBUG
       if (trc) cout<<"old wires :wi"<<FUN_adds(Ow1)<<" is OUT all old wires"<<endl;
 #endif      
-      lOws.RemoveFirst();
+      lOws.pop_front();
     }//OUTall    
     else {
 #ifdef OCCT_DEBUG
@@ -750,7 +750,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
 	  else return Standard_False;
 	}//itgre
       }//itsma
-      lOws.RemoveFirst(); 
+      lOws.pop_front(); 
     } //!OUTall
   }//nite
   return Standard_True;

@@ -584,7 +584,7 @@ Standard_Boolean BRepOffset_Tool::HasCommonShapes (const TopoDS_Face& F1,
 						   TopTools_ListOfShape& LV)
 {
   Standard_Boolean Common = Standard_False;
-  LE.Clear(); LV.Clear();
+  LE.clear(); LV.clear();
 
   TopExp_Explorer exp1;
   exp1.Init(F1,TopAbs_EDGE);
@@ -595,7 +595,7 @@ Standard_Boolean BRepOffset_Tool::HasCommonShapes (const TopoDS_Face& F1,
     for (; exp2.More(); exp2.Next()) {
       if (exp1.Current().IsSame(exp2.Current())) {
 	Common = Standard_True;
-	LE.Append(exp1.Current());
+	LE.push_back(exp1.Current());
       }
     }
   }
@@ -605,7 +605,7 @@ Standard_Boolean BRepOffset_Tool::HasCommonShapes (const TopoDS_Face& F1,
     for (exp2.Init(F2,TopAbs_VERTEX); exp2.More(); exp2.Next()) {
       if (exp1.Current().IsSame(exp2.Current())) {
 	Common = Standard_True;
-	LV.Append(exp1.Current());
+	LV.push_back(exp1.Current());
       }
     }
   }
@@ -753,7 +753,7 @@ void BRepOffset_Tool::PipeInter(const TopoDS_Face& F1,
   Handle (Geom_Curve) CI;
   TopoDS_Edge E;
   TopAbs_Orientation O1,O2;
-  L1.Clear(); L2.Clear();
+  L1.clear(); L2.clear();
   BRep_Builder B;
   Handle (Geom_Surface) S1 = BRep_Tool::Surface(F1);
   Handle (Geom_Surface) S2 = BRep_Tool::Surface(F2);  
@@ -786,8 +786,8 @@ void BRepOffset_Tool::PipeInter(const TopoDS_Face& F1,
 	O1 = TopAbs::Reverse(O1);
 	O2 = TopAbs::Reverse(O2);
       }
-      L1.Append (E.Oriented(O1));
-      L2.Append (E.Oriented(O2));
+      L1.push_back (E.Oriented(O1));
+      L2.push_back (E.Oriented(O2));
 #ifdef DRAW
       if (AffichInter) {
         char name[256];
@@ -1624,7 +1624,7 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
   Standard_Integer aNb = aFFs.Extent();
   Standard_Integer i = 0, j = 0, k;
   // Store Result
-  L1.Clear(); L2.Clear();
+  L1.clear(); L2.clear();
   TopAbs_Orientation O1,O2;
   
   for (i = 0; i < aNb; i++) {
@@ -1695,8 +1695,8 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
           O2 = TopAbs::Reverse(O2);
         }
         
-        L1.Append (anEdge.Oriented(O1));
-        L2.Append (anEdge.Oriented(O2));
+        L1.push_back (anEdge.Oriented(O1));
+        L2.push_back (anEdge.Oriented(O2));
         
 #ifdef DRAW
         if (AffichInter) {
@@ -1729,7 +1729,7 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
   else if (aSurf->IsKind(STANDARD_TYPE(Geom_ElementarySurface)))
     isEl2 = Standard_True;
 
-  if (L1.Extent() > 1 && (!isEl1 || !isEl2)) {
+  if (L1.size() > 1 && (!isEl1 || !isEl2)) {
     TopTools_SequenceOfShape eseq;
     TopTools_SequenceOfShape EdgesForConcat;
 
@@ -1816,7 +1816,7 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
 		  {
 		    TopoDS_Edge anEdge = TopoDS::Edge(itw.Value());
 		    if (StartFound)
-		      Elist.Append(anEdge);
+		      Elist.push_back(anEdge);
 		    else
 		      {
 			TopoDS_Vertex V1, V2;
@@ -1834,20 +1834,20 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
 			    StartFound = Standard_True;
 			  }
 			else
-			  Elist.Append(anEdge);
+			  Elist.push_back(anEdge);
 		      }
 		  } //end of for (; itw.More(); itw.Next())
 		if (!StartFound)
 		  {
 		    itl.Initialize(Elist);
 		    StartEdge = TopoDS::Edge(itl.Value());
-		    Elist.Remove(itl);
+		    itl = Elist.erase(itl);
 		    TopoDS_Vertex V1, V2;
 		    TopExp::Vertices( StartEdge, V1, V2 );
 		    StartVertex = V1;
 		  }
 		EdgesForConcat.Append( StartEdge );
-		while (!Elist.IsEmpty())
+		while (!Elist.empty())
 		  {
 		    for (itl.Initialize(Elist); itl.More(); itl.Next())
 		      {
@@ -1858,14 +1858,14 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
 			  {
 			    StartVertex = V2;
 			    EdgesForConcat.Append( anEdge );
-			    Elist.Remove(itl);
+			    itl = Elist.erase(itl);
 			    break;
 			  }
 			else if (V2.IsSame(StartVertex))
 			  {
 			    StartVertex = V1;
 			    EdgesForConcat.Append( anEdge );
-			    Elist.Remove(itl);
+			    itl = Elist.erase(itl);
 			    break;
 			  }
 		      }
@@ -1884,10 +1884,10 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
 	  }
       } //end of else (when TrueEdges is empty)
     
-    if (eseq.Length() < L1.Extent())
+    if (eseq.Length() < L1.size())
       {
-	L1.Clear();
-	L2.Clear();
+	L1.clear();
+	L2.clear();
 	for (i = 1; i <= eseq.Length(); i++)
 	  {
 	    TopoDS_Edge anEdge = TopoDS::Edge(eseq(i));
@@ -1915,8 +1915,8 @@ void BRepOffset_Tool::Inter3D(const TopoDS_Face& F1,
 		O2 = TopAbs::Reverse(O2);
 	      }
 	    
-	    L1.Append( anEdge.Oriented(O1) );
-	    L2.Append( anEdge.Oriented(O2) );
+	    L1.push_back( anEdge.Oriented(O1) );
+	    L2.push_back( anEdge.Oriented(O2) );
 	  }
       }
   } //end of if (L1.Extent() > 1)
@@ -1957,7 +1957,7 @@ Standard_Boolean BRepOffset_Tool::TryProject
 #endif
 
   // try to find if the edges <Edges> are laying on the face F1.
-  LInt1.Clear(); LInt2.Clear();
+  LInt1.clear(); LInt2.clear();
   TopTools_ListIteratorOfListOfShape it(Edges);
   Standard_Boolean     isOk = Standard_True;
   Standard_Boolean     Ok   = Standard_True;
@@ -1987,8 +1987,8 @@ Standard_Boolean BRepOffset_Tool::TryProject
 	O1 = TopAbs::Reverse(O1);
 	O2 = TopAbs::Reverse(O2);
       }
-      LInt1.Append (CurE.Oriented(O1));
-      LInt2.Append (CurE.Oriented(O2));
+      LInt1.push_back (CurE.Oriented(O1));
+      LInt2.push_back (CurE.Oriented(O2));
 #ifdef DRAW
       if (AffichInter) {
         char name[256];
@@ -2028,7 +2028,7 @@ void BRepOffset_Tool::InterOrExtent(const TopoDS_Face& F1,
   Handle (Geom_Curve) CI;
   TopoDS_Edge E;
   TopAbs_Orientation O1,O2;
-  L1.Clear(); L2.Clear();
+  L1.clear(); L2.clear();
   Handle (Geom_Surface) S1 = BRep_Tool::Surface(F1);
   Handle (Geom_Surface) S2 = BRep_Tool::Surface(F2);  
 
@@ -2062,8 +2062,8 @@ void BRepOffset_Tool::InterOrExtent(const TopoDS_Face& F1,
 	O1 = TopAbs::Reverse(O1);
 	O2 = TopAbs::Reverse(O2);
       }
-      L1.Append (E.Oriented(O1));
-      L2.Append (E.Oriented(O2));
+      L1.push_back (E.Oriented(O1));
+      L2.push_back (E.Oriented(O2));
 #ifdef DRAW
       if (AffichInter) {
         char name[256];
@@ -2278,7 +2278,7 @@ void BRepOffset_Tool::Inter2d (const TopoDS_Face&    F,
 #endif
   BRep_Builder  B;
   Standard_Real fl1[2],fl2[2];
-  LV.Clear();
+  LV.clear();
   
   // Si l edge a ete etendu les pcurves ne sont pas forcement 
   // a jour.
@@ -2463,14 +2463,14 @@ void BRepOffset_Tool::Inter2d (const TopoDS_Face&    F,
 	  B.UpdateVertex(V,U2,TopoDS::Edge(aLocalEdge),TolConf);
 //	  B.UpdateVertex(V,U1,TopoDS::Edge(E1.Oriented(TopAbs_FORWARD)),TolConf);
 //	  B.UpdateVertex(V,U2,TopoDS::Edge(E2.Oriented(TopAbs_FORWARD)),TolConf);
-	  LV.Append(V);
+	  LV.push_back(V);
 	}
       }
     }
     itry++;
   }
 
-  if (LV.Extent() > 1) {
+  if (LV.size() > 1) {
     //------------------------------------------------
     // garde seulement les vertex les plus proches du 
     //debut et de la fin. 
@@ -2493,7 +2493,7 @@ void BRepOffset_Tool::Inter2d (const TopoDS_Face&    F,
 	VL = CV; UMax = U;
       }
     }
-    LV.Clear();LV.Append(VF); LV.Append(VL);
+    LV.clear();LV.push_back(VF); LV.push_back(VL);
   }
 
 #ifdef OCCT_DEBUG
@@ -2550,8 +2550,8 @@ static void SelectEdge (const TopoDS_Face& /*F*/,
     } 
 
   }
-  LInt.Clear(); 
-  LInt.Append(GE);
+  LInt.clear(); 
+  LInt.push_back(GE);
 }
 
 
@@ -3402,13 +3402,13 @@ void BRepOffset_Tool::MapVertexEdges (const TopoDS_Shape& S,
 	TopTools_ListOfShape empty;
 	MEV.Bind(V1,empty);
       }
-      MEV(V1).Append(E);
+      MEV(V1).push_back(E);
       if (!V1.IsSame(V2)) {
 	if (!MEV.IsBound(V2)) {
 	  TopTools_ListOfShape empty;
 	  MEV.Bind(V2,empty);
 	}
-	MEV(V2).Append(E);
+	MEV(V2).push_back(E);
       }
     }
   }
@@ -3562,10 +3562,10 @@ void BRepOffset_Tool::ExtentFace (const TopoDS_Face&            F,
       if (ConstShapes.IsBound(E)) ToBuild.UnBind(E);
       if (ToBuild.IsBound(E)) {
 	TopTools_ListOfShape LOE;
-	LOE.Append(E);
+	LOE.push_back(E);
 	BRepOffset_Tool::TryProject (TopoDS::Face(ToBuild(E)),
 				     EF,LOE,LInt2,LInt1,Side,TolConf);
-	if (!LInt1.IsEmpty()) 
+	if (!LInt1.empty()) 
 	  ToBuild.UnBind(E);
       }
     }
@@ -3580,13 +3580,13 @@ void BRepOffset_Tool::ExtentFace (const TopoDS_Face&            F,
         // No intersection, it may happen for example for a chosen (non-offseted) planar face and 
         // its neighbour offseted cylindrical face, if the offset is directed so that 
         // the radius of the cylinder becomes smaller.
-        if (LInt1.IsEmpty())
+        if (LInt1.empty())
           continue;  
-	if (LInt1.Extent() > 1) { 
+	if (LInt1.size() > 1) { 
 	  // l intersection est en plusieurs edges (franchissement de couture)
 	  SelectEdge (F,EF,E,LInt1);
 	}
-	NE = TopoDS::Edge(LInt1.First());
+	NE = TopoDS::Edge(LInt1.front());
 	Handle(BRep_TEdge)& TE = *((Handle(BRep_TEdge)*) &NE.TShape());
 	TE->Tolerance( TE->Tolerance()*10. ); //????
 	if (NE.Orientation() == E.Orientation()) {
@@ -3640,15 +3640,15 @@ void BRepOffset_Tool::ExtentFace (const TopoDS_Face&            F,
 	      Inter2d (EF,TopoDS::Edge(Build(E)),
 		       TopoDS::Edge(Build(NEOnV1)),LV,/*TolConf*/Precision::Confusion());
 	      if (Build(E).Orientation() == TopAbs_FORWARD) {
-		V = TopoDS::Vertex(LV.First());
+		V = TopoDS::Vertex(LV.front());
 	      }
 	      else {
-		V = TopoDS::Vertex(LV.Last());
+		V = TopoDS::Vertex(LV.back());
 	      }
 	    }
 	    else {
 	      V = TopoDS::Vertex(Build(V1));
-	      if (MVE (V1).Extent() > 2) {
+	      if (MVE (V1).size() > 2) {
 		V.Orientation(TopAbs_FORWARD);
 		if (Build(E).Orientation() == TopAbs_REVERSED)
 		  V.Orientation(TopAbs_REVERSED);
@@ -3684,15 +3684,15 @@ void BRepOffset_Tool::ExtentFace (const TopoDS_Face&            F,
 	      Inter2d (EF,TopoDS::Edge(Build(E)),
 		       TopoDS::Edge(Build(NEOnV2)),LV,/*TolConf*/Precision::Confusion());
 	      if (Build(E).Orientation() == TopAbs_FORWARD) {
-		V = TopoDS::Vertex(LV.Last());
+		V = TopoDS::Vertex(LV.back());
 	      }
 	      else {
-		V = TopoDS::Vertex(LV.First());
+		V = TopoDS::Vertex(LV.front());
 	      }
 	    }
 	    else {
 	      V = TopoDS::Vertex(Build(V2));
-	      if (MVE (V2).Extent() > 2) {
+	      if (MVE (V2).size() > 2) {
 		V.Orientation(TopAbs_REVERSED);
 		if (Build(E).Orientation() == TopAbs_REVERSED)
 		  V.Orientation(TopAbs_FORWARD);

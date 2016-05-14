@@ -74,10 +74,10 @@ void TopOpeBRepBuild_Builder::SplitFace1(const TopoDS_Shape& Foriented,
   
   // build the list of faces to split : LF1, LF2
   TopTools_ListOfShape LF1,LF2;
-  LF1.Append(Fforward);
+  LF1.push_back(Fforward);
   FindSameDomain(LF1,LF2);
-  Standard_Integer n1 = LF1.Extent();
-  Standard_Integer n2 = LF2.Extent();
+  Standard_Integer n1 = LF1.size();
+  Standard_Integer n2 = LF2.size();
   
   // SplitFace on a face having other same domained faces on the
   // other shape : do not reverse orientation of faces in FillFace
@@ -180,10 +180,10 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
 
   TopTools_ListOfShape LF1 ; //liste des faces de 1   samedomain
   TopTools_ListOfShape LF2 ; //liste des faces de   2 samedomain
-  LF1.Append(Fforward);
+  LF1.push_back(Fforward);
   FindSameDomain(LF1,LF2);
-  Standard_Integer n1 = LF1.Extent();
-  Standard_Integer n2 = LF2.Extent();
+  Standard_Integer n1 = LF1.size();
+  Standard_Integer n2 = LF2.size();
   
 #ifdef OCCT_DEBUG
   Standard_Boolean tSPF = TopOpeBRepBuild_GettraceSPF();
@@ -206,7 +206,7 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
 
   // LFSO : faces des shapes 1 ou 2, de meme orientation que Fforward.
   // LFOO : faces des shapes 1 ou 2, d'orientation contraire que Fforward.
-  LFSO.Append(Fforward);
+  LFSO.push_back(Fforward);
   FindSameDomainSameOrientation(LFSO,LFOO);
 
   TopTools_ListOfShape LFSO1,LFOO1; // same domain, same orientation, et du shape de F
@@ -389,10 +389,10 @@ void TopOpeBRepBuild_Builder::SplitFaceOK(const TopoDS_Shape& Foriented,
   
   // build the list of faces to split : LF1, LF2
   TopTools_ListOfShape LF1,LF2;
-  LF1.Append(Fforward);
+  LF1.push_back(Fforward);
   FindSameDomain(LF1,LF2);
-  Standard_Integer n1 = LF1.Extent();
-  Standard_Integer n2 = LF2.Extent();
+  Standard_Integer n1 = LF1.size();
+  Standard_Integer n2 = LF2.size();
   
   // SplitFace on a face having other same domained faces on the
   // other shape : do not reverse orientation of faces in FillFace

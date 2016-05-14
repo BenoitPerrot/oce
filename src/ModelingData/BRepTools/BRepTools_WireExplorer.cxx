@@ -193,7 +193,7 @@ void  BRepTools_WireExplorer::Init(const TopoDS_Wire& W,
 	{
 	  if( !myMap.IsBound(V1) )
 	    myMap.Bind(V1,empty);
-	  myMap(V1).Append(E);
+	  myMap(V1).push_back(E);
 
 	  // add or remove in the vertex map
 	  V1.Orientation(TopAbs_FORWARD);
@@ -292,8 +292,8 @@ void  BRepTools_WireExplorer::Init(const TopoDS_Wire& W,
   if (!myMap.IsBound(V1)) return;
   
   TopTools_ListOfShape& l = myMap(V1);
-  myEdge = TopoDS::Edge(l.First());
-  l.RemoveFirst();
+  myEdge = TopoDS::Edge(l.front());
+  l.pop_front();
   myVertex = TopExp::FirstVertex (myEdge, Standard_True);
 
 }
@@ -326,14 +326,14 @@ void  BRepTools_WireExplorer::Next()
 
   TopTools_ListOfShape& l = myMap(myVertex);
 
-  if (l.IsEmpty()) {
+  if (l.empty()) {
     myEdge = TopoDS_Edge();
   }
-  else if (l.Extent() == 1) {
+  else if (l.size() == 1) {
 //  Modified by Sergey KHROMOV - Fri Jun 21 10:28:01 2002 OCC325 Begin
     TopoDS_Vertex aV1;
     TopoDS_Vertex aV2;
-    TopoDS_Edge   aNextEdge = TopoDS::Edge(l.First());
+    TopoDS_Edge   aNextEdge = TopoDS::Edge(l.front());
 
     TopExp::Vertices(aNextEdge, aV1, aV2, Standard_True);
 
@@ -381,8 +381,8 @@ void  BRepTools_WireExplorer::Next()
       }
     }
 //  Modified by Sergey KHROMOV - Fri Jun 21 11:08:16 2002 End
-    myEdge = TopoDS::Edge(l.First());
-    l.Clear();
+    myEdge = TopoDS::Edge(l.front());
+    l.clear();
   }
   else {
     if (myFace.IsNull()) {
@@ -406,7 +406,7 @@ void  BRepTools_WireExplorer::Next()
       while (it.More()) {
 	      if (!it.Value().IsSame(myEdge)) {
 	        myEdge = TopoDS::Edge(it.Value());
-	        l.Remove(it);
+	        it = l.erase(it);
 	        notfound = Standard_False;
 	        break;
 	      }
@@ -572,7 +572,7 @@ void  BRepTools_WireExplorer::Next()
         if( k == kMin )
         {
           myEdge = TopoDS::Edge(it.Value());
-          l.Remove(it);
+          it = l.erase(it);
           break;
         }
         it.Next();
@@ -646,7 +646,7 @@ Standard_Boolean SelectDouble(TopTools_MapOfShape& Doubles,
     const TopoDS_Shape& CE = it.Value();
     if (Doubles.Contains(CE) && (!E.IsSame(CE))) {
       E = TopoDS::Edge(CE);
-      L.Remove(it);
+      it = L.erase(it);
       return 1;
     }
   }
@@ -666,7 +666,7 @@ Standard_Boolean SelectDegenerated(TopTools_ListOfShape& L,
     if (!it.Value().IsSame(E)) {
       E = TopoDS::Edge(it.Value());
       if (BRep_Tool::Degenerated(E)) {
-	L.Remove(it);
+	it = L.erase(it);
 	return 1;
       }
     }

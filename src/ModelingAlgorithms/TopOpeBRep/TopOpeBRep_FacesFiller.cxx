@@ -82,11 +82,11 @@ void debffsamdom(void){}
 
 static void FUN_MakeERL(TopOpeBRep_FacesIntersector& FI,TopTools_ListOfShape& ERL)
 {
-  ERL.Clear();
+  ERL.clear();
   const TopTools_IndexedMapOfShape& mer = FI.Restrictions();
   for ( Standard_Integer ie = 1, ne = mer.Extent(); ie <= ne; ie++) {
     const TopoDS_Edge& E = TopoDS::Edge(mer.FindKey(ie));
-    ERL.Append(E);
+    ERL.push_back(E);
   }
 }
 

@@ -321,7 +321,7 @@ static Standard_Boolean GetShapeEvolutions(const TopoDS_Shape&               the
     if (anIter.OldShape().IsNull() || anIter.NewShape().IsNull()) continue;
     if (!anIter.NewShape().IsSame(theTarget)) continue;
     if (GetShapeEvolutions(anIter.OldShape(),theSource,aList)) { // recursion: now target is old shape
-      aList.Append(theTarget); // if oldshape has the source as parent (or belongs to it) , fill the list
+      aList.push_back(theTarget); // if oldshape has the source as parent (or belongs to it) , fill the list
       return Standard_True;
     }
   }
@@ -358,7 +358,7 @@ static Handle(TNaming_NamedShape) CompareInModification (const Handle(TNaming_Na
   }
   // searching for 1:n to the same label modifications (in this case current naming is insufficient)
   TopTools_ListOfShape aList;
-  if (GetShapeEvolutions(S,aSource,aList) && aList.Extent() > 0) {
+  if (GetShapeEvolutions(S,aSource,aList) && aList.size() > 0) {
     TopTools_ListIteratorOfListOfShape anIter(aList);
     for(;anIter.More();anIter.Next()) {
       aResult = TNaming_Tool::NamedShape(anIter.Value(),NS->Label());

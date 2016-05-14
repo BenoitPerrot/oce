@@ -644,7 +644,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_Eshared(const TopoDS_Shape& v,const To
     TopExp_Explorer exv(e1,TopAbs_VERTEX);
     for (; exv.More(); exv.Next())
       if (exv.Current().IsSame(v)) {e1ok = Standard_True; break;}
-    if (e1ok) e1s.Append(e1);
+    if (e1ok) e1s.push_back(e1);
   }
   ex.Init(F2,TopAbs_EDGE);  
   for (; ex.More(); ex.Next()){
@@ -926,7 +926,7 @@ Standard_EXPORT void FUN_tool_shapes(const TopoDS_Shape& S,const TopAbs_ShapeEnu
 				     TopTools_ListOfShape& ltyp)
 {
   TopExp_Explorer ex(S,typ);
-  for (; ex.More(); ex.Next()) ltyp.Append(ex.Current());
+  for (; ex.More(); ex.Next()) ltyp.push_back(ex.Current());
 }
 
 // ----------------------------------------------------------------------
@@ -1038,7 +1038,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_pcurveonF(const TopoDS_Face& fF,TopoDS
     for (; exe.More(); exe.Next()){
       const TopoDS_Edge& e = TopoDS::Edge(exe.Current());
       Standard_Boolean equal = e.IsEqual(faultyE);
-      if (!equal) {loe.Append(e); continue;}
+      if (!equal) {loe.push_back(e); continue;}
       
       Standard_Real tole = BRep_Tool::Tolerance(e);
       TopoDS_Vertex vf,vl; TopExp::Vertices(e,vf,vl);
@@ -1049,16 +1049,16 @@ Standard_EXPORT Standard_Boolean FUN_tool_pcurveonF(const TopoDS_Face& fF,TopoDS
 //      vl.Orientation(TopAbs_REVERSED); BB.Add(newe,vl); FUN_ds_Parameter(newe,vl,parl);
       BB.UpdateEdge(newe,C2d,fF,tole);
       newe.Orientation(e.Orientation());
-      loe.Append(newe);  
+      loe.push_back(newe);  
       hasneww = Standard_True;
       hasnewf = Standard_True;
     }
     if (hasneww) {
       TopoDS_Wire neww; Standard_Boolean ok = FUN_tool_MakeWire(loe,neww);
       if (!ok) return Standard_False;
-      low.Append(neww);
+      low.push_back(neww);
     }
-    else low.Append(w);
+    else low.push_back(w);
   } // exw
   if (hasnewf) {
     TopoDS_Shape aLocalShape = fF.EmptyCopied();

@@ -42,7 +42,7 @@ TopOpeBRepBuild_ShellToSolid::TopOpeBRepBuild_ShellToSolid()
 
 void TopOpeBRepBuild_ShellToSolid::Init()
 {
-  myLSh.Clear();
+  myLSh.clear();
 }
 
 
@@ -53,7 +53,7 @@ void TopOpeBRepBuild_ShellToSolid::Init()
 
 void TopOpeBRepBuild_ShellToSolid::AddShell(const TopoDS_Shell& Sh)
 {
-  myLSh.Append(Sh);
+  myLSh.push_back(Sh);
 }
 
 //=======================================================================
@@ -64,7 +64,7 @@ void TopOpeBRepBuild_ShellToSolid::AddShell(const TopoDS_Shell& Sh)
 void TopOpeBRepBuild_ShellToSolid::MakeSolids(const TopoDS_Solid& So,
 					      TopTools_ListOfShape& LSo)
 {
-  LSo.Clear();
+  LSo.clear();
   
   TopOpeBRepBuild_ShellFaceSet sfs(So);
   for (TopTools_ListIteratorOfListOfShape it(myLSh);it.More();it.Next())

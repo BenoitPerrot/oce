@@ -159,9 +159,9 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
     View.Clear();
     
     for ( i = 1; i<=theMapEF.Extent(); i++) {
-      if (theMapEF(i).Extent() == 1) {
+      if (theMapEF(i).size() == 1) {
 	const TopoDS_Edge& edg = TopoDS::Edge(theMapEF.FindKey(i));
-	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).First());
+	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).front());
 	if (View.Add(fac)) {
 	  TopoDS_Shape aLocalShape = fac.EmptyCopied();
 	  TopoDS_Face newFace(TopoDS::Face(aLocalShape));
@@ -174,8 +174,8 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	    for ( ; exp2.More(); exp2.Next()) {
 	      if (exp2.Current().IsSame(edg)) {
 		B.Add(newFace,exp.Current());
-		lfaces.Append(newFace);
-		lcomplete.Append(newFace);
+		lfaces.push_back(newFace);
+		lcomplete.push_back(newFace);
 		break;
 	      }
 	    }
@@ -206,15 +206,15 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
       }
     }
     
-    lfaces.Clear();
+    lfaces.clear();
     theMapEF.Clear();
     TopExp::MapShapesAndAncestors(D,TopAbs_EDGE,TopAbs_FACE,theMapEF);
     View.Clear();
     
     for (i = 1; i<=theMapEF.Extent(); i++) {
-      if (theMapEF(i).Extent() == 1) {
+      if (theMapEF(i).size() == 1) {
 	const TopoDS_Edge& edg = TopoDS::Edge(theMapEF.FindKey(i));
-	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).First());
+	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).front());
 	if (View.Add(fac)) {
 	  TopoDS_Shape aLocalShape = fac.EmptyCopied();
 	  TopoDS_Face newFace(TopoDS::Face(aLocalShape));
@@ -227,8 +227,8 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	    for ( ; exp2.More(); exp2.Next()) {
 	      if (exp2.Current().IsSame(edg)) {
 		B.Add(newFace,exp.Current());
-		lfaces.Append(newFace);
-		lcomplete.Append(newFace);
+		lfaces.push_back(newFace);
+		lcomplete.push_back(newFace);
 		break;
 	      }
 	    }
@@ -306,16 +306,16 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	}
 	if (!NewFace.IsNull()) {
 	  B.Add(NewFace,NewWire.Oriented(Orref));
-	  lcomplete.Append(NewFace);
+	  lcomplete.push_back(NewFace);
           TopTools_ListOfShape thelist;
 	  myMap.Bind(ES, thelist);
-	  myMap(ES).Append(NewFace);
+	  myMap(ES).push_back(NewFace);
 	}
 	else {
 	  for (it.Initialize(lffs); it.More(); it.Next()) {
 	    if (View.Add(it.Value()) && 
 		it.Value().ShapeType() == TopAbs_FACE) {
-	      lcomplete.Append(it.Value());
+	      lcomplete.push_back(it.Value());
 	      
 	    }
 	  }
@@ -325,7 +325,7 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	for (it.Initialize(lffs); it.More(); it.Next()) {
 	  if (View.Add(it.Value()) && it.Value().ShapeType() 
 	      == TopAbs_FACE) {
-	    lcomplete.Append(it.Value());
+	    lcomplete.push_back(it.Value());
 	  }
 	}
       }
@@ -337,7 +337,7 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	for (it.Initialize(ls2); it.More(); it.Next()) {
 	  if (View.Add(it.Value()) && it.Value().ShapeType() 
 	      == TopAbs_FACE) {
-	    lcomplete.Append(it.Value());
+	    lcomplete.push_back(it.Value());
 	  }
 	}
       }
@@ -412,9 +412,9 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
     View.Clear();
     
     for ( i = 1; i<=theMapEF.Extent(); i++) {
-      if (theMapEF(i).Extent() == 1) {
+      if (theMapEF(i).size() == 1) {
 	const TopoDS_Edge& edg = TopoDS::Edge(theMapEF.FindKey(i));
-	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).First());
+	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).front());
 	if (View.Add(fac)) {
 	  TopoDS_Shape aLocalShape = fac.EmptyCopied();
 	  TopoDS_Face newFace(TopoDS::Face(aLocalShape));
@@ -427,8 +427,8 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
 	    for ( ; exp2.More(); exp2.Next()) {
 	      if (exp2.Current().IsSame(edg)) {
 		B.Add(newFace,exp.Current());
-		lfaces.Append(newFace);
-		lcomplete.Append(newFace);
+		lfaces.push_back(newFace);
+		lcomplete.push_back(newFace);
 		break;
 	      }
 	    }
@@ -459,15 +459,15 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
       }
     }
     
-    lfaces.Clear();
+    lfaces.clear();
     theMapEF.Clear();
     TopExp::MapShapesAndAncestors(D,TopAbs_EDGE,TopAbs_FACE,theMapEF);
     View.Clear();
     
     for (i = 1; i<=theMapEF.Extent(); i++) {
-      if (theMapEF(i).Extent() == 1) {
+      if (theMapEF(i).size() == 1) {
 	const TopoDS_Edge& edg = TopoDS::Edge(theMapEF.FindKey(i));
-	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).First());
+	const TopoDS_Face& fac = TopoDS::Face(theMapEF(i).front());
 	if (View.Add(fac)) {
 	  TopoDS_Shape aLocalShape = fac.EmptyCopied();
 	  TopoDS_Face newFace(TopoDS::Face(aLocalShape));
@@ -480,8 +480,8 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
 	    for ( ; exp2.More(); exp2.Next()) {
 	      if (exp2.Current().IsSame(edg)) {
 		B.Add(newFace,exp.Current());
-		lfaces.Append(newFace);
-		lcomplete.Append(newFace);
+		lfaces.push_back(newFace);
+		lcomplete.push_back(newFace);
 		break;
 	      }
 	    }
@@ -503,7 +503,7 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
 	myDPrism.GeneratedShapes(ES, myProfile2);
       for (it.Initialize(ls); it.More(); it.Next()) {
 	if (View.Add(it.Value())) {
-	  lcomplete.Append(it.Value());
+	  lcomplete.push_back(it.Value());
 	}
       }
       TopExp_Explorer ExpS2;
@@ -513,7 +513,7 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
 	for (it.Initialize(ls2); it.More(); it.Next()) {
 	  if (View.Add(it.Value()) && it.Value().
 	      ShapeType() == TopAbs_FACE) {
-	    lcomplete.Append(it.Value());
+	    lcomplete.push_back(it.Value());
 	  }
 	}
       }

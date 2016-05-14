@@ -387,7 +387,7 @@ void BOPAlgo_Section::BuildSection()
 const TopTools_ListOfShape& BOPAlgo_Section::Generated
   (const TopoDS_Shape& theS)
 {
-  myHistShapes.Clear();
+  myHistShapes.clear();
   if (theS.IsNull()) {
     return myHistShapes;
   }
@@ -416,7 +416,7 @@ const TopTools_ListOfShape& BOPAlgo_Section::Generated
     const Handle(BOPDS_PaveBlock)& aPB = aMPBSc(i);
     nSp = aPB->Edge();
     const TopoDS_Shape& aSp = myDS->Shape(nSp);
-    myHistShapes.Append(aSp);
+    myHistShapes.push_back(aSp);
   }
   //
   return myHistShapes;

@@ -157,7 +157,7 @@ void QANewBRepNaming_ImportShape::LoadNextLevels(const TopoDS_Shape& S,
     TopExp::MapShapesAndAncestors(S, TopAbs_EDGE, TopAbs_FACE, anEdgeAndNeighbourFaces);
     for (Standard_Integer i = 1; i <= anEdgeAndNeighbourFaces.Extent(); i++) {
       const TopTools_ListOfShape& aLL = anEdgeAndNeighbourFaces.FindFromIndex(i);
-      if (aLL.Extent() < 2) {
+      if (aLL.size() < 2) {
 	TNaming_Builder bFreeEdges(Tagger->NewChild());
 	bFreeEdges.Generated(anEdgeAndNeighbourFaces.FindKey(i));
       } else {
@@ -233,7 +233,7 @@ void QANewBRepNaming_ImportShape::LoadC0Edges(const TopoDS_Shape& S,
 	}
       }
       if (faceIsNew) {
-	edgeNaborFaces.ChangeFind(anEdge).Append(aFace);
+	edgeNaborFaces.ChangeFind(anEdge).push_back(aFace);
       }
     }
   }
@@ -244,7 +244,7 @@ void QANewBRepNaming_ImportShape::LoadC0Edges(const TopoDS_Shape& S,
     TopoDS_Shape anEdge1 = anEx.Current();
     if (edgeNaborFaces.IsBound(anEdge1)) {
       TopTools_ListOfShape aEdgesToRemove; // record items to be removed from the map (should be done after iteration)
-      aEdgesToRemove.Append (anEdge1);
+      aEdgesToRemove.push_back (anEdge1);
       const TopTools_ListOfShape& aList1 = edgeNaborFaces.Find(anEdge1);
       TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itr(edgeNaborFaces);
       for (; itr.More(); itr.Next()) {
@@ -252,16 +252,16 @@ void QANewBRepNaming_ImportShape::LoadC0Edges(const TopoDS_Shape& S,
         if (anEdge1.IsSame(anEdge2)) continue;
         const TopTools_ListOfShape& aList2 = itr.Value();
         // compare lists of the neighbour faces of edge1 and edge2
-        if (aList1.Extent() == aList2.Extent()) {
+        if (aList1.size() == aList2.size()) {
           Standard_Integer aMatches = 0;
           for(TopTools_ListIteratorOfListOfShape aLIter1(aList1);aLIter1.More();aLIter1.Next())
             for(TopTools_ListIteratorOfListOfShape aLIter2(aList2);aLIter2.More();aLIter2.Next())
               if (aLIter1.Value().IsSame(aLIter2.Value())) aMatches++;
-          if (aMatches == aList1.Extent()) {
+          if (aMatches == aList1.size()) {
             aC0=Standard_True;
             TNaming_Builder bC0Edge(Tagger->NewChild());
             bC0Edge.Generated(anEdge2);
-            aEdgesToRemove.Append (anEdge2);
+            aEdgesToRemove.push_back (anEdge2);
           }
         }
       }
@@ -303,7 +303,7 @@ void QANewBRepNaming_ImportShape::LoadC0Vertices(const TopoDS_Shape& S,
 	}
       }
       if (faceIsNew) {
-	vertexNaborFaces.ChangeFind(aVertex).Append(aFace);
+	vertexNaborFaces.ChangeFind(aVertex).push_back(aFace);
       }
     }
   }
@@ -311,7 +311,7 @@ void QANewBRepNaming_ImportShape::LoadC0Vertices(const TopoDS_Shape& S,
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itr(vertexNaborFaces);
   for (; itr.More(); itr.Next()) {
     const TopTools_ListOfShape& naborFaces = itr.Value();
-    if (naborFaces.Extent() < 3) {
+    if (naborFaces.size() < 3) {
       TNaming_Builder bC0Vertex(Tagger->NewChild());
       bC0Vertex.Generated(itr.Key());
     }

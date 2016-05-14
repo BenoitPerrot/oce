@@ -47,10 +47,10 @@ void MeshTest_CheckTopology::Perform (Draw_Interpretor& di)
   for (ie=1; ie <= aMapEF.Extent(); ie++) {
     const TopoDS_Edge& aEdge = TopoDS::Edge(aMapEF.FindKey(ie));
     const TopTools_ListOfShape& aFaces = aMapEF(ie);
-    if (aFaces.Extent() < 2) continue;
+    if (aFaces.size() < 2) continue;
 
     // get polygon on first face
-    const TopoDS_Face& aFace1 = TopoDS::Face(aFaces.First());
+    const TopoDS_Face& aFace1 = TopoDS::Face(aFaces.front());
     TopLoc_Location aLoc1;
     Handle(Poly_Triangulation) aT1 = BRep_Tool::Triangulation(aFace1, aLoc1);
     Handle(Poly_PolygonOnTriangulation) aPoly1 =

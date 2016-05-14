@@ -1186,19 +1186,19 @@ static void Substitute(BRepTools_Substitution& aSubstitute,
 
   if (!aSubstitute.IsCopied( OldV1 ))
     {
-      listShape.Append( NewV1.Oriented(TopAbs_FORWARD) );
+      listShape.push_back( NewV1.Oriented(TopAbs_FORWARD) );
       aSubstitute.Substitute( OldV1, listShape );
-      listShape.Clear();
+      listShape.clear();
     }
   if (!aSubstitute.IsCopied( OldV2 ))
     {
-      listShape.Append( NewV2.Oriented(TopAbs_FORWARD) );
+      listShape.push_back( NewV2.Oriented(TopAbs_FORWARD) );
       aSubstitute.Substitute( OldV2, listShape );
-      listShape.Clear();
+      listShape.clear();
     }
   if (!aSubstitute.IsCopied( Old ))
     {
-      listShape.Append( New.Oriented(TopAbs_FORWARD) );
+      listShape.push_back( New.Oriented(TopAbs_FORWARD) );
       aSubstitute.Substitute( Old, listShape );
     }
 }
@@ -1250,7 +1250,7 @@ static void KeepEdge(const TopoDS_Shape& Face,
 		     const TopoDS_Shape& Edge,
 		     TopTools_ListOfShape& List)
 {
-  List.Clear();
+  List.clear();
 // Class BRep_Tool without fields and without Constructor :
 //  BRep_Tool BT;
   Standard_Real f, l;
@@ -1264,7 +1264,7 @@ static void KeepEdge(const TopoDS_Shape& Face,
 //    C = BT.Curve(TopoDS::Edge(Exp.Current()), L, f, l);
     C = BRep_Tool::Curve(TopoDS::Edge(Exp.Current()), L, f, l);
     if ((Cref==C) && (Lref == L)) { 
-      List.Append(Exp.Current());
+      List.push_back(Exp.Current());
     }
   }
 }
@@ -1687,7 +1687,7 @@ BRepFill_Sweep::BRepFill_Sweep(const Handle(BRepFill_SectionLaw)& Section,
  
  SetTolerance(1.e-4);
  SetAngularControl();
- myAuxShape.Clear();
+ myAuxShape.clear();
 
  myApproxStyle = GeomFill_Location;
  myContinuity  = GeomAbs_C2;
@@ -2817,7 +2817,7 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
     aSubstitute.Build( shell );
     if (aSubstitute.IsCopied( shell )) {
       const TopTools_ListOfShape& listSh = aSubstitute.Copy( shell );
-      shell = TopoDS::Shell( listSh.First() );
+      shell = TopoDS::Shell( listSh.front() );
     }
 
     for (ii = myFaces->LowerRow(); ii <= myFaces->UpperRow(); ii++) {
@@ -2827,8 +2827,8 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 	if(!aLocalShape.IsNull() && aSubstitute.IsCopied(aLocalShape)) {
 	  const TopTools_ListOfShape& aList = aSubstitute.Copy(aLocalShape);
 
-	  if(!aList.IsEmpty())
-	    myFaces->ChangeValue(ii, jj) = aList.First();
+	  if(!aList.empty())
+	    myFaces->ChangeValue(ii, jj) = aList.front();
 	}
       }
     }
@@ -2840,8 +2840,8 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 	if(!aLocalShape.IsNull() && aSubstitute.IsCopied(aLocalShape)) {
 	  const TopTools_ListOfShape& aList = aSubstitute.Copy(aLocalShape);
 
-	  if(!aList.IsEmpty())
-	    myVEdges->ChangeValue(ii, jj) = aList.First();
+	  if(!aList.empty())
+	    myVEdges->ChangeValue(ii, jj) = aList.front();
 	}
       }
     }
@@ -2853,8 +2853,8 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 	if(!aLocalShape.IsNull() && aSubstitute.IsCopied(aLocalShape)) {
 	  const TopTools_ListOfShape& aList = aSubstitute.Copy(aLocalShape);
 
-	  if(!aList.IsEmpty())
-	    myUEdges->ChangeValue(ii, jj) = aList.First();
+	  if(!aList.empty())
+	    myUEdges->ChangeValue(ii, jj) = aList.front();
 	}
       }
     }
@@ -2871,7 +2871,7 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
       for (iedge = 1; iedge <=EFmap.Extent() && closed; iedge++) {
         const TopoDS_Edge& theEdge = TopoDS::Edge(EFmap.FindKey(iedge));
 	if (BRep_Tool::Degenerated(theEdge)) continue;
-	closed = (  EFmap(iedge).Extent() > 1);
+	closed = (  EFmap(iedge).size() > 1);
       }
       shell.Closed(closed);
     }
@@ -3063,16 +3063,16 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
       for (ii = 1; ii <= mySec->NbLaw(); ii++) {
 	aTrim.Modified(myFaces->Value(ii, II), listmodif);
 
-	if(!listmodif.IsEmpty()) {
-	  myFaces->SetValue(ii, II, listmodif.First());
+	if(!listmodif.empty()) {
+	  myFaces->SetValue(ii, II, listmodif.front());
 	}
       }
 
       for (ii = myUEdges->LowerRow(); ii <= myUEdges->UpperRow(); ii++) {
 	aTrim.Modified(myUEdges->Value(ii, II), listmodif);
 
-	if(!listmodif.IsEmpty()) {
-	  myUEdges->SetValue(ii, II, listmodif.First());
+	if(!listmodif.empty()) {
+	  myUEdges->SetValue(ii, II, listmodif.front());
 	}
       }
     }
@@ -3103,7 +3103,7 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
     for (ii=1; ii<=mySec->NbLaw(); ii++) {
       KeepEdge(myFaces->Value(ii, I1), Bounds->Value(ii, 1), list1);
       KeepEdge(myFaces->Value(ii, I2), Bounds->Value(ii, 2), list2);
-      if (list1.Extent() == list2.Extent()) {
+      if (list1.size() == list2.size()) {
 	TopTools_ListIteratorOfListOfShape It1(list1);
 	TopTools_ListIteratorOfListOfShape It2(list2);
 	Standard_Boolean B;
@@ -3140,7 +3140,7 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 		      myVEdgesModified, myTol3d, Axe, T1, Bord1, Bord2, FF);
 	  
 	  if (B) {
-	    myAuxShape.Append(FF);
+	    myAuxShape.push_back(FF);
 	    myVEdges->ChangeValue(ii, I2) = FF;
 	    HasFilling = Standard_True;
 	  }

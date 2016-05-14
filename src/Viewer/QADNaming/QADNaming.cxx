@@ -53,13 +53,13 @@ void QADNaming::GetShape (const Standard_CString      LabelName,
 			const Handle(TDF_Data)&     DF,
 			TopTools_ListOfShape&       L)
 {
-  L.Clear();
+  L.clear();
   TDF_Label Label;
   Standard_Boolean Found = DDF::AddLabel (DF, LabelName, Label);
   if (Found) {
     TNaming_Iterator it (Label, DF->Transaction ());
     for (; it.More(); it.Next()) {
-      L.Append(it.NewShape());
+      L.push_back(it.NewShape());
     }
   }
 }

@@ -366,7 +366,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
 
 // SliList : list of faces concerned by the rib
   TopTools_ListOfShape SliList;
-  SliList.Append(FirstFace);
+  SliList.push_back(FirstFace);
   
   if(Sliding) {    // sliding
 #ifdef OCCT_DEBUG
@@ -574,7 +574,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
   Standard_Integer counter = 1;
 
 // ---case of sliding 
-  if(Sliding && !myListOfEdges.IsEmpty()) {
+  if(Sliding && !myListOfEdges.empty()) {
     BRepTools_WireExplorer EX1(myWire);
     for(; EX1.More(); EX1.Next()) {
       const TopoDS_Edge& E = EX1.Current();
@@ -617,7 +617,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
 	ee1 = TopoDS::Edge(aLocalShape);
 //	ee1 = TopoDS::Edge(ee1.Oriented(E.Orientation()));
 	if(counter == 1) theFV = TopExp::FirstVertex(ee1,Standard_True);
-	myLFMap(E).Append(ee1);
+	myLFMap(E).push_back(ee1);
 	BB.Add(w, ee1);
 	thePreviousEdge = ee1;
 	counter++;
@@ -634,7 +634,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
           TopTools_ListOfShape thelist1;
 	  myLFMap.Bind(E, thelist1);
 	}      
-	theList.Append(E);
+	theList.push_back(E);
 	Standard_Real f, l;
 	if(!E.IsSame(LastEdge)) {
 	  Handle(Geom_Curve) ccc = BRep_Tool::Curve(E, f, l);
@@ -654,7 +654,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
 	  E11 = TopoDS::Edge(aLocalShape);
 //	  E11 = TopoDS::Edge(E11.Oriented(E.Orientation()));
 	  thePreviousEdge = E11;
-	  myLFMap(E).Append(E11);
+	  myLFMap(E).push_back(E11);
 	  BB.Add(w, E11);
 	  if(counter == 1) theFV = TopExp::FirstVertex(E11,Standard_True);
 	  counter++;
@@ -679,7 +679,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
 	  ee = TopoDS::Edge(aLocalShape);
 //	  ee = TopoDS::Edge(ee.Oriented(E.Orientation()));
 	  BB.Add(w, ee);
-	  myLFMap(E).Append(ee);
+	  myLFMap(E).push_back(ee);
 	  if(counter == 1) theFV = TopExp::FirstVertex(ee,Standard_True);
 	  thePreviousEdge = ee;
 	  counter++;
@@ -697,7 +697,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
     TopoDS_Edge theEdge, theLEdge, theFEdge;
     Standard_Integer counter1 = counter;
     TopTools_ListOfShape NewListOfEdges;
-    NewListOfEdges.Clear();
+    NewListOfEdges.clear();
     while (!FirstOK) {
       const TopoDS_Edge& edg = TopoDS::Edge(it.Value());
       gp_Pnt fp, lp;
@@ -764,7 +764,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
 	BB.Add(w, eeee);
 	if(counter == 1) theFV = TopExp::FirstVertex(eeee,Standard_True);
 	counter1++;
-	NewListOfEdges.Append(edg);
+	NewListOfEdges.push_back(edg);
 	theEdge = eeee;
 
 	if(dist <= myTol) 
@@ -823,7 +823,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
                       TopTools_ListOfShape thelist2;
 		      SlidMap.Bind(fac, thelist2);
 		    }
-		    SlidMap(fac).Append(E);
+		    SlidMap(fac).push_back(E);
 		  }
 		}		
 	      }
@@ -1023,7 +1023,7 @@ void BRepFeat_MakeRevolutionForm::Init(const TopoDS_Shape& Sbase,
   for ( exp.Init(mySbase,TopAbs_FACE);exp.More();exp.Next()) {
     TopTools_ListOfShape thelist3;
     myMap.Bind(exp.Current(), thelist3);
-    myMap(exp.Current()).Append(exp.Current());
+    myMap(exp.Current()).push_back(exp.Current());
   }
 }
 
@@ -1063,7 +1063,7 @@ void BRepFeat_MakeRevolutionForm::Add(const TopoDS_Edge& E,
       }
     }
     if (!itl.More()) {
-      mySlface(F).Append(E);
+      mySlface(F).push_back(E);
     }
   } 
 }
@@ -1109,13 +1109,13 @@ void BRepFeat_MakeRevolutionForm::Perform()
     TopoDS_Face Pbase = TopoDS::Face(trsf.Shape());
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape iter(myLFMap);
     for(; iter.More(); iter.Next()) {
-      const TopoDS_Shape& e1 = iter.Value().First();
+      const TopoDS_Shape& e1 = iter.Value().front();
       TopExp_Explorer ex1(myPbase, TopAbs_EDGE); 
       TopExp_Explorer ex2(Pbase, TopAbs_EDGE);
       for(; ex1.More(); ex1.Next()) {
 	if(ex1.Current().IsSame(e1)) {
-	  myLFMap(iter.Key()).Clear();
-	  myLFMap(iter.Key()).Append(ex2.Current());
+	  myLFMap(iter.Key()).clear();
+	  myLFMap(iter.Key()).push_back(ex2.Current());
 	}
 	ex2.Next();	  
       }
@@ -1124,15 +1124,15 @@ void BRepFeat_MakeRevolutionForm::Perform()
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape iter1(mySlface);
     for(; iter1.More(); iter1.Next()) {
       const TopoDS_Shape& f1 = iter1.Key();
-      const TopoDS_Shape& e1 = iter1.Value().First();
+      const TopoDS_Shape& e1 = iter1.Value().front();
       TopExp_Explorer ex1(myPbase, TopAbs_EDGE); 
       TopExp_Explorer ex2(Pbase, TopAbs_EDGE);
       for(; ex1.More(); ex1.Next()) {
 	const TopoDS_Shape& E1 = ex1.Current();
 	const TopoDS_Shape& E2 = ex2.Current();
 	if(E1.IsSame(e1)) {
-	  mySlface(f1).Clear();
-	  mySlface(f1).Append(E2);
+	  mySlface(f1).clear();
+	  mySlface(f1).push_back(E2);
 	}
 	ex2.Next();	  
       }
@@ -1218,8 +1218,8 @@ void BRepFeat_MakeRevolutionForm::Perform()
   it1.Initialize(myMap);
   for(; it1.More(); it1.Next()) {
     const TopoDS_Shape& orig = it1.Key();
-    if(it1.Value().IsEmpty()) continue;
-    const TopoDS_Shape& sh = it1.Value().First();
+    if(it1.Value().empty()) continue;
+    const TopoDS_Shape& sh = it1.Value().front();
     exx.Init(VraiForm, TopAbs_FACE);
     for(; exx.More(); exx.Next()) {
       const TopoDS_Face& fac = TopoDS::Face(exx.Current());
@@ -1240,8 +1240,8 @@ void BRepFeat_MakeRevolutionForm::Perform()
 	}
 	else {
 	  const TopTools_ListOfShape& desfaces = trP.Modified(fac);
-	  if(!desfaces.IsEmpty()) {
-	    myMap(orig).Clear();
+	  if(!desfaces.empty()) {
+	    myMap(orig).clear();
 	    myMap(orig) = trP.Modified(fac);
 	  }
 	}
@@ -1258,10 +1258,10 @@ void BRepFeat_MakeRevolutionForm::Perform()
     }
     else {
       const TopTools_ListOfShape& desfaces = trP.Modified(fac);
-      if(!desfaces.IsEmpty()) 
+      if(!desfaces.empty()) 
 	SlidingMap(fac) = desfaces;
       else 
-	SlidingMap(fac).Append(fac);
+	SlidingMap(fac).push_back(fac);
     }
   }
 
@@ -1329,7 +1329,7 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
 
   Standard_Boolean result = Standard_True;
   TopoDS_Face CurrentFace, saveFace;
-  CurrentFace = TopoDS::Face(SliList.First());
+  CurrentFace = TopoDS::Face(SliList.front());
   saveFace = CurrentFace;
   Standard_Boolean LastOK = Standard_False, FirstOK= Standard_False;
   TopoDS_Vertex v1, v2, v3, v4, Vert;
@@ -1361,12 +1361,12 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
   //modified by NIZNHY-PKV Tue Apr  2 15:08:23 2002 f
   if(!e1.IsNull()) {
     Standard_Real aTolV1, aTolV2;
-    myListOfEdges.Clear();
+    myListOfEdges.clear();
     TopTools_ListOfShape thelist;
     mySlface.Bind(CurrentFace, thelist);
-    mySlface(CurrentFace).Append(e1);
+    mySlface(CurrentFace).push_back(e1);
     
-    myListOfEdges.Append(e1);
+    myListOfEdges.push_back(e1);
     
     v1 = TopExp::FirstVertex(e1,Standard_True);
     v2 = TopExp::LastVertex (e1,Standard_True);
@@ -1391,21 +1391,21 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
     }
     
     else {
-      myListOfEdges.Clear();
+      myListOfEdges.clear();
     }
   }
   //modified by NIZNHY-PKV Tue Apr  2 15:08:26 2002 t
   //
   if(!e1.IsNull()) {
-    myListOfEdges.Clear();
+    myListOfEdges.clear();
     TopTools_ListOfShape thelist1;    
     mySlface.Bind(CurrentFace, thelist1);
-    mySlface(CurrentFace).Append(e);
+    mySlface(CurrentFace).push_back(e);
     
-    myListOfEdges.Append(e);
+    myListOfEdges.push_back(e);
 
 //    mySlface.Bind(CurrentFace,TopTools_ListOfShape());
-    mySlface(CurrentFace).Append(e1);    
+    mySlface(CurrentFace).push_back(e1);    
 //    myListOfEdges.Append(e1);
 
     v1 = TopExp::FirstVertex(e,Standard_True); 
@@ -1475,12 +1475,12 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
     }
   }
   if(e1.IsNull()) {
-    myListOfEdges.Clear();
+    myListOfEdges.clear();
     TopTools_ListOfShape thelist2;    
     mySlface.Bind(CurrentFace, thelist2);
-    mySlface(CurrentFace).Append(e);
+    mySlface(CurrentFace).push_back(e);
     
-    myListOfEdges.Append(e);
+    myListOfEdges.push_back(e);
     
     v1 = TopExp::FirstVertex(e,Standard_True);
     v2 = TopExp::LastVertex(e,Standard_True);
@@ -1578,10 +1578,10 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
 
     TopTools_ListOfShape thelist3;
     mySlface.Bind(CurrentFace, thelist3);
-    mySlface(CurrentFace).Append(edg1);
-    myListOfEdges.Append(edg1);
+    mySlface(CurrentFace).push_back(edg1);
+    myListOfEdges.push_back(edg1);
 
-    if (!edg1.IsNull()) SliList.Prepend(CurrentFace);
+    if (!edg1.IsNull()) SliList.push_front(CurrentFace);
     else return Standard_False;
 
     Vert = TopExp::FirstVertex(edg1,Standard_True);
@@ -1682,10 +1682,10 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
     }    
     TopTools_ListOfShape thelist4;
     mySlface.Bind(CurrentFace, thelist4);
-    mySlface(CurrentFace).Append(edg2);
-    myListOfEdges.Append(edg2);
+    mySlface(CurrentFace).push_back(edg2);
+    myListOfEdges.push_back(edg2);
 
-    if (!edg2.IsNull()) SliList.Append(CurrentFace);
+    if (!edg2.IsNull()) SliList.push_back(CurrentFace);
     else return Standard_False;
 
     Vert = TopExp::FirstVertex(edg2,Standard_True);
@@ -1707,7 +1707,7 @@ Standard_Boolean BRepFeat_MakeRevolutionForm::Propagate(TopTools_ListOfShape& Sl
       LastOK = Standard_True;
     }
   }
-  if(!e1.IsNull())     myListOfEdges.Append(e1);
+  if(!e1.IsNull())     myListOfEdges.push_back(e1);
   return result;
   
 }
@@ -1731,7 +1731,7 @@ static void MajMap(const TopoDS_Shape& theB,
     theMap.Bind(theFShape, thelist);
     for (exp.Init(theP.FirstShape(),TopAbs_FACE);exp.More();exp.Next()) {
       const TopoDS_Shape& sh = exp.Current();
-      theMap(theFShape).Append(sh);
+      theMap(theFShape).push_back(sh);
     }
   }
   
@@ -1742,7 +1742,7 @@ static void MajMap(const TopoDS_Shape& theB,
     theMap.Bind(theLShape, thelist1);
     for (exp.Init(theP.LastShape(),TopAbs_FACE);exp.More();exp.Next()) {
       const TopoDS_Shape& sh = exp.Current();
-      theMap(theLShape).Append(sh);
+      theMap(theLShape).push_back(sh);
     }
   }
 
@@ -1775,7 +1775,7 @@ static void SetGluedFaces(const TopTools_DataMapOfShapeListOfShape& theSlmap,
       TopTools_ListIteratorOfListOfShape it;
       for (it.Initialize(ledg); it.More(); it.Next()) {
 	const TopTools_ListOfShape& gfac = thePrism.Shapes(it.Value());
-	if (gfac.Extent() != 1) {
+	if (gfac.size() != 1) {
 #ifdef OCCT_DEBUG
 	  cout << "Pb SetGluedFace" << endl;
 #endif
@@ -1784,9 +1784,9 @@ static void SetGluedFaces(const TopTools_DataMapOfShapeListOfShape& theSlmap,
 	for(; iterm.More(); iterm.Next()) {
 	  const TopoDS_Face& ff = TopoDS::Face(iterm.Key());
 	  const TopTools_ListOfShape& lfaces = iterm.Value();
-	  if(lfaces.IsEmpty()) continue;
-	  const TopoDS_Face& fff = TopoDS::Face(lfaces.First());
-	  if(gfac.First().IsSame(ff)) theMap.Bind(fff,fac);
+	  if(lfaces.empty()) continue;
+	  const TopoDS_Face& fff = TopoDS::Face(lfaces.front());
+	  if(gfac.front().IsSame(ff)) theMap.Bind(fff,fac);
 	}
       }
     }

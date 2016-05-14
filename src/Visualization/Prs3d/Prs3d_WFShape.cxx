@@ -149,9 +149,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
     const TopoDS_Edge& anEdge = aTool.GetCurve();
     switch (aTool.Neighbours())
     {
-      case 0:  aLWire.Append (anEdge);   break;
-      case 1:  aLFree.Append (anEdge);   break;
-      default: aLUnFree.Append (anEdge); break;
+      case 0:  aLWire.push_back (anEdge);   break;
+      case 1:  aLFree.push_back (anEdge);   break;
+      default: aLUnFree.push_back (anEdge); break;
     }
   }
 

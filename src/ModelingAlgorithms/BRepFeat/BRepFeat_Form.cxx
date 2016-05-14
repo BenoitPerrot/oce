@@ -183,7 +183,7 @@ static void Descendants(const TopoDS_Shape&,
   LocOpe_CSIntersector ASI2;
 
   TopTools_ListOfShape IntList;
-  IntList.Clear();
+  IntList.clear();
 
 //--- 1) by intersection
 
@@ -393,11 +393,11 @@ static void Descendants(const TopoDS_Shape&,
               }
               else if (!FromInShape) {
                 myMap(fac) = trP.Modified(fac);
-                if (myMap(fac).IsEmpty()) myMap(fac).Append(fac);
+                if (myMap(fac).empty()) myMap(fac).push_back(fac);
               }
               else {
                 locmap(fac) =trP.Modified(fac) ;
-                if (locmap(fac).IsEmpty()) locmap(fac).Append(fac);
+                if (locmap(fac).empty()) locmap(fac).push_back(fac);
               }
             }
           }// if(!mySFrom.IsNull()) 
@@ -419,11 +419,11 @@ static void Descendants(const TopoDS_Shape&,
               }
               else if (!UntilInShape) {
                 myMap(fac) = trP.Modified(fac);
-                if (myMap(fac).IsEmpty()) myMap(fac).Append(fac);
+                if (myMap(fac).empty()) myMap(fac).push_back(fac);
               }
               else {
                 locmap(fac) = trP.Modified(fac);
-                if (locmap(fac).IsEmpty()) locmap(fac).Append(fac);
+                if (locmap(fac).empty()) locmap(fac).push_back(fac);
               }
             }
           }// if(!mySUntil.IsNull())
@@ -441,7 +441,7 @@ static void Descendants(const TopoDS_Shape&,
             }
             else {
               ldsc = trP.Modified(gl);
-              if (ldsc.IsEmpty()) ldsc.Append(gl);
+              if (ldsc.empty()) ldsc.push_back(gl);
             }
             const TopoDS_Face& glface = TopoDS::Face(itm.Value());        
             for (it.Initialize(ldsc);it.More();it.Next()) {
@@ -672,7 +672,7 @@ static void Descendants(const TopoDS_Shape&,
             }
             else {
               myMap(fac) = trP.Modified(fac);
-             if (myMap(fac).IsEmpty())  myMap(fac).Append(fac);
+             if (myMap(fac).empty())  myMap(fac).push_back(fac);
             }
           }
         }
@@ -688,7 +688,7 @@ static void Descendants(const TopoDS_Shape&,
             }
             else {
               myMap(fac) = trP.Modified(fac);
-              if (myMap.IsEmpty()) myMap(fac).Append(fac);
+              if (myMap.IsEmpty()) myMap(fac).push_back(fac);
             }
           }
         }
@@ -717,7 +717,7 @@ static void Descendants(const TopoDS_Shape&,
     Handle(Geom_Curve) C;
 
 //--- Selection of pieces of tool to be preserved
-    if(!lshape.IsEmpty() && myPerfSelection != BRepFeat_NoSelection) {
+    if(!lshape.empty() && myPerfSelection != BRepFeat_NoSelection) {
 //      Find ParametricMinMax depending on the constraints of Shape From and Until
 //   -> prmin, prmax, pbmin and pbmax
       C = BarycCurve();
@@ -1068,7 +1068,7 @@ static void Descendants(const TopoDS_Shape&,
 
 Standard_Boolean BRepFeat_Form::IsDeleted(const TopoDS_Shape& F)
 {
-  return (myMap(F).IsEmpty());
+  return (myMap(F).empty());
 }
 
 //=======================================================================
@@ -1081,12 +1081,12 @@ const TopTools_ListOfShape& BRepFeat_Form::Modified
 {
   if (myMap.IsBound(F)) {
     static TopTools_ListOfShape list;
-    list.Clear(); // For the second passage DPF
+    list.clear(); // For the second passage DPF
     TopTools_ListIteratorOfListOfShape ite(myMap(F));
     for(; ite.More(); ite.Next()) {
       const TopoDS_Shape& sh = ite.Value();
       if(!sh.IsSame(F)) 
-        list.Append(sh);
+        list.push_back(sh);
     }
     return list;
   }
@@ -1104,12 +1104,12 @@ const TopTools_ListOfShape& BRepFeat_Form::Generated
   if (myMap.IsBound(S) && 
       S.ShapeType() != TopAbs_FACE) { // check if filter on face or not
     static TopTools_ListOfShape list;
-    list.Clear(); // For the second passage DPF
+    list.clear(); // For the second passage DPF
     TopTools_ListIteratorOfListOfShape ite(myMap(S));
     for(; ite.More(); ite.Next()) {
       const TopoDS_Shape& sh = ite.Value();
       if(!sh.IsSame(S)) 
-        list.Append(sh);
+        list.push_back(sh);
     }
     return list;
   }
@@ -1139,9 +1139,9 @@ void BRepFeat_Form::UpdateDescendants(const LocOpe_Gluer& G)
         newdsc.Add(it2.Value());
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc);itm.More();itm.Next()) {
-      myMap.ChangeFind(orig).Append(itm.Key());
+      myMap.ChangeFind(orig).push_back(itm.Key());
     }
   }
 }
@@ -1259,13 +1259,13 @@ Standard_Boolean BRepFeat_Form::TransformShapeFU(const Standard_Integer flag)
     if(flag == 0) {
       TopTools_ListOfShape thelist6;
       myMap.Bind(mySFrom,thelist6);
-      myMap(mySFrom).Append(fac);
+      myMap(mySFrom).push_back(fac);
       mySFrom = fac;
     }
     else if(flag == 1) {
       TopTools_ListOfShape thelist7;
       myMap.Bind(mySUntil,thelist7);
-      myMap(mySUntil).Append(fac);
+      myMap(mySUntil).push_back(fac);
       mySUntil = fac;
     }
     else {
@@ -1276,7 +1276,7 @@ Standard_Boolean BRepFeat_Form::TransformShapeFU(const Standard_Integer flag)
       const TopoDS_Shape& fac = exp.Current();
       TopTools_ListOfShape thelist8;
       myMap.Bind(fac,thelist8);
-      myMap(fac).Append(fac);
+      myMap(fac).push_back(fac);
     }
   }
 #ifdef OCCT_DEBUG
@@ -1343,7 +1343,7 @@ static void Descendants(const TopoDS_Shape& S,
     }
     TopTools_MapOfShape newdsc;
 
-    if (itdm.Value().IsEmpty()) {myMap.ChangeFind(orig).Append(orig);}
+    if (itdm.Value().empty()) {myMap.ChangeFind(orig).push_back(orig);}
 
     for (it.Initialize(itdm.Value());it.More();it.Next()) {
       const TopoDS_Shape& sh = it.Value();
@@ -1394,13 +1394,13 @@ static void Descendants(const TopoDS_Shape& S,
         }
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc); itm.More(); itm.Next()) {
        // check the appartenance to the shape...
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(itm.Key())) {
 //          const TopoDS_Shape& sh = itm.Key();
-          myMap.ChangeFind(orig).Append(itm.Key());
+          myMap.ChangeFind(orig).push_back(itm.Key());
           break;
         }
       }
@@ -1428,7 +1428,7 @@ static void Descendants(const TopoDS_Shape& S,
     }
     TopTools_MapOfShape newdsc;
 
-    if (itdm.Value().IsEmpty()) {myMap.ChangeFind(orig).Append(orig);}
+    if (itdm.Value().empty()) {myMap.ChangeFind(orig).push_back(orig);}
 
     for (it.Initialize(itdm.Value());it.More();it.Next()) {
       const TopoDS_Shape& sh = it.Value();
@@ -1451,13 +1451,13 @@ static void Descendants(const TopoDS_Shape& S,
         
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc); itm.More(); itm.Next()) {
        // check the appartenance to the shape...
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(itm.Key())) {
 //          const TopoDS_Shape& sh = itm.Key();
-          myMap.ChangeFind(orig).Append(itm.Key());
+          myMap.ChangeFind(orig).push_back(itm.Key());
           break;
         }
       }

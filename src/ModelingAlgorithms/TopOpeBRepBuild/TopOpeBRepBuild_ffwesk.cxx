@@ -76,12 +76,12 @@ Standard_Boolean TopOpeBRepBuild_FUN_aresamegeom(const TopoDS_Shape& S1,const To
 //=======================================================================
 void TopOpeBRepBuild_Builder::GFillFacesWESK(const TopTools_ListOfShape& LS1,const TopTools_ListOfShape& LS2,const TopOpeBRepBuild_GTopo& G1,TopOpeBRepBuild_WireEdgeSet& WES,const Standard_Integer Kfill)
 {
-  if ( LS1.IsEmpty() ) return;
+  if ( LS1.empty() ) return;
   TopAbs_State TB1,TB2; G1.StatesON(TB1,TB2);
 
   const TopOpeBRepDS_DataStructure& BDS = myDataStructure->DS();
 
-  const TopoDS_Shape& F1 = LS1.First();
+  const TopoDS_Shape& F1 = LS1.front();
   myFaceReference = TopoDS::Face(F1);
 #ifdef OCCT_DEBUG
   Standard_Integer iF1 =

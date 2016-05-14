@@ -3114,7 +3114,7 @@ static Standard_Integer OCC25446 (Draw_Interpretor& theDI,
     //
     bIsDeletedHist = pBuilder->IsDeleted(aS);
     bIsDeletedMap = !aMapShape.Contains(aS) &&
-      (pBuilder->Modified(aS).Extent() == 0);
+      (pBuilder->Modified(aS).size() == 0);
     //
     if (bIsDeletedHist != bIsDeletedMap) {
       theDI << "Error. Wrong value of IsDeleted flag.\n";

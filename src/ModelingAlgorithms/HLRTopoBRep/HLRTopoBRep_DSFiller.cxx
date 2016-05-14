@@ -212,7 +212,7 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
     {
       // OutLine on restriction
       TopoDS_Edge E = (*(BRepAdaptor_Curve2d*)&(Line.Arc()->Curve2d())).Edge();
-      OutL.Append(E);
+      OutL.push_back(E);
       TopExp::Vertices(E,VF,VL);
       // insert the Internal points.
 
@@ -502,7 +502,7 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
 	      
               // add the edge in the DS
               if (!E.IsNull())
-                IntL.Append(E);
+                IntL.push_back(E);
             }
           }
         }
@@ -535,15 +535,15 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
         Standard_Real aFirst, aLast;
         Handle(Geom_Curve) aCurve = BRep_Tool::Curve(anOutLine, aLoc, aFirst, aLast);
         if (aCurve == RegCurve && aLoc == RegLoc)
-          thelist.Append(anOutLine);
+          thelist.push_back(anOutLine);
       }
 
-      if (thelist.IsEmpty())
+      if (thelist.empty())
         continue;
 
       if (IntLineRisesFromRegularity(anIntLine, anEdge, F, thelist))
       {
-        IntL.Remove(itl);
+        itl = IntL.erase(itl);
         found = Standard_True;
         break;
       }
@@ -688,7 +688,7 @@ void  HLRTopoBRep_DSFiller::ProcessEdges (HLRTopoBRep_Data& DS)
       B.Add(newE,VI);
       B.UpdateVertex(VI,PI,newE,BRep_Tool::Tolerance(VI));
       newE.Orientation(E.Orientation());
-      SplE.Append(newE);
+      SplE.push_back(newE);
       VF = VI;
       PF = PI;
       VF.Orientation(TopAbs_FORWARD);
@@ -701,7 +701,7 @@ void  HLRTopoBRep_DSFiller::ProcessEdges (HLRTopoBRep_Data& DS)
     B.Add(newE,VL);
     B.UpdateVertex(VL,PL,newE,BRep_Tool::Tolerance(VL));
     newE.Orientation(E.Orientation());
-    SplE.Append(newE);
+    SplE.push_back(newE);
   }
 }
 

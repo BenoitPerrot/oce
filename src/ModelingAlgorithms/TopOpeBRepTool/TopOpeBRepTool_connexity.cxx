@@ -89,9 +89,9 @@ const TopoDS_Shape& TopOpeBRepTool_connexity::Key() const
 
 Standard_Integer TopOpeBRepTool_connexity::Item(const Standard_Integer OriKey, TopTools_ListOfShape& Item) const
 {
-  Item.Clear();
+  Item.clear();
   Item = theItems(OriKey);
-  return (Item.Extent());
+  return (Item.size());
 }
 
 //=======================================================================
@@ -101,12 +101,12 @@ Standard_Integer TopOpeBRepTool_connexity::Item(const Standard_Integer OriKey, T
 
 Standard_Integer TopOpeBRepTool_connexity::AllItems(TopTools_ListOfShape& Item) const
 {
-  Item.Clear();
+  Item.clear();
   for (Standard_Integer i = 1; i <=4; i++) {
     TopTools_ListOfShape copy; copy.Assign(theItems.Value(i));
     Item.Append(copy);
   }
-  return Item.Extent();
+  return Item.size();
 }
 
 //=======================================================================
@@ -122,7 +122,7 @@ void TopOpeBRepTool_connexity::AddItem(const Standard_Integer OriKey, const TopT
 
 void TopOpeBRepTool_connexity::AddItem(const Standard_Integer OriKey, const TopoDS_Shape& Item)
 {
-  TopTools_ListOfShape copy; copy.Append(Item);
+  TopTools_ListOfShape copy; copy.push_back(Item);
   theItems(OriKey).Append(copy);
 }
 
@@ -136,8 +136,11 @@ Standard_Boolean TopOpeBRepTool_connexity::RemoveItem(const Standard_Integer Ori
   TopTools_ListOfShape& item = theItems.ChangeValue(OriKey);
   TopTools_ListIteratorOfListOfShape it(item);
   while (it.More()) {
-    if (it.Value().IsEqual(Item)) {item.Remove(it); return Standard_True;}
-    else it.Next();
+    if (it.Value().IsEqual(Item)) {
+      it = item.erase(it);
+      return Standard_True;}
+    else
+      it.Next();
   }
   return Standard_False;
 }
@@ -206,7 +209,7 @@ Standard_Boolean TopOpeBRepTool_connexity::IsFaulty() const
 
 Standard_Integer TopOpeBRepTool_connexity::IsInternal(TopTools_ListOfShape& Item) const
 {
-  Item.Clear();
+  Item.clear();
 
   // all subshapes of INTERNAL(EXTERNAL) are oriented INTERNAL(EXTERNAL)
   TopTools_ListOfShape lINT; lINT.Assign(theItems.Value(INTERNAL));
@@ -216,8 +219,10 @@ Standard_Integer TopOpeBRepTool_connexity::IsInternal(TopTools_ListOfShape& Item
     TopAbs_Orientation o1 = item1.Orientation();
     if (!M_INTERNAL(o1)) {it1.Next(); continue;}
     Standard_Integer oKey1 = TopOpeBRepTool_TOOL::OriinSor(theKey,item1.Oriented(TopAbs_FORWARD));
-    if (oKey1 != INTERNAL) lINT.Remove(it1);
-    else it1.Next();
+    if (oKey1 != INTERNAL)
+      it1 = lINT.erase(it1);
+    else
+      it1.Next();
   }
 
   TopTools_ListOfShape lEXT; lEXT.Assign(theItems.Value(EXTERNAL));
@@ -227,12 +232,12 @@ Standard_Integer TopOpeBRepTool_connexity::IsInternal(TopTools_ListOfShape& Item
     TopAbs_Orientation o2 = item2.Orientation();
     if (!M_EXTERNAL(o2)) {it2.Next(); continue;}
     Standard_Integer oKey2 = TopOpeBRepTool_TOOL::OriinSor(theKey,item2.Oriented(TopAbs_FORWARD));
-    if (oKey2 == INTERNAL) lINT.Append(item2);
+    if (oKey2 == INTERNAL) lINT.push_back(item2);
     it2.Next();
   }
 
   Item.Append(lINT);  
-  return Item.Extent();
+  return Item.size();
 }
 
 

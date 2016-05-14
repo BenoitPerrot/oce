@@ -70,7 +70,7 @@ static void  Replace (      TopTools_ListOfShape& L,
   TopTools_ListIteratorOfListOfShape it(L);
   while (it.More()) {
     if (it.Value().IsSame(Old)) {
-      L.Remove(it);
+      it = L.erase(it);
       break;
     }
     if (it.More()) it.Next();
@@ -94,7 +94,7 @@ static void StoreImage (      TopTools_DataMapOfShapeListOfShape& MG,
 			const TopTools_DataMapOfShapeShape&       MGBack,
 			const TopTools_ListOfShape&               LI)
 {    
-  if (!LI.IsEmpty()) {
+  if (!LI.empty()) {
     if (MGBack.IsBound(S)) {
 
       Replace (MG.ChangeFind(MGBack(S)),S,LI);
@@ -109,7 +109,7 @@ static void StoreImage (      TopTools_DataMapOfShapeListOfShape& MG,
       TopTools_ListIteratorOfListOfShape it;
       for (it.Initialize(LI); it.More(); it.Next()) {
 	const TopoDS_Shape& SS = it.Value();
-	MG(S).Append(SS);
+	MG(S).push_back(SS);
       }
     }
   }
@@ -140,7 +140,7 @@ static void Update (   TopTools_DataMapOfShapeListOfShape& Mod,
     // Recuperation de l image de S par MKS.
     //---------------------------------------
     const TopTools_ListOfShape& LIM = MKS.Modified(S);
-    if (!LIM.IsEmpty()) {
+    if (!LIM.empty()) {
       if (GenBack.IsBound(S)) {
 	// Modif de generation => generation du shape initial
 	StoreImage (Gen,S,GenBack,LIM);
@@ -150,7 +150,7 @@ static void Update (   TopTools_DataMapOfShapeListOfShape& Mod,
       }
     }
     const TopTools_ListOfShape& LIG = MKS.Generated(S);
-    if (!LIG.IsEmpty()) {
+    if (!LIG.empty()) {
       if (ModBack.IsBound(S)) {
 	// Generation de modif  => generation du shape initial
 	TopoDS_Shape IS = ModBack(S);
@@ -247,7 +247,7 @@ void BRepBuilderAPI_Collect::AddGenerated (const TopoDS_Shape& S,
   BuildBack (myMod, ModBack);
 
   TopTools_ListOfShape LIG;
-  LIG.Append(NS);
+  LIG.push_back(NS);
   if (ModBack.IsBound(S)) {
     // Generation de modif  => generation du shape initial
     TopoDS_Shape IS = ModBack(S);
@@ -273,7 +273,7 @@ void BRepBuilderAPI_Collect::AddModif  (const TopoDS_Shape& S,
   BuildBack (myMod, ModBack);
   
   TopTools_ListOfShape LIG;
-  LIG.Append(NS);
+  LIG.push_back(NS);
   if (GenBack.IsBound(S)) {
     // Modif de generation => generation du shape initial
     StoreImage (myGen,S,GenBack,LIG);
@@ -330,7 +330,7 @@ static void FilterByShape(TopTools_DataMapOfShapeListOfShape& MG,
       // Si pas dans MSF suprresion de l image.
       //---------------------------------------
       if (!MSF.Contains(NS)) {
-	LNS.Remove(itl);
+	itl = LNS.erase(itl);
       }
       else if (itl.More()) itl.Next();
     }

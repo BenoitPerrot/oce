@@ -106,7 +106,7 @@ void TopOpeBRepBuild_Builder::FillFace(const TopoDS_Shape& F1,
 #endif
   myListOfFace = LF2;
   FillShape(F1,ToBuild1,LF2,ToBuild2,WES,RevOri);
-  myListOfFace.Clear();
+  myListOfFace.clear();
 } // FillFace
 
 

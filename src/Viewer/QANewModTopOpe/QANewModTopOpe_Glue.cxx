@@ -107,7 +107,7 @@ QANewModTopOpe_Glue::QANewModTopOpe_Glue(const TopoDS_Shape& theS1,
   myAllowCutting (theAllowCutting)
 {
   NotDone();
-  myGenerated.Clear();
+  myGenerated.clear();
   myMapModif.Clear();
   myMapGener.Clear();
   if (thePerformNow)
@@ -370,21 +370,21 @@ QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
     TopTools_ListIteratorOfListOfShape anItl;
     if(myMapGener.IsBound(theS)) anItl.Initialize(myMapGener(theS));
     TopTools_ListIteratorOfListOfShape anItl1;
-    myGenerated.Clear();
+    myGenerated.clear();
     Standard_Boolean aNonEmpty = Standard_False;
     TopTools_ListOfShape aL1, aL;
 
-    for(; anItl.More(); anItl.Next()) aL.Append(anItl.Value());
+    for(; anItl.More(); anItl.Next()) aL.push_back(anItl.Value());
 
     TopTools_MapOfShape aMapModif;
     anItl.Initialize(Modified(theS));
     for(; anItl.More(); anItl.Next()) aMapModif.Add(anItl.Value());
-    myGenerated.Clear();
+    myGenerated.clear();
 
     anItl.Initialize(myMapModif(theS));
     for(; anItl.More(); anItl.Next()) {
       if(!aMapModif.Contains(anItl.Value())) {
-	aL.Append(anItl.Value());
+	aL.push_back(anItl.Value());
       }
     }
 
@@ -400,7 +400,7 @@ QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
 	    aNonEmpty = Standard_True;
 	    anItl1.Initialize(myMapGener(anItl.Value()));
 	    for(; anItl1.More(); anItl1.Next()) {
-	      if(!anItl.Value().IsSame(anItl1.Value()))  aL1.Append(anItl1.Value());
+	      if(!anItl.Value().IsSame(anItl1.Value()))  aL1.push_back(anItl1.Value());
 	    }
 	  }
 	  else {
@@ -408,20 +408,20 @@ QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
 	      aNonEmpty = Standard_True;
 	      anItl1.Initialize(myMapModif(anItl.Value()));
 	      for(; anItl1.More(); anItl1.Next()) {
-		if(!anItl.Value().IsSame(anItl1.Value())) aL1.Append(anItl1.Value());
+		if(!anItl.Value().IsSame(anItl1.Value())) aL1.push_back(anItl1.Value());
 	      }
 	    }
 	    else {
-	      if(!aMapModif.Contains(anItl.Value())) myGenerated.Append(anItl.Value());
+	      if(!aMapModif.Contains(anItl.Value())) myGenerated.push_back(anItl.Value());
 	    }
 	  }
 
 	}
 
-	if(!aL1.IsEmpty()) {
-	  aL.Clear();
+	if(!aL1.empty()) {
+	  aL.clear();
 	  aL.Append(aL1);
-	  aL1.Clear();
+	  aL1.clear();
 	}
 	else aNonEmpty = Standard_False;
 	    
@@ -433,7 +433,7 @@ QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
   }
 
 
-  myGenerated.Clear();
+  myGenerated.clear();
   return myGenerated;
 }
 
@@ -448,12 +448,12 @@ QANewModTopOpe_Glue::Modified (const TopoDS_Shape& theS)
   if (IsDone() && myMapModif.IsBound(theS)) {
     TopTools_ListIteratorOfListOfShape anItl(myMapModif(theS));
     TopTools_ListIteratorOfListOfShape anItl1;
-    myGenerated.Clear();
+    myGenerated.clear();
     Standard_Boolean aNonEmpty = Standard_False;
     TopTools_ListOfShape aL1, aL;
-    for(; anItl.More(); anItl.Next()) aL.Append(anItl.Value());
+    for(; anItl.More(); anItl.Next()) aL.push_back(anItl.Value());
 
-    myGenerated.Clear();
+    myGenerated.clear();
 
     do 
       {
@@ -466,18 +466,18 @@ QANewModTopOpe_Glue::Modified (const TopoDS_Shape& theS)
 	    aNonEmpty = Standard_True;
 	    anItl1.Initialize(myMapModif(anItl.Value()));
 	    for(; anItl1.More(); anItl1.Next()) {
-	      if(!anItl.Value().IsSame(anItl1.Value())) aL1.Append(anItl1.Value());
+	      if(!anItl.Value().IsSame(anItl1.Value())) aL1.push_back(anItl1.Value());
 	    }
 	  }
 	  else {
-	    myGenerated.Append(anItl.Value());
+	    myGenerated.push_back(anItl.Value());
 	  }
 	}
 
-	if(!aL1.IsEmpty()) {
-	  aL.Clear();
+	if(!aL1.empty()) {
+	  aL.clear();
 	  aL.Append(aL1);
-	  aL1.Clear();
+	  aL1.clear();
 	}
 	else aNonEmpty = Standard_False;
 	    
@@ -488,7 +488,7 @@ QANewModTopOpe_Glue::Modified (const TopoDS_Shape& theS)
 
   }
 
-  myGenerated.Clear();
+  myGenerated.clear();
   return myGenerated;
 }
 
@@ -503,7 +503,7 @@ QANewModTopOpe_Glue::IsDeleted (const TopoDS_Shape& theS)
   if (IsDone() && myMapModif.IsBound(theS)) {
     const TopTools_ListOfShape &aList = myMapModif.Find(theS);
 
-    if (aList.IsEmpty())
+    if (aList.empty())
       return Standard_True;
 
     TopTools_ListIteratorOfListOfShape anIter(aList);
@@ -544,7 +544,7 @@ QANewModTopOpe_Glue::HasModified () const
   if (IsDone() && myMapModif.Extent() > 0) {
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape anIter(myMapModif);
     for(; anIter.More(); anIter.Next()) {
-      if(anIter.Value().Extent() > 0) return Standard_True;
+      if(anIter.Value().size() > 0) return Standard_True;
     }
   }
   return Standard_False;
@@ -560,7 +560,7 @@ QANewModTopOpe_Glue::HasDeleted () const
   if (IsDone() && myMapModif.Extent() > 0) {
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape anIter(myMapModif);
     for(; anIter.More(); anIter.Next()) {
-      if(anIter.Value().Extent() == 0) return Standard_True;
+      if(anIter.Value().size() == 0) return Standard_True;
     }
   }
   return Standard_False;

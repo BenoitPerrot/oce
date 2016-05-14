@@ -229,7 +229,7 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
     // build myCurrentShapeNeighbours = 
     // edge list made of connected shapes to Earg through Varg
 
-    myCurrentShapeNeighbours.Clear();
+    myCurrentShapeNeighbours.clear();
     
     Standard_Integer iapp = 0;
     for (TopTools_ListIteratorOfListOfShape it(l); it.More(); it.Next()) {
@@ -237,7 +237,7 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
       const TopoDS_Shape& curn = it.Value(); // current neighbour
       Standard_Boolean k = VertexConnectsEdgesClosing(V,E,curn);
       if (k) {
-	myCurrentShapeNeighbours.Append(curn);
+	myCurrentShapeNeighbours.push_back(curn);
 
 #ifdef DRAW
 	if ( traceSS ) {
@@ -336,7 +336,7 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
 	}
 	else {
 	  // on vire l'arete IsClosed 
-	  myCurrentShapeNeighbours.Remove(lclo);
+	  lclo = myCurrentShapeNeighbours.erase(lclo);
 	}
       }
 

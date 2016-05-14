@@ -561,7 +561,7 @@ Standard_Boolean ShapeAnalysis_CheckSmallFace::CheckStripFace(const TopoDS_Face&
 	if (param >=cl || param <= cf) continue; // Out of range
  	fpar = param - cf; lpar = param - cl;
 	if ((Abs(fpar) < eps) || (Abs(lpar) < eps)) continue; // Near end or start 
-	listEdge.Append(E);
+	listEdge.push_back(E);
 	listParam.Append(param);
 	issplit = Standard_True;
 	

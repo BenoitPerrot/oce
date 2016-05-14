@@ -41,7 +41,7 @@ TopOpeBRepBuild_WireToFace::TopOpeBRepBuild_WireToFace()
 
 void TopOpeBRepBuild_WireToFace::Init()
 {
-  myLW.Clear();
+  myLW.clear();
 }
 
 
@@ -52,7 +52,7 @@ void TopOpeBRepBuild_WireToFace::Init()
 
 void TopOpeBRepBuild_WireToFace::AddWire(const TopoDS_Wire& W)
 {
-  myLW.Append(W);
+  myLW.push_back(W);
 }
 
 //=======================================================================
@@ -63,7 +63,7 @@ void TopOpeBRepBuild_WireToFace::AddWire(const TopoDS_Wire& W)
 void TopOpeBRepBuild_WireToFace::MakeFaces(const TopoDS_Face& F,
 					   TopTools_ListOfShape& LF)
 {
-  LF.Clear();
+  LF.clear();
   
   TopOpeBRepBuild_WireEdgeSet wes(F);
   for (TopTools_ListIteratorOfListOfShape it(myLW);it.More();it.Next())

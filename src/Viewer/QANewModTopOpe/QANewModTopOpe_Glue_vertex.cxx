@@ -50,7 +50,7 @@ QANewModTopOpe_Glue::PerformVertex()
     aBld.Add(myS1,aV.Oriented(TopAbs_INTERNAL));
 
     TopTools_ListOfShape aList;
-    aList.Append (aV);
+    aList.push_back (aV);
     myMapGener.Bind(myS1, aList);
         
     myShape = myS1;
@@ -91,7 +91,7 @@ QANewModTopOpe_Glue::PerformVertex()
       
       // substitute aVer2 instead of aVer
       TopTools_ListOfShape aList;
-      aList.Append (aVer2);
+      aList.push_back (aVer2);
       mySubst.Substitute (aVer, aList);
       aMapPassed.Add(aVer);
       TopTools_ListIteratorOfListOfShape aIter(aMapAnc.FindFromKey(aVer));
@@ -119,7 +119,7 @@ QANewModTopOpe_Glue::PerformVertex()
       
       // substitute edge
       TopTools_ListOfShape aList;
-      aList.Append (aNewEdge.Oriented(TopAbs_FORWARD));
+      aList.push_back (aNewEdge.Oriented(TopAbs_FORWARD));
       mySubst.Substitute (aEdge, aList);
       aMapPassed.Add(aEdge);
       TopTools_ListIteratorOfListOfShape aIter(aMapAnc.FindFromKey(aEdge));
@@ -129,11 +129,11 @@ QANewModTopOpe_Glue::PerformVertex()
       // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aEdge, TopTools_ListOfShape());
       TopTools_ListOfShape aList1;
       myMapModif.Bind(aEdge, aList1);
-      myMapModif(aEdge).Append (aNewEdge);
+      myMapModif(aEdge).push_back (aNewEdge);
       // for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(aEdge, TopTools_ListOfShape());
       TopTools_ListOfShape aList2;
       myMapGener.Bind(aEdge, aList2);
-      myMapGener(aEdge).Append (aVer2);
+      myMapGener(aEdge).push_back (aVer2);
     }
 
     // pass 3: process contacted faces
@@ -165,17 +165,17 @@ QANewModTopOpe_Glue::PerformVertex()
       
       // substitute face
       TopTools_ListOfShape aList;
-      aList.Append (aNewFace);
+      aList.push_back (aNewFace);
       mySubst.Substitute (aFace, aList);
       aMapPassed.Add(aFace);
       // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aFace, TopTools_ListOfShape());
       TopTools_ListOfShape aList3;
       myMapModif.Bind(aFace, aList3);
-      myMapModif(aFace).Append (aNewFace);
+      myMapModif(aFace).push_back (aNewFace);
       // for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(aFace, TopTools_ListOfShape());
       TopTools_ListOfShape aList4;
       myMapGener.Bind(aFace, aList4);
-      myMapGener(aFace).Append (aVer2);
+      myMapGener(aFace).push_back (aVer2);
     }
     
     mySubst.Build(myS1);
@@ -185,7 +185,7 @@ QANewModTopOpe_Glue::PerformVertex()
       const TopoDS_Shape& aFace = aExp.Current();
       if(myMapModif.IsBound(aFace)) continue;
       if (mySubst.IsCopied(aFace)) {
-	if (!mySubst.Copy(aFace).IsEmpty()) {	
+	if (!mySubst.Copy(aFace).empty()) {	
 	  myMapModif.Bind(aFace,mySubst.Copy(aFace));
 	}
       }
@@ -196,14 +196,14 @@ QANewModTopOpe_Glue::PerformVertex()
       const TopoDS_Shape& anEdge = aExp.Current();
       if(myMapModif.IsBound(anEdge)) continue;
       if (mySubst.IsCopied(anEdge)) {
-	if (!mySubst.Copy(anEdge).IsEmpty()) {	
+	if (!mySubst.Copy(anEdge).empty()) {	
 	  myMapModif.Bind(anEdge,mySubst.Copy(anEdge));
 	}
       }
     }
 
     if (mySubst.IsCopied(myS1)) {
-      myShape = mySubst.Copy(myS1).First();
+      myShape = mySubst.Copy(myS1).front();
       myShape.Orientation(myS1.Orientation());
       Done();
     }

@@ -44,7 +44,7 @@ void Draft_VertexInfo::Add(const TopoDS_Edge& E)
     }
   }
   if (!myItEd.More()) {
-    myEdges.Append(E);
+    myEdges.push_back(E);
     myParams.Append(RealLast());
   }
 }

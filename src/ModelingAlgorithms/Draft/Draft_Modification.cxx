@@ -156,7 +156,7 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
     Standard_NoSuchObject::Raise();
   }
 
-  conneF.Clear();
+  conneF.clear();
   TopTools_ListIteratorOfListOfShape ltod;
 
   curFace = myFMap(F).RootFace();
@@ -164,7 +164,7 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
   while (itf.More()) {
     const TopoDS_Face& theF = itf.Key();
     if (myFMap(theF).RootFace().IsSame(curFace)) {
-      conneF.Append(theF);
+      conneF.push_back(theF);
       if (theF.IsSame(badShape)) {
 	badShape.Nullify();
       }
@@ -178,12 +178,12 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
     ltod.Next();
   }
 
-  conneF.Clear();
+  conneF.clear();
   Draft_DataMapIteratorOfDataMapOfEdgeEdgeInfo ite(myEMap);
   while (ite.More()) {
     const TopoDS_Edge& theE = ite.Key();
     if (myEMap(theE).RootFace().IsSame(curFace)) {
-      conneF.Append(theE);
+      conneF.push_back(theE);
     }
     ite.Next();
   }
@@ -241,14 +241,14 @@ const TopTools_ListOfShape & Draft_Modification::ConnectedFaces(const TopoDS_Fac
   if (!IsDone()) {
     StdFail_NotDone::Raise();
   }
-  conneF.Clear();
+  conneF.clear();
   curFace = myFMap(F).RootFace();
 
   Draft_DataMapIteratorOfDataMapOfFaceFaceInfo itf(myFMap);
   while (itf.More()) {
     const TopoDS_Face& theF = itf.Key();
     if (myFMap(theF).RootFace().IsSame(curFace)) {
-      conneF.Append(theF);
+      conneF.push_back(theF);
     }
     itf.Next();
   }
@@ -269,13 +269,13 @@ const TopTools_ListOfShape & Draft_Modification::ModifiedFaces()
   if (!badShape.IsNull()) {
     StdFail_NotDone::Raise();
   }
-  conneF.Clear();
+  conneF.clear();
 
   Draft_DataMapIteratorOfDataMapOfFaceFaceInfo itf(myFMap);
   while (itf.More()) {
     const TopoDS_Face& theF = itf.Key();
     if (!myFMap(theF).RootFace().IsNull()) {
-      conneF.Append(theF);
+      conneF.push_back(theF);
     }
     itf.Next();
   }

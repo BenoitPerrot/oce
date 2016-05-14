@@ -144,7 +144,7 @@ Standard_Integer regularize(Draw_Interpretor& di, Standard_Integer n, const char
   TopTools_DataMapOfShapeListOfShape ESplits;
   TopTools_ListOfShape lof;  
   TopOpeBRepTool::Regularize(fa, lof, ESplits);  
-  Standard_Integer nfa = lof.Extent();
+  Standard_Integer nfa = lof.size();
   di<<"face gives "<<nfa<<" newfaces"<<"\n";
   
   Standard_Integer i = 0;
@@ -178,7 +178,7 @@ static Standard_Integer splitF(Draw_Interpretor& di, Standard_Integer n, const c
   Standard_Boolean splitok = TopOpeBRepTool_REGUS::SplitF(fa,fsplits);
   
   if (!splitok) {di<<"no splits"<<"\n"; return 0;}
-  di<<"fa gives "<<fsplits.Extent()<<" splits"<<"\n";
+  di<<"fa gives "<<fsplits.size()<<" splits"<<"\n";
   
   BRep_Builder BB;
   TopoDS_Compound CC; BB.MakeCompound(CC);
@@ -214,7 +214,7 @@ static Standard_Integer regush(Draw_Interpretor& di, Standard_Integer n, const c
     for (; ite.More(); ite.Next()){
       const TopoDS_Shape& oldshe = ite.Key();
       const TopTools_ListOfShape& newshells =  ite.Value();
-      if (newshells.IsEmpty()) {BB.Add(CC,oldshe); nshe++;}
+      if (newshells.empty()) {BB.Add(CC,oldshe); nshe++;}
       else {
 	for (TopTools_ListIteratorOfListOfShape it(newshells); it.More(); it.Next()){
 	  BB.Add(CC,it.Value()); nshe++;
@@ -304,7 +304,7 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
 
     CORRISO.Init(W);
     Standard_Boolean ok = CORRISO.UVClosed();
-    if (ok) {lWs.Append(W); continue;}
+    if (ok) {lWs.push_back(W); continue;}
 
     TopTools_ListOfShape cEds; 
     TopTools_ListIteratorOfListOfShape ite(CORRISO.Eds());
@@ -317,15 +317,15 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
 	Standard_Boolean onclo = TopOpeBRepTool_TOOL::IsonCLO(C2DF,inU,xmin,xper,tolx);
 	if (onclo) closing=Standard_True;
       }
-      if (closing) cEds.Append(E);
+      if (closing) cEds.push_back(E);
     }          
-    Standard_Integer ncE = cEds.Extent();
+    Standard_Integer ncE = cEds.size();
     Standard_Boolean nopurge = (ncE <= 1);
-    if (nopurge) {lWs.Append(W); continue;}
+    if (nopurge) {lWs.push_back(W); continue;}
     
     // Checking <W>
     TopTools_ListOfShape lfyE; Standard_Boolean topurge = CORRISO.PurgeFyClosingE(cEds,lfyE);
-    if (!topurge) {lWs.Append(W); continue;}
+    if (!topurge) {lWs.push_back(W); continue;}
     
     TopoDS_Wire Wi; BB.MakeWire(Wi); // Add une TShape
     Wi.Free(Standard_True);
@@ -345,7 +345,7 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
       }
       BB.Add(Wi,ed);
     }
-    lWs.Append(Wi);
+    lWs.push_back(Wi);
   } // exw
   
   if (!hasnew) return 1;
@@ -780,14 +780,14 @@ static Standard_Integer shapeclassifier(Draw_Interpretor& di, Standard_Integer n
     for (Standard_Integer i=3; i<=n; i++) {
       TopoDS_Shape shtoavoid = DBRep::Get(a[i]); 
       if (shtoavoid.IsNull()) {di<<"null toavoid shape"<<"\n";return 1;}    
-      toavoid.Append(shtoavoid);
+      toavoid.push_back(shtoavoid);
     }
   }
   
   TopOpeBRepTool_ShapeClassifier shclassi;
   TopAbs_State sta = TopAbs_UNKNOWN;
   if (hastoavoid) sta = shclassi.StateShapeShape(sh,shref);
-  else if (toavoid.Extent() == 1) sta = shclassi.StateShapeShape(sh,toavoid.First(),shref);
+  else if (toavoid.size() == 1) sta = shclassi.StateShapeShape(sh,toavoid.front(),shref);
   else sta = shclassi.StateShapeShape(sh,toavoid,shref);
   
   di<<"shape is ";

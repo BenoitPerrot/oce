@@ -231,7 +231,7 @@ static void CollectSolids(const TopTools_SequenceOfShape& aSeqShells ,
           pointstatus = /*(bsc3d.State() == TopAbs_IN ? TopAbs_IN :*/TopAbs_OUT;
         }
         if(pointstatus != infinstatus) {
-          aMapShellHoles.ChangeFind(aShell1).Append(aShell2);
+          aMapShellHoles.ChangeFind(aShell1).push_back(aShell2);
           if( aMapHoles.Contains(aShell2))
             aMapHoles.Remove(aShell2);
           else aMapHoles.Add(aShell2);
@@ -250,7 +250,7 @@ static void CollectSolids(const TopTools_SequenceOfShape& aSeqShells ,
   for(; aItShellHoles.More();aItShellHoles.Next()) {
     if(aMapHoles.Contains(aItShellHoles.Key())) continue;
     const TopTools_ListOfShape& lHoles =aItShellHoles.Value();
-    if(lHoles.IsEmpty()) continue;
+    if(lHoles.empty()) continue;
     for(TopTools_ListIteratorOfListOfShape lItHoles(lHoles);lItHoles.More(); lItHoles.Next()) {
       if(aMapHoles.Contains(lItHoles.Value())) {
         const TopTools_ListOfShape& lUnHoles = aMapShellHoles.Find(lItHoles.Value());
@@ -354,7 +354,7 @@ static Standard_Boolean CreateSolids(const TopoDS_Shape aShape,TopTools_IndexedM
   TopExp::MapShapesAndAncestors(aShape,TopAbs_FACE,TopAbs_SHELL,aMapFaceShells); 
   for(Standard_Integer i =1; i <= aMapFaceShells.Extent(); i++) {
     const TopTools_ListOfShape& lshells = aMapFaceShells.FindFromIndex(i);
-    if(lshells.Extent() <2) continue;
+    if(lshells.size() <2) continue;
     TopoDS_CompSolid aCompSolid;
     BRep_Builder aB;
     aB.MakeCompSolid(aCompSolid);

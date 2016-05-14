@@ -187,7 +187,7 @@ static void Add(const TopoDS_Edge&         E,
 	if (WarningSurBordLibre) {
 	  // It is checked that the border is not free.
 	  const TopTools_ListOfShape& L = Analyse.Ancestors(OriE);
-	  if (L.Extent() == 1) break; // Nothing is done.
+	  if (L.size() == 1) break; // Nothing is done.
 	}
 	Map.Add(exp.Current());
 	break;
@@ -668,7 +668,7 @@ static TopoDS_Edge FindCreatedEdge
     }
   }
   if (!Find) {
-    TangE.Clear();
+    TangE.clear();
     //	CenterAnalyse.Edges(V1f, OT, TangE);
     if (CenterAnalyse.HasAncestor(V1)) {
       TangE = CenterAnalyse.Ancestors(V1);
@@ -751,7 +751,7 @@ static void CutEdge (const TopoDS_Edge&          E,
   // necessarily in the list of vertices
   //----------------------------------------------------------------
   if (SV.IsEmpty()) {
-    NE.Append(E);
+    NE.push_back(E);
     return;
   }
   TopoDS_Vertex    VF,VL;
@@ -761,7 +761,7 @@ static void CutEdge (const TopoDS_Edge&          E,
 
   if (NbVer == 2) {
     if (SV(1).IsEqual(VF) && SV(2).IsEqual(VL)) {
-      NE.Append(E);
+      NE.push_back(E);
       return;
     }
   }
@@ -812,7 +812,7 @@ static void CutEdge (const TopoDS_Edge&          E,
 //	(TopoDS::Vertex(V2.Oriented(TopAbs_INTERNAL)),WE);
     }
     B.Range (NewEdge,U1,U2);
-    NE.Append(NewEdge.Oriented(E.Orientation()));
+    NE.push_back(NewEdge.Oriented(E.Orientation()));
 
     V1 = V2;
   }
@@ -1136,10 +1136,10 @@ const TopoDS_Face& BiTgte_Blend::Face(const Standard_Integer Index) const
 
 void BiTgte_Blend::CenterLines(TopTools_ListOfShape& LC) const
 {
-  LC.Clear();
+  LC.clear();
   Standard_Integer Nb = NbSurfaces();
   for ( Standard_Integer i = 1; i <= Nb; i++) 
-    LC.Append(myCenters(i));
+    LC.push_back(myCenters(i));
 }
 
 
@@ -1239,7 +1239,7 @@ const TopoDS_Shape& BiTgte_Blend::SupportShape1(const Standard_Integer Index)
   // --------------------------------------------------------------
   // F1 and F2 = 2 parallel faces intersecting at CurE.
   // --------------------------------------------------------------
-  const TopoDS_Face& F1 = TopoDS::Face(L.First()); 
+  const TopoDS_Face& F1 = TopoDS::Face(L.front()); 
   const TopoDS_Shape& Or1 = myInitOffsetFace.ImageFrom(F1);
   return Or1;
 }
@@ -1260,7 +1260,7 @@ const TopoDS_Shape& BiTgte_Blend::SupportShape2(const Standard_Integer Index)
   // --------------------------------------------------------------
   // F1 and F2 = 2 parallel faces intersecting at CurE.
   // --------------------------------------------------------------
-  const TopoDS_Face& F2 = TopoDS::Face(L.Last()); 
+  const TopoDS_Face& F2 = TopoDS::Face(L.back()); 
   const TopoDS_Shape& Or2 = myInitOffsetFace.ImageFrom(F2);
   return Or2;
 }
@@ -1524,7 +1524,7 @@ void BiTgte_Blend::ComputeCenters()
 	if (BRep_Tool::Degenerated(E)) continue;
 
 	const TopTools_ListOfShape& L = myAncestors.FindFromKey(E);
-	if ( L.Extent() == 1) {
+	if ( L.size() == 1) {
 	  // So this is a free border onwhich the ball should roll.
 	  myFaces.Add(E);
 	  
@@ -1589,14 +1589,14 @@ void BiTgte_Blend::ComputeCenters()
 	    if (!EdgeTgt.IsBound(V1)) {
 	      myAnalyse.Edges(V1,BRepOffset_Tangent,LE);
 	      const TopTools_ListOfShape& LA = myAnalyse.Ancestors(V1);
-	      if (LE.Extent() == LA.Extent())
+	      if (LE.size() == LA.size())
 		EdgeTgt.Bind(V1,OV1);
 	    }
 	    if (!EdgeTgt.IsBound(V2)) {
-	      LE.Clear();
+	      LE.clear();
 	      myAnalyse.Edges(V2,BRepOffset_Tangent,LE);
 	      const TopTools_ListOfShape& LA = myAnalyse.Ancestors(V2);
-	      if (LE.Extent() == LA.Extent())
+	      if (LE.size() == LA.size())
 		EdgeTgt.Bind(V2,OV2);
 	    }
 	  }
@@ -1648,12 +1648,12 @@ void BiTgte_Blend::ComputeCenters()
       if ( myMapSF.IsBound(E)) continue;
       
       const TopTools_ListOfShape& Anc = Map.FindFromKey(E);
-      if (Anc.Extent() == 2) {
+      if (Anc.size() == 2) {
 	const BRepOffset_ListOfInterval& L = myAnalyse.Type(E);
 	if (!L.empty() && L.front().Type() == OT) {
-	  TopoDS_Shape aLocalShape = myMapSF(Anc.First()).Generated(E);
+	  TopoDS_Shape aLocalShape = myMapSF(Anc.front()).Generated(E);
 	  TopoDS_Edge EOn1 = TopoDS::Edge(aLocalShape);
-	  aLocalShape = myMapSF(Anc.Last()) .Generated(E);
+	  aLocalShape = myMapSF(Anc.back()) .Generated(E);
 	  TopoDS_Edge EOn2 = TopoDS::Edge(aLocalShape);
 //	  TopoDS_Edge EOn1 = TopoDS::Edge(myMapSF(Anc.First()).Generated(E));
 //	  TopoDS_Edge EOn2 = TopoDS::Edge(myMapSF(Anc.Last()) .Generated(E));
@@ -1674,7 +1674,7 @@ void BiTgte_Blend::ComputeCenters()
 	      Find = Standard_True;
 	    }
 	  }
-	  TangE.Clear();
+	  TangE.clear();
 	  myAnalyse.TangentEdges(E,V1l,TangE);
 	  // find if the pipe on the tangent edges are soon created.
 	  itl.Initialize(TangE);
@@ -1736,7 +1736,7 @@ void BiTgte_Blend::ComputeCenters()
     if ( !myMapSF.IsBound(CurS)) continue; // inverted or degenerated
 
     const TopoDS_Face& CurOF = myMapSF(CurS).Face();
-    LOF.Append(CurOF);
+    LOF.push_back(CurOF);
 
     if (CurS.ShapeType() == TopAbs_FACE) {
       const TopoDS_Face& CurF = TopoDS::Face(CurS);
@@ -1759,10 +1759,10 @@ void BiTgte_Blend::ComputeCenters()
 	}
 	else {
 	  const TopTools_ListOfShape& Lanc = myAnalyse.Ancestors(CurE);
-	  if (   !myFaces    .Contains(Lanc.First()) 
-	      || !myFaces    .Contains(Lanc.Last ())
-	      ||  myStopFaces.Contains(Lanc.First()) 
-	      ||  myStopFaces.Contains(Lanc.Last ())) {
+	  if (   !myFaces    .Contains(Lanc.front()) 
+	      || !myFaces    .Contains(Lanc.back ())
+	      ||  myStopFaces.Contains(Lanc.front()) 
+	      ||  myStopFaces.Contains(Lanc.back ())) {
 	    TopoDS_Shape aLocalShape = myMapSF(CurF).Generated(CurE);
 	    const TopoDS_Edge& CurOE = TopoDS::Edge(aLocalShape);
 //	    const TopoDS_Edge& CurOE = 
@@ -1792,7 +1792,7 @@ void BiTgte_Blend::ComputeCenters()
     // no unwinding by tubes on free border.
     if ( myStopFaces.Contains(CurS)) continue;
 
-    LOF.Append(CurOF);
+    LOF.push_back(CurOF);
 
     // --------------------------------------------------------------
     // set in myAsDes the edge restrictions of the square
@@ -1908,13 +1908,13 @@ void BiTgte_Blend::ComputeSurfaces()
     const TopoDS_Edge& CurE = TopoDS::Edge(myEdges(i));
 
     const TopTools_ListOfShape& L = myAsDes->Ascendant(CurE);
-    if ( L.Extent() != 2) continue;
+    if ( L.size() != 2) continue;
     
     // --------------------------------------------------------------
     // F1 and F2 = 2 parallel faces intersecting in CurE.
     // --------------------------------------------------------------
-    const TopoDS_Face& F1 = TopoDS::Face(L.First()); 
-    const TopoDS_Face& F2 = TopoDS::Face(L.Last());
+    const TopoDS_Face& F1 = TopoDS::Face(L.front()); 
+    const TopoDS_Face& F2 = TopoDS::Face(L.back());
 
     // -----------------------------------------------------
     // find the orientation of edges of intersection
@@ -1985,7 +1985,7 @@ void BiTgte_Blend::ComputeSurfaces()
 
     if ( !myImageOffset.HasImage(CurE)) {// the tubes are not unwinded
       if ( OF1isEdge && OF2isEdge) {     // if I don't have the image, possibly
-	CurL.Append(CurE);               // I'm on intersection tube-tube
+	CurL.push_back(CurE);               // I'm on intersection tube-tube
       }                                  // See comment on the call to 
       else                               // MakeLoops
 	continue;
@@ -2111,10 +2111,10 @@ void BiTgte_Blend::ComputeSurfaces()
 	myCreated.Bind(CurCutE,EmptyMap);
 
 	myCreated(CurCutE).Bind(Or1,Empty);
-	myCreated(CurCutE)(Or1).Append(E1);
+	myCreated(CurCutE)(Or1).push_back(E1);
 
 	myCreated(CurCutE).Bind(Or2,Empty);
-	myCreated(CurCutE)(Or2).Append(E2);
+	myCreated(CurCutE)(Or2).push_back(E2);
       }
 
       // ----------------------------------------------------------
@@ -2197,7 +2197,7 @@ void BiTgte_Blend::ComputeSurfaces()
 	    myCutEdges.Bind(Or1,Dummy);
 	  }
 	  TopTools_ListOfShape& L1 = myCutEdges(Or1);
-	  L1.Append(V1); L1.Append(V2);
+	  L1.push_back(V1); L1.push_back(V2);
 	}
 	if (OF2isEdge) { // Update CutEdges.
 	  exp.Next();
@@ -2226,7 +2226,7 @@ void BiTgte_Blend::ComputeSurfaces()
 	    myCutEdges.Bind(Or2,Dummy);
 	  }
 	  TopTools_ListOfShape& L2 = myCutEdges(Or2);
-	  L2.Append(V1); L2.Append(V2);
+	  L2.push_back(V1); L2.push_back(V2);
 	}
       }
 
@@ -2249,7 +2249,7 @@ void BiTgte_Blend::ComputeSurfaces()
 
   for ( Standard_Integer i = 1; i <= Map.Extent(); i++) {
     const TopoDS_Vertex& V = TopoDS::Vertex(Map.FindKey(i));
-    if ( Map(i).Extent() != 3) continue;
+    if ( Map(i).size() != 3) continue;
 
     TopTools_ListOfShape LOE;
     TopTools_ListIteratorOfListOfShape it;
@@ -2257,9 +2257,9 @@ void BiTgte_Blend::ComputeSurfaces()
     for (it.Initialize(Map(i)) ; it.More(); it.Next()) {
       Standard_Boolean Reverse = Standard_True;
       if ( Reverse) 
-	LOE.Append(myMapSF(it.Value()).Generated(V).Reversed());
+	LOE.push_back(myMapSF(it.Value()).Generated(V).Reversed());
       else 
-	LOE.Append(myMapSF(it.Value()).Generated(V));
+	LOE.push_back(myMapSF(it.Value()).Generated(V));
     }
     
     BRepOffset_Offset OFT(V,LOE,-myRadius,myNubs, myTol, GeomAbs_C2);
@@ -2373,11 +2373,11 @@ void BiTgte_Blend::ComputeShape()
       // CurOE disappears
 
       const TopoDS_Edge& ImE = 
-	TopoDS::Edge(myImageOffset.Image(CurOE).First());
+	TopoDS::Edge(myImageOffset.Image(CurOE).front());
       if (ImE.IsSame(CurOE)) {
 	myCreated.Bind(CurOE,EmptyMap);      
 	myCreated(CurOE).Bind(CurF,Empty);
-	myCreated(CurOE)(CurF).Append(CurE);
+	myCreated(CurOE)(CurF).push_back(CurE);
       }
     }
   }
@@ -2431,17 +2431,17 @@ void BiTgte_Blend::ComputeShape()
 	  TopExp::Vertices(E ,V1 ,V2 );
 	  if (myCreated.IsBound(E)) {
 	    if (myCreated(E).IsBound(CurF)) {
-	      const TopoDS_Edge& OE = TopoDS::Edge(myCreated(E)(CurF).First());
+	      const TopoDS_Edge& OE = TopoDS::Edge(myCreated(E)(CurF).front());
 	      TopExp::Vertices(OE,OV1,OV2);
 	      if ( !myCreated.IsBound(V1)) myCreated.Bind(V1,EmptyMap);
 	      if ( !myCreated.IsBound(V2)) myCreated.Bind(V2,EmptyMap);
 	      if ( !myCreated(V1).IsBound(CurF))  {
 		myCreated(V1).Bind(CurF,Empty);
-		myCreated(V1)(CurF).Append(OV1);
+		myCreated(V1)(CurF).push_back(OV1);
 	      }
 	      if ( !myCreated(V2).IsBound(CurF))  {
 		myCreated(V2).Bind(CurF,Empty);
-		myCreated(V2)(CurF).Append(OV2);
+		myCreated(V2)(CurF).push_back(OV2);
 	      }
 	    }
 	  }
@@ -2479,7 +2479,7 @@ void BiTgte_Blend::ComputeShape()
 	      // Is there an image in the Map of Created ?
 	      if ( myCreated.IsBound(E)) {
 		if ( myCreated(E).IsBound(CurF)) {
-		  OE = TopoDS::Edge(myCreated(E)(CurF).First());
+		  OE = TopoDS::Edge(myCreated(E)(CurF).front());
 		}
 	      }
 	      else {
@@ -2487,7 +2487,7 @@ void BiTgte_Blend::ComputeShape()
 		TopoDS_Vertex V1,V2,OV1,OV2;
 		TopExp::Vertices(E,V1,V2);
 		if ( myCreated.IsBound(V1) && myCreated(V1).IsBound(CurF)) {
-		  OV1 = TopoDS::Vertex(myCreated(V1)(CurF).First());
+		  OV1 = TopoDS::Vertex(myCreated(V1)(CurF).front());
 		}
 		else {
 		  B.MakeVertex(OV1);
@@ -2499,10 +2499,10 @@ void BiTgte_Blend::ComputeShape()
 		  B.UpdateVertex(OV1,P,BRep_Tool::Tolerance(V1));
 		  myCreated.Bind(V1,EmptyMap);
 		  myCreated(V1).Bind(CurF,Empty);
-		  myCreated(V1)(CurF).Append(OV1);
+		  myCreated(V1)(CurF).push_back(OV1);
 		}
 		if ( myCreated.IsBound(V2) && myCreated(V2).IsBound(CurF)) {
-		  OV2 = TopoDS::Vertex(myCreated(V2)(CurF).First());
+		  OV2 = TopoDS::Vertex(myCreated(V2)(CurF).front());
 		}
 		else {
 		  B.MakeVertex(OV2);
@@ -2514,7 +2514,7 @@ void BiTgte_Blend::ComputeShape()
 		  B.UpdateVertex(OV2,P,BRep_Tool::Tolerance(V2));
 		  myCreated.Bind(V2,EmptyMap);
 		  myCreated(V2).Bind(CurF,Empty);
-		  myCreated(V2)(CurF).Append(OV2);
+		  myCreated(V2)(CurF).push_back(OV2);
 		}
 		B.Add(OE,OV1.Oriented(V1.Orientation()));
 		B.Add(OE,OV2.Oriented(V2.Orientation()));

@@ -95,7 +95,7 @@ static void ReverseModifiedEdges(TopoDS_Shape& aShape,
       TopTools_ListOfShape Ledges;
       TopoDS_Iterator itw(aWire);
       for (; itw.More(); itw.Next())
-        Ledges.Append(itw.Value());
+        Ledges.push_back(itw.Value());
 
       aWire.Free(Standard_True);
       TopTools_ListIteratorOfListOfShape itl(Ledges);

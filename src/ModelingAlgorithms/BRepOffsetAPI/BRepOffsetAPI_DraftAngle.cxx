@@ -209,7 +209,7 @@ const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::ModifiedFaces() const
 
 const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::Generated(const TopoDS_Shape& S) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   Standard_NullObject_Raise_if(myInitialShape.IsNull(),"");
   Handle(Draft_Modification) DMod = (*((Handle(Draft_Modification)*)&myModification));
 
@@ -219,7 +219,7 @@ const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::Generated(const TopoDS_Sha
     Standard_Real        Tol;
     Standard_Boolean     RW,RF;
     if (DMod->NewSurface(TopoDS::Face(S), Surf, L, Tol, RW, RF)) {
-      myGenerated.Append(ModifiedShape (S));
+      myGenerated.push_back(ModifiedShape (S));
  
     }
   }
@@ -233,7 +233,7 @@ const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::Generated(const TopoDS_Sha
 
 const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::Modified(const TopoDS_Shape& S) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   Standard_NullObject_Raise_if(myInitialShape.IsNull(),"");
   Handle(Draft_Modification) DMod = (*((Handle(Draft_Modification)*)&myModification));
 
@@ -245,9 +245,9 @@ const TopTools_ListOfShape& BRepOffsetAPI_DraftAngle::Modified(const TopoDS_Shap
     
     if (!DMod->NewSurface(TopoDS::Face(S), Surf, L, Tol, RW, RF)) {
       // Ce n est pas une generation => peut etre une  modif
-      myGenerated.Append(ModifiedShape (S));
-      if (myGenerated.Extent() == 1 && myGenerated.First().IsSame(S)) {
-	myGenerated.Clear();
+      myGenerated.push_back(ModifiedShape (S));
+      if (myGenerated.size() == 1 && myGenerated.front().IsSame(S)) {
+	myGenerated.clear();
       }
     }
   }
@@ -442,7 +442,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 		      TopTools_ListOfShape emptylist;
 		      WWmap.Bind( CurWire, emptylist );
 		    }
-		  WWmap(CurWire).Append( aWire );
+		  WWmap(CurWire).push_back( aWire );
 		}
 	    } //if (! aWire.IsSame( CurWire ))
 	} //for (; wit.More(); wit.Next())
@@ -558,7 +558,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	  BB.Add( NewE, PrevV.Oriented(TopAbs_FORWARD) );
 	  BB.Add( NewE, NewV.Oriented(TopAbs_REVERSED) );
 
-	  NewEdges.Append( NewE );
+	  NewEdges.push_back( NewE );
 	  EPmap( SeamEdge ).Append( ParsSeam(i)(j) );
 	  EVmap( SeamEdge ).Append( NewV );
 	  EWmap( SeamEdge ).Append( NonSeamWires(i) );
@@ -577,7 +577,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	  NewE.Orientation( TopAbs_FORWARD );
 	  BB.Add( NewE, PrevV.Oriented(TopAbs_FORWARD) );
 	  BB.Add( NewE, Vlast.Oriented(TopAbs_REVERSED) );
-	  NewEdges.Append( NewE );
+	  NewEdges.push_back( NewE );
 	}
 
       //Substitute anEdge by NewEdges
@@ -705,7 +705,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	      //BB.Add( NewE, TopoDS::Vertex( SeqVer(1).Oriented(TopAbs_FORWARD) ) );
 	      //BB.Add( NewE, TopoDS::Vertex( SeqVer(2).Oriented(TopAbs_REVERSED) ) );
 	    }
-	  NewEdges.Append( NewE );
+	  NewEdges.push_back( NewE );
 	  
 	  firstind++;
 	  for (i = firstind; i < Seq.Length(); i += 2)
@@ -727,7 +727,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	      BB.Add( NewE, TopoDS::Vertex( aLocalShape ) );
 	      //BB.Add( NewE, TopoDS::Vertex( SeqVer(j).Oriented(TopAbs_FORWARD) ) );
 	      //BB.Add( NewE, TopoDS::Vertex( SeqVer(j+1).Oriented(TopAbs_REVERSED) ) );
-	      NewEdges.Append( NewE );
+	      NewEdges.push_back( NewE );
 	    }
 	}
 
@@ -745,7 +745,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
       BB.Add( NewE, TopoDS::Vertex( aLocalShape ) );
       //BB.Add( NewE, TopoDS::Vertex( SeqVer(SeqVer.Length()).Oriented(TopAbs_FORWARD) ) );
       BB.Add( NewE, Vlast.Oriented(TopAbs_REVERSED) );
-      NewEdges.Append( NewE );
+      NewEdges.push_back( NewE );
 
       //Substitute anEdge by NewEdges
       aSub.Substitute( anEdge, NewEdges );
@@ -790,8 +790,8 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
   if (aSub.IsCopied( myShape ))
     {
       const TopTools_ListOfShape& listSh = aSub.Copy( myShape );
-      if (! listSh.IsEmpty())
-	myShape = listSh.First();
+      if (! listSh.empty())
+	myShape = listSh.front();
     }
 
   //Reconstruction of wires
@@ -801,7 +801,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
     {
       CurWire = itww.Key();
       theCopy = aSub.Copy( CurWire );
-      CurWire = theCopy.First();
+      CurWire = theCopy.front();
       CurWire.Free( Standard_True );
       TopTools_ListIteratorOfListOfShape itl( itww.Value() );
       for (; itl.More(); itl.Next())
@@ -809,7 +809,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	  TopoDS_Shape aWire = itl.Value();
 	  CurFace = WFmap( aWire );
 	  theCopy = aSub.Copy( aWire );
-	  aWire = theCopy.First();
+	  aWire = theCopy.front();
 	  //Adjusting period
 	  TopLoc_Location L;
 	  Handle( Geom_Surface ) theSurf = BRep_Tool::Surface( TopoDS::Face(CurFace), L );
@@ -865,7 +865,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
 	  if (aSub.IsCopied( CurFace ))
 	    {
 	      theCopy = aSub.Copy( CurFace );
-	      CurFace = theCopy.First();
+	      CurFace = theCopy.front();
 	    }
 	  CurFace.Free( Standard_True );
 	  BB.Remove( CurFace, aWire );

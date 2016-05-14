@@ -100,11 +100,11 @@ static gp_Vec MakeFinVec( const TopoDS_Wire aWire, const TopoDS_Vertex aVertex )
 static TopoDS_Wire WireFromList(TopTools_ListOfShape& Edges)
 {
   BRepLib_MakeWire MW;
-  TopoDS_Edge anEdge = TopoDS::Edge(Edges.First());
+  TopoDS_Edge anEdge = TopoDS::Edge(Edges.front());
   MW.Add(anEdge);
-  Edges.RemoveFirst();
+  Edges.pop_front();
 
-  while (!Edges.IsEmpty())
+  while (!Edges.empty())
   {
     TopoDS_Wire CurWire = MW.Wire();
     TopoDS_Vertex V1, V2;
@@ -120,7 +120,7 @@ static TopoDS_Wire WireFromList(TopTools_ListOfShape& Edges)
         break;
     }
     MW.Add(anEdge);
-    Edges.Remove(itl);
+    itl = Edges.erase(itl);
   }
 
   return (MW.Wire());
@@ -400,12 +400,12 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
   TopTools_ListIteratorOfListOfShape Itl;
   Standard_Integer i, j;
 
-  while (! EdgeList.IsEmpty())
+  while (! EdgeList.empty())
     {
       BRepLib_MakeWire MW;
-      TopoDS_Edge FirstEdge = TopoDS::Edge(EdgeList.First());
+      TopoDS_Edge FirstEdge = TopoDS::Edge(EdgeList.front());
       MW.Add(FirstEdge);
-      EdgeList.RemoveFirst();
+      EdgeList.pop_front();
       TopoDS_Vertex V_wire[2], V_edge[2];
 
       for (;;)
@@ -423,7 +423,7 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
               if (V_wire[i].IsSame(V_edge[j]))
               {
                 MW.Add(CurEdge);
-                EdgeList.Remove(Itl);
+                Itl = EdgeList.erase(Itl);
                 found = Standard_True;
                 break;
               }
@@ -451,8 +451,8 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
                     aDist < BRep_Tool::Tolerance(V_edge[j]))
                 {
                   MW.Add(CurEdge);
-                  myOldNewMap(CurEdge).Append(MW.Edge());
-                  EdgeList.Remove(Itl);
+                  myOldNewMap(CurEdge).push_back(MW.Edge());
+                  Itl = EdgeList.erase(Itl);
                   found = Standard_True;
                   break;
                 }
@@ -466,7 +466,7 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
         }
         if (!found) //end of current wire, begin next wire
         {
-          WireList.Append( MW.Wire() );
+          WireList.push_back( MW.Wire() );
           break;
         }
       } //end of for (;;)
@@ -568,7 +568,7 @@ void BRepFill_Filling::Build()
   //Building missing bounds
   TopTools_ListOfShape EdgeList, WireList;
   for (i = 1; i <= myBoundary.Length(); i++)
-    EdgeList.Append( myBoundary(i).myEdge );
+    EdgeList.push_back( myBoundary(i).myEdge );
 
   BuildWires( EdgeList, WireList );
   FindExtremitiesOfHoles( WireList, VerSeq );
@@ -686,8 +686,8 @@ void BRepFill_Filling::Build()
   {
     const TopoDS_Edge& InitEdge = myBoundary(i).myEdge;
     TopoDS_Edge anEdge = InitEdge;
-    if (!myOldNewMap(anEdge).IsEmpty())
-      anEdge = TopoDS::Edge( myOldNewMap(anEdge).First() );
+    if (!myOldNewMap(anEdge).empty())
+      anEdge = TopoDS::Edge( myOldNewMap(anEdge).front() );
     Handle(Geom2d_Curve) aCurveOnPlate = CurvesOnPlate->Value(i);
 
     TopoDS_Edge NewEdge = TopoDS::Edge(anEdge.EmptyCopied());
@@ -702,9 +702,9 @@ void BRepFill_Filling::Build()
     BB.UpdateEdge(NewEdge, aCurveOnPlate, Surface, Loc, dmax);
     //BRepLib::SameRange(NewEdge);
     BRepLib::SameParameter(NewEdge, dmax, Standard_True);
-    FinalEdges.Append(NewEdge);
-    myOldNewMap(InitEdge).Clear();
-    myOldNewMap(InitEdge).Append(NewEdge);
+    FinalEdges.push_back(NewEdge);
+    myOldNewMap(InitEdge).clear();
+    myOldNewMap(InitEdge).push_back(NewEdge);
   }
   
   TopoDS_Wire FinalWire = WireFromList(FinalEdges);
@@ -738,7 +738,7 @@ TopoDS_Face BRepFill_Filling::Face() const
 //=======================================================================
  const TopTools_ListOfShape& BRepFill_Filling::Generated(const TopoDS_Shape& S) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   
   if (myOldNewMap.IsBound(S))
     myGenerated.Append(myOldNewMap(S));

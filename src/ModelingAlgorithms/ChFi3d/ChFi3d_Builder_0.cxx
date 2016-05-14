@@ -1874,8 +1874,8 @@ Standard_Integer ChFi3d_SolidIndex(const Handle(ChFiDS_Spine)&  sp,
     Standard_Failure::Raise("SolidIndex : Spine incomplete");
   TopoDS_Shape edref= sp->Edges(1);
   TopoDS_Shape shellousolid;
-  if(!MapESo(edref).IsEmpty()) shellousolid = MapESo(edref).First();
-  else shellousolid = MapESh(edref).First();
+  if(!MapESo(edref).empty()) shellousolid = MapESo(edref).front();
+  else shellousolid = MapESh(edref).front();
   const Standard_Integer solidindex = DStr.AddShape(shellousolid);
   return solidindex;
 }
@@ -4546,7 +4546,7 @@ Standard_Integer ChFi3d_NbNotDegeneratedEdges (const TopoDS_Vertex& Vtx,
 				      const ChFiDS_Map& VEMap)
 {
   TopTools_ListIteratorOfListOfShape ItE;
-  Standard_Integer nba=VEMap(Vtx).Extent();
+  Standard_Integer nba=VEMap(Vtx).size();
   for (ItE.Initialize(VEMap(Vtx)); ItE.More(); ItE.Next()) {
     const TopoDS_Edge& cur = TopoDS::Edge(ItE.Value());
     if (BRep_Tool::Degenerated(cur)) nba--;

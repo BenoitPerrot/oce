@@ -101,15 +101,15 @@ void TopOpeBRepBuild_FuseFace::Init(const TopTools_ListOfShape& LIF,
   }
 #endif
 
-  myLFF.Clear();
+  myLFF.clear();
 
-  myLIE.Clear();
-  myLEE.Clear();
-  myLME.Clear();
+  myLIE.clear();
+  myLEE.clear();
+  myLME.clear();
 
-  myLIV.Clear();
-  myLEV.Clear();
-  myLMV.Clear();
+  myLIV.clear();
+  myLEV.clear();
+  myLMV.clear();
 
   myModified = Standard_False;
   myDone = Standard_False;
@@ -130,8 +130,8 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 #endif
 
   myModified = Standard_False;
-  myLFF.Clear();
-  if (myLRF.IsEmpty()) {
+  myLFF.clear();
+  if (myLRF.empty()) {
 #ifdef OCCT_DEBUG
     if (trc) cout<<" TopOpeBRepBuild_FuseFace::PerformFace : Empty list of reconstructed faces"<<endl;
 #endif
@@ -141,7 +141,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
     return;
   }
 
-  Standard_Integer number = myLRF.Extent();
+  Standard_Integer number = myLRF.size();
   if (number == 1) {
 #ifdef OCCT_DEBUG
     if (trc) cout<<" TopOpeBRepBuild_FuseFace::PerformFace : only 1 reconstructed face"<<endl;
@@ -180,7 +180,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
       return;
     }
     fac.Orientation(TopAbs_FORWARD);
-    mylist.Append(fac);
+    mylist.push_back(fac);
   }
 
 // Orientation 3d de l'espace limite par la face
@@ -208,7 +208,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
     myLFF = myLRF;
     return;
   }
-  Standard_Integer n1 = myLRF.Extent();
+  Standard_Integer n1 = myLRF.size();
   Standard_Integer n2 = mapFacLFac.Extent();
   if (n1 == n2) {
 #ifdef OCCT_DEBUG
@@ -228,7 +228,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
     TopoDS_Face facref = TopoDS::Face(fac);
     const TopTools_ListOfShape& LFac = mapFacLFac.Find(fac);
     
-    Standard_Integer n11 = LFac.Extent();
+    Standard_Integer n11 = LFac.size();
     if (n11 != 1) {
       TopTools_ListOfShape LWir;
       for(it2.Initialize(LFac); it2.More(); it2.Next()) {
@@ -237,7 +237,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	TopExp_Explorer exp;
 	for (exp.Init(fac1,TopAbs_WIRE); exp.More(); exp.Next()) {
 	  const TopoDS_Shape& wir = exp.Current();
-	  LWir.Append(wir);
+	  LWir.push_back(wir);
 	}
       } // LFac
       //  listes des wires avec edges communes.
@@ -260,7 +260,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	const TopoDS_Shape& wir = itt2.Key();
 	const TopTools_ListOfShape& LWir1 = mapWirLWir.Find(wir);
 	
-	Standard_Integer n22 = LWir1.Extent();
+	Standard_Integer n22 = LWir1.size();
 	if (n22 != 1) {	
 //    boucle sur 1 liste des wires avec edges communes.
 	  TopTools_ListOfShape LEdg;
@@ -270,7 +270,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	    TopExp_Explorer exp;
 	    for (exp.Init(wir1,TopAbs_EDGE); exp.More(); exp.Next()) {
 	      const TopoDS_Shape& edg = exp.Current();
-	      LEdg.Append(edg);
+	      LEdg.push_back(edg);
 	    }
 	  } // LWir1
 //    listes des edges avec edges communes.
@@ -343,35 +343,35 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	      if (OriReversed && OriForward) {
 //		TopoDS_Shape& edg1 = edg.Oriented(TopAbs_INTERNAL);
 		const TopoDS_Shape& edg1 = edg.Oriented(TopAbs_INTERNAL);
-		myLME.Append(edg1);
-		myFaceLME.Append(edg1);
+		myLME.push_back(edg1);
+		myFaceLME.push_back(edg1);
 	      } else if (OriReversed) {
 //		TopoDS_Shape& edg1 = edg.Oriented(TopAbs_REVERSED);
 		const TopoDS_Shape& edg1 = edg.Oriented(TopAbs_REVERSED);
-		myWireLE.Append(edg1);
+		myWireLE.push_back(edg1);
 	      } else {
 //		TopoDS_Shape& edg1 = edg.Oriented(TopAbs_FORWARD);
 		const TopoDS_Shape& edg1 = edg.Oriented(TopAbs_FORWARD);
-		myWireLE.Append(edg1);
+		myWireLE.push_back(edg1);
 	      }
 	    } 
 	    else if (OriInternal) {
 //	      TopoDS_Shape& edg1 = edg.Oriented(TopAbs_INTERNAL);
 	      const TopoDS_Shape& edg1 = edg.Oriented(TopAbs_INTERNAL);
-	      myLIE.Append(edg1);
-	      myFaceLIE.Append(edg1);
+	      myLIE.push_back(edg1);
+	      myFaceLIE.push_back(edg1);
 	    }
 	    else if (OriExternal) {
 //	      TopoDS_Shape& edg1 = edg.Oriented(TopAbs_EXTERNAL);
 	      const TopoDS_Shape& edg1 = edg.Oriented(TopAbs_EXTERNAL);
-	      myLEE.Append(edg1);
-	      myFaceLEE.Append(edg1);
+	      myLEE.push_back(edg1);
+	      myFaceLEE.push_back(edg1);
 	    } // Ori
 	  } // mapEdgLEdg
 	
 //    Reconstrution de 1 wire de 1 face de LRF
 //    Attention cas ou une liste de wire connectes conduit a plusieurs Wires
-	  Standard_Integer number1 = myWireLE.Extent();
+	  Standard_Integer number1 = myWireLE.size();
 	  while (number1 > 0) {
 	    BRepLib_MakeWire MW;
 	    MW.Add(myWireLE);
@@ -390,7 +390,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	    BRepLib_MakeWire MW1(W);
 	    W = MW1.Wire();
 	    
-	    myFaceLW.Append(W);	  
+	    myFaceLW.push_back(W);	  
 	    
 	    TopExp_Explorer exp;
 	    TopTools_MapOfShape M;
@@ -409,16 +409,16 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	      for(it3.Initialize(myWireLE); it3.More(); it3.Next()) {
 		const TopoDS_Shape& edg2 = it3.Value();
 		if (M.Add(edg2)) {
-		  ListEdge.Append(edg2);
+		  ListEdge.push_back(edg2);
 		}
 	      }
 	      myWireLE.Assign(ListEdge);
-	      number1 = myWireLE.Extent();
+	      number1 = myWireLE.size();
 	    } // nb
 	  } // number
 	}
 	else {
-	  myFaceLW.Append(wir);
+	  myFaceLW.push_back(wir);
 	} // n2 =1
       } // mapWirLWir
       
@@ -476,14 +476,14 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
       if (Ori3dReversed) {
 	F.Reverse();
       }
-      myLFF.Append(F);
+      myLFF.push_back(F);
     }
     else {
-      myLFF.Append(facref);
+      myLFF.push_back(facref);
     } // n1 = 1
   } // mapFacLFac
  
-  if (myLFF.IsEmpty()) {
+  if (myLFF.empty()) {
 #ifdef OCCT_DEBUG
     if (trc) cout<<" TopOpeBRepBuild_FuseFace::PerformFace : Empty list of fusionned faces"<<endl;
 #endif
@@ -538,12 +538,12 @@ void TopOpeBRepBuild_FuseFace::PerformEdge()
 	  const TopoDS_Shape& ver = expv.Current();
 	  if (!mapVerLEdg.IsBound(ver)) {
 	    TopTools_ListOfShape LmapEdg;
-	    LmapEdg.Append(edg);
+	    LmapEdg.push_back(edg);
 	    mapVerLEdg.Bind(ver,LmapEdg);
 	  }
 	  else {
 	    TopTools_ListOfShape& LmapEdg = mapVerLEdg.ChangeFind(ver);
-	    LmapEdg.Append(edg);
+	    LmapEdg.push_back(edg);
 	  }
 	}
       }
@@ -559,7 +559,7 @@ void TopOpeBRepBuild_FuseFace::PerformEdge()
   for (itt1.Initialize(mapTampon); itt1.More(); itt1.Next()) {
     const TopoDS_Shape& ver = itt1.Key();
     const TopTools_ListOfShape& LmapEdg = mapTampon.Find(ver);
-    Standard_Integer number = LmapEdg.Extent();
+    Standard_Integer number = LmapEdg.size();
     if (number == 2){
       it1.Initialize(LmapEdg);
       const TopoDS_Edge& edg1 = TopoDS::Edge(it1.Value());  
@@ -622,18 +622,18 @@ void TopOpeBRepBuild_FuseFace::ClearEdge()
 
 	ori = edg.Orientation();
 	if (ori == TopAbs_INTERNAL) {
-	  myLIE.Append(edg);
+	  myLIE.push_back(edg);
 	}
 	else if (ori == TopAbs_EXTERNAL) {
-	  myLEE.Append(edg);
+	  myLEE.push_back(edg);
 	}
 	else {
-	  myWireLE.Append(edg);
+	  myWireLE.push_back(edg);
 	}
       }
 //    Fin Niveau 3 
 //    Reconstrution de 1 wire de 1 face de LRF
-      if (!myWireLE.IsEmpty()) {
+      if (!myWireLE.empty()) {
 	BRepLib_MakeWire MW;
 	MW.Add(myWireLE);
 	if (!MW.IsDone()) {
@@ -651,12 +651,12 @@ void TopOpeBRepBuild_FuseFace::ClearEdge()
 	BRepLib_MakeWire MW1(W);
 	W = MW1.Wire();
 	
-	myFaceLW.Append(W);
+	myFaceLW.push_back(W);
       }
     }
 //  Fin Niveau 2
 //  Reconstrution de 1 face de LRF
-    if (myFaceLW.IsEmpty()) {
+    if (myFaceLW.empty()) {
 #ifdef OCCT_DEBUG
       if (trc) cout<<" TopOpeBRepBuild_FuseFace::ClearEdge : Empty list of wires"<<endl;
 #endif
@@ -685,10 +685,10 @@ void TopOpeBRepBuild_FuseFace::ClearEdge()
       return;
     }
     const TopoDS_Face& F = MF.Face();
-    myLFFnew.Append(F);
+    myLFFnew.push_back(F);
   }
 //Fin Niveau 1 
-  if (myLFFnew.IsEmpty()) {
+  if (myLFFnew.empty()) {
 #ifdef OCCT_DEBUG
     if (trc) cout<<" TopOpeBRepBuild_FuseFace::ClearEdge : Empty list of fusionned faces"<<endl;
 #endif
@@ -738,11 +738,11 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
 
 // construction du tableau C=locmapEdgLSh : egde1 - shap1 shap2 shap3
 // construction du tableau   locmapShLSh  : shap1 - shap1 shap2 shap3
-  LmapSh4.Clear();
+  LmapSh4.clear();
   for(it.Initialize(mylist); it.More(); it.Next()) {
     const TopoDS_Shape& shap1 = it.Value();
     TopTools_ListOfShape LmapSh;
-    LmapSh.Append(shap1);
+    LmapSh.push_back(shap1);
 
     mapShLSh.Bind(shap1,LmapSh);
     
@@ -758,12 +758,12 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
       if (Edge_OK || Keep_Edge) {
 	if (!mapEdgLSh.IsBound(edg1)) {
 	  TopTools_ListOfShape LmapEdg;
-	  LmapEdg.Append(shap1);
+	  LmapEdg.push_back(shap1);
 	  mapEdgLSh.Bind(edg1,LmapEdg);
 	}
 	else {
 	  TopTools_ListOfShape& LmapEdg = mapEdgLSh.ChangeFind(edg1);
-	  LmapEdg.Append(shap1);
+	  LmapEdg.push_back(shap1);
 	  
 	  if (!Keep_Edge) {
 	    
@@ -887,7 +887,7 @@ static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools
 //    Recuperation premier shape de liste liee a edg1 et mise a jour  
 
       TopTools_ListOfShape LmapEdg11;
-      LmapEdg11.Append(edgnew);
+      LmapEdg11.push_back(edgnew);
       mapEdgLEdg.Bind(edgnew,LmapEdg11);
 
       TopTools_ListOfShape LmapEdg1;
@@ -896,9 +896,9 @@ static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools
       for(it2.Initialize(LmapEdg1); it2.More(); it2.Next()) {
 	const TopoDS_Shape& edg22 = it2.Value();
 	TopTools_ListOfShape& LmapEdg2 = mapEdgLEdg.ChangeFind(edgnew);
-	LmapEdg2.Append(edg22);
+	LmapEdg2.push_back(edg22);
 	TopTools_ListOfShape& LmapEdg3 = mapEdgLEdg.ChangeFind(edg22);
-	LmapEdg3.Append(edgnew);
+	LmapEdg3.push_back(edgnew);
       }
     }
   }
@@ -968,15 +968,15 @@ static void MakeEdge(TopTools_DataMapOfShapeListOfShape& mymapEdgLEdg)
       const TopoDS_Shape& ver = itt2.Key();
       VertexExtrem =  mapVerInt.Find(ver);
       if (VertexExtrem == 1) {
-	myEdgeLV.Append(ver);
+	myEdgeLV.push_back(ver);
       }
       else {
 //	TopoDS_Shape& ver1 = ver.Oriented(TopAbs_INTERNAL);
 	const TopoDS_Shape& ver1 = ver.Oriented(TopAbs_INTERNAL);
-	myEdgeLMV.Append(ver1);
+	myEdgeLMV.push_back(ver1);
       }
     }
-    Standard_Integer number = myEdgeLV.Extent();
+    Standard_Integer number = myEdgeLV.size();
     if (!(number == 2)){
 #ifdef OCCT_DEBUG
       if (trc) cout<<" TopOpeBRepBuild_FuseFace::MakeEdge : Failure in reconstructing new edge"<<endl;

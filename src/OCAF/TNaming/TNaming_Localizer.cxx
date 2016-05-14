@@ -186,7 +186,7 @@ const TopTools_MapOfShape& TNaming_Localizer::SubShapes (const TopoDS_Shape&    
 
   TopTools_MapOfShape emptyMap;
   mySubShapes.push_front(emptyMap);
-  myShapeWithSubShapes.Prepend(In);
+  myShapeWithSubShapes.push_front(In);
   
   TopTools_MapOfShape& SubShapes = mySubShapes.front();
   for (TopExp_Explorer exp(In,TS); exp.More(); exp.Next()) {
@@ -251,7 +251,7 @@ const TopTools_IndexedDataMapOfShapeListOfShape& TNaming_Localizer::Ancestors
   // Construction des ancetres
   //-----------------------------------
   TopTools_IndexedDataMapOfShapeListOfShape emptyAnc;
-  myShapeWithAncestors.Prepend(In);
+  myShapeWithAncestors.push_front(In);
   myAncestors         .push_front(emptyAnc);
 
   TopAbs_ShapeEnum TA=TopAbs_COMPOUND;
@@ -326,7 +326,7 @@ void TNaming_Localizer::GoBack (const TopoDS_Shape&         S,
       TopTools_MapIteratorOfMapOfShape itF(AncInFeature);
       for ( ; itF.More(); itF.Next()) {
         const TopoDS_Shape& AncOfS = itF.Key();
-        LBS  .Append(AncOfS);
+        LBS  .push_back(AncOfS);
         LBNS.push_back(TNaming_Tool::NamedShape(AncOfS,Lab));
       }
     }
@@ -337,7 +337,7 @@ void TNaming_Localizer::GoBack (const TopoDS_Shape&         S,
       if (it.NamedShape()->Evolution() == Evol) {
         Handle(TNaming_NamedShape) NS = TNaming_Tool::NamedShape(it.Shape(),Lab);
         if (!NS.IsNull()) {
-          LBS.Append  (it.Shape());
+          LBS.push_back  (it.Shape());
           LBNS.push_back (TNaming_Tool::NamedShape(it.Shape(),Lab));
         }
         else {
@@ -465,7 +465,7 @@ void TNaming_Localizer::Backward (const Handle(TNaming_NamedShape)& NS,
   TopTools_ListIteratorOfListOfShape     itLBS  (LBS);
   TNaming_ListIteratorOfListOfNamedShape itLBNS (LBNS.begin());
 
-  if (LBS.IsEmpty()) {
+  if (LBS.empty()) {
     Primitives.Add(NS);
   }
   for ( ; itLBS.More(); itLBS.Next(), ++itLBNS) {
@@ -721,7 +721,7 @@ void TNaming_Localizer::FindGenerator (const Handle(TNaming_NamedShape)& NS,
   
   for (TNaming_OldShapeIterator it (S,US); it.More(); it.Next()) {
     if (it.Label() == LabNS) {
-      theListOfGenerators.Append(it.Shape());
+      theListOfGenerators.push_back(it.Shape());
 //      break; //szy 16.10.03
 
     }
@@ -748,7 +748,7 @@ void TNaming_Localizer::FindShapeContext (const Handle(TNaming_NamedShape)& NS,
   TDF_Label Father = NS->Label().Father();
   TNaming_Iterator  itLab(Father);
   for (; itLab.More(); itLab.Next()) {
-    aList.Append(itLab.OldShape()); //szy
+    aList.push_back(itLab.OldShape()); //szy
   }
 // szy 
   TopTools_ListIteratorOfListOfShape it(aList);

@@ -58,7 +58,7 @@ TopTools_ListOfShape& TopOpeBRepDS_ListOfShapeOn1State::ChangeListOnState
 
 void TopOpeBRepDS_ListOfShapeOn1State::Clear()
 {
-  myList.Clear();
+  myList.clear();
   mySplits = 0;
 }
 

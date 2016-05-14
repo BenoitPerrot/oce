@@ -1860,7 +1860,7 @@ Standard_Boolean isMultiVertex(const TopTools_ListOfShape& alshape,
     else if(aMapSeemEdges.Contains(lIt1.Value()))
       nbNotAccount++;
   }
-  return ((alshape.Extent() -nbNotAccount) >2); 
+  return ((alshape.size() -nbNotAccount) >2); 
 }
  Standard_Boolean ShapeAnalysis_Wire::CheckLoop(TopTools_IndexedMapOfShape& aMapLoopVertices,
                                                 TopTools_DataMapOfShapeListOfShape& aMapVertexEdges,
@@ -1901,19 +1901,19 @@ Standard_Boolean isMultiVertex(const TopTools_ListOfShape& alshape,
     if(isSame)
     {
       TopTools_ListOfShape& alshape =  aMapVertexEdges.ChangeFind(aV1);
-      alshape.Append(aedge);
-      alshape.Append(aedge);
-      if(alshape.Extent() >2 && isMultiVertex( alshape,aMapSmallEdges,aMapSeemEdges))
+      alshape.push_back(aedge);
+      alshape.push_back(aedge);
+      if(alshape.size() >2 && isMultiVertex( alshape,aMapSmallEdges,aMapSeemEdges))
         aMapLoopVertices.Add(aV1);
     }
     else {
       TopTools_ListOfShape& alshape =  aMapVertexEdges.ChangeFind(aV1);
-      alshape.Append(aedge);
-      if(alshape.Extent() >2 && isMultiVertex( alshape,aMapSmallEdges,aMapSeemEdges))
+      alshape.push_back(aedge);
+      if(alshape.size() >2 && isMultiVertex( alshape,aMapSmallEdges,aMapSeemEdges))
         aMapLoopVertices.Add(aV1);
       TopTools_ListOfShape& alshape2 =  aMapVertexEdges.ChangeFind(aV2);
-      alshape2.Append(aedge);
-      if(alshape2.Extent() >2 && isMultiVertex( alshape2,aMapSmallEdges,aMapSeemEdges))
+      alshape2.push_back(aedge);
+      if(alshape2.size() >2 && isMultiVertex( alshape2,aMapSmallEdges,aMapSeemEdges))
         aMapLoopVertices.Add(aV2);
     }
   }

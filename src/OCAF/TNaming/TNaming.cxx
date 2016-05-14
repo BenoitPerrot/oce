@@ -390,8 +390,8 @@ void TNaming::Displace (const TDF_Label& L,
   if (it.More()) {   // dp on continue de visiter les fils meme s'il y a pas de shape
     Evol = it.Evolution();
     for ( ; it.More(); it.Next()) {
-      Olds.Append(it.OldShape());
-      News.Append(it.NewShape());
+      Olds.push_back(it.OldShape());
+      News.push_back(it.NewShape());
       
     }
     
@@ -606,7 +606,7 @@ void TNaming::ChangeShapes(const TDF_Label&              L,
     for (TNaming_Iterator it(L); it.More(); it.Next()) { 
       const TopoDS_Shape& S1 = it.OldShape();
       const TopoDS_Shape& S2 = it.NewShape();
-      Olds.Append(ShapeCopy(S1,M));News.Append(ShapeCopy(S2,M));
+      Olds.push_back(ShapeCopy(S1,M));News.push_back(ShapeCopy(S2,M));
     }
 
     TopTools_ListIteratorOfListOfShape itOlds(Olds);

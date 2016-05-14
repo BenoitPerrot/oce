@@ -297,11 +297,11 @@ Standard_Real BRepGProp::VolumePropertiesGK(const TopoDS_Shape     &S,
       BRepCheck_Status aStatus = aChecker.Closed(Standard_False);
 
       if(aStatus == BRepCheck_NoError) 
-	aClosedShells.Append(aShell);
+	aClosedShells.push_back(aShell);
 
     }
 
-    if (aClosedShells.IsEmpty())
+    if (aClosedShells.empty())
       return -1.;
 
     // Compute the properties for each closed shell.
@@ -415,11 +415,11 @@ Standard_Real BRepGProp::VolumePropertiesGK(const TopoDS_Shape     &S,
       BRepCheck_Status aStatus = aChecker.Closed(Standard_False);
 
       if(aStatus == BRepCheck_NoError) 
-	aClosedShells.Append(aShell);
+	aClosedShells.push_back(aShell);
 
     }
 
-    if (aClosedShells.IsEmpty())
+    if (aClosedShells.empty())
       return -1.;
 
     // Compute the properties for each closed shell.

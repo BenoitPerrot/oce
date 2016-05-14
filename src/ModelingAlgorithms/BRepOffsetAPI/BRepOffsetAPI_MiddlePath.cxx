@@ -443,15 +443,15 @@ void BRepOffsetAPI_MiddlePath::Build()
           anEdge = TopoDS::Edge(mapit.Key());
           myPaths(i).Append(anEdge);
           NextVertex = TopExp::LastVertex(anEdge, Standard_True);
-          NextVertices.Append(NextVertex);
+          NextVertices.push_back(NextVertex);
         }
       }
     }
-    if (NextVertices.IsEmpty())
+    if (NextVertices.empty())
       break;
     for (itl.Initialize(NextVertices); itl.More(); itl.Next())
       CurVertices.Add(itl.Value());
-    NextVertices.Clear();
+    NextVertices.clear();
   }
 
   //Temporary
@@ -603,7 +603,7 @@ void BRepOffsetAPI_MiddlePath::Build()
         //Find the face on which E1, E2 and E12 lie
         //ToInsertVertex = Standard_False;
         TopTools_ListOfShape ListOneFace;
-        ListOneFace.Append(theFace);
+        ListOneFace.push_back(theFace);
 
         if (E1.IsNull() || E2.IsNull())
         {

@@ -59,14 +59,14 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
     Standard_Real myParF, myParL;
     TopoDS_Vertex myVerF, myVerL;
   };
-  ParVer *aParVer = new ParVer[theListSplits.Extent()+1];
+  ParVer *aParVer = new ParVer[theListSplits.size()+1];
   TopTools_DataMapOfShapeInteger aMapEdgeIPV;
   TopTools_ListOfShape aListTodo;
   aListTodo = theListSplits;
 
   // prepare structures aMapEdgeIPV and aParVer
 
-  aListTodo.Prepend(theEdge);
+  aListTodo.push_front(theEdge);
   TopTools_ListIteratorOfListOfShape aIter(aListTodo);
   Standard_Integer iPV;
   for (iPV=0; aIter.More(); aIter.Next(), iPV++) {
@@ -79,11 +79,11 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
     TopExp::Vertices(aEdge, aVer1, aVer2);
 
     if(aVer1.IsNull() || aVer2.IsNull()) {
-      aListTodo.Remove(aIter);
+      aIter = aListTodo.erase(aIter);
       TopTools_ListIteratorOfListOfShape aIter1(theListSplits);
       for (; aIter1.More(); aIter1.Next()) {
 	if(aEdge.IsSame(aIter1.Value())) {
-	  theListSplits.Remove(aIter1);
+	  aIter1 = theListSplits.erase(aIter1);
 	  break;
 	}
       }
@@ -146,7 +146,7 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
     }
     aMapEdgeIPV.Bind(aEdge,iPV);
   }
-  aListTodo.RemoveFirst();
+  aListTodo.pop_front();
 
   // find holes and make new edges
 
@@ -196,11 +196,12 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
       aBld.Add(aNewEdge, aV2);
       aBld.UpdateVertex(aV1, aParPrevL, aNewEdge, BRep_Tool::Tolerance(aV1));
       aBld.UpdateVertex(aV2, aParF, aNewEdge, BRep_Tool::Tolerance(aV2));
-      theListSplits.Append(aNewEdge);
+      theListSplits.push_back(aNewEdge);
     }
 
     iPVLast = iPV;
-    if (aIterFound.More()) aListTodo.Remove(aIterFound);
+    if (aIterFound.More())
+      aIterFound = aListTodo.erase(aIterFound);
   }
 
   delete [] aParVer;
@@ -231,12 +232,12 @@ SplitEdge (const TopoDS_Edge          &theEdge,
       for(; aIterSplits.More(); aIterSplits.Next()) {
 	const TopoDS_Shape& aEdge = aIterSplits.Value();
 	if (!useMap || theEdgesValid.Contains (aEdge))
-	  theListSplits.Append(aEdge.Oriented(TopAbs_FORWARD));
+	  theListSplits.push_back(aEdge.Oriented(TopAbs_FORWARD));
       }
     }
   }
 
-  if (!theListSplits.IsEmpty()) {
+  if (!theListSplits.empty()) {
     SplitEdgeComplete (theEdge, theListSplits);
   }
 }
@@ -311,12 +312,12 @@ CorrectAncestorsList (const TopoDS_Edge& theEdge, TopTools_ListOfShape& aListF)
     const TopoDS_Face& aFace = TopoDS::Face(aIter.Value());
     if (!aMapF.Add(aFace)) {
       // duplicate -> remove
-      aListF.Remove(aIter);
+      aIter = aListF.erase(aIter);
       continue;
     }
     if (IsEdgeOut(theEdge, aFace)) {
       // this face is not an ancestor -> remove
-      aListF.Remove(aIter);
+      aIter = aListF.erase(aIter);
       continue;
     }
     aIter.Next();
@@ -502,7 +503,7 @@ QANewModTopOpe_Glue::PerformShell()
 	      myMapGener.Bind(aEdge, aListOfShape1);
 	    }
 
-	    myMapGener(aEdge).Append(aV);
+	    myMapGener(aEdge).push_back(aV);
 	  }
 	}
       }
@@ -536,23 +537,23 @@ QANewModTopOpe_Glue::PerformShell()
 
       Standard_Integer nbCurveAncestors = 0;
       for (i = 0; i < 2; i++) {
-	if (!aListF[i].IsEmpty()) {
+	if (!aListF[i].empty()) {
 	  aMapSEdgeFaces[i]->Bind(aSecEdge, aListF[i]);
-	  if (aListE[i].IsEmpty())
-	    aMapSEdgeCrossFace[i]->Bind(aSecEdge, aListF[i].First());
+	  if (aListE[i].empty())
+	    aMapSEdgeCrossFace[i]->Bind(aSecEdge, aListF[i].front());
 	  TopTools_ListIteratorOfListOfShape aIter (aListF[i]);
 	  for (; aIter.More(); aIter.Next())
 	    aSetFaces[i].Add(aIter.Value());
 	}
 	else if (!aFaces[i].IsNull()) {
 	  TopTools_ListOfShape aList;
-	  aList.Append(aFaces[i]);
+	  aList.push_back(aFaces[i]);
 	  aMapSEdgeFaces[i]->Bind(aSecEdge, aList);
 	  aMapSEdgeCrossFace[i]->Bind(aSecEdge, aFaces[i]);
 	  aSetFaces[i].Add(aFaces[i]);
 	  nbCurveAncestors++;
 	}
-	else if (!aListE[i].IsEmpty()) {
+	else if (!aListE[i].empty()) {
 	  myEdgesToLeave.Add (aSecEdge);
 	  TopTools_ListIteratorOfListOfShape aIter (aListE[i]);
 	  for (; aIter.More(); aIter.Next())
@@ -579,7 +580,7 @@ QANewModTopOpe_Glue::PerformShell()
   }
 
   //--------------------------------------------------
-  if(aNbUsedSecEdges == 0 && aListSE.Extent() != 0) {
+  if(aNbUsedSecEdges == 0 && aListSE.size() != 0) {
     // all section edges are common edges - make compound
     BRep_Builder aBld;
     aBld.MakeCompound (TopoDS::Compound(myShape));
@@ -599,7 +600,7 @@ QANewModTopOpe_Glue::PerformShell()
       const TopoDS_Edge aEdge = TopoDS::Edge (aIter.Key());
       TopTools_ListOfShape aListSplitE;
       SplitEdge (aEdge, myDSFiller, myEdgesToLeave, Standard_False, aListSplitE);
-      if (!aListSplitE.IsEmpty()) {
+      if (!aListSplitE.empty()) {
 	mySubst.Substitute (aEdge, aListSplitE);
 	if (mySubst.IsCopied (aEdge)) {
 	  // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aEdge, TopTools_ListOfShape());
@@ -623,12 +624,12 @@ QANewModTopOpe_Glue::PerformShell()
 	    aIterF (aMapSEdgeFaces[1]->Find(aSecEdge));
 	  for (; aIterF.More(); aIterF.Next())
 	    if (aIterF.Value().IsSame(aFace)) {
-	      aListSEOnFace.Append(aSecEdge);
+	      aListSEOnFace.push_back(aSecEdge);
 	      break;
 	    }
 	}
       }
-      if (!aListSEOnFace.IsEmpty()) {
+      if (!aListSEOnFace.empty()) {
 	Standard_Boolean isCut = CutFace (aFace, aListSEOnFace);
 	if (isCut && !myAllowCutting) {
 	  // Shell goes inside Solid while it is forbidden
@@ -664,7 +665,7 @@ QANewModTopOpe_Glue::PerformShell()
       const TopoDS_Edge aEdge = TopoDS::Edge (aIter.Key());
       TopTools_ListOfShape aListSplitE;
       SplitEdge (aEdge, myDSFiller, myEdgesToLeave, Standard_True, aListSplitE);
-      if (!aListSplitE.IsEmpty()) {
+      if (!aListSplitE.empty()) {
 	mySubst.Substitute (aEdge, aListSplitE);
 	//Substitution of vertices at the ends of aEdge.
 	TopoDS_Vertex aV1, aV2;
@@ -678,8 +679,8 @@ QANewModTopOpe_Glue::PerformShell()
 	  aSpV2.Orientation(TopAbs_FORWARD);
 	  TopTools_ListOfShape aL;
 	  if(BRepTools::Compare(aV1, aSpV1) && (!aV1.IsSame(aSpV1))) {
-	    aL.Clear();
-	    aL.Append(aSpV1);
+	    aL.clear();
+	    aL.push_back(aSpV1);
 	    if(!mySubst.IsCopied (aV1)) {
 	      mySubst.Substitute(aV1, aL);
 //	      if (mySubst.IsCopied (aV1)) {
@@ -691,8 +692,8 @@ QANewModTopOpe_Glue::PerformShell()
 	    }
 	  }
 	  if(BRepTools::Compare(aV1, aSpV2) && (!aV1.IsSame(aSpV2))) {
-	    aL.Clear();
-	    aL.Append(aSpV2);
+	    aL.clear();
+	    aL.push_back(aSpV2);
 	    if(!mySubst.IsCopied (aV1)) {
 	      mySubst.Substitute(aV1, aL);
 //	      if (mySubst.IsCopied (aV1)) {
@@ -704,8 +705,8 @@ QANewModTopOpe_Glue::PerformShell()
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV1) && (!aV2.IsSame(aSpV1))) {
-	    aL.Clear();
-	    aL.Append(aSpV1);
+	    aL.clear();
+	    aL.push_back(aSpV1);
 	    if (!mySubst.IsCopied (aV2)) {
 	      mySubst.Substitute(aV2, aL);
 //	      if (mySubst.IsCopied (aV2)) {
@@ -717,8 +718,8 @@ QANewModTopOpe_Glue::PerformShell()
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV2) && (!aV2.IsSame(aSpV2))) {
-	    aL.Clear();
-	    aL.Append(aSpV2);
+	    aL.clear();
+	    aL.push_back(aSpV2);
 	    if (!mySubst.IsCopied (aV2)) {
 	      mySubst.Substitute(aV2, aL);
 //	      if (mySubst.IsCopied (aV2)) {
@@ -753,12 +754,12 @@ QANewModTopOpe_Glue::PerformShell()
 	    aIterF (aMapSEdgeFaces[i]->Find(aSecEdge));
 	  for (; aIterF.More(); aIterF.Next())
 	    if (aIterF.Value().IsSame(aFace)) {
-	      aListSEOnFace.Append(aSecEdge);
+	      aListSEOnFace.push_back(aSecEdge);
 	      break;
 	    }
 	}
       }
-      if (!aListSEOnFace.IsEmpty())
+      if (!aListSEOnFace.empty())
 	SectionInsideFace (aFace, aListSEOnFace, i, aGenEdges);
     }
   }
@@ -774,8 +775,8 @@ QANewModTopOpe_Glue::PerformShell()
     const TopoDS_Shape& aOldS = (i==0 ? myS1 : myS2);
     mySubst.Build(aOldS);
     if (mySubst.IsCopied(aOldS)) {
-      if (!mySubst.Copy(aOldS).IsEmpty()) {
-	aNewS[i] = mySubst.Copy(aOldS).First();
+      if (!mySubst.Copy(aOldS).empty()) {
+	aNewS[i] = mySubst.Copy(aOldS).front();
 	aNewS[i].Orientation(aOldS.Orientation());
 	nbModified++;
 	iShape = i;
@@ -797,7 +798,7 @@ QANewModTopOpe_Glue::PerformShell()
       const TopoDS_Shape& aFace = aExp.Current();
       if(myMapModif.IsBound(aFace)) continue;
       if (mySubst.IsCopied(aFace)) {
-	if (!mySubst.Copy(aFace).IsEmpty()) {	
+	if (!mySubst.Copy(aFace).empty()) {	
 	  myMapModif.Bind(aFace,mySubst.Copy(aFace));
 	}
       }
@@ -876,7 +877,7 @@ QANewModTopOpe_Glue::PerformShell()
 	  myMapModif.Bind(aF, mySubst.Copy(aF));
 	}
       }
-      myShape = mySubst.Copy(myShape).First();
+      myShape = mySubst.Copy(myShape).front();
     }
   }
 
@@ -904,7 +905,7 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 
     TopTools_ListOfShape aListSplitE;
     SplitEdge (aEdge, thePDSFiller, theEdgesValid, useMap, aListSplitE);
-    if (aListSplitE.IsEmpty()) continue;
+    if (aListSplitE.empty()) continue;
 
     theSubst.Substitute (aEdge, aListSplitE);
     aLocalSubst.Substitute (aEdge, aListSplitE);
@@ -921,8 +922,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	  aSpV2.Orientation(TopAbs_FORWARD);
 	  TopTools_ListOfShape aL;
 	  if(BRepTools::Compare(aV1, aSpV1) && (!aV1.IsSame(aSpV1))) {
-	    aL.Clear();
-	    aL.Append(aSpV1);
+	    aL.clear();
+	    aL.push_back(aSpV1);
 	    aLocalSubst.Substitute(aV1, aL);
 	    theSubst.Substitute(aV1, aL);
 	    if (aLocalSubst.IsCopied (aV1)) {
@@ -933,8 +934,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	    }
 	  }
 	  if(BRepTools::Compare(aV1, aSpV2) && (!aV1.IsSame(aSpV2))) {
-	    aL.Clear();
-	    aL.Append(aSpV2);
+	    aL.clear();
+	    aL.push_back(aSpV2);
 	    aLocalSubst.Substitute(aV1, aL);
 	    theSubst.Substitute(aV1, aL);
 	    if (aLocalSubst.IsCopied (aV1)) {
@@ -945,8 +946,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV1) && (!aV2.IsSame(aSpV1))) {
-	    aL.Clear();
-	    aL.Append(aSpV1);
+	    aL.clear();
+	    aL.push_back(aSpV1);
 	    aLocalSubst.Substitute(aV2, aL);
 	    theSubst.Substitute(aV2, aL);
 	    if (aLocalSubst.IsCopied (aV2)) {
@@ -957,8 +958,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV2) && (!aV2.IsSame(aSpV2))) {
-	    aL.Clear();
-	    aL.Append(aSpV2);
+	    aL.clear();
+	    aL.push_back(aSpV2);
 	    aLocalSubst.Substitute(aV2, aL);
 	    theSubst.Substitute(aV2, aL);
 	    if (aLocalSubst.IsCopied (aV2)) {
@@ -997,7 +998,7 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	}
       }
     }
-    return TopoDS::Face (aLocalSubst.Copy(theFace).First());
+    return TopoDS::Face (aLocalSubst.Copy(theFace).front());
   }
   return theFace;
 }
@@ -1018,8 +1019,8 @@ QANewModTopOpe_Glue::CutFace(const TopoDS_Face& theFace,
   mySubst.Build(theFace);
   TopoDS_Face aFace;
   if (mySubst.IsCopied(theFace)) {
-    if (mySubst.Copy(theFace).IsEmpty()) return Standard_True;
-    aFace = TopoDS::Face(mySubst.Copy(theFace).First());
+    if (mySubst.Copy(theFace).empty()) return Standard_True;
+    aFace = TopoDS::Face(mySubst.Copy(theFace).front());
   }
   else
     aFace = theFace;
@@ -1046,7 +1047,7 @@ QANewModTopOpe_Glue::CutFace(const TopoDS_Face& theFace,
     const TopoDS_Face& aFaceNew = TopoDS::Face (aIter.Value());
     TopAbs_State aState = ClassifyFace (aFaceNew, theListSE);
     if (aState == TopAbs_OUT) {
-      aListToSubst.Append(aFaceNew.Oriented(TopAbs_FORWARD));
+      aListToSubst.push_back(aFaceNew.Oriented(TopAbs_FORWARD));
       // remember in the map the section edges to leave
       TopExp_Explorer aExp (aFaceNew, TopAbs_EDGE);
       for (; aExp.More(); aExp.Next()) {
@@ -1308,13 +1309,13 @@ DoLocalSubstitution (TopoDS_Shape& theSh, const TopoDS_Shape& theSubSh,
 {
   BRepTools_Substitution aLocalSubst;
   TopTools_ListOfShape aList;
-  aList.Append (theNewSubSh.Oriented(TopAbs_FORWARD));
+  aList.push_back (theNewSubSh.Oriented(TopAbs_FORWARD));
   aLocalSubst.Substitute (theSubSh, aList);
   aLocalSubst.Build(theSh);
 
   if (aLocalSubst.IsCopied(theSh)) {
     UpdateMapNewOld (theSh, aLocalSubst, theMapNewOld);
-    theSh = aLocalSubst.Copy(theSh).First();
+    theSh = aLocalSubst.Copy(theSh).front();
   }
 }
 
@@ -1335,8 +1336,8 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
   mySubst.Build(theFace);
   TopoDS_Face aFace;
   if (mySubst.IsCopied(theFace)) {
-    if (mySubst.Copy(theFace).IsEmpty()) return;
-    aFace = TopoDS::Face(mySubst.Copy(theFace).First());
+    if (mySubst.Copy(theFace).empty()) return;
+    aFace = TopoDS::Face(mySubst.Copy(theFace).front());
   }
   else
     aFace = theFace;
@@ -1394,7 +1395,7 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
 	    // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aOrig, TopTools_ListOfShape());
             TopTools_ListOfShape aListOfShape1;
 	    myMapModif.Bind(aOrig, aListOfShape1);
-	    myMapModif(aOrig).Append (aSVer);
+	    myMapModif(aOrig).push_back (aSVer);
 	    aVerGener.Add(aSVer);
 	    continue;
 	  }
@@ -1415,24 +1416,24 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
 	    TopTools_ListIteratorOfListOfShape aIt (aListModif);
 	    for (; aIt.More(); aIt.Next())
 	      if (aIt.Value().IsSame(aOld)) {
-		aListModif.Remove (aIt);
+		aIt = aListModif.erase(aIt);
 		break;
 	      }
-	    aListModif.Append (aNewEdge);
+	    aListModif.push_back (aNewEdge);
 	  }
 	  else {
 	    aOrig = aOld;
 	    // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aOrig, TopTools_ListOfShape());
             TopTools_ListOfShape aListOfShape2;
 	    myMapModif.Bind(aOrig, aListOfShape2);
-	    myMapModif(aOrig).Append (aNewEdge);
+	    myMapModif(aOrig).push_back (aNewEdge);
 	  }
 	  if (!myMapGener.IsBound (aOrig)) {
 	    // for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(aOrig, TopTools_ListOfShape());
             TopTools_ListOfShape aListOfShape3;
 	    myMapGener.Bind(aOrig, aListOfShape3);
           }
-	  myMapGener(aOrig).Append (aSVer);
+	  myMapGener(aOrig).push_back (aSVer);
 	  aVerGener.Add(aSVer);
 	}
       }
@@ -1445,7 +1446,7 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
     TopTools_ListOfShape aList;
     const TopoDS_Shape& aOld = aDIter.Value();
     const TopoDS_Shape& aNew = aDIter.Key();
-    aList.Append (aNew);
+    aList.push_back (aNew);
     mySubst.Substitute (aOld, aList);
   }
 
@@ -1459,10 +1460,10 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
       aConnector->Add (aSEdge);
       aConnector->AddStart (aSEdge);
       if(theGenEdges.Contains(aSEdge)) {
-	aListGener.Append (aSEdge);
+	aListGener.push_back (aSEdge);
 	TopExp::Vertices(aSEdge, aV1, aV2);
-	if(aVerGener.Add(aV1)) aListGener.Append (aV1);
-	if(aVerGener.Add(aV2)) aListGener.Append (aV2);
+	if(aVerGener.Add(aV1)) aListGener.push_back (aV1);
+	if(aVerGener.Add(aV2)) aListGener.push_back (aV2);
       }
     }
   }
@@ -1489,14 +1490,14 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
     }
     // substitute face
     TopTools_ListOfShape aList;
-    aList.Append(aNewFace);
+    aList.push_back(aNewFace);
     mySubst.Substitute(aFace, aList);
     // update history
     // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(theFace, TopTools_ListOfShape());
     TopTools_ListOfShape aListOfShape4;
     myMapModif.Bind(theFace, aListOfShape4);
     myMapModif(theFace).Append (aList);
-    if(!aListGener.IsEmpty()) {
+    if(!aListGener.empty()) {
       // for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(theFace, TopTools_ListOfShape());
       TopTools_ListOfShape aListOfShape5;
       myMapGener.Bind(theFace, aListOfShape5);

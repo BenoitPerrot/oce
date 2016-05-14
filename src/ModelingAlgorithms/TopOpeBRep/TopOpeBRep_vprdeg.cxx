@@ -814,20 +814,20 @@ static void FUN_addmapve(TopTools_DataMapOfShapeListOfShape& mapve, const TopoDS
   Standard_Boolean visb = mapve.IsBound(v);
   Standard_Boolean eisb = mapve.IsBound(e);
   if      (!visb && !eisb) 
-    {TopTools_ListOfShape le;le.Append(e);mapve.Bind(v,le); 
-     TopTools_ListOfShape lv;lv.Append(v);mapve.Bind(e,lv);}
+    {TopTools_ListOfShape le;le.push_back(e);mapve.Bind(v,le); 
+     TopTools_ListOfShape lv;lv.push_back(v);mapve.Bind(e,lv);}
   else if (visb  && !eisb) 
-    {mapve.ChangeFind(v).Append(e); 
-     TopTools_ListOfShape lv;lv.Append(v);mapve.Bind(e,lv);}
+    {mapve.ChangeFind(v).push_back(e); 
+     TopTools_ListOfShape lv;lv.push_back(v);mapve.Bind(e,lv);}
   else if (!visb &&  eisb) 
-    {mapve.ChangeFind(e).Append(v); 
-     TopTools_ListOfShape le;le.Append(e);mapve.Bind(v,le);}
+    {mapve.ChangeFind(e).push_back(v); 
+     TopTools_ListOfShape le;le.push_back(e);mapve.Bind(v,le);}
   else {
     Standard_Boolean found = Standard_False;
     TopTools_ListIteratorOfListOfShape it(mapve.Find(v));
     for (; it.More(); it.Next())
       if (it.Value().IsSame(e)) {found = Standard_True; break;}
-    if (!found) {mapve.ChangeFind(v).Append(e); mapve.ChangeFind(e).Append(v);} 	    
+    if (!found) {mapve.ChangeFind(v).push_back(e); mapve.ChangeFind(e).push_back(v);} 	    
   }
 }
 
@@ -937,7 +937,7 @@ Standard_EXPORT void FUN_GetdgData(TopOpeBRepDS_PDataStructure& pDS,const TopOpe
     if (!hasecl) continue;
 
     TopoDS_Vertex vv = (rkv == rk) ? v : vsd;
-    TopTools_ListOfShape ls; ls.Append(cle); ls.Append(dge); 
+    TopTools_ListOfShape ls; ls.push_back(cle); ls.push_back(dge); 
     datamap.Bind(vv,ls);
   }//itm(mapved)
 
@@ -993,8 +993,8 @@ static Standard_Integer FUN_putInterfonDegenEd
     
   // edges dge, cle on shape<rkdg>
   const TopTools_ListOfShape& loe = DataforDegenEd.Find(v);
-  const TopoDS_Edge& cle = TopoDS::Edge(loe.First());
-  const TopoDS_Edge& dge = TopoDS::Edge(loe.Last()); dgE = dge;
+  const TopoDS_Edge& cle = TopoDS::Edge(loe.front());
+  const TopoDS_Edge& dge = TopoDS::Edge(loe.back()); dgE = dge;
   Standard_Integer rkdg = 0;
   if (BDS.HasShape(dge)) rkdg = BDS.AncestorRank(dge); 
   else {
@@ -1089,7 +1089,7 @@ static Standard_Integer FUN_putInterfonDegenEd
               TopTools_ListOfShape thelist;
 	      aMapOfTreatedVertexListOfEdge.Bind(aVertex, thelist);
 	    }
-	    aMapOfTreatedVertexListOfEdge(aVertex).Append(ei);
+	    aMapOfTreatedVertexListOfEdge(aVertex).push_back(ei);
 	  }
 	}
       }

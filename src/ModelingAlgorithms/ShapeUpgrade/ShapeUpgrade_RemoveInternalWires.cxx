@@ -175,10 +175,10 @@ void ShapeUpgrade_RemoveInternalWires::removeSmallWire (const TopoDS_Shape& theF
       for( ; aIte.More(); aIte.Next()) {
         TopoDS_Shape aE = aIte.Value();
         if(myRemoveEdges.IsBound(aE))
-          myRemoveEdges.ChangeFind(aE).Append(aF);
+          myRemoveEdges.ChangeFind(aE).push_back(aF);
         else {
           TopTools_ListOfShape alfaces;
-          alfaces.Append(aF);
+          alfaces.push_back(aF);
           myRemoveEdges.Bind(aE,alfaces);
         }
       }

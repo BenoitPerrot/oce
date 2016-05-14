@@ -50,13 +50,13 @@ void BRepAlgo_AsDes::Add(const TopoDS_Shape& S, const TopoDS_Shape& SS)
     TopTools_ListOfShape L;
     down.Bind(S,L);
   }
-  down(S).Append(SS);
+  down(S).push_back(SS);
 
   if (!up.IsBound(SS)) {    
     TopTools_ListOfShape L;
     up.Bind(SS,L);
   }
-  up(SS).Append(S);
+  up(SS).push_back(S);
 }
 
 
@@ -162,7 +162,7 @@ static void ReplaceInList(const TopoDS_Shape&   OldS,
     if (it.Value().IsSame(OldS)) {
       TopAbs_Orientation O = it.Value().Orientation();
       L.InsertBefore(NewS.Oriented(O),it);
-      L.Remove(it);
+      it = L.erase(it);
     }
     else it.Next();
   }
@@ -178,7 +178,7 @@ static void RemoveInList(const TopoDS_Shape&   S,
   TopTools_ListIteratorOfListOfShape it(L);
   while(it.More()) {
     if (it.Value().IsSame(S)) {
-      L.Remove(it);
+      it = L.erase(it);
       break;
     }
     it.Next();
@@ -195,7 +195,7 @@ Standard_Boolean BRepAlgo_AsDes::HasCommonDescendant(const TopoDS_Shape& S1,
 						       TopTools_ListOfShape& LC)
 const 
 {
-  LC.Clear();
+  LC.clear();
   if (HasDescendant (S1) && HasDescendant (S2)) {
     TopTools_ListIteratorOfListOfShape it1(Descendant(S1));
     for (; it1.More(); it1.Next()) {
@@ -204,12 +204,12 @@ const
       for (; it2.More(); it2.Next()) {
 	const TopoDS_Shape& ADS1 = it2.Value();
 	if (ADS1.IsSame(S2)) {
-	  LC.Append(DS1);
+	  LC.push_back(DS1);
 	}
       }
     }
   }
-  return (!LC.IsEmpty());
+  return (!LC.empty());
 } 
 
 //=======================================================================

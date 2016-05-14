@@ -163,7 +163,7 @@ BRepAlgoAPI_BooleanOperation::BRepAlgoAPI_BooleanOperation
 const TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::Modified(const TopoDS_Shape& aS) 
 {
   if (myBuilder==NULL) {
-    myGenerated.Clear();
+    myGenerated.clear();
     return myGenerated;
   }
   else {
@@ -327,7 +327,7 @@ const TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::Modified(const TopoDS_
 const  TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::SectionEdges()
 {
   if (myBuilder==NULL) {
-    myGenerated.Clear();
+    myGenerated.clear();
     return myGenerated;
   }
   //
@@ -336,7 +336,7 @@ const  TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::SectionEdges()
   //
   const BOPDS_PDS& pDS = myDSFiller->PDS();
   BOPDS_VectorOfInterfFF& aFFs=pDS->InterfFF();
-  myGenerated.Clear();
+  myGenerated.clear();
   //
   aNb=aFFs.Extent();
   for (i = 0; i < aNb; i++) {
@@ -353,7 +353,7 @@ const  TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::SectionEdges()
         const Handle(BOPDS_PaveBlock)& aPB = anIt.Value();
         nE = aPB->Edge();
         const TopoDS_Shape& aE = pDS->Shape(nE);
-        myGenerated.Append(aE);
+        myGenerated.push_back(aE);
       }
     }
   }
@@ -375,7 +375,7 @@ const  TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::SectionEdges()
 const TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::Generated(const TopoDS_Shape& S) 
 {
   if (myBuilder==NULL) {
-    myGenerated.Clear();
+    myGenerated.clear();
     return myGenerated;
   }
   //
@@ -477,7 +477,7 @@ Standard_Boolean BRepAlgoAPI_BooleanOperation::HasDeleted() const
 const TopTools_ListOfShape& 
   BRepAlgoAPI_BooleanOperation::RefinedList(const TopTools_ListOfShape& theL) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   TopTools_MapOfShape aMap;
 
   TopTools_ListIteratorOfListOfShape anIter(theL);
@@ -489,23 +489,23 @@ const TopTools_ListOfShape&
       if(myEdgeMap.IsBound(anS)) {
         const TopoDS_Shape& aNewEdge = myEdgeMap.Find(anS);
         if(aMap.Add(aNewEdge)) {
-          myGenerated.Append(aNewEdge);
+          myGenerated.push_back(aNewEdge);
         }
       }
       else {
-        myGenerated.Append(anS);
+        myGenerated.push_back(anS);
       }
     }
     else if (anS.ShapeType() == TopAbs_FACE) {
       if(myModifFaces.IsBound(anS)) {
-        myGenerated.Append(myModifFaces.Find(anS));
+        myGenerated.push_back(myModifFaces.Find(anS));
       }
       else {
-        myGenerated.Append(anS);
+        myGenerated.push_back(anS);
       }
     }
     else {
-      myGenerated.Append(anS);
+      myGenerated.push_back(anS);
     }
   }
 

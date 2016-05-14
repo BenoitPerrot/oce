@@ -307,9 +307,9 @@ Standard_EXPORT void FUN_resolveFUNKNOWN
       isEEsp = los1.IsSplit();
       if (isEEsp) {
 	const TopTools_ListOfShape& los = los1.ListOnState();
-	Standard_Integer n = los.Extent();
+	Standard_Integer n = los.size();
 	if ( n ) {
-	  EEsp = TopoDS::Edge(los.First());
+	  EEsp = TopoDS::Edge(los.front());
 	  if (!EEsp.IsSame(EE)) isEEGB = Standard_False;
           if (n > 1) {
             // MSV: treat the case of multiple splits:

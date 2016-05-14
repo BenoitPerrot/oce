@@ -148,7 +148,7 @@ Standard_Boolean TopOpeBRepTool_CORRISO::Init(const TopoDS_Shape& S)
 #endif
 
   myERep2d.Clear();
-  myEds.Clear();
+  myEds.clear();
   myVEds.Clear();
 
   if (S.IsNull()) return Standard_False;
@@ -166,7 +166,7 @@ Standard_Boolean TopOpeBRepTool_CORRISO::Init(const TopoDS_Shape& S)
 #endif
 
     // myEds :
-    myEds.Append(E);
+    myEds.push_back(E);
 
     // myERep2d :
 //    Standard_Real f,l,tol; Handle(Geom2d_Curve) PC = FC2D_CurveOnSurface(E,myFref,f,l,tol);
@@ -190,8 +190,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::Init(const TopoDS_Shape& S)
       #endif
 #endif
       Standard_Boolean isb = myVEds.IsBound(v);
-      if (isb) myVEds.ChangeFind(v).Append(E);
-      else     {TopTools_ListOfShape loe; loe.Append(E); myVEds.Bind(v,loe);}
+      if (isb) myVEds.ChangeFind(v).push_back(E);
+      else     {TopTools_ListOfShape loe; loe.push_back(E); myVEds.Bind(v,loe);}
     }//exv
   }
   return Standard_True;
@@ -318,7 +318,7 @@ static Standard_Real FUN_getx(const TopoDS_Edge& ,
 
 Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfShape& ClEds, TopTools_ListOfShape& fyClEds) const
 {
-  fyClEds.Clear();
+  fyClEds.clear();
 #ifdef OCCT_DEBUG
   Standard_Boolean trc = TopOpeBRepTool_GettraceCORRISO();
   if (trc) cout<<"* PurgeFyClosingE"<<endl;
@@ -381,7 +381,7 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
 
     Standard_Integer ivf = itm.Value();
     if (ivf == 3) {
-      fyClEds.Append(cE); 
+      fyClEds.push_back(cE); 
       return Standard_True;
     }
   }
@@ -435,12 +435,12 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
 	if (inff) {xinf = xi; infdef = vifaulty;}
 	if (supl) {xsup = xi; supdef = vifaulty;}
       }      
-      fyClEds.Append(cE);
+      fyClEds.push_back(cE);
     }//itm
     Standard_Boolean toremove = infdef && supdef; // ie infx,supx are not "uv-connexed"
-    if (!toremove) fyClEds.Clear();
+    if (!toremove) fyClEds.clear();
   }
-  if (!fyClEds.IsEmpty()) return Standard_True; // keeping only one closing edge
+  if (!fyClEds.empty()) return Standard_True; // keeping only one closing edge
 
   //* the 2 closing edges have they 2drep "confunded"
   itce.Initialize(ClEds);
@@ -580,9 +580,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
       {if (isfycE) cout<<"-> faulty edge"<<endl; 
        else        cout<<"-> valid edge"<<endl;}
 #endif 
-    if (isfycE) fyClEds.Append(cE);
+    if (isfycE) fyClEds.push_back(cE);
   }//itce
-  return (!fyClEds.IsEmpty());
+  return (!fyClEds.empty());
 }
 
 #define SPLITEDGE (0)
@@ -1012,15 +1012,15 @@ Standard_Boolean TopOpeBRepTool_CORRISO::AddNewConnexity(const TopoDS_Vertex& ,
   }
 
   // <myEds> : 
-  if (!isb) myEds.Append(E);
+  if (!isb) myEds.push_back(E);
 
   // <myVEds> :
   TopExp_Explorer exv(E, TopAbs_VERTEX);
   for (; exv.More(); exv.Next()){
     const TopoDS_Vertex& v = TopoDS::Vertex(exv.Current()); 
     Standard_Boolean isbb = myVEds.IsBound(v);
-    if (isbb) myVEds.ChangeFind(v).Append(E);
-    else      {TopTools_ListOfShape loe; loe.Append(E); myVEds.Bind(v,loe);}
+    if (isbb) myVEds.ChangeFind(v).push_back(E);
+    else      {TopTools_ListOfShape loe; loe.push_back(E); myVEds.Bind(v,loe);}
   }//exv
   return Standard_True;
   
@@ -1043,7 +1043,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::RemoveOldConnexity(const TopoDS_Vertex&
   if (isb) {
     TopTools_ListIteratorOfListOfShape it(myEds);
     while (it.More()) {
-      if (it.Value().IsEqual(E)) {myEds.Remove(it);break;}
+      if (it.Value().IsEqual(E)) {
+	it = myEds.erase(it);
+	break;}
       else                       it.Next();
     }
   }
@@ -1058,7 +1060,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::RemoveOldConnexity(const TopoDS_Vertex&
     TopTools_ListOfShape& loe = myVEds.ChangeFind(v);
     TopTools_ListIteratorOfListOfShape ite(loe);
     while (ite.More()) {
-      if (ite.Value().IsEqual(E)) {done = Standard_True; loe.Remove(ite);break;}
+      if (ite.Value().IsEqual(E)) {done = Standard_True;
+	ite = loe.erase(ite);
+	break;}
       else                         ite.Next();
     }
   }//exv

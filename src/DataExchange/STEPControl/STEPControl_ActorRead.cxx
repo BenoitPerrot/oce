@@ -1783,7 +1783,7 @@ TopoDS_Shell STEPControl_ActorRead::closeIDEASShell(const TopoDS_Shell& shell,
       TopoDS_Face currentFace = TopoDS::Face( faceExp.Current() ); 
       brepBuilder.Add(result, currentFace);
       // Store each added closing face for subsequent processing
-      closingFaces.Append(currentFace);
+      closingFaces.push_back(currentFace);
     }
   }
 
@@ -1839,10 +1839,10 @@ void STEPControl_ActorRead::computeIDEASClosings(const TopoDS_Compound& comp,
       // Check whether ShellB is non-manifold and adjacent to ShellA.
       // If so, ShellA has a chance to be closed with ShellB
       if ( myNMTool.IsSuspectedAsClosing(shellA, shellB) )
-        closingShells.Append(shellB);
+        closingShells.push_back(shellB);
     }
       
-    if ( !closingShells.IsEmpty() )
+    if ( !closingShells.empty() )
       shellClosingsMap.Add(shellA, closingShells);
   }
 

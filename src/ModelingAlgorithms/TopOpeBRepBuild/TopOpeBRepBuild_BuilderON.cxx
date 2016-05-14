@@ -156,7 +156,7 @@ Standard_Boolean TopOpeBRepBuild_BuilderON::GFillONCheckI(const Handle(TopOpeBRe
   if ( !keep ) return Standard_False;
 
   const TopTools_ListOfShape& lEspON=myPB->Splits(EG,TopAbs_ON);
-  if (lEspON.Extent() == 0) return Standard_False;
+  if (lEspON.size() == 0) return Standard_False;
 
 #ifdef OCCT_DEBUG
 //  const TopoDS_Shape& EspON=lEspON.First();
@@ -438,7 +438,7 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
   Standard_Integer ie3d = 0; TopAbs_Orientation oe3d = TopAbs_EXTERNAL;
   Standard_Integer ie2d = 0; TopAbs_Orientation oe2d = TopAbs_EXTERNAL;
   TopTools_ListOfShape lfcx; FDSCNX_FaceEdgeConnexFaces(FS,EG,HDS,lfcx);
-  Standard_Integer nlfcx=lfcx.Extent();
+  Standard_Integer nlfcx=lfcx.size();
 
   Standard_Boolean hsdFOR = HDS->HasSameDomain(FOR);
   TopOpeBRepDS_Config cFOR = TopOpeBRepDS_UNSHGEOMETRY;
@@ -1003,7 +1003,7 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
   } // yapc3
 
   if (nlfcx == 0) return;
-  const TopoDS_Face& FCX=TopoDS::Face(lfcx.First()); Standard_Integer iFCX=BDS.Shape(FCX);
+  const TopoDS_Face& FCX=TopoDS::Face(lfcx.front()); Standard_Integer iFCX=BDS.Shape(FCX);
   
   // faces samedomain de FCX
   TopTools_ListOfShape LFSO,LFDO,LFSO1,LFDO1,LFSO2,LFDO2;
@@ -1173,7 +1173,7 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
     // staFOR : etat demande sur FOR
     Standard_Boolean b3de3 = Standard_False; Standard_Boolean b2de3 = Standard_False;
 
-    const TopoDS_Edge& e3 = TopoDS::Edge(le3.First()); Standard_Integer ie3 = BDS.Shape(e3);    
+    const TopoDS_Edge& e3 = TopoDS::Edge(le3.front()); Standard_Integer ie3 = BDS.Shape(e3);    
     Standard_Boolean ssif = Standard_False; Handle(TopOpeBRepDS_ShapeShapeInterference) ssie3;
     for (auto x : BDS.ShapeInterferences(FCX)) {
       const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
@@ -1547,11 +1547,11 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 	// xpu090299 (JAP60247, FOR6,FCX33,EG34)
 	const TopoDS_Edge& Esd = TopoDS::Edge(BDS.Shape(Iesd));
 	TopTools_ListOfShape lfor; FDSCNX_FaceEdgeConnexFaces(FOR,Esd,HDS,lfor);
-	Standard_Integer nfor = lfor.Extent(); 
+	Standard_Integer nfor = lfor.size(); 
 	if (nfor < 1) b = shareG; //Esd is FOR's closing edge
 	else if (nfor > 1) return;//NYIRaise (unvalid shape)
 	else {
-	  const TopoDS_Face& FF = TopoDS::Face(lfor.First());
+	  const TopoDS_Face& FF = TopoDS::Face(lfor.front());
 	  Standard_Real tola1 = Precision::Angular()*1.e2;//nyitolxpu
 	  Standard_Real parEG; Standard_Boolean ok1 = FUN_tool_parE(eON,parON,EG,parEG,tolEG);
 	  if (!ok1) return;
@@ -1627,10 +1627,10 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 	    // ntOOFOR :
 	    const TopoDS_Edge& Esd = TopoDS::Edge(BDS.Shape(Iesd)); // rkEsd=rkFOR
 	    TopTools_ListOfShape lfcFk; FDSCNX_FaceEdgeConnexFaces(FOR,Esd,HDS,lfcFk);
-	    if (lfcFk.Extent() != 1) return; // shape bizarre
+	    if (lfcFk.size() != 1) return; // shape bizarre
 	    Standard_Real parEsd; ok = FUN_tool_parE(eON,parON,Esd,parEsd,tolEG);
 	    if (!ok) return;
-	    const TopoDS_Face& OOFOR = TopoDS::Face(lfcFk.First());
+	    const TopoDS_Face& OOFOR = TopoDS::Face(lfcFk.front());
 	    gp_Pnt2d uv; Standard_Real dummy=0; 
 	    ok = FUN_tool_paronEF(Esd,parEsd,OOFOR,uv,dummy); //rkEsd=rkOOFOR
 	    gp_Vec ntOOFOR = FUN_tool_nggeomF(uv,OOFOR);
@@ -1709,7 +1709,7 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 	const TopoDS_Shape& ee = ex.Current();
 	if (!BDS.HasShape(ee)) continue;
 	Standard_Boolean issp = myPB->IsSplit(ee,TopAbs_IN);
-	if (issp) addtwice = !myPB->Splits(ee,TopAbs_IN).IsEmpty();
+	if (issp) addtwice = !myPB->Splits(ee,TopAbs_IN).empty();
 	if (addtwice) break;
       }
     }

@@ -70,14 +70,14 @@ static void FDS_sortGb(const Handle(TopOpeBRepDS_HDataStructure)& HDS,const TopO
 #define CLOSING  (5)
 Standard_Integer TopOpeBRepDS_TOOL::EShareG(const Handle(TopOpeBRepDS_HDataStructure)& HDS,const TopoDS_Edge& E,TopTools_ListOfShape& lEsd)
 {
-  lEsd.Clear();
+  lEsd.clear();
   Standard_Boolean dgE = BRep_Tool::Degenerated(E);
   if (dgE) {
     Standard_Boolean hsd = HDS->HasSameDomain(E);
     if (!hsd) return 0;
     TopTools_ListIteratorOfListOfShape itsd(HDS->SameDomain(E));
-    for (; itsd.More(); itsd.Next()) lEsd.Append(itsd.Value());
-    return lEsd.Extent();
+    for (; itsd.More(); itsd.Next()) lEsd.push_back(itsd.Value());
+    return lEsd.size();
   }
 
   const TopOpeBRepDS_DataStructure& BDS = HDS->DS();
@@ -126,8 +126,8 @@ Standard_Integer TopOpeBRepDS_TOOL::EShareG(const Handle(TopOpeBRepDS_HDataStruc
     if (dot > 0.)      mapesd.Add(Esd);  
   }
   TopTools_MapIteratorOfMapOfShape itm(mapesd);
-  for (; itm.More(); itm.Next()) lEsd.Append(itm.Key());
-  return (lEsd.Extent());
+  for (; itm.More(); itm.Next()) lEsd.push_back(itm.Key());
+  return (lEsd.size());
 }
 
 
@@ -210,7 +210,7 @@ Standard_Boolean TopOpeBRepDS_TOOL::ShareSplitON(const Handle(TopOpeBRepDS_HData
   Standard_Boolean issp = los1.IsSplit();
   if (!issp) return Standard_False;
   const TopTools_ListOfShape& lsp1 = los1.ListOnState();
-  Standard_Integer nsp1 = lsp1.Extent();
+  Standard_Integer nsp1 = lsp1.size();
   if (nsp1 == 0) return Standard_False;
   TopTools_MapOfShape mesp1; // map of splits on of <s1>
   TopTools_ListIteratorOfListOfShape it(lsp1);
@@ -220,7 +220,7 @@ Standard_Boolean TopOpeBRepDS_TOOL::ShareSplitON(const Handle(TopOpeBRepDS_HData
   Standard_Boolean issp2 = los2.IsSplit();
   if (!issp2) return Standard_False;
   const TopTools_ListOfShape& lsp2 = los2.ListOnState();
-  Standard_Integer nsp2 = lsp2.Extent();
+  Standard_Integer nsp2 = lsp2.size();
   if (nsp2 == 0) return Standard_False;  
 
   it.Initialize(lsp2);

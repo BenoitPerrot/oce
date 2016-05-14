@@ -335,7 +335,7 @@ void TopOpeBRepBuild_Builder1::GFillFaceNotSameDomSFS(const TopoDS_Shape& FOR,
   if (myProcessON) {
     Standard_Boolean toRevOri = Opefus();
     for (it.Initialize(WES.StartElements()); it.More(); it.Next())
-      anEdgesON.Append(toRevOri ? it.Value().Reversed() : it.Value());
+      anEdgesON.push_back(toRevOri ? it.Value().Reversed() : it.Value());
     myONElemMap.Clear();
   }
 
@@ -345,7 +345,7 @@ void TopOpeBRepBuild_Builder1::GFillFaceNotSameDomSFS(const TopoDS_Shape& FOR,
   // add edges built on curves supported by FF
   GFillCurveTopologyWES(FF,G1,WES);
 
-  myEdgeAvoid.Clear();
+  myEdgeAvoid.clear();
 
   // mark FF as split TB1
   MarkSplit(FF,TB1);
@@ -354,7 +354,7 @@ void TopOpeBRepBuild_Builder1::GFillFaceNotSameDomSFS(const TopoDS_Shape& FOR,
   TopTools_ListOfShape LOF;
   GWESMakeFaces(FF,WES,LOF);
 
-  if (myProcessON && (!anEdgesON.IsEmpty() || !myONElemMap.IsEmpty())) {
+  if (myProcessON && (!anEdgesON.empty() || !myONElemMap.IsEmpty())) {
     // try to make patches with only ON parts.
     // prepare the map of used edges to not take the same matter two times
     TopTools_IndexedMapOfOrientedShape aMapOE;
@@ -368,7 +368,7 @@ void TopOpeBRepBuild_Builder1::GFillFaceNotSameDomSFS(const TopoDS_Shape& FOR,
 
   // LOFS : LOF faces located TB1 / LSclass = split faces of state TB1 of FF
   TopTools_ListOfShape& LOFS = ChangeSplit(FF,TB1);
-  LOFS.Clear();
+  LOFS.clear();
   GKeepShapes(FF,myEmptyShapeList,TB1,LOF,LOFS);
 
   GSplitFaceSFS(FOR, LSO2, Gin, SFS); 
@@ -538,7 +538,7 @@ void TopOpeBRepBuild_Builder1::GFillFaceSameDomSFS(const TopoDS_Shape& FOR,
   // split the edges of FF : add split edges to WES
   GFillFaceSameDomWES(FOR,LSO2,G1,WES);
 
-  myEdgeAvoid.Clear();
+  myEdgeAvoid.clear();
 
   // mark FF as split TB1
   MarkSplit(FF,TB1);
@@ -571,11 +571,11 @@ void TopOpeBRepBuild_Builder1::GFillFaceSameDomSFS(const TopoDS_Shape& FOR,
     if(rev)
       aFace.Reverse();
 
-    oriLOF.Append(aFace);
+    oriLOF.push_back(aFace);
     SFS.AddStartElement(aFace);
   }
 
-  LOFS.Clear();
+  LOFS.clear();
   GKeepShapes(FF,myEmptyShapeList,TB1,oriLOF,LOFS);  
 } // GFillFaceSFS
 
@@ -868,8 +868,8 @@ void TopOpeBRepBuild_Builder1::GFillEdgeSameDomWES(const TopoDS_Shape& EOR,
     TopoDS_Shape aSDShape;
     TopAbs_State aState = TopAbs_UNKNOWN;
     
-    if(LSclass.Extent() == 1) {
-      aSDShape = LSclass.First();
+    if(LSclass.size() == 1) {
+      aSDShape = LSclass.front();
       aState = ClassifyEdgeToFaceByOnePoint(aSplitPart, TopoDS::Face(aSDShape));
     }
     else { //if face has more than one same domain faces we need to detect for each part complement same domain face
@@ -899,14 +899,14 @@ void TopOpeBRepBuild_Builder1::GFillEdgeSameDomWES(const TopoDS_Shape& EOR,
       Standard_Boolean keep = Standard_False;
       
       if(aSDShape.IsNull()) {
-	aSDShape = LSclass.First();
+	aSDShape = LSclass.front();
       }
       
       //compute adjacents
       TopoDS_Shape aAdjSDFace;
       const TopTools_ListOfShape& aFEL = myMapOfEdgeFaces.FindFromKey(EOR);
       TopTools_ListIteratorOfListOfShape aEFIt(aFEL);
-      if(aFEL.Extent() <= 2) { //we don't compute adjacent if we have more than one adjacent face
+      if(aFEL.size() <= 2) { //we don't compute adjacent if we have more than one adjacent face
 	for(; aEFIt.More(); aEFIt.Next()) {
 	  if(mySDFaceToFill.IsSame(aEFIt.Value()))
 	    continue;
@@ -1063,7 +1063,7 @@ void TopOpeBRepBuild_Builder1::PerformONParts(const TopoDS_Shape& FOR1,
 
     //take ON splits of the edge
     const TopTools_ListOfShape& splON = myDataStructure -> DS().GetShapeWithState(EG).Part(TopAbs_ON);
-    if(!splON.Extent())
+    if(!splON.size())
       continue;
 
     const TopOpeBRepDS_Transition& aTr = SSI -> Transition();
@@ -1205,13 +1205,13 @@ void TopOpeBRepBuild_Builder1::GWESMakeFaces(const TopoDS_Shape& FF,
       const TopoDS_Shape& ff = aLOFit.Value();
       TopoDS_Shape corrFF;
       TopOpeBRepBuild_Tools::NormalizeFace(ff, corrFF);
-      corrLOF.Append(corrFF);
+      corrLOF.push_back(corrFF);
     }
   }
   else
     corrLOF.Assign(LOF);
 
-  LOF.Clear(); LOF.Assign(corrLOF);
+  LOF.clear(); LOF.Assign(corrLOF);
 
   //corect face2d
   aLOFit.Initialize(corrLOF);
@@ -1220,10 +1220,10 @@ void TopOpeBRepBuild_Builder1::GWESMakeFaces(const TopoDS_Shape& FF,
     const TopoDS_Shape& ff = aLOFit.Value();
     TopoDS_Shape corrFF;
     TopOpeBRepBuild_Tools::CorrectFace2d(ff, corrFF, mySourceShapes, myMapOfCorrect2dEdges);
-    corrLOF1.Append(corrFF);
+    corrLOF1.push_back(corrFF);
   }
 
-  LOF.Clear(); LOF.Assign(corrLOF1);
+  LOF.clear(); LOF.Assign(corrLOF1);
 }
 
 //=======================================================================
@@ -1272,7 +1272,7 @@ void TopOpeBRepBuild_Builder1::PerformPieceIn2D(const TopoDS_Edge& EdgeToPerform
   Standard_Real scalarPr = 0.;
 
   /// Why ????? Need to be checked
-  if(aFEL.Extent() <= 2) { //we don't compute adjacent if we have more than one adjacent face
+  if(aFEL.size() <= 2) { //we don't compute adjacent if we have more than one adjacent face
     for(; aEFIt.More(); aEFIt.Next()) {
       if(edgeFace.IsSame(aEFIt.Value()))
 	continue;
@@ -1410,10 +1410,10 @@ Standard_Integer TopOpeBRepBuild_Builder1::PerformPieceOn2D (const TopoDS_Shape&
   //this case dedicated for the computation then edge has sim (F and R at one time) SD edge 
   if ( flag>1 ) {
     if ( aCasesMap.Contains(14) && aCasesMap.Contains(12) && Opefus() )
-      aListOfPieces.Clear();
+      aListOfPieces.clear();
     // eap 30 May occ417, add :
     if ( aCasesMap.Contains(11) && aCasesMap.Contains(13) && (Opec12() || Opec21()) )
-      aListOfPieces.Clear();
+      aListOfPieces.clear();
   }
   return flag; //Ok
 }
@@ -1571,8 +1571,8 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
 	Standard_Boolean poisc = BRep_Tool::IsClosed(anEdgeObj,aFObj);
 	if(!poisc)
 	  {
-	    aListOfPieces.Append (aPieceObj);
-	    aListOfFaces.Append (aFaceObj);
+	    aListOfPieces.push_back (aPieceObj);
+	    aListOfFaces.push_back (aFaceObj);
 	  }
       }
       return 11; 
@@ -1581,8 +1581,8 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
     // case b.  No!=Nt , To!=Tt
     if (IsEdgesRevSense && IsFacesDifOriented) {
       if (Opec12()) {
-	aListOfPieces.Append (aPieceObj);
-	aListOfFaces.Append (aFaceObj);
+	aListOfPieces.push_back (aPieceObj);
+	aListOfFaces.push_back (aFaceObj);
       }
       if(!anAd1 || !anAd2)
 	return 12;
@@ -1597,19 +1597,19 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
       if(anAd1 && anAd2) {
 	if(!Opecom()) {
 	  if(!aScPrFlag2) {
-	    aListOfPieces.Append (aPieceObj);
-	    aListOfFaces.Append (aFaceObj);
+	    aListOfPieces.push_back (aPieceObj);
+	    aListOfFaces.push_back (aFaceObj);
 	  }
 	  if(!aScPrFlag1) {
-	    aListOfPieces.Append (aPieceTool);
-	    aListOfFaces.Append (aFaceTool);
+	    aListOfPieces.push_back (aPieceTool);
+	    aListOfFaces.push_back (aFaceTool);
 	  }
 	}
       }
       else {
 	if(Opefus()) {
-	  aListOfPieces.Append (aPieceObj);
-	  aListOfFaces.Append (aFaceObj);
+	  aListOfPieces.push_back (aPieceObj);
+	  aListOfFaces.push_back (aFaceObj);
 	}
 	//End modified by NIZHNY-MZV  Mon Jan 24 11:21:17 2000
       }
@@ -1623,19 +1623,19 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
       if(anAd1 && anAd2) {
 	if(!Opecom()) {
 	  if(!aScPrFlag2) {
-	    aListOfPieces.Append (aPieceObj);
-	    aListOfFaces.Append (aFaceObj);
+	    aListOfPieces.push_back (aPieceObj);
+	    aListOfFaces.push_back (aFaceObj);
 	  }
 	  if(!aScPrFlag1) {
-	    aListOfPieces.Append (aPieceTool);
-	    aListOfFaces.Append (aFaceTool);
+	    aListOfPieces.push_back (aPieceTool);
+	    aListOfFaces.push_back (aFaceTool);
 	  }
 	}
       }
       else {
 	if(Opefus()) {
-	  aListOfPieces.Append (aPieceObj);
-	  aListOfFaces.Append (aFaceObj);
+	  aListOfPieces.push_back (aPieceObj);
+	  aListOfFaces.push_back (aFaceObj);
 	}
       }
       if(!anAd1 || !anAd2) 
@@ -1658,8 +1658,8 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
     //  case I  RevSense && DifOriented    
     if (IsEdgesRevSense && IsFacesDifOriented) {
       if (Opec12())       {
-	aListOfPieces.Append (aPieceObj);
-	aListOfFaces.Append (aFaceObj);
+	aListOfPieces.push_back (aPieceObj);
+	aListOfFaces.push_back (aFaceObj);
       }
       return 1;
     }
@@ -1667,8 +1667,8 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
     //  case III SameSense && !DifOriented      
     if (!IsEdgesRevSense && !IsFacesDifOriented) {
       if (!Opec12())  {
-	aListOfPieces.Append (aPieceObj);
-	aListOfFaces.Append (aFaceObj);
+	aListOfPieces.push_back (aPieceObj);
+	aListOfFaces.push_back (aFaceObj);
       }
       return 3;
     }
@@ -1719,12 +1719,12 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
 	}
       }
       if (!Rejected1) {
-	aListOfPieces.Append(aPieceObj);
-	aListOfFaces.Append (aFaceObj);
+	aListOfPieces.push_back(aPieceObj);
+	aListOfFaces.push_back (aFaceObj);
       }
       if (!Rejected2) {
-	aListOfPieces.Append(aPieceTool);
-	aListOfFaces.Append (aFaceTool);
+	aListOfPieces.push_back(aPieceTool);
+	aListOfFaces.push_back (aFaceTool);
       }
       return 2;
     }
@@ -1772,12 +1772,12 @@ Standard_Integer TopOpeBRepBuild_Builder1::TwoPiecesON (const TopTools_SequenceO
         }
       }
       if (!Rejected1) {
-        aListOfPieces.Append(aPieceObj);
-        aListOfFaces.Append (aFaceObj);
+        aListOfPieces.push_back(aPieceObj);
+        aListOfFaces.push_back (aFaceObj);
       }
       if (!Rejected2) {
-        aListOfPieces.Append(aPieceTool); 
-        aListOfFaces.Append (aFaceTool);
+        aListOfPieces.push_back(aPieceTool); 
+        aListOfFaces.push_back (aFaceTool);
       }
       return 4;
     }
@@ -1870,7 +1870,7 @@ Standard_Integer TopOpeBRepBuild_Builder1::IsSame2d (const TopTools_SequenceOfSh
     else
       BB.UpdateEdge(aPTool ,C2DPieceTool, aTrC2D, aFObj , tolE);
 
-    aListOfPiecesOut2d.Append (aPTool);
+    aListOfPiecesOut2d.push_back (aPTool);
     return 0;
   }
 

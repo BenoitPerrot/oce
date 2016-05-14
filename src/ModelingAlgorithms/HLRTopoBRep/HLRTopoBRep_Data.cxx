@@ -68,7 +68,7 @@ Standard_Boolean
 HLRTopoBRep_Data::EdgeHasSplE (const TopoDS_Edge& E) const 
 {
   if (!mySplE.IsBound(E)) return Standard_False;
-  return !mySplE(E).IsEmpty();
+  return !mySplE(E).empty();
 }
 
 //=======================================================================
@@ -80,7 +80,7 @@ Standard_Boolean
 HLRTopoBRep_Data::FaceHasIntL (const TopoDS_Face& F) const 
 {
   if (!myData.IsBound(F)) return Standard_False;
-  return !myData(F).FaceIntL().IsEmpty();
+  return !myData(F).FaceIntL().empty();
 }
 
 //=======================================================================
@@ -92,7 +92,7 @@ Standard_Boolean
 HLRTopoBRep_Data::FaceHasOutL (const TopoDS_Face& F) const 
 {
   if (!myData.IsBound(F)) return Standard_False;
-  return !myData(F).FaceOutL().IsEmpty();
+  return !myData(F).FaceOutL().empty();
 }
 
 //=======================================================================
@@ -104,7 +104,7 @@ Standard_Boolean
 HLRTopoBRep_Data::FaceHasIsoL (const TopoDS_Face& F) const 
 {
   if (!myData.IsBound(F)) return Standard_False;
-  return !myData(F).FaceIsoL().IsEmpty();
+  return !myData(F).FaceIsoL().empty();
 }
 
 //=======================================================================

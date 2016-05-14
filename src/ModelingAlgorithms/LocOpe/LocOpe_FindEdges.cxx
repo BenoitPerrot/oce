@@ -51,8 +51,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 {
   myFFrom = FFrom;
   myFTo = FTo;
-  myLFrom.Clear();
-  myLTo.Clear();
+  myLFrom.clear();
+  myLTo.clear();
 
 
   TopExp_Explorer expf,expt;
@@ -109,8 +109,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 	  if (pt.SquareDistance(p1) <= Tol) {
 	    pt =  ElCLib::Value(prm2,lit);
 	    if (pt.SquareDistance(p2) <= Tol) {
-	      myLFrom.Append(edgf);
-	      myLTo.Append(edgt);
+	      myLFrom.push_back(edgf);
+	      myLTo.push_back(edgt);
 	      break;
 	    }
 	  }
@@ -151,8 +151,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 
 	  if (prm1 >= ft-Tol && prm1 <= lt+Tol &&
 	      prm2 >= ft-Tol && prm2 <= lt+Tol) {
-	    myLFrom.Append(edgf);
-	    myLTo.Append(edgt);
+	    myLFrom.push_back(edgf);
+	    myLTo.push_back(edgt);
 	    break;
 	  }
 	  else {
@@ -203,8 +203,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 
 	  if (prm1 >= ft-Tol && prm1 <= lt+Tol &&
 	      prm2 >= ft-Tol && prm2 <= lt+Tol) {
-	    myLFrom.Append(edgf);
-	    myLTo.Append(edgt);
+	    myLFrom.push_back(edgf);
+	    myLTo.push_back(edgt);
 	    break;
 	  }
 	  else {
@@ -295,8 +295,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 #ifdef OCCT_DEBUG
 		cout <<"memes bsplines."<< endl;
 #endif
-		myLFrom.Append(edgf);
-		myLTo.Append(edgt);
+		myLFrom.push_back(edgf);
+		myLTo.push_back(edgt);
 		break;
 	      }
 	    }
@@ -355,8 +355,8 @@ void LocOpe_FindEdges::Set(const TopoDS_Shape& FFrom,
 #ifdef OCCT_DEBUG
 	      cout <<"memes beziers."<< endl;
 #endif
-	      myLFrom.Append(edgf);
-	      myLTo.Append(edgt);
+	      myLFrom.push_back(edgf);
+	      myLTo.push_back(edgt);
 	      break;
 	    }
 	  }

@@ -87,7 +87,7 @@ void BRepOffsetAPI_MakeOffsetShape::Build()
 const TopTools_ListOfShape& BRepOffsetAPI_MakeOffsetShape::Generated (const TopoDS_Shape& S) 
 
 {  
-  myGenerated.Clear();
+  myGenerated.clear();
   if (!myOffsetShape.ClosingFaces().Contains(S)) {
     myOffsetShape.OffsetFacesFromShapes ().LastImage (S, myGenerated);
    
@@ -113,12 +113,12 @@ const TopTools_ListOfShape& BRepOffsetAPI_MakeOffsetShape::Generated (const Topo
 const TopTools_ListOfShape& BRepOffsetAPI_MakeOffsetShape::GeneratedEdge (const TopoDS_Shape& S) 
 
 {  
-  myGenerated.Clear();
+  myGenerated.clear();
   myOffsetShape.OffsetEdgesFromShapes ().LastImage (S, myGenerated);
 
-  if (!myGenerated.IsEmpty()) {
-    if (S.IsSame(myGenerated.First()))
-      myGenerated.RemoveFirst();
+  if (!myGenerated.empty()) {
+    if (S.IsSame(myGenerated.front()))
+      myGenerated.pop_front();
   }
 
   return myGenerated;

@@ -4801,7 +4801,7 @@ static Standard_Integer TDraft(Draw_Interpretor& di, Standard_Integer argc, cons
     return 1;
   }
   TopTools_ListOfShape Larg;
-  Larg.Append(Solid);
+  Larg.push_back(Solid);
   if (!IsValid(Larg,Draft.Shape(),Standard_True,Standard_False)) {
     di << "TEST : DesignAlgo returns Not valid" << "\n";
     return 1;

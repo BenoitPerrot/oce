@@ -82,7 +82,7 @@ BRepBuilderAPI_MakeShape::operator TopoDS_Shape() const
 const TopTools_ListOfShape& BRepBuilderAPI_MakeShape::Generated (const TopoDS_Shape&) 
 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   return myGenerated;
 }
 
@@ -95,7 +95,7 @@ const TopTools_ListOfShape& BRepBuilderAPI_MakeShape::Generated (const TopoDS_Sh
 const TopTools_ListOfShape& BRepBuilderAPI_MakeShape::Modified (const TopoDS_Shape&) 
 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   return myGenerated;
 }
 

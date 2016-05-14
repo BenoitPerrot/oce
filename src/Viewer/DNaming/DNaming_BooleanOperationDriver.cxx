@@ -243,24 +243,24 @@ static Standard_Boolean IsWRCase(const BRepAlgoAPI_BooleanOperation& MS) {
     TopExp_Explorer anExp(ObjSh, TopAbs_FACE);
     for(;anExp.More();anExp.Next()) {
       if(IsValidSurfType(TopoDS::Face(anExp.Current())))
-        aList.Append(anExp.Current());
+        aList.push_back(anExp.Current());
     }
   } else
        if(IsValidSurfType(TopoDS::Face(ObjSh)))
-        aList.Append(ObjSh);
+        aList.push_back(ObjSh);
 
-  if(aList.Extent() == 0) {
+  if(aList.size() == 0) {
     if(Type2 != TopAbs_FACE) {
       TopExp_Explorer anExp(ToolSh, TopAbs_FACE);
       for(;anExp.More();anExp.Next()) {
         if(IsValidSurfType(TopoDS::Face(anExp.Current())))
-          aList.Append(anExp.Current());
+          aList.push_back(anExp.Current());
       }
     } else
       if(IsValidSurfType(TopoDS::Face(ToolSh)))
-        aList.Append(ToolSh);
+        aList.push_back(ToolSh);
   }
-  if(aList.Extent() > 0) return Standard_True;
+  if(aList.size() > 0) return Standard_True;
   return Standard_False;
 }
 
@@ -313,7 +313,7 @@ void DNaming_BooleanOperationDriver::LoadNamingDS (const TDF_Label& theResultLab
     const TopTools_ListOfShape& aList = MS.SectionEdges();
     Standard_Boolean theCase(Standard_False);
     TopTools_MapOfShape aView;
-    if(aList.Extent() > 0 && aList.Extent() < 3) 
+    if(aList.size() > 0 && aList.size() < 3) 
       theCase = Standard_True;
     
     TopTools_ListIteratorOfListOfShape it(aList);

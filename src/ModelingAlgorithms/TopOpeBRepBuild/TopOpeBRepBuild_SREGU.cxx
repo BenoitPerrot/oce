@@ -76,7 +76,7 @@ Standard_EXPORT void debreguso(const Standard_Integer iS) {cout<<"++ debreguso "
 void TopOpeBRepBuild_Builder::RegularizeSolids
 (const TopoDS_Shape& SO,const TopTools_ListOfShape& lnewSolid,TopTools_ListOfShape& LOSO)
 {
-  LOSO.Clear();
+  LOSO.clear();
   myMemoSplit.Clear();
 
   TopTools_ListIteratorOfListOfShape itl(lnewSolid);
@@ -121,13 +121,13 @@ void TopOpeBRepBuild_Builder::RegularizeSolids
       for (TopTools_ListIteratorOfListOfShape itl1(lspf);itl1.More();itl1.Next()) {
 	const TopoDS_Shape& fsp = itl1.Value();
 	Standard_Boolean fspmemo = myMemoSplit.Contains(fsp);
-	if (!fspmemo) newlspf.Append(fsp);
+	if (!fspmemo) newlspf.push_back(fsp);
 	else {
 	  TopTools_ListOfShape& lspfsp = ChangeSplit(fsp,staf);
 	  GCopyList(lspfsp,newlspf);
 	}
       }
-      lspf.Clear();
+      lspf.clear();
       GCopyList(newlspf,lspf);
 
       //      if (staf == TopAbs_IN) { 
@@ -150,7 +150,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolids
 void TopOpeBRepBuild_Builder::RegularizeSolid
 (const TopoDS_Shape& SS,const TopoDS_Shape& anewSolid,TopTools_ListOfShape& LOSO)
 {
-  LOSO.Clear();
+  LOSO.clear();
   const TopoDS_Solid& newSolid = TopoDS::Solid(anewSolid);
   Standard_Boolean toregu = Standard_True;
   Standard_Boolean usestos = Standard_True;
@@ -164,7 +164,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
 #endif
   
   if (!toregu) {
-    LOSO.Append(newSolid);
+    LOSO.push_back(newSolid);
     return;
   }
   
@@ -176,7 +176,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
   rw = TopOpeBRepTool::RegularizeShells(newSolid,osns,myFSplits);
   
   if ( !rw ) {
-    LOSO.Append(newSolid);
+    LOSO.push_back(newSolid);
     return;
   }      
   
@@ -213,7 +213,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
       }
     }
     stos.MakeSolids(newSolid,newSolids);
-    rf = (newSolids.Extent() != 0);
+    rf = (newSolids.size() != 0);
   }
   else {
     rf = Standard_False;
@@ -221,7 +221,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
   }
   
   if (!rf) {
-    LOSO.Append(newSolid);
+    LOSO.push_back(newSolid);
     return;
   }
   
@@ -235,7 +235,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
   // LOSO = nouvelles Solids regularisees de newSolid
   TopTools_ListIteratorOfListOfShape itlnf(newSolids);
   for (; itlnf.More(); itlnf.Next()) 
-    LOSO.Append(TopoDS::Solid(itlnf.Value()));
+    LOSO.push_back(TopoDS::Solid(itlnf.Value()));
   
   // mise a jour des faces decoupees
   // Face(SS) = {E}, E-->Split(E) = {E'}, E'-->myFSplits(E') = {E''}

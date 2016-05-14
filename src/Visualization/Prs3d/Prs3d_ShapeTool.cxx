@@ -225,7 +225,7 @@ Bnd_Box Prs3d_ShapeTool::CurveBound () const
 Standard_Integer Prs3d_ShapeTool::Neighbours () const 
 {
   const TopTools_ListOfShape& L = myEdgeMap.FindFromIndex(myEdge);
-  return L.Extent();
+  return L.size();
 }
 
 //=======================================================================

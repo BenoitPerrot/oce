@@ -152,7 +152,7 @@ static void PrintSub(Standard_OStream& OS,
 	 res->NextShapeInContext()) {
       if (res->ContextualShape().IsSame(S) && 
 	  !Contains(theMap(sub),S)) {
-	theMap(sub).Append(S);
+	theMap(sub).push_back(S);
 	if (res->StatusOnShape().front() != BRepCheck_NoError) {
 	  if (!FindNamed(sub,Name)) {
 	    nbfaulty++;
@@ -374,7 +374,7 @@ static Standard_Integer checkdiff(Draw_Interpretor& di,
   
   TopTools_ListOfShape lesArgs;
   for (Standard_Integer id=1; id <=lastArg; id++) {
-    lesArgs.Append(DBRep::Get(a[id]));
+    lesArgs.push_back(DBRep::Get(a[id]));
   }
 
   if (BRepAlgo::IsValid(lesArgs, resu, closedSolid, geomCtrl)) {
@@ -510,7 +510,7 @@ static void GetProblemSub(const BRepCheck_Analyzer& Ana,
 	 res->NextShapeInContext()) {
       if (res->ContextualShape().IsSame(Shape) && 
 	  !Contains(theMap(sub),Shape)) {
-	theMap(sub).Append(Shape);
+	theMap(sub).push_back(Shape);
 
         auto s = res->StatusOnShape().front();
 	if (s != BRepCheck_NoError) {
@@ -1026,7 +1026,7 @@ static Standard_Integer shapeG1continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.Extent();
+  Standard_Integer nelem= lfac.size();
   if(nelem!=2) return 1; 
   TopTools_ListIteratorOfListOfShape It;
   It.Initialize(lfac);
@@ -1151,7 +1151,7 @@ static Standard_Integer shapeG0continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.Extent();
+  Standard_Integer nelem= lfac.size();
   if(nelem!=2) return 1; 
   TopTools_ListIteratorOfListOfShape It;
   It.Initialize(lfac);
@@ -1273,7 +1273,7 @@ static Standard_Integer shapeG2continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.Extent();
+  Standard_Integer nelem= lfac.size();
   if(nelem!=2) return 1; 
   TopTools_ListIteratorOfListOfShape It;
   It.Initialize(lfac);

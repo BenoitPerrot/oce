@@ -50,7 +50,7 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
   myError = BRepLib_WireDone;
   if (!myShape.IsNull()) myShape.Closed(Standard_False);
 
-  if (!L.IsEmpty()) {
+  if (!L.empty()) {
     NotDone();
     TopTools_MapOfShape mapLocale;
     mapLocale.Assign(myVertices);
@@ -64,8 +64,8 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
     for (;itList.More(); itList.Next()) {
       const TopoDS_Edge& curEd=TopoDS::Edge(itList.Value());
       if (!curEd.IsNull()) {
-	rlist.Clear();
-	nlist.Clear();
+	rlist.clear();
+	nlist.clear();
 	Standard_Boolean copEd=Standard_False;
 	if (myEdge.IsNull()) {
 	  Add(curEd);
@@ -76,8 +76,8 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 	}
 	for (exv.Init(curEd, TopAbs_VERTEX); exv.More(); exv.Next()) {
 	  const TopoDS_Vertex& edVer=TopoDS::Vertex(exv.Current());
-	  rlist.Prepend(edVer);
-	  nlist.Prepend(edVer);
+	  rlist.push_front(edVer);
+	  nlist.push_front(edVer);
 	  if (!mapLocale.Contains(edVer)) {
 	    Standard_Boolean notYetFound = Standard_True;
 	    Standard_Real gap=BRep_Tool::Tolerance(edVer);
@@ -87,8 +87,8 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 	      const TopoDS_Vertex& refVer=TopoDS::Vertex(itMS.Key());
 	      gap +=BRep_Tool::Tolerance(refVer);
 	      if (pVer.Distance(BRep_Tool::Pnt(TopoDS::Vertex(refVer))) <= gap) {
-		nlist.RemoveFirst();
-		nlist.Prepend(refVer.Oriented(edVer.Orientation()));
+		nlist.pop_front();
+		nlist.push_front(refVer.Oriented(edVer.Orientation()));
 		copEd=Standard_True;
 		notYetFound=Standard_False;
 		break;
@@ -106,17 +106,17 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 	  TopTools_ListIteratorOfListOfShape itV(nlist);
 	  for (; itV.More(); itV.Next()) {
 	    BB.Add(newEd, itV.Value());
-	    BB.Transfert(curEd, newEd, TopoDS::Vertex(rlist.First()), TopoDS::Vertex(itV.Value()));
-	    rlist.RemoveFirst();
+	    BB.Transfert(curEd, newEd, TopoDS::Vertex(rlist.front()), TopoDS::Vertex(itV.Value()));
+	    rlist.pop_front();
 	  }
-	  toAdd.Append(newEd);
+	  toAdd.push_back(newEd);
 	}
 	else {
-	  toAdd.Append(curEd);
+	  toAdd.push_back(curEd);
 	}
       }
     }
-    if (!toAdd.IsEmpty()) {
+    if (!toAdd.empty()) {
       TopoDS_Compound comp;
       BB.MakeCompound(comp);
       TopTools_MapIteratorOfMapOfOrientedShape itMOS;

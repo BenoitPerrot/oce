@@ -724,8 +724,8 @@ void BRepFill::Axe (const TopoDS_Shape&       Spine,
 
     const TopoDS_Vertex&        VonF = TopoDS::Vertex(SE.Current());
     const TopTools_ListOfShape& List = Map.FindFromKey(VonF);
-    const TopoDS_Edge&          E1   = TopoDS::Edge(List.First());
-    const TopoDS_Edge&          E2   = TopoDS::Edge(List. Last());
+    const TopoDS_Edge&          E1   = TopoDS::Edge(List.front());
+    const TopoDS_Edge&          E2   = TopoDS::Edge(List. back());
 
     Handle(Geom_Curve) CE1 = BRep_Tool::Curve(E1,L,f,l);
     Standard_Real Par1 = BRep_Tool::Parameter(VonF,E1,aFace);

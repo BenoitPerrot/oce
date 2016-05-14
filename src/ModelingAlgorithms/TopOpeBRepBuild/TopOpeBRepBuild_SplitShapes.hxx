@@ -67,7 +67,7 @@ void TopOpeBRepBuild_Builder::SplitShapes(TopOpeBRepTool_ShapeExplorer& Ex,
       //----------------------- IFV
       const TopTools_ListOfShape& LS = Splits(aShape,ToBuild1);
       //----------------------- IFV
-      if(t == TopAbs_EDGE && ToBuild1 == TopAbs_IN && LS.Extent() == 0) {
+      if(t == TopAbs_EDGE && ToBuild1 == TopAbs_IN && LS.size() == 0) {
 	const TopTools_ListOfShape& LSon = Splits(aShape,TopAbs_ON);
 	It.Initialize(LSon);
 	IsLSon = Standard_True;
@@ -85,7 +85,7 @@ void TopOpeBRepBuild_Builder::SplitShapes(TopOpeBRepTool_ShapeExplorer& Ex,
 	//----------------------- IFV
 	if(IsLSon) {
 	  Standard_Boolean add = Standard_True;
-	  if ( !myListOfFace.IsEmpty()) { // 2d pur
+	  if ( !myListOfFace.empty()) { // 2d pur
 	    add = KeepShape(newShape,myListOfFace,ToBuild1);
 	  }
 	  if(add) aSet.AddStartElement(newShape);
@@ -115,7 +115,7 @@ void TopOpeBRepBuild_Builder::SplitShapes(TopOpeBRepTool_ShapeExplorer& Ex,
       testkeep = testkeep || istouched;
 
       if (testkeep) { 
-	if ( !myListOfFace.IsEmpty()) { // 2d pur
+	if ( !myListOfFace.empty()) { // 2d pur
 	  Standard_Boolean keep = KeepShape(aShape,myListOfFace,ToBuild1);
 	  add = keep;
 	}

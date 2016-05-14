@@ -314,7 +314,7 @@ Standard_Boolean  TopOpeBRepDS_HDataStructure::HasSameDomain
 {
   if ( ! HasShape(S, FindKeep) ) return Standard_False;
   const TopTools_ListOfShape& l = myDS.ShapeSameDomain(S);
-  Standard_Boolean res = ! l.IsEmpty();
+  Standard_Boolean res = ! l.empty();
   return res;
 }
 

@@ -716,10 +716,10 @@ static void CreateNonManifoldShells(TopTools_SequenceOfShape& SeqShells,
       //if( aMapMultiConnectEdges.Contains(aExp.Current())) {
       if(medeg.Contains(ae)) {
         if(aMap.Contains(ae))
-         aMap.ChangeFromKey(ae).Append(aShell);
+         aMap.ChangeFromKey(ae).push_back(aShell);
         else {
           TopTools_ListOfShape al;
-          al.Append(aShell);
+          al.push_back(aShell);
           aMap.Add(ae,al);
         }
       }
@@ -892,7 +892,7 @@ Standard_Boolean ShapeFix_Shell::FixFaceOrientation(const TopoDS_Shell& shell,co
   TopTools_MapOfShape aMapMultiConnectEdges;
   Standard_Boolean isFreeBoundaries = Standard_False;
   for(Standard_Integer k = 1; k <= aMapEdgeFaces.Extent(); k++) {
-    const Standard_Integer aFaceCount = aMapEdgeFaces.FindFromIndex(k).Extent();
+    const Standard_Integer aFaceCount = aMapEdgeFaces.FindFromIndex(k).size();
     if (!isFreeBoundaries && aFaceCount == 1) {
       TopoDS_Edge E = TopoDS::Edge(aMapEdgeFaces.FindKey(k));
       if (!BRep_Tool::Degenerated(E))

@@ -317,14 +317,14 @@ void  ChFi3d_Builder::Compute()
 #ifdef OCCT_DEBUG
         cout <<"EXCEPTION Corner compute " << exc << endl;
 #endif
-        badvertices.Append(myVDataMap.FindKey(j));
+        badvertices.push_back(myVDataMap.FindKey(j));
         hasresult=Standard_False;
         done = Standard_True;
       }
-      if (!done) badvertices.Append(myVDataMap.FindKey(j));
+      if (!done) badvertices.push_back(myVDataMap.FindKey(j));
       done = Standard_True;
     }
-    if (!hasresult) done = badvertices.IsEmpty();
+    if (!hasresult) done = badvertices.empty();
   }
   
 
@@ -820,7 +820,7 @@ void  ChFi3d_Builder::Reset()
   myRegul.clear();
   myEVIMap.Clear();
   badstripes.clear();
-  badvertices.Clear();
+  badvertices.clear();
 
   ChFiDS_ListIteratorOfListOfStripe itel(myListStripe.begin());
   while (itel != myListStripe.end()) {
@@ -840,7 +840,7 @@ void  ChFi3d_Builder::Reset()
 
 const TopTools_ListOfShape& ChFi3d_Builder::Generated(const TopoDS_Shape& EouV)
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   if(EouV.IsNull()) return myGenerated;
   if(EouV.ShapeType() != TopAbs_EDGE &&
      EouV.ShapeType() != TopAbs_VERTEX) return myGenerated;
@@ -852,7 +852,7 @@ const TopTools_ListOfShape& ChFi3d_Builder::Generated(const TopoDS_Shape& EouV)
       const TopTools_ListOfShape& LS =  myCoup->NewFaces(I);
       TopTools_ListIteratorOfListOfShape ILS;
       for(ILS.Initialize(LS); ILS.More(); ILS.Next()){
-	myGenerated.Append(ILS.Value());
+	myGenerated.push_back(ILS.Value());
       }
     }
   }

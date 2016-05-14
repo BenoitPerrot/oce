@@ -98,7 +98,7 @@ void TopOpeBRepBuild_Builder::BuildEdges(const Standard_Integer iC,const Handle(
   for (; It.More(); It.Next()) {
     TopoDS_Edge& newEdge = TopoDS::Edge(It.Value());
     myBuildTool.RecomputeCurves(curC,TopoDS::Edge(anEdge),newEdge,inewC,HDS);
-    if (inewC != -1) ChangeNewEdges(inewC).Append(newEdge);
+    if (inewC != -1) ChangeNewEdges(inewC).push_back(newEdge);
   }
   if (inewC != -1) {
     HDS->RemoveCurve(iC);

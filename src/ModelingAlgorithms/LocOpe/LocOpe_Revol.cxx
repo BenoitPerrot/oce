@@ -144,7 +144,7 @@ void LocOpe_Revol::IntPerf()
 	myMap.Bind(edg, thelist);
 	TopoDS_Shape desc = theRevol.Shape(edg);
 	if (!desc.IsNull()) {
-	  myMap(edg).Append(desc);
+	  myMap(edg).push_back(desc);
 	}
       }
     }
@@ -163,22 +163,22 @@ void LocOpe_Revol::IntPerf()
       myMap.Bind(edg, thelist1);
       TopoDS_Shape desc = theRevol.Shape(edg);
       if (!desc.IsNull()) {
-	if (theEFMap(i).Extent() >= 2) {
+	if (theEFMap(i).size() >= 2) {
 	  toremove = Standard_True;
 	}
 	else {
-	  myMap(edg).Append(desc);
-	  lfaces.Append(desc);
+	  myMap(edg).push_back(desc);
+	  lfaces.push_back(desc);
 	}
       }
     }    
     if(toremove) {
       // Rajouter les faces de FirstShape et LastShape
       for (exp.Init(myFirstShape,TopAbs_FACE);exp.More();exp.Next()) {
-	lfaces.Append(exp.Current());
+	lfaces.push_back(exp.Current());
       }
       for (exp.Init(myLastShape,TopAbs_FACE);exp.More();exp.Next()) {
-	lfaces.Append(exp.Current());
+	lfaces.push_back(exp.Current());
       }
       
       LocOpe_BuildShape BS(lfaces);
@@ -192,7 +192,7 @@ void LocOpe_Revol::IntPerf()
 	  myMap.Bind(edg, thelist2);
 	  TopoDS_Shape desc = theRevol.Shape(edg);
 	  if (!desc.IsNull()) {
-	    myMap(edg).Append(desc);
+	    myMap(edg).push_back(desc);
 	  }
 	}
       }

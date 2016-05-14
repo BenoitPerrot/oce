@@ -667,7 +667,7 @@ void TopOpeBRepDS_DataStructure::AddShapeSameDomain(const TopoDS_Shape& S, const
     }
   }  
   if (append) {
-    ChangeShapeSameDomain(S).Append(SSD);
+    ChangeShapeSameDomain(S).push_back(SSD);
   }
 }
 
@@ -686,7 +686,7 @@ void TopOpeBRepDS_DataStructure::RemoveShapeSameDomain(const TopoDS_Shape& S, co
     const TopoDS_Shape& itS = it.Value();
     Standard_Boolean remove = itS.IsSame(SSD);
     if (remove) 
-      L.Remove(it);
+      it = L.erase(it);
     else
       it.Next();
   }
@@ -947,14 +947,14 @@ void TopOpeBRepDS_DataStructure::FillShapesSameDomain(const TopoDS_Shape& S1,
     SD2.myOrientationDef = Standard_True;
   }
 
-  Standard_Integer n1 = ShapeSameDomain(S1).Extent();
-  Standard_Integer n2 = ShapeSameDomain(S2).Extent();
+  Standard_Integer n1 = ShapeSameDomain(S1).size();
+  Standard_Integer n2 = ShapeSameDomain(S2).size();
 
   AddShapeSameDomain(S1,S2);
   AddShapeSameDomain(S2,S1);
 
-  Standard_Integer n11 = ShapeSameDomain(S1).Extent();
-  Standard_Integer n22 = ShapeSameDomain(S2).Extent();
+  Standard_Integer n11 = ShapeSameDomain(S1).size();
+  Standard_Integer n22 = ShapeSameDomain(S2).size();
 
   Standard_Boolean cond = ( n11 == n1 ) && (n22 == n2);
   cond = cond && (!todef1) && (!todef2);

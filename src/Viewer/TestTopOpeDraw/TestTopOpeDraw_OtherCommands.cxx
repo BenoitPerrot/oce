@@ -344,7 +344,7 @@ public:
     TCollection_AsciiString sto;TestTopOpeDraw_TTOT::OrientationToString(ov,sto);
     TCollection_AsciiString sto11 = sto.SubString(1,1); sto11.LowerCase();
     const TopTools_ListOfShape& l = mymapve.FindFromKey(V);
-    Standard_Integer ne=l.Extent(); TCollection_AsciiString ste; ename(E,ste);
+    Standard_Integer ne=l.size(); TCollection_AsciiString ste; ename(E,ste);
     stv.Copy("v"); stv=stv+sto11+ste+"."+ne;
   }
 

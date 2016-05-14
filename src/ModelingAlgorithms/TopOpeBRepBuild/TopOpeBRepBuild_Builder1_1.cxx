@@ -545,7 +545,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     GLOBAL_faces2d = oldState;
 
     //
-    if (!aLNew.Extent()) {
+    if (!aLNew.size()) {
       // * It means that whole Edge is IN (see SplitEdge(...) at line 
       // G1=TopOpeBRepBuild_GTool::GFusSame(tf,tf); Operation  Fuse 
       // loses all parts of the Edge with IN  state, but  we  need 
@@ -662,7 +662,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
 
     const TopTools_ListOfShape& EspON = aShapeWithState.Part(TopAbs_ON);
 
-    Standard_Integer nON = EspON.Extent();
+    Standard_Integer nON = EspON.size();
     if(!IsSplitON  && nON) {
       TopOpeBRepDS_ListOfShapeOn1State ONspl;
       TopTools_ListOfShape& lON = ONspl.ChangeListOnState();
@@ -896,7 +896,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
 
     // set old orientation to new edge;
     aNewEdge.Orientation (anEdge.Orientation()); 
-    aLNew.Append(aNewEdge);
+    aLNew.push_back(aNewEdge);
     aDataMapOfShapeState.Bind(aNewEdge, aState);
   }
   //GEDBUMakeEdges(EdgeF,EDBU,aListOfShape);

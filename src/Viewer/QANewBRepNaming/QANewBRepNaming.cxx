@@ -42,8 +42,8 @@ void QANewBRepNaming::CleanStructure(const TDF_Label& theLabel) {
   if (anIt.More()) {
     anEvol = anIt.Evolution();
     for ( ; anIt.More(); anIt.Next()) {
-      Olds.Append(anIt.OldShape());
-      News.Append(anIt.NewShape());
+      Olds.push_back(anIt.OldShape());
+      News.push_back(anIt.NewShape());
     }
 
     TopTools_ListIteratorOfListOfShape itOlds(Olds);
@@ -129,8 +129,8 @@ void QANewBRepNaming::Displace (const TDF_Label& theLabel,
   if (it.More()) {
     Evol = it.Evolution();
     for ( ; it.More(); it.Next()) {
-      Olds.Append(it.OldShape());
-      News.Append(it.NewShape());
+      Olds.push_back(it.OldShape());
+      News.push_back(it.NewShape());
     }
 
     TopTools_ListIteratorOfListOfShape itOlds(Olds);

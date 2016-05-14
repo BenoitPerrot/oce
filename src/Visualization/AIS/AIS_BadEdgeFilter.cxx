@@ -92,11 +92,11 @@ void AIS_BadEdgeFilter::AddEdge(const TopoDS_Edge& anEdge,
 				const Standard_Integer Index)
 {
   if (myBadEdges.IsBound(Index)) {
-    myBadEdges.ChangeFind(Index).Append(anEdge); 
+    myBadEdges.ChangeFind(Index).push_back(anEdge); 
   }
   else {
     TopTools_ListOfShape LS;
-    LS.Append(anEdge);
+    LS.push_back(anEdge);
     myBadEdges.Bind(Index,LS);
   }
 }

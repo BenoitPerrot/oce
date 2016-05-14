@@ -89,10 +89,10 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
   //const Handle(TopOpeBRepDS_HDataStructure)& HDS = Ghds;
   const Handle(TopOpeBRepDS_HDataStructure)& HDS = *Ghds;
   //modified by NIZNHY-PKV Sun Dec 15 17:59:15 2002 t
-  L1.Append(S);
+  L1.push_back(S);
 
   Standard_Integer i; 
-  Standard_Integer nl1 = L1.Extent(), nl2 = L2.Extent();
+  Standard_Integer nl1 = L1.size(), nl2 = L2.size();
   
   while ( nl1 > 0 || nl2 > 0 )  {
     
@@ -106,7 +106,7 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
 //                  HDS->Shape(S2);
 	Standard_Boolean found = FDSSDM_contains(S2,L2);
 	if ( ! found ) {
-	  L2.Prepend(S2);
+	  L2.push_front(S2);
 	  nl2++;
 	}
       }
@@ -124,7 +124,7 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
 //                  HDS->Shape(S1);
 	Standard_Boolean found = FDSSDM_contains(S1,L1);
 	if ( ! found ) {
-	  L1.Prepend(S1);
+	  L1.push_front(S1);
 	  nl1++;
 	}
       }
@@ -159,16 +159,16 @@ Standard_EXPORT void FDSSDM_s1s2makesordor(const TopTools_ListOfShape& LS1,
     const TopoDS_Shape& s = it.Value();
     TopOpeBRepDS_Config o = HDS->SameDomainOrientation(s);
 //  HDS->Shape(s);
-    if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.Append(s);
-    else if ( o != oref && !FDSSDM_contains(s,LDO) ) LDO.Append(s);
+    if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.push_back(s);
+    else if ( o != oref && !FDSSDM_contains(s,LDO) ) LDO.push_back(s);
   }
   
   for (it.Initialize(LS2); it.More(); it.Next() ) {
     const TopoDS_Shape& s = it.Value();
     TopOpeBRepDS_Config o = HDS->SameDomainOrientation(s);
 //             HDS->Shape(s);
-    if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.Append(s);
-    else if ( o != oref && !FDSSDM_contains(s,LDO) ) LDO.Append(s);
+    if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.push_back(s);
+    else if ( o != oref && !FDSSDM_contains(s,LDO) ) LDO.push_back(s);
   }
 } // s1s2makesordor
 
@@ -182,7 +182,7 @@ Standard_EXPORT Standard_Boolean FDSSDM_hass1s2(const TopoDS_Shape& S)
 
 Standard_EXPORT void FDSSDM_s1s2(const TopoDS_Shape& S,TopTools_ListOfShape& LS1,TopTools_ListOfShape& LS2)
 {
-  LS1.Clear(); LS2.Clear();
+  LS1.clear(); LS2.clear();
   Standard_Boolean b = FDSSDM_hass1s2(S);
   if (!b) {
     FDSSDM_makes1s2(S,LS1,LS2);
@@ -196,7 +196,7 @@ Standard_EXPORT void FDSSDM_s1s2(const TopoDS_Shape& S,TopTools_ListOfShape& LS1
 
 Standard_EXPORT void FDSSDM_sordor(const TopoDS_Shape& S,TopTools_ListOfShape& LSO,TopTools_ListOfShape& LDO)
 {
-  LSO.Clear(); LDO.Clear();
+  LSO.clear(); LDO.clear();
   TopTools_ListOfShape LS1,LS2; 
   FDSSDM_s1s2(S,LS1,LS2);
   FDSSDM_s1s2makesordor(LS1,LS2,LSO,LDO);
@@ -221,7 +221,7 @@ Standard_EXPORT void FDSSDM_copylist(const TopTools_ListOfShape& Lin,const Stand
   for ( Standard_Integer i = 1; it.More(); it.Next(),i++ ) {
     const TopoDS_Shape& EL = it.Value();
     if ( i >= I1 && i <= I2 ) {
-      Lou.Append(EL);
+      Lou.push_back(EL);
       nadd++;
     }
   }
@@ -231,6 +231,6 @@ Standard_EXPORT void FDSSDM_copylist(const TopTools_ListOfShape& Lin,TopTools_Li
 // copy de Lin dans Lou
 {
   const Standard_Integer I1 = 1;
-  const Standard_Integer I2 = Lin.Extent();
+  const Standard_Integer I2 = Lin.size();
   FDSSDM_copylist(Lin,I1,I2,Lou);
 } // copylist

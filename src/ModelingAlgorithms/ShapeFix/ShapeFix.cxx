@@ -380,7 +380,7 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
                                         gp_XYZ& thecentersuit,
                                         gp_XYZ& thecenterreject)
 {
-  if(theLEdges.IsEmpty())
+  if(theLEdges.empty())
     return Standard_False;
   TopTools_MapOfShape aMapEdges;
   
@@ -415,7 +415,7 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
   for( ; alIter.More(); ) {
     TopoDS_Edge aEdge = TopoDS::Edge(alIter.Value());
     if( aMapEdges.Contains(aEdge)) {
-      atempList.Remove(alIter);
+      alIter = atempList.erase(alIter);
       continue;
     }
     
@@ -426,9 +426,9 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
     
     Standard_Boolean isLoop = ((aVert1.IsSame(aVert11) && aVert2.IsSame(aVert12)) ||
                                (aVert1.IsSame(aVert12) && aVert2.IsSame(aVert11)));
-    if(isLoop /*&& !aseqsuit.Length()*/ && (atempList.Extent() >anumLoop)) {
-      atempList.Append(aEdge);
-      atempList.Remove(alIter);
+    if(isLoop /*&& !aseqsuit.Length()*/ && (atempList.size() >anumLoop)) {
+      atempList.push_back(aEdge);
+      alIter = atempList.erase(alIter);
       anumLoop++;
       continue;
     }
@@ -481,14 +481,14 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
       }
       
     }
-    atempList.Remove(alIter);
+    alIter = atempList.erase(alIter);
   }
 
   Standard_Boolean isDone = (!aseqsuit.IsEmpty() || !aseqreject.IsEmpty());
   if(isDone) {
     if(aseqsuit.IsEmpty()) {
       theRejectEdges.Append(aEdge1);
-      theLEdges.RemoveFirst();
+      theLEdges.pop_front();
       
       getNearestEdges(theLEdges,theVert,theSuitEdges,theRejectEdges,
                       theTolerance,thecentersuit,thecenterreject);
@@ -528,10 +528,10 @@ Standard_Boolean ShapeFix::FixVertexPosition(TopoDS_Shape& theshape,
       else if(aVert1.IsSame(aVert))
         continue;
       if(aMapVertEdges.Contains(aVert))
-        aMapVertEdges.ChangeFromKey(aVert).Append(aExp1.Current());
+        aMapVertEdges.ChangeFromKey(aVert).push_back(aExp1.Current());
       else {
         TopTools_ListOfShape alEdges;
-        alEdges.Append(aExp1.Current());
+        alEdges.push_back(aExp1.Current());
         aMapVertEdges.Add(aVert,alEdges);
       }
     }
@@ -553,7 +553,7 @@ Standard_Boolean ShapeFix::FixVertexPosition(TopoDS_Shape& theshape,
     TopTools_SequenceOfShape aRejectEdges;
     TopTools_ListOfShape aledges;
     aledges= aMapVertEdges.FindFromIndex(i);
-    if(aledges.Extent() ==1)
+    if(aledges.size() ==1)
       continue;
     //if tolerance of vertex is more than specified tolerance 
     // check distance between curves and vertex

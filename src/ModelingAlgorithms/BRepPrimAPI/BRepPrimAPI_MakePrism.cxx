@@ -115,8 +115,8 @@ TopoDS_Shape BRepPrimAPI_MakePrism::LastShape()
 
 const TopTools_ListOfShape& BRepPrimAPI_MakePrism::Generated (const TopoDS_Shape& S)
 {
-  myGenerated.Clear();
-  myGenerated.Append(myPrism.Shape (S));
+  myGenerated.clear();
+  myGenerated.push_back(myPrism.Shape (S));
   return myGenerated;
 
 }

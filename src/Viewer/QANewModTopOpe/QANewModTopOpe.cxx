@@ -64,7 +64,7 @@ static TopoDS_Shape RemoveIntExtEdges(const TopoDS_Shape& TheS)
   aSubst.Build(aCopy);
 
   if(aSubst.IsCopied(aCopy)) {
-    aCopy = aSubst.Copy(aCopy).First();
+    aCopy = aSubst.Copy(aCopy).front();
   }
 
   return aCopy;
@@ -256,12 +256,12 @@ static Standard_Boolean CorrectOrientation(const TopoDS_Shell& TheS)
 
     const TopTools_ListOfShape& aL = aMapEdgeFace(i);
 
-    if(aL.Extent() > 2) return Standard_False;
-    if(aL.Extent() == 1) continue;
+    if(aL.size() > 2) return Standard_False;
+    if(aL.size() == 1) continue;
 
     const TopoDS_Shape& anE = aMapEdgeFace.FindKey(i);
     
-    anExp.Init(aL.First(), TopAbs_EDGE);
+    anExp.Init(aL.front(), TopAbs_EDGE);
     for(; anExp.More(); anExp.Next()) {
       if(anE.IsSame(anExp.Current())) {
 	anOrnt = anExp.Current().Orientation();
@@ -269,7 +269,7 @@ static Standard_Boolean CorrectOrientation(const TopoDS_Shell& TheS)
       }
     }
 
-    anExp.Init(aL.Last(), TopAbs_EDGE);
+    anExp.Init(aL.back(), TopAbs_EDGE);
     for(; anExp.More(); anExp.Next()) {
       if(anE.IsSame(anExp.Current())) {
 	if(anOrnt == anExp.Current().Orientation()) return Standard_False;
@@ -555,7 +555,7 @@ Standard_Boolean QANewModTopOpe::IsConnected(const TopoDS_Shape& TheS)
 
   anTDIter.Initialize(TheS);
   for(; anTDIter.More(); anTDIter.Next()) {
-    if(anTDIter.Value().ShapeType() == TopAbs_COMPOUND) aCompList.Append(anTDIter.Value());
+    if(anTDIter.Value().ShapeType() == TopAbs_COMPOUND) aCompList.push_back(anTDIter.Value());
     else aSMap.Add(anTDIter.Value());
   }
 
@@ -563,7 +563,7 @@ Standard_Boolean QANewModTopOpe::IsConnected(const TopoDS_Shape& TheS)
   for(;anIter.More(); anIter.Next()) {
     anTDIter.Initialize(anIter.Value());
     for(; anTDIter.More(); anTDIter.Next()) {
-      if(anTDIter.Value().ShapeType() == TopAbs_COMPOUND) aCompList.Append(anTDIter.Value());
+      if(anTDIter.Value().ShapeType() == TopAbs_COMPOUND) aCompList.push_back(anTDIter.Value());
       else aSMap.Add(anTDIter.Value());
     }
   }

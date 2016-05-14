@@ -175,8 +175,8 @@ void BRepFilletAPI_MakeFillet2d::Build()
 
 const TopTools_ListOfShape& BRepFilletAPI_MakeFillet2d::Modified(const TopoDS_Shape& E)
 {
-  myGenerated.Clear();
-  myGenerated.Append(DescendantEdge(TopoDS::Edge(E)));
+  myGenerated.clear();
+  myGenerated.push_back(DescendantEdge(TopoDS::Edge(E)));
   return myGenerated;
 }
 
@@ -197,11 +197,11 @@ Standard_Integer BRepFilletAPI_MakeFillet2d::NbCurves() const
 
 const TopTools_ListOfShape& BRepFilletAPI_MakeFillet2d::NewEdges(const Standard_Integer I)
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   if (I <= NbFillet())
-    myGenerated.Append(FilletEdges()(I));
+    myGenerated.push_back(FilletEdges()(I));
   else
-    myGenerated.Append(ChamferEdges()(I-NbFillet()));
+    myGenerated.push_back(ChamferEdges()(I-NbFillet()));
 
   return myGenerated;
 }

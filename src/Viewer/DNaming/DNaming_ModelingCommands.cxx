@@ -1644,7 +1644,7 @@ static void MapOfShapes(const TopoDS_Shape& S1, const TopoDS_Shape& S2,
 //==========================================================================================
 inline static void CollectShapes(const TopoDS_Shape& S, TopTools_ListOfShape& List)
 {
-  List.Append(S);
+  List.push_back(S);
   TopoDS_Iterator It(S,Standard_True,Standard_True);
   while (It.More()) {
     CollectShapes(It.Value(),List);
@@ -1664,7 +1664,7 @@ inline static void CollectMultShapes(const TopoDS_Shape& S, TopTools_ListOfShape
     TopExp_Explorer exp(S,(TopAbs_ShapeEnum)i);
     for (;exp.More();exp.Next()) 
       aBuilder.Add(aCompound, exp.Current());
-    List.Append(aCompound);
+    List.push_back(aCompound);
   }
 }
 //==========================================================================================
@@ -1917,8 +1917,8 @@ static Standard_Integer DNaming_TestSingle (Draw_Interpretor& theDI,
       //MapOfOrientedShapes(aRootShape, aMap0);
       TopTools_ListOfShape aList, aFailedList;
       CollectShapes(aRootShape, aList);
-      if(aList.Extent())
-	aList.RemoveFirst();
+      if(aList.size())
+	aList.pop_front();
       Standard_Boolean isFirst(Standard_True);
       Handle(TDataStd_UAttribute) FirstAuxObj;
       TopTools_ListIteratorOfListOfShape it(aList);
@@ -1988,7 +1988,7 @@ static Standard_Integer DNaming_TestSingle (Draw_Interpretor& theDI,
 	  aResult +=  entry;
 	  aResult += " failed, shape type = ";
 	  aResult += ShapeEnumToString(aCurShape.ShapeType());
-	  aFailedList.Append(aCurShape);
+	  aFailedList.push_back(aCurShape);
 	}
 	if(aResult.Length()) {
 	  if(aResult.Search("Warning") == -1)
@@ -1998,7 +1998,7 @@ static Standard_Integer DNaming_TestSingle (Draw_Interpretor& theDI,
 	  TDataStd_Name::Set(auxObj->Label(), aResult);
 	}
       } 
-      if(aFailedList.Extent()) {
+      if(aFailedList.size()) {
 	cout << "Failed units are kept at: ";
 	TopTools_ListIteratorOfListOfShape it1(aFailedList);
 	for(; it1.More(); it1.Next()) {
@@ -2126,13 +2126,13 @@ static Standard_Integer DNaming_Multiple (Draw_Interpretor& theDI,
 	  aResult +=  entry;
 	  aResult += " failed, shape type = ";
 	  aResult += ShapeEnumToString(aCurShape.ShapeType());
-	  aFailedList.Append(aCurShape);
+	  aFailedList.push_back(aCurShape);
 	}
 	if(aResult.Length())
 	  cout << "Failed units: " << aResult << endl;
       }
  
-      if(aFailedList.Extent()) {
+      if(aFailedList.size()) {
 	TopTools_ListIteratorOfListOfShape it1(aFailedList);
 	for(; it1.More(); it1.Next()) {
 	  const TDF_Label& aLabel = TDF_TagSource::NewChild(aDoc->Main());

@@ -360,11 +360,11 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Getface(const TopoDS_Shape& S, TopOpeBRe
 
 Standard_EXPORT void FUN_addOwlw(const TopoDS_Shape& Ow, const TopTools_ListOfShape& lw, TopTools_ListOfShape& lresu)
 {
-  Standard_Integer nw = lw.Extent();
-  if (nw == 0) lresu.Append(Ow);
+  Standard_Integer nw = lw.size();
+  if (nw == 0) lresu.push_back(Ow);
   else {
     TopTools_ListIteratorOfListOfShape it(lw);
-    for (; it.More(); it.Next()) lresu.Append(it.Value());
+    for (; it.More(); it.Next()) lresu.push_back(it.Value());
   }
 }
 
@@ -379,12 +379,12 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
   TopTools_ListIteratorOfListOfShape itw(lS);
   for (; itw.More(); itw.Next()) mapgreasma.Bind(itw.Value(),null);
   
-  Standard_Integer nw = lw.Extent();
+  Standard_Integer nw = lw.size();
   if (nw <= 1) return Standard_True;
 
   Standard_Integer nite = 0, nitemax = Standard_Integer(nw*(nw-1)/2);
   while (nite <= nitemax){
-    nw = lw.Extent();
+    nw = lw.size();
     if (nw <= 1) break;
 
     // wi1 : 
@@ -438,7 +438,7 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
       else return Standard_False;
     }//itw.More()
 
-    lw.RemoveFirst();
+    lw.pop_front();
   }//nite<=nmax
   return Standard_True;
 }

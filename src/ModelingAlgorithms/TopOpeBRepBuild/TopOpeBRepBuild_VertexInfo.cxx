@@ -28,7 +28,7 @@ TopOpeBRepBuild_VertexInfo::TopOpeBRepBuild_VertexInfo()
 {
   mySmart=Standard_False;
   myFoundOut=0;
-  myEdgesPassed.Clear();
+  myEdgesPassed.clear();
 }
 //=======================================================================
 // function :TopOpeBRepBuild_VertexInfo::SetVertex
@@ -154,7 +154,7 @@ TopOpeBRepBuild_VertexInfo::TopOpeBRepBuild_VertexInfo()
 //=======================================================================
   void TopOpeBRepBuild_VertexInfo::AppendPassed(const TopoDS_Edge& anE) 
 {
-  myEdgesPassed.Prepend(anE);
+  myEdgesPassed.push_front(anE);
 }
 
 
@@ -164,7 +164,7 @@ TopOpeBRepBuild_VertexInfo::TopOpeBRepBuild_VertexInfo()
 //=======================================================================
   void TopOpeBRepBuild_VertexInfo::RemovePassed() 
 {
-  myEdgesPassed.RemoveFirst();
+  myEdgesPassed.pop_front();
 }
 //=======================================================================
 // function :TopOpeBRepBuild_VertexInfo::ListPassed

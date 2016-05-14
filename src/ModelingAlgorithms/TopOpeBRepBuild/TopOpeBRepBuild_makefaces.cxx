@@ -231,7 +231,7 @@ void TopOpeBRepBuild_Builder::GWESMakeFaces
     TopTools_ListOfShape LOFF;
     Standard_Boolean puok = TopOpeBRepTool::MakeFaces(TopoDS::Face(FF),LOF,MshNOK,LOFF);
     if (!puok) Standard_Failure::Raise("TopOpeBRepBuild::GWESMakeFaces");
-    LOF.Clear(); LOF.Assign(LOFF);
+    LOF.clear(); LOF.Assign(LOFF);
   }
 
   //1.  on periodic face F :
@@ -251,14 +251,14 @@ void TopOpeBRepBuild_Builder::GWESMakeFaces
     for (; itFF.More(); itFF.Next()){
       TopoDS_Face Fa = TopoDS::Face(itFF.Value());
       TopOpeBRepTool::CorrectONUVISO(FFa,Fa);
-      newLOF.Append(Fa);
+      newLOF.push_back(Fa);
     }
-    LOF.Clear(); LOF.Assign(newLOF);
+    LOF.clear(); LOF.Assign(newLOF);
   }
 
   // xpu280898 : regularisation after GFABUMakeFaces,purge processings
   TopTools_ListOfShape newLOF; RegularizeFaces(FF,LOF,newLOF);
-  LOF.Clear(); LOF.Assign(newLOF);
+  LOF.clear(); LOF.Assign(newLOF);
 
 } // GWESMakeFaces
 
@@ -470,7 +470,7 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
 		  for(Standard_Integer MapStep = 1; MapStep <= mapVOE.Extent(); MapStep++)
 		    {
 		      const TopTools_ListOfShape& LofE = mapVOE.FindFromIndex(MapStep);
-		      if(LofE.Extent() != 2) { WisClsd = Standard_False; break; }
+		      if(LofE.size() != 2) { WisClsd = Standard_False; break; }
 		    }
 		  if(!WisClsd)
 		    {
@@ -487,7 +487,7 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
 		      //wire seems to be regular:
 		      TopTools_ListOfShape LofAddE;  // list of edges has already been added in wire
 		      Standard_Integer naddsame = 0; 
-		      while( ne > (LofAddE.Extent() + naddsame) )
+		      while( ne > (LofAddE.size() + naddsame) )
 			{
 			  for(Standard_Integer StepMap = 1; StepMap <= mapVOE.Extent(); StepMap++)
 			    {
@@ -542,13 +542,13 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
 			      if(AddE1)
 				{
 				  FABU.AddEdgeWire(E1,newWire);
-				  if(!IsSameE1) LofAddE.Append(E1);
+				  if(!IsSameE1) LofAddE.push_back(E1);
 				  else naddsame++;
 				}
 			      if(AddE2)
 				{
 				  FABU.AddEdgeWire(E2,newWire);
-				  if(!IsSameE2) LofAddE.Append(E2);
+				  if(!IsSameE2) LofAddE.push_back(E2);
 				  else naddsame++;
 				}
 			    }//for StepMap
@@ -616,7 +616,7 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
       if (vmax > ovmax) ovmax=vmax;
       hrts->SetTrim(oumin, oumax, ovmin, ovmax, Standard_True, Standard_True);
     }
-    lnewFace.Append(newFace);
+    lnewFace.push_back(newFace);
 
   } // FABU.MoreFace()
 

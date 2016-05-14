@@ -183,7 +183,7 @@ static Standard_Boolean IsSameOriented(const TopoDS_Shape& aFace,
   TopTools_IndexedDataMapOfShapeListOfShape EFmap;
   TopExp::MapShapesAndAncestors( aShell, TopAbs_EDGE, TopAbs_FACE, EFmap );
 
-  const TopoDS_Shape& AdjacentFace = EFmap.FindFromKey(anEdge).First();
+  const TopoDS_Shape& AdjacentFace = EFmap.FindFromKey(anEdge).front();
   TopoDS_Shape theEdge;
   for (Explo.Init(AdjacentFace, TopAbs_EDGE); Explo.More(); Explo.Next())
   {

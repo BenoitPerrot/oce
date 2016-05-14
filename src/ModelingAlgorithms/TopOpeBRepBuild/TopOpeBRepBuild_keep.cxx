@@ -84,7 +84,7 @@ Standard_Boolean TopOpeBRepBuild_Builder::GKeepShape1
     toclassify = myClassifyVal;
   }
   
-  toclassify = (toclassify && !LSclass.IsEmpty());
+  toclassify = (toclassify && !LSclass.empty());
   if (toclassify) {
     pos = ShapePosition(S,LSclass);
     if ( pos != TB ) keep = Standard_False;
@@ -148,7 +148,7 @@ void TopOpeBRepBuild_Builder::GKeepShapes
     const TopoDS_Shape& SL = it.Value();
     
     Standard_Boolean keep = Standard_True;
-    if ( ! LSclass.IsEmpty() ) {
+    if ( ! LSclass.empty() ) {
       TopAbs_State pos = ShapePosition(SL,LSclass);
       if ( pos != TB ) keep = Standard_False;
     }
@@ -162,6 +162,6 @@ void TopOpeBRepBuild_Builder::GKeepShapes
     if(tSPS){if(LSclass.IsEmpty())cout<<"empty list";else GdumpLS(LSclass);cout<<endl;}
 #endif
     
-    if (keep) Lou.Append(SL);
+    if (keep) Lou.push_back(SL);
   }
 }

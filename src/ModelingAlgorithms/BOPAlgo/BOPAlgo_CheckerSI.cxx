@@ -380,7 +380,7 @@ void BOPAlgo_CheckerSI::PrepareCopy()
   aItMS.Initialize(aMSA);
   for(; aItMS.More(); aItMS.Next()) {
     const TopoDS_Shape& aSAx=aItMS.Value();
-    const TopoDS_Shape& aSCx=aCopier.Modified(aSAx).First();
+    const TopoDS_Shape& aSCx=aCopier.Modified(aSAx).front();
     myNewOldMap.Bind(aSCx, aSAx);
   }
   //

@@ -235,7 +235,7 @@ static void FindGenerated(const Handle(TNaming_NamedShape)& NS, const TopoDS_Sha
   const TDF_Label& LabNS = NS->Label();
   for (TNaming_NewShapeIterator it (S, LabNS); it.More(); it.Next()) {
     if (it.Label() == LabNS) {
-      theList.Append(it.Shape());
+      theList.push_back(it.Shape());
     }
   }
 }

@@ -81,7 +81,7 @@ void debregufa(const Standard_Integer /*iF*/) {}
 void TopOpeBRepBuild_Builder::RegularizeFaces
 (const TopoDS_Shape& FF,const TopTools_ListOfShape& lnewFace,TopTools_ListOfShape& LOF)
 {
-  LOF.Clear();
+  LOF.clear();
   myMemoSplit.Clear();
 
   TopTools_ListIteratorOfListOfShape itl(lnewFace);  
@@ -139,13 +139,13 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
 	for (TopTools_ListIteratorOfListOfShape itl1(lspe);itl1.More();itl1.Next()) {
 	  const TopoDS_Shape& esp = itl1.Value();
 	  Standard_Boolean espmemo = myMemoSplit.Contains(esp);
-	  if (!espmemo) newlspe.Append(esp);
+	  if (!espmemo) newlspe.push_back(esp);
 	  else {
 	    const TopTools_ListOfShape& lspesp = Splits(esp,stae);
 	    GCopyList(lspesp,newlspe);
 	  }
 	}	
-	lspe.Clear();
+	lspe.clear();
 	GCopyList(newlspe,lspe);
 
       } // iiista
@@ -185,7 +185,7 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
 void TopOpeBRepBuild_Builder::RegularizeFace
 (const TopoDS_Shape& FF,const TopoDS_Shape& anewFace,TopTools_ListOfShape& LOF)
 {
-  LOF.Clear();
+  LOF.clear();
   const TopoDS_Face& newFace = TopoDS::Face(anewFace);
   Standard_Boolean toregu = Standard_True;
   Standard_Boolean usewtof = Standard_True;
@@ -204,7 +204,7 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 //  FUN_setInternal(newFace);
 
   if (!toregu) {
-    LOF.Append(newFace);
+    LOF.push_back(newFace);
     return;
   }
   
@@ -216,7 +216,7 @@ void TopOpeBRepBuild_Builder::RegularizeFace
   rw = TopOpeBRepTool::RegularizeWires(newFace,ownw,myESplits);
   
   if ( !rw ) {
-    LOF.Append(newFace);
+    LOF.push_back(newFace);
     return;
   }      
   
@@ -230,7 +230,7 @@ void TopOpeBRepBuild_Builder::RegularizeFace
       // xpu200798 : cto902D4 f14ou
       // recall ownw = {(ow = old wire, lnw = {list of new wires descendant of old wire}}
       // if lnw is empty, then ow is kept unchanged.
-      Standard_Boolean kept = lw.IsEmpty();
+      Standard_Boolean kept = lw.empty();
       if (kept) {
 	const TopoDS_Wire& ow = TopoDS::Wire(itownw.Key());
 	wtof.AddWire(ow);
@@ -244,14 +244,14 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 #ifdef OCCT_DEBUG
 //    Standard_Integer nnewfaces = newfaces.Extent(); // DEB
 #endif
-    rf = (newfaces.Extent() != 0);
+    rf = (newfaces.size() != 0);
   }
   else {
     rf = TopOpeBRepTool::RegularizeFace(newFace,ownw,newfaces);
   }
   
   if (!rf) {
-    LOF.Append(newFace);
+    LOF.push_back(newFace);
     return;
   }
   
@@ -262,7 +262,7 @@ void TopOpeBRepBuild_Builder::RegularizeFace
   // LOF = nouvelles faces regularisees de newFace
   TopTools_ListIteratorOfListOfShape itlnf(newfaces);
   for (; itlnf.More(); itlnf.Next()) 
-    LOF.Append(TopoDS::Face(itlnf.Value()));
+    LOF.push_back(TopoDS::Face(itlnf.Value()));
   
   // mise a jour des aretes decoupees
   // Edge(FF) = {E}, E-->Split(E) = {E'}, E'-->myESplits(E') = {E''}

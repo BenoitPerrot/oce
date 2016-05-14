@@ -321,7 +321,7 @@ static Standard_Boolean KPartCircle
     }
       
     TopTools_ListOfShape LL;
-    LL.Append(myShape);
+    LL.push_back(myShape);
     myMap.Add(E,LL);
     
     TopoDS_Edge myEdge = TopoDS::Edge(myShape);
@@ -535,7 +535,7 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
     TopTools_ListOfShape BadEdges;
     CheckBadEdges(myWorkSpine,Offset,myBilo,myLink,BadEdges);
 
-    if(!BadEdges.IsEmpty())
+    if(!BadEdges.empty())
     {
       // Modification of myWorkSpine;
       //cout << "Modification of myWorkSpine : " << BadEdges.Extent() << endl;
@@ -547,7 +547,7 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
       TColgp_SequenceOfPnt Points;
 
       for(; it.More(); it.Next()) {
-        aL.Clear();
+        aL.clear();
         Parameters.Clear();
         Points.Clear();
         const TopoDS_Shape& anE = it.Value();
@@ -574,18 +574,18 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
             gp_Pnt LP = Points(np);
             LV = BRepLib_MakeVertex(LP);
             newE = (TopoDS_Edge) BRepLib_MakeEdge(FV, LV);
-            aL.Append(newE);
+            aL.push_back(newE);
             FV = LV;
           }
           LV = Vl;
           newE = (TopoDS_Edge) BRepLib_MakeEdge(FV, LV);
-          aL.Append(newE);
+          aL.push_back(newE);
         }
         else
         {
           //cout << " 2 points " << endl;
           TopoDS_Edge newE = (TopoDS_Edge) BRepLib_MakeEdge(Vf, Vl);
-          aL.Append(newE);
+          aL.push_back(newE);
         }
         //Update myMapSpine
         if (myMapSpine.IsBound( anE ))
@@ -614,10 +614,10 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
         aSubst.Build( aWire );
         if (aSubst.IsCopied(aWire))
         {
-          TopoDS_Wire NewWire = TopoDS::Wire( aSubst.Copy(aWire).First() );
+          TopoDS_Wire NewWire = TopoDS::Wire( aSubst.Copy(aWire).front() );
           NewWire.Closed( aWire.Closed() );
           TopTools_ListOfShape Lw;
-          Lw.Append( NewWire );
+          Lw.push_back( NewWire );
           wwmap.Bind( aWire, Lw );
         }
       }
@@ -629,7 +629,7 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
       aSubst.Build(myWorkSpine);
       
       if(aSubst.IsCopied(myWorkSpine)) {
-        myWorkSpine = TopoDS::Face(aSubst.Copy(myWorkSpine).First());
+        myWorkSpine = TopoDS::Face(aSubst.Copy(myWorkSpine).front());
 
         BRepMAT2d_Explorer newExp;
         newExp.Perform(myWorkSpine);
@@ -718,7 +718,7 @@ void Compute (const TopoDS_Face&  Spine,
     TopoDS_Iterator it2( NewW);
     for ( ; it1.More(); it1.Next(), it2.Next()) {
       TopTools_ListOfShape List;
-      List.Append(it2.Value());
+      List.push_back(it2.Value());
       Map.Add(it1.Value(), List);
     }
   }
@@ -878,8 +878,8 @@ void BRepFill_OffsetWire::PerformWithBiLo
     // If no offset generated => move to the next bissectrice. 
     //--------------------------------------------------------------
     if (myMap.Contains(S[0]) && myMap.Contains(S[1])) {
-      E [0] = TopoDS::Edge(myMap.FindFromKey(S[0]).First());
-      E [1] = TopoDS::Edge(myMap.FindFromKey(S[1]).First());
+      E [0] = TopoDS::Edge(myMap.FindFromKey(S[0]).front());
+      E [1] = TopoDS::Edge(myMap.FindFromKey(S[1]).front());
     }
     else continue;
 
@@ -1024,9 +1024,9 @@ void BRepFill_OffsetWire::PerformWithBiLo
 
   for (j = 1; j <= myMap.Extent(); j++) {
     CurrentSpine = myMap.FindKey(j);
-    CurrentEdge  = TopoDS::Edge(myMap(j).First());
+    CurrentEdge  = TopoDS::Edge(myMap(j).front());
 
-    myMap(j).Clear();
+    myMap(j).clear();
     if (MapBis.IsBound(CurrentEdge)) {
       TopTools_SequenceOfShape S;
       if (!MapBis(CurrentEdge).IsEmpty()) {
@@ -1044,14 +1044,14 @@ void BRepFill_OffsetWire::PerformWithBiLo
 		  MapVerPar(CurrentEdge) ,
 		  S, MapVV, IndOfE);
 	for ( k = 1; k <= S.Length(); k++) {
-	  myMap(j).Append(S.Value(k));
+	  myMap(j).push_back(S.Value(k));
 	}
       }
       else {
 	//-----------------
 	// Complete circles
 	//-----------------
-	myMap(j).Append(CurrentEdge);
+	myMap(j).push_back(CurrentEdge);
       }
     }
   }
@@ -1065,7 +1065,7 @@ void BRepFill_OffsetWire::PerformWithBiLo
       gp_Pnt P2 = BRep_Tool::Pnt(NewV);
       myBuilder.UpdateVertex(NewV, P1.Distance(P2));
       TopTools_ListOfShape LV;
-      LV.Append( NewV.Oriented(TopAbs_FORWARD) );
+      LV.push_back( NewV.Oriented(TopAbs_FORWARD) );
       BRepTools_Substitution aSubst;
       aSubst.Substitute( OldV, LV );
       for (j = 1; j <= myMap.Extent(); j++)
@@ -1078,7 +1078,7 @@ void BRepFill_OffsetWire::PerformWithBiLo
 		{
 		  const TopTools_ListOfShape& listSh = aSubst.Copy(itl.Value());
                   TopAbs_Orientation SaveOr = itl.Value().Orientation();
-		  itl.Value() = listSh.First();
+		  itl.Value() = listSh.front();
                   itl.Value().Orientation(SaveOr);
 		}
 	    }
@@ -1201,7 +1201,7 @@ void BRepFill_OffsetWire::PrepareSpine()
       EdgeVertices(E,V1,V2);
       myMapSpine.Bind(V1,V1);
       myMapSpine.Bind(V2,V2);
-      Cuts.Clear();
+      Cuts.clear();
 
       // Cut
       TopoDS_Shape aLocalShape = E.Oriented(TopAbs_FORWARD);
@@ -1211,7 +1211,7 @@ void BRepFill_OffsetWire::PrepareSpine()
 //  Modified by Sergey KHROMOV - Thu Nov 16 17:29:33 2000 End
       nbResEdges = CutEdge (TopoDS::Edge(aLocalShape), mySpine, ForcedCut, Cuts);
       
-      if (Cuts.IsEmpty()) {
+      if (Cuts.empty()) {
 	B.Add(NW,E);
 	myMapSpine.Bind(E,E);
       }
@@ -1283,8 +1283,8 @@ void BRepFill_OffsetWire::UpdateDetromp (BRepFill_DataMapOfOrientedShapeListOfSh
         }
     if (Adjacent)
     {
-      Detromp(Shape1).Append(Vertices.First());
-      Detromp(Shape2).Append(Vertices.First());
+      Detromp(Shape1).push_back(Vertices.First());
+      Detromp(Shape2).push_back(Vertices.First());
       return;
     }
   }
@@ -1310,11 +1310,11 @@ void BRepFill_OffsetWire::UpdateDetromp (BRepFill_DataMapOfOrientedShapeListOfSh
     gp_Pnt2d P = Bis->Value((U2 + U1)*0.5);  
     if (!Trim.IsInside(P)) {
       if (!V1.IsNull()) {
-        Detromp(Shape1).Append(V1);
-        Detromp(Shape2).Append(V1);
+        Detromp(Shape1).push_back(V1);
+        Detromp(Shape2).push_back(V1);
       }
-      Detromp(Shape1).Append(V2);
-      Detromp(Shape2).Append(V2);
+      Detromp(Shape1).push_back(V2);
+      Detromp(Shape2).push_back(V2);
     }
     U1 = U2;
     V1 = V2;
@@ -1328,15 +1328,15 @@ void BRepFill_OffsetWire::UpdateDetromp (BRepFill_DataMapOfOrientedShapeListOfSh
       gp_Pnt2d P = Bis->Value((U2 + U1)*0.5);  
       if (!Trim.IsInside(P)) {
 	if (!V1.IsNull()) {
-	  Detromp(Shape1).Append(V1);
-	  Detromp(Shape2).Append(V1);
+	  Detromp(Shape1).push_back(V1);
+	  Detromp(Shape2).push_back(V1);
 	}
       }
     }
     else {
       if (!V1.IsNull()) {
-	Detromp(Shape1).Append(V1);
-	Detromp(Shape2).Append(V1);
+	Detromp(Shape1).push_back(V1);
+	Detromp(Shape2).push_back(V1);
       }
     }
   }    
@@ -1371,12 +1371,12 @@ void BRepFill_OffsetWire::MakeWires()
 	TopTools_ListOfShape empty;
 	MVE.Add(V1,empty);
       }
-      MVE.ChangeFromKey(V1).Append(E);
+      MVE.ChangeFromKey(V1).push_back(E);
       if (!MVE.Contains(V2)) {
 	TopTools_ListOfShape empty;
 	MVE.Add(V2,empty);
       }
-      MVE.ChangeFromKey(V2).Append(E);
+      MVE.ChangeFromKey(V2).push_back(E);
     }
   }
 
@@ -1398,7 +1398,7 @@ void BRepFill_OffsetWire::MakeWires()
 
     //MVEit.Initialize(MVE);
     for (i = 1; i <= MVE.Extent(); i++)
-      if(MVE(i).Extent() == 1)
+      if(MVE(i).size() == 1)
         break;
 
     //if(!MVEit.More()) MVEit.Initialize(MVE);
@@ -1406,9 +1406,9 @@ void BRepFill_OffsetWire::MakeWires()
       i = 1;
     
     CV  = VF = TopoDS::Vertex(MVE.FindKey(i));
-    CE  = TopoDS::Edge(MVE(i).First());
+    CE  = TopoDS::Edge(MVE(i).front());
     End = Standard_False;
-    MVE.ChangeFromKey(CV).RemoveFirst(); 
+    MVE.ChangeFromKey(CV).pop_front(); 
 
 //  Modified by Sergey KHROMOV - Thu Mar 14 11:29:59 2002 Begin
     Standard_Boolean isClosed = Standard_False;
@@ -1438,20 +1438,20 @@ void BRepFill_OffsetWire::MakeWires()
       }
 
       if (!End) {
-	if (MVE.FindFromKey(CV).Extent() > 2) {
+	if (MVE.FindFromKey(CV).size() > 2) {
 	  //cout <<"vertex on more that 2 edges in a face."<<endl;
 	}
 	for ( itl.Initialize(MVE.FindFromKey(CV)); itl.More(); itl.Next()) {
 	  if (itl.Value().IsSame(CE)) {
-	    MVE.ChangeFromKey(CV).Remove(itl);
+	    itl = MVE.ChangeFromKey(CV).erase(itl);
 	    break;
 	  }
 	}
-	if (!MVE.FindFromKey(CV).IsEmpty()) {
-	  CE = TopoDS::Edge(MVE.FindFromKey(CV).First());
-	  MVE.ChangeFromKey(CV).RemoveFirst();
+	if (!MVE.FindFromKey(CV).empty()) {
+	  CE = TopoDS::Edge(MVE.FindFromKey(CV).front());
+	  MVE.ChangeFromKey(CV).pop_front();
 	}
-	if (MVE.FindFromKey(CV).IsEmpty())
+	if (MVE.FindFromKey(CV).empty())
         {
           //MVE.UnBind(CV);
           TopoDS_Shape LastShape = MVE.FindKey(MVE.Extent());
@@ -1467,14 +1467,14 @@ void BRepFill_OffsetWire::MakeWires()
 //     NW.Closed(Standard_True);
     NW.Closed(isClosed);
 //  Modified by Sergey KHROMOV - Thu Mar 14 11:29:37 2002 End
-    TheWires.Append(NW);
+    TheWires.push_back(NW);
   }
 
   // update myShape :
   //      -- if only one wire : myShape is a Wire
   //      -- if several wires : myShape is a Compound.
-  if ( TheWires.Extent() == 1) {
-    myShape = TheWires.First();
+  if ( TheWires.size() == 1) {
+    myShape = TheWires.front();
   }
   else {
     TopoDS_Compound R;
@@ -1527,7 +1527,7 @@ void BRepFill_OffsetWire::FixHoles()
         EEmap.Bind( anEdge, LE );
       }
       else
-        EEmap(anEdge).Append( anEdge );
+        EEmap(anEdge).push_back( anEdge );
     }
     aWire.Free( Standard_True );
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape mapit( EEmap );
@@ -1625,8 +1625,8 @@ void BRepFill_OffsetWire::FixHoles()
       TopExp::Vertices( theWire, V1, V2 );
       TopTools_IndexedDataMapOfShapeListOfShape VEmap;
       TopExp::MapShapesAndAncestors( theWire, TopAbs_VERTEX, TopAbs_EDGE, VEmap );
-      theEdge = (IsFirstF)? TopoDS::Edge(VEmap.FindFromKey( V1 ).First()) :
-        TopoDS::Edge(VEmap.FindFromKey( V2 ).First());
+      theEdge = (IsFirstF)? TopoDS::Edge(VEmap.FindFromKey( V1 ).front()) :
+        TopoDS::Edge(VEmap.FindFromKey( V2 ).front());
       TopoDS_Iterator it( theWire );
       for (; it.More(); it.Next())
       {
@@ -1663,8 +1663,8 @@ void BRepFill_OffsetWire::FixHoles()
       TopExp::Vertices( theWire, V1, V2 );
       TopTools_IndexedDataMapOfShapeListOfShape VEmap;
       TopExp::MapShapesAndAncestors( theWire, TopAbs_VERTEX, TopAbs_EDGE, VEmap );
-      theEdge = (IsFirstL)? TopoDS::Edge(VEmap.FindFromKey( V1 ).First()) :
-        TopoDS::Edge(VEmap.FindFromKey( V2 ).First());
+      theEdge = (IsFirstL)? TopoDS::Edge(VEmap.FindFromKey( V1 ).front()) :
+        TopoDS::Edge(VEmap.FindFromKey( V2 ).front());
       TopoDS_Iterator it( theWire );
       for (; it.More(); it.Next())
       {
@@ -1702,8 +1702,8 @@ void BRepFill_OffsetWire::FixHoles()
       TopTools_IndexedDataMapOfShapeListOfShape VEmap;
       TopExp::MapShapesAndAncestors( Base, TopAbs_VERTEX, TopAbs_EDGE, VEmap );
       TopoDS_Edge Efirst, Elast;
-      Efirst = TopoDS::Edge(VEmap.FindFromKey( Vf ).First());
-      Elast  = TopoDS::Edge(VEmap.FindFromKey( Vl ).First());
+      Efirst = TopoDS::Edge(VEmap.FindFromKey( Vf ).front());
+      Elast  = TopoDS::Edge(VEmap.FindFromKey( Vl ).front());
       Pf = BRep_Tool::Pnt(Vf);
       Pl = BRep_Tool::Pnt(Vl);
       Standard_Real Dist = Pf.Distance(Pl);
@@ -1778,7 +1778,7 @@ Standard_Integer CutEdge (const TopoDS_Edge& E,
 			        Standard_Integer ForceCut,
 			        TopTools_ListOfShape& Cuts)
 {
-  Cuts.Clear();
+  Cuts.clear();
   MAT2d_CutCurve              Cuter;
   TColGeom2d_SequenceOfCurve  theCurves;
   Standard_Real               f,l;
@@ -1875,7 +1875,7 @@ Standard_Integer CutEdge (const TopoDS_Edge& E,
     B.Add  (NE,VF.Oriented(TopAbs_FORWARD));
     B.Add  (NE,VL.Oriented(TopAbs_REVERSED));      
     B.Range(NE,CC->FirstParameter(),CC->LastParameter());
-    Cuts.Append(NE.Oriented(E.Orientation()));
+    Cuts.push_back(NE.Oriented(E.Orientation()));
     VF = VL;
   }
 
@@ -1963,7 +1963,7 @@ void MakeCircle (const TopoDS_Edge&          E,
   TopoDS_Edge OE = (TopoDS_Edge) BRepLib_MakeEdge(Circ, RefPlane);
   TopTools_ListOfShape LL;
 
-  LL.Append(OE);
+  LL.push_back(OE);
   Map.Add(V,LL);
 
 #ifdef DRAW
@@ -2062,7 +2062,7 @@ void MakeOffset (const TopoDS_Edge&        E,
     TopoDS_Edge OE = (TopoDS_Edge) BRepLib_MakeEdge(G2dOC, RefPlane);
     OE.Orientation(E.Orientation());
     TopTools_ListOfShape LL;
-    LL.Append(OE);
+    LL.push_back(OE);
     Map.Add(E,LL);
 
 #ifdef DRAW  
@@ -2406,7 +2406,7 @@ static void CheckBadEdges(const TopoDS_Face& Spine, const Standard_Real Offset,
 
 	  aCLProps.SetParameter(f);
 	  if(!aCLProps.IsTangentDefined()) {
-	    BadEdges.Append(SE);
+	    BadEdges.push_back(SE);
 	    aMap.Add(SE);
 	    continue;
 	  }
@@ -2423,7 +2423,7 @@ static void CheckBadEdges(const TopoDS_Face& Spine, const Standard_Real Offset,
 	    gp_Vec2d Dir( P, Pc );
 	    if (N.Dot(Dir) > 0.) {
 	      if (LimCurv <= Crv + eps) {
-		BadEdges.Append(SE);
+		BadEdges.push_back(SE);
 		aMap.Add(SE);
 		continue;
 	      }
@@ -2432,7 +2432,7 @@ static void CheckBadEdges(const TopoDS_Face& Spine, const Standard_Real Offset,
 
 	  aCLProps.SetParameter(l);
 	  if(!aCLProps.IsTangentDefined()) {
-	    BadEdges.Append(SE);
+	    BadEdges.push_back(SE);
 	    aMap.Add(SE);
 	    continue;
 	  }
@@ -2449,7 +2449,7 @@ static void CheckBadEdges(const TopoDS_Face& Spine, const Standard_Real Offset,
 	    gp_Vec2d Dir( P, Pc );
 	    if (N.Dot(Dir) > 0.) {
 	      if (LimCurv <= Crv + eps) {
-		BadEdges.Append(SE);
+		BadEdges.push_back(SE);
 		aMap.Add(SE);
 		continue;
 	      }

@@ -220,7 +220,7 @@ void BRepCheck_Shell::Minimum()
           index = myMapEF.Add(edg, thelist1);
         }
 
-        myMapEF(index).Append(exp.Current());
+        myMapEF(index).push_back(exp.Current());
       }
     }//for (; exp.More(); exp.Next())
 
@@ -413,7 +413,7 @@ BRepCheck_Status BRepCheck_Shell::Closed(const Standard_Boolean Update)
             index = myMapEF.Add(aE, thelist);
           }
 
-          myMapEF(index).Append(aF);
+          myMapEF(index).push_back(aF);
         }
       }
     }
@@ -458,7 +458,7 @@ BRepCheck_Status BRepCheck_Shell::Closed(const Standard_Boolean Update)
   Nbedges = myMapEF.Extent();
   for (i = 1; i<=Nbedges; ++i)
   {
-    nboc = myMapEF(i).Extent();
+    nboc = myMapEF(i).size();
     if (nboc == 0 || nboc >= 3)
     {
       TopTools_ListOfShape theSet;
@@ -570,7 +570,7 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
     TopTools_ListOfShape& lface = myMapEF(i);
     TopTools_ListIteratorOfListOfShape lite(lface);
 
-    if (lface.Extent() <= 2)
+    if (lface.size() <= 2)
       {
 	lite.Initialize(lface);
 	Fref = TopoDS::Face(lite.Value());
@@ -714,11 +714,11 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
       if (Nbedges > 0) {
 	TopTools_MapOfShape alre;
 	TopTools_ListOfShape voisin;
-	voisin.Append(Fref);
+	voisin.push_back(Fref);
 	alre.Clear();
-	while (!voisin.IsEmpty()) {
-	  Fref=TopoDS::Face(voisin.First());
-	  voisin.RemoveFirst();
+	while (!voisin.empty()) {
+	  Fref=TopoDS::Face(voisin.front());
+	  voisin.pop_front();
 	  if (!MapOfShapeOrientation.IsBound(Fref)) {
 	    myOstat = BRepCheck_SubshapeNotInShape;
 	    if (Update) {
@@ -822,7 +822,7 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 
 	    }
 	    if (alre.Add(Fcur)) {
-	      voisin.Append(Fcur);
+	      voisin.push_back(Fcur);
 	    }
 	  }
 	}
@@ -885,7 +885,7 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
   TopTools_MapOfShape theUnOriEd;
   for (iCur=1; iCur<=parents.Extent(); iCur++) {
     const TopoDS_Edge& Ed = TopoDS::Edge(parents.FindKey(iCur));
-    if (parents(iCur).Extent()> 2) theMultiEd.Add(Ed);
+    if (parents(iCur).size()> 2) theMultiEd.Add(Ed);
     if (Ed.Orientation()!=TopAbs_REVERSED &&
 	Ed.Orientation()!=TopAbs_FORWARD) theUnOriEd.Add(Ed);
   }
@@ -908,10 +908,10 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
 	  theFaces.Remove(adFac);
 	  newCur=Standard_False;
 	  if (theFaces.IsEmpty()) break;
-	  lesCur.Append(adFac);
-	  while (!lesCur.IsEmpty()) {
-	    adFac=lesCur.First();
-	    lesCur.RemoveFirst();
+	  lesCur.push_back(adFac);
+	  while (!lesCur.empty()) {
+	    adFac=lesCur.front();
+	    lesCur.pop_front();
 	    for (exsh.Init(adFac, TopAbs_EDGE); exsh.More(); exsh.Next()) {
 	      const TopoDS_Shape& ced = exsh.Current();
 	      if (!theMultiEd.Contains(ced)) {
@@ -922,7 +922,7 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
 		    theFaces.Remove(adFac);
 		    newCur=Standard_False;
 		    if (theFaces.IsEmpty()) break;
-		    lesCur.Append(adFac);
+		    lesCur.push_back(adFac);
 		  }
 		}
 	      }
@@ -931,7 +931,7 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
 	  }
 	  if (!newCur) {
             CurShell.Closed (BRep_Tool::IsClosed (CurShell));
-            theSets.Append(CurShell);
+            theSets.push_back(CurShell);
             CurShell.Nullify();
             newCur=Standard_True;
             BRB.MakeShell(CurShell);
@@ -942,5 +942,5 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
     }
     if (theFaces.IsEmpty()) break;
   }
-  return theSets.Extent();
+  return theSets.size();
 }

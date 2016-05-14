@@ -818,7 +818,7 @@ void BRepFill_Generator::Perform()
 	{
 	  TopTools_ListOfShape Empty;
 	  if (!myMap.IsBound(Edge1)) myMap.Bind(Edge1,Empty);
-	  myMap(Edge1).Append(Face);
+	  myMap(Edge1).push_back(Face);
 	}
       
       // set the pcurves

@@ -618,7 +618,7 @@ static void BuildConnectedEdges(const TopoDS_Wire& aWire,
 	  TopoDS_Edge anEdge = TopoDS::Edge(itE.Value());
 	  if (!anEdge.IsSame(CurEdge))
 	    {
-	      ConnectedEdges.Append(anEdge);
+	      ConnectedEdges.push_back(anEdge);
 	      TopExp::Vertices(anEdge, V1, V2);
 	      CurVertex = (V1.IsSame(CurVertex))? V2 : V1;
 	      CurEdge = anEdge;
@@ -767,7 +767,7 @@ void BRepFill_CompatibleWires::Perform (const Standard_Boolean WithRotation)
     for(anExp.Init(W); anExp.More(); anExp.Next() ) {
       TopoDS_Edge E = TopoDS::Edge(anExp.Current());
       myMap.Bind(E,Empty);
-      myMap(E).Append(E);
+      myMap(E).push_back(E);
       nbE++;
     }
   } 
@@ -959,7 +959,7 @@ void BRepFill_CompatibleWires::
       
       // init of RMap for Vi
       TopTools_ListOfShape Init;
-      Init.Clear();
+      Init.clear();
       RMap.Bind(Vi,Init);
       
       // it is required to find intersection Vi - wire2
@@ -982,7 +982,7 @@ void BRepFill_CompatibleWires::
 				    RMap,TopoDS::Wire(myWork(i-1)),
 				    Vsol,newwire);
 	if (NewVertex) myWork(i-1) = newwire;
-	RMap(Vi).Append(Vsol);
+	RMap(Vi).push_back(Vsol);
       }
       
     } // loop on  ii
@@ -996,15 +996,15 @@ void BRepFill_CompatibleWires::
   for (ii=1;ii<=SizeMap;ii++) {
     TopoDS_Vertex Vi = TopoDS::Vertex(SeqV.Value(ii));
     TopTools_ListOfShape Init;
-    Init.Clear();
-    Init.Append(Vi);
+    Init.clear();
+    Init.push_back(Vi);
     MapVLV.Bind(Vi,Init);
     Standard_Integer NbV = 1;
     TopoDS_Vertex V0,V1;
     V0 = Vi;
     Standard_Boolean tantque = SearchRoot(V0,RMap,V1);
     while (tantque) {
-      MapVLV(Vi).Append(V1);
+      MapVLV(Vi).push_back(V1);
       NbV++;
       // test on NbV required for looping sections 
       if (V1.IsSame(Vi) || NbV >= myWork.Length()) {
@@ -1067,7 +1067,7 @@ void BRepFill_CompatibleWires::
 	  NewVertex = EdgeIntersectOnWire(Pos->Value(i+1),Pnew,percent,
 				      MapVLV,TopoDS::Wire(myWork(i+1)),
 				      Vsol,newwire);
-	  MapVLV(VRoot).Append(Vsol);
+	  MapVLV(VRoot).push_back(Vsol);
 	  if (NewVertex) myWork(i+1) = newwire;
 	}
 	
@@ -1310,7 +1310,7 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 	  const TopoDS_Edge& Ecur = anExp1.Current();
 	  if (!Ecur.IsSame(TopoDS::Edge(anExp2.Current()))) {
 	    TopTools_ListOfShape LE;
-	    LE.Clear();
+	    LE.clear();
 	    gp_Pnt P1,P2;
 	    const TopoDS_Vertex& V1 = anExp1.CurrentVertex();
 	    TopoDS_Vertex VF,VR;
@@ -1323,7 +1323,7 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 	    if (V2.IsSame(VF)) P2 = BRep_Tool::Pnt(VR);
 	    if (V2.IsSame(VR)) P2 = BRep_Tool::Pnt(VF);
 	    while (P1.Distance(P2)>1.e-3) {
-	      LE.Append(anExp2.Current());
+	      LE.push_back(anExp2.Current());
 	      anExp2.Next();
 	      V2 = anExp2.CurrentVertex();
 	      TopExp::Vertices(TopoDS::Edge(anExp2.Current()),
@@ -1331,7 +1331,7 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 	      if (V2.IsSame(VF)) P2 = BRep_Tool::Pnt(VR);
 	      if (V2.IsSame(VR)) P2 = BRep_Tool::Pnt(VF);
 	      if (P1.Distance(P2)<=1.e-3) {
-		LE.Append(anExp2.Current());
+		LE.push_back(anExp2.Current());
 		anExp2.Next();
 	      }
 	    }
@@ -1354,7 +1354,7 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 		  Ancestor = TopoDS::Edge(itmap.Key());
 		  found = Standard_True;
 		  myMap(Ancestor).InsertBefore(LE,itlist);
-		  myMap(Ancestor).Remove(itlist);
+		  itlist = myMap(Ancestor).erase(itlist);
 		}
 		if (itlist.More()) itlist.Next();
 	      }

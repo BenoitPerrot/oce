@@ -199,10 +199,10 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 
     if (anAncestor.IsSame(theSecondSDFace)) {
       for (; anIter.More(); anIter.Next())
-	aModifShapes.Append(anIter.Value());
+	aModifShapes.push_back(anIter.Value());
     } else {
       for (; anIter.More(); anIter.Next())
-	aModifShapes.Append(anIter.Value().Oriented(TopAbs_FORWARD));
+	aModifShapes.push_back(anIter.Value().Oriented(TopAbs_FORWARD));
     }
 
     if (anAncestor.ShapeType() == TopAbs_EDGE) {
@@ -280,14 +280,14 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	  TopoDS_Shape aLocalFace = anIter.Value();
 
 	  if (aSubstTool.IsCopied(aLocalFace))
-	    aLocalFace = aSubstTool.Copy(aLocalFace).First();
+	    aLocalFace = aSubstTool.Copy(aLocalFace).front();
 
-	  theMapOfChangedFaces(aFace).Append(aLocalFace);
+	  theMapOfChangedFaces(aFace).push_back(aLocalFace);
 	}
       }
     }
     // Obtain a new solid.
-    theNewSolid1 = aSubstTool.Copy(theNewSolid1).First();
+    theNewSolid1 = aSubstTool.Copy(theNewSolid1).front();
   }
 
 // Update the map theMapOfChangedFaces and 
@@ -311,14 +311,14 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	  TopoDS_Shape aLocalFace = anIter.Value();
 
 	  if (aSubstTool.IsCopied(aLocalFace))
-	    aLocalFace = aSubstTool.Copy(aLocalFace).First();
+	    aLocalFace = aSubstTool.Copy(aLocalFace).front();
 
-	  theMapOfChangedFaces(aFace).Append(aLocalFace);
+	  theMapOfChangedFaces(aFace).push_back(aLocalFace);
 	}
       }
     }
     // Obtain a new solid.
-    theNewSolid2 = aSubstTool.Copy(theNewSolid2).First();
+    theNewSolid2 = aSubstTool.Copy(theNewSolid2).front();
   }
 
   return Standard_True;
@@ -508,8 +508,8 @@ QANewModTopOpe_Glue::PerformSDFaces()
                 TopTools_ListOfShape aListOfShape1;
                 myMapGener.Bind(aS, aListOfShape1);
               }
-	      myMapGener(aS).Append(aSS1);
-	      myMapModif(aS).Remove(anI1);
+	      myMapGener(aS).push_back(aSS1);
+	      anI1 = myMapModif(aS).erase(anI1);
 	    }
 	  }
 	  if(!anI1.More()) break;
@@ -564,23 +564,23 @@ QANewModTopOpe_Glue::PerformSDFaces()
                   TopTools_ListOfShape aListOfShape2;
                   myMapGener.Bind(aS, aListOfShape2);
                 }
-		myMapGener(aS).Append(aSS1);
+		myMapGener(aS).push_back(aSS1);
 		TopoDS_Vertex aV1, aV2;
 		TopExp::Vertices(TopoDS::Edge(aSS1), aV1, aV2);
 		if(!aComVerMap.Contains(aV1)) { 
 		  if(aLocVerMap.Add(aV1)) {
-		    myMapGener(aS).Append(aV1);
+		    myMapGener(aS).push_back(aV1);
 		  }
 		}
 		if(!aComVerMap.Contains(aV2)) { 
 		  if(aLocVerMap.Add(aV2)) {
-		    myMapGener(aS).Append(aV2);
+		    myMapGener(aS).push_back(aV2);
 		  }
 		}
-		myMapModif(aS).Remove(anI1);
+		anI1 = myMapModif(aS).erase(anI1);
 	      }
 	      else {
-                aShapesToRemove.Append (aS);
+                aShapesToRemove.push_back (aS);
 	      }
 	    }
 	  }

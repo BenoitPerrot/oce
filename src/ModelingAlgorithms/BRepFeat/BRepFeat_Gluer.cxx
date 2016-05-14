@@ -49,7 +49,7 @@ void BRepFeat_Gluer::Build()
 Standard_Boolean BRepFeat_Gluer::IsDeleted
    (const TopoDS_Shape& F) 
 {
-  return (myGluer.DescendantFaces(TopoDS::Face(F)).IsEmpty());
+  return (myGluer.DescendantFaces(TopoDS::Face(F)).empty());
 }
 
 //=======================================================================
@@ -62,8 +62,8 @@ const TopTools_ListOfShape& BRepFeat_Gluer::Modified
 {
   if (F.ShapeType() == TopAbs_FACE) {
     const TopTools_ListOfShape& LS = myGluer.DescendantFaces(TopoDS::Face(F));
-    if (!LS.IsEmpty()) {
-      if (!LS.First().IsSame(F))
+    if (!LS.empty()) {
+      if (!LS.front().IsSame(F))
 	return myGluer.DescendantFaces(TopoDS::Face(F));
     }
   }

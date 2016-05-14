@@ -220,15 +220,15 @@ void DsgPrs_ShapeDirPresentation::Add(const Handle(Prs3d_Presentation)& prs,
       nb++;
       if (nb <=3)
         BRepBndLib::Add(edge, box);
-      aList.Append(edge);
+      aList.push_back(edge);
     }
 
     if (mode == 0) {
-      const TopoDS_Edge& edge = TopoDS::Edge(aList.Last());
+      const TopoDS_Edge& edge = TopoDS::Edge(aList.back());
       ComputeDir(edge, pt, dir, mode);
     }
     else {
-      const TopoDS_Edge& edge = TopoDS::Edge(aList.First());
+      const TopoDS_Edge& edge = TopoDS::Edge(aList.front());
       ComputeDir(edge, pt, dir, mode);
     }
   }
@@ -240,11 +240,11 @@ void DsgPrs_ShapeDirPresentation::Add(const Handle(Prs3d_Presentation)& prs,
     for (faceExp.Init(shape, TopAbs_FACE); faceExp.More(); faceExp.Next()) {
       nb++;
       const TopoDS_Face& face = TopoDS::Face(faceExp.Current());
-      aList.Append(face);
+      aList.push_back(face);
       BRepBndLib::Add(face, box);
       if (nb > 3) break;
     }
-    const TopoDS_Face& face = TopoDS::Face(aList.Last());
+    const TopoDS_Face& face = TopoDS::Face(aList.back());
     ComputeDir(face, pt, dir, mode);
   }  
 

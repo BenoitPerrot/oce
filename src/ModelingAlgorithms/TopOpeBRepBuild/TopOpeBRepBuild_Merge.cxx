@@ -82,16 +82,16 @@ static void CorrectEdgeOrientation(TopoDS_Shape& aWire)
   Standard_Boolean append = Standard_True;
 
   TopoDS_Iterator tdi(aWire, Standard_False, Standard_False);
-  for(; tdi.More(); tdi.Next()) anEdgeList.Append(tdi.Value());
+  for(; tdi.More(); tdi.Next()) anEdgeList.push_back(tdi.Value());
 
-  Standard_Integer n = anEdgeList.Extent();
+  Standard_Integer n = anEdgeList.size();
   if(n <= 1) return;
 
   TopTools_ListIteratorOfListOfShape anIt(anEdgeList);
 
   TopoDS_Shape anCurEdge = anIt.Value();
   TopExp::Vertices(TopoDS::Edge(anCurEdge), vf, vl, Standard_True);
-  aTrueEdgeList.Append(anCurEdge);
+  aTrueEdgeList.push_back(anCurEdge);
   anIt.Next();
 
   while(n > 0 && append) {
@@ -101,13 +101,13 @@ static void CorrectEdgeOrientation(TopoDS_Shape& aWire)
       anCurEdge =  anIt.Value();
       TopExp::Vertices(TopoDS::Edge(anCurEdge), v1f, v1l, Standard_True);
       if(v1f.IsSame(vl)) {
-	aTrueEdgeList.Append(anCurEdge);
+	aTrueEdgeList.push_back(anCurEdge);
 	vl = v1l;
 	append = Standard_True;
 	continue;
       }
       if(v1l.IsSame(vf)) {
-	aTrueEdgeList.Append(anCurEdge);
+	aTrueEdgeList.push_back(anCurEdge);
 	vf = v1f;
 	append = Standard_True;
 	continue;
@@ -115,25 +115,25 @@ static void CorrectEdgeOrientation(TopoDS_Shape& aWire)
 
       if(v1l.IsSame(vl)) {
 	TopoDS_Shape anRevEdge = anCurEdge.Reversed();
-	aTrueEdgeList.Append(anRevEdge);
+	aTrueEdgeList.push_back(anRevEdge);
 	vl = v1f;
 	append = Standard_True;
 	continue;
       }
       if(v1f.IsSame(vf)) {
 	TopoDS_Shape anRevEdge = anCurEdge.Reversed();
-	aTrueEdgeList.Append(anRevEdge);
+	aTrueEdgeList.push_back(anRevEdge);
 	vf = v1l;
 	append = Standard_True;
 	continue;
       }
 	
-      anAuxList.Append(anCurEdge);
+      anAuxList.push_back(anCurEdge);
     }
 
     anEdgeList.Assign(anAuxList);
-    anAuxList.Clear(); //something wrong in Assign when list contains 1 element.
-    n = anEdgeList.Extent();
+    anAuxList.clear(); //something wrong in Assign when list contains 1 element.
+    n = anEdgeList.size();
     anIt.Initialize(anEdgeList);
   }
 
@@ -176,8 +176,8 @@ static void CorrectUnclosedWire(TopoDS_Shape& aWire)
 
   for(i = 1; i <= nbVer; i++) {
     const TopTools_ListOfShape& Elist = VElists.FindFromIndex(i);
-    if(Elist.Extent() == 1) {
-      TopoDS_Shape anEdge = Elist.First();
+    if(Elist.size() == 1) {
+      TopoDS_Shape anEdge = Elist.front();
 //      cout << "Remove redundant edge" << endl;
       BB.Remove(aWire, anEdge);
     }
@@ -385,7 +385,7 @@ void TopOpeBRepBuild_Builder::MakeSolids(TopOpeBRepBuild_SolidBuilder& SOBU,TopT
       myBuildTool.Closed(newShell,Standard_True); // NYI : check exact du caractere closed du shell
       myBuildTool.AddSolidShell(newSolid,newShell);
     }
-    L.Append(newSolid);
+    L.push_back(newSolid);
   }
 }
 //=======================================================================
@@ -406,7 +406,7 @@ void TopOpeBRepBuild_Builder::MakeShells(TopOpeBRepBuild_SolidBuilder& SOBU,TopT
 	myBuildTool.AddShellFace(newShell,F);
       }
     }
-    L.Append(newShell);
+    L.push_back(newShell);
   }
 }
 
@@ -471,7 +471,7 @@ void TopOpeBRepBuild_Builder::MakeFaces(const TopoDS_Shape& aFace,TopOpeBRepBuil
     }
 
 
-    L.Append(newFace);
+    L.push_back(newFace);
   }
 }
 
@@ -558,7 +558,7 @@ void TopOpeBRepBuild_Builder::MakeEdges(const TopoDS_Shape& anEdge,TopOpeBRepBui
     if(tSPS){GdumpEDG(newEdge);} 
 #endif
     
-    if (hasvertex) L.Append(newEdge);
+    if (hasvertex) L.push_back(newEdge);
   } // loop on EDBU edges
 } // MakeEdges
 
@@ -582,7 +582,7 @@ Standard_Boolean TopOpeBRepBuild_Builder::IsMerged(const TopoDS_Shape& S,const T
   }
   else {
     const TopTools_ListOfShape& L = Merged(S,ToBuild);
-    Standard_Boolean isempty = L.IsEmpty();
+    Standard_Boolean isempty = L.empty();
     return (!isempty);
   }
 } // IsMerged

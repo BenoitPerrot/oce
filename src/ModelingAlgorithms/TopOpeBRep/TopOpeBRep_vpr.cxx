@@ -361,19 +361,19 @@ static Standard_Boolean FUN_LineRestF
   TopTools_ListOfShape ERLonF;
   for (; itER.More(); itER.Next()){
     const TopoDS_Shape& e = itER.Value();
-    if (mapE.Contains(e)) ERLonF.Append(e);
+    if (mapE.Contains(e)) ERLonF.push_back(e);
   }
   itER.Initialize(ERLonF);
   TopTools_ListOfShape ERLonFonL;
   for (; itER.More(); itER.Next()){
     const TopoDS_Shape& e = itER.Value();
-    TopTools_ListOfShape eL; eL.Append(e);
+    TopTools_ListOfShape eL; eL.push_back(e);
     Standard_Boolean isonL = TopOpeBRep_FacesFiller::LSameDomainERL(L,eL);
-    if (isonL) ERLonFonL.Append(e);
+    if (isonL) ERLonFonL.push_back(e);
   }
   // <L> is on at most one edge restriction.
-  if (ERLonFonL.Extent() != 1) return Standard_False;
-  ER = TopoDS::Edge(ERLonFonL.First());
+  if (ERLonFonL.size() != 1) return Standard_False;
+  ER = TopoDS::Edge(ERLonFonL.front());
   return Standard_True;
 }
 

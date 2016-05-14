@@ -241,7 +241,7 @@ void TestTopOpe_BOOP::Booope(const char* key,const char *namres)
     else return;
     TopTools_ListOfShape LE; myHB->InitSection(k);
     for (;myHB->MoreSection();myHB->NextSection())
-      LE.Append(myHB->CurrentSection());
+      LE.push_back(myHB->CurrentSection());
     MakeResult(LE); StoreResult(key,namres);
   }
 
@@ -354,7 +354,7 @@ void TestTopOpe_BOOP::GetSplit(const TopAbs_ShapeEnum typ,
 
     cout<<namres<<" : Split ";TopAbs::Print(sta,cout);
     cout<<" (";TopAbs::Print(typ,cout);cout<<","<<isha<<")";
-    cout<<" --> "<<LS.Extent();
+    cout<<" --> "<<LS.size();
     cout<<endl;
 
     Standard_Boolean bcle = myVarsTopo.GetClear();
@@ -441,7 +441,7 @@ void TestTopOpe_BOOP::GetMerged(const TopAbs_ShapeEnum typ,const TopAbs_State st
 
     cout<<namres<<" : Merged ";TopAbs::Print(sta,cout);
     cout<<" (";TopAbs::Print(typ,cout);cout<<","<<isha<<")";
-    cout<<" --> "<<LS.Extent()<<" shape";
+    cout<<" --> "<<LS.size()<<" shape";
     cout<<endl;
 
     Standard_Boolean bcle = myVarsTopo.GetClear();

@@ -129,8 +129,8 @@ static Standard_Integer FUN_getAncestorFsp(TopOpeBRepBuild_Builder& B,TopOpeBRep
   else if (of2 && !of1) rkfsp = 2;
   Standard_Boolean unk = (rkfsp == 0);
 
-  Standard_Integer rkf1 = BDS.AncestorRank(LF1.First()); 
-  Standard_Integer rkf2 = BDS.AncestorRank(LF2.First());  
+  Standard_Integer rkf1 = BDS.AncestorRank(LF1.front()); 
+  Standard_Integer rkf2 = BDS.AncestorRank(LF2.front());  
   Standard_Boolean p3ddef = Standard_False; gp_Pnt p3d;
   
   Standard_Boolean ison1 = (rkf1 == rkfsp); 
@@ -252,7 +252,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
 	GLOBAL_lfrtoprocess = Standard_True;
 	if (GLOBAL_lfrtoprocess) {
 	  if (GLOBAL_lfr1==NULL) GLOBAL_lfr1=(TopTools_ListOfShape*)new TopTools_ListOfShape();
-	  GLOBAL_lfr1->Clear();
+	  GLOBAL_lfr1->clear();
 	}
       }
 
@@ -280,7 +280,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
       // WES : toutes les faces de meme orientation topologique
       LF1 = LFSO1; // NYI pointeurs
       LF2 = LFSO2; // NYI pointeurs
-      l1 = LF1.Extent(); l2 = LF2.Extent();
+      l1 = LF1.size(); l2 = LF2.size();
       dodo = (l1!=0) && (l2!=0);      
       
       FUN_unsetmotherope(); // +12/07
@@ -313,7 +313,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
 
 	// ici : GLOBAL_lfrtoprocess = t
 	if (GLOBAL_lfr1==NULL) GLOBAL_lfr1=(TopTools_ListOfShape*)new TopTools_ListOfShape(); //flo150998
-	GLOBAL_lfr1->Clear();
+	GLOBAL_lfr1->clear();
 	GSplitFaceSFS(FOR,LSO2,GM,SFS);
 	GLOBAL_lfrtoprocess = Standard_False;
 	GLOBAL_revownsplfacori = Standard_False;
@@ -322,7 +322,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
       // WES : FOR + faces d'orientation topologique opposee
       LF1 = LFSO1; // NYI pointeurs
       LF2 = LFDO2; // NYI pointeurs
-      l1 = LF1.Extent(); l2 = LF2.Extent();
+      l1 = LF1.size(); l2 = LF2.size();
       dodo = (l1!=0) && (l2!=0);
       
       
@@ -366,13 +366,13 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
 	    for (; it.More(); it.Next()) {
 	      const TopoDS_Shape& f = it.Value();
 	      Standard_Boolean issplit = IsSplit(f,TopAbs_IN);
-	      if ( issplit ) ChangeSplit(f,TopAbs_IN).Clear();
+	      if ( issplit ) ChangeSplit(f,TopAbs_IN).clear();
 	    }
 	    it.Initialize(LF2);
 	    for (; it.More(); it.Next()) {
 	      const TopoDS_Shape& f = it.Value();
 	      Standard_Boolean issplit = IsSplit(f,TopAbs_IN);
-	      if ( issplit ) ChangeSplit(f,TopAbs_IN).Clear();
+	      if ( issplit ) ChangeSplit(f,TopAbs_IN).clear();
 	    }
 	    ChangeSplit(FOR,TopAbs_IN).Append(spFORcopy); // keep split for reference
 	  } // issplitIN
@@ -431,7 +431,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
       GLOBAL_SplitAnc->Clear(); // xpu280598
 
       // FuseFace
-      SFS.ChangeStartShapes().Extent();
+      SFS.ChangeStartShapes().size();
       if (performfufa) {	
 #ifdef OCCT_DEBUG
 	if(tSPS) debffflo(iF);
@@ -483,7 +483,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
     GSplitFaceSFS(FOR,LSO2,Gin,SFS);
   }
   
-  myEdgeAvoid.Clear();
+  myEdgeAvoid.clear();
   
 #ifdef OCCT_DEBUG
   if(tSPS){

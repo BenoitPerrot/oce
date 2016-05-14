@@ -104,13 +104,13 @@ void DNaming::GetShape (const Standard_CString      LabelName,
 			const Handle(TDF_Data)&     DF,
 			TopTools_ListOfShape&       L)
 {
-  L.Clear();
+  L.clear();
   TDF_Label Label;
   Standard_Boolean Found = DDF::AddLabel (DF, LabelName, Label);
   if (Found) {
     TNaming_Iterator it (Label, DF->Transaction ());
     for (; it.More(); it.Next()) {
-      L.Append(it.NewShape());
+      L.push_back(it.NewShape());
     }
   }
 }
@@ -236,7 +236,7 @@ static void LoadC0Vertices(const TopoDS_Shape& S,
 	}
       }
       if (faceIsNew) {
-	vertexNaborFaces.ChangeFind(aVertex).Append(aFace);
+	vertexNaborFaces.ChangeFind(aVertex).push_back(aFace);
       }
     }
   }
@@ -244,7 +244,7 @@ static void LoadC0Vertices(const TopoDS_Shape& S,
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itr(vertexNaborFaces);
   for (; itr.More(); itr.Next()) {
     const TopTools_ListOfShape& naborFaces = itr.Value();
-    if (naborFaces.Extent() < 3) {
+    if (naborFaces.size() < 3) {
       TNaming_Builder bC0Vertex(Tagger->NewChild());
       bC0Vertex.Generated(itr.Key());
     }
@@ -277,7 +277,7 @@ static void LoadC0Edges(const TopoDS_Shape& S,
 	}
       }
       if (faceIsNew) {
-	edgeNaborFaces.ChangeFind(anEdge).Append(aFace);
+	edgeNaborFaces.ChangeFind(anEdge).push_back(aFace);
       }
     }
   }
@@ -289,7 +289,7 @@ static void LoadC0Edges(const TopoDS_Shape& S,
     TopoDS_Shape anEdge1 = anEx.Current();
     if (edgeNaborFaces.IsBound(anEdge1)) {
       const TopTools_ListOfShape& aList1 = edgeNaborFaces.Find(anEdge1);
-      if (aList1.Extent()<2) continue; // mpv (06.09.2002): these edges already was loaded
+      if (aList1.size()<2) continue; // mpv (06.09.2002): these edges already was loaded
       TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itr(edgeNaborFaces);
       for (; itr.More(); itr.Next()) {
 	TopoDS_Shape anEdge2 = itr.Key();
@@ -297,12 +297,12 @@ static void LoadC0Edges(const TopoDS_Shape& S,
 	if (anEdge1.IsSame(anEdge2)) continue;
 	const TopTools_ListOfShape& aList2 = itr.Value();
 	// compare lists of the neighbour faces of edge1 and edge2
-	if (aList1.Extent() == aList2.Extent()) {
+	if (aList1.size() == aList2.size()) {
 	  Standard_Integer aMatches = 0;
 	  for(TopTools_ListIteratorOfListOfShape aLIter1(aList1);aLIter1.More();aLIter1.Next())
 	    for(TopTools_ListIteratorOfListOfShape aLIter2(aList2);aLIter2.More();aLIter2.Next())
 	      if (aLIter1.Value().IsSame(aLIter2.Value())) aMatches++;
-	  if (aMatches == aList1.Extent()) {
+	  if (aMatches == aList1.size()) {
 	    aC0=Standard_True;
 	    TNaming_Builder bC0Edge(Tagger->NewChild());
 	    bC0Edge.Generated(anEdge2);
@@ -344,7 +344,7 @@ static Standard_Boolean GetDangleShapes(const TopoDS_Shape& ShapeIn,
   for (Standard_Integer i = 1; i <= subShapeAndAncestors.Extent(); i++) {
     const TopoDS_Shape& mayBeDangle = subShapeAndAncestors.FindKey(i);
     const TopTools_ListOfShape& ancestors = subShapeAndAncestors.FindFromIndex(i);
-    if (ancestors.Extent() == 1) Dangles.Bind(ancestors.First(), mayBeDangle);
+    if (ancestors.size() == 1) Dangles.Bind(ancestors.front(), mayBeDangle);
   }
   return !Dangles.IsEmpty();
 }
@@ -394,7 +394,7 @@ static void LoadNextLevels(const TopoDS_Shape& S,
     TopExp::MapShapesAndAncestors(S, TopAbs_EDGE, TopAbs_FACE, anEdgeAndNeighbourFaces);
     for (Standard_Integer i = 1; i <= anEdgeAndNeighbourFaces.Extent(); i++) {
       const TopTools_ListOfShape& aLL = anEdgeAndNeighbourFaces.FindFromIndex(i);
-      if (aLL.Extent() < 2) {
+      if (aLL.size() < 2) {
 	TNaming_Builder bFreeEdges(Tagger->NewChild());
 	bFreeEdges.Generated(anEdgeAndNeighbourFaces.FindKey(i));
       } else {

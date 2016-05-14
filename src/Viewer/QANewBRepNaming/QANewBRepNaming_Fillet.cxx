@@ -140,52 +140,52 @@ void QANewBRepNaming_Fillet::Load(const TopoDS_Shape& theContext,
     for (; ShapeExplorer.More(); ShapeExplorer.Next ()) {
       const TopoDS_Shape& aRoot = ShapeExplorer.Current ();
       const TopTools_ListOfShape& aShapes = theMkFillet.Generated (aRoot);
-      if(aShapes.Extent() == 2) {
-	if(aShapes.First().ShapeType() == TopAbs_FACE && aShapes.Last().ShapeType() == TopAbs_FACE) {
+      if(aShapes.size() == 2) {
+	if(aShapes.front().ShapeType() == TopAbs_FACE && aShapes.back().ShapeType() == TopAbs_FACE) {
 	  IsWRCase = Standard_True;
 	  GProp_GProps aF1Props, aF2Props;
-	  BRepGProp::SurfaceProperties(aShapes.First(), aF1Props);
-	  BRepGProp::SurfaceProperties(aShapes.Last(), aF2Props);
+	  BRepGProp::SurfaceProperties(aShapes.front(), aF1Props);
+	  BRepGProp::SurfaceProperties(aShapes.back(), aF2Props);
 	  TNaming_Builder aF1Builder(WRFace1());
 	  TNaming_Builder aF2Builder(WRFace2());
 
 	  // Naming of Faces
 	  TopoDS_Shape aLessFace;
 	  if(aF1Props.Mass() < aF2Props.Mass()) {
-	    aLessFace = aShapes.First();
-	    aF1Builder.Generated(aShapes.First());
-	    aF2Builder.Generated(aShapes.Last());
+	    aLessFace = aShapes.front();
+	    aF1Builder.Generated(aShapes.front());
+	    aF2Builder.Generated(aShapes.back());
 	  } else {
-	    aLessFace = aShapes.Last();
-	    aF1Builder.Generated(aShapes.Last());
-	    aF2Builder.Generated(aShapes.First());
+	    aLessFace = aShapes.back();
+	    aF1Builder.Generated(aShapes.back());
+	    aF2Builder.Generated(aShapes.front());
 	  }
 
 	  // Naming of Common Edges
-	  TopExp_Explorer anExp1(aShapes.First(), TopAbs_EDGE);
+	  TopExp_Explorer anExp1(aShapes.front(), TopAbs_EDGE);
 	  TopTools_ListOfShape aCommonEdges;
 	  for(;anExp1.More();anExp1.Next()) {
-	    TopExp_Explorer anExp2(aShapes.Last(), TopAbs_EDGE);
+	    TopExp_Explorer anExp2(aShapes.back(), TopAbs_EDGE);
 	    for(;anExp2.More();anExp2.Next())
 	      if(anExp1.Current().IsSame(anExp2.Current())) {
-		aCommonEdges.Append(anExp1.Current());
+		aCommonEdges.push_back(anExp1.Current());
 		break;
 	      }
 	  }
 
-	  if(aCommonEdges.Extent() != 2)
+	  if(aCommonEdges.size() != 2)
 	    break;
 
 	  anExp1.Init(aLessFace, TopAbs_EDGE);
 	  TopTools_ListOfShape anOtherEdges;
 	  for(;anExp1.More();anExp1.Next()) {
-	    if(!anExp1.Current().IsSame(aCommonEdges.First()) && !anExp1.Current().IsSame(aCommonEdges.Last()))
-	      anOtherEdges.Append(anExp1.Current());
+	    if(!anExp1.Current().IsSame(aCommonEdges.front()) && !anExp1.Current().IsSame(aCommonEdges.back()))
+	      anOtherEdges.push_back(anExp1.Current());
 	  }
 
 	  GProp_GProps anE1Props, anE2Props;
-	  BRepGProp::LinearProperties(anOtherEdges.First(), anE1Props);
-	  BRepGProp::LinearProperties(anOtherEdges.Last(), anE2Props);
+	  BRepGProp::LinearProperties(anOtherEdges.front(), anE1Props);
+	  BRepGProp::LinearProperties(anOtherEdges.back(), anE2Props);
 	  gp_Pnt P1, P2;
 	  if(anE1Props.Mass() < anE2Props.Mass()) {
 	    P1 = anE1Props.CentreOfMass();
@@ -195,8 +195,8 @@ void QANewBRepNaming_Fillet::Load(const TopoDS_Shape& theContext,
 	    P2 = anE1Props.CentreOfMass();
 	  }
 
-	  BRepGProp::LinearProperties(aCommonEdges.First(), anE1Props);
-	  BRepGProp::LinearProperties(aCommonEdges.Last(), anE2Props);
+	  BRepGProp::LinearProperties(aCommonEdges.front(), anE1Props);
+	  BRepGProp::LinearProperties(aCommonEdges.back(), anE2Props);
 
 	  gp_Pnt EP1 = anE1Props.CentreOfMass();
 	  gp_Pnt EP2 = anE2Props.CentreOfMass();
@@ -216,23 +216,23 @@ void QANewBRepNaming_Fillet::Load(const TopoDS_Shape& theContext,
 	  gp_Vec aCr2 = aMainVec.Crossed(aV2);
 	  TopoDS_Shape aFirst, aSecond;
 	  if(aCr1.X() > 0 && aCr2.X() < 0) {
-	    aFirst = aCommonEdges.First();
-	    aSecond = aCommonEdges.Last();
+	    aFirst = aCommonEdges.front();
+	    aSecond = aCommonEdges.back();
 	  } else if(aCr2.X() > 0 && aCr1.X() < 0) {
-	    aFirst = aCommonEdges.Last();
-	    aSecond = aCommonEdges.First();
+	    aFirst = aCommonEdges.back();
+	    aSecond = aCommonEdges.front();
 	  } else if(aCr1.Y() > 0 && aCr2.Y() < 0) {
-	    aFirst = aCommonEdges.First();
-	    aSecond = aCommonEdges.Last();
+	    aFirst = aCommonEdges.front();
+	    aSecond = aCommonEdges.back();
 	  } else if(aCr2.Y() > 0 && aCr1.Y() < 0) {
-	    aFirst = aCommonEdges.Last();
-	    aSecond = aCommonEdges.First();
+	    aFirst = aCommonEdges.back();
+	    aSecond = aCommonEdges.front();
 	  } else if(aCr1.Z() > 0 && aCr2.Z() < 0) {
-	    aFirst = aCommonEdges.First();
-	    aSecond = aCommonEdges.Last();
+	    aFirst = aCommonEdges.front();
+	    aSecond = aCommonEdges.back();
 	  } else if(aCr2.Z() > 0 && aCr1.Z() < 0) {
-	    aFirst = aCommonEdges.Last();
-	    aSecond = aCommonEdges.First();
+	    aFirst = aCommonEdges.back();
+	    aSecond = aCommonEdges.front();
 	  }
 
 	  TNaming_Builder anE1Builder(WREdge1());

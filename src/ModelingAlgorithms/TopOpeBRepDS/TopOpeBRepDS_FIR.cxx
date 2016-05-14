@@ -380,7 +380,7 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
     // donnees samedomain attachees a l'arete iEG
     const TopTools_ListOfShape& esdeg = BDS.ShapeSameDomain(iEG);
     Standard_Boolean egissect = BDS.IsSectionEdge(TopoDS::Edge(EG));
-    Standard_Boolean eghasesd = (! esdeg.IsEmpty());
+    Standard_Boolean eghasesd = (! esdeg.empty());
 
 #ifdef OCCT_DEBUG
 //    Standard_Integer egiref = BDS.SameDomainRef(iEG);

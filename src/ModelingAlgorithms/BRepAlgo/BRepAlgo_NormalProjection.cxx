@@ -256,7 +256,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
   Standard_Boolean YaVertexRes = Standard_False;
   
   for(i = 1; i <= NbEdges; i++){
-    DescenList.Clear();
+    DescenList.clear();
     BRepAdaptor_Curve cur(TopoDS::Edge(Edges->Value(i)));
     Handle(BRepAdaptor_HCurve) hcur = new BRepAdaptor_HCurve();
     hcur->Set(cur);
@@ -303,7 +303,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 #endif
 	  Projector.GetSurface()->D0(P2d.X(), P2d.Y(), P);
 	  prj = BRepLib_MakeVertex(P).Shape();
-	  DescenList.Append(prj);
+	  DescenList.push_back(prj);
 	  BB.Add(VertexRes, prj);
 	  YaVertexRes = Standard_True;
 	  
@@ -489,7 +489,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 	       TopTools_ListOfShape LS;
 	       TopTools_ListIteratorOfListOfShape Iter; 
 	       HB = BoolTool.Builder();
-	       LS.Clear();
+	       LS.clear();
 	       if (HB->IsSplit(prj, TopAbs_IN))
 	         LS = HB->Splits(prj, TopAbs_IN);
 	       Iter.Initialize(LS);
@@ -517,7 +517,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 	         state = classifier.Perform(Puv);
 	         if(state == TopAbs_IN || state  == TopAbs_ON) {
 		   BB.Add(myRes, prj);
-		   DescenList.Append(prj);
+		   DescenList.push_back(prj);
 		   myAncestorMap.Bind(prj, Edges->Value(i));   
 		   myCorresp.Bind(prj, Faces->Value(j));
 	         }
@@ -539,7 +539,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 	      state = classifier.Perform(Puv);
 	      if(state == TopAbs_IN || state  == TopAbs_ON) {
 		 BB.Add(myRes, prj);
-		 DescenList.Append(prj);
+		 DescenList.push_back(prj);
 		 myAncestorMap.Bind(prj, Edges->Value(i));   
 		 myCorresp.Bind(prj, Faces->Value(j));
 	      }
@@ -551,7 +551,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 	  }
 	  else {
 	    BB.Add(myRes, prj);
-	    DescenList.Append(prj);
+	    DescenList.push_back(prj);
 	    myAncestorMap.Bind(prj, Edges->Value(i));   
 	    myCorresp.Bind(prj, Faces->Value(j));
 	  }
@@ -684,7 +684,7 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
     for ( ; ExpOfShape.More(); ExpOfShape.Next()) 
     {
       const TopoDS_Shape& CurE = ExpOfShape.Current();
-      List.Append(CurE);
+      List.push_back(CurE);
     }
     BRepLib_MakeWire MW;
     MW.Add(List);
@@ -696,9 +696,9 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
       TopExp_Explorer exp2(Wire,TopAbs_EDGE);
       Standard_Integer NbEdges = 0;
       for (;exp2.More(); exp2.Next()) NbEdges++;
-      if ( NbEdges == List.Extent()) 
+      if ( NbEdges == List.size()) 
       {
-          ListOfWire.Append(Wire);
+          ListOfWire.push_back(Wire);
           IsWire = Standard_True;
       }
     }

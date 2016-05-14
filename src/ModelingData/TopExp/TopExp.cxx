@@ -86,7 +86,7 @@ void  TopExp::MapShapesAndAncestors
     while (exs.More()) {
       Standard_Integer index = M.FindIndex(exs.Current());
       if (index == 0) index = M.Add(exs.Current(),empty);
-      M(index).Append(anc);
+      M(index).push_back(anc);
       exs.Next();
     }
     exa.Next();

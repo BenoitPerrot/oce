@@ -119,9 +119,9 @@ void FUN_DetectVerticesOn1Edge(const TopoDS_Shape& W,TopTools_IndexedDataMapOfSh
     if (V.Orientation() == TopAbs_INTERNAL) continue;
 
     const TopTools_ListOfShape& loE = mapVedges.FindFromIndex(i);
-    if (loE.Extent() < 2) {
+    if (loE.size() < 2) {
       // Keeping INTERNAL or EXTERNAL edges
-      const TopoDS_Shape& E = loE.First();
+      const TopoDS_Shape& E = loE.front();
       TopAbs_Orientation oriE = E.Orientation();
       if ((oriE == TopAbs_INTERNAL) || (oriE == TopAbs_EXTERNAL)) continue;
       mapVon1E.Add(V,E);
@@ -433,7 +433,7 @@ void TopOpeBRepBuild_FaceBuilder::DetectPseudoInternalEdge(TopTools_IndexedMapOf
   MapE.Clear();
   for (Standard_Integer i = 1; i <= nv; i++) {
     const TopTools_ListOfShape& le = mapVOE.FindFromIndex(i);
-    Standard_Integer ne = le.Extent();
+    Standard_Integer ne = le.size();
     if (ne == 2) {
       TopTools_ListIteratorOfListOfShape ile(le); const TopoDS_Shape& e1 = ile.Value();
       ile.Next();        const TopoDS_Shape& e2 = ile.Value();

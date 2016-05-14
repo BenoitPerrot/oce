@@ -90,7 +90,7 @@ const Standard_Integer TopOpeBRepTool_PurgeInternalEdges::NbEdges() const
       const TopoDS_Shape& facecur = itFacEdg.Key();
       const TopTools_ListOfShape& LmapEdg = myMapFacLstEdg.Find(facecur);
      
-      nbedges += LmapEdg.Extent();      
+      nbedges += LmapEdg.size();      
     }
     
   }
@@ -160,9 +160,9 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
     // can be removed
 
     itFac.Initialize(LmapFac);
-    LstFacToTreat.Clear();
+    LstFacToTreat.clear();
 
-    if (LmapFac.Extent() > 1) {
+    if (LmapFac.size() > 1) {
 
       ToKeep = Standard_False;
       // for each face in the list of the edge
@@ -179,12 +179,12 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
 	    // we found the edge. Now check if its orientation is internal or external
 	    // then the face is candidate to be modified. So put it in a temporary List of shapes
 	    if (orien == TopAbs_INTERNAL || orien == TopAbs_EXTERNAL) {
-	      LstFacToTreat.Append(facecur);
+	      LstFacToTreat.push_back(facecur);
 	    }
 	    else {
 	      // there is at least one face that contains that edge with a forward
 	      // or reversed orientation. So we must keep that edge.
-	      LstFacToTreat.Clear();
+	      LstFacToTreat.clear();
 	      ToKeep = Standard_True;
 	    }
 	    break;
@@ -198,13 +198,13 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
 
     else {
        if (edgecur.Orientation() == TopAbs_INTERNAL || edgecur.Orientation() == TopAbs_EXTERNAL) {
-	 LstFacToTreat.Append(itFac.Value());
+	 LstFacToTreat.push_back(itFac.Value());
        }
     }
     
     // at that point, we have in the list LstFacToTreat the faces in which edgecur is
     // connex and is coded only Internal or External.
-    if (!LstFacToTreat.IsEmpty()) {
+    if (!LstFacToTreat.empty()) {
       TopTools_MapOfShape mapUniqEdg;
       for (itFacToTreat.Initialize(LstFacToTreat); itFacToTreat.More(); itFacToTreat.Next()) {
 	const TopoDS_Shape& face = itFacToTreat.Value();
@@ -215,7 +215,7 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
 	  TopTools_ListOfShape LmapEdg;
 	  if (!mapUniqEdg.Contains(edgecur)) {
 	    mapUniqEdg.Add(edgecur);
-	    LmapEdg.Append(edgecur);
+	    LmapEdg.push_back(edgecur);
 	    myMapFacLstEdg.Bind(face,LmapEdg);
 	  }
 	}
@@ -223,7 +223,7 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
 	  TopTools_ListOfShape& LmapEdg = myMapFacLstEdg.ChangeFind(face);
 	  if (!mapUniqEdg.Contains(edgecur)) {
 	    mapUniqEdg.Add(edgecur);
-	    LmapEdg.Append(edgecur);
+	    LmapEdg.push_back(edgecur);
 	  }
 	} 
 	
@@ -270,7 +270,7 @@ void TopOpeBRepTool_PurgeInternalEdges::BuildList()
 
     Bsub.Build(myShape);
     if (Bsub.IsCopied(myShape)) {
-      myShape=(Bsub.Copy(myShape)).First();
+      myShape=(Bsub.Copy(myShape)).front();
     }
   }
 }

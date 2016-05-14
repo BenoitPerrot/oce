@@ -337,11 +337,11 @@ namespace
     {
       // reject free edges
       const TopTools_ListOfShape& aFaceList = anEdgesMap.FindFromIndex (anEdgeIdx);
-      if (aFaceList.Extent() == 0)
+      if (aFaceList.size() == 0)
         continue;
 
       // take one of the shared edges and get edge triangulation
-      const TopoDS_Face& aFace  = TopoDS::Face (aFaceList.First ());
+      const TopoDS_Face& aFace  = TopoDS::Face (aFaceList.front ());
       const TopoDS_Edge& anEdge = TopoDS::Edge (anEdgesMap.FindKey (anEdgeIdx));
 
       Handle(Poly_Triangulation) aTriangulation =

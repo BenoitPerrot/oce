@@ -105,7 +105,7 @@ Standard_EXPORT void FDSCNX_Prepare(const TopoDS_Shape& /*S1*/,
   GLOBAL_elf1->Clear();
   GLOBAL_elf2->Clear();
   GLOBAL_fle->Clear();
-  GLOBAL_los->Clear();
+  GLOBAL_los->clear();
 
   Standard_Integer i=0,n=BDS.NbShapes();
   for (i=1;i<=n;i++) {
@@ -122,8 +122,8 @@ Standard_EXPORT void FDSCNX_Prepare(const TopoDS_Shape& /*S1*/,
 //      Standard_Boolean se = BDS.IsSectionEdge(TopoDS::Edge(e)); if (!se) continue;
       Standard_Boolean hs = BDS.HasShape(TopoDS::Edge(e)); if (!hs) continue;
       TopTools_ListOfShape thelist, thelist1;
-      if (!fle.IsBound(f)) fle.Bind(f, thelist); fle.ChangeFind(f).Append(e);
-      if (!elf.IsBound(e)) elf.Bind(e, thelist1); elf.ChangeFind(e).Append(f);
+      if (!fle.IsBound(f)) fle.Bind(f, thelist); fle.ChangeFind(f).push_back(e);
+      if (!elf.IsBound(e)) elf.Bind(e, thelist1); elf.ChangeFind(e).push_back(f);
     }
   }
   GLOBAL_FDSCNX_prepared = Standard_True;
@@ -145,7 +145,7 @@ Standard_EXPORT Standard_Boolean FDSCNX_HasConnexFace(const TopoDS_Shape& S,cons
 
 Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const TopoDS_Shape& E,const Handle(TopOpeBRepDS_HDataStructure)& HDS,TopTools_ListOfShape& LF) 
 {
-  LF.Clear();
+  LF.clear();
 #ifdef OCCT_DEBUG
 //  Standard_Integer Fi =
 #endif
@@ -157,7 +157,7 @@ Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const Topo
 
   // verifier que E est une arete de connexite de F
   Standard_Boolean EofF = Standard_False;
-  const TopTools_ListOfShape& loe = FDSCNX_EdgeConnexitySameShape(F,HDS); if (loe.IsEmpty()) return;
+  const TopTools_ListOfShape& loe = FDSCNX_EdgeConnexitySameShape(F,HDS); if (loe.empty()) return;
   for (TopTools_ListIteratorOfListOfShape i(loe);i.More();i.Next()) {
     const TopoDS_Shape& e = i.Value();
 //             HDS->Shape(e);
@@ -169,7 +169,7 @@ Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const Topo
   }
   if (!EofF) return;
   
-  const TopTools_ListOfShape& lof = FDSCNX_EdgeConnexitySameShape(E,HDS); if (lof.IsEmpty()) return;
+  const TopTools_ListOfShape& lof = FDSCNX_EdgeConnexitySameShape(E,HDS); if (lof.empty()) return;
   for (TopTools_ListIteratorOfListOfShape it(lof);it.More();it.Next()) {
     const TopoDS_Shape& f = it.Value();
 #ifdef OCCT_DEBUG
@@ -178,7 +178,7 @@ Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const Topo
 //             HDS->Shape(f);
     Standard_Boolean b = f.IsSame(F);
     if (!b) {
-      LF.Append(f);
+      LF.push_back(f);
     }
   }
 }

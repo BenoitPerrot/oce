@@ -81,7 +81,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
 {
 //  Modified by skv - Mon May 31 12:59:10 2004 OCC5865 End
   myDone = Standard_False;
-  myRes.Clear();
+  myRes.clear();
 
   BRep_Builder B;
   TopoDS_Compound C;
@@ -110,7 +110,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
     TopoDS_Edge   etmp;
     Standard_Real partmp;
 
-    if (theMapVE(i).Extent() == 1 || PW->OnEdge(vtx, etmp, partmp)) {
+    if (theMapVE(i).size() == 1 || PW->OnEdge(vtx, etmp, partmp)) {
       Bords.Add(vtx);
 //  Modified by skv - Mon May 31 13:07:50 2004 OCC5865 End
     }
@@ -120,7 +120,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
   while ((i=FindFirstEdge(theMapVE,Bords)) <= theMapVE.Extent()) {
     TopTools_IndexedMapOfShape mapE;
     TopTools_MapOfShape mapV;
-    const TopoDS_Edge&  edgf = TopoDS::Edge(theMapVE(i).First());
+    const TopoDS_Edge&  edgf = TopoDS::Edge(theMapVE(i).front());
 
     TopoDS_Vertex VF,VL;
     TopExp::Vertices(edgf,VF,VL);
@@ -195,7 +195,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
       newWire.Closed(Standard_False);
     }
 
-    myRes.Append(newWire);
+    myRes.push_back(newWire);
     TopTools_MapIteratorOfMapOfShape itm;
     for (itm.Initialize(mapV);
 	 itm.More();itm.Next()) {
@@ -205,7 +205,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
       itl.Initialize(theMapVE(ind));
       while (itl.More()) {
 	if (mapE.Contains(itl.Value())) {
-	  theMapVE(ind).Remove(itl);
+	  itl = theMapVE(ind).erase(itl);
 	}
 	else {
 	  itl.Next();
@@ -257,7 +257,7 @@ static Standard_Integer FindFirstEdge
   Standard_Integer i = 1;
 
   for (; i<=theMapVE.Extent(); i++) {
-    if (theMapVE(i).Extent() >0) {
+    if (theMapVE(i).size() >0) {
       break;
     }
   }
@@ -269,7 +269,7 @@ static Standard_Integer FindFirstEdge
   Standard_Integer goodi = i;
   for (; i <= theMapVE.Extent(); i++) {
     const TopoDS_Shape& vtx = theMapVE.FindKey(i);
-    if (theMapVE(i).Extent() >0 && theBord.Contains(vtx)) {
+    if (theMapVE(i).size() >0 && theBord.Contains(vtx)) {
       goodi = i;
       break;
     }

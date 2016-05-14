@@ -54,7 +54,7 @@ void LocOpe_FindEdgesInFace::Set(const TopoDS_Shape& Sh,
 {
   myShape = Sh;
   myFace = F;
-  myList.Clear();
+  myList.clear();
 
   TopTools_MapOfShape M;
   TopExp_Explorer exp,expf;
@@ -99,7 +99,7 @@ void LocOpe_FindEdgesInFace::Set(const TopoDS_Shape& Sh,
     }
     if (expf.More()) { // partage d`edge
       M.Add(edg);
-      myList.Append(edg);
+      myList.push_back(edg);
       continue;
     }
 
@@ -171,7 +171,7 @@ void LocOpe_FindEdgesInFace::Set(const TopoDS_Shape& Sh,
       }
       if (i >= 3) { 
 	M.Add(edg);
-	myList.Append(edg);
+	myList.push_back(edg);
       }
     }
   }

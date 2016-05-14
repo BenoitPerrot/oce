@@ -121,7 +121,7 @@ HLRBRep_ShapeToHLR::Load(const Handle(HLRTopoBRep_OutLiner)& S,
     Standard_Boolean regn = Standard_False;
     Standard_Integer inde = EdgesToFaces.FindIndex(Edg);
     if (inde > 0) {
-      if (EdgesToFaces(inde).Extent() == 2) {
+      if (EdgesToFaces(inde).size() == 2) {
 	itn = EdgesToFaces(inde);
 	const TopoDS_Face& F1 = TopoDS::Face(itn.Value());
 	itn.Next();

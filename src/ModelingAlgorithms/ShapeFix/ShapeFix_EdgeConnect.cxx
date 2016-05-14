@@ -85,8 +85,8 @@ void ShapeFix_EdgeConnect::Add (const TopoDS_Edge& aFirst, const TopoDS_Edge& aS
       myVertices.Bind( theSecondVertex, theFirstShared );
       // Add second vertex and second edge to the list
       TopTools_ListOfShape& theFirstList = myLists( theFirstShared );
-      theFirstList.Append( theSecondVertex );
-      theFirstList.Append( aSecond );
+      theFirstList.push_back( theSecondVertex );
+      theFirstList.push_back( aSecond );
     }
   }
   else {
@@ -97,18 +97,18 @@ void ShapeFix_EdgeConnect::Add (const TopoDS_Edge& aFirst, const TopoDS_Edge& aS
       myVertices.Bind( theFirstVertex, theSecondShared );
       // Add first vertex and first edge to the list
       TopTools_ListOfShape& theSecondList = myLists( theSecondShared );
-      theSecondList.Append( theFirstVertex );
-      theSecondList.Append( aFirst );
+      theSecondList.push_back( theFirstVertex );
+      theSecondList.push_back( aFirst );
     }
     else {
       // None is bound - create new bindings
       myVertices.Bind( theFirstVertex, theFirstVertex );
       myVertices.Bind( theSecondVertex, theFirstVertex );
       TopTools_ListOfShape theNewList;
-      theNewList.Append( theFirstVertex );
-      theNewList.Append( aFirst );
-      theNewList.Append( theSecondVertex );
-      theNewList.Append( aSecond );
+      theNewList.push_back( theFirstVertex );
+      theNewList.push_back( aFirst );
+      theNewList.push_back( theSecondVertex );
+      theNewList.push_back( aSecond );
       myLists.Bind( theFirstVertex, theNewList );
     }
   }

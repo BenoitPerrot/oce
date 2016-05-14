@@ -63,8 +63,8 @@ extern Standard_Boolean TopOpeBRepTool_GettraceCORRISO();
 
 static void FUN_addtomap(TopTools_DataMapOfShapeListOfShape& map, const TopoDS_Shape& key, const TopoDS_Shape& item)
 {
-  if (map.IsBound(key))               map.ChangeFind(key).Append(item);
-  else {TopTools_ListOfShape los; los.Append(item); map.Bind(key,los);}
+  if (map.IsBound(key))               map.ChangeFind(key).push_back(item);
+  else {TopTools_ListOfShape los; los.push_back(item); map.Bind(key,los);}
 }
 
 static Standard_Boolean FUN_getv(const TopAbs_Orientation& orivine, const TopoDS_Shape& e, TopoDS_Shape& v)
@@ -162,8 +162,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClosedW(const TopoDS_Wire& W)
       if (vFine) edsvFRine = mapvFine.Find(vtocheck);
       else       edsvFRine = mapvRine.Find(vtocheck);
        
-      if (edsvFRine.Extent() > 1) return Standard_False; // faulty wire
-      const TopoDS_Shape& e = edsvFRine.First();
+      if (edsvFRine.size() > 1) return Standard_False; // faulty wire
+      const TopoDS_Shape& e = edsvFRine.front();
 
       TopAbs_Orientation ovori = vFine? TopAbs_REVERSED: TopAbs_FORWARD;
       TopoDS_Shape ov; Standard_Boolean ovfound = FUN_getv(ovori,e,ov);
@@ -186,10 +186,10 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClosedW(const TopoDS_Wire& W)
     
       const TopTools_ListOfShape& edsovFine = mapvFine.Find(ov);
       const TopTools_ListOfShape& edsovRine = mapvRine.Find(ov);
-      if (edsovFine.Extent() > 1) continue;
-      if (edsovRine.Extent() > 1) continue;
-      if (edsovFine.First().IsEqual(e)) return Standard_False;
-      if (edsovRine.First().IsEqual(e)) return Standard_False;
+      if (edsovFine.size() > 1) continue;
+      if (edsovRine.size() > 1) continue;
+      if (edsovFine.front().IsEqual(e)) return Standard_False;
+      if (edsovRine.front().IsEqual(e)) return Standard_False;
     }
   } // nmap
   return Standard_True; 
@@ -248,9 +248,9 @@ Standard_Boolean TopOpeBRepTool::PurgeClosingEdges(const TopoDS_Face& Fin, const
 	Standard_Boolean onclo = TopOpeBRepTool_TOOL::IsonCLO(C2DF,inU,xmin,xper,tolx);
 	if (onclo) closing=Standard_True;
       }
-      if (closing) cEds.Append(E);
+      if (closing) cEds.push_back(E);
     }          
-    Standard_Integer ncE = cEds.Extent();
+    Standard_Integer ncE = cEds.size();
     Standard_Boolean nopurge = (ncE <= 1);
     if (nopurge) return Standard_True;
     
@@ -784,12 +784,12 @@ Standard_Boolean TopOpeBRepTool::MakeFaces(const TopoDS_Face& Fin, const TopTool
 {
 //  TopOpeBRepDS_BuildTool BT;
   BRep_Builder BB;
-  LOFF.Clear();
+  LOFF.clear();
   TopTools_ListIteratorOfListOfShape it(LOF);
   for (; it.More(); it.Next()){
     const TopoDS_Face& FF = TopoDS::Face(it.Value());
     Standard_Boolean valid = !MshNOK.Contains(FF);
-    if (valid) {LOFF.Append(FF); continue;}
+    if (valid) {LOFF.push_back(FF); continue;}
     
     TopoDS_Shape aLocalShape = Fin.EmptyCopied();
     TopoDS_Face newFace = TopoDS::Face(aLocalShape);// BT.CopyFace(Fin,newFace);
@@ -821,7 +821,7 @@ Standard_Boolean TopOpeBRepTool::MakeFaces(const TopoDS_Face& Fin, const TopTool
       newWire.Closed(closed);
       BB.Add(newFace,newWire);
     } // exw
-    LOFF.Append(newFace);
+    LOFF.push_back(newFace);
   }
   return Standard_True;
 }

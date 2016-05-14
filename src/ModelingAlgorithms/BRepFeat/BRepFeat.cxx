@@ -550,7 +550,7 @@ TopoDS_Solid BRepFeat::Tool(const TopoDS_Shape& SRef,
   TopExp_Explorer exp(SRef,TopAbs_FACE) ;
   for ( ; exp.More(); exp.Next()) {
     if (exp.Current().ShapeType() == TopAbs_FACE) {
-      lfaces.Append(exp.Current());
+      lfaces.push_back(exp.Current());
     }
   }
    

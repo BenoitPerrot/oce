@@ -222,7 +222,7 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
       }
 
       if(SameEdge) {
-	OutL.Append(E);
+	OutL.push_back(E);
 	continue;
       }
 	      

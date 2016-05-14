@@ -365,9 +365,9 @@ static void FUN_tool_sortVonE(TopTools_ListOfShape& lov, const TopoDS_Edge E)
     Standard_Real par = tabpar.Value(i);
     Standard_Integer iv = mappar.FindIndex(par);
     const TopoDS_Shape& v = mapiv.Find(iv);
-    newlov.Append(v);
+    newlov.push_back(v);
   }
-  lov.Clear(); lov.Append(newlov);
+  lov.clear(); lov.Append(newlov);
 }
 
 //=======================================================================
@@ -386,9 +386,9 @@ Standard_Boolean TopOpeBRepTool_TOOL::SplitE(const TopoDS_Edge& Eanc, TopTools_L
   TopExp_Explorer exv(EFOR,TopAbs_VERTEX);  
   for (;exv.More(); exv.Next()) {
     const TopoDS_Shape& v = exv.Current();
-    lov.Append(v);
+    lov.push_back(v);
   }
-  Standard_Integer nv = lov.Extent();
+  Standard_Integer nv = lov.size();
   if (nv <= 2) return Standard_False;
 
   ::FUN_tool_sortVonE(lov,EFOR);
@@ -410,7 +410,7 @@ Standard_Boolean TopOpeBRepTool_TOOL::SplitE(const TopoDS_Edge& Eanc, TopTools_L
     BRep_Builder BB;
     v0.Orientation(TopAbs_FORWARD); BB.Add(ed,v0); FUN_ds_Parameter(ed,v0,par0); 
     v.Orientation(TopAbs_REVERSED); BB.Add(ed,v);  FUN_ds_Parameter(ed,v,par); 
-    Splits.Append(ed.Oriented(oEanc));
+    Splits.push_back(ed.Oriented(oEanc));
     v0 = v;
   }  
   return Standard_True;   
@@ -1432,7 +1432,9 @@ Standard_Boolean TopOpeBRepTool_TOOL::Remove(TopTools_ListOfShape& loS, const To
   TopTools_ListIteratorOfListOfShape it(loS);
   Standard_Boolean found = Standard_False;
   while (it.More()) {
-    if (it.Value().IsEqual(toremove)) {loS.Remove(it);found = Standard_True;}
+    if (it.Value().IsEqual(toremove)) {
+      it = loS.erase(it);
+      found = Standard_True;}
     else                              it.Next();
   }
   return found;
@@ -1538,7 +1540,7 @@ Standard_Boolean TopOpeBRepTool_TOOL::WireToFace(const TopoDS_Face& Fref, const 
       BB.Add(FF,wwi);
     }
     if (toreverse) FF.Orientation(TopAbs_REVERSED);
-    lFs.Append(FF);
+    lFs.push_back(FF);
   }
   return Standard_True;
 }

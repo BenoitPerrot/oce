@@ -71,8 +71,8 @@ static const TopoDS_Face& FC2D_FancestorE(const TopoDS_Edge& E)
   Standard_Boolean Eb = (*GLOBAL_pidmoslosc2df).Contains(E);
   if ( !Eb ) return *GLOBAL_pFc2df;
   const TopTools_ListOfShape& lf = (*GLOBAL_pidmoslosc2df).FindFromKey(E);
-  if (lf.IsEmpty()) return *GLOBAL_pFc2df;
-  const TopoDS_Face& F = TopoDS::Face(lf.First());
+  if (lf.empty()) return *GLOBAL_pFc2df;
+  const TopoDS_Face& F = TopoDS::Face(lf.front());
   return F;
 }
 

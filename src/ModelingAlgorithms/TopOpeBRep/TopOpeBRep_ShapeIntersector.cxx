@@ -179,7 +179,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
     {
       TopoDS_Face newRejectFace;
       TopoDS_Solid newSolid;
-      aListOfShape.Clear();
+      aListOfShape.clear();
       
       if( isHalfSpace == 1 )
 	{
@@ -198,7 +198,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	      if(!aBS.Compare(myFaceExplorer.Current()).More())
 		{
 		  const TopoDS_Shape& aS=myFaceExplorer.Current();
-		  aListOfShape.Append (aS);
+		  aListOfShape.push_back (aS);
 		}
 	    }
 
@@ -213,7 +213,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	      if(!aBS.Compare(myFaceExplorer.Current()).More())
 		{
 		  const TopoDS_Shape& aS=myFaceExplorer.Current();
-		  aListOfShape.Append (aS);
+		  aListOfShape.push_back (aS);
 		}
 	    }
 	}
@@ -234,7 +234,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	      if(!aBS.Compare(myFaceExplorer.Current()).More())
 		{
 		  const TopoDS_Shape& aS=myFaceExplorer.Current();
-		  aListOfShape.Append (aS);
+		  aListOfShape.push_back (aS);
 		}
 	    }
 
@@ -249,7 +249,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	      if(!aBS.Compare(myFaceExplorer.Current()).More())
 		{
 		  const TopoDS_Shape& aS=myFaceExplorer.Current();
-		  aListOfShape.Append (aS);
+		  aListOfShape.push_back (aS);
 		}
 	    }
 	}
@@ -269,7 +269,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	      const TopoDS_Edge& edgel = TopoDS::Edge( shape );
 	      if( edgef.IsSame( edgel ) )
 		{
-		  aListOfShape.Remove(it);
+		  it = aListOfShape.erase(it);
 		  break;
 		}
 	    }
@@ -285,7 +285,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 	  const TopoDS_Face& facel = TopoDS::Face( shape );
 	  if( facel.IsSame( newRejectFace ) )
 	    {
-	      aListOfShape.Remove(it);
+	      it = aListOfShape.erase(it);
 	      break;
 	    }
 	}
@@ -296,7 +296,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 
   Init(anObj, aReference);
 
-  aListOfShape.Clear(); 
+  aListOfShape.clear(); 
   //find faces to reject
   
   TopAbs_ShapeEnum tscann = TopAbs_SOLID;
@@ -309,7 +309,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
     TopOpeBRepTool_BoxSort& aBS = myFaceScanner.ChangeBoxSort();
     if(!aBS.Compare(myFaceExplorer.Current()).More()) {
       const TopoDS_Shape& aS=myFaceExplorer.Current();
-      aListOfShape.Append (aS);
+      aListOfShape.push_back (aS);
     }
   }
 
@@ -323,7 +323,7 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
     TopOpeBRepTool_BoxSort& aBS = myFaceScanner.ChangeBoxSort();
     if(!aBS.Compare(myFaceExplorer.Current()).More()) {
       const TopoDS_Shape& aS=myFaceExplorer.Current();
-      aListOfShape.Append (aS);
+      aListOfShape.push_back (aS);
     }
   }
 
@@ -1168,7 +1168,7 @@ static Standard_Integer OneShapeIsHalfSpace(const TopoDS_Shape& S1,const TopoDS_
 	  for( iE = 1; iE <= NbEdges; iE++)
 	    {
 	      const TopTools_ListOfShape& listFaces = aMapEF.FindFromIndex( iE );
-	      NbFaces = listFaces.Extent();
+	      NbFaces = listFaces.size();
 	      if( NbFaces != 2 )
 		{
 		  SecondShellOk = Standard_False;

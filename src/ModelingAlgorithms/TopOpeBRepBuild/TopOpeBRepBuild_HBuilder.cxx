@@ -282,7 +282,7 @@ void TopOpeBRepBuild_HBuilder::InitSection(const Standard_Integer k)
 {
   if (PLE == NULL) PLE = new TopTools_ListOfShape();
   if (PITLE == NULL) PITLE = new TopTools_ListIteratorOfListOfShape();
-  PLE->Clear(); PITLE->Initialize(*PLE);
+  PLE->clear(); PITLE->Initialize(*PLE);
   InitExtendedSectionDS(k);
   if      (k == 1) myBuilder.SectionCurves(*PLE);
   else if (k == 2) myBuilder.SectionEdges(*PLE);
@@ -600,7 +600,7 @@ Standard_Boolean TopOpeBRepBuild_HBuilder::EdgeSectionAncestors
 {
   if (E.ShapeType() != TopAbs_EDGE) return Standard_False;
 
-  LF1.Clear(); LF2.Clear(); LE1.Clear(); LE2.Clear();
+  LF1.clear(); LF2.clear(); LE1.clear(); LE2.clear();
   TColStd_ListOfInteger f1, f2;
   f1.Clear(); f2.Clear();
   Standard_Integer ie1, ie2, curr;
@@ -655,21 +655,21 @@ Standard_Boolean TopOpeBRepBuild_HBuilder::EdgeSectionAncestors
   const TopOpeBRepDS_DataStructure& DS = myBuilder.DataStructure()->DS();  
 
   if(ie1)
-    LE1.Append(DS.Shape(ie1));
+    LE1.push_back(DS.Shape(ie1));
   if(ie2)
-    LE2.Append(DS.Shape(ie2));
+    LE2.push_back(DS.Shape(ie2));
 
   for(it.Initialize(f1); it.More(); it.Next()) {
     curr = it.Value();
-    LF1.Append(DS.Shape(curr));
+    LF1.push_back(DS.Shape(curr));
   }
   for(it.Initialize(f2); it.More(); it.Next()) {
     curr = it.Value();
-    LF2.Append(DS.Shape(curr));
+    LF2.push_back(DS.Shape(curr));
   }
   
-  Standard_Boolean r = (!LF1.IsEmpty() && !LF2.IsEmpty());
-  r = r && (!LE1.IsEmpty() || !LE2.IsEmpty());
+  Standard_Boolean r = (!LF1.empty() && !LF2.empty());
+  r = r && (!LE1.empty() || !LE2.empty());
   return r;
 }
 

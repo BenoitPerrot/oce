@@ -105,8 +105,8 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
   KPiskolesh(myShape1,lShsd1,lfhsd1);
   KPiskolesh(myShape2,lShsd2,lfhsd2);
   // traitement de tous les solides NYI
-  TopoDS_Shape sol1 = lShsd1.First();
-  TopoDS_Shape sol2 = lShsd2.First();
+  TopoDS_Shape sol1 = lShsd1.front();
+  TopoDS_Shape sol2 = lShsd2.front();
   
   ChangeMerged(sol1,myState1); 
   ChangeMerged(sol2,myState2);
@@ -144,12 +144,12 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
 //    const TopoDS_Shape& f = itm1.Key();
 //   myDataStructure->Shape(f); //DEB
     const TopTools_ListOfShape& los = itm1.Value();
-    Standard_Boolean emp = los.IsEmpty();
+    Standard_Boolean emp = los.empty();
     if (!emp) {
       if (plfIN == NULL) plfIN = (TopTools_ListOfShape*)&itm1.Value();
       if (pfOU == NULL) pfOU = &itm1.Key();
-      if (pfIN == NULL) pfIN = &plfIN->First();
-      for (TopTools_ListIteratorOfListOfShape it(los);it.More();it.Next()) LFIN.Append(it.Value());
+      if (pfIN == NULL) pfIN = &plfIN->front();
+      for (TopTools_ListIteratorOfListOfShape it(los);it.More();it.Next()) LFIN.push_back(it.Value());
     }
   }
   
@@ -245,8 +245,8 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
   else if ( ires == RESFACE1 ) {
     if      (rankpfOU == 1) {
       // resultat = face de rang 1 et face de rang 1 = face OUT
-      lmergesha1.Append(*pfOU);
-      ChangeMerged(fac2,myState2).Append(*pfOU);
+      lmergesha1.push_back(*pfOU);
+      ChangeMerged(fac2,myState2).push_back(*pfOU);
     }
     else if (rankpfOU == 2) {
       // resultat = face de rang 1 et face de rang 1 = faces IN
@@ -259,8 +259,8 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
   else if ( ires == RESFACE2 ) {
     if      (rankpfOU == 2) {
       // resultat = face de rang 2 et face de rang 2 = face OUT
-      lmergesha1.Append(*pfOU);
-      ChangeMerged(fac1,myState1).Append(*pfOU);
+      lmergesha1.push_back(*pfOU);
+      ChangeMerged(fac1,myState1).push_back(*pfOU);
     }
     else if (rankpfOU == 1) {
       // resultat = face de rang 2 et face de rang 2 = faces IN
@@ -280,7 +280,7 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
       
       const TopoDS_Shape& f1 = itm1.Key();	
       const TopTools_ListOfShape& lf2 = itm1.Value();
-      if (lf2.IsEmpty()) continue;
+      if (lf2.empty()) continue;
       
       TopTools_ListIteratorOfListOfShape it2;
       it2.Initialize(lf2);
@@ -310,10 +310,10 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
       
       TopAbs_State statemergef1 = (rankf1 == 1) ? myState1 : myState2;
       TopAbs_State statemergef2 = (rankf2 == 2) ? myState2 : myState1;
-      ChangeMerged(f1,statemergef1).Append(fac);
+      ChangeMerged(f1,statemergef1).push_back(fac);
       it2.Initialize(lf2);
       for (;it2.More();it2.Next()) 
-	ChangeMerged(it2.Value(),statemergef2).Append(fac);
+	ChangeMerged(it2.Value(),statemergef2).push_back(fac);
       
       // les faces de she1 sauf les tangentes et celles deja ajoutees
       TopOpeBRepTool_ShapeExplorer fex1;
@@ -382,10 +382,10 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
       if (she1.IsEqual(shecur)) continue;
       if (icla1 == SHECLASAUTR) {
 	TopAbs_State state1 = KPclasSS(shecur,fac1,sol2);
-	if (state1 == myState1) loshe1.Append(shecur);
+	if (state1 == myState1) loshe1.push_back(shecur);
       }
       else if (icla1 == SHEGARDAUTR) {
-	loshe1.Append(shecur);
+	loshe1.push_back(shecur);
       }
     }
 #ifdef OCCT_DEBUG
@@ -407,10 +407,10 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
       if (she2.IsEqual(shecur)) continue;
       if      (icla2 == SHECLASAUTR) {
 	TopAbs_State state2 = KPclasSS(shecur,fac2,sol1);
-	if (state2 == myState2) loshe2.Append(shecur);
+	if (state2 == myState2) loshe2.push_back(shecur);
       }
       else if (icla2 == SHEGARDAUTR) {
-	loshe2.Append(shecur);
+	loshe2.push_back(shecur);
       }
     }
 #ifdef OCCT_DEBUG
@@ -425,7 +425,7 @@ void TopOpeBRepBuild_Builder::MergeKPartiskole()
   
   // le solide final
   if ( !newsol.IsNull() ) {
-    lmergesha1.Append(newsol);
+    lmergesha1.push_back(newsol);
   }
   
 } // MergeKPartiskole
@@ -444,12 +444,12 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
   
   Standard_Boolean iskp1 = KPiskolesh(myShape1,lShsd1,lfhsd1);
   if ( !iskp1 ) return 0;
-  Standard_Integer nfhsd1 = lfhsd1.Extent();
+  Standard_Integer nfhsd1 = lfhsd1.size();
   if ( nfhsd1 == 0 ) return 0;
   
   Standard_Boolean iskp2 = KPiskolesh(myShape2,lShsd2,lfhsd2);
   if ( !iskp2 ) return 0;
-  Standard_Integer nfhsd2 = lfhsd2.Extent();
+  Standard_Integer nfhsd2 = lfhsd2.size();
   if ( nfhsd2 == 0 ) return 0;
   
   // Si l'un des objets est constitue de plusieur solides on passe
@@ -458,8 +458,8 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
   // TopOpeBRepBuild_Builder::MergeKPartiskole(this = 0xf7988), 
   // line 397 in "/adv_21/MDL/k1deb/ref/prod/TopOpeBRepBuild/src/TopOpeBRepBuild_KPart.cxx"
   // DPF le 10/07/1997
-  Standard_Integer nshsd1 = lShsd1.Extent();
-  Standard_Integer nshsd2 = lShsd2.Extent();
+  Standard_Integer nshsd1 = lShsd1.size();
+  Standard_Integer nshsd2 = lShsd2.size();
   if (nshsd1>1 || nshsd2>1) return 0;
   
   TopTools_ListOfShape lf1,lf2;
@@ -472,8 +472,8 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
 #ifdef OCCT_DEBUG
 //    Standard_Boolean isb1 = myKPMAPf1f2.IsBound(f1); // DEB
 #endif
-    lf1.Clear(); lf1.Append(f1);
-    lf2.Clear(); KPSameDomain(lf1,lf2);
+    lf1.clear(); lf1.push_back(f1);
+    lf2.clear(); KPSameDomain(lf1,lf2);
 #ifdef OCCT_DEBUG
 //    Standard_Integer n1 = lf1.Extent();
 //    Standard_Integer n2 = lf2.Extent();
@@ -503,7 +503,7 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
 	Standard_Boolean isb1 = myKPMAPf1f2.IsBound(f1);
 	if ( ! isb1 ) { TopTools_ListOfShape los; myKPMAPf1f2.Bind(f1,los); }
 	TopTools_ListOfShape& los = myKPMAPf1f2.ChangeFind(f1);
-	los.Append(f2);
+	los.push_back(f2);
 	
 	Standard_Boolean isb2 = myKPMAPf1f2.IsBound(f2);
 	if ( ! isb2 ) { TopTools_ListOfShape los1; myKPMAPf1f2.Bind(f2,los1); }
@@ -512,7 +512,7 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
 	Standard_Boolean isb2 = myKPMAPf1f2.IsBound(f2);
 	if ( ! isb2 ) { TopTools_ListOfShape los; myKPMAPf1f2.Bind(f2,los); }
 	TopTools_ListOfShape& los = myKPMAPf1f2.ChangeFind(f2);
-	los.Append(f1);
+	los.push_back(f1);
 	
 	Standard_Boolean isb1 = myKPMAPf1f2.IsBound(f1);
 	if ( ! isb1 ) { TopTools_ListOfShape los1; myKPMAPf1f2.Bind(f1,los1); }
@@ -525,7 +525,7 @@ Standard_Integer TopOpeBRepBuild_Builder::KPiskole()
       if (fw.IsNull()) continue;
       
       TopOpeBRepTool_ShapeExplorer ex(fw,TopAbs_EDGE);
-      for (;ex.More();ex.Next()) les.Append(ex.Current());
+      for (;ex.More();ex.Next()) les.push_back(ex.Current());
     } 
   }
   
@@ -779,7 +779,7 @@ Standard_EXPORT Standard_Boolean FUNKP_KPiskolesh(const TopOpeBRepBuild_Builder&
   
   Standard_Integer nsol = BU.KPlhsd(Sarg,TopAbs_SOLID,lShsd);
   if ( nsol == 0 ) return Standard_False;
-  const TopoDS_Shape& sol = lShsd.First();
+  const TopoDS_Shape& sol = lShsd.front();
   
   TopTools_ListOfShape lfhg; 
   Standard_Integer nfhg = BU.KPlhg(sol,TopAbs_FACE,lfhg);

@@ -193,7 +193,7 @@ void TopOpeBRepBuild_Builder::GEDBUMakeEdges
 	if (!ok) tosplit = Standard_False;
 	else     LOE.Append(loe);
       }
-      if (!tosplit) LOE.Append(newEdge);
+      if (!tosplit) LOE.push_back(newEdge);
     }    
   } // EDBU.InitEdge : loop on EDBU edges
   

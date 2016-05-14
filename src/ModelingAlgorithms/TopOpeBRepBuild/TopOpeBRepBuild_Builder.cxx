@@ -472,7 +472,7 @@ TopAbs_State TopOpeBRepBuild_Builder::ShapePosition(const TopoDS_Shape& S, const
 Standard_Boolean TopOpeBRepBuild_Builder::KeepShape(const TopoDS_Shape& S1,const TopTools_ListOfShape& LS2,const TopAbs_State ToBuild1)
 { 
   Standard_Boolean keep = Standard_True;
-  if ( ! LS2.IsEmpty() ) {
+  if ( ! LS2.empty() ) {
     TopAbs_State pos2 = ShapePosition(S1,LS2);
     if ( pos2 != ToBuild1 ) keep = Standard_False;
   }
@@ -539,7 +539,7 @@ TopAbs_Orientation TopOpeBRepBuild_Builder::Orient(const TopAbs_Orientation Ori,
 void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_ListOfShape& L2) const 
 {
   Standard_Integer i;
-  Standard_Integer nl1 = L1.Extent(), nl2 = L2.Extent();
+  Standard_Integer nl1 = L1.size(), nl2 = L2.size();
 
   while ( nl1 > 0 || nl2 > 0 )  {
 
@@ -557,7 +557,7 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 #endif
 	Standard_Boolean found = Contains(S2,L2);
 	if ( ! found ) {
-	  L2.Prepend(S2);
+	  L2.push_front(S2);
 	  nl2++;
 	}
       }
@@ -579,7 +579,7 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 #endif
 	Standard_Boolean found = Contains(S1,L1);
 	if ( ! found ) {
-	  L1.Prepend(S1);
+	  L1.push_front(S1);
 	  nl1++;
 	}
       }
@@ -613,15 +613,15 @@ void TopOpeBRepBuild_Builder::FindSameDomainSameOrientation(TopTools_ListOfShape
   for (it.Initialize(L1); it.More(); it.Next() ) {
     const TopoDS_Shape& s = it.Value();
     TopOpeBRepDS_Config o = myDataStructure->SameDomainOrientation(s);
-    if      ( o == oref && !Contains(s,LL1) ) LL1.Append(s);
-    else if ( o != oref && !Contains(s,LL2) ) LL2.Append(s);
+    if      ( o == oref && !Contains(s,LL1) ) LL1.push_back(s);
+    else if ( o != oref && !Contains(s,LL2) ) LL2.push_back(s);
   }
 
   for (it.Initialize(L2); it.More(); it.Next() ) {
     const TopoDS_Shape& s = it.Value();
     TopOpeBRepDS_Config o = myDataStructure->SameDomainOrientation(s);
-    if      ( o == oref && !Contains(s,LL1) ) LL1.Append(s);
-    else if ( o != oref && !Contains(s,LL2) ) LL2.Append(s);
+    if      ( o == oref && !Contains(s,LL1) ) LL1.push_back(s);
+    else if ( o != oref && !Contains(s,LL2) ) LL2.push_back(s);
   }
 
   L1 = LL1;
@@ -662,7 +662,7 @@ void TopOpeBRepBuild_Builder::FindSameRank(const TopTools_ListOfShape& L1,const 
     const TopoDS_Shape& s = it1.Value();
     Standard_Integer r = ShapeRank(s);
     if ( r == rank && !Contains(s,L2) ) {
-      L2.Append(s);
+      L2.push_back(s);
     }
   }
 }

@@ -116,8 +116,8 @@ QANewModTopOpe_Glue::SplitEdgeByVertex (const TopoDS_Edge& theEdge,
 			    BRep_Tool::Tolerance(theEdge));
   aBld.UpdateVertex (theVer, thePar, aNewE1, aTol);
   aBld.UpdateVertex (theVer, thePar, aNewE2, aTol);
-  theListE.Append (aNewE1.Oriented(theEdge.Orientation()));
-  theListE.Append (aNewE2.Oriented(theEdge.Orientation()));
+  theListE.push_back (aNewE1.Oriented(theEdge.Orientation()));
+  theListE.push_back (aNewE2.Oriented(theEdge.Orientation()));
 }
 
 //=======================================================================
@@ -180,7 +180,7 @@ QANewModTopOpe_Glue::FindWireOrUpdateMap (const TopoDS_Shape& theWire,
       TopTools_ListOfShape aListOfShape;
       theMapELW.Add (aEdge, aListOfShape);
     }
-    theMapELW.ChangeFromKey(aEdge).Append (theWire);
+    theMapELW.ChangeFromKey(aEdge).push_back (theWire);
   }
   return theWire;
 }

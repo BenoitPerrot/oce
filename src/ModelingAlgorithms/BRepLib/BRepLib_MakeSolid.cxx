@@ -55,7 +55,7 @@ BRepLib_MakeSolid::BRepLib_MakeSolid(const TopoDS_CompSolid& S)
   for (ex1.Init(S,TopAbs_SHELL); ex1.More(); ex1.Next()) {
     for (ex2.Init(ex1.Current(),TopAbs_FACE); ex2.More(); ex2.Next()) {
       if(!aMapOfFaces.Add(ex2.Current())) {
-	myDeletedFaces.Append(ex2.Current());
+	myDeletedFaces.push_back(ex2.Current());
 	aMapOfFaces.Remove(ex2.Current());
       }
     }    

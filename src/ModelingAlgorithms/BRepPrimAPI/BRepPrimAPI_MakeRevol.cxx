@@ -84,7 +84,7 @@ void  BRepPrimAPI_MakeRevol::Build()
   myShape = myRevol.Shape();
   Done();
 // Modified by skv - Fri Mar  4 15:50:09 2005 Begin
-  myDegenerated.Clear();
+  myDegenerated.clear();
 
   TopExp_Explorer anExp(myShape, TopAbs_EDGE);
 
@@ -93,7 +93,7 @@ void  BRepPrimAPI_MakeRevol::Build()
     Handle(BRep_TEdge)  aTEdge = Handle(BRep_TEdge)::DownCast(anEdge.TShape());
 
     if (aTEdge->Degenerated())
-      myDegenerated.Append(anEdge);
+      myDegenerated.push_back(anEdge);
   }
 // Modified by skv - Fri Mar  4 15:50:09 2005 End
 }
@@ -128,9 +128,9 @@ TopoDS_Shape BRepPrimAPI_MakeRevol::LastShape()
 
 const TopTools_ListOfShape& BRepPrimAPI_MakeRevol::Generated (const TopoDS_Shape& S)
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   if (!myRevol.Shape (S).IsNull())
-    myGenerated.Append (myRevol.Shape (S));
+    myGenerated.push_back (myRevol.Shape (S));
   return myGenerated;
 }
 
@@ -167,7 +167,7 @@ TopoDS_Shape BRepPrimAPI_MakeRevol::LastShape(const TopoDS_Shape &theShape)
 
 Standard_Boolean BRepPrimAPI_MakeRevol::HasDegenerated () const
 {
-  return (!myDegenerated.IsEmpty());
+  return (!myDegenerated.empty());
 }
 
 

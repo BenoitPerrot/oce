@@ -219,7 +219,7 @@ static Standard_Boolean IsSameOriented(const TopoDS_Shape& aFace,
   TopTools_IndexedDataMapOfShapeListOfShape EFmap;
   TopExp::MapShapesAndAncestors( aShell, TopAbs_EDGE, TopAbs_FACE, EFmap );
 
-  const TopoDS_Shape& AdjacentFace = EFmap.FindFromKey(anEdge).First();
+  const TopoDS_Shape& AdjacentFace = EFmap.FindFromKey(anEdge).front();
   TopoDS_Shape theEdge;
   for (Explo.Init(AdjacentFace, TopAbs_EDGE); Explo.More(); Explo.Next())
     {
@@ -689,7 +689,7 @@ void BRepFill_PipeShell::SetForceApproxC1(const Standard_Boolean ForceApproxC1)
 {
   // Preparation
   Prepare();
-  List.Clear();
+  List.clear();
 
   Standard_Real First, Last, Length, Delta, U, 
                 US, DeltaS,FirstS;
@@ -719,7 +719,7 @@ void BRepFill_PipeShell::SetForceApproxC1(const Standard_Boolean ForceApproxC1)
     // Calcul d'une section
     mySection->D0(US, W);
     myLocation->D0(U, W);
-    List.Append(W);
+    List.push_back(W);
   } 
 }
 
@@ -942,7 +942,7 @@ void BRepFill_PipeShell::Generated(const TopoDS_Shape&   theShape,
 				   TopTools_ListOfShape& theList) 
 {
   //   Standard_NotImplemented::Raise("Generated:Pas Fait"); 
-  theList.Clear();
+  theList.clear();
 
   if(myGenMap.IsBound(theShape)) {
     theList = myGenMap.Find(theShape);
@@ -1240,7 +1240,7 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
 	lessindex = (lessindex > myLocation->NbLaw()) ? 1 : lessindex;
 
 	if((!aVEdges->Value(i, lessindex).IsNull()) && (aVEdges->Value(i, lessindex).ShapeType() == TopAbs_FACE)) {
-	  aListOfFace.Append(aVEdges->Value(i, lessindex));
+	  aListOfFace.push_back(aVEdges->Value(i, lessindex));
 	  const TopoDS_Shape& aBottomEdge = aVEdges->Value(i, 1);
 
 	  if((!aBottomEdge.IsNull()) && (aBottomEdge.ShapeType() == TopAbs_EDGE)) {
@@ -1253,7 +1253,7 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
 
     for(i = 1; i <= mySection->NbLaw(); i++) {
       if((!aVEdges->Value(i, j).IsNull()) && (aVEdges->Value(i, j).ShapeType() == TopAbs_FACE)) {
-	aListOfFace.Append(aVEdges->Value(i, j));
+	aListOfFace.push_back(aVEdges->Value(i, j));
 	bPrevModified = Standard_True;
 
 	const TopoDS_Shape& aBottomEdge = aVEdges->Value(i, 1);
@@ -1264,7 +1264,7 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
       }
 
       if(aFaces->Value(i, j).ShapeType() == TopAbs_FACE) {
-	aListOfFace.Append(aFaces->Value(i, j));
+	aListOfFace.push_back(aFaces->Value(i, j));
 	const TopoDS_Shape& aBottomEdge = aVEdges->Value(i, 1);
 
 	if((!aBottomEdge.IsNull()) && (aBottomEdge.ShapeType() == TopAbs_EDGE)) {
@@ -1298,7 +1298,7 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
 	if(aMapEF.Contains(aShape)) {
 	  const TopTools_ListOfShape& aList = aMapEF.FindFromKey(aShape);
 
-	  if(aList.Extent() < 2) {
+	  if(aList.size() < 2) {
 	    UpdateMap(myLocation->Edge(j), aShape, myGenMap);
 
 	    TopoDS_Shape aGenVertex;
@@ -1319,7 +1319,7 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
 	      if(aMapVE.Contains(anExpV.Current())) {
 		const TopTools_ListOfShape& aListOfV = aMapVE.FindFromKey(anExpV.Current());
 
-		if(aListOfV.Extent() >= 2) {
+		if(aListOfV.size() >= 2) {
 		  aGenVertex = anExpV.Current();
 		}
 	      }
@@ -1389,7 +1389,7 @@ Standard_Boolean UpdateMap(const TopoDS_Shape&                 theKey,
   }
 
   if(!found)
-    aList.Append(theValue);
+    aList.push_back(theValue);
   return !found;
 }
 

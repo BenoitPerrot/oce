@@ -88,10 +88,10 @@ void ShapeExtend_Explorer::ListFromSeq (const Handle(TopTools_HSequenceOfShape)&
 				       TopTools_ListOfShape& lisval,
 				       const Standard_Boolean clear) const
 {
-  if (clear) lisval.Clear();
+  if (clear) lisval.clear();
   if (seqval.IsNull()) return;
   Standard_Integer i, nb = seqval->Length();
-  for (i = 1; i <= nb; i ++) lisval.Append (seqval->Value(i));
+  for (i = 1; i <= nb; i ++) lisval.push_back (seqval->Value(i));
 }
 
 //=======================================================================

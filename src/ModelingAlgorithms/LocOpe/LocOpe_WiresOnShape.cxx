@@ -803,18 +803,18 @@ void PutPCurves(const TopoDS_Edge& Efrom,
   for (exp.Init(myShape,TopAbs_FACE); exp.More(); exp.Next()) {
     for (exp2.Init(exp.Current(), TopAbs_EDGE); exp2.More();exp2.Next()) {
       if (exp2.Current().IsSame(Eto)) {
-	Lfaces.Append(exp.Current());
+	Lfaces.push_back(exp.Current());
       }
     }
   }
 
-  if (Lfaces.Extent() != 1 && Lfaces.Extent() !=2) {
+  if (Lfaces.size() != 1 && Lfaces.size() !=2) {
     Standard_ConstructionError::Raise();
   }
 
   // soit bord libre, soit connexite entre 2 faces, eventuellement edge closed
 
-  if (Lfaces.Extent() ==1) {
+  if (Lfaces.size() ==1) {
     return; // sera fait par PutPCurve.... on l`espere
   }
 
@@ -826,7 +826,7 @@ void PutPCurves(const TopoDS_Edge& Efrom,
   Standard_Real f,l;
   TopLoc_Location Loc, LocFac;
 
-  if (!Lfaces.First().IsSame(Lfaces.Last())) {
+  if (!Lfaces.front().IsSame(Lfaces.back())) {
     TopTools_ListIteratorOfListOfShape itl(Lfaces);
     for (; itl.More(); itl.Next()) {
       const TopoDS_Face& Fac = TopoDS::Face(itl.Value());
@@ -954,7 +954,7 @@ void PutPCurves(const TopoDS_Edge& Efrom,
   }
 
   else {
-    const TopoDS_Face& Fac = TopoDS::Face(Lfaces.First());
+    const TopoDS_Face& Fac = TopoDS::Face(Lfaces.front());
     if (!BRep_Tool::IsClosed(Eto,Fac)) {
       Standard_ConstructionError::Raise();
     }
@@ -1303,11 +1303,11 @@ void FindInternalIntersections(const TopoDS_Edge& theEdge,
     BB.Add(NewEdge, FirstVertex);
     BB.Add(NewEdge, LastVertex);
     NewEdge.Orientation(anOrient);
-    NewEdges.Append(NewEdge);
+    NewEdges.push_back(NewEdge);
     FirstVertex = LastVertex;
     FirstPar = LastPar;
   }
 
-  if (!NewEdges.IsEmpty())
+  if (!NewEdges.empty())
     Splits.Add(theEdge, NewEdges);
 }

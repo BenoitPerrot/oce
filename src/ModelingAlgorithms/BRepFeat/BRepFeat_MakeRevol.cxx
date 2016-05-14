@@ -159,7 +159,7 @@ void BRepFeat_MakeRevol::Init(const TopoDS_Shape& Sbase,
   for (exp.Init(mySbase,TopAbs_FACE);exp.More();exp.Next()) {
     TopTools_ListOfShape thelist;
     myMap.Bind(exp.Current(), thelist);
-    myMap(exp.Current()).Append(exp.Current());
+    myMap(exp.Current()).push_back(exp.Current());
   }
 #ifdef OCCT_DEBUG
   if (trc) {
@@ -214,7 +214,7 @@ void BRepFeat_MakeRevol::Add(const TopoDS_Edge& E,
     }
   }
   if (!itl.More()) {
-    mySlface(F).Append(E);
+    mySlface(F).push_back(E);
   }
 }
 
@@ -917,7 +917,7 @@ static void MajMap(const TopoDS_Shape& theB,
     TopTools_ListOfShape thelist;
     theMap.Bind(theFShape, thelist);
     for (exp.Init(theP.FirstShape(),TopAbs_FACE);exp.More();exp.Next()) {
-      theMap(theFShape).Append(exp.Current());
+      theMap(theFShape).push_back(exp.Current());
     }
   }
   
@@ -927,7 +927,7 @@ static void MajMap(const TopoDS_Shape& theB,
     TopTools_ListOfShape thelist1;
     theMap.Bind(theLShape, thelist1);
     for (exp.Init(theP.LastShape(),TopAbs_FACE);exp.More();exp.Next()) {
-      theMap(theLShape).Append(exp.Current());
+      theMap(theLShape).push_back(exp.Current());
     }
   }
 

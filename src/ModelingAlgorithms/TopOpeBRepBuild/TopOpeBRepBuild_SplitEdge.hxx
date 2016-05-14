@@ -70,7 +70,7 @@ void TopOpeBRepBuild_Builder::SplitEdge1(const TopoDS_Shape& Eoriented,
   
   // build the list of edges to split : LE1, LE2
   TopTools_ListOfShape LE1,LE2;
-  LE1.Append(Eforward);
+  LE1.push_back(Eforward);
   FindSameDomain(LE1,LE2);
 
 #ifdef OCCT_DEBUG

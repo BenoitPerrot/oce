@@ -229,7 +229,7 @@ static Standard_Boolean IsManifoldShape(const TopoDS_Shape& theShape) {
   for (Standard_Integer i = 1; i <= aNbEdges; i++) {
     TopoDS_Edge aCurrentEdge = TopoDS::Edge( aMapEdgeFaces.FindKey(i) );
     if ( !BRep_Tool::Degenerated(aCurrentEdge) ) { 
-      Standard_Integer aNbAncestors = aMapEdgeFaces.FindFromIndex(i).Extent();
+      Standard_Integer aNbAncestors = aMapEdgeFaces.FindFromIndex(i).size();
       if (aNbAncestors > 2) {
         aResult = Standard_False;
         break;
@@ -662,7 +662,7 @@ Handle(Transfer_Binder) STEPControl_ActorWrite::TransferShape (const Handle(Tran
     else {
       TopTools_ListOfShape aListOfShapes;
       TopTools_ListOfShape aListOfManifoldShapes;
-      aListOfShapes.Append(theShape);
+      aListOfShapes.push_back(theShape);
 
       TopTools_ListIteratorOfListOfShape itL(aListOfShapes);
       for ( ; itL.More(); itL.Next() ) {
@@ -673,9 +673,9 @@ Handle(Transfer_Binder) STEPControl_ActorWrite::TransferShape (const Handle(Tran
           if (aSubShape.ShapeType() == TopAbs_COMPOUND && !IsManifoldShape(aSubShape) )
             aNMCompound = TopoDS::Compound(aSubShape);
           else if (aSubShape.ShapeType() == TopAbs_COMPOUND)
-            aListOfShapes.Append(aSubShape);
+            aListOfShapes.push_back(aSubShape);
           else 
-            aListOfManifoldShapes.Append(aSubShape);
+            aListOfManifoldShapes.push_back(aSubShape);
         }
       }
             

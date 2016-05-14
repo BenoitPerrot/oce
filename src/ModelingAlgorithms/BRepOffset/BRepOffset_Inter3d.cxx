@@ -205,8 +205,8 @@ static void SelectEdge (const TopoDS_Face& /*F*/,
 //  Modified by Sergey KHROMOV - Wed Jun  5 11:24:54 2002 End
 
   }
-  LInt.Clear(); 
-  LInt.Append(GE);
+  LInt.clear(); 
+  LInt.push_back(GE);
 }
 
 
@@ -274,13 +274,13 @@ void BRepOffset_Inter3d::FaceInter(const TopoDS_Face& F1,
   Standard_Boolean InterFaces = (InitF1.ShapeType() == TopAbs_FACE && 
 				 InitF2.ShapeType() == TopAbs_FACE);
   TopTools_ListOfShape LE,LV;
-  LInt1.Clear(); LInt2.Clear(); 
+  LInt1.clear(); LInt2.clear(); 
   if (BRepOffset_Tool::HasCommonShapes(F1,F2,LE,LV) ||
       myAsDes->HasCommonDescendant(F1,F2,LE)) {
     //-------------------------------------------------
     // F1 and F2 share shapes.
     //-------------------------------------------------
-    if ( LE.IsEmpty() && !LV.IsEmpty()) {
+    if ( LE.empty() && !LV.empty()) {
       if (InterPipes) {
 	//----------------------
 	// tubes share a vertex.
@@ -312,7 +312,7 @@ void BRepOffset_Inter3d::FaceInter(const TopoDS_Face& F1,
 	if (InterFaces && 
 	    BRepOffset_Tool::HasCommonShapes(TopoDS::Face(InitF1),
 					     TopoDS::Face(InitF2),LE,LV)) 
-	  if (!LE.IsEmpty())
+	  if (!LE.empty())
 	    BRepOffset_Tool::Inter3D (F1,F2,LInt1,LInt2,mySide,NullEdge);
       }
     }
@@ -358,9 +358,9 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
       // edge is of the proper type , return adjacent faces.
       //-----------------------------------------------------------
       const TopTools_ListOfShape& Anc = Analyse.Ancestors(E);
-      if (Anc.Extent() == 2) {
-	F1 = TopoDS::Face(InitOffsetFace.Image(Anc.First()).First());
-	F2 = TopoDS::Face(InitOffsetFace.Image(Anc.Last ()).First());
+      if (Anc.size() == 2) {
+	F1 = TopoDS::Face(InitOffsetFace.Image(Anc.front()).front());
+	F2 = TopoDS::Face(InitOffsetFace.Image(Anc.back ()).front());
 	if (!IsDone(F1,F2)) {
 	  BRepOffset_Tool::Inter3D (F1,F2,LInt1,LInt2,mySide,E,Standard_True);
 	  Store (F1,F2,LInt1,LInt2);
@@ -382,7 +382,7 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
       //---------------------------
       // E1 generated a tube.
       //---------------------------
-      F1 = TopoDS::Face(InitOffsetFace.Image(E1).First());;
+      F1 = TopoDS::Face(InitOffsetFace.Image(E1).front());;
       TopExp::Vertices(E1,V[0],V[1]);
       const TopTools_ListOfShape& AncE1 = Analyse.Ancestors(E1);
       
@@ -419,7 +419,7 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
 	      //-----------------------------
 	      // E2 generated a tube.
 	      //-----------------------------
-	      F2 = TopoDS::Face(InitOffsetFace.Image(E2).First());	
+	      F2 = TopoDS::Face(InitOffsetFace.Image(E2).front());	
 	      if (!IsDone(F1,F2)) {
 		//---------------------------------------------------------------------
 		// Intersection tube/tube if the edges are not tangent (AFINIR).
@@ -440,22 +440,22 @@ void BRepOffset_Inter3d::ConnexIntByArc(const TopTools_ListOfShape& /*SetOfFaces
 	      }
 	      const TopTools_ListOfShape& AncE2        = Analyse.Ancestors(E2);
 	      Standard_Boolean            TangentFaces = Standard_False;
-	      if (AncE2.Extent() == 2) {
-		TopoDS_Face InitF2 = TopoDS::Face(AncE2.First ());
-		TangentFaces = (InitF2.IsSame(AncE1.First()) || 
-				InitF2.IsSame(AncE1.Last()));
+	      if (AncE2.size() == 2) {
+		TopoDS_Face InitF2 = TopoDS::Face(AncE2.front ());
+		TangentFaces = (InitF2.IsSame(AncE1.front()) || 
+				InitF2.IsSame(AncE1.back()));
 		if (!TangentFaces) {
-		  F2 = TopoDS::Face(InitOffsetFace.Image(InitF2).First());
+		  F2 = TopoDS::Face(InitOffsetFace.Image(InitF2).front());
 		  if (!IsDone(F1,F2)) {
 		    BRepOffset_Tool::Inter3D (F1,F2,LInt1,LInt2,mySide,NullEdge);
 		    Store (F1,F2,LInt1,LInt2);
 		  }
 		}
-		InitF2 = TopoDS::Face(AncE2.Last ());
-		TangentFaces = (InitF2.IsSame(AncE1.First()) || 
-				InitF2.IsSame(AncE1.Last()));
+		InitF2 = TopoDS::Face(AncE2.back ());
+		TangentFaces = (InitF2.IsSame(AncE1.front()) || 
+				InitF2.IsSame(AncE1.back()));
 		if (!TangentFaces) {
-		  F2 = TopoDS::Face(InitOffsetFace.Image(InitF2).First());
+		  F2 = TopoDS::Face(InitOffsetFace.Image(InitF2).front());
 		  if (!IsDone(F1,F2)) {
 		    BRepOffset_Tool::Inter3D (F1,F2,LInt1,LInt2,mySide,NullEdge);
 		    Store (F1,F2,LInt1,LInt2);
@@ -506,9 +506,9 @@ void BRepOffset_Inter3d::ConnexIntByInt
 	// edge is of the proper type, return adjacent faces.
 	//-----------------------------------------------------------
 	const TopTools_ListOfShape& Anc = Analyse.Ancestors(E);
-	if (Anc.Extent() != 2) continue;
-	F1  = TopoDS::Face(Anc.First());
-	F2  = TopoDS::Face(Anc.Last ());
+	if (Anc.size() != 2) continue;
+	F1  = TopoDS::Face(Anc.front());
+	F2  = TopoDS::Face(Anc.back ());
 	OF1 = TopoDS::Face(MapSF(F1).Face()); OF2 = TopoDS::Face(MapSF(F2).Face());
 	if (!MES.IsBound(OF1)) {
 	  Standard_Boolean enlargeU = Standard_True;
@@ -533,14 +533,14 @@ void BRepOffset_Inter3d::ConnexIntByInt
 	if (!IsDone(NF1,NF2)) {
 	  TopTools_ListOfShape LInt1,LInt2;
 	  BRepOffset_Tool::Inter3D (NF1,NF2,LInt1,LInt2,CurSide,E,Standard_True);
-	  if (LInt1.Extent() > 1)
+	  if (LInt1.size() > 1)
 	    { 
 	      // intersection is in seceral edges (free sewing)
 	      SelectEdge( NF1, NF2, E, LInt1 );
 	      SelectEdge( NF1, NF2, E, LInt2 );
 	    }
 	  SetDone(NF1,NF2);
-	  if (!LInt1.IsEmpty()) {
+	  if (!LInt1.empty()) {
 	    Store (NF1,NF2,LInt1,LInt2);
 	    TopoDS_Compound C;
 	    B.MakeCompound(C);
@@ -550,14 +550,14 @@ void BRepOffset_Inter3d::ConnexIntByInt
 	    Build.Bind(E,C);
 	  }
 	  else {
-	    Failed.Append(E);
+	    Failed.push_back(E);
 	  }
 	} else { // IsDone(NF1,NF2)
 	  //  Modified by skv - Fri Dec 26 12:20:13 2003 OCC4455 Begin
 	  const TopTools_ListOfShape &aLInt1 = myAsDes->Descendant(NF1);
 	  const TopTools_ListOfShape &aLInt2 = myAsDes->Descendant(NF2);
 
-	  if (!aLInt1.IsEmpty()) {
+	  if (!aLInt1.empty()) {
 	    TopoDS_Compound C;
 	    TopTools_ListIteratorOfListOfShape anIt2;
 
@@ -576,7 +576,7 @@ void BRepOffset_Inter3d::ConnexIntByInt
 	    Build.Bind(E,C);
 	  }
 	  else {
-	    Failed.Append(E);
+	    Failed.push_back(E);
 	  }
 	}
 	//  Modified by skv - Fri Dec 26 12:20:14 2003 OCC4455 End
@@ -669,7 +669,7 @@ void BRepOffset_Inter3d::ContextIntByInt
 	continue;
       } 
       const TopTools_ListOfShape& Anc = Analyse.Ancestors(E);
-      const TopoDS_Face&          F   = TopoDS::Face(Anc.First());
+      const TopoDS_Face&          F   = TopoDS::Face(Anc.front());
       OF = TopoDS::Face(MapSF(F).Face());
       TopoDS_Shape aLocalShape = MapSF(F).Generated(E);
       OE = TopoDS::Edge(aLocalShape);
@@ -684,13 +684,13 @@ void BRepOffset_Inter3d::ContextIntByInt
       if (!IsDone(NF,CF)) {
 	TopTools_ListOfShape LInt1,LInt2;
 	TopTools_ListOfShape LOE;
-	LOE.Append(OE);
+	LOE.push_back(OE);
 	BRepOffset_Tool::Inter3D (WCF,NF,LInt1,LInt2,Side,E,Standard_True);
 	SetDone(NF,CF);
-	if (!LInt1.IsEmpty()) {
+	if (!LInt1.empty()) {
 	  Store (CF,NF,LInt1,LInt2);
-	  if (LInt1.Extent() == 1) {
-	    Build.Bind(E,LInt1.First());
+	  if (LInt1.size() == 1) {
+	    Build.Bind(E,LInt1.front());
 	  }
 	  else {
 	    B.MakeCompound(C);
@@ -701,7 +701,7 @@ void BRepOffset_Inter3d::ContextIntByInt
 	  }
 	}
 	else {
-	  Failed.Append(E);
+	  Failed.push_back(E);
 	}
       }
     }
@@ -765,7 +765,7 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 	    InitOffsetEdge.Bind(E,NE);
 	  }
 	  else {
-	    NE = TopoDS::Edge(InitOffsetEdge.Image(E).First());
+	    NE = TopoDS::Edge(InitOffsetEdge.Image(E).front());
 	    myAsDes->Add(CF,NE.Oriented(E.Orientation()));
 	  }
 	}
@@ -775,9 +775,9 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
       //---------------------------------------------------
       // OF1 parallel facee generated by the ancestor of E.
       //---------------------------------------------------
-      const TopoDS_Shape SI = Analyse.Ancestors(E).First();
-      OF1 = TopoDS::Face(InitOffsetFace.Image(SI).First());
-      OE  = TopoDS::Edge(InitOffsetEdge.Image(E).First());      
+      const TopoDS_Shape SI = Analyse.Ancestors(E).front();
+      OF1 = TopoDS::Face(InitOffsetFace.Image(SI).front());
+      OE  = TopoDS::Edge(InitOffsetEdge.Image(E).front());      
       //--------------------------------------------------
       // MAJ of OE on cap CF.
       //--------------------------------------------------
@@ -786,13 +786,13 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 //      LInt2.Clear();
 //      StoreInter3d(CF,OF1,myTouched,NewEdges,InterDone,myAsDes,
 //		   LInt1,LInt2);
-      LInt1.Clear(); LInt1.Append(OE);
-      LInt2.Clear();    
+      LInt1.clear(); LInt1.push_back(OE);
+      LInt2.clear();    
       TopAbs_Orientation O1,O2;
       BRepOffset_Tool::OrientSection(OE,CF,OF1,O1,O2);
 //      if (mySide == TopAbs_OUT) O1 = TopAbs::Reverse(O1);
       O1 = TopAbs::Reverse(O1);
-      LInt1.First().Orientation(O1);
+      LInt1.front().Orientation(O1);
       Store(CF,OF1,LInt1,LInt2);
       
       //------------------------------------------------------
@@ -811,8 +811,8 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 	    //-------------------------------------------------
 	    // OF1 parallel face generated by an ancester edge of V[i].
 	    //-------------------------------------------------
-	    OF1 = TopoDS::Face(InitOffsetFace.Image(EV).First());
-	    OE  = TopoDS::Edge(InitOffsetEdge.Image(V[i]).First());
+	    OF1 = TopoDS::Face(InitOffsetFace.Image(EV).front());
+	    OE  = TopoDS::Edge(InitOffsetEdge.Image(V[i]).front());
 	    //--------------------------------------------------
 	    // MAj of OE on cap CF.
 	    //--------------------------------------------------
@@ -821,13 +821,13 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 	    //	      LInt2.Clear();
 	    //	      StoreInter3d(CF,OF1,myTouched,NewEdges,InterDone,myAsDes,
 	    //			   LInt1,LInt2);
-	    LInt1.Clear(); LInt1.Append(OE);
-	    LInt2.Clear();    
+	    LInt1.clear(); LInt1.push_back(OE);
+	    LInt2.clear();    
 	    TopAbs_Orientation O1,O2;
 	    BRepOffset_Tool::OrientSection(OE,CF,OF1,O1,O2);      
 //	    if (mySide == TopAbs_OUT);
 	    O1 = TopAbs::Reverse(O1);
-	    LInt1.First().Orientation(O1);
+	    LInt1.front().Orientation(O1);
 	    Store(CF,OF1,LInt1,LInt2);
 	  }
 	}
@@ -851,7 +851,7 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 	  //-------------------------------------------------
 	  // OF1 parallel face generated by uneFace ancestor of V[i].
 	  //-------------------------------------------------
-	  OF1 = TopoDS::Face(InitOffsetFace.Image(FEV).First());
+	  OF1 = TopoDS::Face(InitOffsetFace.Image(FEV).front());
 	  if (!IsDone(OF1,CF)) {
 	    //-------------------------------------------------------
 	    // Find if one of edges of OF1 has no trace in CF.
@@ -859,13 +859,13 @@ void BRepOffset_Inter3d::ContextIntByArc(const TopTools_IndexedMapOfShape& Conte
 	    TopTools_ListOfShape LOE;
 	    TopExp_Explorer exp2(OF1.Oriented(TopAbs_FORWARD),TopAbs_EDGE);
 	    for ( ;exp2.More(); exp2.Next()) {
-	      LOE.Append(exp2.Current());
+	      LOE.push_back(exp2.Current());
 	    }
 	    BRepOffset_Tool::TryProject(CF,OF1,LOE,LInt1,LInt2,mySide,myTol);
 	    //-------------------------------------------------------
 	    // If no trace try intersection.
 	    //-------------------------------------------------------
-	    if (LInt1.IsEmpty()) {
+	    if (LInt1.empty()) {
 	      BRepOffset_Tool::Inter3D (CF,OF1,LInt1,LInt2,mySide,NullEdge);
 	    }
 	    Store (CF,OF1,LInt1,LInt2);
@@ -898,12 +898,12 @@ void BRepOffset_Inter3d::SetDone(const TopoDS_Face& F1,
     TopTools_ListOfShape empty;
     myDone.Bind(F1,empty);
   }
-  myDone(F1).Append(F2);
+  myDone(F1).push_back(F2);
   if (!myDone.IsBound(F2)) {
     TopTools_ListOfShape empty;
     myDone.Bind(F2,empty);
   }
-  myDone(F2).Append(F1);
+  myDone(F2).push_back(F1);
 }
 
 
@@ -970,7 +970,7 @@ void BRepOffset_Inter3d::Store(const TopoDS_Face& F1,
 			       const TopTools_ListOfShape& LInt1, 
 			       const TopTools_ListOfShape& LInt2)
 {
-  if (!LInt1.IsEmpty()) {
+  if (!LInt1.empty()) {
     myTouched.Add(F1);
     myTouched.Add(F2);
     myAsDes->Add( F1,LInt1);

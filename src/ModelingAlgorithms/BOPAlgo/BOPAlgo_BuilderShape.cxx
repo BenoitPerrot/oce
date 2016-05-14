@@ -66,7 +66,7 @@
 //=======================================================================
   const TopTools_ListOfShape& BOPAlgo_BuilderShape::Generated(const TopoDS_Shape& )
 {
-  myHistShapes.Clear();
+  myHistShapes.clear();
   return myHistShapes;
 }
 //=======================================================================
@@ -75,7 +75,7 @@
 //=======================================================================
   const TopTools_ListOfShape& BOPAlgo_BuilderShape::Modified(const TopoDS_Shape& )
 {
-  myHistShapes.Clear();
+  myHistShapes.clear();
   return myHistShapes;
 }
 //=======================================================================
@@ -119,7 +119,7 @@
 //=======================================================================
   void BOPAlgo_BuilderShape::PrepareHistory()
 {
-  myHistShapes.Clear();
+  myHistShapes.clear();
   myMapShape.Clear();
   myHasDeleted=Standard_False;
   myHasGenerated=Standard_False;

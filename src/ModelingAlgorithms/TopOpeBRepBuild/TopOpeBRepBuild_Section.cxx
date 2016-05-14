@@ -220,7 +220,7 @@ static Standard_Boolean FUN_EstaEE(const TopoDS_Edge& E, const TopAbs_State sta,
 void TopOpeBRepBuild_Builder::InitSection()
 {
   mySectionDone = Standard_False;
-  mySection.Clear();
+  mySection.clear();
   mySplitSectionEdgesDone = Standard_False;
   mySplitON.Clear();
 }
@@ -235,8 +235,8 @@ static void FUN_selLEE(TopTools_ListOfShape& LE,const TopoDS_Edge& E,const TopAb
     const TopoDS_Edge& Ecur = TopoDS::Edge(it.Value());
     Standard_Boolean ok = FUN_EstaEE(Ecur,sta,E);
     if (ok) {
-      LEsta.Append(Ecur);
-      LE.Remove(it);
+      LEsta.push_back(Ecur);
+      it = LE.erase(it);
     }
     else it.Next();
   }
@@ -298,7 +298,7 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
     if (!isspliton) continue;
 
     const TopTools_ListOfShape& LESD = BDS.ShapeSameDomain(E);
-    if ( LESD.IsEmpty() ) continue;
+    if ( LESD.empty() ) continue;
 
     const TopTools_ListOfShape& LEspon = Splits(E,TopAbs_ON);
     TopTools_ListOfShape LEoutLESD; GCopyList(LEspon,LEoutLESD);
@@ -328,8 +328,8 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 
       const TopoDS_Edge    *pE1 = NULL,   *pE2 = NULL;
       const TopTools_ListOfShape *plos1 = NULL, *plos2 = NULL;
-      Standard_Integer nLEspon   = LEspon.Extent();
-      Standard_Integer nLESDspon = LESDspon.Extent();
+      Standard_Integer nLEspon   = LEspon.size();
+      Standard_Integer nLESDspon = LESDspon.size();
 
       if ( nLEspon != 0 && nLESDspon != 0 ) {
         Standard_Boolean takeE = ((rE == 1 && iESD != iRef) || iE == iRef);
@@ -363,7 +363,7 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
       GCopyList(LE1,LE1loc);
       TopTools_ListOfShape LE1inE2;
       FUN_selLEE(LE1loc,E2,TopAbs_IN,LE1inE2);
-      Standard_Integer nLE1inE2 = LE1inE2.Extent();
+      Standard_Integer nLE1inE2 = LE1inE2.size();
 
 #ifdef DRAW
       if (tSPS) {
@@ -406,7 +406,7 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 	    const TopoDS_Edge& e = TopoDS::Edge(ite.Value());
 	    TopTools_ListOfShape newle; Standard_Boolean ok = TopOpeBRepTool_TOOL::SplitE(e,newle);
 	    if (ok) LR.Append(newle);
-	    else    LR.Append(e);
+	    else    LR.push_back(e);
 	  }
 	  {
             TopOpeBRepBuild_ShapeListOfShape thelist3;
@@ -460,14 +460,14 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
     if (!isspliton) continue;
 
     const TopTools_ListOfShape& LESD = BDS.ShapeSameDomain(E);
-    if ( LESD.IsEmpty() ) continue;
+    if ( LESD.empty() ) continue;
 
     Standard_Boolean isbMEOUT = MEOUT.IsBound(E);
     Standard_Boolean isbMEIN = MEIN.IsBound(E);
     if (!isbMEOUT && !isbMEIN) continue;
 
     TopTools_ListOfShape& LEspon = ChangeSplit(E,TopAbs_ON);
-    LEspon.Clear();
+    LEspon.clear();
     
     if (isbMEOUT) {
       const TopTools_ListOfShape& LEOUT = MEOUT.Find(E);
@@ -499,7 +499,7 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
     Standard_Integer idebE; Standard_Boolean tSPS = GtraceSPS(E,idebE); if (tSPS) debsplitsemess(idebE);
 #endif
     const TopTools_ListOfShape& lesd = BDS.ShapeSameDomain(E);
-    if (lesd.IsEmpty()) continue;
+    if (lesd.empty()) continue;
     
     Standard_Integer iE = BDS.Shape(E);
 #ifdef OCCT_DEBUG
@@ -654,10 +654,10 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 	  if (PCko) Standard_ProgramError::Raise("TopOpeBRepBuild_Builder::splitON");
 
 	  Standard_Boolean test = (FFuper && isoU) || (FFvper && isoV);
-	  if (!test) { newlON.Append(eon); continue;}
+	  if (!test) { newlON.push_back(eon); continue;}
 
 	  gp_Pnt2d uvok; Standard_Boolean isonclo = FUN_onboundsper(eon,FF,uvok); //3d
-	  if (isonclo) { newlON.Append(eon); continue;}
+	  if (isonclo) { newlON.push_back(eon); continue;}
 	  
 	  Standard_Boolean isonclo2 = FUN_onboundsper(o2don,FF); //2d
 	  if (isonclo2) {	    
@@ -668,10 +668,10 @@ void TopOpeBRepBuild_Builder::SplitSectionEdges()
 	    Standard_Real toluv = 1.e-8*1.e2; // NYINYI
 	    if (mag > toluv) TopOpeBRepTool_TOOL::TrslUVModifE(tr,FF,eon);
 	  }
-	  newlON.Append(eon);	 
+	  newlON.push_back(eon);	 
 	} // itON
 	TopTools_ListOfShape& nlON = ChangeSplit(EG,TopAbs_ON);
-	nlON.Clear(); nlON.Append(newlON);	
+	nlON.clear(); nlON.Append(newlON);	
       } // ISO
     } //ILI(LI)
   } //6
@@ -789,9 +789,9 @@ void TopOpeBRepBuild_Builder::SplitSectionEdge(const TopoDS_Shape& EA)
       FUN_ds_Parameter(newEOR,vref,parv);
     }
     if (hasnewEOR) 
-      LON.Append(newEOR);
+      LON.push_back(newEOR);
     else           
-      LON.Append(EOR);
+      LON.push_back(EOR);
     return;
   } // mke
 
@@ -837,11 +837,11 @@ void TopOpeBRepBuild_Builder::SplitSectionEdge(const TopoDS_Shape& EA)
     for (; ite.More(); ite.Next()){
       const TopoDS_Edge& esp = TopoDS::Edge(ite.Value());
       TopTools_ListOfShape lspe; Standard_Boolean ok = TopOpeBRepTool_TOOL::SplitE(esp,lspe);
-      Standard_Boolean nonwesp = (!ok) || (lspe.Extent() < 2);
-      if (nonwesp) newLEM.Append(esp); 
+      Standard_Boolean nonwesp = (!ok) || (lspe.size() < 2);
+      if (nonwesp) newLEM.push_back(esp); 
       else         newLEM.Append(lspe);
     }
-    LEM.Clear(); LEM.Append(newLEM);
+    LEM.clear(); LEM.Append(newLEM);
     
     // connect new edges LEM as split parts (ON,SOLID)
     MarkSplit(EOR,TopAbs_ON);
@@ -952,7 +952,7 @@ void TopOpeBRepBuild_Builder::SectionCurves(TopTools_ListOfShape& LSE)
     Standard_Integer ic = cex.Index();
     TopTools_ListIteratorOfListOfShape itloe(NewEdges(ic));
     for(;itloe.More();itloe.Next()) {
-      LSE.Append(itloe.Value());
+      LSE.push_back(itloe.Value());
     }
   }
 }
@@ -974,7 +974,7 @@ void TopOpeBRepBuild_Builder::SectionEdges(TopTools_ListOfShape& LSE)
       if(E.IsNull()) 
 	continue;
       // end modif fbi
-      LSE.Append(E);
+      LSE.push_back(E);
     }
     return;
   }
@@ -1010,7 +1010,7 @@ void TopOpeBRepBuild_Builder::SectionEdges(TopTools_ListOfShape& LSE)
 	const TopoDS_Shape& S = it.Value();
 	if ( !MOS.Contains(S) ) {
 	  MOS.Add(S);
-	  LSE.Append(S);
+	  LSE.push_back(S);
 	}
       }
     }
@@ -1021,7 +1021,7 @@ void TopOpeBRepBuild_Builder::SectionEdges(TopTools_ListOfShape& LSE)
       if (take) {
 	if ( !MOS.Contains(es) ) {
 	  MOS.Add(es);
-	  LSE.Append(es);
+	  LSE.push_back(es);
 	}
       }
     }

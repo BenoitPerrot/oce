@@ -199,7 +199,7 @@ FilletSurf_InternalBuilder::FilletSurf_InternalBuilder
 Standard_Integer  FilletSurf_InternalBuilder::Add(const TopTools_ListOfShape& E, 
 						  const Standard_Real R)
 {
-  if(E.IsEmpty()) return 1;
+  if(E.empty()) return 1;
   TopTools_ListIteratorOfListOfShape It;
   for(It.Initialize(E); It.More(); It.Next()){
     TopoDS_Edge cured = TopoDS::Edge(It.Value());
@@ -222,7 +222,7 @@ Standard_Integer  FilletSurf_InternalBuilder::Add(const TopTools_ListOfShape& E,
     if(ff1.IsSame(ff2)) return 5;
     if(BRep_Tool::Continuity(cured,ff1,ff2) != GeomAbs_C0) return 5;
   }  
-  TopoDS_Edge ed = TopoDS::Edge(E.First());
+  TopoDS_Edge ed = TopoDS::Edge(E.front());
   ed.Orientation(TopAbs_FORWARD);
   ChFi3d_FilBuilder::Add(R,ed);
   Handle(ChFiDS_Stripe) st = myListStripe.front();

@@ -180,12 +180,12 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
       const TopoDS_Shape& E = it.Value();
       if(EdMap.Contains(E)) {
 	const TopoDS_Shape& newE = EdMap.FindFromKey(E);
-	corrLSE.Append(newE);
+	corrLSE.push_back(newE);
       }
       else
-	corrLSE.Append(E);
+	corrLSE.push_back(E);
     }
-    LSE.Clear();
+    LSE.clear();
     LSE.Append(corrLSE);
   }
 
@@ -208,12 +208,12 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
 	const TopoDS_Shape& E = it.Value();
 	if(EdMap.Contains(E)) {
 	  const TopoDS_Shape& newE = EdMap.FindFromKey(E);
-	  corrLSE.Append(newE);
+	  corrLSE.push_back(newE);
 	}
 	else
-	  corrLSE.Append(E);
+	  corrLSE.push_back(E);
       }
-      LSE.Clear();
+      LSE.clear();
       LSE.Append(corrLSE);
     }
   }

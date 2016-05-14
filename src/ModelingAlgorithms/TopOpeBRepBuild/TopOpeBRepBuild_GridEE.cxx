@@ -94,10 +94,10 @@ Standard_Boolean TopOpeBRepBuild_FUN_aresamegeom(const TopoDS_Shape& S1,const To
 //=======================================================================
 void TopOpeBRepBuild_Builder::GMergeEdges(const TopTools_ListOfShape& LE1,const TopTools_ListOfShape& LE2,const TopOpeBRepBuild_GTopo& G1)
 {
-  if ( LE1.IsEmpty() ) return;
+  if ( LE1.empty() ) return;
   TopAbs_State TB1,TB2; G1.StatesON(TB1,TB2);
   
-  const TopoDS_Shape& E1 = LE1.First();
+  const TopoDS_Shape& E1 = LE1.front();
 #ifdef OCCT_DEBUG
   Standard_Integer iE; Standard_Boolean tSPS1 = GtraceSPS(E1,iE);
   if(tSPS1){
@@ -114,7 +114,7 @@ void TopOpeBRepBuild_Builder::GMergeEdges(const TopTools_ListOfShape& LE1,const 
   GFillEdgesPVS(LE1,LE2,G1,PVS);
   
   // Create a edge builder EBU
-  TopoDS_Shape E1F = LE1.First(); E1F.Orientation(TopAbs_FORWARD);
+  TopoDS_Shape E1F = LE1.front(); E1F.Orientation(TopAbs_FORWARD);
   TopOpeBRepBuild_PaveClassifier VCL(E1F);
   Standard_Boolean equalpar = PVS.HasEqualParameters();
   if (equalpar) VCL.SetFirstParameter(PVS.EqualParameters());
@@ -146,10 +146,10 @@ void TopOpeBRepBuild_Builder::GMergeEdges(const TopTools_ListOfShape& LE1,const 
 //=======================================================================
 void TopOpeBRepBuild_Builder::GFillEdgesPVS(const TopTools_ListOfShape& LE1,const TopTools_ListOfShape& LE2,const TopOpeBRepBuild_GTopo& G1,TopOpeBRepBuild_PaveSet& PVS)
 {
-  if ( LE1.IsEmpty() ) return;
+  if ( LE1.empty() ) return;
   TopAbs_State TB1,TB2; G1.StatesON(TB1,TB2);
   
-  const TopoDS_Shape& E1 = LE1.First();
+  const TopoDS_Shape& E1 = LE1.front();
   myEdgeReference = TopoDS::Edge(E1);
   
   TopTools_ListIteratorOfListOfShape it1;

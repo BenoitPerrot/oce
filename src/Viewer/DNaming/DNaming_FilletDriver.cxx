@@ -164,7 +164,7 @@ Standard_Integer DNaming_FilletDriver::Execute(TFunction_Logbook& theLog) const
     return -1;
   }
   TopTools_ListOfShape aLarg;
-  aLarg.Append(aCONTEXT);
+  aLarg.push_back(aCONTEXT);
   if (!BRepAlgo::IsValid(aLarg, aMkFillet.Shape(),Standard_False,Standard_False)) {
     aFunction->SetFailure(RESULT_NOT_VALID);
     return -1;

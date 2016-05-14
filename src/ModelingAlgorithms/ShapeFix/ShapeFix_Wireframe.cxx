@@ -525,25 +525,25 @@ Standard_Boolean ShapeFix_Wireframe::CheckSmallEdges(TopTools_MapOfShape& theSma
 	// Append current face to the list
 	if (theEdgeToFaces.IsBound(edge)) 
         {
-	  theEdgeToFaces(edge).Append(facet);
+	  theEdgeToFaces(edge).push_back(facet);
 	}
 	else 
         {
 	  TopTools_ListOfShape theFaceList;
-	  theFaceList.Append(facet);
+	  theFaceList.push_back(facet);
 	  theEdgeToFaces.Bind(edge,theFaceList);
 	}
 	// Check if current edge is small
-	if (theSmallEdges.Contains(edge)) theEdgeList.Append(edge);
+	if (theSmallEdges.Contains(edge)) theEdgeList.push_back(edge);
 	else if (SAW.CheckSmall(i,Precision())) 
         {
 	  theSmallEdges.Add(edge);
-	  theEdgeList.Append(edge);
+	  theEdgeList.push_back(edge);
 	}
       }
     }
     // Add current face to the map if has small edges
-    if (theEdgeList.Extent()) theFaceWithSmall.Bind(facet,theEdgeList);
+    if (theEdgeList.size()) theFaceWithSmall.Bind(facet,theEdgeList);
   }
   
   //========================================================================
@@ -582,11 +582,11 @@ Standard_Boolean ShapeFix_Wireframe::CheckSmallEdges(TopTools_MapOfShape& theSma
       }
       
       // Check if current edge is small
-      if (theSmallEdges.Contains(edge)) theEdgeList.Append(edge);
+      if (theSmallEdges.Contains(edge)) theEdgeList.push_back(edge);
       else if (SAW.CheckSmall(i,Precision())) 
       {
         theSmallEdges.Add(edge);
-        theEdgeList.Append(edge);
+        theEdgeList.push_back(edge);
       }
     }
     
@@ -625,7 +625,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
     {
       if (theFaceWithSmall.IsBound(anExpf2.Current())) 
       {
-	if (theFaceWithSmall(anExpf2.Current()).Extent()) 
+	if (theFaceWithSmall(anExpf2.Current()).size()) 
         {
 	  //smh#8
 	  TopoDS_Shape tmpShape = Context()->Apply(anExpf2.Current());
@@ -744,9 +744,9 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		Standard_Boolean same_set = Standard_False;
                 
                 //gka protection against joining seem edges with other edges
-		Standard_Boolean same_set1 = (theList1.Extent()==theList2.Extent() && 
+		Standard_Boolean same_set1 = (theList1.size()==theList2.size() && 
                                               ((!isSeam && !isSeam1)|| (isSeam && isSeam1))); //gka
-		Standard_Boolean same_set2 = (theList3.Extent()==theList2.Extent() && 
+		Standard_Boolean same_set2 = (theList3.size()==theList2.size() && 
                                               ((!isSeam && !isSeam2)|| (isSeam && isSeam2)));
 		TopTools_MapOfShape theSetOfFaces;
                 for (TopTools_ListIteratorOfListOfShape itf1(theList2);
@@ -824,7 +824,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     for(TopTools_ListIteratorOfListOfShape aItlF(theList2); aItlF.More(); aItlF.Next()) 
                     {
                       TopoDS_Shape tmpF = Context()->Apply(aItlF.Value());
-                      aListF.Append(tmpF);
+                      aListF.push_back(tmpF);
                     }
                     ReplaceFirst = JoinEdges(edge1,edge2,edge3,aListF);
                   }
@@ -919,17 +919,17 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		      if (theFaceWithSmall.IsBound(curface)) 
                       {
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			if (newsmall) theEdges.Append(edge3);
+			if (newsmall) theEdges.push_back(edge3);
 			TopTools_ListIteratorOfListOfShape ite(theEdges);
 			while (ite.More()) 
                         {
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(edge1) || iedge.IsSame(edge2))
-			    theEdges.Remove(ite);
+			    ite = theEdges.erase(ite);
 			  else ite.Next();
 			}
 			// Remove face without small edges from the map
-			if (!theEdges.Extent()) theFaceWithSmall.UnBind(curface);
+			if (!theEdges.size()) theFaceWithSmall.UnBind(curface);
 		      }
 		    }
 		    myStatusSmallEdges |= ShapeExtend::EncodeStatus( ShapeExtend_DONE1 );
@@ -988,8 +988,8 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(tmpedge1)) 
                           {
-			    theEdges.Remove(ite);
-			    theEdges.Append(anewedge1);
+			    ite = theEdges.erase(ite);
+			    theEdges.push_back(anewedge1);
 			  }
 			  else ite.Next();
 			}
@@ -1010,8 +1010,8 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(tmpedge2)) 
                           {
-			    theEdges.Remove(ite);
-			    theEdges.Append(anewedge2);
+			    ite = theEdges.erase(ite);
+			    theEdges.push_back(anewedge2);
 			  }
 			  else ite.Next();
 			}
@@ -1041,7 +1041,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                       continue;
                     }
                   }
-		  if (take_next && theList2.Extent()== 1)  
+		  if (take_next && theList2.size()== 1)  
                   { //gka
 		      TopoDS_Vertex V1 = SAE.FirstVertex(edge1),
 		                 V2 = SAE.LastVertex(edge1);
@@ -1055,7 +1055,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		      }
 		      else index++;
 		    }
-		    else if( !take_next && theList2.Extent()== 1) 
+		    else if( !take_next && theList2.size()== 1) 
                     {
 		      TopoDS_Vertex V1 = SAE.FirstVertex(edge2),
 		      V2 = SAE.LastVertex(edge2);
@@ -1184,9 +1184,9 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		Standard_Boolean same_set = Standard_False;
                 
                 //gka protection against joining seem edges with other edges
-		Standard_Boolean same_set1 = (theList1.Extent()==theList2.Extent() && 
+		Standard_Boolean same_set1 = (theList1.size()==theList2.size() && 
                                               ((!isSeam && !isSeam1)|| (isSeam && isSeam1))); //gka
-		Standard_Boolean same_set2 = (theList3.Extent()==theList2.Extent() && 
+		Standard_Boolean same_set2 = (theList3.size()==theList2.size() && 
                                               ((!isSeam && !isSeam2)|| (isSeam && isSeam2)));
 		TopTools_MapOfShape theSetOfFaces;
                 for (TopTools_ListIteratorOfListOfShape itf1(theList2);
@@ -1264,7 +1264,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     for(TopTools_ListIteratorOfListOfShape aItlF(theList2); aItlF.More(); aItlF.Next()) 
                     {
                       TopoDS_Shape tmpF = Context()->Apply(aItlF.Value());
-                      aListF.Append(tmpF);
+                      aListF.push_back(tmpF);
                     }
                     ReplaceFirst = JoinEdges(edge1,edge2,edge3,aListF);
                   }
@@ -1358,17 +1358,17 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		      if (theFaceWithSmall.IsBound(curface)) 
                       {
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			if (newsmall) theEdges.Append(edge3);
+			if (newsmall) theEdges.push_back(edge3);
 			TopTools_ListIteratorOfListOfShape ite(theEdges);
 			while (ite.More()) 
                         {
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(edge1) || iedge.IsSame(edge2))
-			    theEdges.Remove(ite);
+			    ite = theEdges.erase(ite);
 			  else ite.Next();
 			}
 			// Remove face without small edges from the map
-			if (!theEdges.Extent()) theFaceWithSmall.UnBind(curface);
+			if (!theEdges.size()) theFaceWithSmall.UnBind(curface);
 		      }
 		    }
 		    myStatusSmallEdges |= ShapeExtend::EncodeStatus( ShapeExtend_DONE1 );
@@ -1427,8 +1427,8 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(tmpedge1)) 
                           {
-			    theEdges.Remove(ite);
-			    theEdges.Append(anewedge1);
+			    ite = theEdges.erase(ite);
+			    theEdges.push_back(anewedge1);
 			  }
 			  else ite.Next();
 			}
@@ -1449,8 +1449,8 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 			  TopoDS_Shape iedge = ite.Value();
 			  if (iedge.IsSame(tmpedge2)) 
                           {
-			    theEdges.Remove(ite);
-			    theEdges.Append(anewedge2);
+			    ite = theEdges.erase(ite);
+			    theEdges.push_back(anewedge2);
 			  }
 			  else ite.Next();
 			}
@@ -1480,7 +1480,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                       continue;
                     }
                   }
-		  if (take_next && theList2.Extent()== 1)  
+		  if (take_next && theList2.size()== 1)  
                   { //gka
 		      TopoDS_Vertex V1 = SAE.FirstVertex(edge1),
 		                 V2 = SAE.LastVertex(edge1);
@@ -1494,7 +1494,7 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		      }
 		      else index++;
 		    }
-		    else if( !take_next && theList2.Extent()== 1) 
+		    else if( !take_next && theList2.size()== 1) 
                     {
 		      TopoDS_Vertex V1 = SAE.FirstVertex(edge2),
 		      V2 = SAE.LastVertex(edge2);

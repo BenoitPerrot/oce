@@ -53,7 +53,7 @@ static
   TopExp_Explorer ex(aWire,TopAbs_EDGE);
   for (; ex.More(); ex.Next()) aNbEdges++;
   
-  myResList.Clear();
+  myResList.clear();
 
   TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo M;
   TopOpeBRepBuild_Tools2d::MakeMapOfShapeVertexInfo(aWire, M);
@@ -65,7 +65,7 @@ static
 
   BuildPath (myVertex0, myEdge, myVertex, aNbEdges, M, anEdgesCount, aBreakFlag, myResList);
   //
-  aResList.Clear();
+  aResList.clear();
   aResList=myResList;
 }
 //=======================================================================
@@ -107,13 +107,13 @@ static
     else {
       if (stopFlag) { // if previous path was wrong
 	aVInfo.RemovePassed();
-	myResList.RemoveFirst();
+	myResList.pop_front();
 	stopFlag=0;
 	anEdgesCount--;
       }
 
       aVInfo.AppendPassed (myEdge);
-      myResList.Prepend (myEdge);
+      myResList.push_front (myEdge);
       anEdgesCount++;
       myVertex=(myEdge.Orientation()==TopAbs_FORWARD)? 
 	TopExp::LastVertex(myEdge) : TopExp::FirstVertex(myEdge);
@@ -132,7 +132,7 @@ static
       if (aBreakFlag==2) {// Come back
 	if (j==aNbCases) {
 	  aVInfo.RemovePassed();
-	  myResList.RemoveFirst();
+	  myResList.pop_front();
 	  anEdgesCount--;
 	  ////
 	  return;
@@ -201,7 +201,7 @@ static
     printf(" Vert.#%d, ", i);
     const TopTools_ListOfShape& aList=aVInfo.ListPassed();
     
-    if (aList.Extent()) {
+    if (aList.size()) {
       TopTools_ListIteratorOfListOfShape anIt(aList);
       for (; anIt.More(); anIt.Next()) {
 	printf("pass,");

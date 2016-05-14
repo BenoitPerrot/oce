@@ -283,7 +283,7 @@ void BRepFeat_RibSlot::LFPerform()
 
 Standard_Boolean BRepFeat_RibSlot::IsDeleted(const TopoDS_Shape& F) 
 {
-  return (myMap(F).IsEmpty());
+  return (myMap(F).empty());
 }
 
 
@@ -301,12 +301,12 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Modified
 #endif
   if (myMap.IsBound(F)) {
     static TopTools_ListOfShape list;
-    list.Clear();
+    list.clear();
     TopTools_ListIteratorOfListOfShape ite(myMap(F));
     for(; ite.More(); ite.Next()) {
       const TopoDS_Shape& sh = ite.Value();
       if(!sh.IsSame(F)) 
-        list.Append(sh);
+        list.push_back(sh);
     }
     return list;
   }
@@ -326,33 +326,33 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Generated
   if (trc) cout << "BRepFeat_RibSlot::Generated" << endl;
 #endif
   if(S.ShapeType() != TopAbs_FACE) {
-    myGenerated.Clear();
+    myGenerated.clear();
     if(myLFMap.IsEmpty() || !myLFMap.IsBound(S)) {
       if (myMap.IsBound(S)) { // check if filter on face or not
         static TopTools_ListOfShape list;
-        list.Clear();
+        list.clear();
         TopTools_ListIteratorOfListOfShape ite(myMap(S));
         for(; ite.More(); ite.Next()) {
           const TopoDS_Shape& sh = ite.Value();
           if(!sh.IsSame(S)) 
-            list.Append(sh);
+            list.push_back(sh);
         }
         return list;
       }
       else return myGenerated;
     }
     else {
-      myGenerated.Clear();
+      myGenerated.clear();
       TopTools_ListIteratorOfListOfShape it(myLFMap(S));
       static TopTools_ListOfShape list;
-      list.Clear();
+      list.clear();
       for(; it.More(); it.Next()) {
         if(myMap.IsBound(it.Value())) {
           TopTools_ListIteratorOfListOfShape it1(myMap(it.Value()));
           for(; it1.More(); it1.Next()) {
             const TopoDS_Shape& sh = it1.Value();
             if(!sh.IsSame(S)) 
-              list.Append(sh);
+              list.push_back(sh);
           }
         }
       }
@@ -384,9 +384,9 @@ void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
         newdsc.Add(it2.Value());
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc);itm.More();itm.Next()) {
-      myMap.ChangeFind(orig).Append(itm.Key());
+      myMap.ChangeFind(orig).push_back(itm.Key());
     }
   }
 }
@@ -459,12 +459,12 @@ void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
         }
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc); itm.More(); itm.Next()) {
        // check the belonging to the shape...
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(itm.Key())) {
-          myMap.ChangeFind(orig).Append(itm.Key());
+          myMap.ChangeFind(orig).push_back(itm.Key());
           break;
         }
       }
@@ -901,7 +901,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
         TopExp_Explorer ex4, ex5;
         ex4.Init(mySbase, TopAbs_FACE);
         TopTools_ListOfShape faces;
-        faces.Clear();
+        faces.clear();
         Map.Clear();
         for(; ex4.More(); ex4.Next()) {
           const TopoDS_Face& fx = TopoDS::Face(ex4.Current());//modified by NIZNHY-PKV Fri Mar 22 17:06:04 2002 fx instead f
@@ -910,11 +910,11 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
           for(; ex5.More(); ex5.Next()) {
             const TopoDS_Edge& ee = TopoDS::Edge(ex5.Current()); 
             if(ee.IsSame(OnFirstEdge)) {
-              faces.Append(fx);
+              faces.push_back(fx);
             }
           }
         }
-        if(!faces.IsEmpty())  {
+        if(!faces.empty())  {
           TopoDS_Face FFF = ChoiceOfFaces(faces, cc, FirstPar+bnd/50., bnd/50., Pln);
           if(!FFF.IsNull()) FirstFace = FFF;
         }
@@ -925,7 +925,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
         TopExp_Explorer ex4, ex5;
         ex4.Init(mySbase, TopAbs_FACE);
         TopTools_ListOfShape faces;
-        faces.Clear();
+        faces.clear();
         Map.Clear();
         for(; ex4.More(); ex4.Next()) {
           const TopoDS_Face& fx = TopoDS::Face(ex4.Current());//modified by NIZNHY-PKV Fri Mar 22 17:06:36 2002 fx instead of f
@@ -934,12 +934,12 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
           for(; ex5.More(); ex5.Next()) {
             const TopoDS_Vertex& vv = TopoDS::Vertex(ex5.Current()); 
             if(vv.IsSame(OnFirstVertex)) {
-              faces.Append(fx);
+              faces.push_back(fx);
               break;
             }
           }
         }
-        if(!faces.IsEmpty())  {
+        if(!faces.empty())  {
           TopoDS_Face FFF = ChoiceOfFaces(faces, cc, FirstPar+bnd/50., bnd/50., Pln);
           if(!FFF.IsNull()) FirstFace = FFF;
         }
@@ -957,7 +957,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
         TopExp_Explorer ex4, ex5;
         ex4.Init(mySbase, TopAbs_FACE);
         TopTools_ListOfShape faces;
-        faces.Clear();
+        faces.clear();
         Map.Clear();
         for(; ex4.More(); ex4.Next()) {
           const TopoDS_Face& fx = TopoDS::Face(ex4.Current());//modified by NIZNHY-PKV Fri Mar 22 17:06:36 2002 fx instead of f
@@ -966,12 +966,12 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
           for(; ex5.More(); ex5.Next()) {
             const TopoDS_Edge& ee = TopoDS::Edge(ex5.Current()); 
             if(ee.IsSame(OnLastEdge)) {
-              faces.Append(fx);
+              faces.push_back(fx);
               break;
             }
           }
         }
-        if(!faces.IsEmpty())  {
+        if(!faces.empty())  {
           TopoDS_Face FFF = ChoiceOfFaces(faces, cc, LastPar-bnd/50., bnd/50., Pln);
           if(!FFF.IsNull()) LastFace = FFF;
         }
@@ -982,7 +982,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
         TopExp_Explorer ex4, ex5;
         ex4.Init(mySbase, TopAbs_FACE);
         TopTools_ListOfShape faces;
-        faces.Clear();
+        faces.clear();
         Map.Clear();
         for(; ex4.More(); ex4.Next()) {
           const TopoDS_Face& fx = TopoDS::Face(ex4.Current());//modified by NIZNHY-PKV Fri Mar 22 17:06:36 2002 fx instead of f
@@ -991,12 +991,12 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
           for(; ex5.More(); ex5.Next()) {
             const TopoDS_Vertex& vv = TopoDS::Vertex(ex5.Current()); 
             if(vv.IsSame(OnLastVertex)) {
-              faces.Append(fx);
+              faces.push_back(fx);
               break;
             }
           }
         }
-        if(!faces.IsEmpty())  {
+        if(!faces.empty())  {
           TopoDS_Face FFF = ChoiceOfFaces(faces, cc, LastPar-bnd/50., bnd/50., Pln);
           if(!FFF.IsNull()) LastFace = FFF;
         }
@@ -1154,8 +1154,8 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
             theEdge.Nullify(); theFace.Nullify(); theVertex.Nullify();
             if(PtOnEdge && !PtOnVertex) {
               TopTools_ListOfShape faces;
-              faces.Clear();
-              faces.Append(FirstFace);
+              faces.clear();
+              faces.push_back(FirstFace);
               TopExp_Explorer ex2;
               ex2.Init(mySbase, TopAbs_FACE);
               for(; ex2.More(); ex2.Next()) {
@@ -1165,7 +1165,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
                 for(; ex3.More(); ex3.Next()) {
                   const TopoDS_Edge& e = TopoDS::Edge(ex3.Current());
                   if(e.IsSame(OnEdge) && !fx.IsSame(FirstFace)) {
-                    faces.Append(fx);
+                    faces.push_back(fx);
                   }
                 }
               }
@@ -1174,8 +1174,8 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
             }
             else if(PtOnEdge && PtOnVertex) {
               TopTools_ListOfShape faces;
-              faces.Clear();
-              faces.Append(FirstFace);
+              faces.clear();
+              faces.push_back(FirstFace);
               TopExp_Explorer ex2;
               ex2.Init(mySbase, TopAbs_FACE);
               for(; ex2.More(); ex2.Next()) {
@@ -1185,7 +1185,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
                 for(; ex3.More(); ex3.Next()) {
                   const TopoDS_Vertex& v = TopoDS::Vertex(ex3.Current());
                   if(v.IsSame(OnVertex) && !fx.IsSame(FirstFace)) {
-                    faces.Append(fx);
+                    faces.push_back(fx);
                   }
                 }
               }
@@ -1207,8 +1207,8 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
             OnLastEdge = OnEdge; 
             if(PtOnEdge && !PtOnVertex) {
               TopTools_ListOfShape faces;
-              faces.Clear();
-              faces.Append(LastFace);
+              faces.clear();
+              faces.push_back(LastFace);
               TopExp_Explorer ex2;
               ex2.Init(mySbase, TopAbs_FACE);
               for(; ex2.More(); ex2.Next()) {
@@ -1218,7 +1218,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
                 for(; ex3.More(); ex3.Next()) {
                   const TopoDS_Edge& e = TopoDS::Edge(ex3.Current());
                   if(e.IsSame(OnEdge) && !fx.IsSame(LastFace)) {
-                    faces.Append(fx);
+                    faces.push_back(fx);
                   }
                 }
               }
@@ -1227,8 +1227,8 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
             }
             else if(PtOnEdge && PtOnVertex) {
               TopTools_ListOfShape faces;
-              faces.Clear();
-              faces.Append(LastFace);
+              faces.clear();
+              faces.push_back(LastFace);
               TopExp_Explorer ex2;
               ex2.Init(mySbase, TopAbs_FACE);
               for(; ex2.More(); ex2.Next()) {
@@ -1238,7 +1238,7 @@ Standard_Boolean BRepFeat_RibSlot::ExtremeFaces(const Standard_Boolean RevolRib,
                 for(; ex3.More(); ex3.Next()) {
                   const TopoDS_Vertex& v = TopoDS::Vertex(ex3.Current());
                   if(v.IsSame(OnVertex) && !fx.IsSame(LastFace)) {
-                    faces.Append(fx);
+                    faces.push_back(fx);
                   }
                 }
               }
@@ -2049,7 +2049,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
         BRepLib_MakeEdge e(cc, v1, v2);
         theEdge = TopoDS::Edge(e.Shape());
       }
-      myLFMap(FirstEdge).Append(theEdge);
+      myLFMap(FirstEdge).push_back(theEdge);
       BB.Add(w, theEdge);
       if(theFV.IsNull()) theFV = TopExp::FirstVertex(theEdge,Standard_True);
       theLastEdge = theEdge;
@@ -2082,7 +2082,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
         BRepLib_MakeEdge e(cc, v1, v2);
         theEdge = TopoDS::Edge(e.Shape());
       }
-      myLFMap(FirstEdge).Append(theEdge);
+      myLFMap(FirstEdge).push_back(theEdge);
       BB.Add(w, theEdge); 
       if(theFV.IsNull()) theFV = TopExp::FirstVertex(theEdge,Standard_True);
       theLastEdge = theEdge;
@@ -2106,7 +2106,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
       else {
         theEdge = FirstEdge;
       }
-      myLFMap(FirstEdge).Append(theEdge);
+      myLFMap(FirstEdge).push_back(theEdge);
       BB.Add(w, theEdge); 
       if(theFV.IsNull()) theFV = TopExp::FirstVertex(theEdge,Standard_True);
       theLastEdge = theEdge;
@@ -2124,7 +2124,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
       else {
         theEdge = FalseFirstEdge;
       }
-      myLFMap(FirstEdge).Append(theEdge);
+      myLFMap(FirstEdge).push_back(theEdge);
       BB.Add(w, theEdge); 
       if(theFV.IsNull()) theFV = TopExp::FirstVertex(theEdge,Standard_True);
       theLastEdge = theEdge;
@@ -2157,7 +2157,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
         else {
           eee = E;
         }
-        myLFMap(E).Append(eee);
+        myLFMap(E).push_back(eee);
         BB.Add(w, eee);
         if(theFV.IsNull()) theFV = TopExp::FirstVertex(eee,Standard_True);
         theLastEdge = eee;
@@ -2200,7 +2200,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
           BRepLib_MakeEdge e(cc, v1, v2);
           eee = TopoDS::Edge(e.Shape());          
         }
-        myLFMap(edg).Append(eee);
+        myLFMap(edg).push_back(eee);
         BB.Add(w, eee);
         if(theFV.IsNull()) theFV = TopExp::FirstVertex(eee,Standard_True);
         theLastEdge = eee;
@@ -2237,7 +2237,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
           BRepLib_MakeEdge e(cc, v1, v2);
           eee = TopoDS::Edge(e.Shape());          
         }
-        myLFMap(LastEdge).Append(eee);
+        myLFMap(LastEdge).push_back(eee);
         BB.Add(w, eee);
         if(theFV.IsNull()) theFV = TopExp::FirstVertex(eee,Standard_True);
         theLastEdge = eee;
@@ -2275,7 +2275,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
         BRepLib_MakeEdge e(cc, v1, v2);
         eee = TopoDS::Edge(e.Shape());          
       }
-      myLFMap(LastEdge).Append(eee);
+      myLFMap(LastEdge).push_back(eee);
       BB.Add(w, eee);
       if(theFV.IsNull()) theFV = TopExp::FirstVertex(eee,Standard_True);
       theLastEdge = eee;
@@ -2403,13 +2403,13 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
         
       }
     }
-    myMap.ChangeFind(orig).Clear();
+    myMap.ChangeFind(orig).clear();
     for (itm.Initialize(newdsc); itm.More(); itm.Next()) {
        // check the belonging to the shape...
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(itm.Key())) {
 //          const TopoDS_Shape& sh = itm.Key();
-          myMap.ChangeFind(orig).Append(itm.Key());
+          myMap.ChangeFind(orig).push_back(itm.Key());
           break;
         }
       }

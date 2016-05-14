@@ -67,10 +67,10 @@ void TopOpeBRepBuild_Builder::SplitSolid(const TopoDS_Shape& S1oriented,
   
   // build the list of solids to split : LS1, LS2
   TopTools_ListOfShape LS1,LS2;
-  LS1.Append(S1forward);
+  LS1.push_back(S1forward);
   FindSameDomain(LS1,LS2);
-  Standard_Integer n1 = LS1.Extent();
-  Standard_Integer n2 = LS2.Extent();
+  Standard_Integer n1 = LS1.size();
+  Standard_Integer n2 = LS2.size();
   
   if (!n2) RevOri1 = Standard_False;
   if (!n1) RevOri2 = Standard_False;

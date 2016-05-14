@@ -612,7 +612,7 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
   Standard_Integer TopOpeBRepBuild_CorrectFace2d::MakeRightWire ()
 {
   Standard_Integer aNbEdgesReally=0;
-  myOrderedWireList.Clear();
+  myOrderedWireList.clear();
  
   //1. Real amount of the edges on aWire
   TopExp_Explorer aWExp;
@@ -622,7 +622,7 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
   //2. We'll use TopOpeBRepBuild_Tools::Path
   TopTools_ListOfShape aL;
   TopOpeBRepBuild_Tools2d::Path (myCurrentWire, aL);
-  if (aL.Extent()!=aNbEdgesReally) {
+  if (aL.size()!=aNbEdgesReally) {
     myErrorStatus=4;
     return 1;
   }
@@ -633,7 +633,7 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
   TopTools_ListOfShape aFL;
   TopTools_ListIteratorOfListOfShape lit(aL);
   for(; lit.More(); lit.Next())
-    aFL.Prepend(lit.Value());
+    aFL.push_front(lit.Value());
 
   myOrderedWireList=aFL;
   //End modified by NIZNHY-PKV Tue Apr 25 12:06:45 2000
@@ -677,14 +677,14 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
     if(aFE.IsNull() && !BRep_Tool::Degenerated(TopoDS::Edge(anEdge)))
       aFE = anEdge;
     if (anEdge==aFE) aFlag=1; //turn the switch ON
-    if (aFlag) HeadList.Append(anEdge);
+    if (aFlag) HeadList.push_back(anEdge);
   }
   
   anIt.Initialize(myOrderedWireList);
   for (; anIt.More(); anIt.Next()) {
     const TopoDS_Shape& anEdge=anIt.Value();
     if (anEdge==aFE) break;
-    aTailList.Append(anEdge);
+    aTailList.push_back(anEdge);
   }
   HeadList.Append(aTailList);
 }
@@ -776,10 +776,10 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
     //modified by NIZNHY-PKV Mon Apr 24 14:28:06 2000 t
     // We have to reverse the order in list 
     aSeq.Append(aFirstEdge);
-    HeadList.Clear();
+    HeadList.clear();
     aNb=aSeq.Length();
     for (i=aNb; i>1; i--) { 
-      HeadList.Append(aSeq(i));
+      HeadList.push_back(aSeq(i));
     }
   }
 }

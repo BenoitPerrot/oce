@@ -78,8 +78,8 @@ extern void FUN_tool_tori(const TopAbs_Orientation Or);
 
 void FUN_tool_Add(TopTools_DataMapOfShapeListOfShape& map,const TopoDS_Shape& key, const TopoDS_Shape& subitem)
 {
-  if (map.IsBound(key)) map.ChangeFind(key).Append(subitem);
-  else {TopTools_ListOfShape los; los.Append(subitem); map.Bind(key,los);}
+  if (map.IsBound(key)) map.ChangeFind(key).push_back(subitem);
+  else {TopTools_ListOfShape los; los.push_back(subitem); map.Bind(key,los);}
 }
 static void FUN_Raise() {
 #ifdef OCCT_DEBUG
@@ -105,7 +105,7 @@ TopOpeBRepTool_REGUW::TopOpeBRepTool_REGUW(const TopoDS_Face& Fref)
 
   mymapvEds.Clear();
   mymapvmultiple.Clear();
-  myListVmultiple.Clear();
+  myListVmultiple.clear();
 
   iStep = 0;
 }
@@ -266,7 +266,7 @@ void TopOpeBRepTool_REGUW::InitStep(const TopoDS_Shape& S)
 
   mymapvEds.Clear();
   mymapvmultiple.Clear();
-  myListVmultiple.Clear();
+  myListVmultiple.clear();
 }
 
 
@@ -389,7 +389,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::MapS()
     Standard_Boolean multiple = co.IsMultiple();
     if (multiple)
       if (mymapvmultiple.Add(v))
-        myListVmultiple.Append(v);
+        myListVmultiple.push_back(v);
   } 
   return Standard_True;    
 }//MapS
@@ -448,14 +448,14 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
     const TopOpeBRepTool_connexity& cmu = mymapvEds.FindFromKey(vmu);
     Standard_Boolean mult = cmu.IsMultiple();
     if (!mult) {
-      myListVmultiple.Remove(itmu);
+      itmu = myListVmultiple.erase(itmu);
       mymapvmultiple.Remove(vmu);
     }
     else itmu.Next();
   }
   
   // myv0 :
-  if (myListVmultiple.IsEmpty()) {
+  if (myListVmultiple.empty()) {
     Standard_Integer i;
     for (i = 1; i <= mymapvEds.Extent(); i++) {
       const TopoDS_Vertex& v = TopoDS::Vertex(mymapvEds.FindKey(i));
@@ -467,7 +467,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
     }
   }
   else {
-    myv0 = TopoDS::Vertex(myListVmultiple.First());  
+    myv0 = TopoDS::Vertex(myListVmultiple.front());  
   }
   if (myv0.IsNull()) return Standard_False;
   // myed : 
@@ -478,7 +478,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
   TopTools_ListOfShape le;  le.Append(lea); le.Append(leb); Standard_Integer ne = nea+neb;
   if (ne == 0) return Standard_False;
 
-  if (nea > 0) myed = TopoDS::Edge(le.First());
+  if (nea > 0) myed = TopoDS::Edge(le.front());
   else {// <myv0> CLOSING in <myed>
     TopTools_ListIteratorOfListOfShape itb(le);
     for (; itb.More(); itb.Next()){
@@ -622,7 +622,8 @@ Standard_Boolean TopOpeBRepTool_REGUW::NextinBlock()
 #ifdef OCCT_DEBUG
       if (trc) cout<<" is same : not valid"<<endl;
 #endif
-      le.Remove(ite); continue;
+      ite = le.erase(ite);
+      continue;
     }
 
     TopOpeBRepTool_C2DF c2df;Standard_Boolean bound = myCORRISO.UVRep(e,c2df);
@@ -633,19 +634,21 @@ Standard_Boolean TopOpeBRepTool_REGUW::NextinBlock()
     
     // p2d(myv,ed)=p2d(myv,e)
     Standard_Boolean samep2d = p2de.IsEqual(myp2d,mytol2d);
-    if (!samep2d) le.Remove(ite); 
-    else ite.Next();
+    if (!samep2d)
+      ite = le.erase(ite); 
+    else
+      ite.Next();
 #ifdef OCCT_DEBUG
     if (trc) {if (samep2d) cout<<" valid"<<endl;
     else         cout<<" not valid"<<endl;}
 #endif
   }//ite(le)
-  ne = le.Extent();
+  ne = le.size();
   if (ne == 0) {FUN_Raise(); return Standard_False;}
   
   // myed :
-  ne = le.Extent();
-  if (ne == 1) myed = TopoDS::Edge(le.First());
+  ne = le.size();
+  if (ne == 1) myed = TopoDS::Edge(le.front());
   else {
     TopoDS_Edge efound; Standard_Boolean found = NearestE(le,efound);
     if (!found) {FUN_Raise(); return Standard_False;}
@@ -695,7 +698,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
   if (trc) cout<<endl<<"**    REGU    istep=**"<<iStep<<endl;
 #endif
 
-  Splits.Clear();
+  Splits.clear();
   // A valid face is built on "valid" wires.
   // A valid wire has for UV representation a set of 2d edges of connexity = 2.
   
@@ -737,7 +740,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
   TopTools_ListOfShape loEcur, loW;
 
   Standard_Integer nite = 0; 
-  Standard_Integer nE = myCORRISO.Eds().Extent();// recall myCORRISO.Init(myS);
+  Standard_Integer nE = myCORRISO.Eds().size();// recall myCORRISO.Init(myS);
   TopTools_ListIteratorOfListOfShape ite(myCORRISO.Eds());
   for (; ite.More(); ite.Next()) {
     TopAbs_Orientation oe = ite.Value().Orientation();
@@ -757,7 +760,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 #endif    
 	{FUN_Raise(); return Standard_False;}      
       }
-      loEcur.Append(myed);// add it to the current wire
+      loEcur.push_back(myed);// add it to the current wire
       nite++;             // increment nite  
       isinit0 = Standard_False;
       continue;
@@ -783,7 +786,10 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 	  while (itte.More()) {
 	    const TopoDS_Shape& ee = itte.Value();
 	    TopAbs_Orientation oe = ee.Orientation();
-	    if (M_INTERNAL(oe) || M_EXTERNAL(oe)) {loEcur.Append(ee);le.Remove(itte);}
+	    if (M_INTERNAL(oe) || M_EXTERNAL(oe)) {
+	      loEcur.push_back(ee);
+	      itte = le.erase(itte);
+	    }
 	    else                                  itte.Next();
 	  }//itte(le)
 	}//exv(e)
@@ -792,7 +798,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
             
       // if Scur = <currentW> gives only one new wire, and has no new splitted edges, <currentW>
       // is valid and unchanged.
-      Standard_Boolean onewok = FINI && loW.IsEmpty() && !hasnewsplits;
+      Standard_Boolean onewok = FINI && loW.empty() && !hasnewsplits;
       if (onewok){
 #ifdef OCCT_DEBUG	
 	if (trc) cout<<"wire "<<FUN_adds(Scur)<<" is found valid\n";
@@ -801,7 +807,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
       }//onewok
 
       TopoDS_Wire newW; Standard_Boolean wiok = FUN_tool_MakeWire(loEcur, newW);
-      if (wiok) loW.Append(newW);
+      if (wiok) loW.push_back(newW);
       else      {
 #ifdef OCCT_DEBUG
       if (trc) cout<<"** FUN_tool_MakeWire fails"<<endl;
@@ -815,7 +821,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 		cout<<"\n\n";}  
 #endif      
       isinit0 = Standard_True; 
-      loEcur.Clear(); 
+      loEcur.clear(); 
 
       if (FINI) {
 	Splits.Append(loW);
@@ -834,7 +840,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 #endif   
       {FUN_Raise(); return Standard_False;}
     }
-    loEcur.Append(myed);
+    loEcur.push_back(myed);
     nite++;
   } // nite
 
@@ -851,7 +857,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU()
   if (!HasInit()) Standard_Failure::Raise("TopOpeBRepTool_REGUW : NO INIT");
   TopTools_ListOfShape null;
 
-  Standard_Boolean toregu = !myListVmultiple.IsEmpty();
+  Standard_Boolean toregu = !myListVmultiple.empty();
   toregu = toregu || hasnewsplits;
   TopTools_ListOfShape Splits;
   if (!toregu) {
@@ -864,19 +870,19 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU()
   if (!ok) {FUN_Raise(); return Standard_False;}
 
   // iStep = 2;
-  if (loS.IsEmpty()) loS.Append(S());// no new shape
+  if (loS.empty()) loS.push_back(S());// no new shape
 
   TopTools_ListIteratorOfListOfShape it(loS);
   for (; it.More(); it.Next()){
     const TopoDS_Shape& Scur = it.Value();
     InitStep(Scur);
     MapS();
-    Standard_Boolean toregu1 = !myListVmultiple.IsEmpty();
-    if (!toregu1) {Splits.Append(Scur); continue;}
+    Standard_Boolean toregu1 = !myListVmultiple.empty();
+    if (!toregu1) {Splits.push_back(Scur); continue;}
 
     TopTools_ListOfShape sp; ok = REGU(2,Scur,sp);
     if (!ok) {FUN_Raise(); return Standard_False;}
-    if (sp.IsEmpty()) sp.Append(Scur);// no new shape
+    if (sp.empty()) sp.push_back(Scur);// no new shape
     Splits.Append(sp);
   }
   myOwNw.Bind(S(),Splits);
@@ -981,7 +987,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::UpdateMultiple(const TopoDS_Vertex& v)
   Standard_Boolean ismult = co.IsMultiple();
   if (ismult)
     if (mymapvmultiple.Add(v))
-      myListVmultiple.Append(v);
+      myListVmultiple.push_back(v);
   return Standard_True;
   
 }

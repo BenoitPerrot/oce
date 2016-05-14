@@ -65,7 +65,7 @@ void BRepAlgo_FaceRestrictor::Init(const TopoDS_Face&     F,
 
 void BRepAlgo_FaceRestrictor::Add(TopoDS_Wire& W)
 {
-  wires.Append(W);
+  wires.push_back(W);
 }
 
 
@@ -76,8 +76,8 @@ void BRepAlgo_FaceRestrictor::Add(TopoDS_Wire& W)
 
 void BRepAlgo_FaceRestrictor::Clear()
 {
-  wires.Clear();
-  faces.Clear();
+  wires.clear();
+  faces.clear();
 }
 
 //=======================================================================
@@ -206,7 +206,7 @@ Standard_Boolean BRepAlgo_FaceRestrictor::IsDone() const
 
 Standard_Boolean BRepAlgo_FaceRestrictor::More() const 
 {
-  return (!faces.IsEmpty());
+  return (!faces.empty());
 }
 
 
@@ -217,7 +217,7 @@ Standard_Boolean BRepAlgo_FaceRestrictor::More() const
 
 void BRepAlgo_FaceRestrictor::Next()
 {
-  faces.RemoveFirst();
+  faces.pop_front();
 }
 
 
@@ -228,7 +228,7 @@ void BRepAlgo_FaceRestrictor::Next()
 
 TopoDS_Face BRepAlgo_FaceRestrictor::Current() const 
 {
-  return (TopoDS::Face(faces.First()));
+  return (TopoDS::Face(faces.front()));
 }
 
 //=======================================================================
@@ -299,12 +299,12 @@ static void Store (const TopoDS_Wire& W2,
     TopTools_ListOfShape empty;
     keyIsIn.Bind(W2,empty);
   }
-  keyIsIn(W2).Append(W1);
+  keyIsIn(W2).push_back(W1);
   if (!keyContains.IsBound(W1)) {
     TopTools_ListOfShape empty;
     keyContains.Bind(W1,empty);
   }
-  keyContains(W1).Append(W2);
+  keyContains(W1).push_back(W2);
 }
 //=======================================================================
 //function : BuildFaceIn
@@ -320,7 +320,7 @@ static void BuildFaceIn(  TopoDS_Face& F,
 {
   BRep_Builder B;
   
-  if (!KeyContains.IsBound(W) || KeyContains(W).IsEmpty()) return;
+  if (!KeyContains.IsBound(W) || KeyContains(W).empty()) return;
 
 // Removal of W in KeyIsIn.
 //  for (TopTools_ListIteratorOfListOfShape it(KeyContains(W)); it.More(); it.Next()) {
@@ -332,7 +332,7 @@ static void BuildFaceIn(  TopoDS_Face& F,
     TopTools_ListIteratorOfListOfShape it2;
     for (it2.Initialize(L2); it2.More(); it2.Next()) {
       if (it2.Value().IsSame(W)) {
-        L2.Remove(it2);
+        it2 = L2.erase(it2);
         break;
       }
     }
@@ -344,15 +344,15 @@ static void BuildFaceIn(  TopoDS_Face& F,
     const TopoDS_Wire&    WI = TopoDS::Wire(it.Value());
     TopTools_ListOfShape& L2 = KeyIsIn(WI);
    
-    if (L2.IsEmpty()) {
-      WireExt.Append(WI);
+    if (L2.empty()) {
+      WireExt.push_back(WI);
     }
   }
   
   for (it.Initialize(WireExt); it.More(); it.Next()) {
     const TopoDS_Wire&    WI = TopoDS::Wire(it.Value());
     TopTools_ListOfShape& L2 = KeyIsIn(WI);
-    if (L2.IsEmpty()) {
+    if (L2.empty()) {
       if (Orientation == TopAbs_FORWARD) {
         TopoDS_Wire NWI(WI);
         NWI.Reverse();
@@ -361,11 +361,11 @@ static void BuildFaceIn(  TopoDS_Face& F,
         BuildFaceIn (F,WI,KeyContains, KeyIsIn,TopAbs_REVERSED,Faces);
       }
       else {
-        TopoDS_Shape aLocalShape  = Faces.First().EmptyCopied();
+        TopoDS_Shape aLocalShape  = Faces.front().EmptyCopied();
         TopoDS_Face NF = TopoDS::Face(aLocalShape);
         // TopoDS_Face NF = TopoDS::Face(Faces.First().EmptyCopied());;
         B.Add        (NF,WI);
-        Faces.Append (NF);
+        Faces.push_back (NF);
         BuildFaceIn (NF, WI, KeyContains, KeyIsIn, TopAbs_FORWARD,Faces);
       }
     }
@@ -434,20 +434,20 @@ void BRepAlgo_FaceRestrictor::PerformWithCorrection()
   
   for (it.Initialize(wires) ; it.More(); it.Next()) {
     const TopoDS_Wire& W = TopoDS::Wire(it.Value());
-    if (!keyIsIn.IsBound(W) || keyIsIn(W).IsEmpty()) {
-      WireExt.Append(W);
+    if (!keyIsIn.IsBound(W) || keyIsIn(W).empty()) {
+      WireExt.push_back(W);
     }
   }
   
   for (it.Initialize(WireExt) ; it.More(); it.Next()) {
     const TopoDS_Wire& W = TopoDS::Wire(it.Value());
-    if (!keyIsIn.IsBound(W) || keyIsIn(W).IsEmpty()) {
+    if (!keyIsIn.IsBound(W) || keyIsIn(W).empty()) {
       TopoDS_Shape aLocalShape = myFace.EmptyCopied();
       TopoDS_Face NewFace = TopoDS::Face(aLocalShape);
 //      TopoDS_Face NewFace = TopoDS::Face(myFace.EmptyCopied());
       NewFace.Orientation(TopAbs_FORWARD);
       B.Add     (NewFace,W);
-      faces.Append(NewFace); 
+      faces.push_back(NewFace); 
       //--------------------------------------------
       // Construction of a face by exterior wire.
       //--------------------------------------------

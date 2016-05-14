@@ -104,8 +104,8 @@ const TopTools_ListOfShape& BRepBuilderAPI_Transform::Modified
   (const TopoDS_Shape& F)
 {
   if (!myUseModif) {
-    myGenerated.Clear();
-    myGenerated.Append(F.Moved(myLocation));
+    myGenerated.clear();
+    myGenerated.push_back(F.Moved(myLocation));
     return myGenerated;
   }
   return BRepBuilderAPI_ModifyShape::Modified(F);

@@ -284,10 +284,10 @@ void QANewBRepNaming_Gluing::SetLog(const TDF_LabelMap& theLog) {
 void QANewBRepNaming_Gluing::AddToTheUnique(const TopoDS_Shape& theUnique, const TopoDS_Shape& theIdentifier) {
   if (!myUnique.Contains(theUnique)) {
     TopTools_ListOfShape* aNewList = new TopTools_ListOfShape;
-    aNewList->Append(theIdentifier);
+    aNewList->push_back(theIdentifier);
     myUnique.Add(theUnique, *aNewList);
   } else {
-    myUnique.ChangeFromKey(theUnique).Append(theIdentifier);
+    myUnique.ChangeFromKey(theUnique).push_back(theIdentifier);
   }
 }
 
@@ -395,7 +395,7 @@ void QANewBRepNaming_Gluing::LoadSourceShapes(TopTools_DataMapOfShapeInteger& th
     for(;anIter2.More();anIter2.Next()) {
       if (!aShapes.Contains(anIter2.Value())) {
 	aShapes.Add(anIter2.Value());
-	aSortedShapes.Append(anIter2.Value());
+	aSortedShapes.push_back(anIter2.Value());
       }
     }
   }
@@ -454,7 +454,7 @@ void QANewBRepNaming_Gluing::LoadUniqueShapes(QANewModTopOpe_Glue& /*theMkGluing
 	Standard_Integer a;
 	for(a = anIndex;a<=myUnique.Extent();a++) {
 	  if (alreadyUsed.Contains(a)) continue;
-	  if (myUnique.FindFromIndex(a).Extent()!=anArray->Upper()) continue;
+	  if (myUnique.FindFromIndex(a).size()!=anArray->Upper()) continue;
 // 	  cout<<"a="<<a<<endl;
 	  TopTools_ListIteratorOfListOfShape anIter2(myUnique.FindFromIndex(a));
 	  Standard_Boolean aEq = Standard_True;
@@ -478,7 +478,7 @@ void QANewBRepNaming_Gluing::LoadUniqueShapes(QANewModTopOpe_Glue& /*theMkGluing
     // set new entity
     while(alreadyUsed.Contains(anIndex)) anIndex++;
 //     cout<<"anIndex = "<<anIndex<<endl;
-    Handle(TDataStd_IntegerArray) anArray=TDataStd_IntegerArray::Set(aLabel,1,myUnique.FindFromIndex(anIndex).Extent());
+    Handle(TDataStd_IntegerArray) anArray=TDataStd_IntegerArray::Set(aLabel,1,myUnique.FindFromIndex(anIndex).size());
     TopTools_ListIteratorOfListOfShape anIter(myUnique.FindFromIndex(anIndex));
     Standard_Integer a;
     for(a=1;anIter.More();anIter.Next(),a++) {

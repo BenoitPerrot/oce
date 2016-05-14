@@ -39,7 +39,7 @@
 const TopTools_ListOfShape& BOPAlgo_Builder::Generated
   (const TopoDS_Shape&)
 {
-  myHistShapes.Clear();
+  myHistShapes.clear();
   return myHistShapes;
 }
 //=======================================================================
@@ -53,7 +53,7 @@ const TopTools_ListOfShape& BOPAlgo_Builder::Modified
   TopAbs_ShapeEnum aType;
   BOPCol_ListIteratorOfListOfShape aIt;
   //
-  myHistShapes.Clear();
+  myHistShapes.clear();
   //
   if (theS.IsNull()) {
     return myHistShapes;
@@ -94,7 +94,7 @@ const TopTools_ListOfShape& BOPAlgo_Builder::Modified
         }
       }
       //
-      myHistShapes.Append(aSp);
+      myHistShapes.push_back(aSp);
     }
   }
   //
@@ -221,7 +221,7 @@ void BOPAlgo_Builder::PrepareHistory()
     if (!myHasGenerated) {
       if (aType==TopAbs_FACE) {
         const TopTools_ListOfShape& aLG = Generated(aSx);
-        myHasGenerated = aLG.Extent() > 0;
+        myHasGenerated = aLG.size() > 0;
       }
     }
   }

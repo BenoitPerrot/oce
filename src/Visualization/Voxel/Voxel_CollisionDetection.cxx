@@ -69,8 +69,8 @@ void Voxel_CollisionDetection::Destroy()
 Standard_Integer Voxel_CollisionDetection::AddShape(const TopoDS_Shape& shape)
 {
   Clear();
-  myShapes.Append(shape);
-  return myShapes.Extent();
+  myShapes.push_back(shape);
+  return myShapes.size();
 }
 
 Standard_Boolean Voxel_CollisionDetection::ReplaceShape(const Standard_Integer ishape,
@@ -78,8 +78,8 @@ Standard_Boolean Voxel_CollisionDetection::ReplaceShape(const Standard_Integer i
 {
   if (ishape == 1)
   {
-    myShapes.RemoveFirst();
-    myShapes.Prepend(shape);
+    myShapes.pop_front();
+    myShapes.push_front(shape);
     return Standard_True;
   }
 
@@ -90,7 +90,7 @@ Standard_Boolean Voxel_CollisionDetection::ReplaceShape(const Standard_Integer i
   {
     if (i == ishape)
     {
-      myShapes.Remove(itr);
+      itr = myShapes.erase(itr);
       myShapes.InsertBefore(shape, itr);
       is_replaced = Standard_True;
       break;
@@ -170,7 +170,7 @@ Standard_Boolean Voxel_CollisionDetection::Voxelize(const Standard_Integer ishap
       continue;
 
     if (!myVoxels)
-      myVoxels = (Standard_Address) new Voxel_BoolDS[myShapes.Extent()];
+      myVoxels = (Standard_Address) new Voxel_BoolDS[myShapes.size()];
     Voxel_BoolDS& voxels = ((Voxel_BoolDS*)myVoxels)[i - 1];
     if (!CheckVoxels(voxels))
     {
@@ -199,7 +199,7 @@ Standard_Boolean Voxel_CollisionDetection::Compute()
   // Check voxels of shapes
   if (!myVoxels)
     return Standard_False;
-  Standard_Integer ishape = 0, nb_shapes = myShapes.Extent();
+  Standard_Integer ishape = 0, nb_shapes = myShapes.size();
   for (; ishape < nb_shapes; ishape++)
   {
     Voxel_BoolDS& voxels = ((Voxel_BoolDS*)myVoxels)[ishape];

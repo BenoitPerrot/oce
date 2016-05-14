@@ -184,7 +184,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	    }
 	  }
 	  if (facbisfound) {
-	    theFFMap(itf.Key()).Append(fac);
+	    theFFMap(itf.Key()).push_back(fac);
 	    toRemove.Add(fac);
 	    toRemove.Add(edg);
 	    break;
@@ -202,7 +202,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	    }
 	  }
 	  if (!itl.More()) {
-	    theFFMap(fac).Append(facbis);
+	    theFFMap(fac).push_back(facbis);
 	  }
 	  toRemove.Add(edg);
 	  toRemove.Add(facbis);
@@ -273,7 +273,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	    if (!theEEMap.IsBound(edg)) {
               TopTools_ListOfShape thelist1;
 	      theEEMap.Bind(edg, thelist1);
-	      theEEMap(edg).Append(edgbis);
+	      theEEMap(edg).push_back(edgbis);
 	      toRemove.Add(edgbis); // toujours vrai pour edge double
 	      Standard_Boolean FuseEdge = Standard_True;
 	      TopoDS_Vertex Vf,Vl;
@@ -326,7 +326,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
               TopTools_ListOfShape thelist2;
 	      theEEMap.Bind(edg, thelist2);
 	    }
-	    theEEMap(edg).Append(edgbis);
+	    theEEMap(edg).push_back(edgbis);
 	    const TopTools_ListOfShape& L = theEEMap(edg);
 	    TopTools_ListIteratorOfListOfShape Lit(L);
 	    Standard_Boolean OK = Standard_True;
@@ -336,7 +336,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		break;
 	      }
 	    }
-	    if (OK) theEEMap(edg).Append(edgbis);
+	    if (OK) theEEMap(edg).push_back(edgbis);
 	    
 	    itl.Initialize(theEFMap.FindFromKey(edg));
 	    Standard_Boolean FuseEdge = ToFuse(edg,fac,vtx,toRemove);
@@ -361,7 +361,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		    }
 		  }
 		  else { // on marque comme face a reconstruire
-		    RebuildFace.Append(itl.Value());
+		    RebuildFace.push_back(itl.Value());
 		    if (toRemove.Contains(vtx)) {
 		      toRemove.Remove(vtx);
 		    }
@@ -452,7 +452,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
       if(!myModShapes.IsBound(edg)) {
 	myModShapes.Bind(edg,emptylist);
       }  
-      myModShapes(edg).Append(newedg);
+      myModShapes(edg).push_back(newedg);
       toRemove.Add(edg);
     }
   }
@@ -495,7 +495,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
       if (!exp2.More()) { // wire non modifie
 //	B.Add(newface,wir.Oriented(wir.Orientation()));
 	for (exp2.Init(wir,TopAbs_EDGE); exp2.More(); exp2.Next()) {
-	  listofedg.Append(exp2.Current());
+	  listofedg.push_back(exp2.Current());
 	}
       }
       else {
@@ -546,7 +546,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		  
 		  orient = TopAbs::Compose(orface,edg.Orientation());
 //		  B.Add(theNew,edg.Oriented(or));
-		  listofedg.Append(edg.Oriented(orient));
+		  listofedg.push_back(edg.Oriented(orient));
 		  EdgAdded.Add(edg);
 		  if (P.IsNull()) {  
 		    // on met les courbes 2d si on n`est pas sur un plan
@@ -606,17 +606,17 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	  if (!toRemove.Contains(edg) && !theEEMap.IsBound(edg)) {
 //	    B.Add(newwire,edg.Oriented(or));
 //            listofedg.Append(edg.Oriented(or));
-            listofedg.Append(edg);
+            listofedg.push_back(edg);
 	  }
 	  else if (myModShapes.IsBound(edg) || theEEMap.IsBound(edg)) {
 	    if (myModShapes.IsBound(edg)) {
-	      newedg = TopoDS::Edge(myModShapes(edg).First());
+	      newedg = TopoDS::Edge(myModShapes(edg).front());
 	    }
 	    else {
 	      newedg = edg;
 	    }
 //	    B.Add(newwire,newedg.Oriented(or));
-	    listofedg.Append(newedg.Oriented(orient));
+	    listofedg.push_back(newedg.Oriented(orient));
 	    C = BRep_Tool::Curve(newedg,loc,f,l);
 	    if (!loc.IsIdentity()) {
 	      Handle(Geom_Geometry) GG = C->Transformed(loc.Transformation());
@@ -729,11 +729,11 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		EdgAdded.Add(edgbis);
 		if (dir1.Dot(dir2) <0.) {
 //		  B.Add(newwire,edgbis.Oriented(TopAbs::Reverse(or)));
-		  listofedg.Append(edgbis.Oriented(TopAbs::Reverse(orient)));
+		  listofedg.push_back(edgbis.Oriented(TopAbs::Reverse(orient)));
 		}
 		else {
 //		  B.Add(newwire,edgbis.Oriented(or));
-		  listofedg.Append(edgbis.Oriented(orient));		  
+		  listofedg.push_back(edgbis.Oriented(orient));		  
 		}
 
 		
@@ -862,7 +862,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		
 		orient = TopAbs::Compose(orface,edg.Orientation());
 		//		B.Add(newwire,edg.Oriented(or));
-		listofedg.Append(edg.Oriented(orient));
+		listofedg.push_back(edg.Oriented(orient));
 		EdgAdded.Add(edg);
 		if (P.IsNull()) {  
 		  // on met les courbes 2d si on n`est pas sur un plan
@@ -908,7 +908,7 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	}
       }
     }
-    if (!listofedg.IsEmpty()) {
+    if (!listofedg.empty()) {
       BRepAlgo_Loop L;
       L.Init(newface);
       L.AddConstEdges(listofedg);
@@ -977,18 +977,18 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
     const TopoDS_Face& fac = TopoDS::Face(exp.Current());
     if (!theLeft.Contains(fac)) {
       if (!toRemove.Contains(exp.Current())) {
-	lfres.Append(fac);
+	lfres.push_back(fac);
 	if(!myModShapes.IsBound(fac)) {
 	  TopTools_ListOfShape emptylist;
 	  myModShapes.Bind(fac, emptylist);
 	}
-	myModShapes(fac).Append(fac);
+	myModShapes(fac).push_back(fac);
 	if (FaceRefOri.IsNull()) {
 	  FaceRefOri = fac;
 	}
       }
       else if (myModShapes.IsBound(fac))  {
-	lfres.Append(myModShapes(fac).First().Oriented(fac.Orientation()));
+	lfres.push_back(myModShapes(fac).front().Oriented(fac.Orientation()));
       }
     }
   }
@@ -1002,16 +1002,16 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
     }
 
     if (orsolid == TopAbs_FORWARD) {
-      lfres.Append(fac);
+      lfres.push_back(fac);
     }
     else {
-      lfres.Append(fac.Reversed());
+      lfres.push_back(fac.Reversed());
     }
     if(!myModShapes.IsBound(fac)) {
       TopTools_ListOfShape emptylist;
       myModShapes.Bind(fac, emptylist);
     }
-    myModShapes(fac).Append(fac);
+    myModShapes(fac).push_back(fac);
   }
 
   LocOpe_BuildShape BS(lfres);

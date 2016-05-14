@@ -150,7 +150,7 @@ const TopoDS_Shape& BRepBuilderAPI_ModifyShape::ModifiedShape
 const TopTools_ListOfShape& BRepBuilderAPI_ModifyShape::Modified
   (const TopoDS_Shape& F)
 {
-  myGenerated.Clear();
-  myGenerated.Append(myModifier.ModifiedShape(F));
+  myGenerated.clear();
+  myGenerated.push_back(myModifier.ModifiedShape(F));
   return myGenerated;
 }

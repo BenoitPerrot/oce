@@ -54,7 +54,7 @@ TopoDS_Shape BRepAlgo_Tool::Deboucle3D(const TopoDS_Shape& S,
       
       Standard_Boolean JeGarde = Standard_True;
       for ( Standard_Integer i = 1; i <= Map.Extent() && JeGarde; i++) {
-	if (Map(i).Extent() < 2) {
+	if (Map(i).size() < 2) {
 	  const TopoDS_Edge& anEdge = TopoDS::Edge(Map.FindKey(i));
 	  if (!Boundary.Contains(anEdge)  && 
 	      !BRep_Tool::Degenerated(anEdge) )

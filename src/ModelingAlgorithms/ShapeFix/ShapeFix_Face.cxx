@@ -1311,7 +1311,7 @@ Standard_Boolean ShapeFix_Face::FixOrientation(TopTools_DataMapOfShapeListOfShap
           sta = TopAbs_IN;
         }
         else {
-          IntWires.Append(aSh2);
+          IntWires.push_back(aSh2);
           MapIntWires.Add(aSh2);
         }
       }

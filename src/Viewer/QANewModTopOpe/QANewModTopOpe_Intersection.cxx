@@ -106,14 +106,14 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
                 TopTools_ListOfShape aListOfShape1;
 		myMapGener.Bind(DSS.SupportOnShape1(i), aListOfShape1);
               }
-	      myMapGener(DSS.SupportOnShape1(i)).Append(mkV.Vertex());
+	      myMapGener(DSS.SupportOnShape1(i)).push_back(mkV.Vertex());
 
 	      if (!myMapGener.IsBound(DSS.SupportOnShape2(i))) {
 		// for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(DSS.SupportOnShape2(i), TopTools_ListOfShape());
                 TopTools_ListOfShape aListOfShape2;
 		myMapGener.Bind(DSS.SupportOnShape2(i), aListOfShape2);
               }
-	      myMapGener(DSS.SupportOnShape2(i)).Append(mkV.Vertex());
+	      myMapGener(DSS.SupportOnShape2(i)).push_back(mkV.Vertex());
 
 	    }
 
@@ -161,12 +161,12 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
     TopExp_Explorer Ex;
     BB.MakeCompound(TopoDS::Compound(aux));
     for(Ex.Init(myShape,TopAbs_EDGE); Ex.More(); Ex.Next()) {
-      LOEdge.Append(Ex.Current()); 
-      LOSEdge.Append(Ex.Current());
+      LOEdge.push_back(Ex.Current()); 
+      LOSEdge.push_back(Ex.Current());
       nbe++;
     }
     BRepAlgo_EdgeConnector EC;
-    TopoDS_Shape se = LOEdge.First();
+    TopoDS_Shape se = LOEdge.front();
     EC.Add(LOEdge);
     EC.AddStart(LOSEdge);
     const TopTools_ListOfShape& LOWire = EC.MakeBlock();
@@ -243,7 +243,7 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
                 TopTools_ListOfShape aListOfShape3;
 		myMapGener.Bind(DSS.SupportOnShape1(i), aListOfShape3);
               }
-	      myMapGener(DSS.SupportOnShape1(i)).Append(aVertex);
+	      myMapGener(DSS.SupportOnShape1(i)).push_back(aVertex);
 	      
 	    }
 	  } // end for
@@ -263,7 +263,7 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
 //=======================================================================
 const TopTools_ListOfShape& QANewModTopOpe_Intersection::Generated(const TopoDS_Shape& theS) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
 
   if(theS.ShapeType() == TopAbs_FACE || theS.ShapeType() == TopAbs_EDGE) {
     if (BRepAlgoAPI_BooleanOperation::HasGenerated()) {
@@ -277,7 +277,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Intersection::Generated(const TopoDS_
 	if (aGenShape.ShapeType() == TopAbs_VERTEX)
 	  continue;
 
-	myGenerated.Append(aGenShape);
+	myGenerated.push_back(aGenShape);
       }
     }
 
@@ -285,7 +285,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Intersection::Generated(const TopoDS_
       TopTools_ListIteratorOfListOfShape anIter(myMapGener(theS));
 
       for(; anIter.More(); anIter.Next())
-	myGenerated.Append(anIter.Value());
+	myGenerated.push_back(anIter.Value());
     }
   }
 

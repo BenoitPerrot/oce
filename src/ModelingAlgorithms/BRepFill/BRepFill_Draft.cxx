@@ -266,12 +266,12 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
 	const TopoDS_Edge& theEdge = TopoDS::Edge(edgemap.FindKey(iedge));    
 	// skip degenerated edges
 	if (!BRep_Tool::Degenerated(theEdge)) {
-	  nbf = edgemap(iedge).Extent();
-	  if (nbf==1) List.Append(theEdge);
+	  nbf = edgemap(iedge).size();
+	  if (nbf==1) List.push_back(theEdge);
 	}
       }
 
-      if( List.Extent()>0) {
+      if( List.size()>0) {
 	BRepLib_MakeWire MW;
 	MW.Add(List);
 	BRepLib_WireError Err = MW.Error();
@@ -649,7 +649,7 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
   TopTools_ListOfShape List;
   List  = DSA.GetSectionEdgeSet();// list of edges
   
-  NbPaquet = List.Extent();
+  NbPaquet = List.size();
 
   if (NbPaquet == 0) {
 #if DRAW
@@ -751,13 +751,13 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
   Standard_Integer ii;
   for (ii=1; ii<=myLoc->NbLaw(); ii++) {
     const TopTools_ListOfShape& L = DSA.Modified(myFaces->Value(1,ii));
-    if (L.Extent()>0) 
-      myFaces->SetValue(1, ii, L.First());
+    if (L.size()>0) 
+      myFaces->SetValue(1, ii, L.front());
   }
   for (ii=1; ii<=myLoc->NbLaw()+1; ii++) {
     const TopTools_ListOfShape& L = DSA.Modified(mySections->Value(1,ii));
-    if (L.Extent()>0) 
-      mySections->SetValue(1, ii, L.First());
+    if (L.size()>0) 
+      mySections->SetValue(1, ii, L.front());
   } 
  
   return Standard_True;
@@ -851,21 +851,21 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
  const TopTools_ListOfShape& 
  BRepFill_Draft::Generated(const TopoDS_Shape& S) 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   TopoDS_Edge E;
   Standard_Integer ii;
   E = TopoDS::Edge(S);
   if (E.IsNull()) {
    for (ii=0; ii<=myLoc->NbLaw(); ii++)
       if (E.IsSame(myLoc->Vertex(ii))) {
-	myGenerated.Append(mySections->Value(1, ii+1));
+	myGenerated.push_back(mySections->Value(1, ii+1));
 	break;
       } 
   }
   else {
     for (ii=1; ii<=myLoc->NbLaw(); ii++)
       if (E.IsSame(myLoc->Edge(ii))) {
-	myGenerated.Append(myFaces->Value(1, ii));
+	myGenerated.push_back(myFaces->Value(1, ii));
 	break;
       }
   }

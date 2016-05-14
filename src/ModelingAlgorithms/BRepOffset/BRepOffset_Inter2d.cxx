@@ -165,7 +165,7 @@ static void  Store (const TopoDS_Edge&       E1,
     P  = BRep_Tool::Pnt(V);
     OnE1 = OnE2 = Standard_False;
     
-    if (!VOnE1.IsEmpty()) {
+    if (!VOnE1.empty()) {
       //-----------------------------------------------------------------
       // Find if the point of intersection corresponds to a vertex of E1.
       //-----------------------------------------------------------------
@@ -179,7 +179,7 @@ static void  Store (const TopoDS_Edge&       E1,
 	}
       }
     }
-    if (!VOnE2.IsEmpty()) {
+    if (!VOnE2.empty()) {
       if (OnE1) {
 	//-----------------------------------------------------------------
 	// Find if the vertex found on E1 is not already on E2.
@@ -237,7 +237,7 @@ static void  Store (const TopoDS_Edge&       E1,
 //	B.UpdateVertex(TopoDS::Vertex(V.Oriented(TopAbs_INTERNAL)),
 //		       U1,E1,Tol);
       }
-      NewVOnE1.Append(V.Oriented(O1));
+      NewVOnE1.push_back(V.Oriented(O1));
     }
     if (!OnE2) {
       if (OnE1) {
@@ -246,7 +246,7 @@ static void  Store (const TopoDS_Edge&       E1,
 //	B.UpdateVertex(TopoDS::Vertex(V.Oriented(TopAbs_INTERNAL)),
 //		       U2,E2,Tol);
       }
-      NewVOnE2.Append(V.Oriented(O2));
+      NewVOnE2.push_back(V.Oriented(O2));
     }
     
 #ifdef DRAW
@@ -259,8 +259,8 @@ static void  Store (const TopoDS_Edge&       E1,
    }  
 #endif    
   }
-  if (!NewVOnE1.IsEmpty()) AsDes->Add(E1,NewVOnE1);
-  if (!NewVOnE2.IsEmpty()) AsDes->Add(E2,NewVOnE2);
+  if (!NewVOnE1.empty()) AsDes->Add(E1,NewVOnE1);
+  if (!NewVOnE2.empty()) AsDes->Add(E2,NewVOnE2);
 }
 
 
@@ -427,8 +427,8 @@ static void EdgeInter(const TopoDS_Face&              F,
 	      if (CrossProd > 0.)
 		OO2 = TopAbs_FORWARD;
 	    }
-	  LV1.Append( aNewVertex.Oriented(OO1) );
-	  LV2.Append( aNewVertex.Oriented(OO2) );
+	  LV1.push_back( aNewVertex.Oriented(OO1) );
+	  LV2.push_back( aNewVertex.Oriented(OO2) );
 	}
     }
   
@@ -472,15 +472,15 @@ static void EdgeInter(const TopoDS_Face&              F,
 //	B.UpdateVertex(TopoDS::Vertex(V.Oriented(TopAbs_INTERNAL)),
 //		       U2,E2,Tol);
 //  Modified by skv - Thu Jan 22 18:16:01 2004 OCC4455 End
-	LV1.Prepend(V.Oriented(V1[j].Orientation()));
-	LV2.Prepend(V.Oriented(V2[k].Orientation()));
+	LV1.push_front(V.Oriented(V1[j].Orientation()));
+	LV2.push_front(V.Oriented(V2[k].Orientation()));
       }
     }
   }
 
   Standard_Boolean AffichPurge = Standard_False;
 
-  if ( !LV1.IsEmpty()) {
+  if ( !LV1.empty()) {
     //----------------------------------
     // Remove all vertices.
     // There can be doubles
@@ -507,8 +507,8 @@ static void EdgeInter(const TopoDS_Face&              F,
 		     BRep_Tool::Tolerance(TopoDS::Vertex(it2LV1.Value())));
 	  if (P1.IsEqual(P2,aTol)) {
 //  Modified by skv - Thu Jan 22 18:19:05 2004 OCC4455 End
-	    LV1.Remove(it1LV1);
-	    LV2.Remove(it1LV2);
+	    it1LV1 = LV1.erase(it1LV1);
+	    it1LV2 = LV2.erase(it1LV2);
 	    if (AffichPurge) cout <<"Doubles removed in EdgeInter."<<endl;
 	    Purge = Standard_True;
 	    break;
@@ -695,8 +695,8 @@ static void RefEdgeInter(const TopoDS_Face&              F,
 	  if (CrossProd > 0.)
 	    OO2 = TopAbs_FORWARD;
 	}
-      LV1.Append( aNewVertex.Oriented(OO1) );
-      LV2.Append( aNewVertex.Oriented(OO2) );
+      LV1.push_back( aNewVertex.Oriented(OO1) );
+      LV2.push_back( aNewVertex.Oriented(OO2) );
     }
   
   //----------------------------------
@@ -727,15 +727,15 @@ static void RefEdgeInter(const TopoDS_Face&              F,
 //		       U1,E1,Tol);
 //	B.UpdateVertex(TopoDS::Vertex(V.Oriented(TopAbs_INTERNAL)),
 //		       U2,E2,Tol);
-	LV1.Prepend(V.Oriented(V1[j].Orientation()));
-	LV2.Prepend(V.Oriented(V2[k].Orientation()));
+	LV1.push_front(V.Oriented(V1[j].Orientation()));
+	LV2.push_front(V.Oriented(V2[k].Orientation()));
       }
     }
   }
 
   Standard_Boolean AffichPurge = Standard_False;
 
-  if ( !LV1.IsEmpty()) {
+  if ( !LV1.empty()) {
     //----------------------------------
     // Remove all vertices.
     // there can be doubles
@@ -755,8 +755,8 @@ static void RefEdgeInter(const TopoDS_Face&              F,
 	  P1 = BRep_Tool::Pnt(TopoDS::Vertex(it1LV1.Value()));
 	  P2 = BRep_Tool::Pnt(TopoDS::Vertex(it2LV1.Value()));
 	  if (P1.IsEqual(P2,10*Tol)) {
-	    LV1.Remove(it1LV1);
-	    LV2.Remove(it1LV2);
+	    it1LV1 = LV1.erase(it1LV1);
+	    it1LV2 = LV2.erase(it1LV2);
 	    if (AffichPurge) cout <<"Doubles removed in EdgeInter."<<endl;
 	    Purge = Standard_True;
 	    break;
@@ -772,7 +772,7 @@ static void RefEdgeInter(const TopoDS_Face&              F,
     // Vertex storage in SD.
     //---------------------------------
 ////-----------------------------------------------------
-    if(LV1.Extent() > 1) {
+    if(LV1.size() > 1) {
       //cout << "IFV - RefEdgeInter: remove vertex" << endl;
       Standard_Real dmin = RealLast();
       TopoDS_Vertex Vmin;
@@ -787,8 +787,8 @@ static void RefEdgeInter(const TopoDS_Face&              F,
       for (it1LV1.Initialize(LV1),it1LV2.Initialize(LV2); 
 	   it1LV1.More(); it1LV1.Next(),it1LV2.Next()) {
 	if(!Vmin.IsSame(it1LV1.Value())) {
-	  LV1.Remove(it1LV1);
-	  LV2.Remove(it1LV2);
+	  it1LV1 = LV1.erase(it1LV1);
+	  it1LV2 = LV2.erase(it1LV2);
 	  if(!it1LV1.More()) break;
 	}
       }

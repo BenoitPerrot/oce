@@ -138,7 +138,7 @@ Standard_Boolean TopOpeBRepTool_mkTondgE::SetRest(const Standard_Real pari, cons
 
 Standard_Integer TopOpeBRepTool_mkTondgE::GetAllRest(TopTools_ListOfShape& lEi)
 {    
-  lEi.Clear();
+  lEi.clear();
 
   BRepAdaptor_Surface bs(myFi);
   Standard_Real tol3d = bs.Tolerance();
@@ -151,7 +151,7 @@ Standard_Integer TopOpeBRepTool_mkTondgE::GetAllRest(TopTools_ListOfShape& lEi)
     if (cli) continue;
 
     Standard_Boolean isbi = myEpari.IsBound(ei);
-    if (isbi) {lEi.Append(ei); continue;}
+    if (isbi) {lEi.push_back(ei); continue;}
 
     Standard_Boolean isou,isov; gp_Dir2d d2d; gp_Pnt2d o2d;
     Standard_Boolean uviso = TopOpeBRepTool_TOOL::UVISO(ei,myFi, isou,isov, d2d,o2d);
@@ -165,9 +165,9 @@ Standard_Integer TopOpeBRepTool_mkTondgE::GetAllRest(TopTools_ListOfShape& lEi)
     Standard_Real parei;
     TopOpeBRepTool_TOOL::ParISO(myuvi,ei,myFi, parei);
     myEpari.Bind(ei,parei);
-    lEi.Append(ei);
+    lEi.push_back(ei);
   }
-  Standard_Integer nEi = lEi.Extent();
+  Standard_Integer nEi = lEi.size();
   return nEi;
 }
 

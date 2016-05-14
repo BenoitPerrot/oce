@@ -469,7 +469,7 @@ static Standard_Integer blend1(Draw_Interpretor& di, Standard_Integer narg, cons
     TopoDS_Shape edge= DBRep::Get(a[i],TopAbs_EDGE);
    if (edge.IsNull()) return 1 ;
    if(edge.ShapeType()!=TopAbs_EDGE) return 1;
-    E.Append(edge);
+    E.push_back(edge);
   } 
   FilletSurf_Builder aRakk(V,E,Rad);
   if (simul) aRakk.Simulate();

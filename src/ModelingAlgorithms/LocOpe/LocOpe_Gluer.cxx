@@ -227,7 +227,7 @@ void LocOpe_Gluer::Perform()
     TopTools_ListOfShape thelist;
     myDescF.Bind(exp.Current(), thelist);
     if (Contains(theGS->OrientedFaces(),exp.Current())) {
-      myDescF(exp.Current()).Append(exp.Current());
+      myDescF(exp.Current()).push_back(exp.Current());
     }
   }
 
@@ -255,7 +255,7 @@ void LocOpe_Gluer::Perform()
 	for (; itl2.More(); itl2.Next()) {
 	  const TopoDS_Face& descface =TopoDS::Face(itl2.Value());
 	  if (!descface.IsNull()) { // sinon la face a disparu
-	    newDesc.Append(descface);
+	    newDesc.push_back(descface);
 	  }
 	}
       }
@@ -271,18 +271,18 @@ void LocOpe_Gluer::Perform()
   for (ind = 1; ind <= theMapEF1.Extent(); ind++) {
     const TopoDS_Edge& edg = TopoDS::Edge(theMapEF1.FindKey(ind));
     const TopTools_ListOfShape& LL = theMapEF1(ind);
-    if (LL.Extent() == 2) {
-      const TopoDS_Face& fac1 = TopoDS::Face(LL.First());
-      const TopoDS_Face& fac2 = TopoDS::Face(LL.Last());
+    if (LL.size() == 2) {
+      const TopoDS_Face& fac1 = TopoDS::Face(LL.front());
+      const TopoDS_Face& fac2 = TopoDS::Face(LL.back());
       GeomAbs_Shape thecont = BRep_Tool::Continuity(edg,fac1,fac2);
       if (thecont >= GeomAbs_G1) {
 	// on essaie de recoder
 	Standard_Integer ind2 = theMapEF2.FindIndex(edg);
 	if (ind2 != 0) {
 	  const TopTools_ListOfShape& LL2 = theMapEF2(ind2);
-	  if (LL2.Extent() == 2) {
-	    const TopoDS_Face& ff1 = TopoDS::Face(LL2.First());
-	    const TopoDS_Face& ff2 = TopoDS::Face(LL2.Last());
+	  if (LL2.size() == 2) {
+	    const TopoDS_Face& ff1 = TopoDS::Face(LL2.front());
+	    const TopoDS_Face& ff2 = TopoDS::Face(LL2.back());
 	    if ((ff1.IsSame(fac1) && ff2.IsSame(fac2)) ||
 		(ff1.IsSame(fac2) && ff2.IsSame(fac1))) {
 
@@ -303,14 +303,14 @@ void LocOpe_Gluer::Perform()
     for (ind = 1; ind <= theMapEF2.Extent(); ind++) {
       const TopoDS_Edge& edg1 = TopoDS::Edge(theMapEF2.FindKey(ind));
       if(edg1.IsSame(edg)) {
-	myEdges.Append(edg); 
+	myEdges.push_back(edg); 
 	// recodage eventuel des regularites sur cet edge
 	const TopTools_ListOfShape& L = theMapEF2(ind);
-	if (L.Extent() == 2) {
-	  const TopoDS_Face& fac1 = TopoDS::Face(L.First());
-	  const TopoDS_Face& fac2 = TopoDS::Face(L.Last());
+	if (L.size() == 2) {
+	  const TopoDS_Face& fac1 = TopoDS::Face(L.front());
+	  const TopoDS_Face& fac2 = TopoDS::Face(L.back());
 	  if(LocOpe::TgtFaces(edg, fac1, fac2))  {
-	    myTgtEdges.Append(edg);
+	    myTgtEdges.push_back(edg);
 	    GeomAbs_Shape thecont = BRep_Tool::Continuity(edg,fac1,fac2);
 	    if (thecont < GeomAbs_G1) {
 	      BRep_Builder B;

@@ -56,13 +56,13 @@ TopOpeBRepDS_ShapeWithState::TopOpeBRepDS_ShapeWithState():
   switch (aState) 
     {
     case TopAbs_IN:
-      myPartIn.Append(aShape);
+      myPartIn.push_back(aShape);
       break;
     case TopAbs_OUT:
-      myPartOut.Append(aShape);
+      myPartOut.push_back(aShape);
       break;
     case TopAbs_ON:
-     myPartOn.Append(aShape);
+     myPartOn.push_back(aShape);
       break;
     default :
       break; 
@@ -82,17 +82,17 @@ TopOpeBRepDS_ShapeWithState::TopOpeBRepDS_ShapeWithState():
     {
     case TopAbs_IN:
       for (; anIt.More(); anIt.Next()) {
-	myPartIn.Append(anIt.Value());
+	myPartIn.push_back(anIt.Value());
       }
       break;
     case TopAbs_OUT:
       for (; anIt.More(); anIt.Next()) {
-	myPartOut.Append(anIt.Value());
+	myPartOut.push_back(anIt.Value());
       }
       break;
     case TopAbs_ON:
       for (; anIt.More(); anIt.Next()) {
-	myPartOn.Append(anIt.Value());
+	myPartOn.push_back(anIt.Value());
       }
       break;
     

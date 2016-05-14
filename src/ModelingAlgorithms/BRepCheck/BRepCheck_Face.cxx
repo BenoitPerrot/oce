@@ -356,7 +356,7 @@ BRepCheck_Status BRepCheck_Face::ClassifyWires(const Standard_Boolean Update)
       if (!wir2.IsSame(wir1)) {
 	
 	if (IsInside(wir2,WireBienOriente,FClass2d,newFace)) { 
-	  myMapImb(wir1).Append(wir2);
+	  myMapImb(wir1).push_back(wir2);
 	}
       }
     }
@@ -369,7 +369,7 @@ BRepCheck_Status BRepCheck_Face::ClassifyWires(const Standard_Boolean Update)
   for (TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itm(myMapImb);
        itm.More();
        itm.Next()) {
-    if (!itm.Value().IsEmpty()) {
+    if (!itm.Value().empty()) {
       if (Wext.IsNull()) {
 	Wext = TopoDS::Wire(itm.Key());
       }
@@ -385,7 +385,7 @@ BRepCheck_Status BRepCheck_Face::ClassifyWires(const Standard_Boolean Update)
 
   if (!Wext.IsNull()) {
     // verifies that the list contains nbwire-1 elements
-    if (myMapImb(Wext).Extent() != Nbwire-1) {
+    if (myMapImb(Wext).size() != Nbwire-1) {
       myImbres = BRepCheck_InvalidImbricationOfWires;
       if (Update) {
 	BRepCheck::Add(myMap(myShape),myImbres);
@@ -441,7 +441,7 @@ BRepCheck_Status BRepCheck_Face::OrientationOfWires
   }
   else {
     for (;itm.More();itm.Next()) {
-      if (!itm.Value().IsEmpty()) {
+      if (!itm.Value().empty()) {
 	Wext = TopoDS::Wire(itm.Key());
       }
     }
@@ -814,13 +814,13 @@ Standard_Boolean CheckThin(const TopoDS_Shape& w, const TopoDS_Shape& f)
   TopExp_Explorer exp(aW,TopAbs_EDGE);
   for(; exp.More(); exp.Next()) {
     const TopoDS_Shape& s = exp.Current();
-    lE.Append(s);
+    lE.push_back(s);
     nbE++;
   }
 
   if( nbE != 2 ) return Standard_False;
-  TopoDS_Edge e1 = TopoDS::Edge(lE.First());
-  TopoDS_Edge e2 = TopoDS::Edge(lE.Last());
+  TopoDS_Edge e1 = TopoDS::Edge(lE.front());
+  TopoDS_Edge e2 = TopoDS::Edge(lE.back());
 
   TopoDS_Vertex v1, v2, v3, v4;
   TopExp::Vertices(e1,v1,v2);

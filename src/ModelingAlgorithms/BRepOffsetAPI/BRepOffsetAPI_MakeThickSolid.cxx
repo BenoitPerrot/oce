@@ -81,7 +81,7 @@ void BRepOffsetAPI_MakeThickSolid::Build()
 const TopTools_ListOfShape& BRepOffsetAPI_MakeThickSolid::Modified (const TopoDS_Shape& F) 
 
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   if (myOffsetShape.OffsetFacesFromShapes().HasImage(F)) {
     if (myOffsetShape.ClosingFaces().Contains(F)) { 
       myOffsetShape.OffsetFacesFromShapes().LastImage (F, myGenerated); 

@@ -45,7 +45,7 @@ void CATSHA
 void CATLOSHA
 (TCollection_AsciiString& s,const TopTools_ListOfShape& L,const TopOpeBRepDS_DataStructure& BDS,const TCollection_AsciiString& a,const TCollection_AsciiString& aa,const TCollection_AsciiString& bb,const TCollection_AsciiString& b)
 { 
-  if (!L.Extent()) return;
+  if (!L.size()) return;
   s=s+a;for(TopTools_ListIteratorOfListOfShape i(L);i.More();i.Next())::CATSHA(s,i.Value(),BDS,aa,bb);s=s+b;
 }
 
@@ -173,7 +173,7 @@ Standard_Integer TOPOC(Draw_Interpretor& interpretor,Standard_Integer na,const c
     const TopTools_ListOfShape& loe = HB->Section();
 
     Standard_Boolean onedef = Standard_False;
-    Standard_Integer n = loe.Extent();
+    Standard_Integer n = loe.size();
     Handle(TColStd_HArray1OfBoolean) tabloe = new TColStd_HArray1OfBoolean(1,n,Standard_False);
     for (ia=1; ia<na; ia++ ) {
       if (!strcmp(a[ia],"-d")) continue;

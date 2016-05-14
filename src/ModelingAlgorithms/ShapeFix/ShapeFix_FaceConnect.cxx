@@ -73,12 +73,12 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
       TopTools_ListIteratorOfListOfShape theIter;
       for ( theIter.Initialize(theFirstList); theIter.More(); theIter.Next() )
 	if (theIter.Value().IsSame(aSecond)) return Standard_True;
-      theFirstList.Append(aSecond);
+      theFirstList.push_back(aSecond);
     }
     else {
       // Append second face to the first list
       TopTools_ListOfShape theNewFirstList;
-      theNewFirstList.Append(aSecond);
+      theNewFirstList.push_back(aSecond);
       myConnected.Bind(aFirst,theNewFirstList);
     }
 
@@ -86,12 +86,12 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
     if (!aFirst.IsSame(aSecond)) {
       if (myConnected.IsBound(aSecond)) {
 	// No need to iterate on faces - append first
-	myConnected(aSecond).Append(aFirst);
+	myConnected(aSecond).push_back(aFirst);
       }
       else {
 	// Append first face to the second list
 	TopTools_ListOfShape theNewSecondList;
-	theNewSecondList.Append(aFirst);
+	theNewSecondList.push_back(aFirst);
 	myConnected.Bind(aSecond,theNewSecondList);
       }
     }
@@ -148,18 +148,18 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
       // Add to the map of original free edges
       if (myOriFreeEdges.IsBound(theFace)) {
 	// Append free edge to the existing list
-	myOriFreeEdges(theFace).Append(theEdge);
+	myOriFreeEdges(theFace).push_back(theEdge);
       }
       else {
 	// Append free edge to the new list
 	TopTools_ListOfShape theNewList;
-	theNewList.Append(theEdge);
+	theNewList.push_back(theEdge);
 	myOriFreeEdges.Bind(theFace,theNewList);
       }
       // Add to the maps of intermediate free and resulting edges
       if (!myResFreeEdges.IsBound(theEdge)) {
 	TopTools_ListOfShape theFree, theShared;
-	theFree.Append(theEdge);
+	theFree.push_back(theEdge);
 	myResFreeEdges.Bind(theEdge,theFree);
 	myResSharEdges.Bind(theEdge,theShared);
       }
@@ -231,7 +231,7 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	    // Place second face into the array
 	    theFacesToSew.SetValue(2,theSecondFace);
 	    // Add second face to the list of processed faces
-	    theProcessedList.Append(theSecondFace);
+	    theProcessedList.push_back(theSecondFace);
 
 	    // Skip the pair if already processed
 	    skip_pair = Standard_False;
@@ -312,14 +312,14 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 			  // Check edge for being shared
 			  if (theResultEdges.IsBound(theAuxE)) {
 			    // Edge was shared - move in results list
-			    myResSharEdges(theResultEdges(theAuxE)).Append(theAuxE);
-			    myResSharEdges(theOrigE).Append(theAuxE);
+			    myResSharEdges(theResultEdges(theAuxE)).push_back(theAuxE);
+			    myResSharEdges(theOrigE).push_back(theAuxE);
 			    theResultEdges.UnBind(theAuxE);
 			  }
 			  else theResultEdges.Bind(theAuxE,theOrigE);
 			}
 			// Remove modified free edge from the list
-			theOldFreeList.Remove(theResultsIter);
+			theResultsIter = theOldFreeList.erase(theResultsIter);
 		      }
 		      else theResultsIter.Next();
 		    }
@@ -330,7 +330,7 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 		for ( TopTools_DataMapIteratorOfDataMapOfShapeShape theResIter( theResultEdges );
 		      theResIter.More(); theResIter.Next() ) {
 		  theAuxE = theResIter.Key();
-		  myResFreeEdges(theResIter.Value()).Append(theAuxE);
+		  myResFreeEdges(theResIter.Value()).push_back(theAuxE);
 		}
 	      }
 	    }
@@ -434,11 +434,11 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
  	      Standard_Boolean found = Standard_False;
 	      for ( theIter1.Initialize(theList1); theIter1.More(); theIter1.Next() )
 		if (theIter1.Value().IsSame(theNewV1)) { found = Standard_True; break; }
- 	      if (!found) theList1.Append(theNewV1);
+ 	      if (!found) theList1.push_back(theNewV1);
 	    }
 	    else {
 	      TopTools_ListOfShape theNewList1;
-	      theNewList1.Append(theNewV1);
+	      theNewList1.push_back(theNewV1);
 	      theRepVertices.Bind(theOldV1,theNewList1);
 	    }
 	  }
@@ -449,11 +449,11 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	      Standard_Boolean found = Standard_False;
 	      for ( theIter2.Initialize(theList2); theIter2.More(); theIter2.Next() )
 		if (theIter2.Value().IsSame(theNewV2)) { found = Standard_True; break; }
-	      if (!found) theList2.Append(theNewV2);
+	      if (!found) theList2.push_back(theNewV2);
 	    }
 	    else {
 	      TopTools_ListOfShape theNewList2;
-	      theNewList2.Append(theNewV2);
+	      theNewList2.push_back(theNewV2);
 	      theRepVertices.Bind(theOldV2,theNewList2);
 	    }
 	  }
@@ -567,20 +567,20 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 		if (!theRep.IsSame(theOld)) {
 		  // Vertex is not in current list
 		  theOldVertices.Bind(theRep,theOld);
-		  theNewList.Append(theRep);
+		  theNewList.push_back(theRep);
 		  TopTools_ListIteratorOfListOfShape theN3Iter;
 		  for ( theN3Iter.Initialize(theNewVertices(theRep));
 		        theN3Iter.More(); theN3Iter.Next() ) {
 		    theAux = theN3Iter.Value();
 		    theOldVertices(theAux) = theOld;
-		    theNewList.Append(theAux);
+		    theNewList.push_back(theAux);
 		  }
 		  theNewVertices.UnBind(theRep);
 		}
 	      }
 	      else {
 		theOldVertices.Bind(theNew,theOld);
-		theNewList.Append(theNew);
+		theNewList.push_back(theNew);
 	      }
 	    }
 	    theNewVertices.Bind(theOld,theNewList);

@@ -170,7 +170,7 @@ const TopoDS_Shape& QANewModTopOpe_Limitation::Shape2() const
 const TopTools_ListOfShape& QANewModTopOpe_Limitation::Modified(const TopoDS_Shape& S) 
 {
   Check();
-  myGenerated.Clear();
+  myGenerated.clear();
   if(myMode == QANewModTopOpe_Forward) {
     myGenerated = myCut->Modified(S);
   }
@@ -188,7 +188,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Limitation::Modified(const TopoDS_Sha
     
     It.Initialize(myCommon->Modified(S));
     for(;It.More();It.Next()) {
-      if(aMap.Add(It.Value())) myGenerated.Append(It.Value());
+      if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());
     }
   }
 
@@ -202,7 +202,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Limitation::Modified(const TopoDS_Sha
 const TopTools_ListOfShape& QANewModTopOpe_Limitation::Generated(const TopoDS_Shape& S) 
 {
   Check();
-  myGenerated.Clear();
+  myGenerated.clear();
   if(myMode == QANewModTopOpe_Forward) {
     myGenerated = myCut->Generated(S);
   }
@@ -220,7 +220,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Limitation::Generated(const TopoDS_Sh
     
     It.Initialize(myCommon->Generated(S));
     for(;It.More();It.Next()) {
-      if(aMap.Add(It.Value())) myGenerated.Append(It.Value());
+      if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());
     }
   }
 

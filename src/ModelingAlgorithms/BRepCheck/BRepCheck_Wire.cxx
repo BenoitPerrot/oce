@@ -177,7 +177,7 @@ void BRepCheck_Wire::Minimum()
           TopTools_ListOfShape theListOfShape;
           index = myMapVE.Add(vtx, theListOfShape);
         }
-        myMapVE(index).Append(exp.Current());
+        myMapVE(index).push_back(exp.Current());
       }
     }
     // wire must have at least one edge
@@ -307,7 +307,7 @@ BRepCheck_Status BRepCheck_Wire::Closed(const Standard_Boolean Update)
         TopTools_ListOfShape theListOfShape;
         Cradoc.Bind(exp.Current(), theListOfShape);
       }
-      Cradoc(exp.Current()).Append(exp.Current());
+      Cradoc(exp.Current()).push_back(exp.Current());
 
       mapS.Add(exp.Current());
       for (expv.Init(exp.Current(),TopAbs_VERTEX); expv.More(); expv.Next()) {
@@ -317,7 +317,7 @@ BRepCheck_Status BRepCheck_Wire::Closed(const Standard_Boolean Update)
             TopTools_ListOfShape theListOfShape1;
             index = myMapVE.Add(expv.Current(), theListOfShape1);
           }
-          myMapVE(index).Append(exp.Current());
+          myMapVE(index).push_back(exp.Current());
         }
       }
     }
@@ -347,12 +347,12 @@ BRepCheck_Status BRepCheck_Wire::Closed(const Standard_Boolean Update)
   Standard_Boolean yabug = Standard_False;
   for (TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm(Cradoc);
        itdm.More(); itdm.Next()) {
-    if (itdm.Value().Extent() >= 3) {
+    if (itdm.Value().size() >= 3) {
       yabug = Standard_True;
     }
-    else if (itdm.Value().Extent() == 2) {
-      if (itdm.Value().First().Orientation() == 
-          itdm.Value().Last().Orientation()) {
+    else if (itdm.Value().size() == 2) {
+      if (itdm.Value().front().Orientation() == 
+          itdm.Value().back().Orientation()) {
         yabug = Standard_True;
       }
     }
@@ -366,7 +366,7 @@ BRepCheck_Status BRepCheck_Wire::Closed(const Standard_Boolean Update)
   }
 
   for (Standard_Integer i = 1; i<= myMapVE.Extent(); i++) {
-    if (myMapVE(i).Extent()%2 != 0) {
+    if (myMapVE(i).size()%2 != 0) {
       myCstat=BRepCheck_NotClosed;
       if (Update) {
         BRepCheck::Add(myMap(myShape),myCstat);
@@ -722,8 +722,8 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
 //  Modified by Sergey KHROMOV - Tue May 21 17:12:45 2002 End
 
     while (Index < nbOriNoDegen) {
-      ledge.Clear();
-      ListOfPassedEdge.Clear();
+      ledge.clear();
+      ListOfPassedEdge.clear();
       // find edges that make a chain on VL if !VL.IsNull 
       // otherwise on VF.
       
@@ -755,7 +755,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
                 {
                   if (vto == TopAbs_FORWARD && VL.IsSame(vte.Current()))
                     {
-                      ListOfPassedEdge.Append(edg);
+                      ListOfPassedEdge.push_back(edg);
                       break;
                     }
                 }
@@ -763,7 +763,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
                 {
                   if (vto == TopAbs_REVERSED && VF.IsSame(vte.Current()))
                     {
-                      ListOfPassedEdge.Append(edg);
+                      ListOfPassedEdge.push_back(edg);
                       break;
                     }
                 }
@@ -777,7 +777,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
                 // If the processing is in 2d (face not null) or 
                 // if the edge is not degenerated it is added
                 if (!F.IsNull() || !BRep_Tool::Degenerated(edg))
-                  ledge.Append(edg);
+                  ledge.push_back(edg);
                 break;
               }
             }
@@ -786,14 +786,14 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
                 //    // If the processing is in 2d (face not null) or 
                 // if the edge is not degenerated it is added
                 if (!F.IsNull() || !BRep_Tool::Degenerated(edg))
-                  ledge.Append(edg);
+                  ledge.push_back(edg);
                 break;
               }
             }
           }
         }
       }
-      Standard_Integer nbconnex = ledge.Extent();
+      Standard_Integer nbconnex = ledge.size();
       Standard_Boolean Changedesens = Standard_False;
       if (nbconnex == 0) {
         if (myCstat == BRepCheck_NotClosed) {
@@ -830,7 +830,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
         }
 
         ChoixUV(pivot,theEdge,F,ledge);
-        nbconnex = ledge.Extent();
+        nbconnex = ledge.size();
 //      20/03/02 akm vvv : (OCC234) - The 2d exploration of wire with necessary
 //                         checks is performed in Closed2d, here it's useless
 //         if (nbconnex == 1 && !CheckLoopOrientation( pivot, theEdge, TopoDS::Edge(ledge.First()), F, ListOfPassedEdge ))
@@ -852,7 +852,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
       }
       else if (nbconnex == 1) {
         // offset the vertex
-        for (vte.Init(ledge.First(),TopAbs_VERTEX);vte.More(); vte.Next()) {
+        for (vte.Init(ledge.front(),TopAbs_VERTEX);vte.More(); vte.Next()) {
           TopAbs_Orientation vto = vte.Current().Orientation();
           if (!VL.IsNull()) {
             if (vto == TopAbs_REVERSED) {
@@ -867,8 +867,8 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
             }
           }
         }
-        mapS.Add(ledge.First());
-        theEdge = TopoDS::Edge(ledge.First());
+        mapS.Add(ledge.front());
+        theEdge = TopoDS::Edge(ledge.front());
         if (!vte.More()) {
           if (!VL.IsNull()) {
             VL.Nullify();
@@ -903,7 +903,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
 // 	  !VF.IsNull() && !F.IsNull()) {
       if (Index==1 && myCstat!=BRepCheck_NotClosed && 
 	  isCheckClose && !F.IsNull()) {
-	ledge.Clear();
+	ledge.clear();
 // 	ind = myMapVE.FindIndex(VF);
 	ind = myMapVE.FindIndex(aVRef);
 	for (TopTools_ListIteratorOfListOfShape itlsh(myMapVE(ind));
@@ -915,7 +915,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
 	      TopAbs_Orientation vto = vte.Current().Orientation();
 // 	      if (vto == TopAbs_REVERSED && VF.IsSame(vte.Current())) {
 	      if (vto == TopAbs_REVERSED && aVRef.IsSame(vte.Current())) {
-		ledge.Append(edg);
+		ledge.push_back(edg);
 		break;
 	      }
 	    }
@@ -923,7 +923,7 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
 	}
 // 	ChoixUV(VF, theRef, F, ledge);
 	ChoixUV(aVRef, theRef, F, ledge);
-	if (ledge.Extent()==0) {
+	if (ledge.size()==0) {
 	  theOstat = BRepCheck_NotClosed;
 	  if (Update) {
 	    BRepCheck::Add(myMap(myShape),theOstat);
@@ -1151,7 +1151,7 @@ BRepCheck_Status BRepCheck_Wire::SelfIntersect(const TopoDS_Face& F,
 	for (; it.More(); it.Next()) {
 	  const TopoDS_Shape& V = it.Value();
 	  if (Vmap.Contains( V )) {
-	    CommonVertices.Append( V );
+	    CommonVertices.push_back( V );
 	  }
 	}
 	//
@@ -1228,7 +1228,7 @@ BRepCheck_Status BRepCheck_Wire::SelfIntersect(const TopoDS_Face& F,
 	    //--
 	    //-- Check distance from edges to the curve joining 
 	    //-- the point of intersection with vertex (if exists)
-	    if (localok == Standard_False && !CommonVertices.IsEmpty()) {
+	    if (localok == Standard_False && !CommonVertices.empty()) {
 #ifdef OCCT_DEBUG
 	      cout << "\n------------------------------------------------------\n" <<endl;
 	      cout << "\n--- BRepCheck Wire: AutoIntersection Phase1 -> Erreur \n" <<endl;
@@ -1557,7 +1557,7 @@ static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapVE,
                       TopTools_MapOfShape& mapE)
 {
   TopTools_ListOfShape currentEdges;
-  currentEdges.Append(edg);
+  currentEdges.push_back(edg);
 
   do
   {
@@ -1582,14 +1582,14 @@ static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapVE,
           {
             const TopoDS_Shape& E = itl.Value();
             if (!Edge.IsSame(E) && !mapE.Contains(E))
-              nextEdges.Append(E);
+              nextEdges.push_back(E);
           }
         }
       }
     }
     currentEdges = nextEdges;
   }
-  while (!currentEdges.IsEmpty());
+  while (!currentEdges.empty());
 }
 
 //=======================================================================
@@ -1622,7 +1622,7 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
   while (It.More())
     {
     if (theEdge.IsSame( It.Value() ))
-      theLOfShape.Remove( It );
+      It = theLOfShape.erase( It );
     else
       It.Next();
     }
@@ -1706,10 +1706,10 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
 
 // Update edge
   if (anIndMin == 0)
-    if (theLOfShape.Extent() == 1)
+    if (theLOfShape.size() == 1)
       {
       Standard_Boolean IsFound = Standard_True; //all right
-      anEFound = TopoDS::Edge(theLOfShape.First());
+      anEFound = TopoDS::Edge(theLOfShape.front());
 
       if(anEFound.IsNull() || BRep_Tool::Degenerated(theEdge) ||
                                   BRep_Tool::Degenerated(anEFound))
@@ -1734,12 +1734,12 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
 
       if(!IsFound)
         {
-        theLOfShape.Clear();
+        theLOfShape.clear();
         }
       }//if (theLOfShape.Extent() == 1)
     else //if (anIndMin == 0)
       {
-      theLOfShape.Clear();
+      theLOfShape.clear();
       }
   else
     {
@@ -1747,7 +1747,7 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
 
     while (anIndex < anIndMin)
       {
-      theLOfShape.RemoveFirst();
+      theLOfShape.pop_front();
       anIndex++;
       }
 
@@ -1755,7 +1755,7 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
     It.Next();
 
     while (It.More())
-      theLOfShape.Remove(It);
+      It = theLOfShape.erase(It);
     }
   }//End of function
 
@@ -1852,10 +1852,10 @@ static Standard_Boolean IsClosed2dForPeriodicFace
     }
 
     if (!ClosedEdges.Add(anEdge))
-      aSeamEdges.Append(anEdge);
+      aSeamEdges.push_back(anEdge);
   }
 
-  if (aSeamEdges.Extent() == 0)
+  if (aSeamEdges.size() == 0)
     return Standard_True;
 
 // check if theVertex lies on one of the seam edges

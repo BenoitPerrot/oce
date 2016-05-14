@@ -222,7 +222,7 @@ void QANewModTopOpe_Tools::SameDomain
    const TopoDS_Shape&   theFace,
    TopTools_ListOfShape& theResultList) 
 {
-  theResultList.Clear();
+  theResultList.clear();
 
   if(theFace.IsNull() || (theFace.ShapeType() != TopAbs_FACE))
     return;
@@ -251,12 +251,12 @@ void QANewModTopOpe_Tools::SameDomain
             const TopoDS_Shape& aSK = aItSD.Key();
             const TopoDS_Shape& aSKOr = aOrigins.Find(aSK);
             if (!aSKOr.IsEqual(theFace)) {
-              theResultList.Append(aSKOr);
+              theResultList.push_back(aSKOr);
             }
           }
         }
       } else {
-        theResultList.Append(aFOr);
+        theResultList.push_back(aFOr);
       }
     }
   }
@@ -306,7 +306,7 @@ void QANewModTopOpe_Tools::Splits(const BOPAlgo_PPaveFiller& theDSFiller,
                              const TopAbs_State        theState,
                              TopTools_ListOfShape&     theResultList) 
 {
-  theResultList.Clear();
+  theResultList.clear();
 
   if(theEdge.IsNull() || (theEdge.ShapeType() != TopAbs_EDGE))
     return;
@@ -330,7 +330,7 @@ void QANewModTopOpe_Tools::Splits(const BOPAlgo_PPaveFiller& theDSFiller,
 
     if(aSplitState == theState) {
       TopoDS_Shape aSplit = pDS->Shape(nSp);
-      theResultList.Append(aSplit);
+      theResultList.push_back(aSplit);
     }
   }
 }
@@ -351,9 +351,9 @@ Standard_Boolean QANewModTopOpe_Tools::SplitE(const TopoDS_Edge&    theEdge,
 
   for (;exv.More(); exv.Next()) {
     const TopoDS_Shape& v = exv.Current();
-    aListOfVertex.Append(v);
+    aListOfVertex.push_back(v);
   }
-  Standard_Integer nv = aListOfVertex.Extent();
+  Standard_Integer nv = aListOfVertex.size();
 
   if (nv <= 2) return Standard_False;
   TopTools_ListOfShape aListOfVertexSorted;
@@ -385,7 +385,7 @@ Standard_Boolean QANewModTopOpe_Tools::SplitE(const TopoDS_Edge&    theEdge,
     BB.Add(ed, v);
     BB.Range(ed, par0, par);
 
-    theSplits.Append(ed.Oriented(oEanc));
+    theSplits.push_back(ed.Oriented(oEanc));
     v0 = v;
   }
   return Standard_True;
@@ -474,9 +474,9 @@ Standard_Boolean QANewModTopOpe_Tools::EdgeSectionAncestors(const BOPAlgo_PPaveF
   for ( ; aItLI.More(); aItLI.Next()) {
     nF = aItLI.Value();
     if(pDS->Rank(nF) == 0)
-      LF1.Append(pDS->Shape(nF));
+      LF1.push_back(pDS->Shape(nF));
     else
-      LF2.Append(pDS->Shape(nF));
+      LF2.push_back(pDS->Shape(nF));
     
     aMIF.Add(nF);
   }
@@ -489,9 +489,9 @@ Standard_Boolean QANewModTopOpe_Tools::EdgeSectionAncestors(const BOPAlgo_PPaveF
     nEOr = aPB->OriginalEdge();
 
     if(pDS->Rank(nEOr) == 0)
-      LE1.Append(pDS->Shape(nEOr));
+      LE1.push_back(pDS->Shape(nEOr));
     else
-      LE2.Append(pDS->Shape(nEOr));
+      LE2.push_back(pDS->Shape(nEOr));
 
     //find edge ancestors
     for(i = 0; i < nb; ++i) {
@@ -504,16 +504,16 @@ Standard_Boolean QANewModTopOpe_Tools::EdgeSectionAncestors(const BOPAlgo_PPaveF
       for (; aItLI.More(); aItLI.Next()) {
         if (nEOr == aItLI.Value()) {
           if (aMIF.Add(i)) {
-            if(pDS->Rank(i) == 0) LF1.Append(pDS->Shape(i));
-            else LF2.Append(pDS->Shape(i));
+            if(pDS->Rank(i) == 0) LF1.push_back(pDS->Shape(i));
+            else LF2.push_back(pDS->Shape(i));
           }//if (aMIF.Add(i)) {
         }//if (nEOr == aItLI.Value()) {
       }//for (; aItLI.More(); aItLI.Next()) {
     }//for(i = 0; i < nb; ++i) {
   }
 
-  Standard_Boolean r = (!LF1.IsEmpty() && !LF2.IsEmpty());
-  r = r && (!LE1.IsEmpty() || !LE2.IsEmpty());
+  Standard_Boolean r = (!LF1.empty() && !LF2.empty());
+  r = r && (!LE1.empty() || !LE2.empty());
   return r;
 }
 
@@ -749,7 +749,7 @@ Standard_Boolean AddShapeToHistoryMap(const TopoDS_Shape& theOldShape,
 
   if(!theHistoryMap.Contains(theOldShape)) {
     TopTools_ListOfShape aList;
-    aList.Append(theNewShape);
+    aList.push_back(theNewShape);
     theHistoryMap.Add(theOldShape, aList);
     return Standard_True;
   }
@@ -766,7 +766,7 @@ Standard_Boolean AddShapeToHistoryMap(const TopoDS_Shape& theOldShape,
   }
 
   if(!found) {
-    aList.Append(theNewShape);
+    aList.push_back(theNewShape);
   }
   return !found;
 }
@@ -828,14 +828,14 @@ void SortVertexOnEdge(const TopoDS_Edge&          theEdge,
     Standard_Real p = mappar.FindKey(i);
     tabpar.SetValue(i,p);
   }
-  theListOfVertexSorted.Clear();
+  theListOfVertexSorted.clear();
   std::sort (tabpar.begin(), tabpar.end());
 
   for (i = 1; i <= nv; i++) {
     Standard_Real par = tabpar.Value(i);
     Standard_Integer iv = mappar.FindIndex(par);
     const TopoDS_Shape& v = mapiv.Find(iv);
-    theListOfVertexSorted.Append(v);
+    theListOfVertexSorted.push_back(v);
   }
 }
 

@@ -571,7 +571,7 @@ Standard_Boolean BRepTools_NurbsConvertModification::NewCurve2d
       }
       GeomAdaptor_Surface GAS(S, Uinf-u,Usup+u,Vinf-v,Vsup+v);
       Handle(GeomAdaptor_HSurface) GAHS = new GeomAdaptor_HSurface(GAS);
-      myled.Append(E);
+      myled.push_back(E);
 
       ProjLib_ComputeApproxOnPolarSurface 
       ProjOnCurve(G2dAHC,G2dAHCBis,G3dAHC,GAHS,Tol);

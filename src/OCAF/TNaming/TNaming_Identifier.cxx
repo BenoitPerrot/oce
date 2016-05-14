@@ -195,7 +195,7 @@ void TNaming_Identifier::InitArgs()
 
 Standard_Boolean TNaming_Identifier::MoreArgs() const
 {
-  return (!myPrimitiveArgs.empty() || !myShapeArgs.IsEmpty());
+  return (!myPrimitiveArgs.empty() || !myShapeArgs.empty());
 }
 
 //=======================================================================
@@ -216,7 +216,7 @@ Standard_Boolean TNaming_Identifier::ArgIsFeature() const
 void TNaming_Identifier::NextArg() 
 {
   if      (!myPrimitiveArgs.empty()) myPrimitiveArgs.pop_front();
-  else if (!myShapeArgs    .IsEmpty()) myShapeArgs    .RemoveFirst();
+  else if (!myShapeArgs    .empty()) myShapeArgs    .pop_front();
 }
 
 //=======================================================================
@@ -237,7 +237,7 @@ Handle(TNaming_NamedShape) TNaming_Identifier::FeatureArg()
 
 TopoDS_Shape TNaming_Identifier::ShapeArg() 
 {
-  return myShapeArgs.First();
+  return myShapeArgs.front();
 }
 
 
@@ -248,7 +248,7 @@ TopoDS_Shape TNaming_Identifier::ShapeArg()
 
 TopoDS_Shape TNaming_Identifier::ShapeContext() const
 {
-  const TopoDS_Shape& S = myShapeArgs.First();
+  const TopoDS_Shape& S = myShapeArgs.front();
   TopoDS_Shape  SC;
   Handle(TNaming_NamedShape) NS = TNaming_Tool::NamedShape(S,myTDFAcces);
   TNaming_Localizer::FindShapeContext (NS, S, SC); // szy ==> added par. S
@@ -288,7 +288,7 @@ void TNaming_Identifier::AncestorIdentification(TNaming_Localizer& Localizer,
  }
  myType = TNaming_INTERSECTION;
  TopTools_MapIteratorOfMapOfShape itS(AncInFeature);
- for (; itS.More(); itS.Next()) myShapeArgs.Append(itS.Key());
+ for (; itS.More(); itS.Next()) myShapeArgs.push_back(itS.Key());
  myDone = 1;
 }
 
@@ -376,9 +376,9 @@ void TNaming_Identifier::Identification(TNaming_Localizer&          Localizer,
   TNaming_MapIteratorOfMapOfNamedShape itP(Primitives);
   for (; itP.More(); itP.Next()) myPrimitiveArgs.push_back(itP.Key());
   TopTools_MapIteratorOfMapOfShape itS(Shapes);
-  for (; itS.More(); itS.Next()) myShapeArgs.Append(itS.Key());
+  for (; itS.More(); itS.Next()) myShapeArgs.push_back(itS.Key());
   
-  if (myPrimitiveArgs.size() == 1 && myShapeArgs.IsEmpty()) {
+  if (myPrimitiveArgs.size() == 1 && myShapeArgs.empty()) {
     myType      = TNaming_MODIFUNTIL;
     myIsFeature = Standard_True;  
     //Reconnaissance Shape Mort.

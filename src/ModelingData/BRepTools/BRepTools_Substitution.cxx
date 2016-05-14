@@ -137,7 +137,7 @@ void BRepTools_Substitution::Build(const TopoDS_Shape& S)
   // NewS has the same orientation than S in its ancestors
   // so NewS is bound with orientation FORWARD.
   //-------------------------------------------------------
-  if (!NewS.IsNull()) L.Append(NewS.Oriented(TopAbs_FORWARD));
+  if (!NewS.IsNull()) L.push_back(NewS.Oriented(TopAbs_FORWARD));
   Substitute(S, L);
 }
 
@@ -150,9 +150,9 @@ void BRepTools_Substitution::Build(const TopoDS_Shape& S)
 Standard_Boolean BRepTools_Substitution::IsCopied(const TopoDS_Shape& S) const 
 {
   if (myMap.IsBound(S)) {
-    if (myMap (S).IsEmpty()) return Standard_True;
+    if (myMap (S).empty()) return Standard_True;
     else
-      return !S.IsSame(myMap(S).First());
+      return !S.IsSame(myMap(S).front());
   }
   else
     return Standard_False;

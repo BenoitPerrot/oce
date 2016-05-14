@@ -860,7 +860,7 @@ void ShapeUpgrade_UnifySameDomain::UnifyFaces()
 
           if (IsSameDomain(aFace,anCheckedFace)) {
 
-            if (aList.Extent() != 2) {
+            if (aList.size() != 2) {
               // non mainfold case is not processed
               continue;
             }
@@ -1213,11 +1213,11 @@ void ShapeUpgrade_UnifySameDomain::UnifyEdges()
           TopoDS_Face face1 = TopoDS::Face(myContext->Apply(anIter.Value()));
           if (face1.IsSame(aFace)) continue;
           if (aMapFacesEdges.Contains(face)) {
-            aMapFacesEdges.ChangeFromKey(face).Append(edge);
+            aMapFacesEdges.ChangeFromKey(face).push_back(edge);
           }
           else {
             TopTools_ListOfShape ListEdges;
-            ListEdges.Append(edge);
+            ListEdges.push_back(edge);
             aMapFacesEdges.Add(face,ListEdges);
           }
         }

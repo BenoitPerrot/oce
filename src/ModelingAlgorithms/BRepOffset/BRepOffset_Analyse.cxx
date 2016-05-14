@@ -209,7 +209,7 @@ static void BuildAncestors (const TopoDS_Shape&                        S,
     TopTools_ListIteratorOfListOfShape it(L);
     while (it.More()) {
       if (!Map.Add(it.Value())) {
-	L.Remove(it);
+	it = L.erase(it);
       }
       else {
 	it.Next();
@@ -254,17 +254,17 @@ void BRepOffset_Analyse::Perform (const TopoDS_Shape& S,
       mapEdgeType.Bind(E,LI);
       
       const TopTools_ListOfShape& L = Ancestors(E);
-      if ( L.IsEmpty()) 
+      if ( L.empty()) 
 	continue;
 
-      if (L.Extent() == 2) {
-	const TopoDS_Face& F1 = TopoDS::Face(L.First());
-	const TopoDS_Face& F2 = TopoDS::Face(L.Last ());
+      if (L.size() == 2) {
+	const TopoDS_Face& F1 = TopoDS::Face(L.front());
+	const TopoDS_Face& F2 = TopoDS::Face(L.back ());
 	EdgeAnalyse(E,F1,F2,SinTol,mapEdgeType(E));
       }
-      else if (L.Extent() == 1) {
+      else if (L.size() == 1) {
 	Standard_Real U1,U2;
-	const TopoDS_Face& F = TopoDS::Face(L.First());
+	const TopoDS_Face& F = TopoDS::Face(L.front());
 	BRep_Tool::Range(E,F,U1,U2);
 	BRepOffset_Interval Inter(U1,U2,BRepOffset_Other);
 	
@@ -322,7 +322,7 @@ void BRepOffset_Analyse::Edges(const TopoDS_Vertex&  V,
 			       TopTools_ListOfShape& LE) 
 const 
 {
-  LE.Clear();
+  LE.clear();
   const TopTools_ListOfShape& L = Ancestors (V);
   TopTools_ListIteratorOfListOfShape it(L);
   
@@ -332,11 +332,11 @@ const
     BRepOffset_Tool::EdgeVertices (E,V1,V2);
     if (V1.IsSame(V)) {
       if (mapEdgeType(E).back().Type() == T)
-	LE.Append(E);
+	LE.push_back(E);
     }
     if (V2.IsSame(V)) {
       if (mapEdgeType(E).front().Type() == T)
-	LE.Append(E);
+	LE.push_back(E);
     }
   }
 }
@@ -352,7 +352,7 @@ void BRepOffset_Analyse::Edges(const TopoDS_Face&    F,
 			       TopTools_ListOfShape& LE) 
 const 
 {
-  LE.Clear();
+  LE.clear();
   TopExp_Explorer exp(F, TopAbs_EDGE);
   
   for ( ;exp.More(); exp.Next()) {
@@ -360,7 +360,7 @@ const
 
     const BRepOffset_ListOfInterval& Lint = Type(E);
     for (auto t : Lint) {
-      if (t.Type() == T) LE.Append(E);
+      if (t.Type() == T) LE.push_back(E);
     }
   }
 }
@@ -386,7 +386,7 @@ void BRepOffset_Analyse::TangentEdges(const TopoDS_Edge&    Edge  ,
   CorrectOrientationOfTangent(VRef, Vertex, Edge);
   if (VRef.SquareMagnitude() < gp::Resolution()) return;
 
-  Edges.Clear();
+  Edges.clear();
 
   const TopTools_ListOfShape& Anc = Ancestors(Vertex);
   TopTools_ListIteratorOfListOfShape it(Anc);
@@ -399,7 +399,7 @@ void BRepOffset_Analyse::TangentEdges(const TopoDS_Edge&    Edge  ,
     CorrectOrientationOfTangent(V, Vertex, CurE);
     if (V.SquareMagnitude() < gp::Resolution()) continue;
     if (V.IsOpposite(VRef,angle)) {
-      Edges.Append(CurE);
+      Edges.push_back(CurE);
     }
   }
 }
@@ -437,7 +437,7 @@ const TopTools_ListOfShape& BRepOffset_Analyse::Ancestors
 void BRepOffset_Analyse::Explode(      TopTools_ListOfShape& List,
 				 const BRepOffset_Type       T   ) const 
 {
-  List.Clear();
+  List.clear();
   BRep_Builder B;
   TopTools_MapOfShape Map;
   
@@ -451,7 +451,7 @@ void BRepOffset_Analyse::Explode(      TopTools_ListOfShape& List,
       // add to Co all faces from the cloud of faces
       // G1 created from <Face>
       AddFaces(Face,Co,Map,T);
-      List.Append(Co);
+      List.push_back(Co);
     }
   }
 }
@@ -465,7 +465,7 @@ void BRepOffset_Analyse::Explode(      TopTools_ListOfShape& List,
 				 const BRepOffset_Type       T1,
 				 const BRepOffset_Type       T2) const 
 {
-  List.Clear();
+  List.clear();
   BRep_Builder B;
   TopTools_MapOfShape Map;
   
@@ -479,7 +479,7 @@ void BRepOffset_Analyse::Explode(      TopTools_ListOfShape& List,
       // add to Co all faces from the cloud of faces
       // G1 created from  <Face>
       AddFaces(Face,Co,Map,T1,T2);
-      List.Append(Co);
+      List.push_back(Co);
     }
   }
 }
@@ -503,10 +503,10 @@ void BRepOffset_Analyse::AddFaces (const TopoDS_Face&    Face,
     if (!LI.empty() && LI.front().Type() == T) {
       // so <NewFace> is attached to G1 by <Face>
       const TopTools_ListOfShape& L = Ancestors(E);
-      if (L.Extent() == 2) {
-	TopoDS_Face F1 = TopoDS::Face(L.First());
+      if (L.size() == 2) {
+	TopoDS_Face F1 = TopoDS::Face(L.front());
 	if ( F1.IsSame(Face)) 
-	  F1 = TopoDS::Face(L.Last ());
+	  F1 = TopoDS::Face(L.back ());
 	if ( Map.Add(F1)) {
 	  B.Add(Co,F1);
 	  AddFaces(F1,Co,Map,T);
@@ -535,10 +535,10 @@ void BRepOffset_Analyse::AddFaces (const TopoDS_Face&    Face,
 	(LI.front().Type() == T1 || LI.front().Type() == T2)) {
       // so <NewFace> is attached to G1 by <Face>
       const TopTools_ListOfShape& L = Ancestors(E);
-      if (L.Extent() == 2) {
-	TopoDS_Face F1 = TopoDS::Face(L.First());
+      if (L.size() == 2) {
+	TopoDS_Face F1 = TopoDS::Face(L.front());
 	if ( F1.IsSame(Face)) 
-	  F1 = TopoDS::Face(L.Last ());
+	  F1 = TopoDS::Face(L.back ());
 	if ( Map.Add(F1)) {
 	  B.Add(Co,F1);
 	  AddFaces(F1,Co,Map,T1,T2);

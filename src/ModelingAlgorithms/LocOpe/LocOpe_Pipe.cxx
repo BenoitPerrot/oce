@@ -90,7 +90,7 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
   for (Standard_Integer i=1; i<=theEFMap.Extent(); i++) { 
     const TopoDS_Edge& edgpr = TopoDS::Edge(theEFMap.FindKey(i));
     myMap.Bind(edgpr,Empty);
-    if (theEFMap(i).Extent() >= 2) {
+    if (theEFMap(i).size() >= 2) {
       // on ne prend pas les faces generees
     }
     else {
@@ -107,8 +107,8 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	    MapFac.Add(resfac);
 	  }
 	  else {
-	    myMap(edgpr).Append(resfac);
-	    goodfaces.Append(resfac);
+	    myMap(edgpr).push_back(resfac);
+	    goodfaces.push_back(resfac);
 	  }
 	}
       }
@@ -119,8 +119,8 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
       TopTools_MapIteratorOfMapOfShape itm(MapFac);
       if (MapFac.Extent() <= 1) { // un seul plan. Rien a faire
 	if (MapFac.Extent() == 1) {
-	  myMap(edgpr).Append(itm.Key());
-	  goodfaces.Append(itm.Key());
+	  myMap(edgpr).push_back(itm.Key());
+	  goodfaces.push_back(itm.Key());
 	}
 	continue;
       }
@@ -129,7 +129,7 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	itm.Reset();
 	TopTools_ListOfShape FacFuse;
 	TopoDS_Face FaceRef = TopoDS::Face(itm.Key());
-	FacFuse.Append(FaceRef);
+	FacFuse.push_back(FaceRef);
 	Handle(Geom_Surface) P = BRep_Tool::Surface(FaceRef);
 	if (P->DynamicType() == STANDARD_TYPE(Geom_RectangularTrimmedSurface)) {
 	  P = Handle(Geom_RectangularTrimmedSurface)::DownCast(P)->BasisSurface();
@@ -144,15 +144,15 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	  gp_Pln Pl = Handle(Geom_Plane)::DownCast(P)->Pln();
 	  if (Pl.Axis().IsParallel(Plref.Axis(),Precision::Angular()) &&
 	      Plref.Contains(Pl.Location(),Precision::Confusion())) {
-	    FacFuse.Append(itm.Key());
+	    FacFuse.push_back(itm.Key());
 	  }
 	}
 	
 	// FacFuse contient des faces de meme support. Il faut en faire 
 	// des composantes connexes
 	
-	while (FacFuse.Extent() >= 2) {
-	  FaceRef = TopoDS::Face(FacFuse.First());
+	while (FacFuse.size() >= 2) {
+	  FaceRef = TopoDS::Face(FacFuse.front());
 	  // Recuperer l'orientation
 	  TopAbs_Orientation orref = Orientation(FaceRef,Result);
 	  P = BRep_Tool::Surface(FaceRef);
@@ -173,7 +173,7 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	  }
 	  
 	  MapFac.Remove(FaceRef);
-	  FacFuse.RemoveFirst(); // on enleve FaceRef
+	  FacFuse.pop_front(); // on enleve FaceRef
 	  Standard_Boolean FaceToFuse = Standard_False;
 	  Standard_Boolean MoreFound;
 	  
@@ -220,7 +220,7 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 		}
 	      }	    
 	      MapFac.Remove(fac);
-	      FacFuse.Remove(it);
+	      it = FacFuse.erase(it);
 	    }
 	  } while (MoreFound);
 	  
@@ -237,24 +237,24 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	    exp.Init(FaceRef.Oriented(TopAbs_FORWARD),TopAbs_WIRE);
 	    NewWire.Orientation(exp.Current().Orientation());
 	    B.Add(NewFace,NewWire);
-	    myMap(edgpr).Append(NewFace);
-	    goodfaces.Append(NewFace);
+	    myMap(edgpr).push_back(NewFace);
+	    goodfaces.push_back(NewFace);
 	  }
 	}
-	if (FacFuse.Extent() == 1) {
-	  MapFac.Remove(FacFuse.First());
-	  myMap(edgpr).Append(FacFuse.First());
-	  goodfaces.Append(FacFuse.First());
+	if (FacFuse.size() == 1) {
+	  MapFac.Remove(FacFuse.front());
+	  myMap(edgpr).push_back(FacFuse.front());
+	  goodfaces.push_back(FacFuse.front());
 	}
       }
     }
   }
 
   for (exp.Init(myPipe.FirstShape(),TopAbs_FACE); exp.More(); exp.Next()) {
-    goodfaces.Append(exp.Current());
+    goodfaces.push_back(exp.Current());
   }
   for (exp.Init(myPipe.LastShape(),TopAbs_FACE); exp.More(); exp.Next()) {
-    goodfaces.Append(exp.Current());
+    goodfaces.push_back(exp.Current());
   }
 
   LocOpe_BuildShape BS(goodfaces);
@@ -295,14 +295,14 @@ const TopTools_ListOfShape& LocOpe_Pipe::Shapes (const TopoDS_Shape& S)
     Standard_NoSuchObject::Raise();
   }
 
-  myGShap.Clear();
+  myGShap.clear();
   if (typS == TopAbs_VERTEX) {
     const TopoDS_Vertex& VProfile = TopoDS::Vertex(S);
     for (exp.Init(myPipe.Spine(),TopAbs_EDGE); exp.More(); exp.Next()) {
       const TopoDS_Edge& edsp = TopoDS::Edge(exp.Current());
       TopoDS_Edge resed = myPipe.Edge(edsp,VProfile);
       if (!resed.IsNull()) {
-	myGShap.Append(resed);
+	myGShap.push_back(resed);
       }
     }
     return myGShap;

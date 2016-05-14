@@ -396,7 +396,7 @@ Standard_Boolean BuildWiresWithReshape
   Standard_Boolean                   isDone;
   TopoDS_Wire                        aWire;
 
-  theListOfWires.Clear();
+  theListOfWires.clear();
   Handle(ShapeExtend_WireData) aWireData  = new ShapeExtend_WireData;
   Handle(ShapeFix_Wire) aShFixWire = new ShapeFix_Wire;
   aShFixWire->SetContext (theReshape);
@@ -464,7 +464,7 @@ Standard_Boolean BuildWiresWithReshape
       TopExp::Vertices(aCurWire, aVf, aVl);
       if (aVf.IsSame(aVl))
         aCurWire.Closed(Standard_True);
-      theListOfWires.Append(aCurWire);
+      theListOfWires.push_back(aCurWire);
       aBuilder.MakeWire(aCurWire);
       aBuilder.Add(aCurWire, anE);
     }
@@ -473,7 +473,7 @@ Standard_Boolean BuildWiresWithReshape
   TopExp::Vertices(aCurWire, aVf, aVl);
   if (aVf.IsSame(aVl))
     aCurWire.Closed(Standard_True);
-  theListOfWires.Append(aCurWire);
+  theListOfWires.push_back(aCurWire);
 
   return Standard_True;
 }
@@ -504,12 +504,12 @@ Standard_Boolean BuildBoundWires(const TopoDS_Shape   &theShell,
   for (i = 1; i <= anEdgeFaceMap.Extent(); i++)
   {
     const TopTools_ListOfShape &anAncestFaces = anEdgeFaceMap.FindFromIndex(i);
-    if (anAncestFaces.Extent() == 1)
+    if (anAncestFaces.size() == 1)
     {
       const TopoDS_Edge &anEdge = TopoDS::Edge(anEdgeFaceMap.FindKey(i));
       if (!BRep_Tool::Degenerated(anEdge))
       {
-        aBoundaryEdges.Append(anEdge);
+        aBoundaryEdges.push_back(anEdge);
         isBound = Standard_True;
       }
     }
@@ -539,10 +539,10 @@ static Standard_Integer BUC60868 (Draw_Interpretor& di, Standard_Integer argc, c
   BuildBoundWires(aShell, aListOfWires);
 
   TopoDS_Shape aRes;
-  if (aListOfWires.IsEmpty())
+  if (aListOfWires.empty())
     di << "no bound" << "\n";
-  else if (aListOfWires.Extent() == 1)
-    aRes = aListOfWires.First();
+  else if (aListOfWires.size() == 1)
+    aRes = aListOfWires.front();
   else {
     BRep_Builder aBld;
     aBld.MakeCompound (TopoDS::Compound(aRes));

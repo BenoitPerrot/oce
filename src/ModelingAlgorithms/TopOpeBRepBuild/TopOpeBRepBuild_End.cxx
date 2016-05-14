@@ -111,7 +111,7 @@ void TopOpeBRepBuild_Builder::End()
 	  const TopoDS_Edge& E = TopoDS::Edge(M.FindKey(iE));
 	  if ( IsSplit(E,sta) ) continue;
 	  const TopTools_ListOfShape& LF = M.FindFromIndex(iE);
-	  if ( LF.Extent() < 2 ) continue;
+	  if ( LF.size() < 2 ) continue;
 	  
 	  // NYI : > 2 faces connexes par E : iterer sur tous les couples
 	  TopTools_ListIteratorOfListOfShape itLF(LF);
@@ -126,8 +126,8 @@ void TopOpeBRepBuild_Builder::End()
 	  
 	  Standard_Boolean F1issplit = IsSplit(F1,sta);
 	  Standard_Boolean F2issplit = IsSplit(F2,sta);
-	  F1issplit &= (Splits(F1,sta).Extent() != 0);
-	  F2issplit &= (Splits(F2,sta).Extent() != 0);
+	  F1issplit &= (Splits(F1,sta).size() != 0);
+	  F2issplit &= (Splits(F2,sta).size() != 0);
 	  if ( !F1issplit && !F2issplit ) continue;
 	  
 	  TopoDS_Face FF1=F1,FF2=F2;
@@ -204,7 +204,7 @@ void TopOpeBRepBuild_Builder::End()
       for (iloe.Initialize(loe1);iloe.More();iloe.Next()) {
 	const TopoDS_Edge& E = TopoDS::Edge(iloe.Value());
 	Standard_Boolean isb = mose.Contains(E); if (isb) continue;
-	mose.Add(E);loe.Append(E);
+	mose.Add(E);loe.push_back(E);
       }
 #ifdef OCCT_DEBUG
 //      Standard_Integer nloe = loe.Extent();
@@ -213,7 +213,7 @@ void TopOpeBRepBuild_Builder::End()
       for (iloe.Initialize(loe);iloe.More();iloe.Next()) {
 	const TopoDS_Edge& E = TopoDS::Edge(iloe.Value());
 	const TopTools_ListOfShape& lof = idmoelof.FindFromKey(E);
-	Standard_Integer nlof = lof.Extent();
+	Standard_Integer nlof = lof.size();
 	nP1 += nlof+1;
       }
 
@@ -382,7 +382,7 @@ void TopOpeBRepBuild_Builder::UpdateSplitAndMerged(const  TopTools_DataMapOfInte
 	      Found = Standard_True;
 
 
-	      LstSplit.Remove(itSplitEdg);
+	      itSplitEdg = LstSplit.erase(itSplitEdg);
 
 	      // edit the list of merged
 	      TopAbs_State stateMerged;
@@ -392,7 +392,7 @@ void TopOpeBRepBuild_Builder::UpdateSplitAndMerged(const  TopTools_DataMapOfInte
 		stateMerged = myState2;
 	      
 	      TopTools_ListOfShape LstMerged;
-	      LstMerged.Append(mre(iLst));
+	      LstMerged.push_back(mre(iLst));
 	      ChangeMerged(e,stateMerged) = LstMerged;
 	      
 	    }
@@ -422,7 +422,7 @@ void TopOpeBRepBuild_Builder::UpdateSplitAndMerged(const  TopTools_DataMapOfInte
 
 	if (mlf.IsBound(facecur)) {
 	  LstSplit.InsertBefore(mlf(facecur),itSplitFac);
-	  LstSplit.Remove(itSplitFac);
+	  itSplitFac = LstSplit.erase(itSplitFac);
 
 	}
 	else {

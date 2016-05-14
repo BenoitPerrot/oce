@@ -46,7 +46,7 @@ IMPLEMENT_STANDARD_RTTI(BRepAlgo_EdgeConnector)
 BRepAlgo_EdgeConnector::BRepAlgo_EdgeConnector()
 :myIsDone(Standard_False)
 {
-  myListeOfEdge.Clear();
+  myListeOfEdge.clear();
 }
 
 //=======================================================================
@@ -57,7 +57,7 @@ BRepAlgo_EdgeConnector::BRepAlgo_EdgeConnector()
 void BRepAlgo_EdgeConnector::Add(const TopoDS_Edge& e)
 {
   if(e.IsNull()) return;
-  myListeOfEdge.Append(e);
+  myListeOfEdge.push_back(e);
 }
 
 //=======================================================================
@@ -67,7 +67,7 @@ void BRepAlgo_EdgeConnector::Add(const TopoDS_Edge& e)
 
 void BRepAlgo_EdgeConnector::Add(TopTools_ListOfShape& LOEdge)
 {
-  if(LOEdge.IsEmpty()) return;
+  if(LOEdge.empty()) return;
   myListeOfEdge.Append(LOEdge);
 }
 
@@ -79,7 +79,7 @@ void BRepAlgo_EdgeConnector::Add(TopTools_ListOfShape& LOEdge)
 void BRepAlgo_EdgeConnector::AddStart(const TopoDS_Shape& e)
 {
   if(e.IsNull()) return;
-  myListeOfStartEdge.Append(e);
+  myListeOfStartEdge.push_back(e);
 }
 
 //=======================================================================
@@ -89,7 +89,7 @@ void BRepAlgo_EdgeConnector::AddStart(const TopoDS_Shape& e)
 
 void BRepAlgo_EdgeConnector::AddStart(TopTools_ListOfShape& LOEdge)
 {
-  if(LOEdge.IsEmpty()) return;
+  if(LOEdge.empty()) return;
   myListeOfStartEdge.Append(LOEdge);
 }
 
@@ -100,7 +100,7 @@ void BRepAlgo_EdgeConnector::AddStart(TopTools_ListOfShape& LOEdge)
 
 void BRepAlgo_EdgeConnector::ClearStartElement()
 {
-  myListeOfStartEdge.Clear();
+  myListeOfStartEdge.clear();
 }
 
 //=======================================================================
@@ -111,10 +111,10 @@ void BRepAlgo_EdgeConnector::ClearStartElement()
 TopTools_ListOfShape& BRepAlgo_EdgeConnector::MakeBlock()
 {
   Standard_Boolean b;
-  if(myListeOfStartEdge.IsEmpty()) return myListeOfStartEdge;
+  if(myListeOfStartEdge.empty()) return myListeOfStartEdge;
   TopOpeBRepBuild_ShapeSet SS(TopAbs_VERTEX);
   myResultMap.Clear();
-  myResultList.Clear();
+  myResultList.clear();
   TopTools_ListIteratorOfListOfShape it(myListeOfEdge);
   for(;it.More();it.Next()) {
     const TopoDS_Shape& edge = it.Value();
@@ -141,7 +141,7 @@ TopTools_ListOfShape& BRepAlgo_EdgeConnector::MakeBlock()
     }
     b = myBlockB.CurrentBlockIsRegular();
     myResultMap.Bind(W, b);
-    myResultList.Append(W);
+    myResultList.push_back(W);
   }
   Done();
   return myResultList;

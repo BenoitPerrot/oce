@@ -1652,7 +1652,7 @@ void BRepLib::EncodeRegularity(TopoDS_Edge& E,
 void  BRepLib::SortFaces (const TopoDS_Shape& Sh,
   TopTools_ListOfShape& LF)
 {
-  LF.Clear();
+  LF.clear();
   TopTools_ListOfShape LTri,LPlan,LCyl,LCon,LSphere,LTor,LOther;
   TopExp_Explorer exp(Sh,TopAbs_FACE);
   TopLoc_Location l;
@@ -1669,34 +1669,34 @@ void  BRepLib::SortFaces (const TopoDS_Shape& Sh,
       switch (AS.GetType()) {
       case GeomAbs_Plane: 
         {
-          LPlan.Append(F);
+          LPlan.push_back(F);
           break;
         }
       case GeomAbs_Cylinder: 
         {
-          LCyl.Append(F);
+          LCyl.push_back(F);
           break;
         }
       case GeomAbs_Cone: 
         {
-          LCon.Append(F);
+          LCon.push_back(F);
           break;
         }
       case GeomAbs_Sphere: 
         {
-          LSphere.Append(F);
+          LSphere.push_back(F);
           break;
         }
       case GeomAbs_Torus: 
         {
-          LTor.Append(F);
+          LTor.push_back(F);
           break;
         }
       default:
-        LOther.Append(F);
+        LOther.push_back(F);
       }
     }
-    else LTri.Append(F);
+    else LTri.push_back(F);
   }
   LF.Append(LPlan); LF.Append(LCyl  ); LF.Append(LCon); LF.Append(LSphere);
   LF.Append(LTor ); LF.Append(LOther); LF.Append(LTri); 
@@ -1710,7 +1710,7 @@ void  BRepLib::SortFaces (const TopoDS_Shape& Sh,
 void  BRepLib::ReverseSortFaces (const TopoDS_Shape& Sh,
   TopTools_ListOfShape& LF)
 {
-  LF.Clear();
+  LF.clear();
   TopTools_ListOfShape LTri,LPlan,LCyl,LCon,LSphere,LTor,LOther;
   TopExp_Explorer exp(Sh,TopAbs_FACE);
   TopLoc_Location l;
@@ -1727,34 +1727,34 @@ void  BRepLib::ReverseSortFaces (const TopoDS_Shape& Sh,
       switch (AS.GetType()) {
       case GeomAbs_Plane: 
         {
-          LPlan.Append(F);
+          LPlan.push_back(F);
           break;
         }
       case GeomAbs_Cylinder: 
         {
-          LCyl.Append(F);
+          LCyl.push_back(F);
           break;
         }
       case GeomAbs_Cone: 
         {
-          LCon.Append(F);
+          LCon.push_back(F);
           break;
         }
       case GeomAbs_Sphere: 
         {
-          LSphere.Append(F);
+          LSphere.push_back(F);
           break;
         }
       case GeomAbs_Torus: 
         {
-          LTor.Append(F);
+          LTor.push_back(F);
           break;
         }
       default:
-        LOther.Append(F);
+        LOther.push_back(F);
       }
     }
-    else LTri.Append(F);
+    else LTri.push_back(F);
   }
   LF.Append(LTri); LF.Append(LOther); LF.Append(LTor ); LF.Append(LSphere);
   LF.Append(LCon); LF.Append(LCyl  ); LF.Append(LPlan);

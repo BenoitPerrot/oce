@@ -184,7 +184,7 @@ void  DBRep_DrawableShape::Set(const TopoDS_Shape& aShape)
     if (BRep_Tool::Degenerated(theEdge)) continue;
 
     // compute the number of faces
-    Standard_Integer nbf = edgemap(iedge).Extent();
+    Standard_Integer nbf = edgemap(iedge).size();
     
     Draw_Color EdgeColor;
     

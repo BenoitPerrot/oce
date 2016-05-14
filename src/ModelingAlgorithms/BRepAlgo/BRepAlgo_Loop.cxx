@@ -73,10 +73,10 @@ BRepAlgo_Loop::BRepAlgo_Loop()
 
 void BRepAlgo_Loop::Init(const TopoDS_Face& F)
 {
-  myConstEdges.Clear(); 
+  myConstEdges.clear(); 
   myVerOnEdges.Clear();
-  myNewWires  .Clear();
-  myNewFaces  .Clear();
+  myNewWires  .clear();
+  myNewFaces  .clear();
   myNewEdges  .Clear();
   myFace = F;
 }
@@ -136,7 +136,7 @@ void BRepAlgo_Loop::AddEdge (TopoDS_Edge&                E,
 
 void BRepAlgo_Loop::AddConstEdge (const TopoDS_Edge& E)
 {
-  myConstEdges.Append(E);
+  myConstEdges.push_back(E);
 }
 
 //=======================================================================
@@ -148,7 +148,7 @@ void BRepAlgo_Loop::AddConstEdges(const TopTools_ListOfShape& LE)
 {
   TopTools_ListIteratorOfListOfShape itl(LE);
   for (; itl.More(); itl.Next()) {
-    myConstEdges.Append(itl.Value());
+    myConstEdges.push_back(itl.Value());
   }
 }
 
@@ -229,20 +229,20 @@ static void RemovePendingEdges(TopTools_DataMapOfShapeListOfShape& MVE)
 
     for (Mapit.Initialize(MVE); Mapit.More(); Mapit.Next()) {
 
-      if (Mapit.Value().IsEmpty()) {
-	VToRemove.Append(Mapit.Key());
+      if (Mapit.Value().empty()) {
+	VToRemove.push_back(Mapit.Key());
       }
-      if (Mapit.Value().Extent() == 1) {
-	const TopoDS_Edge& E = TopoDS::Edge(Mapit.Value().First());
+      if (Mapit.Value().size() == 1) {
+	const TopoDS_Edge& E = TopoDS::Edge(Mapit.Value().front());
 	TopExp::Vertices(E,V1,V2) ;
 	if (!V1.IsSame(V2)) {
-	  VToRemove.Append(Mapit.Key());
-	  EToRemove.Add(Mapit.Value().First());
+	  VToRemove.push_back(Mapit.Key());
+	  EToRemove.Add(Mapit.Value().front());
 	}
       }
     }
     
-    if (!VToRemove.IsEmpty()) {
+    if (!VToRemove.empty()) {
       YaSupress = Standard_True;
       for (itl.Initialize(VToRemove); itl.More(); itl.Next()) {
 	MVE.UnBind(itl.Value());
@@ -253,7 +253,7 @@ static void RemovePendingEdges(TopTools_DataMapOfShapeListOfShape& MVE)
 	  itl.Initialize(LE);
 	  while (itl.More()) {
 	    if (EToRemove.Contains(itl.Value())) {
-	      LE.Remove(itl);
+	      itl = LE.erase(itl);
 	    }
 	    else itl.Next();
 	  }
@@ -314,11 +314,11 @@ static Standard_Boolean  SelectEdge(const TopoDS_Face&    F,
 #endif
   for ( itl.Initialize(LE); itl.More(); itl.Next()) {
     if (itl.Value().IsEqual(CE)) {
-      LE.Remove(itl);
+      itl = LE.erase(itl);
       break;
     }
   }
-  if (LE.Extent() > 1) {
+  if (LE.size() > 1) {
     //--------------------------------------------------------------
     // Several edges possible.  
     // - Test edges different from CE , Selection of edge
@@ -361,11 +361,11 @@ static Standard_Boolean  SelectEdge(const TopoDS_Face&    F,
     k = 1; itl.Initialize(LE);
     while (k < kmin) {k++; itl.Next();}
     NE = TopoDS::Edge(itl.Value());
-    LE.Remove(itl);
+    itl = LE.erase(itl);
   }
-  else if (LE.Extent() == 1) {
-    NE = TopoDS::Edge(LE.First());
-    LE.RemoveFirst();
+  else if (LE.size() == 1) {
+    NE = TopoDS::Edge(LE.front());
+    LE.pop_front();
   }
   else {
     return Standard_False;
@@ -393,7 +393,7 @@ static void  PurgeNewEdges(TopTools_DataMapOfShapeListOfShape& NewEdges,
     while (itL.More()) {
       const TopoDS_Shape& NE = itL.Value();
       if (!UsedEdges.Contains(NE)) {
-	LNE.Remove(itL);
+	itL = LNE.erase(itL);
       }
       else {
 	itL.Next();
@@ -429,7 +429,7 @@ static void StoreInMVE (const TopoDS_Face&                  F,
       TopTools_ListOfShape VList;
       TopoDS_Iterator VerExp( E );
       for (; VerExp.More(); VerExp.Next())
-	VList.Append( VerExp.Value() );
+	VList.push_back( VerExp.Value() );
       TopTools_ListIteratorOfListOfShape itl( VList );
       for (; itl.More(); itl.Next())
 	{
@@ -476,19 +476,19 @@ static void StoreInMVE (const TopoDS_Face&                  F,
   if (!MVE.IsBound(V1)) {
     MVE.Bind(V1,Empty);
   }
-  MVE(V1).Append(E);
+  MVE(V1).push_back(E);
   if (!V1.IsSame(V2)) {
      if (!MVE.IsBound(V2)) {
       MVE.Bind(V2,Empty);
     }
-    MVE(V2).Append(E);
+    MVE(V2).push_back(E);
   }
   TopLoc_Location L ;
   Handle(Geom_Surface) S = BRep_Tool::Surface(F,L);
   if (BRep_Tool::IsClosed(E,S,L)) {
-    MVE(V2).Append(E.Reversed());
+    MVE(V2).push_back(E.Reversed());
     if (!V1.IsSame(V2)) {
-      MVE(V1).Append(E.Reversed());
+      MVE(V1).push_back(E.Reversed());
     }
     YaCouture = Standard_True;
   }
@@ -604,7 +604,7 @@ void BRepAlgo_Loop::Perform()
     // Start edge.
     //--------------------------------
     Mapit.Initialize(MVE);
-    EF = CE = TopoDS::Edge(Mapit.Value().First());
+    EF = CE = TopoDS::Edge(Mapit.Value().front());
     TopExp::Vertices(CE,V1,V2);
     //--------------------------------
     // VF vertex start of new wire
@@ -614,7 +614,7 @@ void BRepAlgo_Loop::Perform()
     if (!MVE.IsBound(CV)) continue;
     for ( itl.Initialize(MVE(CV)); itl.More(); itl.Next()) {
       if (itl.Value().IsEqual(CE)) {
-	MVE(CV).Remove(itl);
+	itl = MVE(CV).erase(itl);
 	break;
       }
     }
@@ -630,14 +630,14 @@ void BRepAlgo_Loop::Perform()
       B.Add (NW,CE);
       UsedEdges.Add(CE);
 
-      if (!MVE.IsBound(CV) || MVE(CV).IsEmpty()) {
+      if (!MVE.IsBound(CV) || MVE(CV).empty()) {
         End = Standard_True;
       }
       else {
         End = !SelectEdge(myFace,CE,CV,NE,MVE(CV));
         if (!End) {
           CE = NE;
-          if (MVE(CV).IsEmpty()) MVE.UnBind(CV);
+          if (MVE(CV).empty()) MVE.UnBind(CV);
         }
       }
     }
@@ -664,7 +664,7 @@ void BRepAlgo_Loop::Perform()
     if (VF.IsSame(CV) && SamePnt2d(VF,EF,CE,myFace))
     {
       NW.Closed (Standard_True);
-      myNewWires.Append (NW);
+      myNewWires.push_back (NW);
     }
 #ifdef OCCT_DEBUG_ALGO
     else {
@@ -717,7 +717,7 @@ void BRepAlgo_Loop::CutEdge (const TopoDS_Edge&          E,
   //         onligatorily in the list of vertices
   //----------------------------------------------------------------
   if (SV.IsEmpty()) {
-    NE.Append(E);
+    NE.push_back(E);
     return;
   }
   TopoDS_Vertex    VF,VL;
@@ -727,7 +727,7 @@ void BRepAlgo_Loop::CutEdge (const TopoDS_Edge&          E,
 
   if (NbVer == 2) {
     if (SV(1).IsEqual(VF) && SV(2).IsEqual(VL)) {
-      NE.Append(E);
+      NE.push_back(E);
 #ifdef DRAW
       if (AffichLoop) {  
       DBRep::Set("ECOpied",E);
@@ -811,7 +811,7 @@ void BRepAlgo_Loop::CutEdge (const TopoDS_Edge&          E,
       DBRep::Set("Cut",NewEdge);
     }
 #endif
-      NE.Append(NewEdge.Oriented(E.Orientation()));
+      NE.push_back(NewEdge.Oriented(E.Orientation()));
     }
   }
 
@@ -825,13 +825,13 @@ void BRepAlgo_Loop::CutEdge (const TopoDS_Edge&          E,
       Standard_Real fpar, lpar;
       BRep_Tool::Range( EE, fpar, lpar );
       if (lpar - fpar <= Precision::Confusion())
-	NE.Remove(it);
+	it = NE.erase(it);
       else
 	{
 	  gp_Pnt2d pf, pl;
 	  BRep_Tool::UVPoints( EE, myFace, pf, pl );
 	  if (pf.Distance(pl) <= Tol && !EE.Closed())
-	    NE.Remove(it);
+	    it = NE.erase(it);
 	  else
 	    it.Next();
 	}
@@ -865,7 +865,7 @@ const TopTools_ListOfShape&  BRepAlgo_Loop::NewFaces() const
 
 void  BRepAlgo_Loop::WiresToFaces() 
 {  
-  if (!myNewWires.IsEmpty()) {
+  if (!myNewWires.empty()) {
     BRepAlgo_FaceRestrictor FR;
     TopoDS_Shape aLocalS = myFace.Oriented(TopAbs_FORWARD);
     FR.Init (TopoDS::Face(aLocalS),Standard_False);
@@ -881,7 +881,7 @@ void  BRepAlgo_Loop::WiresToFaces()
     if (FR.IsDone()) {
       TopAbs_Orientation OriF = myFace.Orientation();
       for (; FR.More(); FR.Next()) {
-	myNewFaces.Append(FR.Current().Oriented(OriF));
+	myNewFaces.push_back(FR.Current().Oriented(OriF));
       }
     }
   }

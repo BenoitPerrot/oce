@@ -141,7 +141,7 @@ const TopoDS_Shape& StepToTopoDS_NMTool::Find(const TCollection_AsciiString& RIN
 
 void StepToTopoDS_NMTool::RegisterNMEdge(const TopoDS_Shape& Edge) {
   if ( !this->isEdgeRegisteredAsNM(Edge) )
-    myNMEdges.Append(Edge);
+    myNMEdges.push_back(Edge);
 }
 
 // ============================================================================

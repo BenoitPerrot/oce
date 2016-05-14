@@ -85,7 +85,7 @@ void BRepBuilderAPI_GTransform::Perform(const TopoDS_Shape& S,
 const TopTools_ListOfShape& BRepBuilderAPI_GTransform::Modified
   (const TopoDS_Shape& F)
 {
-  myGenerated.Clear();
+  myGenerated.clear();
   const TopTools_DataMapOfShapeListOfShape& M = myHist.Modification();
   if (M.IsBound(F)) { 
     TopTools_ListOfShape Li;
@@ -110,10 +110,10 @@ const TopoDS_Shape& BRepBuilderAPI_GTransform::ModifiedShape
 
   if (aMapModif.IsBound(S)) {
     const TopTools_ListOfShape &aListModShape = aMapModif(S);
-    Standard_Integer            aNbShapes     = aListModShape.Extent();
+    Standard_Integer            aNbShapes     = aListModShape.size();
 
     if (aNbShapes > 0)
-      aShape = aListModShape.First();
+      aShape = aListModShape.front();
   }
 
   return BRepBuilderAPI_ModifyShape::ModifiedShape(aShape);

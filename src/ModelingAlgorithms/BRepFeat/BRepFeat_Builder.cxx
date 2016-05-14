@@ -142,11 +142,11 @@
 {
   TopExp_Explorer aExp;
   //
-  aLT.Clear();
+  aLT.clear();
   aExp.Init(myShape, TopAbs_SOLID);
   for (;aExp.More(); aExp.Next()) {
     const TopoDS_Shape& aS = aExp.Current();
-    aLT.Append(aS);
+    aLT.push_back(aS);
   }
 }
 

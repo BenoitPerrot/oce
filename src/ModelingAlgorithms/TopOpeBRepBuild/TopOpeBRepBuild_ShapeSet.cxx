@@ -112,7 +112,7 @@ void TopOpeBRepBuild_ShapeSet::ProcessAddShape(const TopoDS_Shape& S)
 {
   if ( !myOMSH.Contains(S) ) {
     myOMSH.Add(S);
-    myShapes.Append(S);
+    myShapes.push_back(S);
   }
 }
 
@@ -124,7 +124,7 @@ void TopOpeBRepBuild_ShapeSet::ProcessAddStartElement(const TopoDS_Shape& S)
 {
   if ( !myOMSS.Contains(S) ) {
     myOMSS.Add(S);
-    myStartShapes.Append(S);
+    myStartShapes.push_back(S);
     ProcessAddElement(S);
   }
 }
@@ -143,7 +143,7 @@ void TopOpeBRepBuild_ShapeSet::ProcessAddElement(const TopoDS_Shape& S)
       const TopoDS_Shape& subshape = Ex.Current();
       Standard_Boolean b = ( ! mySubShapeMap.Contains(subshape) );
       if ( b ) mySubShapeMap.Add(subshape,Lemp);
-      mySubShapeMap.ChangeFromKey(subshape).Append(S);
+      mySubShapeMap.ChangeFromKey(subshape).push_back(S);
     }
   }
 }
