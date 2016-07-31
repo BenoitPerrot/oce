@@ -215,13 +215,16 @@ void BRepFeat_MakeDPrism::Add(const TopoDS_Edge& E,
     TopTools_ListOfShape thelist;
     mySlface.Bind(F, thelist);
   }
-  TopTools_ListIteratorOfListOfShape itl(mySlface(F));
-  for (; itl.More();itl.Next()) {
-    if (itl.Value().IsSame(E)) {
+#warning factor with MakeLinearForm::Add
+#warning find
+  Standard_Boolean found = Standard_False;
+  for (auto S : mySlface(F)) {
+    if (S.IsSame(E)) {
+      found = Standard_True;
       break;
     }
   }
-  if (!itl.More()) {
+  if (!found) {
     mySlface(F).push_back(E);
   }
 }
@@ -461,9 +464,8 @@ void BRepFeat_MakeDPrism::Perform(const TopoDS_Shape& Until)
       }
     }         
   }
-  TopTools_ListIteratorOfListOfShape ited(myNewEdges);
-  for (; ited.More();ited.Next()) {
-    const TopoDS_Edge& ledg=TopoDS::Edge(ited.Value());
+  for (auto s : myNewEdges) {
+    const TopoDS_Edge& ledg=TopoDS::Edge(s);
     if (!BRepAlgo::IsValid(ledg)) {
       bB.SameRange(ledg, Standard_False);
       bB.SameParameter(ledg, Standard_False);
@@ -1064,10 +1066,9 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
   }
 
   // Edges Top
-  TopTools_ListIteratorOfListOfShape itLS;
   TopExp_Explorer ExpE;
-  for (itLS.Initialize(theLastShape);itLS.More();itLS.Next()) {
-    const TopoDS_Face& FF = TopoDS::Face(itLS.Value());
+  for (auto S : theLastShape) {
+    const TopoDS_Face& FF = TopoDS::Face(S);
     for (ExpE.Init(FF,TopAbs_EDGE);ExpE.More();ExpE.Next()) {
       const TopoDS_Edge& EE = TopoDS::Edge(ExpE.Current());
       myTopEdges.push_back(EE);  
@@ -1088,17 +1089,18 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
       for (ExpF.Init(myShape,TopAbs_FACE);ExpF.More();ExpF.Next()) {
 	Found = Standard_False;
 	const TopoDS_Face& FF = TopoDS::Face(ExpF.Current());	
-	for (itLS.Initialize(theLastShape);itLS.More();itLS.Next()) {
-	  const TopoDS_Face& TopFace = TopoDS::Face(itLS.Value());
+	for (auto TopShape : theLastShape) {
+	  const TopoDS_Face& TopFace = TopoDS::Face(TopShape);
 	  if (!FF.IsSame(TopFace)) {
 	    TopExp_Explorer ExpE;
 	    for (ExpE.Init(FF,TopAbs_EDGE);ExpE.More() && !Found ;ExpE.Next()) {
 	      const TopoDS_Edge& E1 = TopoDS::Edge(ExpE.Current());
 	      TopoDS_Vertex V1,V2;
 	      TopExp::Vertices (E1,V1,V2);
-	      TopTools_ListIteratorOfListOfShape it(myTopEdges);
-	      for (;it.More() && !Found ; it.Next()) {
-		TopoDS_Edge E2 = TopoDS::Edge(it.Value());
+#warning find
+	      for (auto TopEdge : myTopEdges) {
+		if (Found) break;
+		TopoDS_Edge E2 = TopoDS::Edge(TopEdge);
 		TopoDS_Vertex VT1,VT2;
 		TopExp::Vertices (E2,VT1,VT2);
 		
@@ -1119,9 +1121,8 @@ void BRepFeat_MakeDPrism::BossEdges (const Standard_Integer signature)
 	}
       }
     
-      TopTools_ListIteratorOfListOfShape it(myTopEdges);
-      for (;it.More() ; it.Next()) {
-	if (MapE.Contains(it.Value())) {MapE.Remove(it.Value()); }
+      for (auto S : myTopEdges) {
+	if (MapE.Contains(S)) {MapE.Remove(S); }
       }
       
       TopTools_MapIteratorOfMapOfShape itMap;

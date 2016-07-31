@@ -17,7 +17,6 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! Stores link between a shape <S> and a shape <NewS>

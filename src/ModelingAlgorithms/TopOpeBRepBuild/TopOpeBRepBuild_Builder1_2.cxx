@@ -175,9 +175,7 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
     Standard_Integer ic = cex.Index();
     TopTools_ListOfShape& LSE = ChangeNewEdges(ic);
     TopTools_ListOfShape corrLSE;
-    TopTools_ListIteratorOfListOfShape it(LSE);
-    for(; it.More(); it.Next())  {
-      const TopoDS_Shape& E = it.Value();
+    for (const TopoDS_Shape& E : LSE) {
       if(EdMap.Contains(E)) {
 	const TopoDS_Shape& newE = EdMap.FindFromKey(E);
 	corrLSE.push_back(newE);
@@ -186,7 +184,7 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
 	corrLSE.push_back(E);
     }
     LSE.clear();
-    LSE.Append(corrLSE);
+    LSE.insert(end(LSE), begin(corrLSE), end(corrLSE));
   }
 
 
@@ -203,9 +201,7 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
       TopAbs_State staspl = TopAbs_State(j); // 0 - IN, 1 - OUT, 2 - ON
       TopTools_ListOfShape& LSE = ChangeSplit(es,staspl);
       TopTools_ListOfShape corrLSE;
-      TopTools_ListIteratorOfListOfShape it(LSE); 
-      for(; it.More(); it.Next()) {
-	const TopoDS_Shape& E = it.Value();
+      for (const TopoDS_Shape& E : LSE) {
 	if(EdMap.Contains(E)) {
 	  const TopoDS_Shape& newE = EdMap.FindFromKey(E);
 	  corrLSE.push_back(newE);
@@ -214,7 +210,7 @@ Standard_Integer TopOpeBRepBuild_Builder1::CorrectResult2d(TopoDS_Shape& aResult
 	  corrLSE.push_back(E);
       }
       LSE.clear();
-      LSE.Append(corrLSE);
+      LSE.insert(end(LSE), begin(corrLSE), end(corrLSE));
     }
   }
   return 1;

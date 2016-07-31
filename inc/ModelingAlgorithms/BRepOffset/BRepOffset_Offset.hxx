@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Status.hxx>
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
@@ -22,7 +23,6 @@ class TopoDS_Face;
 class TopTools_DataMapOfShapeShape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

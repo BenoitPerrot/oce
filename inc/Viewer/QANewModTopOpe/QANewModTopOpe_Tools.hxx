@@ -15,8 +15,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_PBuilder.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopTools_IndexedDataMapOfShapeListOfShape;
 

@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Check.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_DataMapOfCheckStatus.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
@@ -22,7 +23,6 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_CheckStatus.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class TopOpeBRepDS_HDataStructure;
-class TopTools_ListOfShape;
 class TopOpeBRepDS_DataMapOfCheckStatus;
 
 

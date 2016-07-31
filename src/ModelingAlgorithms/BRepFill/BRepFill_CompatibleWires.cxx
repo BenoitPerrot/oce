@@ -382,10 +382,9 @@ static Standard_Boolean SearchRoot (const TopoDS_Vertex& V,
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape it;
   for (it.Initialize(Map); it.More(); it.Next()) {
     const TopTools_ListOfShape & List = it.Value();
-    TopTools_ListIteratorOfListOfShape itL;
     Standard_Boolean ilyest = Standard_False;
-    for (itL.Initialize(List); itL.More(); itL.Next()) {
-      TopoDS_Vertex Vcur = TopoDS::Vertex(itL.Value());
+    for (auto S : List) {
+      TopoDS_Vertex Vcur = TopoDS::Vertex(S);
       if (Vcur.IsSame(V)) {
 	ilyest = Standard_True;
       }
@@ -412,8 +411,8 @@ static Standard_Boolean SearchVertex (const TopTools_ListOfShape& List,
     TopoDS_Vertex Vi = TopoDS::Vertex(SeqV.Value(ii));
     TopTools_ListIteratorOfListOfShape itL;
     Standard_Boolean ilyest = Standard_False;
-    for (itL.Initialize(List); itL.More(); itL.Next()) {
-      TopoDS_Vertex Vcur = TopoDS::Vertex(itL.Value());
+    for (auto S : List) {
+      TopoDS_Vertex Vcur = TopoDS::Vertex(S);
       if (Vcur.IsSame(Vi)) {
 	ilyest = Standard_True;
       }
@@ -612,10 +611,9 @@ static void BuildConnectedEdges(const TopoDS_Wire& aWire,
 
   for (;;)
     {
-      TopTools_ListIteratorOfListOfShape itE( MapVE.FindFromKey(CurVertex) );
-      for (; itE.More(); itE.Next())
+      for (auto S : MapVE.FindFromKey(CurVertex))
 	{
-	  TopoDS_Edge anEdge = TopoDS::Edge(itE.Value());
+	  TopoDS_Edge anEdge = TopoDS::Edge(S);
 	  if (!anEdge.IsSame(CurEdge))
 	    {
 	      ConnectedEdges.push_back(anEdge);
@@ -1094,14 +1092,15 @@ void BRepFill_CompatibleWires::
     Standard_Real U2 = BRep_Tool::Parameter(VL,ECur);
     BRepAdaptor_Curve Curve(ECur);
     gp_Pnt PPs = Curve.Value(0.1*(U1+9*U2));
-    TopTools_ListIteratorOfListOfShape itF(MapVLV(VF)),itL(MapVLV(VL));
+    TopTools_ListIteratorOfListOfShape itF = begin(MapVLV(VF)), itL = begin(MapVLV(VL));
     Standard_Integer rang = ideb;
+#warning TODO: bound checking seems risky
     while (rang < i) {
-      itF.Next();
-      itL.Next();
+      ++itF;
+      ++itL;
       rang++;
     }
-    TopoDS_Vertex V1 = TopoDS::Vertex(itF.Value()), V2 = TopoDS::Vertex(itL.Value());
+    TopoDS_Vertex V1 = TopoDS::Vertex(*itF), V2 = TopoDS::Vertex(*itL);
     TopoDS_Edge Esol;
     Standard_Real scalmax=0.;
     TopoDS_Iterator itW( myWork(i) );
@@ -1153,8 +1152,9 @@ void BRepFill_CompatibleWires::
     TopTools_ListOfShape ConnectedEdges;
     BuildConnectedEdges( TopoDS::Wire(myWork(i)), Esol, V2, ConnectedEdges );
 
-    TopTools_ListIteratorOfListOfShape itCE(ConnectedEdges);
-    for(; anExp.More(), itCE.More(); anExp.Next(), itCE.Next())
+    TopTools_ListIteratorOfListOfShape itCE = begin(ConnectedEdges);
+#warning bug fixed:
+    for(; anExp.More() && itCE != end(ConnectedEdges); anExp.Next(), ++itCE)
       {
 	ECur = anExp.Current();
 	TopExp::Vertices(ECur,VF,VL,Standard_True);
@@ -1163,7 +1163,7 @@ void BRepFill_CompatibleWires::
 	Curve.Initialize(ECur);
 	PPs = Curve.Value(0.1*(U1+9*U2));
 	
-	TopoDS_Edge E = TopoDS::Edge(itCE.Value());
+	TopoDS_Edge E = TopoDS::Edge(*itCE);
 	TopoDS_Vertex VVF,VVL;
 	TopExp::Vertices(E,VVF,VVL,Standard_True);
 
@@ -1310,7 +1310,6 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 	  const TopoDS_Edge& Ecur = anExp1.Current();
 	  if (!Ecur.IsSame(TopoDS::Edge(anExp2.Current()))) {
 	    TopTools_ListOfShape LE;
-	    LE.clear();
 	    gp_Pnt P1,P2;
 	    const TopoDS_Vertex& V1 = anExp1.CurrentVertex();
 	    TopoDS_Vertex VF,VR;
@@ -1344,19 +1343,20 @@ void BRepFill_CompatibleWires::SameNumberByACR(const  Standard_Boolean  report)
 
 	    for (itmap.Initialize(myMap);itmap.More()&&(!found);itmap.Next()) {
 	      nblist++;
-	      TopTools_ListIteratorOfListOfShape itlist(itmap.Value());
+	      auto itl = itmap.Value();
+	      TopTools_ListIteratorOfListOfShape itlist = begin(itl);
 	      nbedge = 0;
-	      while (itlist.More()&&(!found)) {
+	      while (itlist != end(itl)&&(!found)) {
 		nbedge++;
-		TopoDS_Edge ECur = TopoDS::Edge(itlist.Value());
+		TopoDS_Edge ECur = TopoDS::Edge(*itlist);
 		    
 		if (Ecur.IsSame(ECur)) {
 		  Ancestor = TopoDS::Edge(itmap.Key());
 		  found = Standard_True;
-		  myMap(Ancestor).InsertBefore(LE,itlist);
+		  myMap(Ancestor).insert(itlist, begin(LE), end(LE));
 		  itlist = myMap(Ancestor).erase(itlist);
 		}
-		if (itlist.More()) itlist.Next();
+		if (itlist != end(itl)) ++itlist;
 	      }
 	      
 	    }

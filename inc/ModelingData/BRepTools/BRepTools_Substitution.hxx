@@ -14,7 +14,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! A tool to substitute subshapes by other shapes.

@@ -13,10 +13,10 @@
 #include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Wire;
 class TopoDS_Edge;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class BRepAlgo_BooleanOperation;
 class BRepAlgo_Fuse;
 class BRepAlgo_Cut;

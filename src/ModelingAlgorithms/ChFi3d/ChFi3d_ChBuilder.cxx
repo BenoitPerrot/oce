@@ -87,12 +87,11 @@ void SearchCommonFaces(const ChFiDS_Map& EFMap,
 		       TopoDS_Face& F2)
 {
   TopoDS_Face Fc;
-  TopTools_ListIteratorOfListOfShape It;
   
   F1.Nullify();
   F2.Nullify();
-  for ( It.Initialize(EFMap(E)); It.More(); It.Next() ) {
-    Fc = TopoDS::Face(It.Value());
+  for (auto S : EFMap(E)) {
+    Fc = TopoDS::Face(S);
     if ( F1.IsNull() )
       F1 = Fc;
     else if ( !Fc.IsSame(F1) ) {
@@ -2138,9 +2137,6 @@ void ChFi3d_ChBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
 void ChFi3d_ChBuilder::SetRegul()
 
 {
-  TopTools_ListIteratorOfListOfShape itc;
-  TopTools_ListIteratorOfListOfShape its1;
-  TopTools_ListIteratorOfListOfShape its2;
   BRepAdaptor_Surface S;
   BRepAdaptor_Curve2d PC;
   Standard_Real u,v,t;
@@ -2150,15 +2146,15 @@ void ChFi3d_ChBuilder::SetRegul()
   Standard_Real Seuil = M_PI/360.;
   Standard_Real Seuil2 = Seuil * Seuil;
   for (const ChFiDS_Regul& reg : myRegul) {
-    itc.Initialize(myCoup->NewEdges(reg.Curve()));
-    if(itc.More()){
-      TopoDS_Edge E = TopoDS::Edge(itc.Value());
+    auto &l = myCoup->NewEdges(reg.Curve());
+    if (!l.empty()){
+      TopoDS_Edge E = TopoDS::Edge(l.front());
       if(reg.IsSurface1() && reg.IsSurface2()){
-	its1.Initialize(myCoup->NewFaces(reg.S1()));
-	its2.Initialize(myCoup->NewFaces(reg.S2()));
-	if(its1.More() && its2.More()){
-	  TopoDS_Face F1 = TopoDS::Face(its1.Value());
-	  TopoDS_Face F2 = TopoDS::Face(its2.Value());
+	auto &l1 = myCoup->NewFaces(reg.S1());
+	auto &l2 = myCoup->NewFaces(reg.S2());
+	if (!l1.empty() && !l2.empty()){
+	  TopoDS_Face F1 = TopoDS::Face(l1.front());
+	  TopoDS_Face F2 = TopoDS::Face(l2.front());
 	  S.Initialize(F1,Standard_False);
 	  PC.Initialize(E,F1);
 	  t = 0.5*(PC.FirstParameter() + PC.LastParameter());

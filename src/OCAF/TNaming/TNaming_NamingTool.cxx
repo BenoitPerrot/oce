@@ -99,8 +99,7 @@ static void LastModif(      TNaming_NewShapeIterator& it,
       YaModif = Standard_True;
       TNaming_NewShapeIterator it2(it);
       if (!it2.More()) {
-	const TopoDS_Shape& S   = it.Shape();
-	MS.Add (S);  // Modified
+	MS.Add (it.Shape());  // Modified
       }
       else
 	LastModif(it2,it.Shape(),MS,Updated,Forbiden);

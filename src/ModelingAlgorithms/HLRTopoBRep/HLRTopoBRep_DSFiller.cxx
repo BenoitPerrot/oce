@@ -79,10 +79,9 @@ static Standard_Boolean IntLineRisesFromRegularity(const TopoDS_Edge& anIntLine,
 
   //find min param and max param
   Standard_Real MinPar = RealLast(), MaxPar = RealFirst();
-  TopTools_ListIteratorOfListOfShape itl(aList);
-  for (; itl.More(); itl.Next())
+  for (auto S : aList)
   {
-    const TopoDS_Edge& anOutLine = TopoDS::Edge(itl.Value());
+    const TopoDS_Edge& anOutLine = TopoDS::Edge(S);
     Standard_Real aFirst, aLast;
     BRep_Tool::Range(anOutLine, aFirst, aLast);
     if (aFirst < MinPar)
@@ -511,10 +510,10 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
   }
 
   //jgv: correction of internal outlines: remove those that rise from middle of boundary outlines
-  TopTools_ListIteratorOfListOfShape itl(IntL);
-  while (itl.More())
+  TopTools_ListIteratorOfListOfShape itl = begin(IntL);
+  while (itl != end(IntL))
   {
-    TopoDS_Edge anIntLine = TopoDS::Edge(itl.Value());
+    TopoDS_Edge anIntLine = TopoDS::Edge(*itl);
     Standard_Real found = Standard_False;
     TopExp_Explorer Explo(F, TopAbs_EDGE);
     for (; Explo.More(); Explo.Next())
@@ -527,10 +526,9 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
       Standard_Real fpar, lpar;
       Handle(Geom_Curve) RegCurve = BRep_Tool::Curve(anEdge, RegLoc, fpar, lpar);
       TopTools_ListOfShape thelist;
-      TopTools_ListIteratorOfListOfShape itoutl(OutL);
-      for (; itoutl.More(); itoutl.Next())
+      for (auto S : OutL)
       {
-        TopoDS_Edge anOutLine = TopoDS::Edge(itoutl.Value());
+        TopoDS_Edge anOutLine = TopoDS::Edge(S);
         TopLoc_Location aLoc;
         Standard_Real aFirst, aLast;
         Handle(Geom_Curve) aCurve = BRep_Tool::Curve(anOutLine, aLoc, aFirst, aLast);
@@ -550,7 +548,7 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
     }
     
     if (!found)
-      itl.Next();
+      ++itl;
   }
   ///////////////////////////////////////////////////
 }

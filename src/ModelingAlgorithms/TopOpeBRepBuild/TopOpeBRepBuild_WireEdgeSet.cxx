@@ -184,6 +184,7 @@ void  TopOpeBRepBuild_WireEdgeSet::InitNeighbours(const TopoDS_Shape& E)
 //function : FindNeighbours
 //purpose  : 
 //=======================================================================
+#warning TODO: remove as the same as baseclass
 void TopOpeBRepBuild_WireEdgeSet::FindNeighbours()
 {
   while (mySubShapeExplorer.More()) {
@@ -198,8 +199,9 @@ void TopOpeBRepBuild_WireEdgeSet::FindNeighbours()
     // given as InitNeighbours() argument (this edge has been stored 
     // in the field myCurrentShape).
 
-    myIncidentShapesIter.Initialize(l);
-    if (myIncidentShapesIter.More()) break;
+    myIncidentShapesIter = begin(l);
+    myIncidentShapesEnd = end(l);
+    if (myIncidentShapesIter != myIncidentShapesEnd) break;
     else mySubShapeExplorer.Next();
   }
 }
@@ -232,9 +234,8 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
     myCurrentShapeNeighbours.clear();
     
     Standard_Integer iapp = 0;
-    for (TopTools_ListIteratorOfListOfShape it(l); it.More(); it.Next()) {
+    for (const TopoDS_Shape& curn : l) {
       iapp++;
-      const TopoDS_Shape& curn = it.Value(); // current neighbour
       Standard_Boolean k = VertexConnectsEdgesClosing(V,E,curn);
       if (k) {
 	myCurrentShapeNeighbours.push_back(curn);
@@ -280,17 +281,17 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
       TopAbs_Orientation Eori = E.Orientation();
       if (Eori == TopAbs_REVERSED) d1E.Reverse();
 
-      TopTools_ListIteratorOfListOfShape lclo(myCurrentShapeNeighbours);
+      TopTools_ListIteratorOfListOfShape lclo = begin(myCurrentShapeNeighbours);
       Standard_Integer rang = 0;
-      while (lclo.More()) {
+      while (lclo != end(myCurrentShapeNeighbours)) {
 	rang++;
 
-	if ( ! IsClosed(lclo.Value()) ) {
-	  lclo.Next();
+	if ( ! IsClosed(*lclo) ) {
+	  ++lclo;
 	  continue;
 	}
 
-	const TopoDS_Edge& EE = TopoDS::Edge(lclo.Value());
+	const TopoDS_Edge& EE = TopoDS::Edge(*lclo);
 	gp_Vec2d d1EE; gp_Pnt2d pEE;
 	Standard_Real parEE = BRep_Tool::Parameter(V,EE);
 	Standard_Real fiEE,laEE,tolpc1;
@@ -332,7 +333,7 @@ const TopTools_ListOfShape & TopOpeBRepBuild_WireEdgeSet::MakeNeighboursList(con
 	
 	if ( t2 ) { //-- t1
 	  // c'est la bonne IsClosed,on ne garde qu'elle parmi les IsClosed 
-	  lclo.Next();
+	  ++lclo;
 	}
 	else {
 	  // on vire l'arete IsClosed 
@@ -458,8 +459,7 @@ Standard_Boolean TopOpeBRepBuild_WireEdgeSet::VertexConnectsEdgesClosing(const T
 Standard_Integer TopOpeBRepBuild_WireEdgeSet::NbClosingShapes(const TopTools_ListOfShape & L) const
 {
   Standard_Integer n = 0;
-  for (TopTools_ListIteratorOfListOfShape it(L); it.More(); it.Next()) {
-    const TopoDS_Shape& S = it.Value();
+  for (const TopoDS_Shape& S : L) {
     if ( IsClosed(S) ) n++;
   }
   return n;
@@ -695,8 +695,8 @@ TCollection_AsciiString TopOpeBRepBuild_WireEdgeSet::SName(const TopTools_ListOf
 {
   TCollection_AsciiString str;
 #ifdef DRAW
-  for (TopTools_ListIteratorOfListOfShape it(L);it.More();it.Next())
-    str=str+sb+SName(it.Value())+sa+" ";
+  for (auto s : L)
+    str=str+sb+SName(s)+sa+" ";
 #endif
   return str;
 }
@@ -717,8 +717,8 @@ TCollection_AsciiString TopOpeBRepBuild_WireEdgeSet::SNameori(const TopTools_Lis
 {
   TCollection_AsciiString str;
 #ifdef DRAW
-  for (TopTools_ListIteratorOfListOfShape it(L);it.More();it.Next())
-    str=str+sb+SNameori(it.Value())+sa+" ";
+  for (auto s : L)
+    str=str+sb+SNameori(s)+sa+" ";
 #endif
   return str;
 }

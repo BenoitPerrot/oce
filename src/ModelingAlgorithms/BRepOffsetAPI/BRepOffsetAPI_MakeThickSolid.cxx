@@ -49,9 +49,8 @@ BRepOffsetAPI_MakeThickSolid::BRepOffsetAPI_MakeThickSolid
  const GeomAbs_JoinType      Join)
 {
   myOffsetShape.Initialize (S,Offset,Tol,Mode,Intersection,SelfInter,Join);
-  TopTools_ListIteratorOfListOfShape it(ClosingFaces);
-  for (; it.More(); it.Next()) {
-    myOffsetShape.AddFace(TopoDS::Face(it.Value()));
+  for (auto s : ClosingFaces) {
+    myOffsetShape.AddFace(TopoDS::Face(s));
   }
   Build();
 }
@@ -87,10 +86,8 @@ const TopTools_ListOfShape& BRepOffsetAPI_MakeThickSolid::Modified (const TopoDS
       myOffsetShape.OffsetFacesFromShapes().LastImage (F, myGenerated); 
       // Les face du resultat sont orientees comme dans la piece initiale.
       //si offset a l interieur.
-      TopTools_ListIteratorOfListOfShape it(myGenerated);
-      for (; it.More(); it.Next())
-	it.Value().Reverse();
-   
+      for (auto &g : myGenerated)
+	g.Reverse();
     }
   }
   return myGenerated;

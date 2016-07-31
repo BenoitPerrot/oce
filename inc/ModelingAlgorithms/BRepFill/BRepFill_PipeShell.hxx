@@ -13,6 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Wire.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_SequenceOfSection.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -37,7 +38,6 @@ class gp_Ax2;
 class gp_Dir;
 class TopoDS_Shape;
 class TopoDS_Vertex;
-class TopTools_ListOfShape;
 class BRepFill_Section;
 class gp_Trsf;
 class BRepFill_Sweep;

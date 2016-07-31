@@ -179,15 +179,15 @@ Standard_Boolean TopOpeBRepTool_REGUW::SplitEds()
     const TopOpeBRepTool_connexity& co = mymapvEds(i);
     TopTools_ListOfShape loe; Standard_Integer ni = co.IsInternal(loe);
     if (ni == 0) continue;
-    TopTools_ListIteratorOfListOfShape ite(loe);
-    for (; ite.More(); ite.Next()) mehasIv.Add(ite.Value());
+    for (auto s : loe)
+      mehasIv.Add(s);
   }
 
   for (i = 1; i <= mehasIv.Extent(); i++) {
     const TopoDS_Edge& e = TopoDS::Edge(mehasIv.FindKey(i));
     TopTools_ListOfShape splits; Standard_Boolean issp = Standard_False;
     Standard_Boolean isdone = myEsplits.IsBound(e);
-    if (isdone) splits.Assign(myEsplits.Find(e));
+    if (isdone) splits = myEsplits.Find(e);
     else        issp = TopOpeBRepTool_TOOL::SplitE(e,splits);
     if (issp) hasnewsplits = Standard_True;
 #ifdef OCCT_DEBUG
@@ -196,9 +196,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::SplitEds()
     if (!(issp || isdone)) continue; //nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnyi
 
     // e gives splits = {esp has vertices {vv}}
-    TopTools_ListIteratorOfListOfShape ite(splits);
-    for (; ite.More(); ite.Next()){
-      const TopoDS_Shape& esp = ite.Value();
+    for (const TopoDS_Shape& esp : splits) {
 #ifdef OCCT_DEBUG
       if (trc) {cout<<" e"<<FUN_adds(esp);}
 #endif
@@ -442,16 +440,17 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
   Standard_Integer iv0e1 = (iStep == 1) ? REVERSED : FORWARD;
 
   // updating <mymapvmultiple> and myListVmultiple
-  TopTools_ListIteratorOfListOfShape itmu(myListVmultiple);
-  while (itmu.More()) {
-    const TopoDS_Shape& vmu = itmu.Value(); 
+  TopTools_ListIteratorOfListOfShape itmu = begin(myListVmultiple);
+  while (itmu != end(myListVmultiple)) {
+    const TopoDS_Shape& vmu = *itmu; 
     const TopOpeBRepTool_connexity& cmu = mymapvEds.FindFromKey(vmu);
     Standard_Boolean mult = cmu.IsMultiple();
     if (!mult) {
       itmu = myListVmultiple.erase(itmu);
       mymapvmultiple.Remove(vmu);
     }
-    else itmu.Next();
+    else
+      ++itmu;
   }
   
   // myv0 :
@@ -460,10 +459,11 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
     for (i = 1; i <= mymapvEds.Extent(); i++) {
       const TopoDS_Vertex& v = TopoDS::Vertex(mymapvEds.FindKey(i));
       const TopOpeBRepTool_connexity& co = mymapvEds(i);
-      TopTools_ListOfShape lea; Standard_Integer nea = co.Item(iv0e1,lea);
+      TopTools_ListOfShape le;
+      Standard_Integer nea = co.Item(iv0e1,le);
       TopTools_ListOfShape leb; Standard_Integer neb = co.Item(CLOSING,leb);
-      TopTools_ListOfShape le;  le.Append(lea); le.Append(leb); Standard_Integer ne = nea+neb;
-      if (ne != 0) {myv0 = v; break;}
+      le.splice(end(le), leb);
+      if (!le.empty()) {myv0 = v; break;}
     }
   }
   else {
@@ -472,17 +472,20 @@ Standard_Boolean TopOpeBRepTool_REGUW::InitBlock()
   if (myv0.IsNull()) return Standard_False;
   // myed : 
   const TopOpeBRepTool_connexity& co = mymapvEds.FindFromKey(myv0);
-   
-  TopTools_ListOfShape lea; Standard_Integer nea = co.Item(iv0e1,lea);
-  TopTools_ListOfShape leb; Standard_Integer neb = co.Item(CLOSING,leb);
-  TopTools_ListOfShape le;  le.Append(lea); le.Append(leb); Standard_Integer ne = nea+neb;
-  if (ne == 0) return Standard_False;
+
+  Standard_Integer nea;
+  TopTools_ListOfShape le;
+  {
+    nea = co.Item(iv0e1,le);
+    TopTools_ListOfShape leb; Standard_Integer neb = co.Item(CLOSING,leb);
+    le.splice(end(le), leb);
+  }
+  if (le.empty()) return Standard_False;
 
   if (nea > 0) myed = TopoDS::Edge(le.front());
   else {// <myv0> CLOSING in <myed>
-    TopTools_ListIteratorOfListOfShape itb(le);
-    for (; itb.More(); itb.Next()){
-      const TopoDS_Edge& eb = TopoDS::Edge(itb.Value());
+    for (auto s : le) {
+      const TopoDS_Edge& eb = TopoDS::Edge(s);
       Standard_Boolean iscE = TopOpeBRepTool_TOOL::IsClosingE(myed,myCORRISO.S(),Fref()); 
       if (!iscE) {myed = eb; break;}
       Standard_Integer iov0 = TopOpeBRepTool_TOOL::OriinSorclosed(myv0,myed);
@@ -540,10 +543,10 @@ Standard_Boolean TopOpeBRepTool_REGUW::NearestE(const TopTools_ListOfShape& loe,
   Standard_Integer iv0e1 = (iStep == 1) ? REVERSED : FORWARD;
 
   // initializing 
-  TopTools_ListIteratorOfListOfShape ite(loe);
-  efound = TopoDS::Edge(ite.Value());  
-  if (ite.More()) ite.Next();
-  else            return Standard_True;
+  TopTools_ListOfShape::const_iterator ite = begin(loe);
+  efound = TopoDS::Edge(*ite);  
+  if (ite != end(loe)) ++ite;
+  else return Standard_True;
 
   TopOpeBRepTool_C2DF c2defound;Standard_Boolean isbfound = myCORRISO.UVRep(efound,c2defound);
   if (!isbfound) return Standard_False;
@@ -562,8 +565,8 @@ Standard_Boolean TopOpeBRepTool_REGUW::NearestE(const TopTools_ListOfShape& loe,
   //     le = {ei}
   //     iStep=1 : matterang2d(efound,ecur) = min(ei,ecur)
   //     iStep=2 : oppomatterang2d(efound,ecur) = min(ei,ecur)
-  for (; ite.More(); ite.Next()){
-    const TopoDS_Edge& ei = TopoDS::Edge(ite.Value());
+  for (; ite != end(loe); ++ite) {
+    const TopoDS_Edge& ei = TopoDS::Edge(*ite);
     // for INTERNAL edge eI -> eF+eR
     if (ei.IsSame(myed)) continue; 
 
@@ -606,13 +609,13 @@ Standard_Boolean TopOpeBRepTool_REGUW::NextinBlock()
   const TopOpeBRepTool_connexity& co = mymapvEds.FindFromKey(myv);
 
   // {e} : e is connexed to <myv> && ori(<myv>,e)=iv0e1
-  TopTools_ListOfShape lea; Standard_Integer nea = co.Item(iv0e1,lea);
+  TopTools_ListOfShape le; Standard_Integer nea = co.Item(iv0e1,le);
   TopTools_ListOfShape leb; Standard_Integer neb = co.Item(CLOSING,leb);
-  TopTools_ListOfShape le; le.Append(lea); le.Append(leb); Standard_Integer ne = nea + neb;
+  le.splice(end(le), leb);
 
-  TopTools_ListIteratorOfListOfShape ite(le);
-  while (ite.More()) {
-    const TopoDS_Edge& e = TopoDS::Edge(ite.Value());
+  TopTools_ListIteratorOfListOfShape ite = begin(le);
+  while (ite != end(le)) {
+    const TopoDS_Edge& e = TopoDS::Edge(*ite);
 #ifdef OCCT_DEBUG
     if (trc) cout<<" e"<<FUN_adds(e);
 #endif
@@ -637,18 +640,16 @@ Standard_Boolean TopOpeBRepTool_REGUW::NextinBlock()
     if (!samep2d)
       ite = le.erase(ite); 
     else
-      ite.Next();
+      ++ite;
 #ifdef OCCT_DEBUG
     if (trc) {if (samep2d) cout<<" valid"<<endl;
     else         cout<<" not valid"<<endl;}
 #endif
-  }//ite(le)
-  ne = le.size();
-  if (ne == 0) {FUN_Raise(); return Standard_False;}
+  }
+  if (le.empty()) {FUN_Raise(); return Standard_False;}
   
   // myed :
-  ne = le.size();
-  if (ne == 1) myed = TopoDS::Edge(le.front());
+  if (le.size() == 1) myed = TopoDS::Edge(le.front());
   else {
     TopoDS_Edge efound; Standard_Boolean found = NearestE(le,efound);
     if (!found) {FUN_Raise(); return Standard_False;}
@@ -741,9 +742,8 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 
   Standard_Integer nite = 0; 
   Standard_Integer nE = myCORRISO.Eds().size();// recall myCORRISO.Init(myS);
-  TopTools_ListIteratorOfListOfShape ite(myCORRISO.Eds());
-  for (; ite.More(); ite.Next()) {
-    TopAbs_Orientation oe = ite.Value().Orientation();
+  for (auto S : myCORRISO.Eds()) {
+    TopAbs_Orientation oe = S.Orientation();
     if (M_INTERNAL(oe) || M_EXTERNAL(oe)) nE--;
   }
 
@@ -774,23 +774,22 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
 
       //* Adding INTERNAL/EXTERNAL edges to wires
       // ----------------------------------------      
-      TopTools_ListIteratorOfListOfShape ite1(loEcur);
-      for (; ite1.More(); ite1.Next()){
-	const TopoDS_Shape& e = ite1.Value();
+      for (const TopoDS_Shape& e : loEcur) {
 	TopExp_Explorer exv(e, TopAbs_VERTEX);
 	for (; exv.More(); exv.Next()){
 	  const TopoDS_Shape& v = exv.Current();
 	  TopOpeBRepTool_connexity& co = mymapvEds.ChangeFromKey(v);
 	  TopTools_ListOfShape& le = co.ChangeItem(INTERNAL);
-	  TopTools_ListIteratorOfListOfShape itte(le);
-	  while (itte.More()) {
-	    const TopoDS_Shape& ee = itte.Value();
+	  TopTools_ListIteratorOfListOfShape itte = begin(le);
+	  while (itte != end(le)) {
+	    const TopoDS_Shape& ee = *itte;
 	    TopAbs_Orientation oe = ee.Orientation();
 	    if (M_INTERNAL(oe) || M_EXTERNAL(oe)) {
 	      loEcur.push_back(ee);
 	      itte = le.erase(itte);
 	    }
-	    else                                  itte.Next();
+	    else
+	      ++itte;
 	  }//itte(le)
 	}//exv(e)
       }//ite(loEcur)
@@ -824,9 +823,10 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU(const Standard_Integer istep,
       loEcur.clear(); 
 
       if (FINI) {
-	Splits.Append(loW);
+	Splits.splice(end(Splits), loW);
 	return Standard_True;
       }
+#warning simplify control flow
       continue;
     } // wireisclosed            
     
@@ -872,9 +872,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU()
   // iStep = 2;
   if (loS.empty()) loS.push_back(S());// no new shape
 
-  TopTools_ListIteratorOfListOfShape it(loS);
-  for (; it.More(); it.Next()){
-    const TopoDS_Shape& Scur = it.Value();
+  for (const TopoDS_Shape& Scur : loS) {
     InitStep(Scur);
     MapS();
     Standard_Boolean toregu1 = !myListVmultiple.empty();
@@ -883,7 +881,7 @@ Standard_Boolean TopOpeBRepTool_REGUW::REGU()
     TopTools_ListOfShape sp; ok = REGU(2,Scur,sp);
     if (!ok) {FUN_Raise(); return Standard_False;}
     if (sp.empty()) sp.push_back(Scur);// no new shape
-    Splits.Append(sp);
+    Splits.splice(end(Splits), sp);
   }
   myOwNw.Bind(S(),Splits);
   return Standard_True;

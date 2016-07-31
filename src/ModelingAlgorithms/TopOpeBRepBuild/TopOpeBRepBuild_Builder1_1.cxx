@@ -132,9 +132,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
   Standard_Integer i, nbC = myDataStructure -> DS().NbCurves();
   for(i = 1; i <= nbC; i++) {
     TopTools_ListOfShape& LSE = ChangeNewEdges(i);
-    TopTools_ListIteratorOfListOfShape it(LSE);
-    for(; it.More(); it.Next())  {
-      const TopoDS_Shape& E = it.Value();
+    for (const TopoDS_Shape& E : LSE) {
       TopoDS_Vertex Vf, Vl;
       TopExp::Vertices(TopoDS::Edge(E), Vf, Vl);
       theUsedVertexMap.Add(Vf);
@@ -146,14 +144,10 @@ void TopOpeBRepBuild_Builder1::Destroy()
   const TopOpeBRepDS_DataStructure& BDS = myDataStructure->DS();
   Standard_Integer n = BDS.NbSectionEdges();
   for (i = 1; i <= n; i++) { 
-    TopTools_ListIteratorOfListOfShape anIt;
     const TopoDS_Edge& E = TopoDS::Edge(BDS.SectionEdge(i));
     if(E.IsNull()) continue;
     
-    const TopTools_ListOfShape& SplitsON = Splits(E, TopAbs_ON);
-    anIt.Initialize (SplitsON);
-    for (; anIt.More(); anIt.Next()) {
-      TopoDS_Shape aNewEdge=anIt.Value();
+    for (TopoDS_Shape aNewEdge : Splits(E, TopAbs_ON)) {
       TopoDS_Vertex Vf, Vl;
       TopExp::Vertices(TopoDS::Edge(aNewEdge), Vf, Vl);
       theUsedVertexMap.Add(Vf);
@@ -161,10 +155,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     }
       
       // IN
-    const TopTools_ListOfShape& SplitsIN = Splits(E, TopAbs_IN);
-    anIt.Initialize (SplitsIN);
-    for (; anIt.More(); anIt.Next()) {
-      TopoDS_Shape aNewEdge=anIt.Value();
+    for (TopoDS_Shape aNewEdge : Splits(E, TopAbs_IN)) {
       TopoDS_Vertex Vf, Vl;
       TopExp::Vertices(TopoDS::Edge(aNewEdge), Vf, Vl);
       theUsedVertexMap.Add(Vf);
@@ -172,10 +163,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     }
       
     // OUT
-    const TopTools_ListOfShape& SplitsOUT = Splits(E, TopAbs_OUT);
-    anIt.Initialize (SplitsOUT);
-    for (; anIt.More(); anIt.Next()) {
-      TopoDS_Shape aNewEdge=anIt.Value();
+    for (TopoDS_Shape aNewEdge : Splits(E, TopAbs_OUT)) {
       TopoDS_Vertex Vf, Vl;
       TopExp::Vertices(TopoDS::Edge(aNewEdge), Vf, Vl);
       theUsedVertexMap.Add(Vf);
@@ -460,7 +448,6 @@ void TopOpeBRepBuild_Builder1::Destroy()
   if (!nE) return;
 
   TopOpeBRepDS_DataMapOfShapeState aSplEdgesState;
-  TopTools_ListIteratorOfListOfShape anIt;
   TopAbs_State aState;
  
   for (i=1; i<=nE; i++) {
@@ -472,20 +459,14 @@ void TopOpeBRepBuild_Builder1::Destroy()
 	  aMapOfShapeWithState.FindFromKey(anEdge);
 	if (aSWS.IsSplitted()) {
 
-	  const TopTools_ListOfShape& SplitsON=aSWS.Part(TopAbs_ON);
-	  anIt.Initialize (SplitsON);
-	  for (; anIt.More(); anIt.Next()) 
-	    aSplEdgesState.Bind(anIt.Value(), TopAbs_ON);
+	  for (auto S : aSWS.Part(TopAbs_ON)) 
+	    aSplEdgesState.Bind(S, TopAbs_ON);
 	  
-	  const TopTools_ListOfShape& SplitsOUT=aSWS.Part(TopAbs_OUT);
-	  anIt.Initialize (SplitsOUT);
-	  for (; anIt.More(); anIt.Next()) 
-	    aSplEdgesState.Bind(anIt.Value(), TopAbs_OUT);
+	  for (auto S : aSWS.Part(TopAbs_OUT)) 
+	    aSplEdgesState.Bind(S, TopAbs_OUT);
 	  
-	  const TopTools_ListOfShape& SplitsIN=aSWS.Part(TopAbs_IN);
-	  anIt.Initialize (SplitsIN);
-	  for (; anIt.More(); anIt.Next()) 
-	    aSplEdgesState.Bind(anIt.Value(), TopAbs_IN);
+	  for (auto S : aSWS.Part(TopAbs_IN)) 
+	    aSplEdgesState.Bind(S, TopAbs_IN);
 	  
 	}
       }
@@ -500,33 +481,24 @@ void TopOpeBRepBuild_Builder1::Destroy()
     Standard_Boolean IsSplitON = IsSplit(anEdge, TopAbs_ON);
     if(IsSplitON) {
       // ON
-      const TopTools_ListOfShape& SplitsON = Splits(anEdge, TopAbs_ON);
-      anIt.Initialize (SplitsON);
-      for (; anIt.More(); anIt.Next()) {
-	TopoDS_Shape aNewEdge=anIt.Value();
+      for (TopoDS_Shape aNewEdge : Splits(anEdge, TopAbs_ON)) {
 	aNewEdge.Orientation (anEdge.Orientation());
 	aShapeWithState.AddPart (aNewEdge, TopAbs_ON);
-	aSplEdgesState.Bind(anIt.Value(), TopAbs_ON);
+	aSplEdgesState.Bind(aNewEdge, TopAbs_ON);
       }
       
       // IN
-      const TopTools_ListOfShape& SplitsIN = Splits(anEdge, TopAbs_IN);
-      anIt.Initialize (SplitsIN);
-      for (; anIt.More(); anIt.Next()) {
-	TopoDS_Shape aNewEdge=anIt.Value();
+      for (TopoDS_Shape aNewEdge : Splits(anEdge, TopAbs_IN)) {
 	aNewEdge.Orientation (anEdge.Orientation());
 	aShapeWithState.AddPart (aNewEdge, TopAbs_IN);
-	aSplEdgesState.Bind(anIt.Value(), TopAbs_IN);
+	aSplEdgesState.Bind(aNewEdge, TopAbs_IN);
       }
       
       // OUT
-      const TopTools_ListOfShape& SplitsOUT = Splits(anEdge, TopAbs_OUT);
-      anIt.Initialize (SplitsOUT);
-      for (; anIt.More(); anIt.Next()) {
-	TopoDS_Shape aNewEdge=anIt.Value();
+      for (TopoDS_Shape aNewEdge : Splits(anEdge, TopAbs_OUT)) {
 	aNewEdge.Orientation (anEdge.Orientation());
 	aShapeWithState.AddPart (aNewEdge, TopAbs_OUT);
-	aSplEdgesState.Bind(anIt.Value(), TopAbs_OUT);
+	aSplEdgesState.Bind(aNewEdge, TopAbs_OUT);
       }
       
       aShapeWithState.SetIsSplitted(Standard_True);
@@ -622,9 +594,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     }
     else {
       // Usual case. The Edge was splitted onto several parts: 
-      TopTools_ListIteratorOfListOfShape aLIt(aLNew);
-      for (; aLIt.More(); aLIt.Next()) {
-	const TopoDS_Shape& aS = aLIt.Value();
+      for (const TopoDS_Shape& aS : aLNew) {
 	aState = aDataMapOfShapeState(aS);
 	////////////////////////////////////////////////////////////////////////////
 	// **  When aState==TopAbs_IN it is not evidence that it is realy so.
@@ -666,7 +636,7 @@ void TopOpeBRepBuild_Builder1::Destroy()
     if(!IsSplitON  && nON) {
       TopOpeBRepDS_ListOfShapeOn1State ONspl;
       TopTools_ListOfShape& lON = ONspl.ChangeListOnState();
-      lON.Assign(EspON);
+      lON = EspON;
       ONspl.Split(Standard_True);
       mySplitON.Bind(anEdge, ONspl);
       myDataStructure -> ChangeDS().AddSectionEdge(TopoDS::Edge(anEdge)); 

@@ -13,7 +13,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 
@@ -28,6 +27,7 @@ public:
   Standard_EXPORT TopOpeBRepDS_ShapeWithState();
   
   Standard_EXPORT  const  TopTools_ListOfShape& Part (const TopAbs_State aState)  const;
+  Standard_EXPORT  TopTools_ListOfShape& ChangePart (const TopAbs_State aState);
   
   Standard_EXPORT   void AddPart (const TopoDS_Shape& aShape, const TopAbs_State aState) ;
   

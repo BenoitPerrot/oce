@@ -174,7 +174,7 @@ void TopOpeBRepBuild_Builder::GSOBUMakeSolids
 
     TopTools_ListOfShape newSolidLOS;
     RegularizeSolid(SOF,newSolid,newSolidLOS);
-    LOSO.Append(newSolidLOS);
+    LOSO.insert(end(LOSO), begin(newSolidLOS), end(newSolidLOS));
 //    LOSO.Append(newSolid);
   }
 } // GSOBUMakeSolids

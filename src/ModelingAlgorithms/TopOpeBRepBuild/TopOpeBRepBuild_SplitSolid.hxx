@@ -92,16 +92,13 @@ void TopOpeBRepBuild_Builder::SplitSolid(const TopoDS_Shape& S1oriented,
 #endif
 
   STATIC_SOLIDINDEX = 1;
-  TopTools_ListIteratorOfListOfShape itLS1;
-  for (itLS1.Initialize(LS1); itLS1.More(); itLS1.Next()) {
-    TopoDS_Shape Scur = itLS1.Value();
+  for (TopoDS_Shape Scur : LS1) {
     FillSolid(Scur,ToBuild1,LS2,ToBuild2,SFS,RevOri1);
   }
   
   STATIC_SOLIDINDEX = 2;
   TopTools_ListIteratorOfListOfShape itLS2;
-  for (itLS2.Initialize(LS2); itLS2.More(); itLS2.Next()) {
-    TopoDS_Shape Scur = itLS2.Value();
+  for (TopoDS_Shape Scur : LS2) {
     FillSolid(Scur,ToBuild2,LS1,ToBuild1,SFS,RevOri2);
   }
   
@@ -111,9 +108,7 @@ void TopOpeBRepBuild_Builder::SplitSolid(const TopoDS_Shape& S1oriented,
     TopOpeBRepDS_SurfaceIterator SSurfaces = myDataStructure->SolidSurfaces(S1forward);
     for (; SSurfaces.More(); SSurfaces.Next()) {
       Standard_Integer iS = SSurfaces.Current();
-      const TopTools_ListOfShape& LnewF = NewFaces(iS);
-      for (TopTools_ListIteratorOfListOfShape Iti(LnewF); Iti.More(); Iti.Next()) {
-	TopoDS_Shape aFace = Iti.Value();
+      for (TopoDS_Shape aFace : NewFaces(iS)) {
 	TopAbs_Orientation ori = SSurfaces.Orientation(ToBuild1);
 	myBuildTool.Orientation(aFace,ori);
 	
@@ -145,8 +140,7 @@ void TopOpeBRepBuild_Builder::SplitSolid(const TopoDS_Shape& S1oriented,
   // connect list of new solids <SolidList> as solids built on LS1 solids
   // --------------------------------------------------------------------
 
-  for (itLS1.Initialize(LS1); itLS1.More(); itLS1.Next()) {
-    TopoDS_Shape Scur = itLS1.Value();
+  for (TopoDS_Shape Scur : LS1) {
     MarkSplit(Scur,ToBuild1);
     TopTools_ListOfShape& SL = ChangeSplit(Scur,ToBuild1);
     if ( ConnectTo1 ) SL = SolidList;
@@ -155,8 +149,7 @@ void TopOpeBRepBuild_Builder::SplitSolid(const TopoDS_Shape& S1oriented,
   
   // connect list of new solids <SolidList> as solids built on LS2 solids
   // --------------------------------------------------------------------
-  for (itLS2.Initialize(LS2); itLS2.More(); itLS2.Next()) {
-    TopoDS_Shape Scur = itLS2.Value();
+  for (TopoDS_Shape Scur : LS2) {
     MarkSplit(Scur,ToBuild2);
     TopTools_ListOfShape& SL = ChangeSplit(Scur,ToBuild2);
     if ( ConnectTo2 ) SL = SolidList;

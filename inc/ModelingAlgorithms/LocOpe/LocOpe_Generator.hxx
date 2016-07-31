@@ -13,13 +13,13 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/LocOpe/Handle_LocOpe_GeneratedShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class LocOpe_GeneratedShape;
 class StdFail_NotDone;
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Face;
 
 

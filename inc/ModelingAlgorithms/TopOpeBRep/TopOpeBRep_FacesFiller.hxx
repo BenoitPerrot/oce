@@ -38,7 +38,6 @@ class TopOpeBRep_PointClassifier;
 class TopOpeBRep_LineInter;
 class TopOpeBRep_VPointInter;
 class TopOpeBRep_VPointInterClassifier;
-class TopTools_ListOfShape;
 class TopOpeBRep_VPointInterIterator;
 class TopOpeBRepDS_Transition;
 class TopOpeBRepDS_Interference;

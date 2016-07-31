@@ -16,7 +16,6 @@
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 class TopoDS_Face;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeShape;
 
 

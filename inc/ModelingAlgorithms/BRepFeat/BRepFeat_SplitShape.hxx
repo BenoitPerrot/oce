@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/LocOpe/LocOpe_Spliter.hxx>
 #include <ModelingAlgorithms/LocOpe/Handle_LocOpe_WiresOnShape.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
@@ -23,7 +24,6 @@ class TopoDS_Wire;
 class TopoDS_Face;
 class TopoDS_Edge;
 class TopoDS_Compound;
-class TopTools_ListOfShape;
 
 
 //! One of the most significant aspects of BRepFeat functionality is the use of local

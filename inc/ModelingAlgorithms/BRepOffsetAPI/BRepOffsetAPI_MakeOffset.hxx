@@ -20,7 +20,6 @@
 class StdFail_NotDone;
 class TopoDS_Face;
 class TopoDS_Wire;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

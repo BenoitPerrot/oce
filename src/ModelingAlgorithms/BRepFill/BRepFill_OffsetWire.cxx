@@ -463,12 +463,16 @@ const TopTools_ListOfShape& BRepFill_OffsetWire::GeneratedShapes
             TopTools_ListOfShape L;
             myMap.Add(it.Value(),L);
           }
+#warning self-similarities, refactor
           if ( !it.Value().IsSame(it.Key())) {
-            myMap.ChangeFromKey(it.Value()).Append(myMap.ChangeFromKey(it.Key()));
+	    auto &lV = myMap.ChangeFromKey(it.Value());
+	    auto &lK = myMap.ChangeFromKey(it.Key());
+	    lV.insert(end(lV), begin(lK), end(lK));
             //myMap.UnBind(it.Key());
             TopoDS_Shape LastShape = myMap.FindKey(myMap.Extent());
             TopTools_ListOfShape LastList;
-            LastList.Append(myMap(myMap.Extent()));
+	    auto &lExtent = myMap(myMap.Extent());
+            LastList.insert(end(LastList), begin(lExtent), end(lExtent));
             myMap.RemoveLast();
             if (myMap.FindIndex(it.Key()) != 0)
               myMap.Substitute(myMap.FindIndex(it.Key()), LastShape, LastList);
@@ -480,11 +484,14 @@ const TopTools_ListOfShape& BRepFill_OffsetWire::GeneratedShapes
             myMap.Add(it.Value().Reversed(),L);
           }
           if ( !it.Value().IsSame(it.Key())) {
-            myMap.ChangeFromKey(it.Value().Reversed()).Append(myMap.ChangeFromKey(it.Key().Reversed()));
+	    auto &lVR = myMap.ChangeFromKey(it.Value().Reversed());
+	    auto &lKR = myMap.ChangeFromKey(it.Key().Reversed());
+	    lVR.insert(end(lVR), begin(lKR), end(lKR));
             //myMap.UnBind(it.Key().Reversed());
             TopoDS_Shape LastShape = myMap.FindKey(myMap.Extent());
             TopTools_ListOfShape LastList;
-            LastList.Append(myMap(myMap.Extent()));
+	    auto &lExtent = myMap(myMap.Extent());
+	    LastList.insert(end(LastList), begin(lExtent), end(lExtent));
             myMap.RemoveLast();
             if (myMap.FindIndex(it.Key().Reversed()) != 0)
               myMap.Substitute(myMap.FindIndex(it.Key().Reversed()), LastShape, LastList);
@@ -540,18 +547,16 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
       // Modification of myWorkSpine;
       //cout << "Modification of myWorkSpine : " << BadEdges.Extent() << endl;
       BRepTools_Substitution aSubst;
-      TopTools_ListIteratorOfListOfShape it(BadEdges);
       TopTools_ListOfShape aL;
       Standard_Real aDefl = .01 * Abs(Offset);
       TColStd_SequenceOfReal Parameters;
       TColgp_SequenceOfPnt Points;
 
-      for(; it.More(); it.Next()) {
+      for (const TopoDS_Shape& anE : BadEdges) {
         aL.clear();
         Parameters.Clear();
         Points.Clear();
-        const TopoDS_Shape& anE = it.Value();
-
+        
         TopoDS_Vertex Vf, Vl;
         TopExp::Vertices(TopoDS::Edge(anE), Vf, Vl);
 
@@ -590,10 +595,8 @@ void BRepFill_OffsetWire::Perform (const Standard_Real Offset,
         //Update myMapSpine
         if (myMapSpine.IsBound( anE ))
         {
-          TopTools_ListIteratorOfListOfShape newit( aL );
-          for (; newit.More(); newit.Next())
-          {
-            TopoDS_Edge NewEdge = TopoDS::Edge( newit.Value() );
+          for (auto S : aL) {
+            TopoDS_Edge NewEdge = TopoDS::Edge(S);
             myMapSpine.Bind( NewEdge, myMapSpine(anE) );
             TopoDS_Vertex NewV1, NewV2;
             EdgeVertices( NewEdge, NewV1, NewV2 );
@@ -1070,16 +1073,14 @@ void BRepFill_OffsetWire::PerformWithBiLo
       aSubst.Substitute( OldV, LV );
       for (j = 1; j <= myMap.Extent(); j++)
 	{
-	  TopTools_ListIteratorOfListOfShape itl(myMap(j));
-	  for (; itl.More(); itl.Next())
-	    {
-	      aSubst.Build(itl.Value());
-	      if (aSubst.IsCopied(itl.Value()))
+	  for (auto &Sj : myMap(j)) {
+	      aSubst.Build(Sj);
+	      if (aSubst.IsCopied(Sj))
 		{
-		  const TopTools_ListOfShape& listSh = aSubst.Copy(itl.Value());
-                  TopAbs_Orientation SaveOr = itl.Value().Orientation();
-		  itl.Value() = listSh.front();
-                  itl.Value().Orientation(SaveOr);
+		  const TopTools_ListOfShape& listSh = aSubst.Copy(Sj);
+                  TopAbs_Orientation SaveOr = Sj.Orientation();
+		  Sj = listSh.front();
+                  Sj.Orientation(SaveOr);
 		}
 	    }
 	}
@@ -1167,7 +1168,6 @@ void BRepFill_OffsetWire::PrepareSpine()
 {
   BRep_Builder      B;
   TopTools_ListOfShape Cuts;
-  TopTools_ListIteratorOfListOfShape IteCuts;
   TopoDS_Vertex V1,V2;
 
   myWorkSpine.Nullify();
@@ -1216,8 +1216,8 @@ void BRepFill_OffsetWire::PrepareSpine()
 	myMapSpine.Bind(E,E);
       }
       else {	
-	for (IteCuts.Initialize(Cuts); IteCuts.More(); IteCuts.Next()) {
-	  TopoDS_Edge NE = TopoDS::Edge(IteCuts.Value());
+	for (auto NS : Cuts) {
+	  TopoDS_Edge NE = TopoDS::Edge(NS);
 	  NE.Orientation(E.Orientation());
 	  B.Add(NW,NE);
 	  myMapSpine.Bind(NE,E);
@@ -1354,7 +1354,6 @@ void BRepFill_OffsetWire::MakeWires()
   //--------------------------------------------------------
   TopTools_SequenceOfShape TheEdges;
   TopTools_ListOfShape     TheWires;
-  TopTools_ListIteratorOfListOfShape                          itl;
   //BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape ite;  
   TopTools_IndexedDataMapOfShapeListOfShape                   MVE;
   //TopTools_DataMapIteratorOfDataMapOfShapeListOfShape         MVEit;
@@ -1362,8 +1361,8 @@ void BRepFill_OffsetWire::MakeWires()
   Standard_Integer i;
 
   for (i = 1; i <= myMap.Extent(); i++) {    
-    for (itl.Initialize(myMap(i)); itl.More(); itl.Next()) {
-      const TopoDS_Edge& E = TopoDS::Edge(itl.Value());
+    for (auto S : myMap(i)) {
+      const TopoDS_Edge& E = TopoDS::Edge(S);
       TopExp::Vertices (E,V1,V2);
       if (V1.IsSame(V2) && IsSmallClosedEdge(E, V1))
 	continue; //remove small closed edges
@@ -1430,33 +1429,33 @@ void BRepFill_OffsetWire::MakeWires()
 	End = Standard_True;
 	//MVE.UnBind(VF);
         TopoDS_Shape LastShape = MVE.FindKey(MVE.Extent());
-        TopTools_ListOfShape LastList;
-        LastList.Append(MVE(MVE.Extent()));
+        TopTools_ListOfShape LastList(MVE(MVE.Extent()));
         MVE.RemoveLast();
         if (MVE.FindIndex(VF) != 0)
           MVE.Substitute(MVE.FindIndex(VF), LastShape, LastList);
       }
 
       if (!End) {
-	if (MVE.FindFromKey(CV).size() > 2) {
+	auto &l = MVE.ChangeFromKey(CV);
+	if (l.size() > 2) {
 	  //cout <<"vertex on more that 2 edges in a face."<<endl;
 	}
-	for ( itl.Initialize(MVE.FindFromKey(CV)); itl.More(); itl.Next()) {
-	  if (itl.Value().IsSame(CE)) {
-	    itl = MVE.ChangeFromKey(CV).erase(itl);
+#warning remove_if
+	for (TopTools_ListIteratorOfListOfShape itl = begin(l); itl != end(l); ++itl) {
+	  if (itl->IsSame(CE)) {
+	    itl = l.erase(itl);
 	    break;
 	  }
 	}
-	if (!MVE.FindFromKey(CV).empty()) {
-	  CE = TopoDS::Edge(MVE.FindFromKey(CV).front());
+	if (!l.empty()) {
+	  CE = TopoDS::Edge(l.front());
 	  MVE.ChangeFromKey(CV).pop_front();
 	}
-	if (MVE.FindFromKey(CV).empty())
+	if (l.empty())
         {
           //MVE.UnBind(CV);
           TopoDS_Shape LastShape = MVE.FindKey(MVE.Extent());
-          TopTools_ListOfShape LastList;
-          LastList.Append(MVE(MVE.Extent()));
+          TopTools_ListOfShape LastList(MVE(MVE.Extent()));
           MVE.RemoveLast();
           if (MVE.FindIndex(CV) != 0)
             MVE.Substitute(MVE.FindIndex(CV), LastShape, LastList);
@@ -1479,9 +1478,8 @@ void BRepFill_OffsetWire::MakeWires()
   else {
     TopoDS_Compound R;
     B.MakeCompound(R);
-    TopTools_ListIteratorOfListOfShape it(TheWires);
-    for ( ; it.More(); it.Next()) {
-      B.Add(R, it.Value());
+    for (auto S : TheWires) {
+      B.Add(R, S);
     }
     myShape = R;
   }
@@ -1533,10 +1531,8 @@ void BRepFill_OffsetWire::FixHoles()
     TopTools_DataMapIteratorOfDataMapOfShapeListOfShape mapit( EEmap );
     for (; mapit.More(); mapit.Next())
     {
-      const TopTools_ListOfShape& LE = mapit.Value();
-      TopTools_ListIteratorOfListOfShape itl( LE );
-      for (; itl.More(); itl.Next())
-        BB.Remove( aWire, itl.Value() );
+      for (auto S : mapit.Value())
+        BB.Remove( aWire, S);
     }
     // Sorting
     if (aWire.Closed())
@@ -2319,11 +2315,10 @@ void TrimEdge (const TopoDS_Edge&              E,
 Standard_Boolean DoubleOrNotInside (const TopTools_ListOfShape& LV,
 				    const TopoDS_Vertex&        V)
 {  
+#warning find
   Standard_Boolean Vu = Standard_False;
-  TopTools_ListIteratorOfListOfShape it(LV);
-
-  for ( ; it.More(); it.Next()) {
-    if (V.IsSame(it.Value())) {
+  for (auto S : LV) {
+    if (V.IsSame(S)) {
       if  (Vu) return Standard_True;
       else       Vu = Standard_True;
     }

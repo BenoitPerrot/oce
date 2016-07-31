@@ -188,7 +188,6 @@ void TopOpeBRepBuild_Builder::Perform(const Handle(TopOpeBRepDS_HDataStructure)&
 void TopOpeBRepBuild_Builder::AddIntersectionEdges
 (TopoDS_Shape& aFace,const TopAbs_State ToBuild1,const Standard_Boolean RevOri1,TopOpeBRepBuild_ShapeSet& WES) const
 {
-  TopoDS_Shape anEdge;
   TopOpeBRepDS_CurveIterator FCurves = myDataStructure->FaceCurves(aFace);
   for (; FCurves.More(); FCurves.Next()) {
     Standard_Integer iC = FCurves.Current();
@@ -198,8 +197,7 @@ void TopOpeBRepBuild_Builder::AddIntersectionEdges
     if(tCU) {cout<<endl;myDataStructure->Curve(iC).Dump(cout,iC,NtCUV);}
 #endif
     const TopTools_ListOfShape& LnewE = NewEdges(iC);
-    for (TopTools_ListIteratorOfListOfShape Iti(LnewE); Iti.More(); Iti.Next()) {
-      anEdge = Iti.Value();
+    for (TopoDS_Shape anEdge : LnewE) {
       TopAbs_Orientation ori = FCurves.Orientation(ToBuild1);
       TopAbs_Orientation newori = Orient(ori,RevOri1);
 
@@ -450,8 +448,7 @@ TopAbs_State TopOpeBRepBuild_Builder::ShapePosition(const TopoDS_Shape& S, const
   if (tS == TopAbs_FACE) PLOS = &myEdgeAvoid;
   // NYI : idem with myFaceAvoid if (tS == TopAbs_SOLID)
 
-  for (TopTools_ListIteratorOfListOfShape Iti(LS); Iti.More(); Iti.Next()) {
-    const TopoDS_Shape& SLS = Iti.Value();
+  for (const TopoDS_Shape& SLS : LS) {
 #ifdef OCCT_DEBUG
 //    TopAbs_ShapeEnum tSLS = SLS.ShapeType();
 #endif
@@ -543,15 +540,14 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 
   while ( nl1 > 0 || nl2 > 0 )  {
 
-    TopTools_ListIteratorOfListOfShape it1(L1);
-    for (i=1 ; i<=nl1; i++) {
-      const TopoDS_Shape& S1 = it1.Value();
+    i = 1;
+    for (const TopoDS_Shape& S1 : L1) {
+      if (nl1 < i)
+	break;
 #ifdef OCCT_DEBUG
 //      Standard_Integer iS1 = myDataStructure->Shape(S1);  // DEB
 #endif
-      TopTools_ListIteratorOfListOfShape itsd(myDataStructure->SameDomain(S1));
-      for (; itsd.More(); itsd.Next() ) {
-	const TopoDS_Shape& S2 = itsd.Value();
+      for (const TopoDS_Shape& S2 : myDataStructure->SameDomain(S1)) {
 #ifdef OCCT_DEBUG
 //	Standard_Integer iS2 = myDataStructure->Shape(S2);// DEB
 #endif
@@ -561,19 +557,18 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 	  nl2++;
 	}
       }
-      it1.Next();
+      ++i;
     }
     nl1 = 0;
 
-    TopTools_ListIteratorOfListOfShape it2(L2);
-    for (i=1 ; i<=nl2; i++) {
-      const TopoDS_Shape& S2 = it2.Value();
+    i = 1;
+    for (const TopoDS_Shape& S2 : L2) {
+      if (nl2 < i)
+	break;
 #ifdef OCCT_DEBUG
 //      Standard_Integer iS2 = myDataStructure->Shape(S2);// DEB
 #endif
-      TopTools_ListIteratorOfListOfShape itsd(myDataStructure->SameDomain(S2));
-      for (; itsd.More(); itsd.Next() ) {
-	const TopoDS_Shape& S1 = itsd.Value();
+      for (const TopoDS_Shape& S1 : myDataStructure->SameDomain(S2)) {
 #ifdef OCCT_DEBUG
 //	Standard_Integer iS1 = myDataStructure->Shape(S1);// DEB
 #endif
@@ -583,7 +578,7 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 	  nl1++;
 	}
       }
-      it2.Next();
+      ++i;
     }
     nl2 = 0;
 
@@ -599,10 +594,9 @@ void TopOpeBRepBuild_Builder::FindSameDomain(TopTools_ListOfShape& L1,TopTools_L
 void TopOpeBRepBuild_Builder::FindSameDomainSameOrientation(TopTools_ListOfShape& L1, TopTools_ListOfShape& L2) const 
 {
   FindSameDomain(L1,L2);
-  TopTools_ListIteratorOfListOfShape it(L1);
-  if ( !it.More() ) return;
+  if (L1.empty()) return;
 
-  const TopoDS_Shape& sref = it.Value();
+  const TopoDS_Shape& sref = L1.front();
 #ifdef OCCT_DEBUG
 //  Standard_Integer  iref = myDataStructure->SameDomainReference(sref);
 #endif
@@ -610,15 +604,13 @@ void TopOpeBRepBuild_Builder::FindSameDomainSameOrientation(TopTools_ListOfShape
 
   TopTools_ListOfShape LL1,LL2;
 
-  for (it.Initialize(L1); it.More(); it.Next() ) {
-    const TopoDS_Shape& s = it.Value();
+  for (const TopoDS_Shape& s : L1) {
     TopOpeBRepDS_Config o = myDataStructure->SameDomainOrientation(s);
     if      ( o == oref && !Contains(s,LL1) ) LL1.push_back(s);
     else if ( o != oref && !Contains(s,LL2) ) LL2.push_back(s);
   }
 
-  for (it.Initialize(L2); it.More(); it.Next() ) {
-    const TopoDS_Shape& s = it.Value();
+  for (const TopoDS_Shape& s : L2) {
     TopOpeBRepDS_Config o = myDataStructure->SameDomainOrientation(s);
     if      ( o == oref && !Contains(s,LL1) ) LL1.push_back(s);
     else if ( o != oref && !Contains(s,LL2) ) LL2.push_back(s);
@@ -658,8 +650,7 @@ void TopOpeBRepBuild_Builder::ClearMaps()
 //=======================================================================
 void TopOpeBRepBuild_Builder::FindSameRank(const TopTools_ListOfShape& L1,const Standard_Integer rank,TopTools_ListOfShape& L2) const
 {
-  for (  TopTools_ListIteratorOfListOfShape it1(L1); it1.More(); it1.Next() ) {
-    const TopoDS_Shape& s = it1.Value();
+  for (const TopoDS_Shape& s : L1) {
     Standard_Integer r = ShapeRank(s);
     if ( r == rank && !Contains(s,L2) ) {
       L2.push_back(s);
@@ -697,8 +688,8 @@ Standard_Boolean TopOpeBRepBuild_Builder::IsShapeOf(const TopoDS_Shape& s,const 
 //=======================================================================
 Standard_Boolean TopOpeBRepBuild_Builder::Contains(const TopoDS_Shape& S,const TopTools_ListOfShape& L) 
 {
-  for (TopTools_ListIteratorOfListOfShape it(L); it.More(); it.Next() ) {
-    TopoDS_Shape& SL = it.Value();
+#warning TODO: C++ify and factor
+  for (auto SL : L) {
     Standard_Boolean issame = SL.IsSame(S);
     if ( issame ) return Standard_True;
   }

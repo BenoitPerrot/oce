@@ -180,8 +180,8 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	  
 	  do {
 	    MoreFound = Standard_False;
-	    for (it.Initialize(FacFuse); it.More(); it.Next()) {
-	      for (exp.Init(it.Value(),TopAbs_EDGE);
+	    for (it = begin(FacFuse); it != end(FacFuse); ++it) {
+	      for (exp.Init(*it,TopAbs_EDGE);
 		   exp.More(); exp.Next()) {
 		if (MapEd.Contains(exp.Current())) {
 		  FaceToFuse = Standard_True;
@@ -194,7 +194,7 @@ LocOpe_Pipe::LocOpe_Pipe(const TopoDS_Wire& Spine,
 	      }
 	    }
 	    if (MoreFound) {
-	      const TopoDS_Face& fac = TopoDS::Face(it.Value());
+	      const TopoDS_Face& fac = TopoDS::Face(*it);
 	      TopAbs_Orientation orrelat = Orientation(fac,Result);
 	      Handle(Geom_Surface) OtherP = BRep_Tool::Surface(fac);
 	      if (OtherP->DynamicType() == STANDARD_TYPE(Geom_RectangularTrimmedSurface)) {

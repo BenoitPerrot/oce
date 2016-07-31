@@ -420,12 +420,11 @@ static TopoDS_Shape ShapeWithType(const TopoDS_Shape     theShape,
   } else aShapes.push_back(theShape);
 
   TopoDS_Shape aResult;
-  TopTools_ListIteratorOfListOfShape aListIter(aShapes);
 
   if (aType < theType) {
-    Standard_Integer aCount;
-    for(aCount=0;aListIter.More();aListIter.Next()) {
-      TopExp_Explorer anExp(aListIter.Value(),theType);
+    Standard_Integer aCount = 0;
+    for (auto anS : aShapes) {
+      TopExp_Explorer anExp(anS,theType);
       if (anExp.More()) {
 	if (!anExp.Current().IsNull()) {
 	  aResult = anExp.Current();
@@ -447,52 +446,50 @@ static TopoDS_Shape ShapeWithType(const TopoDS_Shape     theShape,
       if (theType == TopAbs_WIRE) return aMakeWire.Wire();
       aShapes.clear(); // don't break: we can do something more of it
       aShapes.push_back(aMakeWire.Wire());
-      aListIter.Initialize(aShapes);
     }
     case TopAbs_WIRE: {// make faceS from wires (one per one)
       if (theType < TopAbs_SOLID) break;
       TopTools_ListOfShape aFaces;
-      for(;aListIter.More();aListIter.Next()) {
-	BRepLib_MakeFace aMakeFace(TopoDS::Wire(aListIter.Value()));
+      for (auto aShape : aShapes) {
+	BRepLib_MakeFace aMakeFace(TopoDS::Wire(aShape));
 	if (!aMakeFace.IsDone()) aFaces.push_back(aMakeFace.Face());
       }
       if (theType == TopAbs_FACE) {
 	if (aFaces.size() == 1) return aFaces.front();
 	return theShape;
       }
-      aShapes.Assign(aFaces); // don't break: we can do something more of it
-      aListIter.Initialize(aShapes);
+      aShapes = aFaces; // don't break: we can do something more of it
     }
     case TopAbs_FACE: {// make shell from faces
       if (theType < TopAbs_SOLID) break;
       BRep_Builder aShellBuilder;
       TopoDS_Shell aShell;
       aShellBuilder.MakeShell(aShell);
-      for(;aListIter.More();aListIter.Next()) aShellBuilder.Add(aShell,TopoDS::Face(aListIter.Value()));
+      for (auto aShape : aShapes)
+	aShellBuilder.Add(aShell,TopoDS::Face(aShape));
       aShell.Closed (BRep_Tool::IsClosed (aShell));
       if (theType == TopAbs_SHELL) return aShell;
       aShapes.clear(); // don't break: we can do something more of it
       aShapes.push_back(aShell);
-      aListIter.Initialize(aShapes);
     }
     case TopAbs_SHELL: {// make solids from shells (one per one)
       TopTools_ListOfShape aSolids;
-      for(;aListIter.More();aListIter.Next()) {
-	BRepLib_MakeSolid aMakeSolid(TopoDS::Shell(aListIter.Value()));
+      for (auto aShape : aShapes) {
+	BRepLib_MakeSolid aMakeSolid(TopoDS::Shell(aShape));
 	if (aMakeSolid.IsDone()) aSolids.push_back(aMakeSolid.Solid());
       }
       if (theType == TopAbs_SOLID) {
 	if (aSolids.size() == 1) return aSolids.front();
 	return theShape;
       }
-      aShapes.Assign(aSolids); // don't break: we can do something more of it
-      aListIter.Initialize(aShapes);
+      aShapes = aSolids; // don't break: we can do something more of it
     }
     case TopAbs_SOLID: {// make compsolid from solids
       BRep_Builder aCompBuilder;
       TopoDS_CompSolid aCompSolid;
       aCompBuilder.MakeCompSolid(aCompSolid);
-      for(;aListIter.More();aListIter.Next()) aCompBuilder.Add(aCompSolid,TopoDS::Solid(aListIter.Value()));
+      for (auto aShape : aShapes)
+	aCompBuilder.Add(aCompSolid,TopoDS::Solid(aShape));
       if (theType == TopAbs_COMPSOLID) return aCompSolid;
     }
     }
@@ -794,12 +791,13 @@ static Standard_Boolean Intersection (const TDF_Label&                  L,
     indxF = (Index & 0x0F000000) >> 24;
     Standard_Integer i(1);
     TopoDS_Shape aS;
-    TopTools_ListIteratorOfListOfShape itl(aListOfAnc);
-    for(;itl.More();itl.Next(),i++) {
+#warning TODO: c++ify
+    for (auto ancS : aListOfAnc) {
       if(indxF == i) {
-	aS = itl.Value();
+	aS = ancS;
 	break;
-      }      
+      }
+      i++;
     }
 #ifdef OCCT_DEBUG_INT
     cout <<"Kept: indxE = " << indxE  <<" maxENum = " << nbE << " indxW = " <<indxW << " nbW = " <<nbW<<endl;
@@ -1019,9 +1017,8 @@ static Standard_Boolean Union (const TDF_Label&                  L,
     }
 	    
 #endif
-    TopTools_ListIteratorOfListOfShape itl(aList);
-    for(;itl.More();itl.Next()) {
-      aCand = itl.Value(); 
+    for (auto anS : aList) {
+      aCand = anS;
 #ifdef OCCT_DEBUG_UNN 
       DbgTools_Write(aCand, "Cand.brep");
 #endif
@@ -1058,8 +1055,8 @@ static Standard_Boolean Union (const TDF_Label&                  L,
 	aCompoundBuilder.Add(aCompound,itM.Key());
       }
     else
-      for (TopTools_ListIteratorOfListOfShape itL(aListS); itL.More(); itL.Next()) {
-	aCompoundBuilder.Add(aCompound,itL.Value());
+      for (auto anS : aListS) {
+	aCompoundBuilder.Add(aCompound,anS);
       }
     TopoDS_Shape aShape = ShapeWithType(aCompound,ShapeType);
 #ifdef OCCT_DEBUG_UNN 
@@ -1109,12 +1106,11 @@ static TopoDS_Shape FindShape(const TNaming_DataMapOfShapeMapOfShape& DM)
   }
   if(List.empty()) return aResult;
   if(List.size() == 1) return List.front();
-  TopTools_ListIteratorOfListOfShape itl (List);
   TopoDS_Compound Compound;
   BRep_Builder B;
   B.MakeCompound(Compound);
-  for (; itl.More(); itl.Next()){ 
-    B.Add(Compound,itl.Value());
+  for (auto anS : List) { 
+    B.Add(Compound,anS);
   }
   return Compound; 
 }
@@ -1203,18 +1199,18 @@ static Standard_Boolean  Generated (const TDF_Label&                L,
   if(aVer == -1) { //initial 
     Standard_Integer i = 1;
     TNaming_Name& aName =  aNaming->ChangeName();
-    TopTools_ListIteratorOfListOfShape it(aList);
     if(!aSelection.IsNull()) {
-      for(;it.More();it.Next(),i++) {
-	if(it.Value().IsSame(aSelection)) {
-	  B.Select(it.Value(), it.Value());
+      for (auto anS : aList) {
+	if(anS.IsSame(aSelection)) {
+	  B.Select(anS, anS);
 	  aName.Index(i); // for debug - index of selection in the list
 	  break;
 	}
+	++i;
       }
     } else {// Selection == Null
-      for(;it.More();it.Next())
-	B.Select(it.Value(), it.Value()); 
+      for(auto anS : aList)
+	B.Select(anS, anS); 
     }
   }
   else { 
@@ -1226,10 +1222,9 @@ static Standard_Boolean  Generated (const TDF_Label&                L,
       TNaming_Name& aName =  aNaming->ChangeName();
       const TopAbs_ShapeEnum aType = aName.ShapeType();
       TopTools_ListOfShape aList2; 
-      TopTools_ListIteratorOfListOfShape it(aList);
-      for(;it.More();it.Next()) {
-	if(it.Value().ShapeType() == aType) //collect only the same type
-	  aList2.push_back(it.Value());
+      for (auto anS : aList) {
+	if(anS.ShapeType() == aType) //collect only the same type
+	  aList2.push_back(anS);
       }
       if(!aList2.size()) return Standard_False; // Empty
 
@@ -1260,8 +1255,7 @@ static Standard_Boolean  Generated (const TDF_Label&                L,
 	      aLM.push_back(v->Get());
 	  }
 	  if(aLM.size() == 1) {//lost 1
-	    TopTools_ListIteratorOfListOfShape itm(aLM);
-	    TopoDS_Shape aSM = itm.Value(); // Missed
+	    TopoDS_Shape aSM = aLM.front(); // Missed
 	    for (TopTools_MapIteratorOfMapOfShape itMS1(aMS); itMS1.More(); itMS1.Next()) {
 	      const TopoDS_Shape& aS = itMS1.Key();
 	      if(aSM.ShapeType() == aS.ShapeType()) {
@@ -1305,9 +1299,8 @@ static Standard_Boolean  Generated (const TDF_Label&                L,
 	    B.Select(aShape, aShape); 	
 	  else { 
 	    // put Compound, may be if possible processed later in Sel. Driver
-	    TopTools_ListIteratorOfListOfShape it1(aList2);
-	    for(;it1.More();it1.Next())
-	      B.Select(it1.Value(), it1.Value()); 
+	    for (auto anS2 : aList2)
+	      B.Select(anS2, anS2);
 	  }
 	}
     } else 
@@ -1316,9 +1309,8 @@ static Standard_Boolean  Generated (const TDF_Label&                L,
 	cout << "Generated ==> Shape is NOT found! Probably Compound will be built" <<endl;
 #endif
 
-	TopTools_ListIteratorOfListOfShape it2(aList2);
-	for(;it2.More();it2.Next())
-	  B.Select(it2.Value(), it2.Value()); 
+	for (auto anS2 : aList2)
+	  B.Select(anS2, anS2); 
       }
     }
   }    
@@ -1699,10 +1691,9 @@ static Standard_Boolean ORientation (const TDF_Label&                L,
 #warning temporary solution. To be optimized (+ has connection with Union name)
     Handle(TopTools_HArray2OfShape) Arr; // Arr(1,1) - selection; Arr(1,2) - Context shape
     Arr = new TopTools_HArray2OfShape (1, aSList.size(), 1, 2);
-    TopTools_ListIteratorOfListOfShape it1(aSList);
     Standard_Integer i = 1;
-    for(; it1.More(); it1.Next(), ++it, i++) {
-      Arr->SetValue(i, 1, it1.Value());
+    for (TopTools_ListIteratorOfListOfShape it1 = begin(aSList); it1 != end(aSList); ++it1, ++it, i++) {
+      Arr->SetValue(i, 1, *it1);
       MSC.Clear();
       TNaming_NamingTool::CurrentShape (Valid,Forbiden,(*it),MSC);
       if(MSC.Extent() == 1) {

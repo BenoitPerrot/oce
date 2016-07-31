@@ -15,6 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
@@ -29,7 +30,6 @@ class gp_Vec2d;
 class gp_Dir;
 class Geom2d_Curve;
 class gp_Pnt;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;
 
 

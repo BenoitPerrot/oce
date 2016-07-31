@@ -16,13 +16,13 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_HArray2OfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class TopTools_HArray2OfShape;
 class gp_Ax2;
 class TopoDS_Face;
 class TopoDS_Wire;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 

@@ -282,13 +282,14 @@ void TopOpeBRepBuild_HBuilder::InitSection(const Standard_Integer k)
 {
   if (PLE == NULL) PLE = new TopTools_ListOfShape();
   if (PITLE == NULL) PITLE = new TopTools_ListIteratorOfListOfShape();
-  PLE->clear(); PITLE->Initialize(*PLE);
+  PLE->clear();
+  (*PITLE) = begin(*PLE);
   InitExtendedSectionDS(k);
   if      (k == 1) myBuilder.SectionCurves(*PLE);
   else if (k == 2) myBuilder.SectionEdges(*PLE);
   else if (k == 3) myBuilder.Section(*PLE);
   else return;
-  PITLE->Initialize(*PLE);
+  (*PITLE) = begin(*PLE);
 }
 
 //=======================================================================
@@ -299,7 +300,7 @@ void TopOpeBRepBuild_HBuilder::InitSection(const Standard_Integer k)
 Standard_Boolean TopOpeBRepBuild_HBuilder::MoreSection() const
 {
   if (PITLE == NULL) return Standard_False;
-  Standard_Boolean b = PITLE->More();
+  Standard_Boolean b = (*PITLE) != end(*PLE);
   return b;
 }
 
@@ -311,7 +312,7 @@ Standard_Boolean TopOpeBRepBuild_HBuilder::MoreSection() const
 void TopOpeBRepBuild_HBuilder::NextSection()
 {
   if (PITLE == NULL) return;
-  if (PITLE->More()) PITLE->Next();
+  if ((*PITLE) != end(*PLE)) ++(*PITLE);
 }  
 
 //=======================================================================
@@ -322,8 +323,8 @@ void TopOpeBRepBuild_HBuilder::NextSection()
 const TopoDS_Shape& TopOpeBRepBuild_HBuilder::CurrentSection() const
 {
   if (PITLE == NULL) Standard_ProgramError::Raise("no more CurrentSection");
-  if (!PITLE->More()) Standard_ProgramError::Raise("no more CurrentSection");
-  return PITLE->Value();
+  if ((*PITLE) != end(*PLE)) Standard_ProgramError::Raise("no more CurrentSection");
+  return *(*PITLE);
 }
 
 //=======================================================================
@@ -360,16 +361,13 @@ void TopOpeBRepBuild_HBuilder::MakeEdgeAncestorMap()
     TopOpeBRepDS_ListOfShapeOn1State& losos1s = 
       (*(TopOpeBRepDS_ListOfShapeOn1State*)&it.Value());
     TopTools_ListOfShape& los = losos1s.ChangeListOnState();
-    its.Initialize(los);
     if(re == 1)
-      for(; its.More(); its.Next()) {
-	TopoDS_Shape& SecEdg = its.Value();
+      for (TopoDS_Shape& SecEdg : los) {
 	if(!mySectEdgeDSEdges1.IsBound(SecEdg))
 	  mySectEdgeDSEdges1.Bind(SecEdg, ei);
       }
     else if(re == 2)
-      for(; its.More(); its.Next()) {
-	TopoDS_Shape& SecEdg = its.Value();
+      for (TopoDS_Shape& SecEdg : los) {
 	if(!mySectEdgeDSEdges2.IsBound(SecEdg))
 	  mySectEdgeDSEdges2.Bind(SecEdg,ei);
       }
@@ -476,16 +474,12 @@ void TopOpeBRepBuild_HBuilder::MakeCurveAncestorMap()
   mySectEdgeDSCurve.Clear();
   myMakeCurveAncestorIsDone = Standard_True;
   const TopOpeBRepDS_DataStructure& DS = DataStructure()->DS();
-  TopTools_ListIteratorOfListOfShape itloe;
   TopOpeBRepDS_CurveExplorer cex(DS,Standard_True);
 //  Standard_Integer ic, icm;
   Standard_Integer ic;
   for (; cex.More(); cex.Next()) {
     ic = cex.Index();
-    const TopTools_ListOfShape& LOS = myBuilder.myNewEdges.Find(ic);
-    itloe.Initialize(LOS);
-    for(;itloe.More();itloe.Next()) {
-      TopoDS_Shape& E = *((TopoDS_Shape*)(&itloe.Value()));
+    for (TopoDS_Shape& E : myBuilder.myNewEdges.Find(ic)) {
       if(mySectEdgeDSCurve.IsBound(E)) {
 #ifdef OCCT_DEBUG
 	cout<<"BRepAlgo_DSAccess::MakeEdgeAncestorFromCurve : program error"<<endl;

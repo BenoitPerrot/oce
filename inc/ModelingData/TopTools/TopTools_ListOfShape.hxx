@@ -6,6 +6,13 @@
 #ifndef _TopTools_ListOfShape_HeaderFile
 #define _TopTools_ListOfShape_HeaderFile
 
+#include <list>
+
+#include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+
+typedef std::list<TopoDS_Shape> TopTools_ListOfShape;
+
+#if 0
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
@@ -125,6 +132,6 @@ private:
 #undef TCollection_List_hxx
 
 
-
+#endif
 
 #endif // _TopTools_ListOfShape_HeaderFile

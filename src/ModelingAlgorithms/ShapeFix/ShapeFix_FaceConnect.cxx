@@ -70,9 +70,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
       // Find list for the first face
       TopTools_ListOfShape& theFirstList = myConnected(aFirst);
       // Append second face to the first list
-      TopTools_ListIteratorOfListOfShape theIter;
-      for ( theIter.Initialize(theFirstList); theIter.More(); theIter.Next() )
-	if (theIter.Value().IsSame(aSecond)) return Standard_True;
+      for (auto S : theFirstList)
+	if (S.IsSame(aSecond)) return Standard_True;
       theFirstList.push_back(aSecond);
     }
     else {
@@ -195,12 +194,11 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
   if (!myOriFreeEdges.IsEmpty()) {
 
     // Allocate array of faces to be sewed
-    TopoDS_Shape theFirstFace, theSecondFace;
+    TopoDS_Shape theFirstFace;
     TopTools_Array1OfShape theFacesToSew(1,2);
     Standard_Integer theNumOfFacesToSew = 0;
     Standard_Boolean skip_pair = Standard_False;
 
-    TopTools_ListIteratorOfListOfShape theOriginalIter, theResultsIter;
     TopoDS_Shape theAuxE, theOrigE, theAuxF;
 
     BRep_Builder theBuilder;
@@ -222,10 +220,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	// Explore the list of connected faces
 	const TopTools_ListOfShape& theConnectedList = theConnectedIter.Value();
 	TopTools_ListIteratorOfListOfShape theConnectedListIter;
-	for ( theConnectedListIter.Initialize(theConnectedList);
-	      theConnectedListIter.More(); theConnectedListIter.Next() ) {
+	for (auto theSecondFace : theConnectedList) {
 	  // Process second face only if it is in the map of faces / free edges
-	  theSecondFace = theConnectedListIter.Value();
 	  if (myOriFreeEdges.IsBound(theSecondFace)) {
 
 	    // Place second face into the array
@@ -237,11 +233,12 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	    skip_pair = Standard_False;
 	    if (theProcessed.IsBound(theSecondFace)) {
 	      TopTools_ListOfShape& theProcCnxList = theProcessed(theSecondFace);
-	      TopTools_ListIteratorOfListOfShape theProcCnxListIter;
-	      for ( theProcCnxListIter.Initialize(theProcCnxList);
-		    theProcCnxListIter.More() && !skip_pair; theProcCnxListIter.Next() )
-		if (theFirstFace.IsSame(theProcCnxListIter.Value()))
+	      for (auto S : theProcCnxList) {
+		if (theFirstFace.IsSame(S))
 		  skip_pair = Standard_True;
+		if (skip_pair)
+		  break;
+	      }
 	    }
 	    if (!skip_pair) {
 	  
@@ -263,12 +260,10 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 		TopoDS_Shape theFaceToSew = theFacesToSew(i);
 		theAuxF = theFaceToSew.EmptyCopied();
 		// Fill empty face with free edges
-		for ( theOriginalIter.Initialize(myOriFreeEdges(theFaceToSew));
-		      theOriginalIter.More(); theOriginalIter.Next() ) {
-		  for ( theResultsIter.Initialize(myResFreeEdges(theOriginalIter.Value()));
-		        theResultsIter.More(); theResultsIter.Next() ) {
+		for (auto SO : myOriFreeEdges(theFaceToSew)) {
+		  for (auto SR : myResFreeEdges(SO)) {
 		    // Bind free edge to wire to find results later
-		    theAuxE = theResultsIter.Value();
+		    theAuxE = SR;
 		    TopoDS_Wire theAuxW;
 		    theBuilder.MakeWire(theAuxW);
 		    theBuilder.Add(theAuxW,theAuxE);
@@ -295,14 +290,13 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 
 		// Find modified edges for the faces
 		for (i=1; i<=theNumOfFacesToSew; i++) {
-		  for ( theOriginalIter.Initialize(myOriFreeEdges(theFacesToSew(i)));
-		        theOriginalIter.More(); theOriginalIter.Next() ) {
+		  for (auto SO : myOriFreeEdges(theFacesToSew(i))) {
 		    // Get original free edge
-		    theOrigE = theOriginalIter.Value();
+		    theOrigE = SO;
 		    TopTools_ListOfShape& theOldFreeList = myResFreeEdges(theOrigE);
-		    theResultsIter.Initialize(theOldFreeList);
-		    while ( theResultsIter.More() ) {
-		      theAuxE = theSewerWires(theResultsIter.Value());
+		    TopTools_ListIteratorOfListOfShape theResultsIter = begin(theOldFreeList);
+		    while (theResultsIter != end(theOldFreeList)) {
+		      theAuxE = theSewerWires(*theResultsIter);
 		      // Process modified edges
 		      if (theSewer.IsModified(theAuxE)) {
 			// Fill map of result edges
@@ -321,7 +315,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 			// Remove modified free edge from the list
 			theResultsIter = theOldFreeList.erase(theResultsIter);
 		      }
-		      else theResultsIter.Next();
+		      else
+			++theResultsIter;
 		    }
 		  }
 		}
@@ -383,9 +378,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
     for ( TopTools_DataMapIteratorOfDataMapOfShapeListOfShape theOEIter( myOriFreeEdges );
 	  theOEIter.More(); theOEIter.Next() ) {
       // Iterate on original free edges
-      for ( theOriginalIter.Initialize(theOEIter.Value());
-	    theOriginalIter.More(); theOriginalIter.Next() ) {
-	TopoDS_Edge theOldE = TopoDS::Edge(theOriginalIter.Value());
+      for (auto SO : theOEIter.Value()) {
+	TopoDS_Edge theOldE = TopoDS::Edge(SO);
 
 	// Prepare empty wire to add new edges for reshape
 	theBuilder.MakeWire(theNewW);
@@ -394,11 +388,9 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	Standard_Boolean emptywire = Standard_True;
 	for (Standard_Integer i = 1; i<=2; i++) {
 	  // Select list of free or shared edges
-	  if (i==1) theResultsIter.Initialize(myResFreeEdges(theOldE));
-	  else theResultsIter.Initialize(myResSharEdges(theOldE));
+	  for (auto SR : (i==1) ? myResFreeEdges(theOldE) : myResSharEdges(theOldE)) {
 	  // Iterate on new edges
-	  for ( ; theResultsIter.More(); theResultsIter.Next() ) {
-	    theAuxE = theResultsIter.Value();
+	    theAuxE = SR;
 	    if (!theAuxE.IsSame(theOldE)) {
 	      // Add new edge to the wire
 	      theBuilder.Add(theNewW,theAuxE);
@@ -430,10 +422,9 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	  if (!theOldV1.IsSame(theNewV1)) {
 	    if (theRepVertices.IsBound(theOldV1)) {
 	      TopTools_ListOfShape& theList1 = theRepVertices(theOldV1);
-	      TopTools_ListIteratorOfListOfShape theIter1;
  	      Standard_Boolean found = Standard_False;
-	      for ( theIter1.Initialize(theList1); theIter1.More(); theIter1.Next() )
-		if (theIter1.Value().IsSame(theNewV1)) { found = Standard_True; break; }
+	      for (auto X :theList1)
+		if (X.IsSame(theNewV1)) { found = Standard_True; break; }
  	      if (!found) theList1.push_back(theNewV1);
 	    }
 	    else {
@@ -445,10 +436,9 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	  if (!theOldV2.IsSame(theNewV2)) {
 	    if (theRepVertices.IsBound(theOldV2)) {
 	      TopTools_ListOfShape& theList2 = theRepVertices(theOldV2);
-	      TopTools_ListIteratorOfListOfShape theIter2;
 	      Standard_Boolean found = Standard_False;
-	      for ( theIter2.Initialize(theList2); theIter2.More(); theIter2.Next() )
-		if (theIter2.Value().IsSame(theNewV2)) { found = Standard_True; break; }
+	      for (auto X : theList2)
+		if (X.IsSame(theNewV2)) { found = Standard_True; break; }
 	      if (!found) theList2.push_back(theNewV2);
 	    }
 	    else {
@@ -558,9 +548,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	    theOld = theRV1Iter.Key();
 	    TopTools_ListOfShape theNewList;
 	    // Explore the list of new vertices
-	    TopTools_ListIteratorOfListOfShape theN1Iter;
-	    for ( theN1Iter.Initialize(theRV1Iter.Value()); theN1Iter.More(); theN1Iter.Next() ) {
-	      theNew = theN1Iter.Value();
+	    for (auto SN1 : theRV1Iter.Value()) {
+	      theNew = SN1;
 	      if (theOldVertices.IsBound(theNew)) {
 		// Vertex has a replacing vertex in the map
 		theRep = theOldVertices(theNew);
@@ -568,10 +557,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 		  // Vertex is not in current list
 		  theOldVertices.Bind(theRep,theOld);
 		  theNewList.push_back(theRep);
-		  TopTools_ListIteratorOfListOfShape theN3Iter;
-		  for ( theN3Iter.Initialize(theNewVertices(theRep));
-		        theN3Iter.More(); theN3Iter.Next() ) {
-		    theAux = theN3Iter.Value();
+		  for (auto SN3 : theNewVertices(theRep)) {
+		    theAux = SN3;
 		    theOldVertices(theAux) = theOld;
 		    theNewList.push_back(theAux);
 		  }
@@ -595,8 +582,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	    gp_Pnt theLBound, theRBound, thePosition;
 	    theLBound = theRBound = BRep_Tool::Pnt(theNewVert);
 	    TopTools_ListIteratorOfListOfShape theN2Iter;
-	    for ( theN2Iter.Initialize(theRV2Iter.Value()); theN2Iter.More(); theN2Iter.Next() ) {
-	      thePosition = BRep_Tool::Pnt(TopoDS::Vertex(theN2Iter.Value()));
+	    for (auto SN2 : theRV2Iter.Value()) {
+	      thePosition = BRep_Tool::Pnt(TopoDS::Vertex(SN2));
 	      Standard_Real val = thePosition.X();
 	      if ( val < theLBound.X() ) theLBound.SetX( val );
 	      else if ( val > theRBound.X() ) theRBound.SetX( val );
@@ -610,8 +597,8 @@ ShapeFix_FaceConnect::ShapeFix_FaceConnect() {}
 	    thePosition = gp_Pnt((theLBound.XYZ() + theRBound.XYZ())/2.);
 	    Standard_Real theTolerance = 0., curtoler;
 	    // Calculate the vertex tolerance
-	    for ( theN2Iter.Initialize(theRV2Iter.Value()); theN2Iter.More(); theN2Iter.Next() ) {
-	      theOldVert = TopoDS::Vertex(theN2Iter.Value());
+	    for (auto SN2 : theRV2Iter.Value()) {
+	      theOldVert = TopoDS::Vertex(SN2);
 	      curtoler = thePosition.Distance(BRep_Tool::Pnt(theOldVert)) +
 		         BRep_Tool::Tolerance(theOldVert);
 	      if (curtoler > theTolerance) theTolerance = curtoler;

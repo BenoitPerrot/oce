@@ -11,13 +11,13 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Solid.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/TopOpeBRepBuild_ShapeSet.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopoDS_Shape;
 class TopoDS_Solid;
 class TCollection_AsciiString;
-class TopTools_ListOfShape;
 
 
 //! a bound is a shell, a boundelement is a face.

@@ -15,6 +15,7 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_IndexedDataMapOfOrientedShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_BisectingLocus.hxx>
 #include <ModelingAlgorithms/BRepMAT2d/BRepMAT2d_LinkTopoBilo.hxx>
@@ -25,7 +26,6 @@ class TopoDS_Face;
 class BRepMAT2d_BisectingLocus;
 class BRepMAT2d_LinkTopoBilo;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class BRepFill_IndexedDataMapOfOrientedShapeListOfShape;
 class BRepFill_DataMapOfOrientedShapeListOfShape;
 class TopTools_SequenceOfShape;

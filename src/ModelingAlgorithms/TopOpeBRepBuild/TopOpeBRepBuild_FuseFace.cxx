@@ -152,15 +152,13 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
     return;
   }
     
-  TopTools_ListIteratorOfListOfShape it2,it3,it4;
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itt1,itt2,itt3;
   TopAbs_Orientation ori1;
 
   Standard_Boolean Ori3dReversed = Standard_False;
   Standard_Boolean Ori3dForward = Standard_False;
   TopTools_ListOfShape mylist;
-  for(it2.Initialize(myLRF); it2.More(); it2.Next()) {
-    TopoDS_Shape fac = it2.Value();
+  for (TopoDS_Shape fac : myLRF) {
     ori1 = fac.Orientation();
     if (ori1 == TopAbs_FORWARD) {
       Ori3dForward = Standard_True;
@@ -231,8 +229,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
     Standard_Integer n11 = LFac.size();
     if (n11 != 1) {
       TopTools_ListOfShape LWir;
-      for(it2.Initialize(LFac); it2.More(); it2.Next()) {
-	const TopoDS_Shape& fac1 = it2.Value();
+      for (const TopoDS_Shape& fac1 : LFac) {
 	
 	TopExp_Explorer exp;
 	for (exp.Init(fac1,TopAbs_WIRE); exp.More(); exp.Next()) {
@@ -264,8 +261,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	if (n22 != 1) {	
 //    boucle sur 1 liste des wires avec edges communes.
 	  TopTools_ListOfShape LEdg;
-	  for(it3.Initialize(LWir1); it3.More(); it3.Next()) {
-	    const TopoDS_Shape& wir1 = it3.Value();
+	  for (const TopoDS_Shape& wir1 : LWir1) {
 	    
 	    TopExp_Explorer exp;
 	    for (exp.Init(wir1,TopAbs_EDGE); exp.More(); exp.Next()) {
@@ -297,8 +293,7 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	    Standard_Boolean OriForward = Standard_False;
 	    Standard_Boolean OriInternal = Standard_False;
 	    Standard_Boolean OriExternal = Standard_False;
-	    for(it4.Initialize(LEdg1); it4.More(); it4.Next()) {
-	      const TopoDS_Shape& edg1 = it4.Value();
+	    for (const TopoDS_Shape& edg1 : LEdg1) {
 	      ori1 = edg1.Orientation();
 	      if (ori1 == TopAbs_REVERSED) {
 		if (OriReversed) {
@@ -406,13 +401,12 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
 	    }
 	    else {
 	      TopTools_ListOfShape ListEdge;
-	      for(it3.Initialize(myWireLE); it3.More(); it3.Next()) {
-		const TopoDS_Shape& edg2 = it3.Value();
+	      for (const TopoDS_Shape& edg2 : myWireLE) {
 		if (M.Add(edg2)) {
 		  ListEdge.push_back(edg2);
 		}
 	      }
-	      myWireLE.Assign(ListEdge);
+	      myWireLE = ListEdge;
 	      number1 = myWireLE.size();
 	    } // nb
 	  } // number
@@ -431,31 +425,31 @@ void TopOpeBRepBuild_FuseFace::PerformFace()
       }
       BRepLib_MakeFace MF(S, Precision::Confusion());  
 
-      for(it2.Initialize(myFaceLW); it2.More(); it2.Next()) {
-	const TopoDS_Wire& wir1 = TopoDS::Wire(it2.Value());
+      for (auto SW : myFaceLW) {
+	const TopoDS_Wire& wir1 = TopoDS::Wire(SW);
 	MF.Add(wir1);
       }
 
 // Ajout des Edges Internes
 //                 Externes
 //                 Modifiees
-      for (it2.Initialize(myFaceLIE); it2.More(); it2.Next()) {
-	const TopoDS_Edge& edg1 = TopoDS::Edge(it2.Value());
+      for (auto SIE : myFaceLIE) {
+	const TopoDS_Edge& edg1 = TopoDS::Edge(SIE);
 	BRepLib_MakeWire MW(edg1);
 //      MW.Add(edg1);
 	const TopoDS_Wire& W = MW.Wire();
 	MF.Add(W);
       }
-      for (it2.Initialize(myFaceLEE); it2.More(); it2.Next()) {
-	const TopoDS_Edge& edg1 = TopoDS::Edge(it2.Value());
+      for (auto SEE : myFaceLEE) {
+	const TopoDS_Edge& edg1 = TopoDS::Edge(SEE);
 	BRepLib_MakeWire MW(edg1);
 //      MW.Add(edg1);
 	const TopoDS_Wire& W = MW.Wire();
 	MF.Add(W);
       }
       if (myInternal) {
-	for (it2.Initialize(myFaceLME); it2.More(); it2.Next()) {
-	  const TopoDS_Edge& edg1 = TopoDS::Edge(it2.Value());
+	for (auto SME : myFaceLME) {
+	  const TopoDS_Edge& edg1 = TopoDS::Edge(SME);
 	  BRepLib_MakeWire MW(edg1);
 //	  MW.Add(edg1);
 	  const TopoDS_Wire& W = MW.Wire();
@@ -515,15 +509,13 @@ void TopOpeBRepBuild_FuseFace::PerformEdge()
 #endif
   TopTools_DataMapOfShapeListOfShape mapVerLEdg,mapTampon;
 
-  TopTools_ListIteratorOfListOfShape it1;
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itt1;
 //  TopAbs_Orientation ori,ori1;
   
 //Niveau 1
 //boucle sur les listes des faces de 1 face de LRF
     
-  for (it1.Initialize(myLFF); it1.More(); it1.Next()) {
-    const TopoDS_Shape& fac = it1.Value();
+  for (const TopoDS_Shape& fac : myLFF) {
       
     TopExp_Explorer expw;
     for (expw.Init(fac,TopAbs_WIRE); expw.More(); expw.Next()) {
@@ -561,10 +553,8 @@ void TopOpeBRepBuild_FuseFace::PerformEdge()
     const TopTools_ListOfShape& LmapEdg = mapTampon.Find(ver);
     Standard_Integer number = LmapEdg.size();
     if (number == 2){
-      it1.Initialize(LmapEdg);
-      const TopoDS_Edge& edg1 = TopoDS::Edge(it1.Value());  
-      it1.Next();
-      const TopoDS_Edge& edg2 = TopoDS::Edge(it1.Value());      
+      const TopoDS_Edge& edg1 = TopoDS::Edge(LmapEdg.front());  
+      const TopoDS_Edge& edg2 = TopoDS::Edge(*(++LmapEdg.begin()));      
       if (SameSupport(edg1,edg2)) {
 	mapVerLEdg.Bind(ver,LmapEdg);
       }
@@ -598,15 +588,13 @@ void TopOpeBRepBuild_FuseFace::ClearEdge()
   if (trc) cout << "TopOpeBRepBuild_FuseFace::ClearEdge()" << endl;
 #endif
 
-  TopTools_ListIteratorOfListOfShape it1,it2;
   TopAbs_Orientation ori;
   TopTools_ListOfShape myLFFnew;
   
 //Niveau 1
 //boucle sur les listes des faces de 1 face de LRF
     
-  for (it1.Initialize(myLFF); it1.More(); it1.Next()) {
-    const TopoDS_Shape& fac = it1.Value();
+  for (const TopoDS_Shape& fac : myLFF) {
 
     TopTools_ListOfShape myFaceLW;
     TopExp_Explorer expw;
@@ -665,14 +653,14 @@ void TopOpeBRepBuild_FuseFace::ClearEdge()
       myLFF = myLRF;
       return;
     }
-    it2.Initialize(myFaceLW);
-    const TopoDS_Wire& wir = TopoDS::Wire(it2.Value());
+    TopTools_ListIteratorOfListOfShape it2 = begin(myFaceLW);
+    const TopoDS_Wire& wir = TopoDS::Wire(*it2);
     const Standard_Boolean OnlyPlane = Standard_False;
     BRepLib_MakeFace MF(wir,OnlyPlane);
 
-    it2.Next();    
-    for( ; it2.More(); it2.Next()) {
-      const TopoDS_Wire& wir1 = TopoDS::Wire(it2.Value());
+    ++it2;
+    for (; it2 != end(myFaceLW); ++it2) {
+      const TopoDS_Wire& wir1 = TopoDS::Wire(*it2);
       MF.Add(wir1);
     }
     if (!MF.IsDone()) {
@@ -731,7 +719,6 @@ void TopOpeBRepBuild_FuseFace::ClearVertex()
 
 static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, TopTools_DataMapOfShapeListOfShape& mymapShLSh)
 {
-  TopTools_ListIteratorOfListOfShape it,it1,it2;
   TopTools_DataMapOfShapeListOfShape mapEdgLSh,mapShLSh;
   TopTools_ListOfShape LmapSh4;
   TopAbs_Orientation ori;
@@ -739,8 +726,7 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
 // construction du tableau C=locmapEdgLSh : egde1 - shap1 shap2 shap3
 // construction du tableau   locmapShLSh  : shap1 - shap1 shap2 shap3
   LmapSh4.clear();
-  for(it.Initialize(mylist); it.More(); it.Next()) {
-    const TopoDS_Shape& shap1 = it.Value();
+  for (const TopoDS_Shape& shap1 : mylist) {
     TopTools_ListOfShape LmapSh;
     LmapSh.push_back(shap1);
 
@@ -768,40 +754,38 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
 	  if (!Keep_Edge) {
 	    
 //          Recuperation premier shape de liste liee a edg1
-	    it1.Initialize(LmapEdg);
-	    const TopoDS_Shape& shap2 = it1.Value();
+	    const TopoDS_Shape& shap2 = LmapEdg.front();
 	    
 //          Controle si premier shape et shape courant sont deja lies
 	    TopTools_ListOfShape LmapSh1;
 	    LmapSh1 = mapShLSh.Find(shap2);
-	    for(it1.Initialize(LmapSh1); it1.More(); it1.Next()) {
-	      const TopoDS_Shape& shap = it1.Value();
+	    TopTools_ListIteratorOfListOfShape it1;
+	    for(it1 = begin(LmapSh1); it1 != end(LmapSh1); ++it1) {
+	      const TopoDS_Shape& shap = *it1;
 	      if (shap.IsSame(shap1)) {
 		break;
 	      }
 	    }
 //          Premier shape et Shape courant ne sont pas deja lies
-	    if (!it1.More()){
+	    if (it1 == end(LmapSh1)){
 	      const TopTools_ListOfShape& LmapSh11 = mapShLSh.Find(shap1);
 	      const TopTools_ListOfShape& LmapSh2 = mapShLSh.Find(shap2);
 	      TopTools_ListOfShape Lmap1;
 	      TopTools_ListOfShape Lmap2;
-	      Lmap1.Assign(LmapSh11);
-	      Lmap2.Assign(LmapSh2);
+	      Lmap1 = LmapSh11;
+	      Lmap2 = LmapSh2;
 	     
-	      for(it2.Initialize(Lmap1); it2.More(); it2.Next()) {
-		const TopoDS_Shape& shap = it2.Value();
+	      for (const TopoDS_Shape& shap : Lmap1) {
 		TopTools_ListOfShape& Lmap = mapShLSh.ChangeFind(shap);
 		TopTools_ListOfShape Lmap3;
-		Lmap3.Assign(Lmap2);
-		Lmap.Append(Lmap3);
+		Lmap3 = Lmap2;
+		Lmap.insert(end(Lmap), begin(Lmap3), end(Lmap3));
 	      }
-	      for(it2.Initialize(Lmap2); it2.More(); it2.Next()) {
-		const TopoDS_Shape& shap = it2.Value();
+	      for (const TopoDS_Shape& shap : Lmap2) {
 		TopTools_ListOfShape& Lmap = mapShLSh.ChangeFind(shap);
 		TopTools_ListOfShape Lmap3;
-		Lmap3.Assign(Lmap1);
-		Lmap.Append(Lmap3);
+		Lmap3 = Lmap1;
+		Lmap.insert(end(Lmap), begin(Lmap3), end(Lmap3));
 	      }
 	    }
 	  }
@@ -822,8 +806,7 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
 	const TopTools_ListOfShape& LmapSh = mapShLSh.Find(shap1);
 	mymapShLSh.Bind(shap1,LmapSh);
 	
-	for(it1.Initialize(LmapSh); it1.More(); it1.Next()) {
-	  const TopoDS_Shape& shap2 = it1.Value();
+	for (const TopoDS_Shape& shap2 : LmapSh) {
 	  M.Add(shap2);
 	}
       }
@@ -841,7 +824,6 @@ static void GroupShape(TopTools_ListOfShape& mylist,Standard_Boolean Keep_Edge, 
 
 static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools_DataMapOfShapeListOfShape& mymapEdgLEdg)
 {
-  TopTools_ListIteratorOfListOfShape it1,it2;
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itt;
   TopTools_DataMapOfShapeListOfShape mapEdgLEdg;
 
@@ -852,10 +834,8 @@ static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools
     TopTools_ListOfShape LmapEdg;
     LmapEdg = mymapVerLEdg.Find(ver1);
 
-    it1.Initialize(LmapEdg);
-    const TopoDS_Edge& edg1 = TopoDS::Edge(it1.Value());  
-    it1.Next();
-    const TopoDS_Edge& edg2 = TopoDS::Edge(it1.Value());
+    const TopoDS_Edge& edg1 = TopoDS::Edge(LmapEdg.front());
+    const TopoDS_Edge& edg2 = TopoDS::Edge(*(++(begin(LmapEdg))));
 
     Standard_Boolean Edge1Add,Edge2Add;
     TopoDS_Edge edgold,edgnew;
@@ -893,8 +873,7 @@ static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools
       TopTools_ListOfShape LmapEdg1;
       LmapEdg1 = mapEdgLEdg.Find(edgold);
    
-      for(it2.Initialize(LmapEdg1); it2.More(); it2.Next()) {
-	const TopoDS_Shape& edg22 = it2.Value();
+      for (const TopoDS_Shape& edg22 : LmapEdg1) {
 	TopTools_ListOfShape& LmapEdg2 = mapEdgLEdg.ChangeFind(edgnew);
 	LmapEdg2.push_back(edg22);
 	TopTools_ListOfShape& LmapEdg3 = mapEdgLEdg.ChangeFind(edg22);
@@ -913,8 +892,7 @@ static void GroupEdge(TopTools_DataMapOfShapeListOfShape& mymapVerLEdg, TopTools
       const TopTools_ListOfShape& LmapEdg = mapEdgLEdg.Find(edg1);
       mymapEdgLEdg.Bind(edg1,LmapEdg);
       
-      for(it1.Initialize(LmapEdg); it1.More(); it1.Next()) {
-	const TopoDS_Shape& edg2 = it1.Value();
+      for (const TopoDS_Shape& edg2 : LmapEdg) {
 	M.Add(edg2);
       }
     }
@@ -932,7 +910,6 @@ static void MakeEdge(TopTools_DataMapOfShapeListOfShape& mymapEdgLEdg)
   Standard_Boolean trc = TopOpeBRepBuild_GettraceFUFA();
 #endif
 
-  TopTools_ListIteratorOfListOfShape it;
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itt1;
   TopTools_DataMapIteratorOfDataMapOfShapeInteger itt2;
   TopTools_DataMapOfShapeListOfShape mapEdgLEdg;
@@ -947,8 +924,8 @@ static void MakeEdge(TopTools_DataMapOfShapeListOfShape& mymapEdgLEdg)
 
     Standard_Integer VertexExtrem;
     TopoDS_Vertex V1,V2;
-    for(it.Initialize(LmapEdg); it.More(); it.Next()) {
-      const TopoDS_Edge& edg2 = TopoDS::Edge(it.Value());
+    for (auto SmapEdg : LmapEdg) {
+      const TopoDS_Edge& edg2 = TopoDS::Edge(SmapEdg);
 
       TopExp_Explorer expv;
       for (expv.Init(edg2,TopAbs_VERTEX); expv.More(); expv.Next()) {
@@ -983,12 +960,10 @@ static void MakeEdge(TopTools_DataMapOfShapeListOfShape& mymapEdgLEdg)
 #endif
       return;
     }
-    it.Initialize(myEdgeLV);
-    const TopoDS_Vertex& ver1 = TopoDS::Vertex(it.Value()); 
+    const TopoDS_Vertex& ver1 = TopoDS::Vertex(myEdgeLV.front()); 
 //    TopoDS_Shape& verf = ver1.Oriented(TopAbs_FORWARD); 
     const TopoDS_Shape& verf = ver1.Oriented(TopAbs_FORWARD); 
-    it.Next();
-    const TopoDS_Vertex& ver2 = TopoDS::Vertex(it.Value());
+    const TopoDS_Vertex& ver2 = TopoDS::Vertex(*(++(begin(myEdgeLV))));
 //    TopoDS_Shape& verl = ver2.Oriented(TopAbs_FORWARD);
     const TopoDS_Shape& verl = ver2.Oriented(TopAbs_FORWARD);
 

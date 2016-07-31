@@ -657,9 +657,8 @@ void TopOpeBRepDS_DataStructure::AddShapeSameDomain(const TopoDS_Shape& S, const
 #endif
   Standard_Boolean append = Standard_True;
   {
-    TopTools_ListIteratorOfListOfShape it(ShapeSameDomain(S));
-    for (; it.More(); it.Next() ) {
-      const TopoDS_Shape& itS = it.Value();
+#warning TODO: C++ify
+    for (const TopoDS_Shape& itS : ShapeSameDomain(S)) {
       if ( itS.IsSame(SSD) ) {
 	append = Standard_False;
 	break;
@@ -681,14 +680,12 @@ void TopOpeBRepDS_DataStructure::RemoveShapeSameDomain(const TopoDS_Shape& S, co
 //  TopAbs_ShapeEnum t = SSD.ShapeType();
 #endif
   TopTools_ListOfShape& L = ChangeShapeSameDomain(S);
-  TopTools_ListIteratorOfListOfShape it(L);
-  while (it.More()) {
-    const TopoDS_Shape& itS = it.Value();
-    Standard_Boolean remove = itS.IsSame(SSD);
-    if (remove) 
+  TopTools_ListIteratorOfListOfShape it = begin(L);
+  while (it != end(L)) {
+    if ((*it).IsSame(SSD)) 
       it = L.erase(it);
     else
-      it.Next();
+      ++it;
   }
 }
 

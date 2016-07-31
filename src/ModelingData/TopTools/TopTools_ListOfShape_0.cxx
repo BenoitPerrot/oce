@@ -5,6 +5,8 @@
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
+#if 0
+
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -376,3 +378,4 @@ Item& TCollection_ListIterator::Value() const
 
 
 
+#endif

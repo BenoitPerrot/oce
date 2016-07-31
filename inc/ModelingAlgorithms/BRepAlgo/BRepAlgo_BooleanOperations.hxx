@@ -12,6 +12,7 @@
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_DSAccess.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -21,7 +22,6 @@
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_HDataStructure;
-class TopTools_ListOfShape;
 class TopOpeBRepBuild_HBuilder;
 class BRepAlgo_DSAccess;
 

@@ -197,10 +197,8 @@ BRepLib_ShapeModification BRepLib_MakeSolid::FaceStatus
   (const TopoDS_Face& F) const
 {
   BRepLib_ShapeModification myStatus = BRepLib_Preserved;
-  TopTools_ListIteratorOfListOfShape anIter(myDeletedFaces);
-
-  for(; anIter.More(); anIter.Next()) {
-    if(F.IsSame(anIter.Value())) {
+  for (auto S : myDeletedFaces) {
+    if(F.IsSame(S)) {
       myStatus = BRepLib_Deleted;
       break;
     }

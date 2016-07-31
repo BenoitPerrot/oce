@@ -116,7 +116,6 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
 
   TopTools_MapOfShape mapdone;
   TopTools_MapIteratorOfMapOfShape itm(myMap);
-  TopTools_ListIteratorOfListOfShape itl;
   TopExp_Explorer exp,exp2,exp3;
 
   for (; itm.More(); itm.Next()) {
@@ -130,16 +129,19 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
       if (theMapEF.FindFromKey(edg).size() != 2) {
 	Standard_ConstructionError::Raise();
       }
-      for (itl.Initialize(theMapEF.FindFromKey(edg)); itl.More(); itl.Next()) {
-	if (!myMap.Contains(itl.Value())) {
+#warning find
+      auto &l = theMapEF.FindFromKey(edg);
+      TopTools_ListIteratorOfListOfShape itl;
+      for (itl = begin(l); itl != end(l); ++itl) {
+	if (!myMap.Contains(*itl)) {
 	  break;
 	}
       }
 
-      if (itl.More()) {
+      if (itl != end(l)) {
 //	myGEdges.Append(edg);
 	myGEdges.push_back(edg.Reversed());
-	myGShape.Bind(edg,itl.Value()); // voir orientation, 
+	myGShape.Bind(edg, *itl); // voir orientation, 
 	                              //mais devrait etre bon
       }
 
@@ -147,8 +149,8 @@ void LocOpe_GluedShape::MapEdgeAndVertices()
     }
   }
 
-  for (itl.Initialize(myGEdges); itl.More(); itl.Next()) {
-    const TopoDS_Edge& edg = TopoDS::Edge(itl.Value());
+  for (auto s : myGEdges) {
+    const TopoDS_Edge& edg = TopoDS::Edge(s);
     for (exp.Init(edg,TopAbs_VERTEX); exp.More(); exp.Next()) {
       const TopoDS_Vertex& vtx = TopoDS::Vertex(exp.Current());
       if (myGShape.IsBound(vtx)) {

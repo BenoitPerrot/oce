@@ -13,6 +13,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Mathematics/Primitives/gp_Vec.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Mathematics/Primitives/gp_Pnt.hxx>
 class Standard_NoSuchObject;
@@ -20,7 +21,6 @@ class StdFail_NotDone;
 class TopoDS_Shape;
 class gp_Vec;
 class gp_Pnt;
-class TopTools_ListOfShape;
 
 
 //! Defines a linear form (using Prism from BRepSweep)

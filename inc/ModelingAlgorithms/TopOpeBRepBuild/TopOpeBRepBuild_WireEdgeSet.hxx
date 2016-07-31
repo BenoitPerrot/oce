@@ -15,11 +15,11 @@
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class gp_Pnt2d;
 class gp_Vec2d;
 class TopoDS_Edge;

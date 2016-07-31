@@ -492,15 +492,15 @@ Standard_Boolean BRepTools_NurbsConvertModification::NewCurve2d
     TopTools_ListIteratorOfListOfShape itled;
     TColStd_ListIteratorOfListOfTransient itlcu;
     
-    for (itled.Initialize(myled), itlcu.Initialize(mylcu);
-      itled.More(); // itlcu.More()
-      itled.Next(),itlcu.Next()) {
-      if (itled.Value().IsSame(E)) {
+    for (itled = begin(myled), itlcu.Initialize(mylcu);
+	 itled != end(myled); // itlcu.More()
+      ++itled,itlcu.Next()) {
+      if (itled->IsSame(E)) {
         // deja traitee
         break;
       }
     }
-    if (!itled.More()) { // on stocke l`edge et la curve2d
+    if (itled == end(myled)) { // on stocke l`edge et la curve2d
       Handle(Geom2d_Curve) C2dBis;
       Standard_Real f3d,l3d,f2dBis,l2dBis;
       C2d = new Geom2d_TrimmedCurve(C2d, f2d, l2d);

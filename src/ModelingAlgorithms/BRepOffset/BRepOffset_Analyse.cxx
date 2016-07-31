@@ -206,13 +206,14 @@ static void BuildAncestors (const TopoDS_Shape&                        S,
   for (Standard_Integer i = 1; i <= MA.Extent(); i++) {
     Map.Clear();
     TopTools_ListOfShape&              L = MA(i);
-    TopTools_ListIteratorOfListOfShape it(L);
-    while (it.More()) {
-      if (!Map.Add(it.Value())) {
+#warning remove_if
+    TopTools_ListIteratorOfListOfShape it = begin(L);
+    while (it != end(L)) {
+      if (!Map.Add(*it)) {
 	it = L.erase(it);
       }
       else {
-	it.Next();
+	++it;
       }
     }
   }
@@ -323,11 +324,9 @@ void BRepOffset_Analyse::Edges(const TopoDS_Vertex&  V,
 const 
 {
   LE.clear();
-  const TopTools_ListOfShape& L = Ancestors (V);
-  TopTools_ListIteratorOfListOfShape it(L);
   
-  for ( ;it.More(); it.Next()) {
-    const TopoDS_Edge& E = TopoDS::Edge(it.Value());
+  for (auto S : Ancestors (V)) {
+    const TopoDS_Edge& E = TopoDS::Edge(S);
     TopoDS_Vertex V1,V2;
     BRepOffset_Tool::EdgeVertices (E,V1,V2);
     if (V1.IsSame(V)) {
@@ -388,10 +387,8 @@ void BRepOffset_Analyse::TangentEdges(const TopoDS_Edge&    Edge  ,
 
   Edges.clear();
 
-  const TopTools_ListOfShape& Anc = Ancestors(Vertex);
-  TopTools_ListIteratorOfListOfShape it(Anc);
-  for ( ; it.More(); it.Next()) {
-    const TopoDS_Edge& CurE = TopoDS::Edge(it.Value());
+  for (auto S : Ancestors(Vertex)) {
+    const TopoDS_Edge& CurE = TopoDS::Edge(S);
     if ( CurE.IsSame(Edge)) continue;
     U   = BRep_Tool::Parameter(Vertex,CurE);
     C3d = BRepAdaptor_Curve(CurE);

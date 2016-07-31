@@ -1939,13 +1939,10 @@ static void FindNext(const TopoDS_Shape& aVert,
     return;
 
   const TopTools_ListOfShape& aledges = aMapVertexEdges.Find(anextVert);
-  TopTools_ListIteratorOfListOfShape liter(aledges);
   isFind = Standard_False;
-  TopoDS_Shape anextEdge;
-  for( ; liter.More() && !isFind; liter.Next())
+  for (auto anextEdge : aledges)
   {
-    if(!aMapEdges.Contains(liter.Value()) && !liter.Value().IsSame(ainitEdge)) {
-      anextEdge = liter.Value();
+    if(!aMapEdges.Contains(anextEdge) && !anextEdge.IsSame(ainitEdge)) {
       aWireData->Add(anextEdge);
       if(aMapSeemEdges.Contains(anextEdge))
         aWireData->Add(anextEdge.Reversed());
@@ -1953,6 +1950,8 @@ static void FindNext(const TopoDS_Shape& aVert,
       aMapEdges.Add(anextEdge);
       FindNext(anextVert,anextEdge,aMapVertices,aMapVertexEdges,aMapSmallEdges,aMapSeemEdges,aMapEdges,aWireData);
     }
+    if (isFind)
+      break;
   }
   return;
 }
@@ -1997,10 +1996,9 @@ Standard_Boolean ShapeFix_Face::FixLoopWire(TopTools_SequenceOfShape& aResWires)
   for( ; i <= aMapVertices.Extent(); i++) {
     TopoDS_Shape aVert = aMapVertices.FindKey(i);
     const TopTools_ListOfShape& aledges = aMapVertexEdges.Find(aVert);
-    TopTools_ListIteratorOfListOfShape liter(aledges);
-    for( ; liter.More(); liter.Next())
+    for (auto S : aledges)
     {
-      TopoDS_Edge Edge = TopoDS::Edge(liter.Value());
+      TopoDS_Edge Edge = TopoDS::Edge(S);
       if(aMapEdges.Contains(Edge))
         continue;
       
@@ -2403,18 +2401,17 @@ Standard_Boolean ShapeFix_Face::FixSplitFace(const TopTools_DataMapOfShapeListOf
       B.Add(tmpFace,wire);
       NbWiresNew++;
       const TopTools_ListOfShape& IntWires = MapWires.Find(wire);
-      TopTools_ListIteratorOfListOfShape liter(IntWires);
-      for( ; liter.More(); liter.Next()) {
-        TopoDS_Shape aShape = tmpFace.EmptyCopied();
-        TopoDS_Face aFace = TopoDS::Face ( aShape );
+      for (auto SIW : IntWires) {
+        TopoDS_Shape tmpShape = tmpFace.EmptyCopied();
+        TopoDS_Face aFace = TopoDS::Face (tmpShape);
         aFace.Orientation ( TopAbs_FORWARD );
-        B.Add (aFace,liter.Value());
+        B.Add (aFace,SIW);
         BRepTopAdaptor_FClass2d clas (aFace,::Precision::PConfusion());
         TopAbs_State staout = clas.PerformInfinitePoint();
         if (staout == TopAbs_IN) 
-          B.Add(tmpFace,liter.Value());
+          B.Add(tmpFace,SIW);
         else
-          B.Add(tmpFace,liter.Value().Reversed());                
+          B.Add(tmpFace,SIW.Reversed());                
         NbWiresNew++;
       }
       if(!myFwd) tmpFace.Orientation(TopAbs_REVERSED);

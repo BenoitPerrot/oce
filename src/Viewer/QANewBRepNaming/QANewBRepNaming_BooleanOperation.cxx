@@ -145,8 +145,7 @@ void  QANewBRepNaming_BooleanOperation::Load (BRepAlgo_BooleanOperation& MS) con
   // load the intersection edges
   TNaming_Builder Builder5(Intersections());
   Handle(TopOpeBRepBuild_HBuilder) build = MS.Builder();  
-  TopTools_ListIteratorOfListOfShape its = build->Section();
-  for (; its.More(); its.Next()) {
-    Builder5.Select(its.Value(),its.Value());
+  for (auto S : build->Section()) {
+    Builder5.Select(S,S);
   }  
 }

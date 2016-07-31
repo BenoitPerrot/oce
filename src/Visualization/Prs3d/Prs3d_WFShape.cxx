@@ -420,14 +420,13 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
     aGroup->AddPrimitiveArray (aSurfArray);
   }
 
-  TopTools_ListIteratorOfListOfShape anIt;
   if (theDrawer->WireDraw())
   {
     // Wire (without any neighbour)
     aGroup->SetPrimitivesAspect (theDrawer->WireAspect()->Aspect());
-    for (anIt.Initialize(aLWire); anIt.More(); anIt.Next())
+    for (auto sWire : aLWire)
     {
-      const TopoDS_Edge& anEdge = TopoDS::Edge (anIt.Value());
+      const TopoDS_Edge& anEdge = TopoDS::Edge (sWire);
       try
       {
         OCC_CATCH_SIGNALS
@@ -459,9 +458,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
   if (theDrawer->FreeBoundaryDraw())
   {
     // aFree boundaries;
-    for (anIt.Initialize (aLFree); anIt.More(); anIt.Next())
+    for (auto sFree : aLFree)
     {
-      const TopoDS_Edge& anEdge = TopoDS::Edge (anIt.Value());
+      const TopoDS_Edge& anEdge = TopoDS::Edge(sFree);
       if (!BRep_Tool::Degenerated (anEdge))
       {
         try
@@ -496,9 +495,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
   if (theDrawer->UnFreeBoundaryDraw())
   {
     // Unfree boundaries;
-    for (anIt.Initialize (aLUnFree); anIt.More(); anIt.Next())
+    for (auto sUnFree : aLUnFree)
     {
-      const TopoDS_Edge& anEdge = TopoDS::Edge (anIt.Value());
+      const TopoDS_Edge& anEdge = TopoDS::Edge(sUnFree);
       try
       {
         OCC_CATCH_SIGNALS

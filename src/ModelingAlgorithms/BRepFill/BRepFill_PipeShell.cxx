@@ -1275,18 +1275,19 @@ void BRepFill_PipeShell::BuildHistory(const BRepFill_Sweep& theSweep)
 
     if(!myGenMap.IsBound(myLocation->Edge(j)))
       myGenMap.Bind(myLocation->Edge(j), aListOfFace);
-    else
-      myGenMap.ChangeFind(myLocation->Edge(j)).Append(aListOfFace);
+    else {
+      auto &l = myGenMap.ChangeFind(myLocation->Edge(j));
+      l.insert(end(l), begin(aListOfFace), end(aListOfFace));
+    }
 
     // build history for free booundaries.begin
     if(!mySection->IsUClosed()) {
       TopoDS_Compound aFaceComp;
       BRep_Builder aB;
       aB.MakeCompound(aFaceComp);
-      TopTools_ListIteratorOfListOfShape anIt(aListOfFace);
 
-      for(; anIt.More(); anIt.Next()) {
-	aB.Add(aFaceComp, anIt.Value());
+      for (auto anS : aListOfFace) {
+	aB.Add(aFaceComp, anS);
       }
       TopTools_IndexedDataMapOfShapeListOfShape aMapEF;
       TopExp::MapShapesAndAncestors(aFaceComp, TopAbs_EDGE, TopAbs_FACE, aMapEF);
@@ -1378,11 +1379,11 @@ Standard_Boolean UpdateMap(const TopoDS_Shape&                 theKey,
     theMap.Bind(theKey, thelist);
   }
   TopTools_ListOfShape& aList = theMap.ChangeFind(theKey);
-  TopTools_ListIteratorOfListOfShape anIt(aList);
   Standard_Boolean found = Standard_False;
 
-  for(; anIt.More(); anIt.Next()) {
-    if(theValue.IsSame(anIt.Value())) {
+#warning C++ify
+  for (auto S : aList) {
+    if(theValue.IsSame(S)) {
       found = Standard_True;
       break;
     }

@@ -1771,12 +1771,10 @@ TopoDS_Shell STEPControl_ActorRead::closeIDEASShell(const TopoDS_Shell& shell,
     brepBuilder.Add(result, currentFace);
   }
 
-  TopTools_ListIteratorOfListOfShape itL(closingShells);
   TopTools_ListOfShape closingFaces;
 
   // Then add the closing faces
-  for ( ; itL.More(); itL.Next() ) {
-    TopoDS_Shape currentClosing = itL.Value();
+  for (TopoDS_Shape currentClosing : closingShells) {
     TopExp_Explorer faceExp(currentClosing, TopAbs_FACE);
 
     for ( ; faceExp.More(); faceExp.Next() ) {
@@ -1796,8 +1794,8 @@ TopoDS_Shell STEPControl_ActorRead::closeIDEASShell(const TopoDS_Shell& shell,
     return shell; // Cannot close this shell, skip it so...
 
   // Try to remove redundant Faces
-  for ( itL.Initialize(closingFaces); itL.More(); itL.Next() ) {
-    TopoDS_Face currentFace = TopoDS::Face( itL.Value() );
+  for (auto s : closingFaces) {
+    TopoDS_Face currentFace = TopoDS::Face(s);
     // Remove face to see if Shell is still closed
     brepBuilder.Remove(result, currentFace);
     BRepCheck_Shell subChecker( TopoDS::Shell(result) );

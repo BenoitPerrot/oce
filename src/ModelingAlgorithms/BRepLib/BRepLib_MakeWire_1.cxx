@@ -60,9 +60,8 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 
     TopExp_Explorer exv;
     TopTools_MapIteratorOfMapOfShape itMS;
-    TopTools_ListIteratorOfListOfShape itList(L);
-    for (;itList.More(); itList.Next()) {
-      const TopoDS_Edge& curEd=TopoDS::Edge(itList.Value());
+    for (auto S : L) {
+      const TopoDS_Edge& curEd=TopoDS::Edge(S);
       if (!curEd.IsNull()) {
 	rlist.clear();
 	nlist.clear();
@@ -103,10 +102,9 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 //	  TopoDS_Edge newEd=TopoDS::Edge(curEd.EmptyCopied());
 	  BB.Transfert(curEd, newEd);
 	  newEd.Closed(curEd.Closed());
-	  TopTools_ListIteratorOfListOfShape itV(nlist);
-	  for (; itV.More(); itV.Next()) {
-	    BB.Add(newEd, itV.Value());
-	    BB.Transfert(curEd, newEd, TopoDS::Vertex(rlist.front()), TopoDS::Vertex(itV.Value()));
+	  for (auto NS : nlist) {
+	    BB.Add(newEd, NS);
+	    BB.Transfert(curEd, newEd, TopoDS::Vertex(rlist.front()), TopoDS::Vertex(NS));
 	    rlist.pop_front();
 	  }
 	  toAdd.push_back(newEd);
@@ -121,9 +119,9 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
       BB.MakeCompound(comp);
       TopTools_MapIteratorOfMapOfOrientedShape itMOS;
       TopTools_MapOfOrientedShape theEdges;
-      for (itList.Initialize(toAdd); itList.More(); itList.Next()) {
-	BB.Add(comp, itList.Value());
-	theEdges.Add(itList.Value());
+      for (auto S : toAdd) {
+	BB.Add(comp, S);
+	theEdges.Add(S);
       }
       TopTools_IndexedDataMapOfShapeListOfShape lesMeres;
       TopExp::MapShapesAndAncestors(comp, TopAbs_VERTEX, TopAbs_EDGE, lesMeres);
@@ -136,23 +134,23 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 	if (!VL.IsNull() && lesMeres.Contains(VL)) {
 	  if (!VF.IsNull()) closedEdge=VF.IsSame(VL);
 	  usedVertex=Standard_True;
-	  for (itList.Initialize(lesMeres.FindFromKey(VL)); itList.More(); itList.Next()) {
-	    if (theEdges.Contains(itList.Value())) {
+	  for (auto S : lesMeres.FindFromKey(VL)) {
+	    if (theEdges.Contains(S)) {
 	      usedVertex=Standard_False;
-	      theEdges.Remove(itList.Value());
-	      TopExp::Vertices(TopoDS::Edge(itList.Value()), vf,vl);
+	      theEdges.Remove(S);
+	      TopExp::Vertices(TopoDS::Edge(S), vf,vl);
 	      if (vf.IsSame(VL)) {
-		BB.Add(myShape, itList.Value());
+		BB.Add(myShape, S);
 		myVertices.Add(vl);
 		VL=vl;
 	      }
 	      else {
 		if (closedEdge) {
-		  BB.Add(myShape, itList.Value());
+		  BB.Add(myShape, S);
 		  VF=vf;
 		}
 		else {
-		  BB.Add(myShape, itList.Value().Reversed());
+		  BB.Add(myShape, S.Reversed());
 		  vf.Reverse();
 		  VL=vf;
 		}
@@ -175,18 +173,18 @@ void  BRepLib_MakeWire::Add(const TopTools_ListOfShape& L)
 	}
 	else if (!VF.IsNull() && lesMeres.Contains(VF)) {
 	  usedVertex=Standard_True;
-	  for (itList.Initialize(lesMeres.FindFromKey(VF)); itList.More(); itList.Next()) {
-	    if (theEdges.Contains(itList.Value())) {
+	  for (auto S : lesMeres.FindFromKey(VF)) {
+	    if (theEdges.Contains(S)) {
 	      usedVertex=Standard_False;
-	      theEdges.Remove(itList.Value());
-	      TopExp::Vertices(TopoDS::Edge(itList.Value()), vf,vl);
+	      theEdges.Remove(S);
+	      TopExp::Vertices(TopoDS::Edge(S), vf,vl);
 	      if (vl.IsSame(VF)) {
-		BB.Add(myShape, itList.Value());
+		BB.Add(myShape, S);
 		myVertices.Add(vf);
 		VF=vf;
 	      }
 	      else {
-		BB.Add(myShape, itList.Value().Reversed());
+		BB.Add(myShape, S.Reversed());
 		vl.Reverse();
 		myVertices.Add(vl);
 		VF=vl;

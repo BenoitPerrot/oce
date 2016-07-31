@@ -67,8 +67,8 @@ void TopOpeBRepBuild_ShellToSolid::MakeSolids(const TopoDS_Solid& So,
   LSo.clear();
   
   TopOpeBRepBuild_ShellFaceSet sfs(So);
-  for (TopTools_ListIteratorOfListOfShape it(myLSh);it.More();it.Next())
-    sfs.AddShape(it.Value());
+  for (auto S : myLSh)
+    sfs.AddShape(S);
   
   Standard_Boolean ForceClass = Standard_True;
   TopOpeBRepBuild_SolidBuilder SB;  

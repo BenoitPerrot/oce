@@ -314,9 +314,8 @@ Standard_EXPORT void FUN_resolveFUNKNOWN
           if (n > 1) {
             // MSV: treat the case of multiple splits:
             //      select the split which lies on both faces
-            TopTools_ListIteratorOfListOfShape it(los);
-            for (; it.More(); it.Next()) {
-              const TopoDS_Edge& aE = TopoDS::Edge(it.Value());
+            for (auto s : los) {
+              const TopoDS_Edge& aE = TopoDS::Edge(s);
               Standard_Real f,l; FUN_tool_bounds(aE,f,l);
               const Standard_Real PAR_T = 0.456789;
               Standard_Real pmil = (1.-PAR_T)*f + PAR_T*l;

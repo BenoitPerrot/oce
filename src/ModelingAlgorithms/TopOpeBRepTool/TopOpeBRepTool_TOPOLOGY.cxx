@@ -649,9 +649,9 @@ Standard_EXPORT Standard_Boolean FUN_tool_Eshared(const TopoDS_Shape& v,const To
   ex.Init(F2,TopAbs_EDGE);  
   for (; ex.More(); ex.Next()){
     const TopoDS_Shape& e2 = ex.Current();
-    TopTools_ListIteratorOfListOfShape it1(e1s);
-    for (; it1.More(); it1.Next())
-      if (it1.Value().IsSame(e2)) {Eshared = e2; return Standard_True;}
+#warning C++ify find
+    for (auto &e1 : e1s)
+      if (e1.IsSame(e2)) {Eshared = e2; return Standard_True;}
   }
   return Standard_False;
 }
@@ -1064,8 +1064,7 @@ Standard_EXPORT Standard_Boolean FUN_tool_pcurveonF(const TopoDS_Face& fF,TopoDS
     TopoDS_Shape aLocalShape = fF.EmptyCopied();
     newf = TopoDS::Face(aLocalShape);
 //    newf = TopoDS::Face(fF.EmptyCopied()); 
-    for (TopTools_ListIteratorOfListOfShape itw(low); itw.More(); itw.Next()){
-      const TopoDS_Shape w = itw.Value();
+    for (const TopoDS_Shape w : low) {
       BB.Add(newf,w);
     }
     return Standard_True;
@@ -1133,9 +1132,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_curvesSO(const TopoDS_Edge& E1,const T
 // ----------------------------------------------------------------------
 Standard_EXPORT Standard_Boolean FUN_tool_findAncestor(const TopTools_ListOfShape& lF,const TopoDS_Edge& E,TopoDS_Face& Fanc)
 {
-  TopTools_ListIteratorOfListOfShape it(lF);
-  for (; it.More(); it.Next()){
-    const TopoDS_Face& F = TopoDS::Face(it.Value());
+  for (auto S : lF) {
+    const TopoDS_Face& F = TopoDS::Face(S);
     TopAbs_Orientation dummy; Standard_Boolean found = FUN_tool_orientEinF(E,F,dummy);
     if (found) {Fanc = F; return Standard_True;}
   }
@@ -1201,9 +1199,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_MakeWire(const TopTools_ListOfShape& l
   newW.Nullify();
   BRep_Builder BB; 
   BB.MakeWire(newW);
-  TopTools_ListIteratorOfListOfShape itloE(loE);
-  for (; itloE.More(); itloE.Next()) {
-    const TopoDS_Edge& E = TopoDS::Edge(itloE.Value());
+  for (auto S : loE) {
+    const TopoDS_Edge& E = TopoDS::Edge(S);
     BB.Add(newW,E);
   }
   return Standard_True;

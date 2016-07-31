@@ -12,13 +12,13 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_ShapeMapHasher;
 class TopTools_DataMapNodeOfDataMapOfShapeListOfShape;
 class TopTools_DataMapIteratorOfDataMapOfShapeListOfShape;

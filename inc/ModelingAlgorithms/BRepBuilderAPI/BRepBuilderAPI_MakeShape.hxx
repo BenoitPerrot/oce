@@ -16,7 +16,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class StdFail_NotDone;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! This    is  the  root     class for     all  shape

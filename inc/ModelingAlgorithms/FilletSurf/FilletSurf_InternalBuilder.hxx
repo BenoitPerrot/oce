@@ -26,9 +26,9 @@
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <Geometry/Geom2d/Handle_Geom2d_Curve.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusType.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Geometry/Geom/Handle_Geom_TrimmedCurve.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class ChFiDS_SequenceOfSurfData;
 class ChFiDS_HElSpine;
 class ChFiDS_Spine;

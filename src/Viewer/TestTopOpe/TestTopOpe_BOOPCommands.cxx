@@ -46,7 +46,10 @@ void CATLOSHA
 (TCollection_AsciiString& s,const TopTools_ListOfShape& L,const TopOpeBRepDS_DataStructure& BDS,const TCollection_AsciiString& a,const TCollection_AsciiString& aa,const TCollection_AsciiString& bb,const TCollection_AsciiString& b)
 { 
   if (!L.size()) return;
-  s=s+a;for(TopTools_ListIteratorOfListOfShape i(L);i.More();i.Next())::CATSHA(s,i.Value(),BDS,aa,bb);s=s+b;
+  s=s+a;
+  for (auto S : L)
+    ::CATSHA(s,S,BDS,aa,bb);
+  s=s+b;
 }
 
 Standard_Integer TOPOCHKCOMMANDS(TestTopOpe_BOOP& P,Standard_Integer na,const char**a);
@@ -184,10 +187,10 @@ Standard_Integer TOPOC(Draw_Interpretor& interpretor,Standard_Integer na,const c
     }
     if (!onedef) tabloe->Init(Standard_True);
     
-    TopTools_ListIteratorOfListOfShape itloe(loe);
-    for (Standard_Integer ie=1;itloe.More();itloe.Next(),ie++) {
+    TopTools_ListOfShape::const_iterator itloe = begin(loe);
+    for (Standard_Integer ie=1;itloe != end(loe); ++itloe,ie++) {
       if (!tabloe->Value(ie)) continue;
-      const TopoDS_Shape& es = itloe.Value();
+      const TopoDS_Shape& es = *itloe;
       TopoDS_Shape F1,F2; Standard_Integer IC; TopTools_ListOfShape LF1,LF2,LE1,LE2;
       Standard_Boolean eca = HB->EdgeCurveAncestors(es,F1,F2,IC);
       Standard_Boolean esa = HB->EdgeSectionAncestors(es,LF1,LF2,LE1,LE2);

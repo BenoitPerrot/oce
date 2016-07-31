@@ -75,8 +75,8 @@ Standard_Integer TopOpeBRepDS_TOOL::EShareG(const Handle(TopOpeBRepDS_HDataStruc
   if (dgE) {
     Standard_Boolean hsd = HDS->HasSameDomain(E);
     if (!hsd) return 0;
-    TopTools_ListIteratorOfListOfShape itsd(HDS->SameDomain(E));
-    for (; itsd.More(); itsd.Next()) lEsd.push_back(itsd.Value());
+    for (auto s : HDS->SameDomain(E))
+      lEsd.push_back(s);
     return lEsd.size();
   }
 
@@ -144,11 +144,10 @@ Standard_Boolean TopOpeBRepDS_TOOL::ShareG(const Handle(TopOpeBRepDS_HDataStruct
 
   Standard_Boolean hsd1 = HDS->HasSameDomain(s1);
   if (!hsd1) return Standard_False;
-  TopTools_ListIteratorOfListOfShape it1(HDS->SameDomain(s1));
-  for (; it1.More(); it1.Next()){
-    Standard_Boolean same = it1.Value().IsSame(s2);
-    if (!same) continue;
-    return Standard_True;
+#warning TODO: C++ify
+  for (auto is1 : HDS->SameDomain(s1)) {
+    if (is1.IsSame(s2))
+      return Standard_True;
   }
   return Standard_False;
 }
@@ -179,9 +178,7 @@ Standard_Boolean TopOpeBRepDS_TOOL::GetEsd(const Handle(TopOpeBRepDS_HDataStruct
 //    for (; itt.More(); itt.Next()) mesdS.Add(itt.Value());
   }
 
-  TopTools_ListIteratorOfListOfShape it(HDS->SameDomain(HDS->Shape(ie)));
-  for (; it.More(); it.Next()){
-    const TopoDS_Shape& esd = it.Value();
+  for (const TopoDS_Shape& esd : HDS->SameDomain(HDS->Shape(ie))) {
     Standard_Boolean isb = mesdS.Contains(esd);
     if (!isb) continue;
     iesd = HDS->Shape(esd);
@@ -213,8 +210,8 @@ Standard_Boolean TopOpeBRepDS_TOOL::ShareSplitON(const Handle(TopOpeBRepDS_HData
   Standard_Integer nsp1 = lsp1.size();
   if (nsp1 == 0) return Standard_False;
   TopTools_MapOfShape mesp1; // map of splits on of <s1>
-  TopTools_ListIteratorOfListOfShape it(lsp1);
-  for (; it.More(); it.Next()) mesp1.Add(it.Value());
+  for (auto s : lsp1)
+    mesp1.Add(s);
 
   const TopOpeBRepDS_ListOfShapeOn1State& los2 = MEspON.Find(s2);
   Standard_Boolean issp2 = los2.IsSplit();
@@ -223,9 +220,7 @@ Standard_Boolean TopOpeBRepDS_TOOL::ShareSplitON(const Handle(TopOpeBRepDS_HData
   Standard_Integer nsp2 = lsp2.size();
   if (nsp2 == 0) return Standard_False;  
 
-  it.Initialize(lsp2);
-  for (; it.More(); it.Next()) {
-    const TopoDS_Shape& esp = it.Value();
+  for (const TopoDS_Shape& esp : lsp2) {
     Standard_Boolean isb = mesp1.Contains(esp);
     if (!isb) continue;
     spON = esp; return Standard_True;

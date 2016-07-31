@@ -295,9 +295,7 @@ static void LoadSeamEdge (BRepPrimAPI_MakeRevol&        mkRevol,
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = mkRevol.Generated (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      TopoDS_Shape newShape = ShapesIterator.Value ();
+    for (TopoDS_Shape newShape : Shapes) {
       if(newShape.ShapeType() != TopAbs_FACE)
 	continue;
       if (!Root.IsSame (newShape)) {
@@ -425,12 +423,10 @@ void DNaming_RevolutionDriver::LoadNamingDS (const TDF_Label& theResultLabel,
     if(hasDangle) {
       if(!isBasisClosed) {
       //dangle edges
-	const TopTools_ListOfShape& Shapes = MS.Generated (Vfirst);
-	TopTools_ListIteratorOfListOfShape it (Shapes);
-	for (;it.More (); it.Next ()) {
-	  if(!BRep_Tool::Degenerated(TopoDS::Edge(it.Value()))) {
+	for (auto S : MS.Generated(Vfirst)) {
+	  if(!BRep_Tool::Degenerated(TopoDS::Edge(S))) {
 	    TNaming_Builder aBuilder(theResultLabel.NewChild());
-	    aBuilder.Generated (Vfirst, it.Value());
+	    aBuilder.Generated (Vfirst, S);
 	  }
 #ifdef OCCT_DEBUG
 	  else {
@@ -442,12 +438,10 @@ void DNaming_RevolutionDriver::LoadNamingDS (const TDF_Label& theResultLabel,
 	}
 
 
-	const TopTools_ListOfShape& Shapes2 = MS.Generated (Vlast);
-	it.Initialize(Shapes2);
-	for (;it.More (); it.Next ()) {
-	  if(!BRep_Tool::Degenerated(TopoDS::Edge(it.Value()))) {
+	for (auto S2 : MS.Generated (Vlast)) {
+	  if(!BRep_Tool::Degenerated(TopoDS::Edge(S2))) {
 	    TNaming_Builder aBuilder(theResultLabel.NewChild());
-	    aBuilder.Generated (Vlast, it.Value());
+	    aBuilder.Generated (Vlast, S2);
 	  }
 #ifdef OCCT_DEBUG
 	  else {
@@ -511,12 +505,10 @@ void DNaming_RevolutionDriver::LoadNamingDS (const TDF_Label& theResultLabel,
     if(hasDangle) {
       if(!isBasisClosed) {
       //dangle edges
-	const TopTools_ListOfShape& Shapes = MS.Generated (Vfirst);
-	TopTools_ListIteratorOfListOfShape it (Shapes);
-	for (;it.More (); it.Next ()) {
-	  if(!BRep_Tool::Degenerated(TopoDS::Edge(it.Value()))) {
+	for (auto S : MS.Generated(Vfirst)) {
+	  if(!BRep_Tool::Degenerated(TopoDS::Edge(S))) {
 	    TNaming_Builder aBuilder(theResultLabel.NewChild());
-	    aBuilder.Generated (Vfirst, it.Value());
+	    aBuilder.Generated (Vfirst, S);
 	  }
 #ifdef OCCT_DEBUG
 	  else {
@@ -527,12 +519,10 @@ void DNaming_RevolutionDriver::LoadNamingDS (const TDF_Label& theResultLabel,
 #endif
 	}
 
-	const TopTools_ListOfShape& Shapes2 = MS.Generated (Vlast);
-	it.Initialize(Shapes2);
-	for (;it.More (); it.Next ()) {
-	  if(!BRep_Tool::Degenerated(TopoDS::Edge(it.Value()))) {
+	for (auto S : MS.Generated(Vlast)) {
+	  if(!BRep_Tool::Degenerated(TopoDS::Edge(S))) {
 	    TNaming_Builder aBuilder(theResultLabel.NewChild());
-	    aBuilder.Generated (Vlast, it.Value());
+	    aBuilder.Generated (Vlast, S);
 	  }
 #ifdef OCCT_DEBUG
 	  else {

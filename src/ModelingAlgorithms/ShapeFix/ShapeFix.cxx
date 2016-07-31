@@ -386,9 +386,9 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
   
   TopTools_ListOfShape atempList;
   atempList= theLEdges;
-  TopTools_ListIteratorOfListOfShape alIter(atempList);
+  TopTools_ListIteratorOfListOfShape alIter = begin(atempList);
   
-  TopoDS_Edge aEdge1 = TopoDS::Edge(alIter.Value());
+  TopoDS_Edge aEdge1 = TopoDS::Edge(*alIter);
   TopoDS_Vertex aVert11,aVert12;
   TopExp::Vertices(aEdge1, aVert11,aVert12 );
   aMapEdges.Add(aEdge1);
@@ -407,13 +407,13 @@ static Standard_Boolean getNearestEdges(TopTools_ListOfShape& theLEdges,
       p12 = aCurve1->Value(aLast1);
   }
   else return Standard_False;
-  alIter.Next();
+  ++alIter;
   TopTools_SequenceOfShape aseqreject;
   TopTools_SequenceOfShape aseqsuit;
   
   Standard_Integer anumLoop =0;
-  for( ; alIter.More(); ) {
-    TopoDS_Edge aEdge = TopoDS::Edge(alIter.Value());
+  for( ; alIter != end(atempList); ) {
+    TopoDS_Edge aEdge = TopoDS::Edge(*alIter);
     if( aMapEdges.Contains(aEdge)) {
       alIter = atempList.erase(alIter);
       continue;

@@ -95,7 +95,6 @@ HLRBRep_ShapeToHLR::Load(const Handle(HLRTopoBRep_OutLiner)& S,
   Standard_Integer nbFace = FM.Extent();
 
   TopoDS_Vertex VF, VL;
-  TopTools_ListIteratorOfListOfShape itn;
   Standard_Integer   i1, i2;
   Standard_Boolean   o1, o2;
   Standard_Boolean   c1, c2;
@@ -121,11 +120,12 @@ HLRBRep_ShapeToHLR::Load(const Handle(HLRTopoBRep_OutLiner)& S,
     Standard_Boolean regn = Standard_False;
     Standard_Integer inde = EdgesToFaces.FindIndex(Edg);
     if (inde > 0) {
-      if (EdgesToFaces(inde).size() == 2) {
-	itn = EdgesToFaces(inde);
-	const TopoDS_Face& F1 = TopoDS::Face(itn.Value());
-	itn.Next();
-	const TopoDS_Face& F2 = TopoDS::Face(itn.Value());
+      auto Shapes = EdgesToFaces(inde);
+      if (Shapes.size() == 2) {
+	TopTools_ListIteratorOfListOfShape itn = begin(Shapes);
+	const TopoDS_Face& F1 = TopoDS::Face(*itn);
+	++itn;
+	const TopoDS_Face& F2 = TopoDS::Face(*itn);
 	GeomAbs_Shape rg = BRep_Tool::Continuity(Edg,F1,F2);
 	reg1 = rg >= GeomAbs_G1;
         regn = rg >= GeomAbs_G2; 

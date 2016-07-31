@@ -330,11 +330,10 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
   Standard_Real tttuvF = Max(tolu,tolv);
 
   TopTools_IndexedMapOfOrientedShape mapcl;
-  TopTools_ListIteratorOfListOfShape itce(ClEds);
-  for (; itce.More(); itce.Next()) mapcl.Add(itce.Value());
+  for (auto sce : ClEds)
+    mapcl.Add(sce);
 
   //* one closing edge should be removed     
-  itce.Initialize(ClEds);
   TopTools_DataMapOfOrientedShapeInteger fyceds; Standard_Boolean found = EdgesWithFaultyUV(ClEds,3,fyceds);
   if (!found) return Standard_False;  
 
@@ -443,10 +442,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
   if (!fyClEds.empty()) return Standard_True; // keeping only one closing edge
 
   //* the 2 closing edges have they 2drep "confunded"
-  itce.Initialize(ClEds);
-  for (; itce.More(); itce.Next()){
+  for (auto sce : ClEds) {
     // cE : 
-    const TopoDS_Edge& cE = TopoDS::Edge(itce.Value());
+    const TopoDS_Edge& cE = TopoDS::Edge(sce);
     TopTools_Array1OfShape vcE(1,2); TopOpeBRepTool_TOOL::Vertices(cE,vcE); 
     TopAbs_Orientation ocE = cE.Orientation(); 
 
@@ -509,8 +507,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
       Standard_Real tttuvvce = Max(Tol(1,tttolvce),Tol(2,tttolvce));
 
       Standard_Boolean vceok = Standard_False;
-      for (TopTools_ListIteratorOfListOfShape ite(loe); ite.More(); ite.Next()) {
-	const TopoDS_Edge& E = TopoDS::Edge(ite.Value());
+      for (auto S : loe) {
+	const TopoDS_Edge& E = TopoDS::Edge(S);
 
 #ifdef OCCT_DEBUG
 	Standard_Integer iE = STATIC_PURGE_mapeds.Add(E);
@@ -703,9 +701,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::EdgesOUTofBoundsUV(const TopTools_ListO
 					       TopTools_DataMapOfOrientedShapeInteger & FyEds) const 
 {
   FyEds.Clear();
-  TopTools_ListIteratorOfListOfShape it(EdsToCheck);
-  for (; it.More(); it.Next()){
-    const TopoDS_Edge& E = TopoDS::Edge(it.Value());
+  for (auto S : EdsToCheck) {
+    const TopoDS_Edge& E = TopoDS::Edge(S);
     Standard_Real sspar = -1.e7;
     Standard_Integer recadre = EdgeOUTofBoundsUV(E,onU,tolx,sspar);
     if (recadre == SPLITEDGE) FUN_Raise();
@@ -775,8 +772,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::EdgeWithFaultyUV(const TopoDS_Edge& E, 
     Standard_Boolean vEok = Standard_False;
     const TopTools_ListOfShape& loe = myVEds.Find(vE);
 
-    for (TopTools_ListIteratorOfListOfShape ite(loe); ite.More(); ite.Next()) {
-      const TopoDS_Edge& e = TopoDS::Edge(ite.Value());
+    for (auto s : loe) {
+      const TopoDS_Edge& e = TopoDS::Edge(s);
       TopAbs_Orientation oe = e.Orientation();
 
 #ifdef OCCT_DEBUG
@@ -853,10 +850,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::EdgesWithFaultyUV(const TopTools_ListOf
   // vertex <vEchk> is valid if there is an edge with bound <ve> such that :
   //   <vEchk> and <ve> share same UV geometry
   //   <vEchk> and <ve> are of opposite orientation.   
-  TopTools_ListIteratorOfListOfShape itchk(EdsToCheck);
-  for (; itchk.More(); itchk.Next()) {
+  for (auto schk : EdsToCheck) {
 
-    const TopoDS_Edge& Echk = TopoDS::Edge(itchk.Value());    
+    const TopoDS_Edge& Echk = TopoDS::Edge(schk);
     Standard_Integer Ivfaulty=0; Standard_Boolean faulty = EdgeWithFaultyUV(Echk,Ivfaulty);
     if (!faulty) continue;
     Standard_Integer nfyv = (Ivfaulty == 3)? 2 : 1;
@@ -961,9 +957,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::GetnewS(TopoDS_Face& newS) const
   newS = TopoDS::Face(myS);
   BRep_Builder BB;
 
-  TopTools_ListIteratorOfListOfShape it(myEds);
-  for (; it.More(); it.Next()){
-    TopoDS_Edge E = TopoDS::Edge(it.Value());   
+  for (auto S : myEds) {
+    TopoDS_Edge E = TopoDS::Edge(S);
     TopAbs_Orientation oriE = E.Orientation();
     TopOpeBRepTool_C2DF C2DF; Standard_Boolean isb = UVRep(E,C2DF);
     if (!isb) return Standard_False;
@@ -1041,12 +1036,14 @@ Standard_Boolean TopOpeBRepTool_CORRISO::RemoveOldConnexity(const TopoDS_Vertex&
 
   // <myEds> : 
   if (isb) {
-    TopTools_ListIteratorOfListOfShape it(myEds);
-    while (it.More()) {
-      if (it.Value().IsEqual(E)) {
+    TopTools_ListIteratorOfListOfShape it = begin(myEds);
+    while (it != end(myEds)) {
+      if (it->IsEqual(E)) {
 	it = myEds.erase(it);
-	break;}
-      else                       it.Next();
+	break;
+      }
+      else
+	++it;
     }
   }
 
@@ -1058,12 +1055,15 @@ Standard_Boolean TopOpeBRepTool_CORRISO::RemoveOldConnexity(const TopoDS_Vertex&
     Standard_Boolean isb = myVEds.IsBound(v); 
     if (!isb) return Standard_False;
     TopTools_ListOfShape& loe = myVEds.ChangeFind(v);
-    TopTools_ListIteratorOfListOfShape ite(loe);
-    while (ite.More()) {
-      if (ite.Value().IsEqual(E)) {done = Standard_True;
+    TopTools_ListIteratorOfListOfShape ite = begin(loe);
+    while (ite != end(loe)) {
+      if (ite->IsEqual(E)) {
+	done = Standard_True;
 	ite = loe.erase(ite);
-	break;}
-      else                         ite.Next();
+	break;
+      }
+      else
+	++ite;
     }
   }//exv
   return done;

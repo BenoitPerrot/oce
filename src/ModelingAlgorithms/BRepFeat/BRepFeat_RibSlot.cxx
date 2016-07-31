@@ -45,7 +45,6 @@
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
@@ -163,7 +162,6 @@ void BRepFeat_RibSlot::LFPerform()
     }
   }
 
-  TopTools_ListIteratorOfListOfShape it,it2;
   TopTools_DataMapIteratorOfDataMapOfShapeShape itm;
   //Standard_Integer sens = 0;
 
@@ -240,7 +238,6 @@ void BRepFeat_RibSlot::LFPerform()
     TopTools_ListOfShape partsoftool;
     BRepClass3d_SolidClassifier oussa;
     Standard_Boolean bFlag;
-    TopTools_ListIteratorOfListOfShape aIt;
 
     bFlag = (myPerfSelection == BRepFeat_NoSelection) ? 0 : 1;
     //
@@ -250,18 +247,16 @@ void BRepFeat_RibSlot::LFPerform()
     theBuilder.Perform();
     if (bFlag) { 
       theBuilder.PartsOfTool(partsoftool);
-      aIt.Initialize(partsoftool);
-      if (aIt.More() && myPerfSelection != BRepFeat_NoSelection) {
+      if (!partsoftool.empty() && myPerfSelection != BRepFeat_NoSelection) {
         Standard_Real toler = (BRep_Tool::Tolerance(myPbase))*2;
         //
-        for(; aIt.More(); aIt.Next()) {
-          oussa.Load(aIt.Value());
+        for (const TopoDS_Shape& S : partsoftool) {
+          oussa.Load(S);
           oussa.Perform(myFirstPnt, toler);
           TopAbs_State sp1=oussa.State();
           oussa.Perform(myLastPnt, toler);
           TopAbs_State sp2=oussa.State();
           if (!(sp1 == TopAbs_OUT || sp2 == TopAbs_OUT)) {
-            const TopoDS_Shape& S = aIt.Value();
             theBuilder.KeepPart(S);
           }
         }
@@ -302,9 +297,7 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Modified
   if (myMap.IsBound(F)) {
     static TopTools_ListOfShape list;
     list.clear();
-    TopTools_ListIteratorOfListOfShape ite(myMap(F));
-    for(; ite.More(); ite.Next()) {
-      const TopoDS_Shape& sh = ite.Value();
+    for (const TopoDS_Shape& sh : myMap(F)) {
       if(!sh.IsSame(F)) 
         list.push_back(sh);
     }
@@ -329,11 +322,10 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Generated
     myGenerated.clear();
     if(myLFMap.IsEmpty() || !myLFMap.IsBound(S)) {
       if (myMap.IsBound(S)) { // check if filter on face or not
+#warning static?
         static TopTools_ListOfShape list;
         list.clear();
-        TopTools_ListIteratorOfListOfShape ite(myMap(S));
-        for(; ite.More(); ite.Next()) {
-          const TopoDS_Shape& sh = ite.Value();
+        for (const TopoDS_Shape& sh : myMap(S)) {
           if(!sh.IsSame(S)) 
             list.push_back(sh);
         }
@@ -343,14 +335,11 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Generated
     }
     else {
       myGenerated.clear();
-      TopTools_ListIteratorOfListOfShape it(myLFMap(S));
       static TopTools_ListOfShape list;
       list.clear();
-      for(; it.More(); it.Next()) {
-        if(myMap.IsBound(it.Value())) {
-          TopTools_ListIteratorOfListOfShape it1(myMap(it.Value()));
-          for(; it1.More(); it1.Next()) {
-            const TopoDS_Shape& sh = it1.Value();
+      for (auto s : myLFMap(S)) {
+        if(myMap.IsBound(s)) {
+          for (const TopoDS_Shape& sh : myMap(s)) {
             if(!sh.IsSame(S)) 
               list.push_back(sh);
           }
@@ -371,17 +360,15 @@ const TopTools_ListOfShape& BRepFeat_RibSlot::Generated
 void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
 {
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm;
-  TopTools_ListIteratorOfListOfShape it,it2;
   TopTools_MapIteratorOfMapOfShape itm;
 
   for (itdm.Initialize(myMap);itdm.More();itdm.Next()) {
     const TopoDS_Shape& orig = itdm.Key();
     TopTools_MapOfShape newdsc;
-    for (it.Initialize(itdm.Value());it.More();it.Next()) {
-      const TopoDS_Face& fdsc = TopoDS::Face(it.Value()); 
-      for (it2.Initialize(G.DescendantFaces(fdsc));
-           it2.More();it2.Next()) {
-        newdsc.Add(it2.Value());
+    for (auto s : itdm.Value()) {
+      const TopoDS_Face& fdsc = TopoDS::Face(s); 
+      for (auto s2 : G.DescendantFaces(fdsc)) {
+        newdsc.Add(s2);
       }
     }
     myMap.ChangeFind(orig).clear();
@@ -400,7 +387,6 @@ void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
                                              const Standard_Boolean SkipFace)
 {
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm;
-  TopTools_ListIteratorOfListOfShape it,it2;
   TopTools_MapIteratorOfMapOfShape itm;
   TopExp_Explorer exp;
 
@@ -410,10 +396,9 @@ void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
       continue;
     }
     TopTools_MapOfShape newdsc;
-    for (it.Initialize(itdm.Value());it.More();it.Next()) {
-      const TopoDS_Shape& sh = it.Value();
+    for (const TopoDS_Shape& sh : itdm.Value()) {
       if(sh.ShapeType() != TopAbs_FACE) continue;
-      const TopoDS_Face& fdsc = TopoDS::Face(it.Value()); 
+      const TopoDS_Face& fdsc = TopoDS::Face(sh); 
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(fdsc)) { // preserved
           newdsc.Add(fdsc);
@@ -422,39 +407,33 @@ void BRepFeat_RibSlot::UpdateDescendants(const LocOpe_Gluer& G)
       }
       if (!exp.More()) {
         if (B->IsSplit(fdsc, TopAbs_OUT)) {
-          for (it2.Initialize(B->Splits(fdsc,TopAbs_OUT));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Splits(fdsc,TopAbs_OUT)) {
+            newdsc.Add(s2);
           }
         }
         if (B->IsSplit(fdsc, TopAbs_IN)) {
-          for (it2.Initialize(B->Splits(fdsc,TopAbs_IN));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Splits(fdsc,TopAbs_IN)) {
+            newdsc.Add(s2);
           }
         }
         if (B->IsSplit(fdsc, TopAbs_ON)) {
-          for (it2.Initialize(B->Splits(fdsc,TopAbs_ON));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Splits(fdsc,TopAbs_ON)) {
+            newdsc.Add(s2);
           }
         }
         if (B->IsMerged(fdsc, TopAbs_OUT)) {
-          for (it2.Initialize(B->Merged(fdsc,TopAbs_OUT));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Merged(fdsc,TopAbs_OUT)) {
+            newdsc.Add(s2);
           }
         }
         if (B->IsMerged(fdsc, TopAbs_IN)) {
-          for (it2.Initialize(B->Merged(fdsc,TopAbs_IN));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Merged(fdsc,TopAbs_IN)) {
+            newdsc.Add(s2);
           }
         }
         if (B->IsMerged(fdsc, TopAbs_ON)) {
-          for (it2.Initialize(B->Merged(fdsc,TopAbs_ON));
-               it2.More();it2.Next()) {
-            newdsc.Add(it2.Value());
+          for (auto s2 : B->Merged(fdsc,TopAbs_ON)) {
+            newdsc.Add(s2);
           }
         }
       }
@@ -762,11 +741,9 @@ TopoDS_Face BRepFeat_RibSlot::ChoiceOfFaces(TopTools_ListOfShape& faces,
     Counter++;
   }
 
-  TopTools_ListIteratorOfListOfShape it;
-  it.Initialize(faces);
   Standard_Real Par = RealLast();
-  for(; it.More(); it.Next()) {
-    const TopoDS_Face& f = TopoDS::Face(it.Value());
+  for (auto s : faces) {
+    const TopoDS_Face& f = TopoDS::Face(s);
     LocOpe_CSIntersector ASI(f);
     ASI.Perform(scur);
     if(!ASI.IsDone()) continue;
@@ -2369,7 +2346,6 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
                                            const Standard_Boolean SkipFace)
 {
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itdm;
-  TopTools_ListIteratorOfListOfShape it,it2;
   TopTools_MapIteratorOfMapOfShape itm;
   TopExp_Explorer exp;
 
@@ -2382,10 +2358,9 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
 
     //if (itdm.Value().IsEmpty()) {myMap.ChangeFind(orig).Append(orig);}
 
-    for (it.Initialize(itdm.Value());it.More();it.Next()) {
-      const TopoDS_Shape& sh = it.Value();
+    for (const TopoDS_Shape& sh : itdm.Value()) {
       if(sh.ShapeType() != TopAbs_FACE) continue;
-      const TopoDS_Face& fdsc = TopoDS::Face(it.Value()); 
+      const TopoDS_Face& fdsc = TopoDS::Face(sh); 
       for (exp.Init(S,TopAbs_FACE);exp.More();exp.Next()) {
         if (exp.Current().IsSame(fdsc)) { // preserved
           newdsc.Add(fdsc);
@@ -2394,10 +2369,7 @@ Standard_Boolean BRepFeat_RibSlot::NoSlidingProfile(TopoDS_Face& Prof,
       }
       if (!exp.More()) {
         BRepAlgoAPI_BooleanOperation* pBOP=(BRepAlgoAPI_BooleanOperation*)&aBOP;
-        const TopTools_ListOfShape& aLM=pBOP->Modified(fdsc);
-        it2.Initialize(aLM);
-        for (; it2.More(); it2.Next()) {
-          const TopoDS_Shape& aS=it2.Value();
+        for (const TopoDS_Shape& aS : pBOP->Modified(fdsc)) {
           newdsc.Add(aS);
         }
         

@@ -6,6 +6,12 @@
 #ifndef _TopTools_ListIteratorOfListOfShape_HeaderFile
 #define _TopTools_ListIteratorOfListOfShape_HeaderFile
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+
+typedef TopTools_ListOfShape::iterator TopTools_ListIteratorOfListOfShape;
+
+#if 0
+
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
@@ -85,6 +91,6 @@ private:
 #undef TCollection_List_hxx
 
 
-
+#endif
 
 #endif // _TopTools_ListIteratorOfListOfShape_HeaderFile

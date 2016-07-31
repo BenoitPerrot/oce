@@ -11,7 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
-class TopTools_ListOfShape;
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
 
 

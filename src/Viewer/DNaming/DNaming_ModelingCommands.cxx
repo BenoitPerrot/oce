@@ -1921,9 +1921,7 @@ static Standard_Integer DNaming_TestSingle (Draw_Interpretor& theDI,
 	aList.pop_front();
       Standard_Boolean isFirst(Standard_True);
       Handle(TDataStd_UAttribute) FirstAuxObj;
-      TopTools_ListIteratorOfListOfShape it(aList);
-      for(; it.More(); it.Next()) {
-	const TopoDS_Shape& aCurShape = it.Value();
+      for (const TopoDS_Shape& aCurShape : aList) {
 	if(aCurShape.IsNull()) continue;
 	if(aCurShape.ShapeType() == TopAbs_EDGE) {
 	  if (BRep_Tool::Degenerated(TopoDS::Edge(aCurShape)))
@@ -2000,12 +1998,11 @@ static Standard_Integer DNaming_TestSingle (Draw_Interpretor& theDI,
       } 
       if(aFailedList.size()) {
 	cout << "Failed units are kept at: ";
-	TopTools_ListIteratorOfListOfShape it1(aFailedList);
-	for(; it1.More(); it1.Next()) {
+	for (auto S1 : aFailedList) {
 	  const TDF_Label& aLabel = TDF_TagSource::NewChild(aDoc->Main());
 	  
 	  TNaming_Builder B(aLabel);
-	  B.Generated(it1.Value());
+	  B.Generated(S1);
 	  TCollection_AsciiString entry;
 	  TDF_Tool::Entry(aLabel, entry);
 	  cout << "\t" <<entry <<endl;
@@ -2059,9 +2056,7 @@ static Standard_Integer DNaming_Multiple (Draw_Interpretor& theDI,
 
       Standard_Boolean isFirst(Standard_True);
       Handle(TDataStd_UAttribute) FirstAuxObj;
-      TopTools_ListIteratorOfListOfShape it(aList);
-      for(; it.More(); it.Next()) {
-	const TopoDS_Shape& aCurShape = it.Value();
+      for (const TopoDS_Shape& aCurShape : aList) {
 	if(aCurShape.IsNull()) continue;
 	if(aCurShape.ShapeType() == TopAbs_EDGE) {
 	  if (BRep_Tool::Degenerated(TopoDS::Edge(aCurShape)))
@@ -2133,12 +2128,11 @@ static Standard_Integer DNaming_Multiple (Draw_Interpretor& theDI,
       }
  
       if(aFailedList.size()) {
-	TopTools_ListIteratorOfListOfShape it1(aFailedList);
-	for(; it1.More(); it1.Next()) {
+	for (auto S1 : aFailedList) {
 	  const TDF_Label& aLabel = TDF_TagSource::NewChild(aDoc->Main());
 	  
 	  TNaming_Builder B(aLabel);
-	  B.Generated(it1.Value());
+	  B.Generated(S1);
 	}
       }
       if(!FirstAuxObj.IsNull())

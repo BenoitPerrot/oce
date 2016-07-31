@@ -108,9 +108,7 @@ static Standard_Boolean FUN_keepEinterference
 #endif
     {
       TopoDS_Vertex Vf,Vr; TopExp::Vertices(TopoDS::Edge(E),Vf,Vr);
-      TopTools_ListIteratorOfListOfShape it(DS.ShapeSameDomain(VG));
-      for (; it.More(); it.Next()) {
-	const TopoDS_Shape& Vsd = it.Value();
+      for (const TopoDS_Shape& Vsd : DS.ShapeSameDomain(VG)) {
 	if      ( Vsd.IsSame(Vf) ) { break; }
 	else if ( Vsd.IsSame(Vr) ) { break; }
       }
@@ -625,10 +623,8 @@ Standard_EXPORT void FUN_purgeDSonSE(const Handle(TopOpeBRepDS_HDataStructure)& 
   TopTools_MapOfShape fsdmFancSE;
   // ---------------
   const TopTools_ListOfShape& lFancSE = FDSCNX_EdgeConnexitySameShape(SE,HDS);
-  for (TopTools_ListIteratorOfListOfShape itf(lFancSE); itf.More(); itf.Next()){
-    const TopTools_ListOfShape& fsdm = BDS.ShapeSameDomain(itf.Value());
-    for (TopTools_ListIteratorOfListOfShape itsdm(fsdm); itsdm.More(); itsdm.Next()){
-      const TopoDS_Shape& sdmf = itsdm.Value();
+  for (auto s : lFancSE) {
+    for (const TopoDS_Shape& sdmf : BDS.ShapeSameDomain(s)) {
       Standard_Integer sdmrk = BDS.AncestorRank(sdmf);
       if (sdmrk == rkSE) continue;
       fsdmFancSE.Add(sdmf);

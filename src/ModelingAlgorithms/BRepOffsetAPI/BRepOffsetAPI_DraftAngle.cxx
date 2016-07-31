@@ -803,10 +803,7 @@ void BRepOffsetAPI_DraftAngle::CorrectWires()
       theCopy = aSub.Copy( CurWire );
       CurWire = theCopy.front();
       CurWire.Free( Standard_True );
-      TopTools_ListIteratorOfListOfShape itl( itww.Value() );
-      for (; itl.More(); itl.Next())
-	{
-	  TopoDS_Shape aWire = itl.Value();
+      for (TopoDS_Shape aWire : itww.Value()) {
 	  CurFace = WFmap( aWire );
 	  theCopy = aSub.Copy( aWire );
 	  aWire = theCopy.front();

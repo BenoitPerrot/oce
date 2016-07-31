@@ -30,7 +30,6 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>
 #include <ModelingAlgorithms/BRepClass3d/BRepClass3d_SolidClassifier.hxx>
@@ -63,7 +62,7 @@ static void Sub_Classify(TopExp_Explorer& Ex,
 			 const TopAbs_State St1,
 			 TopTools_ListOfShape& Solids2,
 			 BRep_Builder& BB,
-			 TopTools_ListIteratorOfListOfShape& LIter,
+			 const TopoDS_Shape& LV,
 			 TopoDS_Shape& myShape); 
 
 
@@ -206,13 +205,14 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     BB.MakeCompound(TopoDS::Compound(myShape));
     Done();
 
-    TopTools_ListIteratorOfListOfShape its(myHBuilder->Merged(myS1,St1));
-    for(; its.More(); its.Next()) BB.Add(myShape,its.Value());
+    for (auto S : myHBuilder->Merged(myS1,St1))
+      BB.Add(myShape, S);
 
   }
   else {
 #if MODIF 
 
+#warning CRITICAL: this function has many self-similarities, refactor
     //======================================================================
     //== Exploration of input shapes 
     //== Creation of the list of solids 
@@ -285,35 +285,32 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     // make a compound with the new solids
     BB.MakeCompound(TopoDS::Compound(myShape));
     
-    TopTools_ListIteratorOfListOfShape LIter;
     //----------------------------------------------------------------------
     TopoDS_Shape SNULL;
     
     if (nbf1 && nbf2) {
       SNULL.Nullify();
       if ( Opecom(St1,St2) ) {
-	TopTools_ListIteratorOfListOfShape itloe = myHBuilder->Section();
-	for(; itloe.More(); itloe.Next()) BB.Add(myShape,itloe.Value());
+	for (auto S : myHBuilder->Section())
+	  BB.Add(myShape,S);
       } 
       else {
 	if(nbf1) { 
 	  myHBuilder->MergeShapes(myS1,St1,SNULL,St2);
 
-	  for(LIter.Initialize(Faces1);LIter.More();LIter.Next()) {
-	    if (myHBuilder->IsSplit(LIter.Value(),St1)) {
-	      TopTools_ListIteratorOfListOfShape its;
-	      for(its.Initialize(myHBuilder->Splits(LIter.Value(),St1));
-		  its.More();its.Next()) BB.Add(myShape,its.Value());
+	  for (const TopoDS_Shape& LV : Faces1) {
+	    if (myHBuilder->IsSplit(LV,St1)) {
+	      for (auto S : myHBuilder->Splits(LV,St1))
+		BB.Add(myShape, S);
 	    }
 	    else {
-	      const TopoDS_Shape& LV = LIter.Value();
 	      if(  (LV.Orientation() == TopAbs_EXTERNAL && St1==TopAbs_OUT ) 	    
 		 ||(LV.Orientation() == TopAbs_INTERNAL && St1==TopAbs_IN  )) {
 		BB.Add(myShape,LV);
 	      }
 	      else { 
 		//-- Classify : 
-		Sub_Classify(Ex,St1,Solids2,BB,LIter,myShape); 
+		Sub_Classify(Ex,St1,Solids2,BB,LV,myShape); 
 	      }
 	      //-- End Classification 
 	    }
@@ -323,21 +320,19 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	if ( Opefus(St1,St2) ) {
 	  if(nbf2) {
 	    myHBuilder->MergeShapes(SNULL,St1,myS2,St2);
-	    for(LIter.Initialize(Faces2);LIter.More();LIter.Next()) {
-	      if (myHBuilder->IsSplit(LIter.Value(),St2)) {
-		TopTools_ListIteratorOfListOfShape its;
-		for(its.Initialize(myHBuilder->Splits(LIter.Value(),St2));
-		    its.More();its.Next()) BB.Add(myShape,its.Value());
+	    for (const TopoDS_Shape& LV : Faces2) {
+	      if (myHBuilder->IsSplit(LV,St2)) {
+		for (auto S : myHBuilder->Splits(LV,St2))
+		  BB.Add(myShape,S);
 	      }
 	      else {
-		const TopoDS_Shape& LV = LIter.Value();
 		if(  (LV.Orientation() == TopAbs_EXTERNAL && St2==TopAbs_OUT ) 	    
 		   ||(LV.Orientation() == TopAbs_INTERNAL && St2==TopAbs_IN  )) {
 		  BB.Add(myShape,LV);
 		}
 		else { 
-		  //-- Classify : 
-		  Sub_Classify(Ex,St2,Solids1,BB,LIter,myShape); 
+		  //-- Classify :
+		  Sub_Classify(Ex,St2,Solids1,BB,LV,myShape); 
 		}
 		//-- End Classification 	
 	      }
@@ -357,24 +352,21 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	sewing = Standard_False;
 
 	if(MergedShapes.size() != 0) {
-	  TopTools_ListIteratorOfListOfShape its(MergedShapes);
-	  for(; its.More(); its.Next()) {
-	    BB.Add(myShape,its.Value());
+	  for (auto S : MergedShapes) {
+	    BB.Add(myShape,S);
 	  }
 	  TopExp::MapShapes(myShape, TopAbs_FACE, aMapOfFaces);
 	}
 
-	for(LIter.Initialize(Faces1);LIter.More();LIter.Next()) {
+	for (const TopoDS_Shape& LV : Faces1) {
 
-	  if (myHBuilder->IsSplit(LIter.Value(),St1)) {
-	    TopTools_ListIteratorOfListOfShape its;
-	    for(its.Initialize(myHBuilder->Splits(LIter.Value(),St1));
-		its.More();its.Next()) {
-	      if(!aMapOfFaces.Contains(its.Value())) BB.Add(myShape,its.Value());
+	  if (myHBuilder->IsSplit(LV,St1)) {
+	    for (auto S : myHBuilder->Splits(LV,St1)) {
+	      if (!aMapOfFaces.Contains(S))
+		BB.Add(myShape,S);
 	    }
 	  }
 	  else {
-	    const TopoDS_Shape& LV = LIter.Value();
 	    if(!aMapOfFaces.Contains(LV)) {
 	      if(  (LV.Orientation() == TopAbs_EXTERNAL && St1==TopAbs_OUT ) 	    
 		 ||(LV.Orientation() == TopAbs_INTERNAL && St1==TopAbs_IN  )) {
@@ -382,7 +374,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	      }
 	      else { 
 		//-- Classify : 
-		Sub_Classify(Ex,St1,Solids2,BB,LIter,myShape); 
+		Sub_Classify(Ex,St1,Solids2,BB,LV,myShape); 
 	      }
 	      //-- End Classification 
 	    }
@@ -398,23 +390,20 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	sewing = Standard_False;
 
 	if(MergedShapes.size() != 0) {
-	  TopTools_ListIteratorOfListOfShape its(MergedShapes);
-	  for(; its.More(); its.Next()) {
-	    BB.Add(myShape,its.Value());
+	  for (auto S : MergedShapes) {
+	    BB.Add(myShape,S);
 	  }
 	  TopExp::MapShapes(myShape, TopAbs_FACE, aMapOfFaces);
 	}
 
-	for(LIter.Initialize(Faces2);LIter.More();LIter.Next()) {
-	  if (myHBuilder->IsSplit(LIter.Value(),St2)) {
-	    TopTools_ListIteratorOfListOfShape its;
-	    for(its.Initialize(myHBuilder->Splits(LIter.Value(),St2));
-		its.More();its.Next()) {
-	      if(!aMapOfFaces.Contains(its.Value())) BB.Add(myShape,its.Value());
+	for (const TopoDS_Shape& LV : Faces2) {
+	  if (myHBuilder->IsSplit(LV,St2)) {
+	    for (auto S : myHBuilder->Splits(LV,St2)) {
+	      if (!aMapOfFaces.Contains(S))
+		BB.Add(myShape,S);
 	    }
 	  }
 	  else {
-	    const TopoDS_Shape& LV = LIter.Value();
 	    if(!aMapOfFaces.Contains(LV)) {
 	      if(  (LV.Orientation() == TopAbs_EXTERNAL && St2==TopAbs_OUT ) 	    
 		 ||(LV.Orientation() == TopAbs_INTERNAL && St2==TopAbs_IN  )) {
@@ -422,7 +411,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	      }
 	      else { 
 		//-- Classify : 
-		Sub_Classify(Ex,St2,Solids1,BB,LIter,myShape); 
+		Sub_Classify(Ex,St2,Solids1,BB,LV,myShape); 
 	      }
 	      //-- End Classification 	
 	    }
@@ -435,23 +424,20 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     if(nbe1) { 
       myHBuilder->MergeShapes(myS1,St1,SNULL,St2);
 
-      for(LIter.Initialize(Edges1);LIter.More();LIter.Next()) {
-	if (myHBuilder->IsSplit(LIter.Value(),St1)) {
-	  TopTools_ListIteratorOfListOfShape its;
-	  for(its.Initialize(myHBuilder->Splits(LIter.Value(),St1));
-	      its.More();its.Next()) {
-	    BB.Add(myShape,its.Value());
+      for (const TopoDS_Shape& LV : Edges1) {
+	if (myHBuilder->IsSplit(LV,St1)) {
+	  for (auto S : myHBuilder->Splits(LV,St1)) {
+	    BB.Add(myShape,S);
 	  }
 	}
 	else {
-	  const TopoDS_Shape& LV = LIter.Value();
 	  if(  (LV.Orientation() == TopAbs_EXTERNAL && St1==TopAbs_OUT ) 	    
 	     ||(LV.Orientation() == TopAbs_INTERNAL && St1==TopAbs_IN  )) {
 	    BB.Add(myShape,LV);
 	  }
 	  else { 
 	    //-- Classify : 
-	    Sub_Classify(Ex,St1,Solids2,BB,LIter,myShape); 
+	    Sub_Classify(Ex,St1,Solids2,BB,LV,myShape); 
 	  }
 	  //-- End Classification 
 	}
@@ -460,23 +446,20 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     if(nbe2) { 
       myHBuilder->MergeShapes(SNULL,St1,myS2,St2);
       
-      for(LIter.Initialize(Edges2);LIter.More();LIter.Next()) {
-	if (myHBuilder->IsSplit(LIter.Value(),St2)) {
-	  TopTools_ListIteratorOfListOfShape its;
-	  for(its.Initialize(myHBuilder->Splits(LIter.Value(),St2));
-	      its.More();its.Next()) {
-	    BB.Add(myShape,its.Value());
+      for (const TopoDS_Shape& LV : Edges2) {
+	if (myHBuilder->IsSplit(LV,St2)) {
+	  for (auto S : myHBuilder->Splits(LV,St2)) {
+	    BB.Add(myShape,S);
 	  }
 	}
 	else {
-	  const TopoDS_Shape& LV = LIter.Value();
 	  if(  (LV.Orientation() == TopAbs_EXTERNAL && St2==TopAbs_OUT ) 	    
 	     ||(LV.Orientation() == TopAbs_INTERNAL && St2==TopAbs_IN  ))  {	 
 	    BB.Add(myShape,LV);
 	  }
 	  else { 
 	    //-- Classify : 
-	    Sub_Classify(Ex,St2,Solids1,BB,LIter,myShape); 
+	    Sub_Classify(Ex,St2,Solids1,BB,LV,myShape); 
 	  }
 	  //-- End Classification 
 	}
@@ -487,17 +470,15 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     //-- V1:Vertex1   state1 = IN    -> Preserve V1 if V1 is In one of S2 
     if(nbv1 && nbs2) { 
       if(St1 == TopAbs_IN) { 
-	for(LIter.Initialize(Vertex1);LIter.More();LIter.Next()) {
+	for (const TopoDS_Shape& LV : Vertex1) {
 	  Standard_Boolean keep = Standard_False;
 	  Standard_Boolean ok = Standard_True;
-	  const TopoDS_Vertex& V=TopoDS::Vertex(LIter.Value());
+	  const TopoDS_Vertex& V=TopoDS::Vertex(LV);
 	  gp_Pnt P=BRep_Tool::Pnt(V);
 	  Standard_Real Tol = BRep_Tool::Tolerance(V);
-	  TopTools_ListIteratorOfListOfShape SIter;
-	  for(SIter.Initialize(Solids2);
-	      SIter.More() && ok==Standard_True;
-	      SIter.Next()) { 	  
-	    BRepClass3d_SolidClassifier SolClass(SIter.Value());
+	  for (auto Solid2 : Solids2) {
+	    if (!ok) break;
+	    BRepClass3d_SolidClassifier SolClass(Solid2);
 	    SolClass.Perform(P,Tol);
 	    if(SolClass.State() == TopAbs_IN) {
 	      ok=Standard_False;
@@ -505,23 +486,21 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	    }
 	  }
 	  if(keep) { 
-	    BB.Add(myShape,LIter.Value());
+	    BB.Add(myShape,LV);
 	  }
 	}
       }
       else { 
 	if(St1 == TopAbs_OUT) { 
-	  for(LIter.Initialize(Vertex1);LIter.More();LIter.Next()) {
+	  for (const TopoDS_Shape& LV : Vertex1) {
 	    Standard_Boolean keep = Standard_True;
 	    Standard_Boolean ok = Standard_True;
-	    const TopoDS_Vertex& V=TopoDS::Vertex(LIter.Value());
+	    const TopoDS_Vertex& V=TopoDS::Vertex(LV);
 	    gp_Pnt P=BRep_Tool::Pnt(V);
 	    Standard_Real Tol = BRep_Tool::Tolerance(V);
-	    TopTools_ListIteratorOfListOfShape SIter;
-	    for(SIter.Initialize(Solids2);
-		SIter.More() && ok==Standard_True;
-		SIter.Next()) { 	  
-	      BRepClass3d_SolidClassifier SolClass(SIter.Value());
+	    for (auto Solid2 : Solids2) {
+	      if (!ok) break;
+	      BRepClass3d_SolidClassifier SolClass(Solid2);
 	      SolClass.Perform(P,Tol);
 	      if(SolClass.State() != TopAbs_OUT) {
 		keep = Standard_False;
@@ -529,7 +508,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	      }
 	    }
 	    if(keep) { 
-	      BB.Add(myShape,LIter.Value());
+	      BB.Add(myShape,LV);
 	    }
 	  }
 	}
@@ -538,17 +517,15 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
   
     if(nbv2 && nbs1) { 
       if(St2 == TopAbs_IN) { 
-	for(LIter.Initialize(Vertex2);LIter.More();LIter.Next()) {
+	for (const TopoDS_Shape& LV : Vertex2) {
 	  Standard_Boolean keep = Standard_False;
 	  Standard_Boolean ok = Standard_True;
-	  const TopoDS_Vertex& V=TopoDS::Vertex(LIter.Value());
+	  const TopoDS_Vertex& V=TopoDS::Vertex(LV);
 	  gp_Pnt P=BRep_Tool::Pnt(V);
 	  Standard_Real Tol = BRep_Tool::Tolerance(V);
-	  TopTools_ListIteratorOfListOfShape SIter;
-	  for(SIter.Initialize(Solids1);
-	      SIter.More() && ok==Standard_True;
-	      SIter.Next()) { 	  
-	    BRepClass3d_SolidClassifier SolClass(SIter.Value());
+	  for (auto Solid1 : Solids1) {
+	    if (!ok) break;
+	    BRepClass3d_SolidClassifier SolClass(Solid1);
 	    SolClass.Perform(P,Tol);
 	    if(SolClass.State() == TopAbs_IN) {
 	      ok=Standard_False;
@@ -556,23 +533,21 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	    }
 	  }
 	  if(keep) { 
-	    BB.Add(myShape,LIter.Value());
+	    BB.Add(myShape, LV);
 	  }
 	}
       }
       else { 
 	if(St2 == TopAbs_OUT) { 
-	  for(LIter.Initialize(Vertex2);LIter.More();LIter.Next()) {
+	  for (const TopoDS_Shape& LV : Vertex2) {
 	    Standard_Boolean keep = Standard_True;
 	    Standard_Boolean ok = Standard_True;
-	    const TopoDS_Vertex& V=TopoDS::Vertex(LIter.Value());
+	    const TopoDS_Vertex& V=TopoDS::Vertex(LV);
 	    gp_Pnt P=BRep_Tool::Pnt(V);
 	    Standard_Real Tol = BRep_Tool::Tolerance(V);
-	    TopTools_ListIteratorOfListOfShape SIter;
-	    for(SIter.Initialize(Solids1);
-		SIter.More() && ok==Standard_True;
-		SIter.Next()) { 	  
-	      BRepClass3d_SolidClassifier SolClass(SIter.Value());
+	    for (auto Solid1 : Solids1) {
+	      if (!ok) break;
+	      BRepClass3d_SolidClassifier SolClass(Solid1);
 	      SolClass.Perform(P,Tol);
 	      if(SolClass.State() != TopAbs_OUT) {
 		keep = Standard_False;
@@ -580,7 +555,7 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 	      }
 	    }
 	    if(keep) { 
-	      BB.Add(myShape,LIter.Value());
+	      BB.Add(myShape,LV);
 	    }
 	  }
 	}
@@ -589,12 +564,9 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
     
     if(nbs1 && nbs2 ) { 
       myHBuilder->MergeShapes(myS1,St1,myS2,St2);
-      if(myHBuilder->IsMerged(myS1,St1)) { 
-        TopTools_ListIteratorOfListOfShape its;
-	its = myHBuilder->Merged(myS1,St1);
-	Standard_Integer nbSolids = 0;
-	for(; its.More(); its.Next(), nbSolids++) { 
-	  BB.Add(myShape,its.Value());
+      if(myHBuilder->IsMerged(myS1,St1)) {
+	for (auto S : myHBuilder->Merged(myS1,St1)) { 
+	  BB.Add(myShape, S);
 	}
       }
     }
@@ -602,13 +574,10 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 #else 
 
     myHBuilder->MergeSolids(myS1,St1,myS2,St2);
-    TopTools_ListIteratorOfListOfShape its;
   
     BB.MakeCompound(TopoDS::Compound(myShape));
-    its = myHBuilder->Merged(myS1,St1);
-    while (its.More()) {
-      BB.Add(myShape,its.Value());
-      its.Next();
+    for (auto S : myHBuilder->Merged(myS1,St1) {
+      BB.Add(myShape, S);
     }
 
 #endif
@@ -700,11 +669,10 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
 
   if (modif) {
     BRepTools_Substitution bsub;
-    TopTools_ListIteratorOfListOfShape itl(theOldShell);
     TopTools_ListOfShape forSub;
-    for (; itl.More();itl.Next()) {
+    for (auto S : theOldShell) {
       forSub.push_back(theNewShell.front());
-      bsub.Substitute(itl.Value(), forSub);
+      bsub.Substitute(S, forSub);
       theNewShell.pop_front();
       forSub.clear();
     }
@@ -766,14 +734,13 @@ extern void FDSSDM_Close();// see TopOpeBRepDS_samdom.cxx
   return myBuilderCanWork;
 }
 
-
 void Sub_Classify(TopExp_Explorer& Ex,
 		  const TopAbs_State St1,
 		  TopTools_ListOfShape& Solids2,
 		  BRep_Builder& BB,
-		  TopTools_ListIteratorOfListOfShape& LIter,
+		  const TopoDS_Shape& LV,
 		  TopoDS_Shape& myShape) { 
-  Ex.Init(LIter.Value(),TopAbs_VERTEX);
+  Ex.Init(LV,TopAbs_VERTEX);
   if(Ex.More()) { 
     if(St1 == TopAbs_IN) { 
       Standard_Boolean keep = Standard_False;
@@ -781,11 +748,9 @@ void Sub_Classify(TopExp_Explorer& Ex,
       const TopoDS_Vertex& V=TopoDS::Vertex(Ex.Current());
       gp_Pnt P=BRep_Tool::Pnt(V);
       Standard_Real Tol = BRep_Tool::Tolerance(V);
-      TopTools_ListIteratorOfListOfShape SIter;
-      for(SIter.Initialize(Solids2);
-	  SIter.More() && ok==Standard_True;
-	  SIter.Next()) { 	  
-	BRepClass3d_SolidClassifier SolClass(SIter.Value());
+      for (auto Solid2 : Solids2) {
+	if (!ok) break;
+	BRepClass3d_SolidClassifier SolClass(Solid2);
 	SolClass.Perform(P,Tol);
 	if(SolClass.State() == TopAbs_IN) {
 	  ok=Standard_False;
@@ -793,7 +758,7 @@ void Sub_Classify(TopExp_Explorer& Ex,
 	}
       }
       if(keep) { 
-	BB.Add(myShape,LIter.Value());
+	BB.Add(myShape,LV);
       }
     }
     else { 
@@ -803,11 +768,10 @@ void Sub_Classify(TopExp_Explorer& Ex,
 	const TopoDS_Vertex& V=TopoDS::Vertex(Ex.Current());
 	gp_Pnt P=BRep_Tool::Pnt(V);
 	Standard_Real Tol = BRep_Tool::Tolerance(V);
-	TopTools_ListIteratorOfListOfShape SIter;
-	for(SIter.Initialize(Solids2);
-	    SIter.More() && ok==Standard_True;
-	    SIter.Next()) { 	  
-	  BRepClass3d_SolidClassifier SolClass(SIter.Value());
+	for(auto solid2S : Solids2) {
+	  if (ok!=Standard_True)
+	    break;
+	  BRepClass3d_SolidClassifier SolClass(solid2S);
 	  SolClass.Perform(P,Tol);
 	  if(SolClass.State() != TopAbs_OUT) {
 	    keep = Standard_False;
@@ -815,7 +779,7 @@ void Sub_Classify(TopExp_Explorer& Ex,
 	  }
 	}
 	if(keep) { 
-	  BB.Add(myShape,LIter.Value());
+	  BB.Add(myShape,LV);
 	}
       }
     }
@@ -847,59 +811,54 @@ const TopTools_ListOfShape& BRepAlgo_BooleanOperation::Modified(const TopoDS_Sha
   myGenerated.clear();
   TopTools_MapOfShape aMap; // to check if shape can be added in list more then one time
   aMap.Clear();
+#warning TODO: factor
   if (myHBuilder->IsSplit(S, TopAbs_OUT)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_OUT));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto splitS : myHBuilder->Splits(S, TopAbs_OUT)) {
+      if (topToSew.IsBound(splitS)) 
+	{if(aMap.Add(topToSew.Find(splitS))) myGenerated.push_back(topToSew.Find(splitS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(splitS)) myGenerated.push_back(splitS);}
     }
   }
   if (myHBuilder->IsSplit(S, TopAbs_IN)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_IN));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto splitS : myHBuilder->Splits(S, TopAbs_IN)) {
+      if (topToSew.IsBound(splitS)) 
+	{if(aMap.Add(topToSew.Find(splitS))) myGenerated.push_back(topToSew.Find(splitS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(splitS)) myGenerated.push_back(splitS);}
     }
   }
   if (myHBuilder->IsSplit(S, TopAbs_ON)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Splits(S, TopAbs_ON));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto splitS : myHBuilder->Splits(S, TopAbs_ON)) {
+      if (topToSew.IsBound(splitS)) 
+	{if(aMap.Add(topToSew.Find(splitS))) myGenerated.push_back(topToSew.Find(splitS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(splitS)) myGenerated.push_back(splitS);}
     }
   }
 
   if (myHBuilder->IsMerged(S, TopAbs_OUT)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_OUT));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto mergedS : myHBuilder->Merged(S, TopAbs_OUT)) {
+      if (topToSew.IsBound(mergedS)) 
+	{if(aMap.Add(topToSew.Find(mergedS))) myGenerated.push_back(topToSew.Find(mergedS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(mergedS)) myGenerated.push_back(mergedS);}
     }
   }
   if (myHBuilder->IsMerged(S, TopAbs_IN)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_IN));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto mergedS : myHBuilder->Merged(S, TopAbs_IN)) {
+      if (topToSew.IsBound(mergedS)) 
+	{if(aMap.Add(topToSew.Find(mergedS))) myGenerated.push_back(topToSew.Find(mergedS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(mergedS)) myGenerated.push_back(mergedS);}
     }
   }
   if (myHBuilder->IsMerged(S, TopAbs_ON)) {
-    TopTools_ListIteratorOfListOfShape It(myHBuilder->Merged(S, TopAbs_ON));
-    for(;It.More();It.Next()) {
-      if (topToSew.IsBound(It.Value())) 
-	{if(aMap.Add(topToSew.Find(It.Value()))) myGenerated.push_back(topToSew.Find(It.Value()));}
+    for (auto mergedS : myHBuilder->Merged(S, TopAbs_ON)) {
+      if (topToSew.IsBound(mergedS)) 
+	{if(aMap.Add(topToSew.Find(mergedS))) myGenerated.push_back(topToSew.Find(mergedS));}
       else
-	{if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());}
+	{if(aMap.Add(mergedS)) myGenerated.push_back(mergedS);}
     }
   }
   return myGenerated;

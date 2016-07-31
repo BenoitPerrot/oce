@@ -145,16 +145,16 @@ void BRepSweep_Trsf::SetContinuity(const TopoDS_Shape& aGenS,
     Standard_Real u1,u2;
     TopTools_IndexedDataMapOfShapeListOfShape M;
     TopExp::MapShapesAndAncestors(aGenS,TopAbs_VERTEX,TopAbs_EDGE,M);
-    TopTools_ListIteratorOfListOfShape It,Jt;    
     for(Standard_Integer i = 1; i <= M.Extent(); i++){
       TopoDS_Vertex V = TopoDS::Vertex(M.FindKey(i));
       Standard_Integer j = 1;
-      for(It.Initialize(M.FindFromIndex(i));It.More();It.Next(),j++){
-	Jt.Initialize(M.FindFromIndex(i));
-	for(Standard_Integer k=1; k <= j; k++) { Jt.Next(); }
-	for(;Jt.More();Jt.Next()){
-	  E1 = TopoDS::Edge(It.Value());
-	  E2 = TopoDS::Edge(Jt.Value());
+      auto Shapes = M.FindFromIndex(i);
+      for (auto I : Shapes) {
+	TopTools_ListIteratorOfListOfShape Jt = begin(Shapes);
+	for(Standard_Integer k=1; k <= j; k++) { ++Jt; }
+	for(;Jt != end(Shapes); ++Jt) {
+	  E1 = TopoDS::Edge(I);
+	  E2 = TopoDS::Edge(*Jt);
 	  if (!E1.IsSame(E2) && HasShape(E1,aDirS) && HasShape(E2,aDirS)){
 	    u1 = BRep_Tool::Parameter(V,E1);
 	    u2 = BRep_Tool::Parameter(V,E2);
@@ -174,6 +174,7 @@ void BRepSweep_Trsf::SetContinuity(const TopoDS_Shape& aGenS,
 	    }
 	  }
 	}
+	j++;
       }
     }
   }

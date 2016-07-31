@@ -559,9 +559,8 @@ Standard_Boolean QANewModTopOpe::IsConnected(const TopoDS_Shape& TheS)
     else aSMap.Add(anTDIter.Value());
   }
 
-  TopTools_ListIteratorOfListOfShape anIter(aCompList);
-  for(;anIter.More(); anIter.Next()) {
-    anTDIter.Initialize(anIter.Value());
+  for (auto S : aCompList) {
+    anTDIter.Initialize(S);
     for(; anTDIter.More(); anTDIter.Next()) {
       if(anTDIter.Value().ShapeType() == TopAbs_COMPOUND) aCompList.push_back(anTDIter.Value());
       else aSMap.Add(anTDIter.Value());

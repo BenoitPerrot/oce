@@ -618,28 +618,29 @@ Standard_Boolean AIS_FixRelation::ConnectedEdges(const TopoDS_Wire& WIRE,
     return Standard_False;
   }
 
-  TopTools_ListIteratorOfListOfShape iterator(vertexMap.FindFromKey(theVertex));
-  if (iterator.More()) {
-    E1 = TopoDS::Edge(iterator.Value());
+  auto l = vertexMap.FindFromKey(theVertex);
+  TopTools_ListIteratorOfListOfShape iterator = begin(l);
+  if (iterator != end(l)) {
+    E1 = TopoDS::Edge(*iterator);
     BRepAdaptor_Curve curv(E1);
-    iterator.Next();
+    ++iterator;
   }
   else {
     E1.Nullify();
     return Standard_False;
   }
 
-  if (iterator.More()) {
-    E2 = TopoDS::Edge(iterator.Value());
+  if (iterator != end(l)) {
+    E2 = TopoDS::Edge(*iterator);
     BRepAdaptor_Curve curv(E2);
-    iterator.Next();
+    ++iterator;
   }
   else {
     E2.Nullify();
     return Standard_False;
   }
     
-  if (iterator.More()) {
+  if (iterator != end(l)) {
     E1.Nullify();
     E2.Nullify();
     return Standard_False;

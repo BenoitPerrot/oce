@@ -38,7 +38,6 @@ class TopOpeBRepDS_Curve;
 class TopOpeBRepDS_Point;
 class TopoDS_Shape;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class TopOpeBRepDS_MapOfShapeData;
 class TopOpeBRepDS_Interference;
 class TopOpeBRepDS_IndexedDataMapOfShapeWithState;

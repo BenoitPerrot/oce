@@ -12,12 +12,12 @@
 
 #include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class BRepAlgo_AsDes;
-class TopTools_ListOfShape;
 class BRepAlgo_Image;
 class TopoDS_Face;
 class TopoDS_Shape;

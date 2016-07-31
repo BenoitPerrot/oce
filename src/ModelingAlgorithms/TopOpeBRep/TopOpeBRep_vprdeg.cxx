@@ -823,10 +823,13 @@ static void FUN_addmapve(TopTools_DataMapOfShapeListOfShape& mapve, const TopoDS
     {mapve.ChangeFind(e).push_back(v); 
      TopTools_ListOfShape le;le.push_back(e);mapve.Bind(v,le);}
   else {
+#warning TODO: c++ify using some std::algorithm
     Standard_Boolean found = Standard_False;
-    TopTools_ListIteratorOfListOfShape it(mapve.Find(v));
-    for (; it.More(); it.Next())
-      if (it.Value().IsSame(e)) {found = Standard_True; break;}
+    for (auto s : mapve.Find(v))
+      if (s.IsSame(e)) {
+	found = Standard_True;
+	break;
+      }
     if (!found) {mapve.ChangeFind(v).push_back(e); mapve.ChangeFind(e).push_back(v);} 	    
   }
 }
@@ -880,9 +883,8 @@ Standard_EXPORT void FUN_GetdgData(TopOpeBRepDS_PDataStructure& pDS,const TopOpe
     if (v.ShapeType() != TopAbs_VERTEX) continue;
     Standard_Integer rkv = shaperk.Find(v);
 
-    TopTools_ListIteratorOfListOfShape ite(itm.Value());
-    for (; ite.More(); ite.Next()){
-      const TopoDS_Edge& e = TopoDS::Edge( ite.Value() );
+    for (auto s : itm.Value()) {
+      const TopoDS_Edge& e = TopoDS::Edge(s);
       Standard_Integer rke = shaperk.Find(e);
       if (rke != rkv) {
 	TopExp_Explorer ex(e, TopAbs_VERTEX);
@@ -915,9 +917,8 @@ Standard_EXPORT void FUN_GetdgData(TopOpeBRepDS_PDataStructure& pDS,const TopOpe
       // adding new information to the ds
       // **************************************************
       TopTools_IndexedDataMapOfShapeListOfShape mapve; TopExp::MapShapesAndAncestors(f,TopAbs_VERTEX,TopAbs_EDGE,mapve);
-      TopTools_ListIteratorOfListOfShape iteds(mapve.FindFromKey(v));
-      for (; iteds.More(); iteds.Next()){
-	const TopoDS_Edge& ee = TopoDS::Edge(iteds.Value());
+      for (auto eds : mapve.FindFromKey(v)) {
+	const TopoDS_Edge& ee = TopoDS::Edge(eds);
 	if (ee.IsSame(dge)) continue;
 	Standard_Boolean iscl = TopOpeBRepTool_ShapeTool::Closed(ee,f);
 	if (!iscl) continue;
@@ -926,12 +927,11 @@ Standard_EXPORT void FUN_GetdgData(TopOpeBRepDS_PDataStructure& pDS,const TopOpe
     }
     if (!hasecl && (isbv || isbvsd)) {
       TopoDS_Vertex vv = isbv ? v : vsd;
-      TopTools_ListIteratorOfListOfShape ite;
-      if (isbv) ite.Initialize(mapvec.Find(v));
-      for (; ite.More(); ite.Next()){
-	const TopoDS_Shape& e = ite.Value();
-	Standard_Integer rke = shaperk.Find(e);
-	if (rke == rk) {cle = e; hasecl = Standard_True; break;}
+      if (isbv) {
+	for (const TopoDS_Shape& e : mapvec.Find(v)) {
+	  Standard_Integer rke = shaperk.Find(e);
+	  if (rke == rk) {cle = e; hasecl = Standard_True; break;}
+	}
       }
     }
     if (!hasecl) continue;
@@ -1072,9 +1072,10 @@ static Standard_Integer FUN_putInterfonDegenEd
       Standard_Boolean vertexfound = local_FindVertex(VP, aMapOfVertexEdges, aVertex);
       
       if(vertexfound && !aVertex.IsNull()) {
-	TopTools_ListIteratorOfListOfShape anIt(aMapOfVertexEdges.FindFromKey(aVertex));
-	for(; !edgefound && anIt.More(); anIt.Next()) {	  
-	  const TopoDS_Edge& ei = TopoDS::Edge(anIt.Value());
+	for (auto s : aMapOfVertexEdges.FindFromKey(aVertex)) {
+	  if (edgefound)
+	    break;
+	  const TopoDS_Edge& ei = TopoDS::Edge(s);
 	  Standard_Real pari = BRep_Tool::Parameter(aVertex, ei);
 	  if(!BRep_Tool::Degenerated(ei)) {
 	    edgefound = !local_FindTreatedEdgeOnVertex(ei, aVertex);
@@ -1242,12 +1243,13 @@ Standard_Boolean TopOpeBRep_FacesFiller::ProcessVPondgE
 // modified by NIZHNY-MKK  Tue Nov 21 17:32:52 2000.BEGIN
 static Standard_Boolean local_FindTreatedEdgeOnVertex(const TopoDS_Edge& theEdge,
 						const TopoDS_Vertex& theVertex) {
+#warning TODO: c++ify
   Standard_Boolean found = Standard_False;
   if(aMapOfTreatedVertexListOfEdge.IsBound(theVertex)) {
-    TopTools_ListIteratorOfListOfShape anIt(aMapOfTreatedVertexListOfEdge(theVertex));
-    for(; !found && anIt.More(); anIt.Next()) {
-      if(theEdge.IsSame(anIt.Value())) {
+    for (auto s : aMapOfTreatedVertexListOfEdge(theVertex)) {
+      if(theEdge.IsSame(s)) {
 	found = Standard_True;
+	break;
       }
     }
   }

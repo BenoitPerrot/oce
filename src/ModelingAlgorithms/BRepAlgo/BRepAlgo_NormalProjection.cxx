@@ -487,20 +487,18 @@ void BRepAlgo_NormalProjection::SetDefaultParams()
 	       BoolTool.Common();
 	       Handle(TopOpeBRepBuild_HBuilder) HB;
 	       TopTools_ListOfShape LS;
-	       TopTools_ListIteratorOfListOfShape Iter; 
 	       HB = BoolTool.Builder();
 	       LS.clear();
 	       if (HB->IsSplit(prj, TopAbs_IN))
 	         LS = HB->Splits(prj, TopAbs_IN);
-	       Iter.Initialize(LS);
-	       if(Iter.More()) {
+	       if (!LS.empty()) {
 #ifdef OCCT_DEBUG
                   cout << " BooleanOperations :"  << Iter.More()<<" solutions " << endl; 
 #endif
-	          for(; Iter.More(); Iter.Next()) {
-	  	     BB.Add(myRes, Iter.Value());
-		     myAncestorMap.Bind(Iter.Value(), Edges->Value(i));
-		     myCorresp.Bind(Iter.Value(),Faces->Value(j));
+		  for (auto S : LS) {
+	  	     BB.Add(myRes, S);
+		     myAncestorMap.Bind(S, Edges->Value(i));
+		     myCorresp.Bind(S,Faces->Value(j));
 	          }
 	       }
 

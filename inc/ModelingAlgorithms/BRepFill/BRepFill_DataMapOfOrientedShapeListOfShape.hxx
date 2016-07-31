@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/Handle_BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -18,7 +19,6 @@
 class Standard_DomainError;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_OrientedShapeMapHasher;
 class BRepFill_DataMapNodeOfDataMapOfOrientedShapeListOfShape;
 class BRepFill_DataMapIteratorOfDataMapOfOrientedShapeListOfShape;

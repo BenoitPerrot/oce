@@ -433,10 +433,11 @@ void TopOpeBRepBuild_FaceBuilder::DetectPseudoInternalEdge(TopTools_IndexedMapOf
   MapE.Clear();
   for (Standard_Integer i = 1; i <= nv; i++) {
     const TopTools_ListOfShape& le = mapVOE.FindFromIndex(i);
-    Standard_Integer ne = le.size();
-    if (ne == 2) {
-      TopTools_ListIteratorOfListOfShape ile(le); const TopoDS_Shape& e1 = ile.Value();
-      ile.Next();        const TopoDS_Shape& e2 = ile.Value();
+    if (le.size() == 2) {
+      TopTools_ListOfShape::const_iterator ile = begin(le);
+      const TopoDS_Shape& e1 = *ile;
+      ++ile;
+      const TopoDS_Shape& e2 = *ile;
       Standard_Boolean same = e1.IsSame(e2);
       TopAbs_Orientation o1 = e1.Orientation();
       TopAbs_Orientation o2 = e2.Orientation();

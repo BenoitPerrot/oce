@@ -258,8 +258,8 @@ static Standard_Integer BUC60854 (Draw_Interpretor& /*di*/, Standard_Integer arg
   BRep_Builder BB;
   TopoDS_Shape aShell;
   BB.MakeShell(TopoDS::Shell(aShell));
-  TopTools_ListIteratorOfListOfShape anIter(aLeftPart);
-  for(; anIter.More(); anIter.Next()) BB.Add(aShell, anIter.Value());
+  for (auto leftS : aLeftPart)
+    BB.Add(aShell, leftS);
   aShell.Closed (BRep_Tool::IsClosed (aShell));
   DBRep::Set(argv[1],aShell);
   return 0;
@@ -407,8 +407,8 @@ Standard_Boolean BuildWiresWithReshape
   aShFixWire->Load(aWireData);
   aShFixWire->SetPrecision(theTolerance);
 
-  for(anEdgeIter.Initialize(theListOfEdges); anEdgeIter.More(); anEdgeIter.Next())
-    aWireData->Add(TopoDS::Edge(anEdgeIter.Value()));
+  for (auto S : theListOfEdges)
+    aWireData->Add(TopoDS::Edge(S));
 
   aWireOrder.KeepLoopsMode() = isKeepLoopsMode;
   aWireAnalyzer = aShFixWire->Analyzer();
@@ -546,9 +546,8 @@ static Standard_Integer BUC60868 (Draw_Interpretor& di, Standard_Integer argc, c
   else {
     BRep_Builder aBld;
     aBld.MakeCompound (TopoDS::Compound(aRes));
-    TopTools_ListIteratorOfListOfShape aWireIter (aListOfWires);
-    for(; aWireIter.More(); aWireIter.Next())
-      aBld.Add (aRes, aWireIter.Value());
+    for (auto S : aListOfWires)
+      aBld.Add (aRes, S);
   }
 
   DBRep::Set(argv[1], aRes);

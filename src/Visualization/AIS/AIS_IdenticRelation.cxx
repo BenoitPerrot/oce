@@ -159,27 +159,29 @@ static Standard_Boolean ConnectedEdges(const TopoDS_Wire& WIRE,
     E2.Nullify();
     return Standard_False;
   }
-  
-  TopTools_ListIteratorOfListOfShape iterator(vertexMap.FindFromKey(theVertex));
-  if (iterator.More()) {
-    E1 = TopoDS::Edge(iterator.Value());
-    iterator.Next();
+
+#warning TODO: factor with AIS_FixRelation
+  auto l = vertexMap.FindFromKey(theVertex);
+  TopTools_ListIteratorOfListOfShape iterator = begin(l);
+  if (iterator != end(l)) {
+    E1 = TopoDS::Edge(*iterator);
+    ++iterator;
   }
   else {
     E1.Nullify();
     return Standard_False;
   }
   
-  if (iterator.More()) {
-    E2 = TopoDS::Edge(iterator.Value());
-    iterator.Next();
+  if (iterator != end(l)) {
+    E2 = TopoDS::Edge(*iterator);
+    ++iterator;
   }
   else {
     E2.Nullify();
     return Standard_False;
   }
   
-  if (iterator.More()) {
+  if (iterator != end(l)) {
     E1.Nullify();
     E2.Nullify();
     return Standard_False;

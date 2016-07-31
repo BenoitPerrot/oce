@@ -1988,21 +1988,18 @@ void ChFi3d_FilBuilder::ExtentThreeCorner(const TopoDS_Vertex& V,
 void ChFi3d_FilBuilder::SetRegul()
 
 {
-  TopTools_ListIteratorOfListOfShape itc;
   TopTools_ListIteratorOfListOfShape its1;
   TopTools_ListIteratorOfListOfShape its2;
   BRep_Builder B;
   for (const ChFiDS_Regul& reg : myRegul) {
-    itc.Initialize(myCoup->NewEdges(reg.Curve()));
-    if(itc.More()){
-      TopoDS_Edge E = TopoDS::Edge(itc.Value());
-      if(reg.IsSurface1()) its1.Initialize(myCoup->NewFaces(reg.S1()));
-      else its1.Initialize(myCoup->Merged(myDS->Shape(reg.S1()),TopAbs_IN));
-      if(reg.IsSurface2()) its2.Initialize(myCoup->NewFaces(reg.S2()));
-      else its2.Initialize(myCoup->Merged(myDS->Shape(reg.S2()),TopAbs_IN));
-      if(its1.More() && its2.More()){
-	TopoDS_Face F1 = TopoDS::Face(its1.Value());
-	TopoDS_Face F2 = TopoDS::Face(its2.Value());
+    auto &lc = myCoup->NewEdges(reg.Curve());
+    if (!lc.empty()) {
+      TopoDS_Edge E = TopoDS::Edge(lc.front());
+      auto &l1 = reg.IsSurface1() ? myCoup->NewFaces(reg.S1()) : myCoup->Merged(myDS->Shape(reg.S1()),TopAbs_IN);
+      auto &l2 = reg.IsSurface2() ? myCoup->NewFaces(reg.S2()) : myCoup->Merged(myDS->Shape(reg.S2()),TopAbs_IN);
+      if (!l1.empty() && !l2.empty()){
+	TopoDS_Face F1 = TopoDS::Face(l1.front());
+	TopoDS_Face F2 = TopoDS::Face(l2.front());
 	GeomAbs_Shape cont = ChFi3d_evalconti(E,F1,F2);
  	B.Continuity(E,F1,F2,cont);
       }

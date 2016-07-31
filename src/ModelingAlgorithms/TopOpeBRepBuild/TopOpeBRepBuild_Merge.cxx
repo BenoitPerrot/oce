@@ -87,18 +87,18 @@ static void CorrectEdgeOrientation(TopoDS_Shape& aWire)
   Standard_Integer n = anEdgeList.size();
   if(n <= 1) return;
 
-  TopTools_ListIteratorOfListOfShape anIt(anEdgeList);
+  TopTools_ListIteratorOfListOfShape anIt = begin(anEdgeList);
 
-  TopoDS_Shape anCurEdge = anIt.Value();
+  TopoDS_Shape anCurEdge = *anIt;
   TopExp::Vertices(TopoDS::Edge(anCurEdge), vf, vl, Standard_True);
   aTrueEdgeList.push_back(anCurEdge);
-  anIt.Next();
+  ++anIt;
 
   while(n > 0 && append) {
 
-    for(; anIt.More(); anIt.Next()) {
+    for(; anIt != end(anEdgeList); ++anIt) {
       append = Standard_False;
-      anCurEdge =  anIt.Value();
+      anCurEdge = *anIt;
       TopExp::Vertices(TopoDS::Edge(anCurEdge), v1f, v1l, Standard_True);
       if(v1f.IsSame(vl)) {
 	aTrueEdgeList.push_back(anCurEdge);
@@ -131,18 +131,18 @@ static void CorrectEdgeOrientation(TopoDS_Shape& aWire)
       anAuxList.push_back(anCurEdge);
     }
 
-    anEdgeList.Assign(anAuxList);
+    anEdgeList = anAuxList;
     anAuxList.clear(); //something wrong in Assign when list contains 1 element.
     n = anEdgeList.size();
-    anIt.Initialize(anEdgeList);
+    anIt = begin(anEdgeList);
   }
 
-  if(n > 0) aTrueEdgeList.Append(anEdgeList);
+  if(n > 0) aTrueEdgeList.insert(end(aTrueEdgeList), begin(anEdgeList), end(anEdgeList));
 
   aWire.Nullify();
   BB.MakeWire(TopoDS::Wire(aWire));
-  anIt.Initialize(aTrueEdgeList);
-  for(; anIt.More(); anIt.Next()) BB.Add(aWire, anIt.Value());
+  for (auto s : aTrueEdgeList)
+    BB.Add(aWire, s);
 
 }
 

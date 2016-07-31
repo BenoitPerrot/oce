@@ -12,6 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/BRepTools/BRepTools_Substitution.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
@@ -21,7 +22,6 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;
 class TopoDS_Face;
 class TopTools_MapOfShape;

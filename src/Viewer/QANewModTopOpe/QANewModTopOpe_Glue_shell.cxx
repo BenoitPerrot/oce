@@ -67,10 +67,10 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
   // prepare structures aMapEdgeIPV and aParVer
 
   aListTodo.push_front(theEdge);
-  TopTools_ListIteratorOfListOfShape aIter(aListTodo);
-  Standard_Integer iPV;
-  for (iPV=0; aIter.More(); aIter.Next(), iPV++) {
-    const TopoDS_Edge& aEdge = TopoDS::Edge(aIter.Value());
+  TopTools_ListIteratorOfListOfShape aIter;
+  Standard_Integer iPV = 0;
+  for (aIter = begin((aListTodo)); aIter != end(aListTodo); ++aIter, iPV++) {
+    const TopoDS_Edge& aEdge = TopoDS::Edge(*aIter);
     TopoDS_Vertex aVer1, aVer2;
     Standard_Real aPar1, aPar2;
 
@@ -80,14 +80,14 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
 
     if(aVer1.IsNull() || aVer2.IsNull()) {
       aIter = aListTodo.erase(aIter);
-      TopTools_ListIteratorOfListOfShape aIter1(theListSplits);
-      for (; aIter1.More(); aIter1.Next()) {
-	if(aEdge.IsSame(aIter1.Value())) {
+#warning remove_if
+      for (TopTools_ListIteratorOfListOfShape aIter1 = begin(theListSplits); aIter1 != end(theListSplits); ++aIter1) {
+	if(aEdge.IsSame(*aIter1)) {
 	  aIter1 = theListSplits.erase(aIter1);
 	  break;
 	}
       }
-      if(aIter.More()) continue;
+      if(aIter != end(theListSplits)) continue;
       break;
     }
 
@@ -136,10 +136,9 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
       aParVer[iPV].myParF = aPar2; aParVer[iPV].myVerF = aVer2;
       aParVer[iPV].myParL = aPar1; aParVer[iPV].myVerL = aVer1;
       if(iPV != 0) {
-	TopTools_ListIteratorOfListOfShape aIterSplits(theListSplits);
-	for(; aIterSplits.More(); aIterSplits.Next()) {
-	  if(aEdge.IsSame(aIterSplits.Value())) {
-	    aIterSplits.Value().Reverse();
+	for (auto S : theListSplits) {
+	  if(aEdge.IsSame(S)) {
+	    S.Reverse();
 	  }
 	}
       }
@@ -157,11 +156,12 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
 
     // find the most left edge
     iPV = 0;
+#warning find
     TopTools_ListIteratorOfListOfShape aIterFound;
     Standard_Real aParF = aParVer[0].myParL;
     TopoDS_Vertex aVerF = aParVer[0].myVerL;
-    for (aIter.Initialize(aListTodo); aIter.More(); aIter.Next()) {
-      const TopoDS_Edge& aEdge = TopoDS::Edge(aIter.Value());
+    for (aIter = begin(aListTodo); aIter != end(aListTodo); ++aIter) {
+      const TopoDS_Edge& aEdge = TopoDS::Edge(*aIter);
       Standard_Integer i = aMapEdgeIPV(aEdge);
       if (aParVer[i].myParF < aParF) {
 	aParF = aParVer[i].myParF;
@@ -200,7 +200,7 @@ SplitEdgeComplete (const TopoDS_Edge& theEdge,
     }
 
     iPVLast = iPV;
-    if (aIterFound.More())
+    if (aIterFound != end(aListTodo))
       aIterFound = aListTodo.erase(aIterFound);
   }
 
@@ -228,9 +228,7 @@ SplitEdge (const TopoDS_Edge          &theEdge,
       TopTools_ListOfShape aListSplits;
 
       QANewModTopOpe_Tools::Splits(thePDSFiller, theEdge, aStates[i], aListSplits);
-      TopTools_ListIteratorOfListOfShape aIterSplits(aListSplits);
-      for(; aIterSplits.More(); aIterSplits.Next()) {
-	const TopoDS_Shape& aEdge = aIterSplits.Value();
+      for (const TopoDS_Shape& aEdge : aListSplits) {
 	if (!useMap || theEdgesValid.Contains (aEdge))
 	  theListSplits.push_back(aEdge.Oriented(TopAbs_FORWARD));
       }
@@ -307,9 +305,9 @@ CorrectAncestorsList (const TopoDS_Edge& theEdge, TopTools_ListOfShape& aListF)
 
   // get a middle point on edge
   TopTools_MapOfShape aMapF;
-  TopTools_ListIteratorOfListOfShape aIter(aListF);
-  while (aIter.More()) {
-    const TopoDS_Face& aFace = TopoDS::Face(aIter.Value());
+  TopTools_ListIteratorOfListOfShape aIter = begin(aListF);
+  while (aIter != end(aListF)) {
+    const TopoDS_Face& aFace = TopoDS::Face(*aIter);
     if (!aMapF.Add(aFace)) {
       // duplicate -> remove
       aIter = aListF.erase(aIter);
@@ -320,7 +318,7 @@ CorrectAncestorsList (const TopoDS_Edge& theEdge, TopTools_ListOfShape& aListF)
       aIter = aListF.erase(aIter);
       continue;
     }
-    aIter.Next();
+    ++aIter;
   }
 }
 
@@ -488,9 +486,7 @@ QANewModTopOpe_Glue::PerformShell()
 
 	QANewModTopOpe_Tools::Splits(myDSFiller, aEdge, aStates[i], aListSplits);
 
-	TopTools_ListIteratorOfListOfShape aIterSplits(aListSplits);
-	for(; aIterSplits.More(); aIterSplits.Next()) {
-	  const TopoDS_Shape& aE = aIterSplits.Value();
+	for (const TopoDS_Shape& aE : aListSplits) {
 	  TopoDS_Iterator aTDSIter(aE);
 	  for(; aTDSIter.More(); aTDSIter.Next()) {
 	    const TopoDS_Shape& aV = aTDSIter.Value();
@@ -516,10 +512,9 @@ QANewModTopOpe_Glue::PerformShell()
 
   // for each section edge remember the face crossed by the edge
   // and the faces for which the edge coincides with a face's bound
-  TopTools_ListIteratorOfListOfShape aIterSE(aListSE);
   Standard_Integer aNbUsedSecEdges = 0;
-  for(; aIterSE.More(); aIterSE.Next()) {
-    const TopoDS_Edge& aSecEdge = TopoDS::Edge(aIterSE.Value());
+  for (auto S : aListSE) {
+    const TopoDS_Edge& aSecEdge = TopoDS::Edge(S);
 
     if(!aCommonEdges.Contains(aSecEdge)) {
 
@@ -541,9 +536,8 @@ QANewModTopOpe_Glue::PerformShell()
 	  aMapSEdgeFaces[i]->Bind(aSecEdge, aListF[i]);
 	  if (aListE[i].empty())
 	    aMapSEdgeCrossFace[i]->Bind(aSecEdge, aListF[i].front());
-	  TopTools_ListIteratorOfListOfShape aIter (aListF[i]);
-	  for (; aIter.More(); aIter.Next())
-	    aSetFaces[i].Add(aIter.Value());
+	  for (auto SI : aListF[i])
+	    aSetFaces[i].Add(SI);
 	}
 	else if (!aFaces[i].IsNull()) {
 	  TopTools_ListOfShape aList;
@@ -555,9 +549,8 @@ QANewModTopOpe_Glue::PerformShell()
 	}
 	else if (!aListE[i].empty()) {
 	  myEdgesToLeave.Add (aSecEdge);
-	  TopTools_ListIteratorOfListOfShape aIter (aListE[i]);
-	  for (; aIter.More(); aIter.Next())
-	    aSetEdges[i].Add(aIter.Value());
+	  for (auto SI : aListE[i])
+	    aSetEdges[i].Add(SI);
 	}
       }
       if (nbCurveAncestors == 2) {
@@ -606,7 +599,8 @@ QANewModTopOpe_Glue::PerformShell()
 	  // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aEdge, TopTools_ListOfShape());
 	  TopTools_ListOfShape aListOfShape2;
 	  myMapModif.Bind(aEdge, aListOfShape2);
-	  myMapModif(aEdge).Append (aListSplitE);
+	  auto &l = myMapModif(aEdge);
+	  l.splice(end(l), aListSplitE);
 	}
       }
     }
@@ -616,14 +610,13 @@ QANewModTopOpe_Glue::PerformShell()
       TopTools_ListOfShape aListSEOnFace;
 
       // select section edges on this face
-      for (aIterSE.Initialize(aListSE); aIterSE.More(); aIterSE.Next()) {
-	const TopoDS_Edge& aSecEdge = TopoDS::Edge(aIterSE.Value());
+      for (auto S : aListSE) {
+	const TopoDS_Edge& aSecEdge = TopoDS::Edge(S);
 	// check if aFace is an ancestor of aSecEdge
 	if (aMapSEdgeFaces[1]->IsBound(aSecEdge)) {
-	  TopTools_ListIteratorOfListOfShape
-	    aIterF (aMapSEdgeFaces[1]->Find(aSecEdge));
-	  for (; aIterF.More(); aIterF.Next())
-	    if (aIterF.Value().IsSame(aFace)) {
+#warning find
+	  for (auto S1 : aMapSEdgeFaces[1]->Find(aSecEdge))
+	    if (S1.IsSame(aFace)) {
 	      aListSEOnFace.push_back(aSecEdge);
 	      break;
 	    }
@@ -639,8 +632,7 @@ QANewModTopOpe_Glue::PerformShell()
     }
 
     // remove from maps all the section edges which are not marked to leave
-    for (aIterSE.Initialize (aListSE); aIterSE.More(); aIterSE.Next()) {
-      const TopoDS_Shape& aSecEdge = aIterSE.Value();
+    for (const TopoDS_Shape& aSecEdge : aListSE) {
       if (!myEdgesToLeave.Contains (aSecEdge)) {
 	myMapSEdgeFaces1.UnBind (aSecEdge);
 	myMapSEdgeFaces2.UnBind (aSecEdge);
@@ -650,8 +642,8 @@ QANewModTopOpe_Glue::PerformShell()
     }
   }
   else {	// not the case Solid-Shell
-    for (aIterSE.Initialize (aListSE); aIterSE.More(); aIterSE.Next())
-      myEdgesToLeave.Add (aIterSE.Value());
+    for (auto S : aListSE)
+      myEdgesToLeave.Add(S);
   }
 
   // process intersected faces
@@ -670,9 +662,8 @@ QANewModTopOpe_Glue::PerformShell()
 	//Substitution of vertices at the ends of aEdge.
 	TopoDS_Vertex aV1, aV2;
 	TopExp::Vertices(aEdge, aV1, aV2);
-	TopTools_ListIteratorOfListOfShape anIter(aListSplitE);
-	for(; anIter.More(); anIter.Next()) {
-	  const TopoDS_Edge& aSpE = TopoDS::Edge(anIter.Value());
+	for (auto S : aListSplitE) {
+	  const TopoDS_Edge& aSpE = TopoDS::Edge(S);
 	  TopoDS_Vertex aSpV1, aSpV2;
 	  TopExp::Vertices(aSpE, aSpV1, aSpV2);
 	  aSpV1.Orientation(TopAbs_FORWARD);
@@ -687,7 +678,8 @@ QANewModTopOpe_Glue::PerformShell()
 		// for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aV1, TopTools_ListOfShape());
 	        TopTools_ListOfShape aListOfShape3;
 		myMapModif.Bind(aV1, aListOfShape3);
-		myMapModif(aV1).Append (aL);
+		auto &l = myMapModif(aV1);
+		l.insert(end(l), begin(aL), end(aL));
 //	      }
 	    }
 	  }
@@ -700,7 +692,8 @@ QANewModTopOpe_Glue::PerformShell()
 		// for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aV1, TopTools_ListOfShape());
 	        TopTools_ListOfShape aListOfShape4;
 		myMapModif.Bind(aV1, aListOfShape4);
-		myMapModif(aV1).Append (aL);
+		auto &l = myMapModif(aV1);
+		l.insert(end(l), begin(aL), end(aL));
 //	      }
 	    }
 	  }
@@ -713,7 +706,8 @@ QANewModTopOpe_Glue::PerformShell()
 		// for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aV2, TopTools_ListOfShape());
 	        TopTools_ListOfShape aListOfShape5;
 		myMapModif.Bind(aV2, aListOfShape5);
-		myMapModif(aV2).Append (aL);
+		auto &l = myMapModif(aV2);
+		l.insert(end(l), begin(aL), end(aL));
 //	      }
 	    }
 	  }
@@ -726,7 +720,8 @@ QANewModTopOpe_Glue::PerformShell()
 		// for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aV2, TopTools_ListOfShape());
 	        TopTools_ListOfShape aListOfShape6;
 		myMapModif.Bind(aV2, aListOfShape6);
-		myMapModif(aV2).Append (aL);
+		auto &l = myMapModif(aV2);
+		l.insert(end(l), begin(aL), end(aL));
 //	      }
 	    }
 	  }
@@ -736,7 +731,8 @@ QANewModTopOpe_Glue::PerformShell()
 	  // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aEdge, TopTools_ListOfShape());
           TopTools_ListOfShape aListOfShape7;
 	  myMapModif.Bind(aEdge, aListOfShape7);
-	  myMapModif(aEdge).Append (aListSplitE);
+	  auto &l = myMapModif(aEdge);
+	  l.insert(end(l), begin(aListSplitE), end(aListSplitE));
 	}
       }
     }
@@ -746,14 +742,12 @@ QANewModTopOpe_Glue::PerformShell()
       TopTools_ListOfShape aListSEOnFace;
 
       // select section edges on this face
-      for (aIterSE.Initialize(aListSE); aIterSE.More(); aIterSE.Next()) {
-	const TopoDS_Edge& aSecEdge = TopoDS::Edge(aIterSE.Value());
+      for (auto S : aListSE) {
+	const TopoDS_Edge& aSecEdge = TopoDS::Edge(S);
 	// check if aFace is an ancestor of aSecEdge
 	if (aMapSEdgeFaces[i]->IsBound(aSecEdge)) {
-	  TopTools_ListIteratorOfListOfShape
-	    aIterF (aMapSEdgeFaces[i]->Find(aSecEdge));
-	  for (; aIterF.More(); aIterF.Next())
-	    if (aIterF.Value().IsSame(aFace)) {
+	  for (auto Si : aMapSEdgeFaces[i]->Find(aSecEdge))
+	    if (Si.IsSame(aFace)) {
 	      aListSEOnFace.push_back(aSecEdge);
 	      break;
 	    }
@@ -853,9 +847,7 @@ QANewModTopOpe_Glue::PerformShell()
 
       BRep_Builder aBld;
       Standard_Real aTol = Precision::Confusion();
-      TopTools_ListIteratorOfListOfShape anISpl(aListSplits);
-      for(; anISpl.More(); anISpl.Next()) {
-	const TopoDS_Shape& aSpE = anISpl.Value();
+      for (const TopoDS_Shape& aSpE : aListSplits) {
 	Standard_Real tol = BRep_Tool::Tolerance(TopoDS::Edge(aSpE));
 	if(tol > aTol) {
 	  aBld.UpdateEdge(TopoDS::Edge(aSpE), 1.05*tol);
@@ -913,9 +905,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	//Substitution of vertices at the ends of aEdge.
 	TopoDS_Vertex aV1, aV2;
 	TopExp::Vertices(aEdge, aV1, aV2);
-	TopTools_ListIteratorOfListOfShape anIter(aListSplitE);
-	for(; anIter.More(); anIter.Next()) {
-	  const TopoDS_Edge& aSpE = TopoDS::Edge(anIter.Value());
+	for (auto S : aListSplitE) {
+	  const TopoDS_Edge& aSpE = TopoDS::Edge(S);
 	  TopoDS_Vertex aSpV1, aSpV2;
 	  TopExp::Vertices(aSpE, aSpV1, aSpV2);
 	  aSpV1.Orientation(TopAbs_FORWARD);
@@ -930,7 +921,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	      // for Mandrake-10 - mkv,02.06.06 - theMapModif.Bind(aV1, TopTools_ListOfShape());
               TopTools_ListOfShape aListOfShape1;
 	      theMapModif.Bind(aV1, aListOfShape1);
-	      theMapModif(aV1).Append (aL);
+	      auto &l = theMapModif(aV1);
+	      l.insert(end(l), begin(aL), end(aL));
 	    }
 	  }
 	  if(BRepTools::Compare(aV1, aSpV2) && (!aV1.IsSame(aSpV2))) {
@@ -942,7 +934,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	      // for Mandrake-10 - mkv,02.06.06 - theMapModif.Bind(aV1, TopTools_ListOfShape());
               TopTools_ListOfShape aListOfShape2;
 	      theMapModif.Bind(aV1, aListOfShape2);
-	      theMapModif(aV1).Append (aL);
+	      auto &l = theMapModif(aV1);
+	      l.insert(end(l), begin(aL), end(aL));
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV1) && (!aV2.IsSame(aSpV1))) {
@@ -954,7 +947,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	      // for Mandrake-10 - mkv,02.06.06 - theMapModif.Bind(aV2, TopTools_ListOfShape());
               TopTools_ListOfShape aListOfShape3;
 	      theMapModif.Bind(aV2, aListOfShape3);
-	      theMapModif(aV2).Append (aL);
+	      auto &l = theMapModif(aV2);
+	      l.insert(end(l), begin(aL), end(aL));
 	    }
 	  }
 	  if(BRepTools::Compare(aV2, aSpV2) && (!aV2.IsSame(aSpV2))) {
@@ -966,7 +960,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
 	      // for Mandrake-10 - mkv,02.06.06 - theMapModif.Bind(aV2, TopTools_ListOfShape());
               TopTools_ListOfShape aListOfShape4;
 	      theMapModif.Bind(aV2, aListOfShape4);
-	      theMapModif(aV2).Append (aL);
+	      auto &l = theMapModif(aV2);
+	      l.insert(end(l), begin(aL), end(aL));
 	    }
 	  }
 	}
@@ -975,7 +970,8 @@ SplitFaceBoundary (const TopoDS_Face& theFace,
       // for Mandrake-10 - mkv,02.06.06 - theMapModif.Bind(aEdge, TopTools_ListOfShape());
       TopTools_ListOfShape aListOfShape5;
       theMapModif.Bind(aEdge, aListOfShape5);
-      theMapModif(aEdge).Append (aListSplitE);
+      auto &l = theMapModif(aEdge);
+      l.insert(end(l), begin(aListSplitE), end(aListSplitE));
     }
   }
 
@@ -1031,9 +1027,8 @@ QANewModTopOpe_Glue::CutFace(const TopoDS_Face& theFace,
 
   // split face on subfaces by section edges lying inside the face
   BRepFeat_SplitShape aSpliter (aFace1);
-  TopTools_ListIteratorOfListOfShape aIterSE (theListSE);
-  for (; aIterSE.More(); aIterSE.Next()) {
-    const TopoDS_Edge& aSEdge = TopoDS::Edge (aIterSE.Value());
+  for (auto S : theListSE) {
+    const TopoDS_Edge& aSEdge = TopoDS::Edge(S);
     if (myMapSEdgeCrossFace2.IsBound(aSEdge))
       aSpliter.Add (aSEdge, aFace1);
   }
@@ -1042,9 +1037,8 @@ QANewModTopOpe_Glue::CutFace(const TopoDS_Face& theFace,
 
   // get OUT splits and append them to the substitution list
   TopTools_ListOfShape aListToSubst;
-  TopTools_ListIteratorOfListOfShape aIter(aListSplit);
-  for(; aIter.More(); aIter.Next()) {
-    const TopoDS_Face& aFaceNew = TopoDS::Face (aIter.Value());
+  for (auto S : aListSplit) {
+    const TopoDS_Face& aFaceNew = TopoDS::Face(S);
     TopAbs_State aState = ClassifyFace (aFaceNew, theListSE);
     if (aState == TopAbs_OUT) {
       aListToSubst.push_back(aFaceNew.Oriented(TopAbs_FORWARD));
@@ -1067,7 +1061,8 @@ QANewModTopOpe_Glue::CutFace(const TopoDS_Face& theFace,
     // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(theFace, TopTools_ListOfShape());
     TopTools_ListOfShape aListOfShape;
     myMapModif.Bind(theFace, aListOfShape);
-    myMapModif(theFace).Append (aListToSubst);
+    auto &l = myMapModif(theFace);
+    l.insert(end(l), begin(aListToSubst), end(aListToSubst));
   }
 
   return aRetValue;
@@ -1148,9 +1143,8 @@ QANewModTopOpe_Glue::ClassifyFace(const TopoDS_Face& theFace,
 {
   TopAbs_State aState = TopAbs_UNKNOWN;
 
-  TopTools_ListIteratorOfListOfShape aIterSE (theListSE);
-  for (; aIterSE.More(); aIterSE.Next()) {
-    const TopoDS_Edge& aEdge = TopoDS::Edge (aIterSE.Value());
+  for (auto S : theListSE) {
+    const TopoDS_Edge& aEdge = TopoDS::Edge(S);
 
     // get a point on edge and a vector directed to inside face
     // relatively that point
@@ -1162,9 +1156,8 @@ QANewModTopOpe_Glue::ClassifyFace(const TopoDS_Face& theFace,
 
     // get faces from solid
     if (!myMapSEdgeFaces1.IsBound(aEdge)) continue;
-    TopTools_ListIteratorOfListOfShape aIterF (myMapSEdgeFaces1(aEdge));
-    for (; aIterF.More(); aIterF.Next()) {
-      const TopoDS_Face& aFaceSol = TopoDS::Face(aIterF.Value());
+    for (auto S1 : myMapSEdgeFaces1(aEdge)) {
+      const TopoDS_Face& aFaceSol = TopoDS::Face(S1);
       TopAbs_Orientation aOrient = aFaceSol.Orientation();
       if (aOrient != TopAbs_FORWARD && aOrient != TopAbs_REVERSED)
 	continue;
@@ -1281,9 +1274,7 @@ UpdateMapNewOld (const TopoDS_Shape& theSh, const BRepTools_Substitution& theSub
   for (Standard_Integer i=1; i<=aMapSh.Extent(); i++) {
     const TopoDS_Shape& aSubSh = aMapSh(i);
     if (!aSubSh.IsSame(theSh) && theSubst.IsCopied (aSubSh)) {
-      TopTools_ListIteratorOfListOfShape aIt (theSubst.Copy(aSubSh));
-      for (; aIt.More(); aIt.Next()) {
-	const TopoDS_Shape& aNewSubSh = aIt.Value();
+      for (const TopoDS_Shape& aNewSubSh : theSubst.Copy(aSubSh)) {
 	if (theMapNewOld.IsBound(aSubSh)) {
 	  TopoDS_Shape aOldSubSh = theMapNewOld(aSubSh);
 	  theMapNewOld.UnBind (aSubSh);
@@ -1354,12 +1345,11 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
     (theShapeNum==0 ? myMapSEdgeCrossFace1 : myMapSEdgeCrossFace2);
   BRep_Builder aBld;
   TopTools_DataMapOfShapeShape aMapNewOld;
-  TopTools_ListIteratorOfListOfShape aIterSE (theListSE);
-
+  
   TopTools_MapOfShape aVerGener;
 
-  for (; aIterSE.More(); aIterSE.Next()) {
-    const TopoDS_Edge& aSEdge = TopoDS::Edge (aIterSE.Value());
+  for (auto S : theListSE) {
+    const TopoDS_Edge& aSEdge = TopoDS::Edge(S);
     // skip edges lying on the boundary
     if (!aMapEF.IsBound (aSEdge)) continue;
 
@@ -1413,9 +1403,10 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
 	  if (aMapNewOrig.IsBound(aOld)) {
 	    aOrig = aMapNewOrig(aOld);
 	    TopTools_ListOfShape& aListModif = myMapModif(aOrig);
-	    TopTools_ListIteratorOfListOfShape aIt (aListModif);
-	    for (; aIt.More(); aIt.Next())
-	      if (aIt.Value().IsSame(aOld)) {
+#warning remove_if
+	    TopTools_ListIteratorOfListOfShape aIt = begin(aListModif);
+	    for (; aIt != end(aListModif); ++aIt)
+	      if (aIt->IsSame(aOld)) {
 		aIt = aListModif.erase(aIt);
 		break;
 	      }
@@ -1454,8 +1445,8 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
   Handle(BRepAlgo_EdgeConnector) aConnector = new BRepAlgo_EdgeConnector;
   TopTools_ListOfShape aListGener;
   TopoDS_Vertex aV1, aV2;
-  for (aIterSE.Initialize (theListSE); aIterSE.More(); aIterSE.Next()) {
-    const TopoDS_Edge& aSEdge = TopoDS::Edge (aIterSE.Value());
+  for (auto S : theListSE) {
+    const TopoDS_Edge& aSEdge = TopoDS::Edge(S);
     if (aMapEF.IsBound (aSEdge)) {
       aConnector->Add (aSEdge);
       aConnector->AddStart (aSEdge);
@@ -1480,9 +1471,7 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
       aBld.Add (aNewFace, aIterF.Value());
     }
     // add new wires as internal
-    TopTools_ListIteratorOfListOfShape aIterL (aListW);
-    for (; aIterL.More(); aIterL.Next()) {
-      TopoDS_Shape aWire = aIterL.Value();
+    for (TopoDS_Shape aWire : aListW) {
       // check if there is a wire containing the same set of edges;
       // in this case use the old wire
       aWire = FindWireOrUpdateMap (aWire, myMapEdgeWires);
@@ -1496,12 +1485,14 @@ QANewModTopOpe_Glue::SectionInsideFace(const TopoDS_Face& theFace,
     // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(theFace, TopTools_ListOfShape());
     TopTools_ListOfShape aListOfShape4;
     myMapModif.Bind(theFace, aListOfShape4);
-    myMapModif(theFace).Append (aList);
+    auto &m = myMapModif(theFace);
+    m.insert(end(m), begin(aList), end(aList));
     if(!aListGener.empty()) {
       // for Mandrake-10 - mkv,02.06.06 - myMapGener.Bind(theFace, TopTools_ListOfShape());
       TopTools_ListOfShape aListOfShape5;
       myMapGener.Bind(theFace, aListOfShape5);
-      myMapGener(theFace).Append (aListGener);
+      auto &g = myMapGener(theFace);
+      g.insert(end(g), begin(aListGener), end(aListGener));
     }
   }
 #ifdef OCCT_DEBUG

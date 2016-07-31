@@ -181,14 +181,14 @@ const TopTools_ListOfShape& QANewModTopOpe_Limitation::Modified(const TopoDS_Sha
     myGenerated = myCut->Modified(S);
 
     TopTools_MapOfShape aMap; // to check if shape can be added in list more then one time
-    TopTools_ListIteratorOfListOfShape It(myGenerated);
-    for(;It.More();It.Next()) {
-      aMap.Add(It.Value());
+    for (auto G : myGenerated) {
+      aMap.Add(G);
     }
-    
-    It.Initialize(myCommon->Modified(S));
-    for(;It.More();It.Next()) {
-      if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());
+
+#warning copy_if
+    for (auto M : myCommon->Modified(S)) {
+      if(aMap.Add(M))
+	myGenerated.push_back(M);
     }
   }
 
@@ -213,14 +213,14 @@ const TopTools_ListOfShape& QANewModTopOpe_Limitation::Generated(const TopoDS_Sh
     myGenerated = myCut->Generated(S);
 
     TopTools_MapOfShape aMap; // to check if shape can be added in list more then one time
-    TopTools_ListIteratorOfListOfShape It(myGenerated);
-    for(;It.More();It.Next()) {
-      aMap.Add(It.Value());
+    for (auto G : myGenerated) {
+      aMap.Add(G);
     }
-    
-    It.Initialize(myCommon->Generated(S));
-    for(;It.More();It.Next()) {
-      if(aMap.Add(It.Value())) myGenerated.push_back(It.Value());
+
+#warning copy_if
+    for (auto G : myCommon->Generated(S)) {
+      if(aMap.Add(G))
+	myGenerated.push_back(G);
     }
   }
 

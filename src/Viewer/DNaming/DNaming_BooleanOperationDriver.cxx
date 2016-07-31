@@ -316,9 +316,7 @@ void DNaming_BooleanOperationDriver::LoadNamingDS (const TDF_Label& theResultLab
     if(aList.size() > 0 && aList.size() < 3) 
       theCase = Standard_True;
     
-    TopTools_ListIteratorOfListOfShape it(aList);
-    for(;it.More();it.Next()) {
-      TopoDS_Shape newShape = it.Value();
+    for (TopoDS_Shape newShape : aList) {
       if (SubShapes.IsBound(newShape)) 
 	newShape.Orientation((SubShapes(newShape)).Orientation());
       TNaming_Builder secED (theResultLabel.NewChild());

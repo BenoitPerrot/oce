@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_MakeOffset.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -18,7 +19,6 @@
 #include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
 class TopoDS_Shape;
 class BRepOffset_MakeOffset;
-class TopTools_ListOfShape;
 
 
 //! Describes functions to build a shell out of a shape. The

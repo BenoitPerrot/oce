@@ -526,9 +526,7 @@ void QANewBRepNaming_BooleanOperationFeat::LoadModified11 (BRepAlgoAPI_BooleanOp
       if (!View.Add(Root)) continue;
       const TopTools_ListOfShape& Shapes = MS.Modified (Root);
       if(Shapes.size() > 1) continue;
-      TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-      for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-	const TopoDS_Shape& newShape = ShapesIterator.Value ();
+      for (const TopoDS_Shape& newShape : Shapes) {
 	if (!Root.IsSame (newShape)) {
 	  //put shapes with evolution 1:1 (may be Compound)
 #ifdef OCCT_DEBUG
@@ -559,13 +557,12 @@ static void SortRootFaces(TopTools_ListOfShape& theList, const TopoDS_Shape& the
   TopTools_Array1OfShape  ArS(1, aNum);
   TColgp_Array1OfPnt      ArP(1, aNum);
   TColStd_Array1OfInteger ArI(1, aNum); 
-  TopTools_ListIteratorOfListOfShape It(theList);
-  Standard_Integer i;
-  for(i=1;It.More();It.Next(),i++) {
-    ArS.SetValue(i, It.Value ());
-    ArI.SetValue(i,0);
-    ArP.SetValue(i, GetCenterPoint(It.Value()));
-
+  Standard_Integer i = 1;
+  for (auto S : theList) {
+    ArS.SetValue(i, S);
+    ArI.SetValue(i, 0);
+    ArP.SetValue(i, GetCenterPoint(S));
+    ++i;
   }
   gp_Pnt aPnt = anAx.Location();
   Standard_Integer I, j;
@@ -590,32 +587,32 @@ static void SortRootFaces(TopTools_ListOfShape& theList, const TopoDS_Shape& the
 	if(ArI.Value(i) != -1) aList.push_back(ArS.Value(i));
     }
   }
-  theList.Assign(aList);
+  theList = aList;
 }
 //=======================================================================
 static void Sort2Faces(const TopTools_ListOfShape& Shapes,
 		       const gp_Ax1& theAx, TopTools_ListOfShape& theList)
 {
 
-  TopTools_ListIteratorOfListOfShape It(Shapes);
-  for(;It.More();It.Next()) {
-    if(Identify(TopoDS::Face(It.Value()), theAx) == 1)
-      theList.push_front(It.Value());   //Pos
-    else theList.push_back(It.Value()); //Neg
+  for (auto S : Shapes) {
+    if (Identify(TopoDS::Face(S), theAx) == 1)
+      theList.push_front(S);   //Pos
+    else
+      theList.push_back(S); //Neg
   }
 }
 
 //=======================================================================
 static void Sort3Faces(const TopTools_ListOfShape& theListIn, TopTools_ListOfShape& theListOut)
 {
-  TopTools_ListIteratorOfListOfShape It (theListIn);
   TopTools_Array1OfShape  ArS(1, theListIn.size());
   TColgp_Array1OfPnt      ArP(1, theListIn.size());
 
-  Standard_Integer i;
-  for(i=1;It.More();It.Next(),i++) {
-    ArS.SetValue(i, It.Value());
-    ArP.SetValue(i, GetCenterPoint(It.Value()));
+  Standard_Integer i = 1;
+  for (auto S : theListIn) {
+    ArS.SetValue(i, S);
+    ArP.SetValue(i, GetCenterPoint(S));
+    ++i;
   }
 
   Standard_Boolean found = Standard_False;
@@ -687,9 +684,7 @@ void QANewBRepNaming_BooleanOperationFeat::Load1nFaces(BRepAlgoAPI_BooleanOperat
   if(ShapeIn.IsEqual(MS.Shape1()))
     if(aListR.size() > 1) SortRootFaces(aListR, ShapeIn);
    
-  TopTools_ListIteratorOfListOfShape Itr(aListR);
-  for(;Itr.More();Itr.Next()) {
-    const TopoDS_Shape& Root = Itr.Value();
+  for (const TopoDS_Shape& Root : aListR) {
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
     TopTools_ListOfShape aList;
     gp_Ax1 anAx = ComputeAxis(MS.Shape2());	
@@ -697,11 +692,10 @@ void QANewBRepNaming_BooleanOperationFeat::Load1nFaces(BRepAlgoAPI_BooleanOperat
       Sort2Faces(Shapes, anAx, aList);
     else if(Shapes.size() == 3)
       Sort3Faces(Shapes, aList);
-    TopTools_ListIteratorOfListOfShape It(aList);
-    for(;It.More();It.Next()) {
+    for (auto S : aList) {
       TNaming_Builder aBuilder(NewShapes());
 //      aBuilder.Modify(Root,It.Value ());
-      aBuilder.Generated(It.Value ());
+      aBuilder.Generated(S);
     }
   }
 }
@@ -1135,9 +1129,8 @@ static void SortEdges5 (const TopTools_Array1OfShape& theArS, const TColgp_Array
 //=======================================================================
 static void FindAdjacent2(const TopTools_ListOfShape& theList, 
 			 TopTools_ListOfShape& theListOfEdges) {
-  TopTools_ListIteratorOfListOfShape It (theList);
-  const TopoDS_Shape& aShape1 = It.Value (); It.Next ();
-  const TopoDS_Shape& aShape2 = It.Value ();
+  const TopoDS_Shape& aShape1 = theList.front();
+  const TopoDS_Shape& aShape2 = *next(begin(theList));
   if(!aShape1.IsNull() && !aShape2.IsNull()) {
     TopExp_Explorer anExp1(aShape1, TopAbs_EDGE);
     for(;anExp1.More();anExp1.Next()) {      
@@ -1152,16 +1145,16 @@ static void FindAdjacent2(const TopTools_ListOfShape& theList,
 //=======================================================================
 static void FindAdjacent3(const TopTools_ListOfShape& theList, 
 			  TopTools_ListOfShape& theListOfEdges) {
-  TopTools_ListIteratorOfListOfShape It (theList);
   TopTools_Array1OfShape  ArS(1, theList.size());
   TColgp_Array1OfPnt      ArP(1, theList.size());
   TColgp_Array1OfDir      ArD(1, theList.size());
-  Standard_Integer i;
-  for(i=1;It.More();It.Next(),i++) {
-    ArS.SetValue(i, It.Value());
-    gp_Ax1 anAx = ComputeAxis(It.Value()); 
+  Standard_Integer i = 1;
+  for (auto S : theList) {
+    ArS.SetValue(i, S);
+    gp_Ax1 anAx = ComputeAxis(S); 
     ArP.SetValue(i, anAx.Location());
     ArD.SetValue(i, anAx.Direction());
+    ++i;
   }
   Standard_Boolean aDjacent = Standard_False;
   Standard_Integer j, i2 = 0, i3 = 0; //i2, i3 - indexes of two adjacent faces having the same surface
@@ -1212,16 +1205,16 @@ static void FindAdjacent3(const TopTools_ListOfShape& theList,
 //=======================================================================
 static void FindAdjacent4(const TopTools_ListOfShape& theList, 
 			  TopTools_ListOfShape& theListOfEdges) {
-  TopTools_ListIteratorOfListOfShape It (theList);
   TopTools_Array1OfShape  ArS(1, theList.size());
   TColgp_Array1OfPnt      ArP(1, theList.size());
   TColgp_Array1OfDir      ArD(1, theList.size());
-  Standard_Integer i;
-  for(i=1;It.More();It.Next(),i++) {
-    ArS.SetValue(i, It.Value());
-    gp_Ax1 anAx = ComputeAxis(It.Value()); 
+  Standard_Integer i = 1;
+  for (auto S : theList) {
+    ArS.SetValue(i, S);
+    gp_Ax1 anAx = ComputeAxis(S); 
     ArP.SetValue(i, anAx.Location());
     ArD.SetValue(i, anAx.Direction());
+    i++;
   }
   //find pairs
   Standard_Integer j, i3=0, i4 = 0;//i3, i4 - indexes of two adjacent faces having the same surface
@@ -1300,13 +1293,13 @@ static void SortEdges(const TopTools_ListOfShape& theListE, const gp_Ax1& theAx,
   TopTools_Array1OfShape  ArS(1, aNE1);
   TColgp_Array1OfPnt      ArP(1, aNE1);
   TColStd_Array1OfInteger ArI(1, aNE1); 
-  TopTools_ListIteratorOfListOfShape It (theListE);//pairs of edges
   //for (Standard_Integer i=1;It.More (); It.Next (),i++) {
-  Standard_Integer i;
-  for (i=1;It.More (); It.Next (),i++) {
-    ArS.SetValue(i, It.Value ());
-    ArI.SetValue(i,0);
-    ArP.SetValue(i, GetCenterPoint(It.Value()));
+  Standard_Integer i = 1;
+  for (auto S : theListE) {
+    ArS.SetValue(i, S);
+    ArI.SetValue(i, 0);
+    ArP.SetValue(i, GetCenterPoint(S));
+    ++i;
   }
   switch(aNE1) {
   case 2:
@@ -1356,10 +1349,9 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
   }
   if(aList0.size() > 2) return; // case > 2 ent. is not considered
   TopTools_ListOfShape aList1, aList2;
-  TopTools_ListIteratorOfListOfShape It (aList0); //each item (body) must have at least 1 pair 
+  //each item (body) must have at least 1 pair 
   // of "cyl/con" surfaces (in some cases may be 3 or 4 faces depending on sim-edge position)
-  for (;It.More (); It.Next ()) {
-    const TopoDS_Shape& aShape = It.Value (); //1-st solid/shell
+  for (const TopoDS_Shape& aShape : aList0) {
     TopTools_ListOfShape aList;
     aList.clear();
 #ifdef OCCT_DEBUG
@@ -1376,9 +1368,9 @@ void QANewBRepNaming_BooleanOperationFeat::LoadSymmetricalEdges (BRepAlgoAPI_Boo
 	aList.push_back(aShape);
     
     if(aList1.size() == 0 )
-      aList1.Assign(aList);
+      aList1 = aList;
     else 
-      aList2.Assign(aList);
+      aList2 = aList;
   }
 // aList1,2 contain pairs of faces having more then 1 neghbour edge (each pair)
   const Standard_Integer aNF1 = aList1.size(); // keep n of faces of the first entity
@@ -1581,7 +1573,6 @@ void QANewBRepNaming_BooleanOperationFeat::LoadWRCase(BRepAlgoAPI_BooleanOperati
 	  FindAdjacent2(aList, anEList);
 	  if(anEList.size() == 2) {
 	    
- 	    TopTools_ListIteratorOfListOfShape anEIt(anEList);
 	    GProp_GProps anE1Props, anE2Props;
 	    BRepGProp::LinearProperties(anEList.front(), anE1Props);
 	    BRepGProp::LinearProperties(anEList.back(), anE2Props);

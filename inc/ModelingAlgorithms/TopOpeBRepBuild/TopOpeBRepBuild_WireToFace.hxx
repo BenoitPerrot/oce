@@ -13,8 +13,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Wire;
 class TopoDS_Face;
-class TopTools_ListOfShape;
-
 
 
 //! This class builds faces from a set of wires  SW and a face F.

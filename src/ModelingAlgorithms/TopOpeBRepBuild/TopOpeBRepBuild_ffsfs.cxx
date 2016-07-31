@@ -91,9 +91,8 @@ static Standard_Integer FUN_getAncestorFsp(TopOpeBRepBuild_Builder& B,TopOpeBRep
 {
   const TopOpeBRepDS_DataStructure& BDS = B.DataStructure()->DS(); // How to do static <--> const
 
-  TopTools_ListIteratorOfListOfShape itf(LF);
-  for (; itf.More(); itf.Next()){
-    const TopoDS_Face& f = TopoDS::Face(itf.Value());
+  for (auto anS : LF) {
+    const TopoDS_Face& f = TopoDS::Face(anS);
     TopAbs_State st = SC.StateShapeShape(fsp,f,1);
     if ((st == TopAbs_UNKNOWN) || (st == TopAbs_OUT)) continue;
     if (st == TopAbs_ON) {
@@ -113,7 +112,7 @@ static Standard_Integer FUN_getAncestorFsp(TopOpeBRepBuild_Builder& B,TopOpeBRep
       Standard_Integer ianc = BDS.Shape(f);
       return ianc;
     }
-  } // itf(LF)
+  }
   return 0;
 }
 
@@ -169,8 +168,7 @@ static void FUN_getAncestorFsp(TopOpeBRepBuild_Builder& B,TopOpeBRepTool_ShapeCl
   if (issplitIN) FDS_copy(B.Splits(FOR,TopAbs_IN),spFOR);
   if (issplitOU) FDS_copy(B.Splits(FOR,TopAbs_OUT),spFOR);
 
-  for (TopTools_ListIteratorOfListOfShape itsp(spFOR); itsp.More(); itsp.Next()){
-    const TopoDS_Shape& fsp = itsp.Value();
+  for (const TopoDS_Shape& fsp : spFOR) {
     
     Standard_Boolean isbound = SplitAnc->IsBound(fsp);
     if (isbound) continue;
@@ -362,19 +360,16 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
 	    const TopTools_ListOfShape& spFOR = Splits(FOR,TopAbs_IN);
 	    TopTools_ListOfShape spFORcopy; FDS_copy(spFOR,spFORcopy);
 
-	    TopTools_ListIteratorOfListOfShape it(LF1);
-	    for (; it.More(); it.Next()) {
-	      const TopoDS_Shape& f = it.Value();
+	    for (const TopoDS_Shape& f : LF1) {
 	      Standard_Boolean issplit = IsSplit(f,TopAbs_IN);
 	      if ( issplit ) ChangeSplit(f,TopAbs_IN).clear();
 	    }
-	    it.Initialize(LF2);
-	    for (; it.More(); it.Next()) {
-	      const TopoDS_Shape& f = it.Value();
+	    for (const TopoDS_Shape& f : LF2) {
 	      Standard_Boolean issplit = IsSplit(f,TopAbs_IN);
 	      if ( issplit ) ChangeSplit(f,TopAbs_IN).clear();
 	    }
-	    ChangeSplit(FOR,TopAbs_IN).Append(spFORcopy); // keep split for reference
+	    auto l = ChangeSplit(FOR,TopAbs_IN);
+	    l.insert(end(l), begin(spFORcopy), end(spFORcopy)); // keep split for reference
 	  } // issplitIN
 	} // OpeCom 
 
@@ -457,8 +452,7 @@ void TopOpeBRepBuild_Builder::GFillFaceSFS(const TopoDS_Shape& FOR,const TopTool
 //
 //	const TopTools_ListOfShape& lfr2 = *GLOBAL_lfr1
 	// les faces remplacantes
-	for (TopTools_ListIteratorOfListOfShape itlfr2(lfr2);itlfr2.More();itlfr2.Next()) {
-	  const TopoDS_Shape& flfr2 = itlfr2.Value();
+	for (const TopoDS_Shape& flfr2 : lfr2) {
 	  
 #ifdef OCCT_DEBUG
 	  if(tSPS){

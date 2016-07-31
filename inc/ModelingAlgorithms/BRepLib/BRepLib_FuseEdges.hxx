@@ -28,7 +28,6 @@ class TopTools_DataMapOfIntegerShape;
 class TopTools_DataMapOfShapeShape;
 class TopTools_IndexedDataMapOfShapeListOfShape;
 class TopTools_MapOfShape;
-class TopTools_ListOfShape;
 class TopoDS_Vertex;
 class TopoDS_Edge;
 
@@ -112,7 +111,7 @@ private:
   
   Standard_EXPORT   void BuildListConnexEdge (const TopoDS_Shape& theEdge, TopTools_MapOfShape& theMapUniq, TopTools_ListOfShape& theLstEdg) ;
   
-  Standard_EXPORT   Standard_Boolean NextConnexEdge (const TopoDS_Vertex& theVertex, const TopoDS_Shape& theEdge, TopoDS_Shape& theEdgeConnex)  const;
+  Standard_EXPORT   Standard_Boolean NextConnexEdge (const TopoDS_Vertex& theVertex, const TopoDS_Shape& theEdge, TopoDS_Shape& theEdgeConnex);
   
   Standard_EXPORT   Standard_Boolean SameSupport (const TopoDS_Edge& E1, const TopoDS_Edge& E2)  const;
   

@@ -428,10 +428,8 @@ void ChFi3d_Builder::Trunc(const Handle(ChFiDS_SurfData)&    SD,
   //modification of lvt against isolated vertex
   if(!tron && YaUnVoisin(Spine,iedge,ivois,isfirst)) {
     TopTools_ListIteratorOfListOfShape It;
-    Standard_Integer nbed = -2;
-    for (It.Initialize(myVEMap(bout1));It.More();It.Next()) {
-      nbed++;
-    }
+#warning simplify -2 + x < 3
+    Standard_Integer nbed = -2 + myVEMap(bout1).size();
     if(nbed<3) tron = Standard_True;
   }
 //finmodif

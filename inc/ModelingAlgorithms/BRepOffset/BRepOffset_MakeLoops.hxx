@@ -10,10 +10,10 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-class TopTools_ListOfShape;
 class BRepAlgo_AsDes;
 class BRepAlgo_Image;
 class BRepOffset_Analyse;

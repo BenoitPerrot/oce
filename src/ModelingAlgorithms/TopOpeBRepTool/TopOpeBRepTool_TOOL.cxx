@@ -344,8 +344,8 @@ static void FUN_tool_sortVonE(TopTools_ListOfShape& lov, const TopoDS_Edge E)
   TopTools_DataMapOfIntegerShape mapiv;// mapiv.Find(iV) = V
   TColStd_IndexedMapOfReal mappar;     // mappar.FindIndex(parV) = iV
   
-  for (TopTools_ListIteratorOfListOfShape itlove(lov); itlove.More(); itlove.Next()){
-    const TopoDS_Vertex& v = TopoDS::Vertex(itlove.Value());
+  for (auto s : lov) {
+    const TopoDS_Vertex& v = TopoDS::Vertex(s);
     Standard_Real par = BRep_Tool::Parameter(v,E);
     Standard_Integer iv = mappar.Add(par);
     mapiv.Bind(iv,v);
@@ -359,15 +359,14 @@ static void FUN_tool_sortVonE(TopTools_ListOfShape& lov, const TopoDS_Edge E)
     tabpar.SetValue(i,p);
   }
   
-  TopTools_ListOfShape newlov;
+  lov.clear();
   std::sort (tabpar.begin(), tabpar.end());
   for (i = 1; i <= nv; i++) {
     Standard_Real par = tabpar.Value(i);
     Standard_Integer iv = mappar.FindIndex(par);
     const TopoDS_Shape& v = mapiv.Find(iv);
-    newlov.push_back(v);
+    lov.push_back(v);
   }
-  lov.clear(); lov.Append(newlov);
 }
 
 //=======================================================================
@@ -393,13 +392,14 @@ Standard_Boolean TopOpeBRepTool_TOOL::SplitE(const TopoDS_Edge& Eanc, TopTools_L
 
   ::FUN_tool_sortVonE(lov,EFOR);
 
-  TopoDS_Vertex v0;
-  TopTools_ListIteratorOfListOfShape itlov(lov);
-  if (itlov.More()) {v0 = TopoDS::Vertex(itlov.Value()); itlov.Next();}
-  else return Standard_False;
+  if (lov.empty()) return Standard_False;
 
-  for (; itlov.More(); itlov.Next()) {
-    TopoDS_Vertex v = TopoDS::Vertex(itlov.Value());
+  TopTools_ListIteratorOfListOfShape itlov = begin(lov);
+  TopoDS_Vertex v0 = TopoDS::Vertex(*itlov);
+  ++itlov;
+
+  for (; itlov != end(lov); ++itlov) {
+    TopoDS_Vertex v = TopoDS::Vertex(*itlov);
     
     // prequesitory: par0 < par
     Standard_Real par0 = BRep_Tool::Parameter(v0, EFOR);
@@ -1419,7 +1419,8 @@ Standard_Boolean TopOpeBRepTool_TOOL::Getstp3dF(const gp_Pnt& p, const TopoDS_Fa
 void TopOpeBRepTool_TOOL::MkShell(const TopTools_ListOfShape& lF, TopoDS_Shape& She)
 {
   BRep_Builder BB; BB.MakeShell(TopoDS::Shell(She));
-  for (TopTools_ListIteratorOfListOfShape li(lF); li.More(); li.Next()) BB.Add(She,li.Value());
+  for (auto S : lF)
+    BB.Add(She, S);
 }
 
 //=======================================================================
@@ -1429,13 +1430,16 @@ void TopOpeBRepTool_TOOL::MkShell(const TopTools_ListOfShape& lF, TopoDS_Shape& 
 
 Standard_Boolean TopOpeBRepTool_TOOL::Remove(TopTools_ListOfShape& loS, const TopoDS_Shape& toremove)
 {
-  TopTools_ListIteratorOfListOfShape it(loS);
+#warning C++ify remove_all
+  TopTools_ListIteratorOfListOfShape it = begin(loS);
   Standard_Boolean found = Standard_False;
-  while (it.More()) {
-    if (it.Value().IsEqual(toremove)) {
+  while (it != end(loS)) {
+    if (it->IsEqual(toremove)) {
       it = loS.erase(it);
-      found = Standard_True;}
-    else                              it.Next();
+      found = Standard_True;
+    }
+    else
+      ++it;
   }
   return found;
 }
@@ -1534,9 +1538,8 @@ Standard_Boolean TopOpeBRepTool_TOOL::WireToFace(const TopoDS_Face& Fref, const 
     TopoDS_Shape FF = F.EmptyCopied();
     const TopoDS_Wire& wi = TopoDS::Wire(itm.Key());  
     BB.Add(FF,wi);
-    TopTools_ListIteratorOfListOfShape itw(itm.Value());
-    for (; itw.More(); itw.Next()) {
-      const TopoDS_Wire& wwi = TopoDS::Wire(itw.Value());
+    for (auto s : itm.Value()) {
+      const TopoDS_Wire& wwi = TopoDS::Wire(s);
       BB.Add(FF,wwi);
     }
     if (toreverse) FF.Orientation(TopAbs_REVERSED);

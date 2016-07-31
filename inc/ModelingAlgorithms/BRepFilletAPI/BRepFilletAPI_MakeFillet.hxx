@@ -12,6 +12,7 @@
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilBuilder.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_FilletShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -31,7 +32,6 @@ class Law_Function;
 class TColgp_Array1OfPnt2d;
 class TopoDS_Vertex;
 class TopOpeBRepBuild_HBuilder;
-class TopTools_ListOfShape;
 class ChFiDS_SecHArray1;
 class Geom_Surface;
 

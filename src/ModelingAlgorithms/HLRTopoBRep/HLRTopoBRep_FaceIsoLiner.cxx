@@ -109,11 +109,7 @@ void HLRTopoBRep_FaceIsoLiner::Perform (const Standard_Integer FI,
 
   if (DS.FaceHasIntL(TF)) {             // OutLines built on face TF.
     
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(DS.FaceIntL(TF));
-	itE.More();
-	itE.Next()) 
-      ne++;
+    ne += DS.FaceIntL(TF).size();
   }
 
   TopTools_Array1OfShape SH(1,ne);
@@ -141,12 +137,9 @@ void HLRTopoBRep_FaceIsoLiner::Perform (const Standard_Integer FI,
   }
   
   if (DS.FaceHasIntL(TF)) { // get the internal OutLines built on face F.
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(DS.FaceIntL(TF));
-	itE.More();
-	itE.Next()) {
+    for (auto S : DS.FaceIntL(TF)) {
       Standard_Integer IndE;
-      const TopoDS_Edge& newE = TopoDS::Edge(itE.Value());
+      const TopoDS_Edge& newE = TopoDS::Edge(S);
       const Handle(Geom2d_Curve) PC =
 	BRep_Tool::CurveOnSurface (newE, TF, U1, U2);
       if(   Abs(PC->FirstParameter() - U1) <= Precision::PConfusion() 

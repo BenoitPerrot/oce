@@ -171,9 +171,8 @@ myApproxRelativeTol (Standard_True)
     } else {
       BRep_Builder Builder ;
       Builder.MakeCompound (TopoDS::Compound (myShape)) ;
-      TopTools_ListIteratorOfListOfShape Iter ;
-      for (Iter.Initialize (ListResults) ; Iter.More() ; Iter.Next())
-	Builder.Add (myShape, Iter.Value()) ;
+      for (auto S : ListResults)
+	Builder.Add (myShape, S);
     }
     TopExp_Explorer Explorer ;
     for (Explorer.Init (myShape, TopAbs_FACE) ; Explorer.More() ; Explorer.Next()) {
@@ -240,9 +239,8 @@ myApproxRelativeTol (Standard_True)
     } else {
       BRep_Builder Builder ;
       Builder.MakeCompound (TopoDS::Compound (myShape)) ;
-      TopTools_ListIteratorOfListOfShape Iter ;
-      for (Iter.Initialize (ListResults) ; Iter.More() ; Iter.Next())
-	Builder.Add (myShape, Iter.Value()) ;
+      for (auto S : ListResults)
+	Builder.Add (myShape, S);
     }
     TopExp_Explorer Explorer ;
     for (Explorer.Init (myShape, TopAbs_EDGE) ; Explorer.More() ; Explorer.Next()) {
@@ -291,9 +289,8 @@ myApproxRelativeTol (Standard_True)
       if (ListResults.size() == 0) {
 	if (myMapShape.Contains (Face)) Substitute.Substitute (Face, NullFaces) ;
       } else {
-	TopTools_ListIteratorOfListOfShape ItrFace ;
-	for (ItrFace.Initialize (ListResults) ; ItrFace.More() ; ItrFace.Next()) {
-	  Substitute.Substitute (TopoDS::Face (ItrFace.Value()), NullFaces) ;
+	for (auto S : ListResults) {
+	  Substitute.Substitute (TopoDS::Face(S), NullFaces) ;
 	}
       }
     }
@@ -307,9 +304,8 @@ myApproxRelativeTol (Standard_True)
       } else if (NbResults > 1) {
 	BRep_Builder Builder ;
 	Builder.MakeCompound (TopoDS::Compound (myResult)) ;
-	TopTools_ListIteratorOfListOfShape ItrResult ;
-	for (ItrResult.Initialize (ListResults) ; ItrResult.More() ; ItrResult.Next()) {
-	  Builder.Add (myResult, ItrResult.Value()) ;
+	for (auto S : ListResults) {
+	  Builder.Add (myResult, S) ;
 	}
       }
     } else {

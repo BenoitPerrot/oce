@@ -178,9 +178,8 @@ Standard_Boolean FUN_computeLIFfaces2d(const TopOpeBRepBuild_Builder& BU,
   if (hasspE) hasspE = (BU.Splits(E,TopAbs_ON).size() > 0);
   TopTools_MapOfShape Ffound;
   
-  TopTools_ListOfShape Fsdm; TopTools_ListIteratorOfListOfShape itf(BDS.ShapeSameDomain(F));
-  for (; itf.More(); itf.Next()){
-    const TopoDS_Shape& f = itf.Value();
+  TopTools_ListOfShape Fsdm;
+  for (const TopoDS_Shape& f : BDS.ShapeSameDomain(F)) {
     Standard_Integer rkf = BDS.AncestorRank(f);
     if (rkf == rkF) continue;
     Fsdm.push_back(f);
@@ -334,22 +333,20 @@ Standard_EXPORT TopOpeBRepDS_PDataStructure GLOBAL_DS2d = NULL;
 
   // xpu070598 : filling up DS2
 //  for (TopTools_ListIteratorOfListOfShape itF1(LF1); itF1.More(); itF1.Next()) GLOBAL_DS2d->AddShape(itF1.Value(),1); 
-   TopTools_ListIteratorOfListOfShape itF1(LF1) ;
-  for ( ; itF1.More(); itF1.Next()) GLOBAL_DS2d->AddShape(itF1.Value(),1);  
+  for (auto S1 : LF1)
+    GLOBAL_DS2d->AddShape(S1,1);  
 //  for (TopTools_ListIteratorOfListOfShape itF2(LF2); itF2.More(); itF2.Next()) GLOBAL_DS2d->AddShape(itF2.Value(),2);
-  TopTools_ListIteratorOfListOfShape itF2(LF2) ;
-  for ( ; itF2.More(); itF2.Next()) GLOBAL_DS2d->AddShape(itF2.Value(),2);
+  for (auto S2 : LF2)
+    GLOBAL_DS2d->AddShape(S2,2);
 
 //  for (itF1.Initialize(LF1); itF1.More(); itF1.Next()){
-  itF1.Initialize(LF1) ;
-  for ( ; itF1.More(); itF1.Next()){
-    const TopoDS_Face& FF1 = TopoDS::Face(itF1.Value());
+  for (auto S1 : LF1) {
+    const TopoDS_Face& FF1 = TopoDS::Face(S1);
     FUN_computeLIFfaces2d((*this),TopoDS::Face(FF1),GLOBAL_DS2d);
   }
 //  for (itF2.Initialize(LF2); itF2.More(); itF2.Next()){
-  itF2.Initialize(LF2) ;
-  for ( ; itF2.More(); itF2.Next()){
-    const TopoDS_Face& FF2 = TopoDS::Face(itF2.Value());
+  for (auto S2 : LF2) {
+    const TopoDS_Face& FF2 = TopoDS::Face(S2);
     FUN_computeLIFfaces2d((*this),TopoDS::Face(FF2),GLOBAL_DS2d);
   }
   // xpu070598
@@ -387,12 +384,10 @@ Standard_EXPORT TopOpeBRepDS_PDataStructure GLOBAL_DS2d = NULL;
   
   // xpu281098 : regularisation after GFABUMakeFaces
   TopTools_ListOfShape newLFM; RegularizeFaces(F1F,LFM,newLFM);
-  LFM.clear(); LFM.Assign(newLFM);
+  LFM = newLFM;
 
   // connect new faces as faces built TB1 on LF1 faces
-  TopTools_ListIteratorOfListOfShape it1;
-  for (it1.Initialize(LF1); it1.More(); it1.Next()) {
-    const TopoDS_Shape& F1x = it1.Value();
+  for (const TopoDS_Shape& F1x : LF1) {
     Standard_Boolean tomerge = !IsMerged(F1x,TB1);
     if (tomerge) {
       ChangeMerged(F1x, TB1) = LFM;
@@ -400,9 +395,7 @@ Standard_EXPORT TopOpeBRepDS_PDataStructure GLOBAL_DS2d = NULL;
   }
   
   // connect new faces as faces built TB2 on LF2 faces
-  TopTools_ListIteratorOfListOfShape it2;
-  for (it2.Initialize(LF2); it2.More(); it2.Next()) {
-    const TopoDS_Shape& F2 = it2.Value();
+  for (const TopoDS_Shape& F2 : LF2) {
     Standard_Boolean tomerge = !IsMerged(F2,TB2);
     if (tomerge) ChangeMerged(F2,TB2) = LFM;
   }
@@ -457,11 +450,9 @@ static Standard_Boolean FUN_validF1edge(const TopoDS_Shape& F)
   
   // xpu270898 : cto905E2 split(fref6,f33,f16) must be built on fref6
   TopTools_ListOfShape LF1;
-  TopTools_ListIteratorOfListOfShape itf(LLF1);
   const TopOpeBRepDS_DataStructure& BDS = myDataStructure->DS();
   Standard_Integer iref = 0; 
-  for (; itf.More(); itf.Next()){
-    const TopoDS_Shape& fcur = itf.Value();
+  for (const TopoDS_Shape& fcur : LLF1) {
     Standard_Integer icur = BDS.Shape(fcur);
     iref = BDS.SameDomainRef(fcur);
     if (icur == iref) LF1.push_front(fcur);
@@ -502,13 +493,13 @@ static Standard_Boolean FUN_validF1edge(const TopoDS_Shape& F)
 
   // xpu290498
   //cto 001 F2 : spIN(f18)
-  TopTools_ListIteratorOfListOfShape itF(LOF);
-  while (itF.More()){
-    const TopoDS_Shape& F = itF.Value();
-    Standard_Boolean valid = ::FUN_validF1edge(F);
+  TopTools_ListIteratorOfListOfShape itF = begin(LOF);
+  while (itF != end(LOF)){
+    Standard_Boolean valid = ::FUN_validF1edge(*itF);
     if (!valid)
       itF = LOF.erase(itF);
-    else itF.Next();
+    else
+      ++itF;
   }
   // xpu290498
 
@@ -517,11 +508,10 @@ static Standard_Boolean FUN_validF1edge(const TopoDS_Shape& F)
 
   // les faces construites (LOFS) prennent l'orientation originale de FF  
   TopAbs_Orientation odsFF = myDataStructure->Shape(iFF).Orientation();
-  for(TopTools_ListIteratorOfListOfShape itt(LOFS);itt.More();itt.Next()) itt.Value().Orientation(odsFF);
+  for (auto SOFS : LOFS)
+    SOFS.Orientation(odsFF);
 
-  TopTools_ListIteratorOfListOfShape it1;
-  for (it1.Initialize(LF1); it1.More(); it1.Next()) {
-    const TopoDS_Shape& S = it1.Value(); 
+  for (const TopoDS_Shape& S : LF1) {
 #ifdef OCCT_DEBUG
     Standard_Integer iS; GtraceSPS(S,iS);
 #endif
@@ -530,9 +520,7 @@ static Standard_Boolean FUN_validF1edge(const TopoDS_Shape& F)
     GCopyList(LOFS,LS1);
   }
 
-  TopTools_ListIteratorOfListOfShape it2;
-  for (it2.Initialize(LF2); it2.More(); it2.Next()) {
-    const TopoDS_Shape& S = it2.Value(); 
+  for (const TopoDS_Shape& S : LF2) {
 #ifdef OCCT_DEBUG
     Standard_Integer iS; GtraceSPS(S,iS);
 #endif
@@ -783,9 +771,8 @@ static void FUN_samgeomori(const TopOpeBRepDS_DataStructure& BDS, const Standard
       const TopoDS_Shape& aSolid=(aRank1==1) ? myShape2 : myShape1;
       
       TopTools_ListOfShape& aSplitList = ChangeSplit (EOR, TB1);
-      TopTools_ListIteratorOfListOfShape anIt(aSplitList);
-      for (; anIt.More(); anIt.Next()) {
-	const TopoDS_Edge& aSplitEdge=TopoDS::Edge (anIt.Value());
+      for (auto aSplitShape : aSplitList) {
+	const TopoDS_Edge& aSplitEdge=TopoDS::Edge(aSplitShape);
 	aState=ClassifyEdgeToSolidByOnePoint (aSplitEdge, aSolid);
 	if (aState==TB1) {
 	  anAuxList.push_back (aSplitEdge);
@@ -794,9 +781,7 @@ static void FUN_samgeomori(const TopOpeBRepDS_DataStructure& BDS, const Standard
       
       aSplitList.clear();
       
-      anIt.Initialize(anAuxList);
-      for (; anIt.More(); anIt.Next()) {
-	const TopoDS_Shape& aShape=anIt.Value();
+      for (const TopoDS_Shape& aShape : anAuxList) {
 	aSplitList.push_back(aShape);
       }
     }
@@ -820,9 +805,8 @@ static void FUN_samgeomori(const TopOpeBRepDS_DataStructure& BDS, const Standard
     }
 #endif
 
-    for (TopTools_ListIteratorOfListOfShape it(LSE); 
-	 it.More(); it.Next()) {
-      TopoDS_Edge newE = TopoDS::Edge(it.Value()); 
+    for (auto SSE : LSE) {
+      TopoDS_Edge newE = TopoDS::Edge(SSE); 
       if (newO) {// xpu060598	
 	// PRO13075 tspIN(f18), tspIN(e17)
 	// we add sp(EOR) to myFaceToFill with its orientation
@@ -945,9 +929,8 @@ static void FUN_samgeomori(const TopOpeBRepDS_DataStructure& BDS, const Standard
 
   if (myProcessON && IsSplit(EOR,TopAbs_ON)) {
     const TopTools_ListOfShape& LSE = Splits(EOR,TopAbs_ON);
-    TopTools_ListIteratorOfListOfShape it(LSE);
-    for (; it.More(); it.Next()) {
-      TopoDS_Edge newE = TopoDS::Edge(it.Value());
+    for (auto SSE : LSE) {
+      TopoDS_Edge newE = TopoDS::Edge(SSE);
       if (newO) {
 	newE.Orientation(oEinF);
 	Standard_Boolean dgE = BRep_Tool::Degenerated(TopoDS::Edge(EOR)); 
@@ -1030,9 +1013,7 @@ void debmergee(const Standard_Integer /*i*/) {}
     if (!Eisref) return;
 
     const TopTools_ListOfShape& ME = Merged(EOR,TBEOR);
-    TopTools_ListIteratorOfListOfShape it(ME);
-    for(; it.More(); it.Next()) {
-      TopoDS_Shape newE = it.Value();
+    for (TopoDS_Shape newE : ME) {
       newE.Orientation(neworiE);
 
 #ifdef OCCT_DEBUG
@@ -1064,8 +1045,7 @@ void debmergee(const Standard_Integer /*i*/) {}
     cout<<" : "<<ME.Extent()<<" edge"<<endl;
   }
 #endif
-  for(TopTools_ListIteratorOfListOfShape it(ME);it.More();it.Next()) {
-    TopoDS_Shape newE = it.Value();
+  for (TopoDS_Shape newE : ME) {
     newE.Orientation(neworiE);
     WES.AddStartElement(newE);
   }
@@ -1174,9 +1154,7 @@ void debmergee(const Standard_Integer /*i*/) {}
   }
 
   TopTools_ListOfShape aLON;
-  TopTools_ListIteratorOfListOfShape it(LOE);
-  for(;it.More();it.Next()) {
-    const TopoDS_Shape& aE = it.Value();
+  for (const TopoDS_Shape& aE : LOE) {
     TopAbs_State pos;
     if (GKeepShape1(aE,*pls,TB1,pos))
       SEL.push_back(aE);
@@ -1186,9 +1164,7 @@ void debmergee(const Standard_Integer /*i*/) {}
 
   if (!aLON.empty()) {
     MarkSplit(EF,TopAbs_ON);
-    TopTools_ListOfShape& aSLON = ChangeSplit(EF,TopAbs_ON);
-    aSLON.clear();
-    aSLON.Append(aLON);
+    ChangeSplit(EF,TopAbs_ON) = aLON;
   }
 
 } // GSplitEdge

@@ -202,8 +202,7 @@ static
     const TopTools_ListOfShape& aList=aVInfo.ListPassed();
     
     if (aList.size()) {
-      TopTools_ListIteratorOfListOfShape anIt(aList);
-      for (; anIt.More(); anIt.Next()) {
+      for (auto anS : aList) {
 	printf("pass,");
       }
     }

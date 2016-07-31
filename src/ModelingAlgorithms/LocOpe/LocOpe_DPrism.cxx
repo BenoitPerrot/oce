@@ -141,16 +141,12 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
     
     
     B.MakeCompound(C);
-    TopTools_ListIteratorOfListOfShape it;
     TopExp_Explorer ExpS(mySpine,TopAbs_EDGE);
     TopTools_MapOfShape View;
     for (; ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& lffs = 
-	myDPrism.GeneratedShapes(ES, myProfile1);
-      for (it.Initialize(lffs); it.More(); it.Next()) {
-	if (View.Add(it.Value()))
-	  B.Add(C,it.Value());
+      for (auto sff : myDPrism.GeneratedShapes(ExpS.Current(), myProfile1)) {
+	if (View.Add(sff))
+	  B.Add(C,sff);
       }
     }
     
@@ -197,12 +193,9 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
     View.Clear();
     
     for (; ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& lfls = 
-	myDPrism.GeneratedShapes(ES, myProfile3);
-      for (it.Initialize(lfls); it.More(); it.Next()) {
-	if (View.Add(it.Value()))
-	  B.Add(D,it.Value());
+      for (auto sf : myDPrism.GeneratedShapes(ExpS.Current(), myProfile3)) {
+	if (View.Add(sf))
+	  B.Add(D, sf);
       }
     }
     
@@ -246,29 +239,28 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
     View.Clear();
 
     for (ExpS.ReInit(); ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& lffs =
-	myDPrism.GeneratedShapes(ES, myProfile2);
-
-      for (it.Initialize(lffs); it.More(); it.Next()) {
-	if (it.Value().ShapeType() == TopAbs_EDGE) {
+#warning find
+      auto &lffs = myDPrism.GeneratedShapes(ExpS.Current(), myProfile2);
+      TopTools_ListOfShape::const_iterator it = begin(lffs);
+      for (; it != end(lffs); ++it) {
+	if (it->ShapeType() == TopAbs_EDGE) {
 	  break;
 	}
       }
-      if (it.More()) {
-	TopoDS_Shape RemovedEdge = it.Value();
+      if (it != end(lffs)) {
+	TopoDS_Shape RemovedEdge = *it;
 	TopoDS_Face NewFace;
 	TopoDS_Wire NewWire;
 	B.MakeWire(NewWire);
 	TopAbs_Orientation Orref = TopAbs_FORWARD;
 	TopExp_Explorer exp;
-	for (it.Initialize(lffs); it.More(); it.Next()) {
-	  if (it.Value().ShapeType() == TopAbs_FACE) {
-	    exp.Init(it.Value().Oriented(TopAbs_FORWARD),TopAbs_WIRE);
+	for (auto sff : lffs) {
+	  if (sff.ShapeType() == TopAbs_FACE) {
+	    exp.Init(sff.Oriented(TopAbs_FORWARD),TopAbs_WIRE);
 	    const TopoDS_Shape theWire = exp.Current();
 	    if (NewFace.IsNull()) {
 	      Handle(Geom_Surface) S = 
-		BRep_Tool::Surface(TopoDS::Face(it.Value()));
+		BRep_Tool::Surface(TopoDS::Face(sff));
 	      if (S->DynamicType() == 
 		  STANDARD_TYPE(Geom_RectangularTrimmedSurface)) {
 		S = Handle(Geom_RectangularTrimmedSurface)::
@@ -279,7 +271,7 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	      }
 
 	      B.MakeFace(NewFace,S,BRep_Tool::
-			 Tolerance(TopoDS::Face(it.Value())));
+			 Tolerance(TopoDS::Face(sff)));
 	      NewFace.Orientation(TopAbs_FORWARD);
 	      Orref = theWire.Orientation();
 	      for (exp.Init(theWire.Oriented(TopAbs_FORWARD),TopAbs_EDGE);
@@ -308,36 +300,31 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&  Spine,
 	  B.Add(NewFace,NewWire.Oriented(Orref));
 	  lcomplete.push_back(NewFace);
           TopTools_ListOfShape thelist;
-	  myMap.Bind(ES, thelist);
-	  myMap(ES).push_back(NewFace);
+	  myMap.Bind(ExpS.Current(), thelist);
+	  myMap(ExpS.Current()).push_back(NewFace);
 	}
 	else {
-	  for (it.Initialize(lffs); it.More(); it.Next()) {
-	    if (View.Add(it.Value()) && 
-		it.Value().ShapeType() == TopAbs_FACE) {
-	      lcomplete.push_back(it.Value());
+	  for (auto sff : lffs) {
+	    if (View.Add(sff) &&  sff.ShapeType() == TopAbs_FACE) {
+	      lcomplete.push_back(sff);
 	      
 	    }
 	  }
 	}
       }
       else {
-	for (it.Initialize(lffs); it.More(); it.Next()) {
-	  if (View.Add(it.Value()) && it.Value().ShapeType() 
-	      == TopAbs_FACE) {
-	    lcomplete.push_back(it.Value());
+	for (auto sff : lffs) {
+	  if (View.Add(sff) && sff.ShapeType() == TopAbs_FACE) {
+	    lcomplete.push_back(sff);
 	  }
 	}
       }
 
       TopExp_Explorer ExpS2;
-      for (ExpS2.Init(ES,TopAbs_VERTEX);ExpS2.More(); ExpS2.Next()) {
-	const TopTools_ListOfShape& ls2 = 
-	  myDPrism.GeneratedShapes(ExpS2.Current(), myProfile2);
-	for (it.Initialize(ls2); it.More(); it.Next()) {
-	  if (View.Add(it.Value()) && it.Value().ShapeType() 
-	      == TopAbs_FACE) {
-	    lcomplete.push_back(it.Value());
+      for (ExpS2.Init(ExpS.Current(),TopAbs_VERTEX);ExpS2.More(); ExpS2.Next()) {
+	for (auto s2 : myDPrism.GeneratedShapes(ExpS2.Current(), myProfile2)) {
+	  if (View.Add(s2) && s2.ShapeType() == TopAbs_FACE) {
+	    lcomplete.push_back(s2);
 	  }
 	}
       }
@@ -394,16 +381,13 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
     
     
     B.MakeCompound(C);
-    TopTools_ListIteratorOfListOfShape it;
     TopExp_Explorer ExpS(mySpine,TopAbs_EDGE);
     TopTools_MapOfShape View;
     for (; ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& lffs = 
-	myDPrism.GeneratedShapes(ES, myProfile1);
-      for (it.Initialize(lffs); it.More(); it.Next()) {
-	if (View.Add(it.Value()))
-	  B.Add(C,it.Value());
+      const TopTools_ListOfShape& lffs = myDPrism.GeneratedShapes(ExpS.Current(), myProfile1);
+      for (auto sff : lffs) {
+	if (View.Add(sff))
+	  B.Add(C, sff);
       }
     }
     
@@ -450,12 +434,9 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
     View.Clear();
     
     for (; ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& lfls = 
-	myDPrism.GeneratedShapes(ES, myProfile3);
-      for (it.Initialize(lfls); it.More(); it.Next()) {
-	if (View.Add(it.Value()))
-	  B.Add(D,it.Value());
+      for (auto sf : myDPrism.GeneratedShapes(ExpS.Current(), myProfile3)) {
+	if (View.Add(sf))
+	  B.Add(D,sf);
       }
     }
     
@@ -498,22 +479,16 @@ LocOpe_DPrism::LocOpe_DPrism(const TopoDS_Face&   Spine,
 
     View.Clear();
     for (ExpS.ReInit(); ExpS.More(); ExpS.Next()) {
-      const TopoDS_Shape& ES = ExpS.Current();
-      const TopTools_ListOfShape& ls = 
-	myDPrism.GeneratedShapes(ES, myProfile2);
-      for (it.Initialize(ls); it.More(); it.Next()) {
-	if (View.Add(it.Value())) {
-	  lcomplete.push_back(it.Value());
+      for (auto s : myDPrism.GeneratedShapes(ExpS.Current(), myProfile2)) {
+	if (View.Add(s)) {
+	  lcomplete.push_back(s);
 	}
       }
       TopExp_Explorer ExpS2;
-      for (ExpS2.Init(ES,TopAbs_VERTEX);ExpS2.More(); ExpS2.Next()) {
-	const TopTools_ListOfShape& ls2 = 
-	  myDPrism.GeneratedShapes(ExpS2.Current(), myProfile2);
-	for (it.Initialize(ls2); it.More(); it.Next()) {
-	  if (View.Add(it.Value()) && it.Value().
-	      ShapeType() == TopAbs_FACE) {
-	    lcomplete.push_back(it.Value());
+      for (ExpS2.Init(ExpS.Current(),TopAbs_VERTEX);ExpS2.More(); ExpS2.Next()) {
+	for (auto s2 : myDPrism.GeneratedShapes(ExpS2.Current(), myProfile2)) {
+	  if (View.Add(s2) && s2.ShapeType() == TopAbs_FACE) {
+	    lcomplete.push_back(s2);
 	  }
 	}
       }

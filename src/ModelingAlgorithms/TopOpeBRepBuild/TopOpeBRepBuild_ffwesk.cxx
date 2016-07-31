@@ -99,13 +99,11 @@ void TopOpeBRepBuild_Builder::GFillFacesWESK(const TopTools_ListOfShape& LS1,con
 
   TopAbs_State TB;
   TopOpeBRepBuild_GTopo G;
-  TopTools_ListIteratorOfListOfShape it;
   Standard_Boolean gistoreverse1;
 
   G = G1; 
   gistoreverse1 = G.IsToReverse1();
   TB = TB1;
-  it.Initialize(LS1); 
 
 #ifdef OCCT_DEBUG
   if(tSPS){
@@ -117,8 +115,8 @@ void TopOpeBRepBuild_Builder::GFillFacesWESK(const TopTools_ListOfShape& LS1,con
   }
 #endif
 
-  for(; it.More(); it.Next()) {
-    const TopoDS_Shape& S = it.Value(); Standard_Integer iS = myDataStructure->Shape(S);
+  for (const TopoDS_Shape& S : LS1) {
+    Standard_Integer iS = myDataStructure->Shape(S);
     Standard_Boolean tomerge = !IsMerged(S,TB);
     if (!tomerge) continue;    
     
@@ -177,7 +175,6 @@ void TopOpeBRepBuild_Builder::GFillFacesWESK(const TopTools_ListOfShape& LS1,con
   G = G1.CopyPermuted();
   gistoreverse1 = G.IsToReverse1();
   TB = TB2;
-  it.Initialize(LS2);
 
 #ifdef OCCT_DEBUG
   if(tSPS){
@@ -189,8 +186,8 @@ void TopOpeBRepBuild_Builder::GFillFacesWESK(const TopTools_ListOfShape& LS1,con
   }
 #endif
 
-  for (; it.More(); it.Next()) {
-    const TopoDS_Shape& S = it.Value(); Standard_Integer iS = myDataStructure->Shape(S);
+  for (const TopoDS_Shape& S : LS2) {
+    Standard_Integer iS = myDataStructure->Shape(S);
     Standard_Boolean tomerge = !IsMerged(S,TB);
     if (!tomerge) continue;
 

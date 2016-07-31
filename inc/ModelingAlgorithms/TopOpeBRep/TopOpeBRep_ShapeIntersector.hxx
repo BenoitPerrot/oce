@@ -27,7 +27,6 @@ class TopoDS_Face;
 class TopOpeBRep_FacesIntersector;
 class TopOpeBRep_EdgesIntersector;
 class TopOpeBRep_FaceEdgeIntersector;
-class TopTools_ListOfShape;
 
 
 //! Intersect two shapes.

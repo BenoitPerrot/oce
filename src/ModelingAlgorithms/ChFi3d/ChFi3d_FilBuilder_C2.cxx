@@ -390,10 +390,9 @@ void ChFi3d_FilBuilder::PerformTwoCorner(const Standard_Integer Index)
   BRS2.Initialize(FF2);
   
   if(yapiv ) {
-    TopTools_ListIteratorOfListOfShape Kt;
     Standard_Boolean ok1 = Standard_False, ok2 = Standard_False;
-    for (Kt.Initialize(myEFMap(pivot)); Kt.More(); Kt.Next()){
-      F = TopoDS::Face(Kt.Value());
+    for (auto S : myEFMap(pivot)) {
+      F = TopoDS::Face(S);
       if(!ok1 && FF1.IsSame(F)){
 	ok1 = Standard_True;
       }

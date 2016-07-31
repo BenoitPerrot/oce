@@ -74,9 +74,9 @@ Standard_Boolean AIS_BadEdgeFilter::IsOk(const Handle(SelectMgr_EntityOwner)& EO
   const TopoDS_Shape& aShape = ((Handle(StdSelect_BRepOwner)&)EO)->Shape();
 
   if (myBadEdges.IsBound(myContour)) {
-    TopTools_ListIteratorOfListOfShape it(myBadEdges.Find(myContour));
-    for (; it.More(); it.Next()) {
-      if (it.Value().IsSame(aShape))
+#warning TODO: C++ify
+    for (auto s : myBadEdges.Find(myContour)) {
+      if (s.IsSame(aShape))
 	return Standard_False;
     }
   }

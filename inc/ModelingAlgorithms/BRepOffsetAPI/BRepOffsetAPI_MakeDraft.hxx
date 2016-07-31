@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Draft.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -22,7 +23,6 @@ class TopoDS_Shape;
 class gp_Dir;
 class Geom_Surface;
 class TopoDS_Shell;
-class TopTools_ListOfShape;
 
 
 //! Build a draft surface along a wire

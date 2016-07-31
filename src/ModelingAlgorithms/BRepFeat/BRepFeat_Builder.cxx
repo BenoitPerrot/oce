@@ -156,10 +156,7 @@
 //=======================================================================
   void BRepFeat_Builder::KeepParts(const TopTools_ListOfShape& theIm)
 {
-  TopTools_ListIteratorOfListOfShape aItT;
-  aItT.Initialize(theIm);
-  for (; aItT.More(); aItT.Next()) {
-    const TopoDS_Shape& aTIm=aItT.Value();
+  for (const TopoDS_Shape& aTIm : theIm) {
     KeepPart(aTIm);
   }
 }

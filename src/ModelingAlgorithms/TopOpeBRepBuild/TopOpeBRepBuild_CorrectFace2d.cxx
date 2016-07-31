@@ -428,10 +428,8 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
 
   TopTools_SequenceOfShape aSeqEdges;
   
-  TopTools_ListIteratorOfListOfShape anIt;
-  anIt.Initialize(HeadList);
-  for (; anIt.More(); anIt.Next()) 
-    aSeqEdges.Append(anIt.Value());
+  for (auto s : HeadList) 
+    aSeqEdges.Append(s);
   aNbEdges=aSeqEdges.Length();
 
   //
@@ -631,9 +629,8 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
   //from path we obtained list in reverse order, so to have right wire
   //we need to reverse it
   TopTools_ListOfShape aFL;
-  TopTools_ListIteratorOfListOfShape lit(aL);
-  for(; lit.More(); lit.Next())
-    aFL.push_front(lit.Value());
+  for (auto s : aL)
+    aFL.push_front(s);
 
   myOrderedWireList=aFL;
   //End modified by NIZNHY-PKV Tue Apr 25 12:06:45 2000
@@ -667,12 +664,9 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
 {
   TopoDS_Shape aFE = aFirstEdge;
   TopTools_ListOfShape aTailList;
-  TopTools_ListIteratorOfListOfShape anIt;
   Standard_Integer aFlag=0;
 
-  anIt.Initialize(myOrderedWireList);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Shape& anEdge=anIt.Value();
+  for (const TopoDS_Shape& anEdge : myOrderedWireList) {
     //modified by NIZHNY-MZV  Mon Mar 27 11:40:00 2000
     if(aFE.IsNull() && !BRep_Tool::Degenerated(TopoDS::Edge(anEdge)))
       aFE = anEdge;
@@ -680,13 +674,11 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
     if (aFlag) HeadList.push_back(anEdge);
   }
   
-  anIt.Initialize(myOrderedWireList);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Shape& anEdge=anIt.Value();
+  for (const TopoDS_Shape& anEdge : myOrderedWireList) {
     if (anEdge==aFE) break;
     aTailList.push_back(anEdge);
   }
-  HeadList.Append(aTailList);
+  HeadList.insert(end(HeadList), begin(aTailList), end(aTailList));
 }
 //=======================================================================
 // function :TopOpeBRepBuild_CorrectFace2d::CheckList
@@ -698,9 +690,8 @@ TopOpeBRepBuild_CorrectFace2d::TopOpeBRepBuild_CorrectFace2d()
   TopAbs_Orientation r1;
   Standard_Real aDTolerance=Precision::Confusion();
   TopTools_SequenceOfShape aSeq;
-  TopTools_ListIteratorOfListOfShape anIt(HeadList);
-  for (; anIt.More(); anIt.Next()) {
-    aSeq.Append(anIt.Value());
+  for (auto s : HeadList) {
+    aSeq.Append(s);
   }
 
   r1=aSeq(1).Orientation();

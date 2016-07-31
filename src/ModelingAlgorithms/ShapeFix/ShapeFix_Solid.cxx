@@ -204,8 +204,11 @@ static void CollectSolids(const TopTools_SequenceOfShape& aSeqShells ,
         if(aMapShellHoles.IsBound(aShell2)) {
           Standard_Boolean isAnalysis = Standard_False;
           const TopTools_ListOfShape& ls = aMapShellHoles.Find(aShell2);
-          for(TopTools_ListIteratorOfListOfShape li(ls); li.More() && !isAnalysis; li.Next())
-            isAnalysis = li.Value().IsSame(aShell1);
+          for(auto S : ls) {
+            isAnalysis = S.IsSame(aShell1);
+	    if (isAnalysis)
+	      break;
+	  }
           if(isAnalysis) continue;
         }
         TopAbs_State pointstatus = TopAbs_UNKNOWN;
@@ -251,11 +254,11 @@ static void CollectSolids(const TopTools_SequenceOfShape& aSeqShells ,
     if(aMapHoles.Contains(aItShellHoles.Key())) continue;
     const TopTools_ListOfShape& lHoles =aItShellHoles.Value();
     if(lHoles.empty()) continue;
-    for(TopTools_ListIteratorOfListOfShape lItHoles(lHoles);lItHoles.More(); lItHoles.Next()) {
-      if(aMapHoles.Contains(lItHoles.Value())) {
-        const TopTools_ListOfShape& lUnHoles = aMapShellHoles.Find(lItHoles.Value());
-        for(TopTools_ListIteratorOfListOfShape lItUnHoles(lUnHoles);lItUnHoles.More(); lItUnHoles.Next()) 
-          aMapHoles.Remove(lItUnHoles.Value());
+    for(auto SH : lHoles) {
+      if(aMapHoles.Contains(SH)) {
+        const TopTools_ListOfShape& lUnHoles = aMapShellHoles.Find(SH);
+        for(auto SUH : lUnHoles)
+          aMapHoles.Remove(SUH);
       }
     }
   }
@@ -328,8 +331,8 @@ static Standard_Boolean CreateSolids(const TopoDS_Shape aShape,TopTools_IndexedM
   }
     
     const TopTools_ListOfShape& lHoles = aItShellHoles.Value();
-    for(TopTools_ListIteratorOfListOfShape lItHoles(lHoles); lItHoles.More();lItHoles.Next()) {
-      TopoDS_Shell aShellHole = TopoDS::Shell(lItHoles.Value());
+    for(auto SH : lHoles) {
+      TopoDS_Shell aShellHole = TopoDS::Shell(SH);
       if(aMapStatus.IsBound(aShellHole)) {
         infinstatus = (aMapStatus.Find(aShellHole) == 1 ? TopAbs_IN : TopAbs_OUT);
       }
@@ -359,11 +362,11 @@ static Standard_Boolean CreateSolids(const TopoDS_Shape aShape,TopTools_IndexedM
     BRep_Builder aB;
     aB.MakeCompSolid(aCompSolid);
     isDone = (aShape.ShapeType() != TopAbs_COMPSOLID || isDone);
-    for(TopTools_ListIteratorOfListOfShape lItSh(lshells);lItSh.More(); lItSh.Next()) {
-      if(ShellSolid.Contains(lItSh.Value())) {
-        for(TopExp_Explorer aExpSol(ShellSolid.FindFromKey(lItSh.Value()),TopAbs_SOLID);aExpSol.More(); aExpSol.Next())
+    for(auto SH : lshells) {
+      if(ShellSolid.Contains(SH)) {
+        for(TopExp_Explorer aExpSol(ShellSolid.FindFromKey(SH),TopAbs_SOLID);aExpSol.More(); aExpSol.Next())
           aB.Add(aCompSolid,aExpSol.Current());
-        ShellSolid.ChangeFromKey(lItSh.Value()) = aCompSolid;
+        ShellSolid.ChangeFromKey(SH) = aCompSolid;
       }
     }
   }

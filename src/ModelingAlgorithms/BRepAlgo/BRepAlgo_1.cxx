@@ -63,14 +63,12 @@ Standard_Boolean BRepAlgo::IsValid(const TopoDS_Shape& S)
 
   TopTools_MapOfShape allFaces;
   TopExp_Explorer tEx;
-  TopTools_ListIteratorOfListOfShape itLOS;
-  for (itLOS.Initialize(theArgs);
-       itLOS.More(); itLOS.Next()) {
-    if (itLOS.Value().IsSame(theResult)) {
+  for (auto SOS : theArgs) {
+    if (SOS.IsSame(theResult)) {
       validate = Standard_True;
       break;
     }
-    for (tEx.Init(itLOS.Value(), TopAbs_FACE); tEx.More(); tEx.Next()) {
+    for (tEx.Init(SOS, TopAbs_FACE); tEx.More(); tEx.Next()) {
       allFaces.Add(tEx.Current());
     }
   }

@@ -19,6 +19,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_TransitionMode.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class BRepFill_PipeShell;
 class Standard_DomainError;
 class StdFail_NotDone;
@@ -28,7 +29,6 @@ class gp_Dir;
 class TopoDS_Shape;
 class TopoDS_Vertex;
 class Law_Function;
-class TopTools_ListOfShape;
 
 
 //! This class provides for a framework to construct a shell

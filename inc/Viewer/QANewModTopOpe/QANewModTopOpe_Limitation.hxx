@@ -16,8 +16,8 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Viewer/QANewModTopOpe/QANewModTopOpe_ModeOfLimitation.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! provides  cutting  shape  by  face  or  shell;

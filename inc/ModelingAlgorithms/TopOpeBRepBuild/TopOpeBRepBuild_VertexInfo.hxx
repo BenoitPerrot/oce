@@ -19,7 +19,6 @@
 class TopoDS_Vertex;
 class TopoDS_Edge;
 class TopTools_IndexedMapOfOrientedShape;
-class TopTools_ListOfShape;
 
 
 

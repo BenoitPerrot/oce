@@ -64,10 +64,8 @@ void MeshTest_CheckTopology::Perform (Draw_Interpretor& di)
     const TColStd_Array1OfInteger& aNodes1 = aPoly1->Nodes();
 
     // cycle on other polygons
-    TopTools_ListIteratorOfListOfShape it(aFaces);
-    it.Next();
-    for (; it.More(); it.Next()) {
-      const TopoDS_Face& aFace2 = TopoDS::Face(it.Value());
+    for (auto S2 : aFaces) {
+      const TopoDS_Face& aFace2 = TopoDS::Face(S2);
       TopLoc_Location aLoc2;
       Handle(Poly_Triangulation) aT2 = BRep_Tool::Triangulation(aFace2, aLoc2);
       Handle(Poly_PolygonOnTriangulation) aPoly2 =

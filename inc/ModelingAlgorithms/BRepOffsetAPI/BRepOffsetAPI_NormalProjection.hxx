@@ -12,6 +12,7 @@
 
 #include <ModelingAlgorithms/BRepAlgo/BRepAlgo_NormalProjection.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -21,7 +22,6 @@ class Standard_NoSuchObject;
 class StdFail_NotDone;
 class TopoDS_Shape;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 
 
 //! A framework to define projection onto a shape

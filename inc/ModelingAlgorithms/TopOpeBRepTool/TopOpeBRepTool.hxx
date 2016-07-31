@@ -13,10 +13,10 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_OutCurveType.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Face;
 class TopTools_DataMapOfShapeInteger;
 class TopTools_IndexedMapOfOrientedShape;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;
 class TopoDS_Solid;
 class TopOpeBRepTool_GeomTool;

@@ -83,9 +83,9 @@
 
 static Standard_Boolean isinlist(const TopoDS_Shape&         E,
 				 const TopTools_ListOfShape& L){
-  TopTools_ListIteratorOfListOfShape It;
-  for (It.Initialize(L); It.More(); It.Next()){
-    if(E.IsSame(It.Value())) return 1;
+#warning find
+  for (auto S : L) {
+    if (E.IsSame(S)) return 1;
   }
   return 0;
 }
@@ -200,19 +200,22 @@ Standard_Integer  FilletSurf_InternalBuilder::Add(const TopTools_ListOfShape& E,
 						  const Standard_Real R)
 {
   if(E.empty()) return 1;
-  TopTools_ListIteratorOfListOfShape It;
-  for(It.Initialize(E); It.More(); It.Next()){
-    TopoDS_Edge cured = TopoDS::Edge(It.Value());
+#warning CRITICALY WRONG see It and End being changed (as original)
+  TopTools_ListOfShape::const_iterator It, End;
+  for (It = begin(E), End = end(E);
+       It != End; ++It) {
+    TopoDS_Edge cured = TopoDS::Edge(*It);
     if(cured.IsNull()) return 4;
     if(!myEFMap.Contains(cured)) return 4;
     //check if the edge is a fracture edge
-    TopoDS_Face ff1,ff2;  
-    for(It.Initialize(myEFMap(cured));It.More();It.Next()){  
+    TopoDS_Face ff1,ff2;
+    auto &lcured = myEFMap(cured);
+    for (It = begin(lcured), End = end(lcured); It != End; ++It) {
       if (ff1.IsNull()) {
-	ff1 = TopoDS::Face(It.Value());
+	ff1 = TopoDS::Face(*It);
       }
       else {
-	ff2 = TopoDS::Face(It.Value());
+	ff2 = TopoDS::Face(*It);
 	if(!ff2.IsSame(ff1)){
 	  break;
 	}
@@ -233,8 +236,8 @@ Standard_Integer  FilletSurf_InternalBuilder::Add(const TopTools_ListOfShape& E,
   //the edges that arenot in the list are removed from the contour,
   //it is checked that the remainder is monoblock.
  
-  for(It.Initialize(E); It.More(); It.Next()){
-    TopoDS_Edge cured = TopoDS::Edge(It.Value());
+  for (auto S : E) {
+    TopoDS_Edge cured = TopoDS::Edge(S);
     if(!Contains(cured)) return 2;
   }  
         
@@ -427,6 +430,7 @@ Standard_Boolean
   return Standard_True;
 }
 
+#warning proof of design flaw
 void FilletSurf_InternalBuilder::PerformSurf(ChFiDS_SequenceOfSurfData&, const Handle(ChFiDS_HElSpine)&, const Handle(ChFiDS_Spine)&, const Standard_Integer, const Handle(BRepAdaptor_HSurface)&, const Handle(Adaptor3d_TopolTool)&, const Handle(BRepAdaptor_HCurve2d)&, const Handle(BRepAdaptor_HSurface)&, const Handle(BRepAdaptor_HCurve2d)&, Standard_Boolean&, const Handle(BRepAdaptor_HSurface)&, const Handle(Adaptor3d_TopolTool)&, const TopAbs_Orientation, const Standard_Real, const Standard_Real, const Standard_Real, Standard_Real&, Standard_Real&, const Standard_Boolean, const Standard_Boolean, const Standard_Boolean, const Standard_Boolean, const Standard_Boolean, const Standard_Boolean, const math_Vector&)
 {
  Standard_DomainError::Raise("BlendFunc_CSConstRad::Section : Not implemented");

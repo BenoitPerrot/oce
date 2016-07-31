@@ -26,7 +26,6 @@ class TopTools_IndexedDataMapOfShapeShape;
 class TopoDS_Edge;
 class gp_Pnt2d;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class gp_Vec2d;
 class Geom2d_Curve;
 class TopoDS_Wire;

@@ -11,7 +11,6 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-class TopTools_ListOfShape;
 
 
 //! Contains the  3 ListOfShape of  a Face  ( Internal

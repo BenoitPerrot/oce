@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_Filling.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -22,7 +23,6 @@ class Standard_ConstructionError;
 class TopoDS_Face;
 class TopoDS_Edge;
 class gp_Pnt;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

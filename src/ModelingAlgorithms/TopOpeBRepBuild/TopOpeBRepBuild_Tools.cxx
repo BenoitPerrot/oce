@@ -157,10 +157,7 @@ const Standard_Real PAR_T = 0.43213918;
     
     if (aShapeWithState.IsSplitted()) {
       
-      const TopTools_ListOfShape& aListOfShape=aShapeWithState.Part(TopAbs_IN);
-      TopTools_ListIteratorOfListOfShape anIt(aListOfShape);
-      for (;anIt.More(); anIt.Next()) {
-	const TopoDS_Shape& aS=anIt.Value();
+      for (const TopoDS_Shape& aS : aShapeWithState.Part(TopAbs_IN)) {
 	
 	TCollection_AsciiString cn(cnt), prefix("_S_"), sn;
 	sn+=aFName; sn+=prefix; sn+=cn;
@@ -172,10 +169,7 @@ const Standard_Real PAR_T = 0.43213918;
 	cnt++;
       }
 
-      const TopTools_ListOfShape& aListOfShapeOut=aShapeWithState.Part(TopAbs_OUT);
-      anIt.Initialize (aListOfShapeOut);
-      for (;anIt.More(); anIt.Next()) {
-	const TopoDS_Shape& aS=anIt.Value();
+      for (const TopoDS_Shape& aS : aShapeWithState.Part(TopAbs_OUT)) {
 
 	TCollection_AsciiString cn(cnt), prefix("_S_"), sn;//=aFName+prefix+cn;
 	sn+=aFName; sn+=prefix; sn+=cn;
@@ -187,10 +181,7 @@ const Standard_Real PAR_T = 0.43213918;
 	cnt++;
       }
 
-      const TopTools_ListOfShape& aListOfShapeOn=aShapeWithState.Part(TopAbs_ON);
-      anIt.Initialize (aListOfShapeOn);
-      for (;anIt.More(); anIt.Next()) {
-	const TopoDS_Shape& aS=anIt.Value();
+      for (const TopoDS_Shape& aS : aShapeWithState.Part(TopAbs_ON)) {
 
 	TCollection_AsciiString cn(cnt), prefix("_S_"), sn;//=aFName+prefix+cn;
 	sn+=aFName; sn+=prefix; sn+=cn;
@@ -221,9 +212,7 @@ const Standard_Real PAR_T = 0.43213918;
 {
   Standard_Integer i, nSub;
   const TopTools_ListOfShape& aListOfShapes=aMapSubshAnc.FindFromKey(aSubsh);
-  TopTools_ListIteratorOfListOfShape anIt(aListOfShapes);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Shape& aS=anIt.Value();
+  for (const TopoDS_Shape& aS : aListOfShapes) {
     TopTools_IndexedMapOfShape aSubshMap;
     TopExp::MapShapes (aS, aSubshEnum, aSubshMap);
     nSub=aSubshMap.Extent();
@@ -377,10 +366,8 @@ const Standard_Real PAR_T = 0.43213918;
 {
   Standard_Integer i, nSub;
   const TopTools_ListOfShape& aListOfShapes=aMapSubshAnc.FindFromKey(aSubsh);
-  TopTools_ListIteratorOfListOfShape anIt(aListOfShapes);
-  for (; anIt.More(); anIt.Next()) {
+  for (const TopoDS_Shape& aShape : aListOfShapes) {
     //Shape
-    const TopoDS_Shape& aShape=anIt.Value();
     aMapSS.Bind (aShape, aState);
 
     //Subshape
@@ -410,10 +397,8 @@ const Standard_Real PAR_T = 0.43213918;
 {
   Standard_Integer i, nSub, j, nW;
   const TopTools_ListOfShape& aListOfShapes=aMapSubshAnc.FindFromKey(aSubsh);
-  TopTools_ListIteratorOfListOfShape anIt(aListOfShapes);
-  for (; anIt.More(); anIt.Next()) {
+  for (const TopoDS_Shape& aShape : aListOfShapes) {
     //Face
-    const TopoDS_Shape& aShape=anIt.Value();
     aMapSS.Bind (aShape, aState);
     //Wire
     TopTools_IndexedMapOfShape aWireMap;
@@ -732,11 +717,10 @@ Standard_Boolean TopOpeBRepBuild_Tools::GetAdjacentFace (const TopoDS_Shape& aFa
 							 TopoDS_Shape& anAdjFaceObj)
 {
   const TopTools_ListOfShape& aListOfAdjFaces=anEdgeFaceMap.FindFromKey(anEObj);
-  TopTools_ListIteratorOfListOfShape anIt(aListOfAdjFaces);
   TopoDS_Shape anAdjShape;
-  for (; anIt.More(); anIt.Next()) {
-    if (anIt.Value()!=aFaceObj) {
-      anAdjShape=anIt.Value();
+  for (auto anS : aListOfAdjFaces) {
+    if (anS!=aFaceObj) {
+      anAdjShape=anS;
       break;
     }
   }

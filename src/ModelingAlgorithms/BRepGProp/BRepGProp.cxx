@@ -21,6 +21,7 @@
 #include <ModelingAlgorithms/BRepGProp/BRepGProp_Domain.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepAdaptor/BRepAdaptor_Curve.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
 #include <ModelingData/TopTools/TopTools.hxx>
 #include <ModelingData/BRep/BRep_Tool.hxx>  
@@ -307,10 +308,8 @@ Standard_Real BRepGProp::VolumePropertiesGK(const TopoDS_Shape     &S,
     // Compute the properties for each closed shell.
     Standard_Real aTol    = Eps;
     Standard_Real aLocalError;
-    TopTools_ListIteratorOfListOfShape anIter(aClosedShells);
 
-    for (; anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aShell = anIter.Value();
+    for (auto aShell : aClosedShells) {
 
       aLocalError = volumePropertiesGK(aShell, Props, aTol, IsUseSpan, CGFlag, IFlag);
 
@@ -425,10 +424,8 @@ Standard_Real BRepGProp::VolumePropertiesGK(const TopoDS_Shape     &S,
     // Compute the properties for each closed shell.
     Standard_Real aTol    = Eps;
     Standard_Real aLocalError;
-    TopTools_ListIteratorOfListOfShape anIter(aClosedShells);
 
-    for (; anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aShell = anIter.Value();
+    for (auto aShell : aClosedShells) {
 
       aLocalError = volumePropertiesGK(aShell, Props, thePln, aTol, IsUseSpan, CGFlag, IFlag);
 

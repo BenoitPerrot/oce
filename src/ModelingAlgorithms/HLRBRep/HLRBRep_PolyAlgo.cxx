@@ -1251,8 +1251,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
   if (connex) {
     Standard_Integer nbConnex = LS.size();
     if      (nbConnex == 1) {
-      TopTools_ListIteratorOfListOfShape itn(LS);
-      const TopoDS_Face& F1 = TopoDS::Face(itn.Value());
+      const TopoDS_Face& F1 = TopoDS::Face(LS.front());
       i1      = myFMap.FindIndex(F1);
       const Handle(Poly_Triangulation)& Tr1 = BRep_Tool::Triangulation(F1,L);
       HPol[0] = BRep_Tool::PolygonOnTriangulation(E,Tr1,L);
@@ -1380,13 +1379,13 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 #endif
     }
     else if (nbConnex == 2) {
-      TopTools_ListIteratorOfListOfShape itn(LS);
-      const TopoDS_Face& F1 = TopoDS::Face(itn.Value());
+      TopTools_ListIteratorOfListOfShape itn = begin(LS);
+      const TopoDS_Face& F1 = TopoDS::Face(*itn);
       i1      = myFMap.FindIndex(F1);
       const Handle(Poly_Triangulation)& Tr1 = BRep_Tool::Triangulation(F1,L);
       HPol[0] = BRep_Tool::PolygonOnTriangulation(E,Tr1,L);
-      itn.Next();
-      const TopoDS_Face& F2 = TopoDS::Face(itn.Value());
+      ++itn;
+      const TopoDS_Face& F2 = TopoDS::Face(*itn);
       i2      = myFMap.FindIndex(F2);
       if (i1 == i2) E.Reverse();
       const Handle(Poly_Triangulation)& Tr2 = BRep_Tool::Triangulation(F2,L);

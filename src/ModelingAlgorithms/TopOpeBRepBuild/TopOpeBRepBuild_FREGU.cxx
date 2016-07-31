@@ -84,15 +84,13 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
   LOF.clear();
   myMemoSplit.Clear();
 
-  TopTools_ListIteratorOfListOfShape itl(lnewFace);  
-  for (;itl.More();itl.Next()) {
-    const TopoDS_Shape& newFace = itl.Value();
+  for (const TopoDS_Shape& newFace : lnewFace) {
     TopTools_ListOfShape newFaceLOF;
     RegularizeFace(FF,newFace,newFaceLOF);
 #ifdef OCCT_DEBUG
 //    Standard_Integer nnewFaceLOF = newFaceLOF.Extent(); // DEB
 #endif
-    LOF.Append(newFaceLOF);
+    LOF.insert(end(LOF), begin(newFaceLOF), end(newFaceLOF));
   }
 #ifdef OCCT_DEBUG
 //  Standard_Integer nLOF = LOF.Extent(); // DEB
@@ -104,12 +102,10 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
   // lfsdFF = faces SameDomain de FF
   TopTools_ListOfShape lfsdFF,lfsdFF1,lfsdFF2;
   GFindSamDom(FF,lfsdFF1,lfsdFF2);
-  lfsdFF.Append(lfsdFF1);
-  lfsdFF.Append(lfsdFF2);
+  lfsdFF.insert(end(lfsdFF), begin(lfsdFF1), end(lfsdFF1));
+  lfsdFF.insert(end(lfsdFF), begin(lfsdFF2), end(lfsdFF2));
   
-  TopTools_ListIteratorOfListOfShape itlfsdFF(lfsdFF);
-  for (; itlfsdFF.More(); itlfsdFF.Next()) {
-    const TopoDS_Shape& fsdFF = itlfsdFF.Value();
+  for (const TopoDS_Shape& fsdFF : lfsdFF) {
     // au moins une arete de FF dont le Split() est lui meme Split()
     TopExp_Explorer x;
     for (x.Init(fsdFF,TopAbs_EDGE);x.More();x.Next()) {
@@ -136,8 +132,7 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
 //	Standard_Integer nlspe = lspe.Extent(); // DEB
 #endif
 	TopTools_ListOfShape newlspe;
-	for (TopTools_ListIteratorOfListOfShape itl1(lspe);itl1.More();itl1.Next()) {
-	  const TopoDS_Shape& esp = itl1.Value();
+	for (const TopoDS_Shape& esp : lspe) {
 	  Standard_Boolean espmemo = myMemoSplit.Contains(esp);
 	  if (!espmemo) newlspe.push_back(esp);
 	  else {
@@ -150,7 +145,7 @@ void TopOpeBRepBuild_Builder::RegularizeFaces
 
       } // iiista
     } // explorer (fsdFF,TopAbs_EDGE)
-  } // itlfsdFF.More()
+  }
 } // RegularizeFaces
 
 /*static void FUN_setInternal(TopoDS_Face& F)
@@ -235,8 +230,8 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 	const TopoDS_Wire& ow = TopoDS::Wire(itownw.Key());
 	wtof.AddWire(ow);
       }
-      for(TopTools_ListIteratorOfListOfShape iw(lw);iw.More();iw.Next()) {
-	const TopoDS_Wire& w = TopoDS::Wire(iw.Value());
+      for (auto sw : lw) {
+	const TopoDS_Wire& w = TopoDS::Wire(sw);
 	wtof.AddWire(w);
       }
     }
@@ -260,9 +255,8 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 #endif
   
   // LOF = nouvelles faces regularisees de newFace
-  TopTools_ListIteratorOfListOfShape itlnf(newfaces);
-  for (; itlnf.More(); itlnf.Next()) 
-    LOF.push_back(TopoDS::Face(itlnf.Value()));
+  for (auto newS : newfaces)
+    LOF.push_back(TopoDS::Face(newS));
   
   // mise a jour des aretes decoupees
   // Edge(FF) = {E}, E-->Split(E) = {E'}, E'-->myESplits(E') = {E''}
@@ -277,12 +271,10 @@ void TopOpeBRepBuild_Builder::RegularizeFace
   // lfsdFF = faces SameDomain de FF
   TopTools_ListOfShape lfsdFF,lfsdFF1,lfsdFF2;
   GFindSamDom(FF,lfsdFF1,lfsdFF2);
-  lfsdFF.Append(lfsdFF1);
-  lfsdFF.Append(lfsdFF2);
+  lfsdFF.insert(end(lfsdFF), begin(lfsdFF1), end(lfsdFF1));
+  lfsdFF.insert(end(lfsdFF), begin(lfsdFF2), end(lfsdFF2));
   
-  TopTools_ListIteratorOfListOfShape itlfsdFF(lfsdFF);
-  for (; itlfsdFF.More(); itlfsdFF.Next()) {
-    const TopoDS_Shape& fsdFF = itlfsdFF.Value();
+  for (const TopoDS_Shape& fsdFF : lfsdFF) {
 
 #ifdef OCCT_DEBUG
     Standard_Integer ifsdFF=0;Standard_Boolean tSPSfsdFF=GtraceSPS(fsdFF,ifsdFF);
@@ -323,11 +315,10 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 //	Standard_Integer nlspfsdFFe = lspfsdFFe.Extent();
 #endif    
 	  
-	for (TopTools_ListIteratorOfListOfShape it(lspfsdFFe);it.More();it.Next()) {
+	for (const TopoDS_Shape& espfsdFFe : lspfsdFFe) {
 	  
 	  // fsdFFe (Cf supra E) a ete splittee, espfdsFFe = arete splittee de fsdFFe
 	  
-	  const TopoDS_Shape& espfsdFFe = it.Value();
 	  Standard_Boolean inmenf = menf.Contains(espfsdFFe);
 	  if (!inmenf) continue;
 	  
@@ -354,7 +345,7 @@ void TopOpeBRepBuild_Builder::RegularizeFace
 	} // it.More
       } // iiista
     } // explore(fsdFF,TopAbs_EDGE)
-  } // itlfsdFF.More()
+  }
 
 #ifdef DRAW
   if (tSPSFF) debregufa(iF);

@@ -122,9 +122,9 @@ static Standard_Boolean FindNamed(const TopoDS_Shape& S,
 static Standard_Boolean Contains(const TopTools_ListOfShape& L,
 				 const TopoDS_Shape& S)
 {
-  TopTools_ListIteratorOfListOfShape it;
-  for (it.Initialize(L); it.More(); it.Next()) {
-    if (it.Value().IsSame(S)) {
+#warning find
+  for (auto I : L) {
+    if (I.IsSame(S)) {
       return Standard_True;
     }
   }
@@ -1026,13 +1026,9 @@ static Standard_Integer shapeG1continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.size();
-  if(nelem!=2) return 1; 
-  TopTools_ListIteratorOfListOfShape It;
-  It.Initialize(lfac);
-  face1=TopoDS::Face(It.Value());
-  It.Next();
-  face2=TopoDS::Face(It.Value());
+  if (lfac.size() != 2) return 1; 
+  face1 = TopoDS::Face(lfac.front());
+  face2 = TopoDS::Face(*next(begin(lfac)));
     
 // calcul des deux pcurves 
   const Handle(Geom2d_Curve) c1 = BRep_Tool::CurveOnSurface
@@ -1151,13 +1147,9 @@ static Standard_Integer shapeG0continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.size();
-  if(nelem!=2) return 1; 
-  TopTools_ListIteratorOfListOfShape It;
-  It.Initialize(lfac);
-  face1=TopoDS::Face(It.Value());
-  It.Next();
-  face2=TopoDS::Face(It.Value());
+  if (lfac.size() != 2) return 1; 
+  face1 = TopoDS::Face(lfac.front());
+  face2 = TopoDS::Face(*next(begin(lfac)));
     
 // calcul des deux pcurves 
   const Handle(Geom2d_Curve) c1 = BRep_Tool::CurveOnSurface
@@ -1273,13 +1265,9 @@ static Standard_Integer shapeG2continuity (Draw_Interpretor& di, Standard_Intege
   TopExp::MapShapesAndAncestors(shape,TopAbs_EDGE,TopAbs_FACE,lface);
   const TopTools_ListOfShape& lfac = lface.FindFromKey(edge);
 
-  Standard_Integer nelem= lfac.size();
-  if(nelem!=2) return 1; 
-  TopTools_ListIteratorOfListOfShape It;
-  It.Initialize(lfac);
-  face1=TopoDS::Face(It.Value());
-  It.Next();
-  face2=TopoDS::Face(It.Value());
+  if (lfac.size() != 2) return 1;
+  face1 = TopoDS::Face(lfac.front());
+  face2 = TopoDS::Face(*next(begin(lfac)));
 // calcul des deux pcurves 
   const Handle(Geom2d_Curve) c1 = BRep_Tool::CurveOnSurface
                                (TopoDS::Edge(edge),face1,f1,l1);
@@ -1545,11 +1533,10 @@ static Standard_Integer listfuseedge(Draw_Interpretor& di,
   for (itLstEdg.Initialize(mymap); itLstEdg.More(); itLstEdg.Next()) {
       const Standard_Integer& iLst = itLstEdg.Key();
       const TopTools_ListOfShape& LmapEdg = mymap.Find(iLst);
-      TopTools_ListIteratorOfListOfShape itEdg; 
       i = 1;
-      for (itEdg.Initialize(LmapEdg); itEdg.More(); itEdg.Next()) {
+      for (auto s : LmapEdg) {
 	Sprintf(newname,"%s_%d_%d",a[1],iLst,i);
-	DBRep::Set(temp,itEdg.Value());
+	DBRep::Set(temp,s);
 	//cout<<newname<<" ";
 	di<<newname<<" ";
 	i++;

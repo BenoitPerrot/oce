@@ -43,8 +43,8 @@ inline LocOpe_FindEdges::LocOpe_FindEdges(const TopoDS_Shape& FFrom,
 
 inline void LocOpe_FindEdges::InitIterator ()
 {
-  myItFrom.Initialize(myLFrom);
-  myItTo.Initialize(myLTo);
+  myItFrom = begin(myLFrom);
+  myItTo = begin(myLTo);
 }
 
 
@@ -55,7 +55,7 @@ inline void LocOpe_FindEdges::InitIterator ()
 
 inline Standard_Boolean LocOpe_FindEdges::More() const
 {
-  return myItFrom.More();
+  return myItFrom != end(myLFrom);
 }
 
 
@@ -66,7 +66,7 @@ inline Standard_Boolean LocOpe_FindEdges::More() const
 
 inline const TopoDS_Edge& LocOpe_FindEdges::EdgeFrom() const
 {
-  return TopoDS::Edge(myItFrom.Value());
+  return TopoDS::Edge(*myItFrom);
 }
 
 
@@ -77,7 +77,7 @@ inline const TopoDS_Edge& LocOpe_FindEdges::EdgeFrom() const
 
 inline const TopoDS_Edge& LocOpe_FindEdges::EdgeTo() const
 {
-  return TopoDS::Edge(myItTo.Value());
+  return TopoDS::Edge(*myItTo);
 }
 
 
@@ -88,6 +88,6 @@ inline const TopoDS_Edge& LocOpe_FindEdges::EdgeTo() const
 
 inline void LocOpe_FindEdges::Next()
 {
-  myItFrom.Next();
-  myItTo.Next();
+  ++myItFrom;
+  ++myItTo;
 }

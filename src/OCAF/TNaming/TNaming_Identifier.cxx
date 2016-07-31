@@ -348,7 +348,7 @@ void TNaming_Identifier::GeneratedIdentification(TNaming_Localizer& /*Localizer*
 //  TopoDS_Shape Gen; //szy 16.10.03
   TopTools_ListOfShape aListOfGenerators;
   TNaming_Localizer::FindGenerator (NS,myShape,aListOfGenerators);
-  myShapeArgs.Append(aListOfGenerators);
+  myShapeArgs.insert(end(myShapeArgs), begin(aListOfGenerators), end(aListOfGenerators));
   myNSContext = NS;
   myType      = TNaming_GENERATION;
   myDone = 1;  

@@ -32,6 +32,23 @@ TopOpeBRepDS_ShapeWithState::TopOpeBRepDS_ShapeWithState():
 //=======================================================================
   const TopTools_ListOfShape& TopOpeBRepDS_ShapeWithState::Part (const TopAbs_State aState) const
 {
+#warning C++ify: when state is invalid, fail at compile time, return nullptr or throw
+  static TopTools_ListOfShape myEmptyListOfShape ;
+  switch (aState) 
+    {
+    case TopAbs_IN:
+      return myPartIn;
+    case TopAbs_OUT:
+      return myPartOut;
+    case TopAbs_ON:
+      return myPartOn;
+    default :
+      return myEmptyListOfShape;
+    }
+}
+TopTools_ListOfShape& TopOpeBRepDS_ShapeWithState::ChangePart (const TopAbs_State aState)
+{
+#warning C++ify: when state is invalid, fail at compile time, return nullptr or throw
   static TopTools_ListOfShape myEmptyListOfShape ;
   switch (aState) 
     {
@@ -76,24 +93,16 @@ TopOpeBRepDS_ShapeWithState::TopOpeBRepDS_ShapeWithState():
   void TopOpeBRepDS_ShapeWithState::AddParts (const TopTools_ListOfShape& aListOfShape, 
 					      const TopAbs_State aState) 
 {
-  TopTools_ListIteratorOfListOfShape anIt(aListOfShape);
-
   switch (aState) 
     {
     case TopAbs_IN:
-      for (; anIt.More(); anIt.Next()) {
-	myPartIn.push_back(anIt.Value());
-      }
+      myPartIn.insert(end(myPartIn), begin(aListOfShape), end(aListOfShape));
       break;
     case TopAbs_OUT:
-      for (; anIt.More(); anIt.Next()) {
-	myPartOut.push_back(anIt.Value());
-      }
+      myPartOut.insert(end(myPartIn), begin(aListOfShape), end(aListOfShape));
       break;
     case TopAbs_ON:
-      for (; anIt.More(); anIt.Next()) {
-	myPartOn.push_back(anIt.Value());
-      }
+      myPartOn.insert(end(myPartIn), begin(aListOfShape), end(aListOfShape));
       break;
     
       default :

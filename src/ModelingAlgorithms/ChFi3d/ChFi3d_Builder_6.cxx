@@ -121,7 +121,6 @@
 
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #ifdef OCCT_DEBUG
 // For measurements.
@@ -218,19 +217,21 @@ static Standard_Integer SearchIndex(const Standard_Real Value,
 //=======================================================================
 static Standard_Integer nbedconnex(const TopTools_ListOfShape& L)
 {
+#warning somehow odd
   Standard_Integer nb = 0, i = 0;
-  TopTools_ListIteratorOfListOfShape It1(L);
-  for(;It1.More();It1.Next(),i++){
-    const TopoDS_Shape& curs = It1.Value();
+  for (const TopoDS_Shape& curs : L) {
     Standard_Boolean dejavu = 0;
-    TopTools_ListIteratorOfListOfShape It2(L);
-    for(Standard_Integer j = 0; j < i && It2.More(); j++, It2.Next()){
-      if(curs.IsSame(It2.Value())){
+    Standard_Integer j = 0;
+    for (auto S2 : L) {
+      if (i <= j) break;
+      if(curs.IsSame(S2)){
 	dejavu = 1;
 	break;
       }
+      j++;
     }
     if(!dejavu) nb++;
+    i++;
   }
   return nb;
 }
@@ -250,9 +251,8 @@ static Standard_Boolean IsVois(const TopoDS_Edge&     E,
   DONE.Add(E);
   const TopTools_ListOfShape& L1 = VEMap(V1);
   Standard_Integer i1 = nbedconnex(L1);
-  TopTools_ListIteratorOfListOfShape It1(L1);
-  for(;It1.More();It1.Next()){
-    const TopoDS_Edge& curE = TopoDS::Edge(It1.Value());
+  for (auto S1 : L1) {
+    const TopoDS_Edge& curE = TopoDS::Edge(S1);
     if(i1 <= 2){
       if(IsVois(curE,Vref,VEMap,DONE,prof,profmax)) return Standard_True;
     }
@@ -262,9 +262,8 @@ static Standard_Boolean IsVois(const TopoDS_Edge&     E,
 #ifdef OCCT_DEBUG
 //  Standard_Integer i2 = nbedconnex(L2);
 #endif
-  TopTools_ListIteratorOfListOfShape It2(L2);
-  for(;It2.More();It2.Next()){
-    const TopoDS_Edge& curE = TopoDS::Edge(It2.Value());
+  for (auto S2 : L2) {
+    const TopoDS_Edge& curE = TopoDS::Edge(S2);
     if(i1 <= 2){
       if(IsVois(curE,Vref,VEMap,DONE,prof,profmax)) return Standard_True;
     }

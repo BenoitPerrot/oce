@@ -130,10 +130,8 @@ ShapeUpgrade_RemoveInternalWires::ShapeUpgrade_RemoveInternalWires(const TopoDS_
       if(!aWireFaces.Extent())
         TopExp::MapShapesAndAncestors(myShape,TopAbs_WIRE,TopAbs_FACE,aWireFaces);
       if(aWireFaces.Contains(aS)) {
-        const TopTools_ListOfShape& alfaces = aWireFaces.FindFromKey(aS);
-        TopTools_ListIteratorOfListOfShape liter(alfaces);
-        for( ; liter.More(); liter.Next())
-          removeSmallWire(liter.Value(),aS);
+        for (auto S : aWireFaces.FindFromKey(aS))
+          removeSmallWire(S,aS);
       }
         
     }
@@ -210,16 +208,16 @@ void ShapeUpgrade_RemoveInternalWires::removeSmallFaces ()
       }
       const TopTools_ListOfShape& aLface1 = myEdgeFaces.FindFromKey(aEdge);
       const TopTools_ListOfShape& aLface2 = myRemoveEdges.Find(aEdge);
-      TopTools_ListIteratorOfListOfShape aliter(aLface1);
-      TopTools_ListIteratorOfListOfShape aliter2(aLface2);
-      for( ; aliter.More(); aliter.Next()) {
-        TopoDS_Shape aF = Context()->Apply(aliter.Value());
+      for(auto SF1 : aLface1) {
+        TopoDS_Shape aF = Context()->Apply(SF1);
         if(aF.IsNull())
           continue;
         Standard_Boolean isFind = Standard_False;
-        for( ; aliter2.More() && !isFind; aliter2.Next()) {
-          TopoDS_Shape aF2 = Context()->Apply(aliter2.Value());
+        for(auto SF2 : aLface2) {
+          TopoDS_Shape aF2 = Context()->Apply(SF2);
           isFind = aF.IsSame(aF2);
+	  if (isFind)
+	    break;
         }
         
         if(!isFind) {
@@ -252,10 +250,8 @@ void ShapeUpgrade_RemoveInternalWires::removeSmallFaces ()
           continue;
         TopoDS_Edge aE = asewd->Edge(n);
         if(!myRemoveEdges.IsBound(aE) ) {
-          const TopTools_ListOfShape& aLface3 = myEdgeFaces.FindFromKey(aE);
-          TopTools_ListIteratorOfListOfShape aliter3(aLface3);
-          for( ; aliter3.More();aliter3.Next()) {
-            TopoDS_Shape aF2 = Context()->Apply(aliter3.Value());
+          for (auto SF3 : myEdgeFaces.FindFromKey(aE)) {
+            TopoDS_Shape aF2 = Context()->Apply(SF3);
             if(aF2.IsNull())
               continue;
             if(!aF.IsSame(aF2) && !aFaceCandidates.Contains(aF2))

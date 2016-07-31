@@ -22,7 +22,6 @@
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_SolidClassifier.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopOpeBRepTool_SolidClassifier;
 class gp_Pnt2d;
 class gp_Pnt;

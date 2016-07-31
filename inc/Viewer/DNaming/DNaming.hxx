@@ -19,6 +19,7 @@
 #include <OCAF/TNaming/Handle_TNaming_NamedShape.hxx>
 #include <OCAF/TDataStd/Handle_TDataStd_UAttribute.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_CString.hxx>
 #include <OCAF/TDF/Handle_TDF_Data.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
@@ -36,7 +37,6 @@ class TopTools_DataMapOfShapeShape;
 class TDF_Label;
 class BRepAlgoAPI_BooleanOperation;
 class TDF_Data;
-class TopTools_ListOfShape;
 class TCollection_AsciiString;
 class DNaming_BoxDriver;
 class DNaming_CylinderDriver;

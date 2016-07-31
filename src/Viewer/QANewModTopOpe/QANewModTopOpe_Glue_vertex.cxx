@@ -94,9 +94,8 @@ QANewModTopOpe_Glue::PerformVertex()
       aList.push_back (aVer2);
       mySubst.Substitute (aVer, aList);
       aMapPassed.Add(aVer);
-      TopTools_ListIteratorOfListOfShape aIter(aMapAnc.FindFromKey(aVer));
-      for (; aIter.More(); aIter.Next()) {
-	aMapPassed.Add(aIter.Value());
+      for (auto S : aMapAnc.FindFromKey(aVer)) {
+	aMapPassed.Add(S);
       }
       myMapModif.Bind(aVer, aList);
     }
@@ -122,9 +121,8 @@ QANewModTopOpe_Glue::PerformVertex()
       aList.push_back (aNewEdge.Oriented(TopAbs_FORWARD));
       mySubst.Substitute (aEdge, aList);
       aMapPassed.Add(aEdge);
-      TopTools_ListIteratorOfListOfShape aIter(aMapAnc.FindFromKey(aEdge));
-      for (; aIter.More(); aIter.Next()) {
-	aMapPassed.Add(aIter.Value());
+      for (auto S : aMapAnc.FindFromKey(aEdge)) {
+	aMapPassed.Add(S);
       }
       // for Mandrake-10 - mkv,02.06.06 - myMapModif.Bind(aEdge, TopTools_ListOfShape());
       TopTools_ListOfShape aList1;

@@ -286,8 +286,10 @@ void TestTopOpe_BOOP::ClearResult()
 void TestTopOpe_BOOP::AddResult(const TopTools_ListOfShape& L)
 {
   BRep_Builder BB;
-  TopTools_ListIteratorOfListOfShape it(L);
-  for (; it.More(); it.Next(), myNresult++) BB.Add(myCresult,it.Value());
+  for (auto S : L) {
+    BB.Add(myCresult,S);
+  }
+  myNresult += L.size();
 }
 
 void TestTopOpe_BOOP::MakeResult(const TopTools_ListOfShape& L)

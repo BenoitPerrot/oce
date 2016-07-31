@@ -12,6 +12,7 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfIntegerShape.hxx>
@@ -28,7 +29,6 @@ class TopTools_DataMapOfIntegerShape;
 class TopTools_DataMapOfShapeShape;
 class TopTools_IndexedDataMapOfShapeListOfShape;
 class TopTools_MapOfShape;
-class TopTools_ListOfShape;
 class TopoDS_Vertex;
 class TopoDS_Edge;
 

@@ -319,7 +319,7 @@ void TopOpeBRepTool_FuseEdges::BuildListResultEdges()
       TopTools_ListIteratorOfListOfShape itEdg; 
 #endif
 
-      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
+      const TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
 
       // the first edge of the list will be replaced by the result fusion edge
       if (OldEdge.Orientation()==TopAbs_REVERSED) {
@@ -415,23 +415,19 @@ void TopOpeBRepTool_FuseEdges::Perform()
       if (!myMapEdg.IsBound(iLst))
         continue;
       const TopTools_ListOfShape& LmapEdg = myMapLstEdg.Find(iLst);
-      TopTools_ListIteratorOfListOfShape itEdg; 
 
       EdgeToSubs.clear();
-      TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
+      const TopoDS_Edge& OldEdge = TopoDS::Edge(LmapEdg.front());
 
 
       EdgeToSubs.push_back(myMapEdg(iLst));
       Bsub.Substitute(OldEdge,EdgeToSubs);
 
-      itEdg.Initialize(LmapEdg);
-
       // the other edges of the list will be removed
-      while (itEdg.More() ) {
-	if (!OldEdge.IsSame(TopoDS::Edge(itEdg.Value()))) {
-	  Bsub.Substitute(itEdg.Value(),EmptyList);
+      for (auto S : LmapEdg) {
+	if (!OldEdge.IsSame(TopoDS::Edge(S))) {
+	  Bsub.Substitute(S,EmptyList);
 	}
-	itEdg.Next();
       }      
     }
 
@@ -550,15 +546,14 @@ Standard_Boolean TopOpeBRepTool_FuseEdges::NextConnexEdge(const TopoDS_Vertex& t
 
   const TopTools_ListOfShape& LmapEdg = myMapVerLstEdg.FindFromKey(theVertex);
   Standard_Boolean HasConnex = Standard_True;
-  TopTools_ListIteratorOfListOfShape itEdg,itFac1,itFac2;
 
   // 1st condition 
   if (LmapEdg.size() == 2) {
-    itEdg.Initialize(LmapEdg);
-    theEdgeConnex = itEdg.Value();
+    TopTools_ListOfShape::const_iterator itEdg = begin(LmapEdg);
+    theEdgeConnex = *itEdg;
     if (theEdge.IsSame(theEdgeConnex) ) {
-      itEdg.Next();
-      theEdgeConnex = itEdg.Value();
+      ++itEdg;
+      theEdgeConnex = *itEdg;
     }
 
     if (myAvoidEdg.Contains(theEdgeConnex))
@@ -570,20 +565,18 @@ Standard_Boolean TopOpeBRepTool_FuseEdges::NextConnexEdge(const TopoDS_Vertex& t
       const TopTools_ListOfShape& LmapFac2 = myMapEdgLstFac.FindFromKey(theEdgeConnex);
       
       if (LmapFac1.size() ==  LmapFac2.size() && LmapFac1.size() < 3) {
-	itFac1.Initialize(LmapFac1); 
 
 	// for each face in LmapFac1 we look in LmapFac2 if it exists
-	while (itFac1.More() && HasConnex) {
-	  const TopoDS_Shape& face1 = itFac1.Value();
-	  for (itFac2.Initialize(LmapFac2); itFac2.More(); itFac2.Next()) {
-	    const TopoDS_Shape& face2 = itFac2.Value();
-	    HasConnex = Standard_False;
+	for (const TopoDS_Shape& face1 : LmapFac1) {
+#warning C++ify find
+	  HasConnex = Standard_False;
+	  for (const TopoDS_Shape& face2 : LmapFac2) {
 	    if (face1.IsSame(face2)) {
 	      HasConnex = Standard_True;
 	      break;
 	    }
 	  }
-	  itFac1.Next();
+	  if (!HasConnex) break;
 	}
 	
 	// 3rd condition : same suport
@@ -860,7 +853,6 @@ void TopOpeBRepTool_FuseEdges::BuildAncestors
 {
 
   TopTools_MapOfShape mapDuplicate;
-  TopTools_ListIteratorOfListOfShape it;
   Standard_Integer iSh;
 
   TopExp::MapShapesAndAncestors(S,TS,TA,M);
@@ -871,11 +863,11 @@ void TopOpeBRepTool_FuseEdges::BuildAncestors
 
     mapDuplicate.Clear();
     // we check for duplicate in the list of Shape
-    it.Initialize(Lsh);
-    while (it.More() ) {
-      if (!mapDuplicate.Contains(it.Value())) {
-	mapDuplicate.Add(it.Value());
-	it.Next();
+    TopTools_ListIteratorOfListOfShape it = begin(Lsh);
+    while (it != end(Lsh)) {
+      if (!mapDuplicate.Contains(*it)) {
+	mapDuplicate.Add(*it);
+	++it;
       }
       else {
 	it = Lsh.erase(it);
@@ -920,11 +912,11 @@ Standard_Boolean TopOpeBRepTool_FuseEdges::UpdatePCurve(const TopoDS_Edge& theOl
     // we look for a face that contains the same surface as the one that cames
     // from CurveOnSurface
     Standard_Boolean SameSurf = Standard_False;
-    TopTools_ListIteratorOfListOfShape itFac;
 
-    for (itFac.Initialize(LmapFac); itFac.More(); itFac.Next() ) {
-      const TopoDS_Shape& face = itFac.Value();
-      Handle (Geom_Surface) S = BRep_Tool::Surface(TopoDS::Face(face),locbid);
+#warning C++ify find
+    TopTools_ListOfShape::const_iterator itFac = begin(LmapFac);
+    for (; itFac != end(LmapFac); ++itFac) {
+      Handle (Geom_Surface) S = BRep_Tool::Surface(TopoDS::Face(*itFac),locbid);
       if (S == Surf) {
 	SameSurf = Standard_True;
 	break;
@@ -945,7 +937,7 @@ Standard_Boolean TopOpeBRepTool_FuseEdges::UpdatePCurve(const TopoDS_Edge& theOl
       BRep_Tool::CurveOnSurface(aFEdge,Curv2d,Surf,loc,cf,cl,iedg);
       if (BRep_Tool::IsClosed(theOldEdge,Surf,loc))  {
 	aFEdge.Reverse();
-	TopoDS_Face aFFace = TopoDS::Face(itFac.Value());
+	TopoDS_Face aFFace = TopoDS::Face(*itFac);
 	aFFace.Orientation(TopAbs_FORWARD);
 	Handle(Geom2d_Curve) Curv2dR = BRep_Tool::CurveOnSurface(aFEdge,
 								 aFFace,cf,cl);
@@ -969,11 +961,11 @@ Standard_Boolean TopOpeBRepTool_FuseEdges::UpdatePCurve(const TopoDS_Edge& theOl
 	    if (bcurve.IsNull())
 	      bcurve = new Geom2d_TrimmedCurve( Curv2d, cf, cl );
 	    Geom2dConvert_CompCurveToBSplineCurve Concat( bcurve );
-	    TopTools_ListIteratorOfListOfShape iter( theLstEdg );
-	    iter.Next();
-	    for (; iter.More(); iter.Next())
+	    TopTools_ListOfShape::const_iterator iter = begin(theLstEdg);
+	    ++iter;
+	    for (; iter != end(theLstEdg); ++iter)
 	      {
-		TopoDS_Edge& E = TopoDS::Edge(iter.Value());
+		const TopoDS_Edge& E = TopoDS::Edge(*iter);
 		Standard_Real first, last;
 		Handle(Geom2d_Curve) C = BRep_Tool::CurveOnSurface( E, Surf, loc, first, last );
 		Handle(Geom2d_BoundedCurve) BC = Handle(Geom2d_BoundedCurve)::DownCast(C);

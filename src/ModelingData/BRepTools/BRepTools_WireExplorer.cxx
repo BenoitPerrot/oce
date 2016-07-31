@@ -401,16 +401,16 @@ void  BRepTools_WireExplorer::Next()
 	      return;
       }
 
-      TopTools_ListIteratorOfListOfShape it(l); 
+      TopTools_ListIteratorOfListOfShape it(l.begin()); 
       Standard_Boolean notfound = Standard_True;
-      while (it.More()) {
-	      if (!it.Value().IsSame(myEdge)) {
-	        myEdge = TopoDS::Edge(it.Value());
+      while (it != l.end()) {
+	      if (!it->IsSame(myEdge)) {
+	        myEdge = TopoDS::Edge(*it);
 	        it = l.erase(it);
 	        notfound = Standard_False;
 	        break;
 	      }
-	      it.Next();
+	      ++it;
       }
       
       if(notfound) {
@@ -463,33 +463,33 @@ void  BRepTools_WireExplorer::Next()
 
       for(iDone = 0; iDone < 2; iDone++)
       {
-        it.Initialize(l);
-        while( it.More() )
-        {
-	        const TopoDS_Edge& E = TopoDS::Edge(it.Value());
-	        if( E.IsSame(myEdge) )
-	        {
-	          it.Next();
-	          k++;
-	          continue;
-	        }
+        it = l.begin();
+        while( it != l.end() )
+	  {
+	    const TopoDS_Edge& E = TopoDS::Edge(*it);
+	    if( E.IsSame(myEdge) )
+	      {
+		++it;
+		k++;
+		continue;
+	      }
+	    
+	    TopoDS_Vertex aVert1, aVert2;
+	    TopExp::Vertices (E, aVert1, aVert2, Standard_True);
+	    if( aVert1.IsNull() || aVert2.IsNull() )
+	      {
+		++it;
+		k++;
+		continue;
+	      }
   		
-	        TopoDS_Vertex aVert1, aVert2;
-	        TopExp::Vertices (E, aVert1, aVert2, Standard_True);
-	        if( aVert1.IsNull() || aVert2.IsNull() )
-          {
-            it.Next();
-            k++;
-            continue;
-          }
-  		
-	        aPCurve = BRep_Tool::CurveOnSurface (E, myFace, dfFPar, dfLPar);
-	        if( aPCurve.IsNull() )
-          {
-            it.Next();
-            k++;
-            continue;
-          }
+	    aPCurve = BRep_Tool::CurveOnSurface (E, myFace, dfFPar, dfLPar);
+	    if( aPCurve.IsNull() )
+	      {
+		++it;
+		k++;
+		continue;
+	      }
     		
 	        gp_Pnt2d aPEb, aPEe;
 	        if( aVert1.IsSame(aVert2) == isDegenerated )
@@ -518,7 +518,7 @@ void  BRepTools_WireExplorer::Next()
 
                 if(aPEb.SquareDistance(aPEe) <= gp::Resolution())
                 {
-                  it.Next();
+                  ++it;
                   k++;
                   continue;
                 }
@@ -543,7 +543,7 @@ void  BRepTools_WireExplorer::Next()
 		          }
 	          }
 	        }
-	        it.Next();
+	        ++it;
 	        k++;
         }// while it
 
@@ -565,17 +565,17 @@ void  BRepTools_WireExplorer::Next()
       }
 
       // Selection the edge.
-      it.Initialize(l);
+      it = l.begin();
       k = 1;
-      while( it.More() )
+      while( it != l.end() )
       {
         if( k == kMin )
         {
-          myEdge = TopoDS::Edge(it.Value());
+          myEdge = TopoDS::Edge(*it);
           it = l.erase(it);
           break;
         }
-        it.Next();
+        ++it;
         k++;
       }
     }//else face != NULL && l > 1
@@ -640,10 +640,8 @@ Standard_Boolean SelectDouble(TopTools_MapOfShape& Doubles,
 			      TopTools_ListOfShape& L,
 			      TopoDS_Edge&          E)
 {
-  TopTools_ListIteratorOfListOfShape it(L);
-  
-  for (; it.More(); it.Next()) {
-    const TopoDS_Shape& CE = it.Value();
+  for (TopTools_ListIteratorOfListOfShape it = begin(L); it != end(L); ++it) {
+    const TopoDS_Shape& CE = *it;
     if (Doubles.Contains(CE) && (!E.IsSame(CE))) {
       E = TopoDS::Edge(CE);
       it = L.erase(it);
@@ -661,16 +659,14 @@ Standard_Boolean SelectDouble(TopTools_MapOfShape& Doubles,
 Standard_Boolean SelectDegenerated(TopTools_ListOfShape& L,
 				   TopoDS_Edge&          E)
 {
-  TopTools_ListIteratorOfListOfShape it(L);
-  while (it.More()) {
-    if (!it.Value().IsSame(E)) {
-      E = TopoDS::Edge(it.Value());
+  for (TopTools_ListIteratorOfListOfShape it = begin(L); it != end(L); ++it) {
+    if (!it->IsSame(E)) {
+      E = TopoDS::Edge(*it);
       if (BRep_Tool::Degenerated(E)) {
 	it = L.erase(it);
 	return 1;
       }
     }
-    it.Next();
   } 
   return 0;
 }

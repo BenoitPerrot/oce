@@ -650,8 +650,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
     lOws.push_back(owi);
     const TopTools_ListOfShape& low = itm.Value();
     TopTools_ListOfShape lwresu; FUN_addOwlw(owi,low,lwresu);
-    TopTools_ListIteratorOfListOfShape itw(lwresu);
-    for (; itw.More(); itw.Next()) mapWlow.Bind(itw.Value(), null);    
+    for (auto sresu : lwresu)
+      mapWlow.Bind(sresu, null);
   }//itm(mapOwNw)
 
   TopTools_MapOfShape mapdone;
@@ -661,8 +661,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
     nOw = lOws.size();
     if (nOw == 0) break;
 
-    TopTools_ListIteratorOfListOfShape itOw(lOws);
-    const TopoDS_Shape& Ow1 = itOw.Value();
+    TopTools_ListIteratorOfListOfShape itOw = begin(lOws);
+    const TopoDS_Shape& Ow1 = *itOw;
     Standard_Boolean isb1 = mapWlow.IsBound(Ow1);
     isb1 = isb1 || !mapdone.Contains(Ow1);
     if (!isb1) continue; 
@@ -676,12 +676,12 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
       break;
     }//nOw == 1
 
-    itOw.Next();
+    ++itOw;
     Standard_Boolean OUTall = Standard_False;
     TopoDS_Shape Ow2;
     Standard_Integer sta12 = UNKNOWN;
-    for (; itOw.More(); itOw.Next()){
-      Ow2 = itOw.Value();
+    for (; itOw != end(lOws); ++itOw){
+      Ow2 = *itOw;
       Standard_Boolean isb2 = mapWlow.IsBound(Ow2);
       isb2 = isb2 || !mapdone.Contains(Ow2);
       if (!isb2) continue;
@@ -695,8 +695,8 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
       // if (nw1 == 0) mapWlow binds already (Ow1,null); 
       // else         {mapWlow binds already (w1k,null), w1k in lw1} 
       TopTools_ListOfShape ldone; FUN_addOwlw(Ow1,lw1,ldone);
-      TopTools_ListIteratorOfListOfShape itw(ldone);
-      for (; itw.More(); itw.Next()) mapdone.Add(itw.Value());
+      for (auto sdone : ldone)
+	mapdone.Add(sdone);
 #ifdef OCCT_DEBUG
       if (trc) cout<<"old wires :wi"<<FUN_adds(Ow1)<<" is OUT all old wires"<<endl;
 #endif      
@@ -709,23 +709,22 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
 		cout<<endl;}
 #endif
       const TopTools_ListOfShape& lw2 = mapOwNw.Find(Ow2);
-     
-      TopTools_ListOfShape lw1r; FUN_addOwlw(Ow1,lw1,lw1r);
-      TopTools_ListOfShape lw2r; FUN_addOwlw(Ow2,lw2,lw2r);
+
+#warning simplify the whole section below (gre vs sma: move branching "outside")
       TopTools_ListOfShape lgre,lsma;
-      if (sta12 == oneINtwo) {lgre.Append(lw2r); lsma.Append(lw1r);}
-      if (sta12 == twoINone) {lgre.Append(lw1r); lsma.Append(lw2r);}
+      {
+	TopTools_ListOfShape lw1r; FUN_addOwlw(Ow1,lw1,lw1r);
+	TopTools_ListOfShape lw2r; FUN_addOwlw(Ow2,lw2,lw2r);
+	if (sta12 == oneINtwo) {lgre.splice(end(lgre), lw2r); lsma.splice(end(lsma), lw1r);}
+	if (sta12 == twoINone) {lgre.splice(end(lgre), lw1r); lsma.splice(end(lsma), lw2r);}
+      }
       
-      TopTools_ListIteratorOfListOfShape itsma(lsma);
-      for (; itsma.More(); itsma.Next()){
-	const TopoDS_Shape& wsma = itsma.Value();
+      for (const TopoDS_Shape& wsma : lsma) {
 	Standard_Boolean isbsma = mapWlow.IsBound(wsma);
 	isbsma = isbsma || !mapdone.Contains(wsma);
 	if (!isbsma) continue;
 	
-	TopTools_ListIteratorOfListOfShape itgre(lgre);
-	for (; itgre.More(); itgre.Next()){
-	  const TopoDS_Shape& wgre = itgre.Value();
+	for (const TopoDS_Shape& wgre : lgre) {
 	  Standard_Boolean isbgre = mapWlow.IsBound(wgre);
 	  isbgre = isbgre || !mapdone.Contains(wgre);
 	  if (!isbgre) continue;
@@ -740,11 +739,15 @@ Standard_EXPORT Standard_Boolean FUN_tool_ClassifW(const TopoDS_Face& F,
 	
 	  if      (sta == DIFF) continue;
 	  else if (sta == oneINtwo) {// wsma IN wgre
-	    mapWlow.ChangeFind(wgre).Append(mapWlow.ChangeFind(wsma));
+	    auto &lowsma = mapWlow.ChangeFind(wsma);
+	    auto &lowgre = mapWlow.ChangeFind(wgre);
+	    lowgre.insert(end(lowgre), begin(lowsma), end(lowsma));
 	    mapWlow.UnBind(wsma);
 	  }
 	  else if (sta == twoINone) {// wgre IN wsma
-	    mapWlow.ChangeFind(wsma).Append(mapWlow.ChangeFind(wgre));
+	    auto &lowgre = mapWlow.ChangeFind(wgre);
+	    auto &lowsma = mapWlow.ChangeFind(wsma);
+	    lowsma.insert(end(lowsma), begin(lowgre), end(lowgre));
 	    mapWlow.UnBind(wgre);
 	  }
 	  else return Standard_False;

@@ -24,7 +24,6 @@ class Standard_ConstructionError;
 class TopoDS_Shape;
 class TopoDS_Face;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 
 
 

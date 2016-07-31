@@ -159,9 +159,7 @@ QANewModTopOpe_Glue::FindWireOrUpdateMap (const TopoDS_Shape& theWire,
 
     // find in the list a wire with the same set of edges
     const TopTools_ListOfShape& aListW = theMapELW.FindFromKey (aRefEdge);
-    TopTools_ListIteratorOfListOfShape aIterLW (aListW);
-    for (; aIterLW.More(); aIterLW.Next()) {
-      const TopoDS_Shape& aWire = aIterLW.Value();
+    for (const TopoDS_Shape& aWire : aListW) {
       Standard_Integer nbE = 0;
       for (aIterW.Initialize (aWire); aIterW.More(); aIterW.Next()) {
 	nbE++;

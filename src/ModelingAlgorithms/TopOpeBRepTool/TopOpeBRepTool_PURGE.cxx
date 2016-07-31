@@ -238,9 +238,8 @@ Standard_Boolean TopOpeBRepTool::PurgeClosingEdges(const TopoDS_Face& Fin, const
     if (ok) continue;
 
     TopTools_ListOfShape cEds; 
-    TopTools_ListIteratorOfListOfShape ite(CORRISO.Eds());
-    for (; ite.More(); ite.Next()){
-      const TopoDS_Edge& E = TopoDS::Edge(ite.Value());
+    for (auto S : CORRISO.Eds()) {
+      const TopoDS_Edge& E = TopoDS::Edge(S);
       Standard_Boolean closing = BRep_Tool::IsClosed(E,Fin); 
       if (!closing) {// xpu231198 : pcurve modified, the information is lost
 	TopOpeBRepTool_C2DF C2DF; Standard_Boolean isb = CORRISO.UVRep(E,C2DF);
@@ -257,8 +256,8 @@ Standard_Boolean TopOpeBRepTool::PurgeClosingEdges(const TopoDS_Face& Fin, const
     // Checking <W>
     TopTools_ListOfShape fyEds; Standard_Boolean topurge = CORRISO.PurgeFyClosingE(cEds,fyEds);
     if (topurge) {
-      TopTools_ListIteratorOfListOfShape it(fyEds);
-      for (; it.More(); it.Next()) MshNOK.Add(it.Value()); 
+      for (auto S : fyEds)
+	MshNOK.Add(S);
       MshNOK.Add(W); 
       MshNOK.Add(FF);
     }
@@ -282,9 +281,8 @@ Standard_Boolean TopOpeBRepTool::PurgeClosingEdges(const TopoDS_Face& Fin, const
   Standard_Boolean uvclosed = FUN_tool_closedS(Fin);
   if (!uvclosed) return Standard_True;
   
-  TopTools_ListIteratorOfListOfShape it(LOF);
-  for (; it.More(); it.Next()){
-    const TopoDS_Face& FF = TopoDS::Face(it.Value());
+  for (auto S : LOF) {
+    const TopoDS_Face& FF = TopoDS::Face(S);
     Standard_Boolean ok = TopOpeBRepTool::PurgeClosingEdges(Fin,FF,MWisOld,MshNOK);
     if (!ok) return Standard_False;    
   }
@@ -564,9 +562,9 @@ static Standard_Boolean FUN_connexX(const Standard_Boolean onU, TopOpeBRepTool_C
     TopTools_ListOfShape loe; isb = CORRISO.Connexity(vff,loe);
     if (!isb) return Standard_False; // FUNRAISE
 
-    TopTools_ListIteratorOfListOfShape ite(loe); // iteration on connex edges of vff
-    for (; ite.More(); ite.Next()){
-      const TopoDS_Edge& ee = TopoDS::Edge(ite.Value());
+    // iteration on connex edges of vff
+    for (auto s : loe) {
+      const TopoDS_Edge& ee = TopoDS::Edge(s);
       TopTools_Array1OfShape vee(1,2); TopOpeBRepTool_TOOL::Vertices(ee,vee);
       for (Standard_Integer ive = 1; ive <=2; ive++) {	  
 	// ve = vertex[ive] of ee
@@ -785,9 +783,8 @@ Standard_Boolean TopOpeBRepTool::MakeFaces(const TopoDS_Face& Fin, const TopTool
 //  TopOpeBRepDS_BuildTool BT;
   BRep_Builder BB;
   LOFF.clear();
-  TopTools_ListIteratorOfListOfShape it(LOF);
-  for (; it.More(); it.Next()){
-    const TopoDS_Face& FF = TopoDS::Face(it.Value());
+  for (auto S : LOF) {
+    const TopoDS_Face& FF = TopoDS::Face(S);
     Standard_Boolean valid = !MshNOK.Contains(FF);
     if (valid) {LOFF.push_back(FF); continue;}
     

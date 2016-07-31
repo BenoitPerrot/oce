@@ -272,17 +272,18 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
 	}
 	else {
 	  // find split by parameter
-	  TopTools_ListIteratorOfListOfShape aIt (aListSubst);
-	  for (; aIt.More(); aIt.Next()) {
+#warning remove_if
+	  TopTools_ListOfShape::iterator aIt;
+	  for (aIt = begin(aListSubst); aIt != end(aListSubst); ++aIt) {
 	    Standard_Real aParF, aParL;
-	    const TopoDS_Edge& aE1 = TopoDS::Edge (aIt.Value());
+	    const TopoDS_Edge& aE1 = TopoDS::Edge(*aIt);
 	    BRep_Tool::Range (aE1, aParF, aParL);
 	    if (aParF < aPar && aPar < aParL) {
 	      aEdge = aE1;
 	      break;
 	    }
 	  }
-	  if (aIt.More()) {
+	  if (aIt != end(aListSubst)) {
 	    aIt = aListSubst.erase(aIt);
 	  }
 	  else
@@ -296,7 +297,7 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
 	  TopTools_ListOfShape aListE;
 	  QANewModTopOpe_Glue::SplitEdgeByVertex (aEdge, aVerInt, aPar, aListE);
 //	  aListSubst.Append (aNewEdge);
-	  aListSubst.Append (aListE);
+	  aListSubst.splice(end(aListSubst), aListE);
 	  if (!theMapGener.IsBound(aS1)) {
 	    // for Mandrake-10 - mkv,02.06.06 - theMapGener.Bind(aS1, TopTools_ListOfShape());
             TopTools_ListOfShape aListOfShape2;
@@ -326,37 +327,39 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
 	}
 	else {
 	  // find split by parameter
-	  TopTools_ListIteratorOfListOfShape aIt (theListE);
-	  for (; aIt.More(); aIt.Next()) {
+	  TopTools_ListOfShape::iterator aIt;
+#warning remove_if
+	  for (aIt = begin(theListE); aIt != end(theListE); ++aIt) {
 	    Standard_Real aParF, aParL;
-	    const TopoDS_Edge& aE1 = TopoDS::Edge (aIt.Value());
+	    const TopoDS_Edge& aE1 = TopoDS::Edge(*aIt);
 	    BRep_Tool::Range (aE1, aParF, aParL);
 	    if (aParF < aPar && aPar < aParL) {
 	      aEdge = aE1;
 	      break;
 	    }
 	  }
-	  if (aIt.More())
+	  if (aIt != end(theListE))
 	    aIt = theListE.erase(aIt);
 	  else
 	    // unusual, needed split not found, skip to next extrema solution
 	    continue;
 	}
 
-	TopTools_ListOfShape aListE;
 	if(anIsOnSurface && IsNotInternal) {
 	  // split aEdge
+	  TopTools_ListOfShape aListE;
 	  QANewModTopOpe_Glue::SplitEdgeByVertex (aEdge, aVerInt, aPar, aListE);
-	  theListE.Append (aListE);
+	  theListE.splice(end(theListE), aListE);
 	}
 	else {
 	  //insert internal vertex in aEdge
 	  if(!isS2InternalVertex) {
 	    TopoDS_Edge aNewEdge;
 //	    QANewModTopOpe_Glue::InsertVertexInEdge (aEdge, aVerInt, aPar, aNewEdge);
+	    TopTools_ListOfShape aListE;
 	    QANewModTopOpe_Glue::SplitEdgeByVertex (aEdge, aVerInt, aPar, aListE);
 //	    theListE.Append(aNewEdge);
-	    theListE.Append (aListE);
+	    theListE.splice(end(theListE), aListE);
 	    if (!theMapGener.IsBound(aS2)) {
 	      // for Mandrake-10 - mkv,02.06.06 - theMapGener.Bind(aS2, TopTools_ListOfShape());
               TopTools_ListOfShape aListOfShape3;
@@ -373,13 +376,12 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
 
   // treatmen intersection points
   //   insert internal vertices in face 
-  TopTools_ListIteratorOfListOfShape aIt (aListOfIntVert);
   gp_Pnt aP;
   Standard_Real aTol;
   theNewFace = theFace;
-  for(; aIt.More(); aIt.Next()) {
-    aP =  BRep_Tool::Pnt(TopoDS::Vertex(aIt.Value()));
-    aTol = BRep_Tool::Tolerance(TopoDS::Vertex(aIt.Value()));
+  for (auto S : aListOfIntVert) {
+    aP =  BRep_Tool::Pnt(TopoDS::Vertex(S));
+    aTol = BRep_Tool::Tolerance(TopoDS::Vertex(S));
     Standard_Integer j;
     for (j=1; j<=thePoints1.Length(); j++) {
       if (aP.IsEqual(thePoints1(j),aTol))  break;
@@ -390,7 +392,7 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
     theEdgeOnSurface.Append(anIsOnSurface ? 1 : 0);
 
     // insert internal vertex in face;
-    QANewModTopOpe_Glue aFVGluing(theNewFace, aIt.Value());
+    QANewModTopOpe_Glue aFVGluing(theNewFace, S);
     theNewFace = aFVGluing.Shape();
   }
   // insert intersection vertices in face and in edge
@@ -424,17 +426,17 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
       aEdge = theEdge;
     else {
       // find split by parameter
-      aIt.Initialize (theListE);
-      for (; aIt.More(); aIt.Next()) {
+      TopTools_ListOfShape::iterator aIt;
+      for (aIt = begin(theListE); aIt != end(theListE); ++aIt) {
 	Standard_Real aParF, aParL;
-	const TopoDS_Edge& aE1 = TopoDS::Edge (aIt.Value());
+	const TopoDS_Edge& aE1 = TopoDS::Edge (*aIt);
 	BRep_Tool::Range (aE1, aParF, aParL);
 	if (aParF < aPar && aPar < aParL) {
 	  aEdge = aE1;
 	  break;
 	}
       }
-      if (aIt.More())
+      if (aIt != end(theListE))
 	aIt = theListE.erase(aIt);
       else
 	// unusual, needed split not found, skip to next intersection solution
@@ -446,7 +448,7 @@ ProcessEdgeFaceInterference (const TopoDS_Edge& theEdge, const TopoDS_Face& theF
 //    theListE.Append(aNewEdge);
     TopTools_ListOfShape aListE;
     QANewModTopOpe_Glue::SplitEdgeByVertex (aEdge, aV, aPar, aListE);
-    theListE.Append (aListE);
+    theListE.splice(end(theListE), aListE);
     if (!theMapGener.IsBound(theEdge)) {
       // for Mandrake-10 - mkv,02.06.06 - theMapGener.Bind(theEdge, TopTools_ListOfShape());
       TopTools_ListOfShape aListOfShape5;
@@ -509,17 +511,12 @@ ClassifyEdgeFace (const TopoDS_Edge& theEdge, const TopoDS_Face& theFace,
 //    if (aE.Orientation() == TopAbs_FORWARD || aE.Orientation() == TopAbs_REVERSED) {
     if (aE.Orientation() != TopAbs_EXTERNAL) {
       TopTools_ListOfShape aListSingle;
-      TopTools_ListIteratorOfListOfShape aIt;
-      if (theMapSubst.IsBound(aE)) {
-	aIt.Initialize (theMapSubst(aE));
-      }
-      else {
+      if (!theMapSubst.IsBound(aE)) {
 	aListSingle.push_back (aE);
-	aIt.Initialize (aListSingle);
       }
 
-      for (; aIt.More(); aIt.Next()) {	// for each split
-	const TopoDS_Edge& aE1 = TopoDS::Edge (aIt.Value());
+      for (auto S : aListSingle.empty() ? theMapSubst(aE) : aListSingle) {	// for each split
+	const TopoDS_Edge& aE1 = TopoDS::Edge(S);
 	Standard_Real aPF, aPL;
 	Handle(Geom_Curve) aCrv = BRep_Tool::Curve(aE1, aPF, aPL);
 	if (aCrv.IsNull()) continue;
@@ -644,34 +641,32 @@ QANewModTopOpe_Glue::PerformShellWire()
       aListF.push_back (aS1);
     }
     else {
-      TopTools_ListIteratorOfListOfShape aIt (aMapAnc1.FindFromKey(aS1));
-      for (; aIt.More(); aIt.Next())
-	if (aIt.Value().ShapeType() == TopAbs_FACE)
-	  aListF.push_back (aIt.Value());
+#warning copy_if?
+      for (auto S : aMapAnc1.FindFromKey(aS1))
+	if (S.ShapeType() == TopAbs_FACE)
+	  aListF.push_back (S);
     }
     if (aS2.ShapeType() == TopAbs_EDGE) {
       aListE.push_back (aS2);
     }
     else {
-      TopTools_ListIteratorOfListOfShape aIt (aMapAnc2.FindFromKey(aS2));
-      for (; aIt.More(); aIt.Next())
-	aListE.push_back (aIt.Value());
+      auto &l = aMapAnc2.FindFromKey(aS2);
+      aListE.insert(end(aListE), begin(l), end(l));
     }
-    TopTools_ListIteratorOfListOfShape aItF (aListF);
-    for (; aItF.More(); aItF.Next()) {
-      if (!aMapFE.Contains (aItF.Value())) {
+    for (auto S : aListF) {
+      if (!aMapFE.Contains (S)) {
 	// for Mandrake-10 - mkv,02.06.06 - aMapFE.Add (aItF.Value(), TopTools_ListOfShape());
         TopTools_ListOfShape aListOfShape1;
-	aMapFE.Add (aItF.Value(), aListOfShape1);
+	aMapFE.Add (S, aListOfShape1);
       }
-      TopTools_ListOfShape& aLE = aMapFE.ChangeFromKey(aItF.Value());
+      TopTools_ListOfShape& aLE = aMapFE.ChangeFromKey(S);
       TopTools_MapOfShape aMapE;
-      TopTools_ListIteratorOfListOfShape aItE (aLE);
-      for (; aItE.More(); aItE.Next())
-	aMapE.Add (aItE.Value());
-      for (aItE.Initialize (aListE); aItE.More(); aItE.Next())
-	if (!aMapE.Contains (aItE.Value()))
-	  aLE.push_back(aItE.Value());
+      for (auto S2 : aLE)
+	aMapE.Add(S2);
+#warning copy_if?
+      for (auto S2 : aListE)
+	if (!aMapE.Contains (S2))
+	  aLE.push_back(S2);
     }
   }
 
@@ -695,9 +690,7 @@ QANewModTopOpe_Glue::PerformShellWire()
     Standard_Boolean isWireMade = Standard_False;
     TopoDS_Shape aWire;
     aBld.MakeWire (TopoDS::Wire (aWire));
-    TopTools_ListIteratorOfListOfShape aIt (aMapFE(i));
-    for (; aIt.More(); aIt.Next()) {	// for each edge contacting the face
-      const TopoDS_Shape& aEdge = aIt.Value();
+    for (const TopoDS_Shape& aEdge : aMapFE(i)) {	// for each edge contacting the face
       if (aMapUsedEdges.Contains(aEdge)) continue;
 
       TopTools_ListOfShape aListSingle;
@@ -705,16 +698,15 @@ QANewModTopOpe_Glue::PerformShellWire()
       TopTools_ListOfShape& aListRef = (aMapSubst.IsBound(aEdge)
 					? aMapSubst(aEdge)
 					: aListSingle);
-      TopTools_ListIteratorOfListOfShape aIt1 (aListRef);
-      while (aIt1.More()) {	// for each old split
-	const TopoDS_Edge& aE1 = TopoDS::Edge (aIt1.Value());
+      TopTools_ListIteratorOfListOfShape aIt1 = begin(aListRef);
+      while (aIt1 != end(aListRef)) {	// for each old split
+	const TopoDS_Edge& aE1 = TopoDS::Edge(*aIt1);
 	if (!aMapUsedEdges.Contains(aE1)) {
 	  TopTools_ListOfShape aListE;
 	  ProcessEdgeFaceInterference (aE1, aFace, aNewFace, aListE, aPoints1, aPoints2,
 				       aEdgeOnSurface, aMapSubst, myMapGener);
-	  TopTools_ListIteratorOfListOfShape aIt2 (aListE);
-	  for (aIt2.Initialize(aListE); aIt2.More(); aIt2.Next()) {
-	    const TopoDS_Edge& aE2 = TopoDS::Edge (aIt2.Value());
+	  for (auto S2 : aListE) {
+	    const TopoDS_Edge& aE2 = TopoDS::Edge(S2);
 	    TopoDS_Edge aEon;
 	    TopAbs_State aState = ClassifyEdgeFace (aE2, aFace, aEon, aMapSubst);
 	    if (aState == TopAbs_IN ) {
@@ -741,14 +733,14 @@ QANewModTopOpe_Glue::PerformShellWire()
 	  if (aListE.size() > 1 || !IsTheSame) {
 	    // replace old split with new splits
 	    if (aMapSubst.IsBound(aEdge)) {
-	      aListRef.InsertBefore (aListE, aIt1);
+	      aListRef.insert(aIt1, begin(aListE), end(aListE));
 	      aIt1 = aListRef.erase(aIt1);
 	      continue;
 	    }
 	    else aMapSubst.Bind (aEdge, aListE);
 	  }
 	}
-	aIt1.Next();
+	++aIt1;
       }
     }
 
@@ -791,11 +783,10 @@ QANewModTopOpe_Glue::PerformShellWire()
       if (aMapUsedEdges.Contains(aEdge)) continue;
 
       if (aMapSubst.IsBound(aEdge)) {
-	TopTools_ListIteratorOfListOfShape aIt (aMapSubst(aEdge));
-	for (; aIt.More(); aIt.Next()) {	// for each old split
-	  if (aMapUsedEdges.Contains(aIt.Value())) continue;
-	  aConnector->Add (TopoDS::Edge(aIt.Value()));
-	  aConnector->AddStart (TopoDS::Edge(aIt.Value()));
+	for (auto S : aMapSubst(aEdge)) {	// for each old split
+	  if (aMapUsedEdges.Contains(S)) continue;
+	  aConnector->Add (TopoDS::Edge(S));
+	  aConnector->AddStart (TopoDS::Edge(S));
 	}
       }
       else {
@@ -810,9 +801,10 @@ QANewModTopOpe_Glue::PerformShellWire()
     TopTools_ListOfShape& aListW = aConnector->MakeBlock();
     if (aConnector->IsDone()) {
 //      TopAbs_Orientation aOri = myS2.Orientation();
-      TopTools_ListIteratorOfListOfShape aIt (aListW);
+//      TopTools_ListIteratorOfListOfShape aIt (aListW);
 //      for (; aIt.More(); aIt.Next()) aIt.Value().Orientation(aOri);
-      myMapModif(myS2).Append (aListW);
+      auto &l = myMapModif(myS2);
+      l.insert(end(l), begin(aListW), end(aListW));
     }
 //  }
 
@@ -822,12 +814,12 @@ QANewModTopOpe_Glue::PerformShellWire()
 
   for (; aIterM.More(); aIterM.Next()) {
     TopAbs_Orientation aOri = TopAbs_FORWARD;
-    TopTools_ListIteratorOfListOfShape aIt (aIterM.Value());
-    for (; aIt.More(); aIt.Next()) aIt.Value().Orientation(aOri);
+    for (auto &S : aIterM.ChangeValue())
+      S.Orientation(aOri);
     if(!aIterM.Value().empty()) mySubst.Substitute (aIterM.Key(), aIterM.Value());
     aOri = aIterM.Key().Orientation();
-    aIt.Initialize (aIterM.Value());
-    for (; aIt.More(); aIt.Next()) aIt.Value().Orientation(aOri);
+    for (auto &S : aIterM.ChangeValue())
+      S.Orientation(aOri);
     if(!aIterM.Value().empty()) myMapModif.Bind (aIterM.Key(), aIterM.Value());
   }
 
@@ -853,13 +845,12 @@ QANewModTopOpe_Glue::PerformShellWire()
       aBld.MakeCompound (TopoDS::Compound(myShape));
       aBld.Add(myShape, aNewS1);
       if (myMapModif.IsBound (myS2)) {
-	TopTools_ListIteratorOfListOfShape aIt (myMapModif(myS2));
-	for (; aIt.More(); aIt.Next()) {
+	for (auto S : myMapModif(myS2)) {
 	  // check if wire contains only one edge
-	  TopoDS_Iterator aTDIt(aIt.Value());
+	  TopoDS_Iterator aTDIt(S);
 	  TopoDS_Shape anE = aTDIt.Value();
 	  aTDIt.Next();
-	  if(aTDIt.More()) aBld.Add (myShape, aIt.Value());
+	  if(aTDIt.More()) aBld.Add (myShape, S);
 	  else aBld.Add (myShape, anE);
 	}
       }
@@ -980,13 +971,12 @@ static void SplitEdge(const TopoDS_Edge                &theEdge,
     // for each vertex which is not the same as aV1, aV2, theIntV1 or theIntV2.
     if (!aCurVtx.IsSame(aV1) && !aCurVtx.IsSame(aV2) && !theVertices.Contains(aCurVtx)) 
     {
-      TopTools_ListIteratorOfListOfShape anEdgeIter(theSplits);
       Standard_Real aCurPar = BRep_Tool::Parameter(aCurVtx, theEdge);
 
       // Search for the split the current vertex belongs to.
-      for (; anEdgeIter.More(); anEdgeIter.Next()) 
+      for (auto S : theSplits) 
       {
-        TopoDS_Edge   anEdge = TopoDS::Edge(anEdgeIter.Value());
+        TopoDS_Edge   anEdge = TopoDS::Edge(S);
         Standard_Real aFPar;
         Standard_Real aLPar;
 
@@ -1002,12 +992,9 @@ static void SplitEdge(const TopoDS_Edge                &theEdge,
   }
 
 // Setting the orientation of each split equal to the orientation of theEdge.
-  TopTools_ListIteratorOfListOfShape anEdgeIter(theSplits);
   TopAbs_Orientation                 anOri = theEdge.Orientation();
-
-  for (; anEdgeIter.More(); anEdgeIter.Next()) 
+  for (TopoDS_Shape &anEdge : theSplits)
   {
-    TopoDS_Shape &anEdge = anEdgeIter.Value();
     anEdge.Orientation(anOri);
   }
 }
@@ -1023,12 +1010,10 @@ static void RemoveCommonPart
 			       TopTools_DataMapOfShapeListOfShape &theMapSubst)
 {
   if (theMapSubst.IsBound(theE1)) {
-    const TopTools_ListOfShape         &aLOfE1 = theMapSubst.Find(theE1);
-    TopTools_ListIteratorOfListOfShape  anIter(aLOfE1);
 
 // For each split in the list aLOfE1 recursively call this function.
-    for (; anIter.More(); anIter.Next()) {
-      TopoDS_Edge anEdge1 = TopoDS::Edge(anIter.Value());
+    for (auto S : theMapSubst.Find(theE1)) {
+      TopoDS_Edge anEdge1 = TopoDS::Edge(S);
 
       RemoveCommonPart(anEdge1, theE2, theMapSubst);
     }
@@ -1037,12 +1022,10 @@ static void RemoveCommonPart
   }
 
   if (theMapSubst.IsBound(theE2)) {
-    const TopTools_ListOfShape         &aLOfE2 = theMapSubst.Find(theE2);
-    TopTools_ListIteratorOfListOfShape  anIter(aLOfE2);
 
 // For each split in the list aLOfE2 recursively call this function.
-    for (; anIter.More(); anIter.Next()) {
-      TopoDS_Edge anEdge2 = TopoDS::Edge(anIter.Value());
+    for (auto S : theMapSubst.Find(theE2)) {
+      TopoDS_Edge anEdge2 = TopoDS::Edge(S);
 
       RemoveCommonPart(theE1, anEdge2, theMapSubst);
     }
@@ -1073,18 +1056,18 @@ static void RemoveCommonPart
 
   SplitEdge(theE2, aMapCommonVtx, aSplits);
 
-  TopTools_ListIteratorOfListOfShape aSplitIter(aSplits);
-  Standard_Boolean                   isModified = Standard_False;
-
-  for (; aSplitIter.More();) {
-    TopoDS_Edge aSplit = TopoDS::Edge(aSplitIter.Value());
+#warning remove_if
+  Standard_Boolean isModified = Standard_False;
+  TopTools_ListIteratorOfListOfShape aSplitIter = begin(aSplits);
+  while (aSplitIter != end(aSplits)) {
+    TopoDS_Edge aSplit = TopoDS::Edge(*aSplitIter);
 
     if (IsOverlapped(theE1, aSplit)) {
 // Removal of overlapping split from the list of splits
       aSplitIter = aSplits.erase(aSplitIter);
       isModified = Standard_True;
     } else {
-      aSplitIter.Next();
+      ++aSplitIter;
     }
   }
 
@@ -1105,13 +1088,7 @@ static void GetSplits(const TopoDS_Shape                       &theEdge,
 		            TopTools_ListOfShape               &theSplits)
 {
   if (theMapSubst.IsBound(theEdge)) {
-    const TopTools_ListOfShape         &theList =
-                                           theMapSubst.Find(theEdge);
-    TopTools_ListIteratorOfListOfShape  anEdgeIter(theList);
-
-    for (; anEdgeIter.More(); anEdgeIter.Next()) {
-      const TopoDS_Shape &anEdge = anEdgeIter.Value();
-
+    for (const TopoDS_Shape &anEdge : theMapSubst.Find(theEdge)) {
       GetSplits(anEdge, theMapSubst, theSplits);
     }
   } else {
@@ -1198,11 +1175,7 @@ static TopoDS_Shape RemoveOverlappedEdges
 	    theMapModif.Bind(anEdge, aSplits);
 	}
 
-	TopTools_ListIteratorOfListOfShape aSplitIter(aSplits);
-
-	for (; aSplitIter.More(); aSplitIter.Next()) {
-	  const TopoDS_Shape &aSplit = aSplitIter.Value();
-
+	for (const TopoDS_Shape &aSplit : aSplits) {
 	  aBuilder.Add(aNewComp, aSplit);
 	}
       }
@@ -1531,8 +1504,8 @@ QANewModTopOpe_Glue::PerformWires()
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape aIterM(aMapSubst);
   for (; aIterM.More(); aIterM.Next()) {
     TopAbs_Orientation aOri = TopAbs_FORWARD;
-    TopTools_ListIteratorOfListOfShape aIt (aIterM.Value());
-    for (; aIt.More(); aIt.Next()) aIt.Value().Orientation(aOri);
+    for (auto &S : aIterM.ChangeValue())
+      S.Orientation(aOri);
     if(aIterM.Key().ShapeType() == TopAbs_EDGE) {
       TopoDS_Edge aEdge = TopoDS::Edge(aIterM.Value().front());
       TopTools_ListOfShape& aListSubst = aMapSubst(aIterM.Key());

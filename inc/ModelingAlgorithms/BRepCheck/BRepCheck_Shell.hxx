@@ -17,7 +17,6 @@
 #include <ModelingAlgorithms/BRepCheck/BRepCheck_Result.hxx>
 class TopoDS_Shell;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 

@@ -62,10 +62,7 @@ void QANewBRepNaming_Loader::LoadGeneratedShapes (BRepBuilderAPI_MakeShape& MS,
   for (; ShapeExplorer.More(); ShapeExplorer.Next ()) {
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
-    const TopTools_ListOfShape& Shapes = MS.Generated (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      const TopoDS_Shape& newShape = ShapesIterator.Value ();
+    for (const TopoDS_Shape& newShape : MS.Generated (Root)) {
       if (!Root.IsSame (newShape)) Builder.Generated (Root,newShape );
     }
   }
@@ -90,10 +87,7 @@ void QANewBRepNaming_Loader::LoadAndOrientGeneratedShapes (BRepBuilderAPI_MakeSh
   for (; ShapeExplorer.More(); ShapeExplorer.Next ()) {
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
-    const TopTools_ListOfShape& Shapes = MS.Generated (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      TopoDS_Shape newShape = ShapesIterator.Value ();
+    for (TopoDS_Shape newShape : MS.Generated (Root)) {
       if (SubShapes.IsBound(newShape)) {
 	newShape.Orientation((SubShapes(newShape)).Orientation());
       }
@@ -121,7 +115,6 @@ void QANewBRepNaming_Loader::LoadModifiedShapes (BRepBuilderAPI_MakeShape&    MS
 { 
   TopTools_MapOfShape View;
   TopExp_Explorer ShapeExplorer (ShapeIn, KindOfShape);
-  TopTools_ListOfShape Shapes;
   BRepAlgoAPI_BooleanOperation* pMS = NULL;
   if (theBool) 
     pMS = (reinterpret_cast<BRepAlgoAPI_BooleanOperation *>(&MS));
@@ -129,13 +122,7 @@ void QANewBRepNaming_Loader::LoadModifiedShapes (BRepBuilderAPI_MakeShape&    MS
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
 //    const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    if (theBool) 
-      Shapes = pMS->Modified (Root);
-    else
-      Shapes = MS.Modified (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      const TopoDS_Shape& newShape = ShapesIterator.Value ();
+    for (const TopoDS_Shape& newShape : theBool ? pMS->Modified (Root) : MS.Modified (Root)) {
       if (!Root.IsSame (newShape)) {
 	Builder.Modify (Root,newShape );
       }
@@ -161,10 +148,7 @@ void QANewBRepNaming_Loader::LoadAndOrientModifiedShapes (BRepBuilderAPI_MakeSha
   for (; ShapeExplorer.More(); ShapeExplorer.Next ()) {
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
-    const TopTools_ListOfShape& Shapes = MS.Modified(Root); 
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      TopoDS_Shape newShape = ShapesIterator.Value ();
+    for (TopoDS_Shape newShape : MS.Modified(Root)) {
       if (SubShapes.IsBound(newShape)) {
 	newShape.Orientation((SubShapes(newShape)).Orientation());
       }
@@ -345,10 +329,7 @@ void QANewBRepNaming_Loader::LoadModifiedDangleShapes (BRepBuilderAPI_MakeShape&
   for (; ShapeExplorer.More(); ShapeExplorer.Next ()) {
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root) || !OnlyThese.Contains(Root)) continue;
-    const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      const TopoDS_Shape& newShape = ShapesIterator.Value ();
+    for (const TopoDS_Shape& newShape : MS.Modified (Root)) {
       if (!Root.IsSame (newShape)) {
 	Builder.Modify (Root,newShape );
       }

@@ -28,7 +28,6 @@ class TopoDS_Face;
 class TopoDS_Edge;
 class gp_Pnt;
 class BRepFill_SequenceOfEdgeFaceAndOrder;
-class TopTools_ListOfShape;
 class TopTools_SequenceOfShape;
 class TopoDS_Shape;
 

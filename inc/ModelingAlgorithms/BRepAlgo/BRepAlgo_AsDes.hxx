@@ -10,12 +10,12 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 class Standard_ConstructionError;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! SD to store descendants and ascendants of Shapes.

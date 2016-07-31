@@ -116,11 +116,10 @@ BRepMesh_EdgeTessellator::BRepMesh_EdgeTessellator(
   if( isSameParam && aNodesNb > 1)
   {
     const TopTools_ListOfShape& aSharedFaces = theMapOfSharedFaces.FindFromKey(theEdge);
-    TopTools_ListIteratorOfListOfShape aFaceIt(aSharedFaces);
-    for (; aFaceIt.More(); aFaceIt.Next())
+    for (auto S : aSharedFaces)
     {
       TopLoc_Location aLoc;
-      const TopoDS_Face&   aFace = TopoDS::Face(aFaceIt.Value());
+      const TopoDS_Face&   aFace = TopoDS::Face(S);
       Handle(Geom_Surface) aSurf = BRep_Tool::Surface(aFace, aLoc);
 
       if (aSurf->IsInstance(STANDARD_TYPE(Geom_Plane)))

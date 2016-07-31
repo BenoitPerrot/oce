@@ -358,13 +358,13 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Getface(const TopoDS_Shape& S, TopOpeBRe
 //purpose  : 
 //=======================================================================
 
+#warning remove this useless function
 Standard_EXPORT void FUN_addOwlw(const TopoDS_Shape& Ow, const TopTools_ListOfShape& lw, TopTools_ListOfShape& lresu)
 {
-  Standard_Integer nw = lw.size();
-  if (nw == 0) lresu.push_back(Ow);
+  if (lw.empty())
+    lresu.push_back(Ow);
   else {
-    TopTools_ListIteratorOfListOfShape it(lw);
-    for (; it.More(); it.Next()) lresu.push_back(it.Value());
+    lresu.insert(end(lresu), begin(lw), end(lw));
   }
 }
 
@@ -374,14 +374,13 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
   Standard_Real toluv = TopOpeBRepTool_TOOL::TolUV(myFref,tolref);//nyixpu : cdliser??
   TopTools_ListOfShape null;
 
-  TopTools_ListOfShape lw; lw.Assign(lS);
+  TopTools_ListOfShape lw(lS);
   mapgreasma.Clear();
-  TopTools_ListIteratorOfListOfShape itw(lS);
-  for (; itw.More(); itw.Next()) mapgreasma.Bind(itw.Value(),null);
+  for (auto S : lS) mapgreasma.Bind(S, null);
   
   Standard_Integer nw = lw.size();
   if (nw <= 1) return Standard_True;
-
+#warning simplify control flow
   Standard_Integer nite = 0, nitemax = Standard_Integer(nw*(nw-1)/2);
   while (nite <= nitemax){
     nw = lw.size();
@@ -389,27 +388,27 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
 
     // wi1 : 
     TopoDS_Shape wi1; 
-    TopTools_ListIteratorOfListOfShape itw(lw);
-    for (; itw.More(); itw.Next()){
-      wi1 = itw.Value();
+    TopTools_ListIteratorOfListOfShape itw = begin(lw);
+    for (; itw != end(lw); ++itw) {
+      wi1 = *itw;
       Standard_Boolean isb1 = mapgreasma.IsBound(wi1);
       if (!isb1) continue; // wi1 stored as smaller shape
       break;
     }
 
-    while (itw.More()) {// compare wi1 with all wi(k) (k>1)
+    while (itw != end(lw)) {// compare wi1 with all wi(k) (k>1)
       Standard_Boolean isb1 = mapgreasma.IsBound(wi1);
       if (!isb1) break;
 
-      itw.Next();
-      if (!itw.More()) break;
+      ++itw;
+      if (itw == end(lw)) break;
 
       // wi2, sta12 :       
       Standard_Integer sta12 = UNKNOWN;
       Standard_Boolean OUTall = Standard_False;
       TopoDS_Shape wi2;
-      for (; itw.More(); itw.Next()){
-	wi2 = itw.Value();
+      for (; itw != end(lw); ++itw){
+	wi2 = *itw;
 	Standard_Boolean isb2 = mapgreasma.IsBound(wi2);
 	if (!isb2) continue;            
 	
@@ -418,25 +417,26 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
 	if (sta12 == DIFF) {OUTall = Standard_True; continue;}
 	break;
       }
-      
+
+#warning collapse/factor
       // mapgreasma : 
       if      (sta12 == oneINtwo) {//greater = shape two
 	TopTools_ListOfShape& lwgre = mapgreasma.ChangeFind(wi2);
 	TopTools_ListOfShape lsma; FUN_addOwlw(wi1,mapgreasma.Find(wi1),lsma); 
 	mapgreasma.UnBind(wi1);
-	lwgre.Append(lsma);
+	lwgre.splice(end(lwgre), lsma);
       }
       else if (sta12 == twoINone) {//greater = shape one
 	TopTools_ListOfShape& lwgre = mapgreasma.ChangeFind(wi1);
 	TopTools_ListOfShape lsma; FUN_addOwlw(wi2,mapgreasma.Find(wi2),lsma); 
 	mapgreasma.UnBind(wi2);
-	lwgre.Append(lsma);
+	lwgre.splice(end(lwgre), lsma);
       }
       else if (OUTall) {
 	// nothing's done
       }
       else return Standard_False;
-    }//itw.More()
+    }
 
     lw.pop_front();
   }//nite<=nmax

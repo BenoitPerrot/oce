@@ -14,12 +14,12 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_BOP.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_ListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeListOfShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Face;
 
 

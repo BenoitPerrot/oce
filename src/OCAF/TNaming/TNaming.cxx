@@ -395,14 +395,14 @@ void TNaming::Displace (const TDF_Label& L,
       
     }
     
-    TopTools_ListIteratorOfListOfShape itOlds(Olds);
-    TopTools_ListIteratorOfListOfShape itNews(News);
+    TopTools_ListIteratorOfListOfShape itOlds = begin(Olds);
+    TopTools_ListIteratorOfListOfShape itNews = begin(News);
     TNaming_Builder B(L);
     
-    for ( ;itOlds.More() ; itOlds.Next(),itNews.Next()) {
+    for (; itOlds != end(Olds); ++itOlds, ++itNews) {
       TopoDS_Shape OS,NS;
-      const TopoDS_Shape& SO     = itOlds.Value();
-      const TopoDS_Shape& SN     = itNews.Value();
+      const TopoDS_Shape& SO     = *itOlds;
+      const TopoDS_Shape& SN     = *itNews;
       OS = SO;
       if (WithOld && !SO.IsNull()) OS = SO.Moved(Loc);
       if (!SN.IsNull()) NS = SN.Moved(Loc);
@@ -609,13 +609,13 @@ void TNaming::ChangeShapes(const TDF_Label&              L,
       Olds.push_back(ShapeCopy(S1,M));News.push_back(ShapeCopy(S2,M));
     }
 
-    TopTools_ListIteratorOfListOfShape itOlds(Olds);
-    TopTools_ListIteratorOfListOfShape itNews(News);
+    TopTools_ListIteratorOfListOfShape itOlds = begin(Olds);
+    TopTools_ListIteratorOfListOfShape itNews = begin(News);
 
     TNaming_Builder B(L);
     
-    for ( ;itOlds.More() ; itOlds.Next(),itNews.Next()) {
-      LoadNamedShape ( B, Evol, itOlds.Value(), itNews.Value());
+    for (; itOlds != end(Olds); ++itOlds, ++itNews) {
+      LoadNamedShape ( B, Evol, *itOlds, *itNews);
     }
   }
 

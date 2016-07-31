@@ -360,17 +360,15 @@ Standard_Boolean QANewModTopOpe_Tools::SplitE(const TopoDS_Edge&    theEdge,
 
   SortVertexOnEdge(EFOR, aListOfVertex, aListOfVertexSorted);
 
-  TopoDS_Vertex v0;
-  TopTools_ListIteratorOfListOfShape anIt(aListOfVertexSorted);
+  if (aListOfVertexSorted.empty())
+    return Standard_False;
 
-  if (anIt.More()) {
-    v0 = TopoDS::Vertex(anIt.Value()); 
-    anIt.Next();
-  }
-  else return Standard_False;
+  TopTools_ListIteratorOfListOfShape anIt = begin(aListOfVertexSorted);
+  TopoDS_Vertex v0 = TopoDS::Vertex(*anIt); 
+  ++anIt;
 
-  for (; anIt.More(); anIt.Next()) {
-    TopoDS_Vertex v = TopoDS::Vertex(anIt.Value());
+  for (; anIt != end(aListOfVertexSorted); ++anIt) {
+    TopoDS_Vertex v = TopoDS::Vertex(*anIt);
     
     // prequesitory: par0 < par
     Standard_Real par0 = BRep_Tool::Parameter(v0, EFOR);
@@ -756,10 +754,9 @@ Standard_Boolean AddShapeToHistoryMap(const TopoDS_Shape& theOldShape,
   
   Standard_Boolean found = Standard_False;
   TopTools_ListOfShape& aList = theHistoryMap.ChangeFromKey(theOldShape);
-  TopTools_ListIteratorOfListOfShape aVIt(aList);
-
-  for(; aVIt.More(); aVIt.Next()) {
-    if(theNewShape.IsSame(aVIt.Value())) {
+#warning find
+  for (auto S : aList) {
+    if(theNewShape.IsSame(S)) {
       found = Standard_True;
       break;
     }
@@ -782,22 +779,16 @@ void FillEdgeHistoryMap(BRepAlgoAPI_BooleanOperation&              theBOP,
   anExp.Init(theBOP.Shape1(), TopAbs_EDGE);
 
   for(; anExp.More(); anExp.Next()) {
-    const TopTools_ListOfShape& aList = theBOP.Modified(anExp.Current());
-    TopTools_ListIteratorOfListOfShape anIt(aList);
-
-    for(; anIt.More(); anIt.Next()) {
-      AddShapeToHistoryMap(anExp.Current(), anIt.Value(), theHistoryMap);
+    for (auto S : theBOP.Modified(anExp.Current())) {
+      AddShapeToHistoryMap(anExp.Current(), S, theHistoryMap);
     }
   }
 
   anExp.Init(theBOP.Shape2(), TopAbs_EDGE);
 
   for(; anExp.More(); anExp.Next()) {
-    const TopTools_ListOfShape& aList = theBOP.Modified(anExp.Current());
-    TopTools_ListIteratorOfListOfShape anIt(aList);
-
-    for(; anIt.More(); anIt.Next()) {
-      AddShapeToHistoryMap(anExp.Current(), anIt.Value(), theHistoryMap);
+    for (auto S : theBOP.Modified(anExp.Current())) {
+      AddShapeToHistoryMap(anExp.Current(), S, theHistoryMap);
     }
   }
 }
@@ -812,10 +803,9 @@ void SortVertexOnEdge(const TopoDS_Edge&          theEdge,
 
   TopTools_DataMapOfIntegerShape mapiv;// mapiv.Find(iV) = V
   TColStd_IndexedMapOfReal mappar;     // mappar.FindIndex(parV) = iV
-  TopTools_ListIteratorOfListOfShape itlove(theListOfVertex);
   
-  for (; itlove.More(); itlove.Next()){
-    const TopoDS_Vertex& v = TopoDS::Vertex(itlove.Value());
+  for (auto s : theListOfVertex){
+    const TopoDS_Vertex& v = TopoDS::Vertex(s);
     Standard_Real par = BRep_Tool::Parameter(v, theEdge);
     Standard_Integer iv = mappar.Add(par);
     mapiv.Bind(iv,v);

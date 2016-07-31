@@ -13,8 +13,8 @@
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class Standard_NoSuchObject;
-class TopTools_ListOfShape;
 class TColStd_MapIntegerHasher;
 class TopTools_DataMapOfIntegerListOfShape;
 class TopTools_DataMapNodeOfDataMapOfIntegerListOfShape;

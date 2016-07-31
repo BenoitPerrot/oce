@@ -68,7 +68,7 @@ void BRepAlgo_EdgeConnector::Add(const TopoDS_Edge& e)
 void BRepAlgo_EdgeConnector::Add(TopTools_ListOfShape& LOEdge)
 {
   if(LOEdge.empty()) return;
-  myListeOfEdge.Append(LOEdge);
+  myListeOfEdge.insert(end(myListeOfEdge), begin(LOEdge), end(LOEdge));
 }
 
 //=======================================================================
@@ -90,7 +90,7 @@ void BRepAlgo_EdgeConnector::AddStart(const TopoDS_Shape& e)
 void BRepAlgo_EdgeConnector::AddStart(TopTools_ListOfShape& LOEdge)
 {
   if(LOEdge.empty()) return;
-  myListeOfStartEdge.Append(LOEdge);
+  myListeOfStartEdge.insert(end(myListeOfStartEdge), begin(LOEdge), end(LOEdge));
 }
 
 //=======================================================================
@@ -115,14 +115,10 @@ TopTools_ListOfShape& BRepAlgo_EdgeConnector::MakeBlock()
   TopOpeBRepBuild_ShapeSet SS(TopAbs_VERTEX);
   myResultMap.Clear();
   myResultList.clear();
-  TopTools_ListIteratorOfListOfShape it(myListeOfEdge);
-  for(;it.More();it.Next()) {
-    const TopoDS_Shape& edge = it.Value();
+  for (const TopoDS_Shape& edge : myListeOfEdge) {
     SS.AddElement(edge);
   }
-  it.Initialize(myListeOfStartEdge);
-  for(;it.More();it.Next()) {
-    const TopoDS_Shape& edge = it.Value();
+  for (const TopoDS_Shape& edge : myListeOfStartEdge) {
     SS.AddStartElement(edge);
   }
   myBlockB.MakeBlock(SS);
@@ -159,9 +155,9 @@ Standard_Boolean BRepAlgo_EdgeConnector::IsWire(const TopoDS_Shape& S)
   }
   Standard_Boolean b = Standard_False;
   myBlockB.InitBlock();
-  TopTools_ListIteratorOfListOfShape LI(myResultList);
-  for(;myBlockB.MoreBlock();myBlockB.NextBlock(),LI.Next()) {
-    if(S == LI.Value()) {
+  TopTools_ListIteratorOfListOfShape LI = begin(myResultList);
+  for(;myBlockB.MoreBlock();myBlockB.NextBlock(),++LI) {
+    if(S == *LI) {
       b = myBlockB.CurrentBlockIsRegular();
       break;
     }

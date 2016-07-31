@@ -73,11 +73,8 @@ const TopTools_ListOfShape& BRepFeat_SplitShape::Left() const
 
 Standard_Boolean BRepFeat_SplitShape::IsDeleted(const TopoDS_Shape& F) 
 {
-  TopTools_ListIteratorOfListOfShape itl
-    (((LocOpe_Spliter*) &mySShape)->DescendantShapes(F));
   // all that to swindle the constant
-
-  return (!itl.More());// a priori impossible
+  return ((LocOpe_Spliter*) &mySShape)->DescendantShapes(F).empty();// a priori impossible
 
 }
 //=======================================================================

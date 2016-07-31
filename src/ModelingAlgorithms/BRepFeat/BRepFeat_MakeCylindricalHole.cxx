@@ -213,11 +213,7 @@ void BRepFeat_MakeCylindricalHole::PerformThruNext(const Standard_Real Radius,
   PartsOfTool(parts);
 
 
-  Standard_Integer nbparts = 0;
-  TopTools_ListIteratorOfListOfShape its(parts);
-  for (; its.More(); its.Next()) {
-    nbparts ++;
-  }
+  Standard_Integer nbparts = parts.size();
   if (nbparts == 0) {
     myStatus = BRepFeat_InvalidPlacement;
     return;
@@ -228,41 +224,41 @@ void BRepFeat_MakeCylindricalHole::PerformThruNext(const Standard_Real Radius,
     TopoDS_Shape tokeep;
     Standard_Real parbar,parmin = Last;
     gp_Pnt Barycentre;
-    for (its.Initialize(parts); its.More(); its.Next()) {
-      Baryc(its.Value(),Barycentre);
+    for (auto part : parts) {
+      Baryc(part, Barycentre);
       parbar = ElCLib::LineParameter(myAxis,Barycentre);
       if (parbar >= First && parbar <= Last && parbar <= parmin) {
         parmin = parbar;
-        tokeep = its.Value();
+        tokeep = part;
       }
     }
 
     if (tokeep.IsNull()) { // preserve the closest interval
 
       Standard_Real dmin = RealLast();
-      for (its.Initialize(parts); its.More(); its.Next()) {
-        Baryc(its.Value(),Barycentre);
+      for (auto part : parts) {
+        Baryc(part, Barycentre);
         parbar = ElCLib::LineParameter(myAxis,Barycentre);
         if (parbar < First) {
           if (First - parbar < dmin ) {
             dmin = First-parbar;
-            tokeep = its.Value();
+            tokeep = part;
           }
           else { // parbar > Last
             if (parbar - Last < dmin) {
               dmin = parbar-Last;
-              tokeep = its.Value();
+              tokeep = part;
             }
           }
         }
       }
     }
-    for (its.Initialize(parts); its.More(); its.Next()) {
+    for (auto part : parts) {
       //if (!tokeep.IsSame(its.Value())) {
       //  myBuilder.RemovePart(its.Value());
       //}
-      if (tokeep.IsSame(its.Value())) {
-        KeepPart(its.Value());
+      if (tokeep.IsSame(part)) {
+        KeepPart(part);
         break;
       }
     }
@@ -363,11 +359,7 @@ void BRepFeat_MakeCylindricalHole::PerformUntilEnd(const Standard_Real Radius,
   TopTools_ListOfShape parts;
   PartsOfTool(parts);
 
-  Standard_Integer nbparts = 0;
-  TopTools_ListIteratorOfListOfShape its(parts);
-  for (; its.More(); its.Next()) {
-    nbparts ++;
-  }
+  Standard_Integer nbparts = parts.size();
   if (nbparts == 0) {
     myStatus = BRepFeat_InvalidPlacement;
     return;
@@ -376,11 +368,11 @@ void BRepFeat_MakeCylindricalHole::PerformUntilEnd(const Standard_Real Radius,
   if (nbparts >= 2) { // preserve everything above the First 
     Standard_Real parbar;
     gp_Pnt Barycentre;
-    for (its.Initialize(parts); its.More(); its.Next()) {
-      Baryc(its.Value(),Barycentre);
+    for (auto part : parts) {
+      Baryc(part,Barycentre);
       parbar = ElCLib::LineParameter(myAxis,Barycentre);
       if (parbar > First) {
-        KeepPart(its.Value());
+        KeepPart(part);
       }
     }
   }
@@ -493,11 +485,7 @@ void BRepFeat_MakeCylindricalHole::Perform(const Standard_Real Radius,
   TopTools_ListOfShape parts;
   PartsOfTool(parts);
 
-  Standard_Integer nbparts = 0;
-  TopTools_ListIteratorOfListOfShape its(parts);
-  for (; its.More(); its.Next()) {
-    nbparts ++;
-  }
+  Standard_Integer nbparts = parts.size();
   if (nbparts == 0) {
     myStatus = BRepFeat_InvalidPlacement;
     return;
@@ -508,11 +496,11 @@ void BRepFeat_MakeCylindricalHole::Perform(const Standard_Real Radius,
     TopoDS_Shape tokeep;
     Standard_Real parbar;
     gp_Pnt Barycentre;
-    for (its.Initialize(parts); its.More(); its.Next()) {
-      Baryc(its.Value(),Barycentre);
+    for (auto part : parts) {
+      Baryc(part,Barycentre);
       parbar = ElCLib::LineParameter(myAxis,Barycentre);
       if (!(parbar < First || parbar > Last)) {
-        KeepPart(its.Value());
+        KeepPart(part);
       }
     }
   }
@@ -622,11 +610,7 @@ void BRepFeat_MakeCylindricalHole::PerformBlind(const Standard_Real Radius,
   TopTools_ListOfShape parts;
   PartsOfTool(parts);
 
-  Standard_Integer nbparts = 0;
-  TopTools_ListIteratorOfListOfShape its(parts);
-  for (; its.More(); its.Next()) {
-    nbparts ++;
-  }
+  Standard_Integer nbparts = parts.size();
   if (nbparts == 0) {
     myStatus = BRepFeat_InvalidPlacement;
     return;
@@ -636,30 +620,30 @@ void BRepFeat_MakeCylindricalHole::PerformBlind(const Standard_Real Radius,
     TopoDS_Shape tokeep;
     Standard_Real parbar,parmin = RealLast();
     gp_Pnt Barycentre;
-    for (its.Initialize(parts); its.More(); its.Next()) {
-      Baryc(its.Value(),Barycentre);
+    for (auto part : parts) {
+      Baryc(part,Barycentre);
       parbar = ElCLib::LineParameter(myAxis,Barycentre);
       if (parbar >= First && parbar <= parmin) {
         parmin = parbar;
-        tokeep = its.Value();
+        tokeep = part;
       }
     }
 
     if (tokeep.IsNull()) { // preserve the closest interval
 
       Standard_Real dmin = RealLast();
-      for (its.Initialize(parts); its.More(); its.Next()) {
-        Baryc(its.Value(),Barycentre);
+      for (auto part : parts) {
+        Baryc(part,Barycentre);
         parbar = ElCLib::LineParameter(myAxis,Barycentre);
         if (Abs(First - parbar) < dmin ) {
           dmin = Abs(First-parbar);
-          tokeep = its.Value();
+          tokeep = part;
         }
       }
     }
-    for (its.Initialize(parts); its.More(); its.Next()) {
-      if (tokeep.IsSame(its.Value())) {
-        KeepPart(its.Value());
+    for (auto part : parts) {
+      if (tokeep.IsSame(part)) {
+        KeepPart(part);
         break;
       }
     }

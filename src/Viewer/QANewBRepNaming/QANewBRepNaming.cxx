@@ -46,15 +46,13 @@ void QANewBRepNaming::CleanStructure(const TDF_Label& theLabel) {
       News.push_back(anIt.NewShape());
     }
 
-    TopTools_ListIteratorOfListOfShape itOlds(Olds);
-    TopTools_ListIteratorOfListOfShape itNews(News);
+    TopTools_ListIteratorOfListOfShape itOlds = begin(Olds);
+    TopTools_ListIteratorOfListOfShape itNews = begin(News);
     TNaming_Builder aBuilder(theLabel);
     anEvol = TNaming_DELETE;
 
-    for ( ;itOlds.More() ; itOlds.Next(),itNews.Next()) {
-      const TopoDS_Shape& OS = itOlds.Value();
-      const TopoDS_Shape& NS = itNews.Value();
-      LoadNamedShape ( aBuilder, anEvol, OS, NS);
+    for ( ; itOlds != end(Olds) ; ++itOlds, ++itNews) {
+      LoadNamedShape ( aBuilder, anEvol, *itOlds, *itNews);
     }
   }
   for (TDF_ChildIterator chlIt(theLabel, Standard_True); chlIt.More(); chlIt.Next()) {
@@ -133,14 +131,14 @@ void QANewBRepNaming::Displace (const TDF_Label& theLabel,
       News.push_back(it.NewShape());
     }
 
-    TopTools_ListIteratorOfListOfShape itOlds(Olds);
-    TopTools_ListIteratorOfListOfShape itNews(News);
+    TopTools_ListIteratorOfListOfShape itOlds = begin(Olds);
+    TopTools_ListIteratorOfListOfShape itNews = begin(News);
     TNaming_Builder B(theLabel);
 
-    for ( ;itOlds.More() ; itOlds.Next(),itNews.Next()) {
+    for ( ; itOlds != end(Olds) ; ++itOlds, ++itNews) {
       TopoDS_Shape OS,NS;
-      const TopoDS_Shape& SO     = itOlds.Value();
-      const TopoDS_Shape& SN     = itNews.Value();
+      const TopoDS_Shape& SO     = *itOlds;
+      const TopoDS_Shape& SN     = *itNews;
       OS = SO;
       if (theWithOld && !SO.IsNull()) OS = SO.Moved(theLoc);
       if (!SN.IsNull()) NS = SN.Moved(theLoc);

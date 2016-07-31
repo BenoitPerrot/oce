@@ -125,16 +125,12 @@ void TopOpeBRepBuild_Builder::GMergeEdges(const TopTools_ListOfShape& LE1,const 
   GEDBUMakeEdges(E1F,EDBU,LEM);
   
   // connect new edges as edges built TB1 on LE1 edges
-  TopTools_ListIteratorOfListOfShape it1;
-  for (it1.Initialize(LE1); it1.More(); it1.Next()) {
-    const TopoDS_Shape& E11 = it1.Value();
+  for (const TopoDS_Shape& E11 : LE1) {
     ChangeMerged(E11,TB1) = LEM;
   }
   
   // connect new edges as edges built TB2 on LE2 edges
-  TopTools_ListIteratorOfListOfShape it2;
-  for (it2.Initialize(LE2); it2.More(); it2.Next()) {
-    const TopoDS_Shape& E2 = it2.Value();
+  for (const TopoDS_Shape& E2 : LE2) {
     ChangeMerged(E2,TB2) = LEM;
   }
   
@@ -152,9 +148,7 @@ void TopOpeBRepBuild_Builder::GFillEdgesPVS(const TopTools_ListOfShape& LE1,cons
   const TopoDS_Shape& E1 = LE1.front();
   myEdgeReference = TopoDS::Edge(E1);
   
-  TopTools_ListIteratorOfListOfShape it1;
-  for (it1.Initialize(LE1); it1.More(); it1.Next()) {
-    const TopoDS_Shape& E11 = it1.Value();
+  for (const TopoDS_Shape& E11 : LE1) {
     Standard_Boolean ismerged = IsMerged(E11,TB1);
     
 #ifdef OCCT_DEBUG
@@ -170,9 +164,7 @@ void TopOpeBRepBuild_Builder::GFillEdgesPVS(const TopTools_ListOfShape& LE1,cons
   
   TopOpeBRepBuild_GTopo G2 = G1.CopyPermuted();
   
-  TopTools_ListIteratorOfListOfShape it2;
-  for (it2.Initialize(LE2); it2.More(); it2.Next() ) {
-    const TopoDS_Shape& E2 = it2.Value();
+  for (const TopoDS_Shape& E2 : LE2) {
     Standard_Boolean ismerged = IsMerged(E2,TB2);
     
 #ifdef OCCT_DEBUG
@@ -722,7 +714,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     Handle(TopOpeBRepBuild_Pave) PV = new TopOpeBRepBuild_Pave(VPV,par,vofe);
     if (hasVSD) {
       PV->HasSameDomain(Standard_True);
-      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).Value();
+      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).front();
       Standard_Integer iVSD = myDataStructure->Shape(VSD);
       if (iVSD == iVRE) PV->SameDomain(VIG);
       else              PV->SameDomain(VSD);
@@ -756,7 +748,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     Handle(TopOpeBRepBuild_Pave) PVF = new TopOpeBRepBuild_Pave(VPV,parf,vfofe);
     if (hasVSD) {
       PVF->HasSameDomain(Standard_True);
-      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).Value();
+      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).front();
       Standard_Integer iVSD = myDataStructure->Shape(VSD);
       if (iVSD == iVRE) PVF->SameDomain(VIG);
       else              PVF->SameDomain(VSD);
@@ -777,7 +769,7 @@ void TopOpeBRepBuild_Builder::GFillPointTopologyPVS(const TopoDS_Shape& E,
     Handle(TopOpeBRepBuild_Pave) PVR = new TopOpeBRepBuild_Pave(VPV,parl,vrofe);
     if (hasVSD) {
       PVR->HasSameDomain(Standard_True);
-      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).Value();
+      const TopoDS_Shape& VSD = myDataStructure->SameDomain(VPV).front();
       Standard_Integer iVSD = myDataStructure->Shape(VSD);
       if (iVSD == iVRE) PVR->SameDomain(VIG);
       else              PVR->SameDomain(VSD);

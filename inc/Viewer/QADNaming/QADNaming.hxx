@@ -16,9 +16,9 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 #include <Viewer/Draw/Draw_Interpretor.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
 class TDF_Data;
-class TopTools_ListOfShape;
 class TCollection_AsciiString;
 class TDF_Label;
 

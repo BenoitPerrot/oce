@@ -27,7 +27,6 @@
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class gp_Pnt;
 class TopoDS_Edge;
 class Geom_Plane;

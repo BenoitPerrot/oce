@@ -19,7 +19,6 @@
 class StdFail_NotDone;
 class TopoDS_Shape;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 
 

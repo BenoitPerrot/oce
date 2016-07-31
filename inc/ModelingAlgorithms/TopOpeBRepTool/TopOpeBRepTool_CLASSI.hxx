@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Face.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_IndexedDataMapOfShapeBox2d.hxx>
 #include <ModelingAlgorithms/TopOpeBRepTool/TopOpeBRepTool_DataMapOfShapeface.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -20,7 +21,6 @@ class TopoDS_Face;
 class TopoDS_Shape;
 class Bnd_Box2d;
 class TopOpeBRepTool_face;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;
 
 

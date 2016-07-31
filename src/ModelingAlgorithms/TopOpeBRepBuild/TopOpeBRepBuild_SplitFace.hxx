@@ -96,16 +96,12 @@ void TopOpeBRepBuild_Builder::SplitFace1(const TopoDS_Shape& Foriented,
   if(tSPF) debspf(iFace);
 #endif
     
-  TopTools_ListIteratorOfListOfShape itLF1,itLF2;
-
-  for (itLF1.Initialize(LF1); itLF1.More(); itLF1.Next()) {
-    const TopoDS_Shape& Fcur = itLF1.Value();
+  for (const TopoDS_Shape& Fcur : LF1) {
 //                     myDataStructure->Shape(Fcur);//DEB
     FillFace(Fcur,ToBuild1,LF2,ToBuild2,WES,RevOri1);
   }
   
-  for (itLF2.Initialize(LF2); itLF2.More(); itLF2.Next()) {
-    const TopoDS_Shape& Fcur = itLF2.Value();
+  for (const TopoDS_Shape& Fcur : LF2) {
 //                            myDataStructure->Shape(Fcur);//DEB
     FillFace(Fcur,ToBuild2,LF1,ToBuild1,WES,RevOri2);
   }
@@ -131,8 +127,7 @@ void TopOpeBRepBuild_Builder::SplitFace1(const TopoDS_Shape& Foriented,
 
   // connect new faces as faces built <ToBuild1> on LF1 faces
   // --------------------------------------------------------
-  for (itLF1.Initialize(LF1); itLF1.More(); itLF1.Next()) {
-    TopoDS_Shape Fcur = itLF1.Value();
+  for (TopoDS_Shape Fcur : LF1) {
     MarkSplit(Fcur,ToBuild1);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild1);
     if ( ConnectTo1 ) FL = FaceList;
@@ -140,8 +135,7 @@ void TopOpeBRepBuild_Builder::SplitFace1(const TopoDS_Shape& Foriented,
   
   // connect new faces as faces built <ToBuild2> on LF2 faces
   // --------------------------------------------------------
-  for (itLF2.Initialize(LF2); itLF2.More(); itLF2.Next()) {
-    TopoDS_Shape Fcur = itLF2.Value();
+  for (TopoDS_Shape Fcur : LF2) {
     MarkSplit(Fcur,ToBuild2);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild2);
     if ( ConnectTo2 ) FL = FaceList;
@@ -234,7 +228,6 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
   TopAbs_State tob2 = ToBuild2;
   TopAbs_State tob1comp = (ToBuild1 == TopAbs_IN) ? TopAbs_OUT : TopAbs_IN;
   TopAbs_State tob2comp = (ToBuild2 == TopAbs_IN) ? TopAbs_OUT : TopAbs_IN;
-  TopTools_ListIteratorOfListOfShape itLF ;
   
   // --------------------------------------------------------------------
   // traitement des faces de meme orientation que Fforward dans WireEdgeSet WES1
@@ -242,32 +235,28 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
   TopOpeBRepBuild_WireEdgeSet WES1(Fforward,this);
 
   // traitement des faces de 1 same domain, same orientation que F : LFSO1
-  for (itLF.Initialize(LFSO1); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFSO1) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 2
     FillFace(Fcur,tob1,LF2,tob2,WES1,RevOri1);
   }
 
   // traitement des faces de 2 same domain, same orientation que F : LFSO2
-  for (itLF.Initialize(LFSO2); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFSO2) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 1
     FillFace(Fcur,tob2,LF1,tob1,WES1,RevOri2);
   }
 
   // traitement des faces de 1 same domain, oppo orientation que F : LFOO1
-  for (itLF.Initialize(LFOO1); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFOO1) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 2
     FillFace(Fcur,tob1comp,LF2,ToBuild2,WES1,!RevOri1);
   }
 
   // traitement des faces de 2 same domain, oppo orientation que F : LFOO2
-  for (itLF.Initialize(LFOO2); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFOO2) {
 //                      myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 1
     FillFace(Fcur,tob2comp,LF1,ToBuild1,WES1,!RevOri2);
@@ -288,8 +277,7 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
 
   // connect new faces as faces built <ToBuild1> on LF1 faces
   // --------------------------------------------------------
-  for (itLF.Initialize(LF1); itLF.More(); itLF.Next()) {
-    TopoDS_Shape Fcur = itLF.Value();
+  for (TopoDS_Shape Fcur : LF1) {
     MarkSplit(Fcur,ToBuild1);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild1);
     if ( ConnectTo1 ) FL = FaceList1;
@@ -301,32 +289,28 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
   TopOpeBRepBuild_WireEdgeSet WES2(Fforward,this);
 
   // traitement des faces de 1 same domain, same orientation que F : LFSO1
-  for (itLF.Initialize(LFSO1); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFSO1) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 2
     FillFace(Fcur,tob1comp,LF2,tob2,WES2,!RevOri1);
   }
 
   // traitement des faces de 2 same domain, same orientation que F : LFSO2
-  for (itLF.Initialize(LFSO2); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFSO2) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 1
     FillFace(Fcur,tob2comp,LF1,tob1,WES2,!RevOri2);
   }
 
   // traitement des faces de 1 same domain, oppo orientation que F : LFOO1
-  for (itLF.Initialize(LFOO1); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFOO1) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 2
     FillFace(Fcur,tob1,LF2,ToBuild2,WES2,RevOri1);
   }
 
   // traitement des faces de 2 same domain, oppo orientation que F : LFOO2
-  for (itLF.Initialize(LFOO2); itLF.More(); itLF.Next()) {
-    const TopoDS_Shape& Fcur = itLF.Value();
+  for (const TopoDS_Shape& Fcur : LFOO2) {
 //                            myDataStructure->Shape(Fcur);//DEB
     // les wires de Fcur sont a comparer avec les faces de 1
     FillFace(Fcur,tob2,LF1,ToBuild1,WES2,RevOri2);
@@ -347,8 +331,7 @@ void TopOpeBRepBuild_Builder::SplitFace2(const TopoDS_Shape& Foriented,
 
   // connect new faces as faces built <ToBuild2> on LF2 faces
   // --------------------------------------------------------
-  for (itLF.Initialize(LF2); itLF.More(); itLF.Next()) {
-    TopoDS_Shape Fcur = itLF.Value();
+  for (TopoDS_Shape Fcur : LF2) {
     MarkSplit(Fcur,ToBuild2);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild2);
     if ( ConnectTo2 ) FL = FaceList2;
@@ -410,16 +393,12 @@ void TopOpeBRepBuild_Builder::SplitFaceOK(const TopoDS_Shape& Foriented,
   if(tSPF){GdumpSAMDOM(LF1,"1 : ");GdumpSAMDOM(LF2,"2 : ");}
 #endif
     
-  TopTools_ListIteratorOfListOfShape itLF1,itLF2;
-
-  for (itLF1.Initialize(LF1); itLF1.More(); itLF1.Next()) {
-    const TopoDS_Shape& Fcur = itLF1.Value();
+  for (const TopoDS_Shape& Fcur : LF1) {
     Standard_Integer icur = myDataStructure->Shape(Fcur);//DEB
     FillFace(Fcur,ToBuild1,LF2,ToBuild2,WES,RevOri1);
   }
   
-  for (itLF2.Initialize(LF2); itLF2.More(); itLF2.Next()) {
-    const TopoDS_Shape& Fcur = itLF2.Value();
+  for (const TopoDS_Shape& Fcur : LF2) {
     Standard_Integer icur = myDataStructure->Shape(Fcur);//DEB
     FillFace(Fcur,ToBuild2,LF1,ToBuild1,WES,RevOri2);
   }
@@ -439,8 +418,7 @@ void TopOpeBRepBuild_Builder::SplitFaceOK(const TopoDS_Shape& Foriented,
 
   // connect new faces as faces built <ToBuild1> on LF1 faces
   // --------------------------------------------------------
-  for (itLF1.Initialize(LF1); itLF1.More(); itLF1.Next()) {
-    TopoDS_Shape Fcur = itLF1.Value();
+  for (TopoDS_Shape Fcur : LF1) {
     MarkSplit(Fcur,ToBuild1);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild1);
     if ( ConnectTo1 ) FL = FaceList;
@@ -448,8 +426,7 @@ void TopOpeBRepBuild_Builder::SplitFaceOK(const TopoDS_Shape& Foriented,
   
   // connect new faces as faces built <ToBuild2> on LF2 faces
   // --------------------------------------------------------
-  for (itLF2.Initialize(LF2); itLF2.More(); itLF2.Next()) {
-    TopoDS_Shape Fcur = itLF2.Value();
+  for (TopoDS_Shape Fcur : LF2) {
     MarkSplit(Fcur,ToBuild2);
     TopTools_ListOfShape& FL = ChangeSplit(Fcur,ToBuild2);
     if ( ConnectTo2 ) FL = FaceList;

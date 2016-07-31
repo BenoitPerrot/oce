@@ -47,9 +47,7 @@ static void BuildBack (const TopTools_DataMapOfShapeListOfShape& M1,
   TopTools_DataMapIteratorOfDataMapOfShapeListOfShape it(M1);
   for (; it.More(); it.Next()) {
     const TopoDS_Shape& KS = it.Key();
-    TopTools_ListIteratorOfListOfShape itl(it.Value());
-    for ( ; itl.More(); itl.Next()) {
-      const TopoDS_Shape& VS = itl.Value();
+    for (auto VS : it.Value()) {
       BM1.Bind(VS,KS);
     }
   }
@@ -67,20 +65,18 @@ static void  Replace (      TopTools_ListOfShape& L,
   //-----------------------------------
   // Suppression de Old dans la liste.
   //-----------------------------------
-  TopTools_ListIteratorOfListOfShape it(L);
-  while (it.More()) {
-    if (it.Value().IsSame(Old)) {
+  TopTools_ListIteratorOfListOfShape it = begin(L);
+  while (it!=end(L)) {
+    if (it->IsSame(Old)) {
       it = L.erase(it);
       break;
     }
-    if (it.More()) it.Next();
+    ++it;
   }
   //---------------------------
   // Ajout de New a L.
   //---------------------------
-  TopTools_ListOfShape copNew;
-  copNew = New;
-  L.Append(copNew);
+  L.insert(end(L), begin(New), end(New));
 }
 
 
@@ -106,9 +102,7 @@ static void StoreImage (      TopTools_DataMapOfShapeListOfShape& MG,
       }
       // Dans tous les cas on copie la liste pour eviter les pb de
       // const& dans BRepBuilderAPI.
-      TopTools_ListIteratorOfListOfShape it;
-      for (it.Initialize(LI); it.More(); it.Next()) {
-	const TopoDS_Shape& SS = it.Value();
+      for (auto SS : LI) {
 	MG(S).push_back(SS);
       }
     }
@@ -305,9 +299,9 @@ static void FilterByShape(TopTools_DataMapOfShapeListOfShape& MG,
   for (; it.More(); it.Next()) {
     const TopoDS_Shape&   OS  = it.Key();
     TopTools_ListOfShape& LNS = MG.ChangeFind(OS); 
-    TopTools_ListIteratorOfListOfShape itl(LNS);
-    while (itl.More()) {
-      const TopoDS_Shape& NS = itl.Value();
+    TopTools_ListIteratorOfListOfShape itl = begin(LNS);
+    while (itl != end(LNS)) {
+      const TopoDS_Shape& NS = *itl;
       //-------------------------------------------------------------------
       // Images contiennet des edges => ajout des edges resultat dans MSF.
       //-------------------------------------------------------------------
@@ -332,7 +326,8 @@ static void FilterByShape(TopTools_DataMapOfShapeListOfShape& MG,
       if (!MSF.Contains(NS)) {
 	itl = LNS.erase(itl);
       }
-      else if (itl.More()) itl.Next();
+      else
+	++itl;
     }
   }
 #ifdef OCCT_DEBUG

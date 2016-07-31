@@ -429,9 +429,8 @@ static Standard_Integer PRW(Draw_Interpretor& theCommands,
     BRep_Builder B;
     TopoDS_Shell Sh;
     B.MakeShell(Sh);
-    TopTools_ListIteratorOfListOfShape it;
-    for (it.Initialize(lleft);it.More();it.Next()) {
-      B.Add(Sh,TopoDS::Face(it.Value()));
+    for (auto sleft : lleft) {
+      B.Add(Sh,TopoDS::Face(sleft));
     }
     Sh.Closed (BRep_Tool::IsClosed (Sh));
     thePFace.Init(S,Sh,F,V,fuse,Standard_True);
@@ -1195,9 +1194,8 @@ static Standard_Integer ROW(Draw_Interpretor& theCommands,
     BRep_Builder B;
     TopoDS_Shell Sh;
     B.MakeShell(Sh);
-    TopTools_ListIteratorOfListOfShape it;
-    for (it.Initialize(lleft);it.More();it.Next()) {
-      B.Add(Sh,TopoDS::Face(it.Value()));
+    for (auto sleft : lleft) {
+      B.Add(Sh,TopoDS::Face(sleft));
     }
     Sh.Closed (BRep_Tool::IsClosed (Sh));
     theRFace.Init(S,Sh,F,theAxis,fuse,Standard_True);
@@ -2105,14 +2103,12 @@ static Standard_Integer BOSS(Draw_Interpretor& theCommands,
     theTopEdges = theDPrism.TopEdges();
     theLatEdges = theDPrism.LatEdges();
 
-    TopTools_ListIteratorOfListOfShape it;
     BRep_Builder B;
 
     B.MakeCompound(TopoDS::Compound(theShapeTop));
-    it.Initialize(theTopEdges);
-    for(; it.More(); it.Next()) {
+    for (auto topS : theTopEdges) {
       TopExp_Explorer exp;
-      for (exp.Init(it.Value(),TopAbs_EDGE); exp.More(); exp.Next()) {
+      for (exp.Init(topS,TopAbs_EDGE); exp.More(); exp.Next()) {
 	B.Add(theShapeTop,exp.Current());
       }
     }
@@ -2120,9 +2116,8 @@ static Standard_Integer BOSS(Draw_Interpretor& theCommands,
     dout.Flush();
 
     B.MakeCompound(TopoDS::Compound(theShapeBottom));
-    it.Initialize(theLatEdges);
-    for(; it.More(); it.Next()) {
-      B.Add(theShapeBottom,it.Value());
+    for (auto latS : theLatEdges) {
+      B.Add(theShapeBottom, latS);
     }
     DBRep::Set(a[3],theShapeBottom);
     dout.Flush();

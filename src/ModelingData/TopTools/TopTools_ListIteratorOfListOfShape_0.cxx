@@ -5,6 +5,7 @@
 
 #include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
+#if 0
 #include <Foundation/Standard/Standard_NoMoreObject.hxx>
 #include <Foundation/Standard/Standard_NoSuchObject.hxx>
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
@@ -24,3 +25,4 @@
 #define TCollection_List_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ListIterator.gxx>
 
+#endif

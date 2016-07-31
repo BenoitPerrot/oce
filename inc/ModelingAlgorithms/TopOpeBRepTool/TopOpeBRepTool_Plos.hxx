@@ -6,7 +6,8 @@
 #ifndef _TopOpeBRepTool_Plos_HeaderFile
 #define _TopOpeBRepTool_Plos_HeaderFile
 
-class TopTools_ListOfShape;
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
+
 typedef TopTools_ListOfShape* TopOpeBRepTool_Plos;
 
 #endif // _TopOpeBRepTool_Plos_HeaderFile

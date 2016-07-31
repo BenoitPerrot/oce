@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/ChFi2d/ChFi2d_Builder.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -20,7 +21,6 @@ class TopoDS_Face;
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopTools_SequenceOfShape;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

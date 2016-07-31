@@ -1008,10 +1008,9 @@ void TopOpeBRepDS_EIR::ProcessEdgeInterferences(const Standard_Integer EIX)
 #endif
 
       // nlfx < 2 => 0 ou 1 face accede E => pas d'autre fcx pouvant generer une courbe 3d
-      TopTools_ListIteratorOfListOfShape itlfx(lfx);
       Standard_Boolean curvefound = Standard_False;
-      for (; !itlfx.More(); itlfx.Next()) {
-	const TopoDS_Face& fx = TopoDS::Face(itlfx.Value());
+      for (auto slfx : lfx) {
+	const TopoDS_Face& fx = TopoDS::Face(slfx);
 //                  BDS.Shape(fx);
 	const TopOpeBRepDS_ListOfInterference& lifx = BDS.ShapeInterferences(fx);
         TopOpeBRepDS_ListOfInterference::const_iterator itlifx(begin(lifx));

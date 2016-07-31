@@ -38,12 +38,13 @@ Draft_VertexInfo::Draft_VertexInfo () {}
 
 void Draft_VertexInfo::Add(const TopoDS_Edge& E)
 {
-  for (myItEd.Initialize(myEdges); myItEd.More(); myItEd.Next()) {
-    if (E.IsSame(myItEd.Value())) {
+#warning find
+  for (myItEd = begin(myEdges); myItEd != end(myEdges); ++myItEd) {
+    if (E.IsSame(*myItEd)) {
       break;
     }
   }
-  if (!myItEd.More()) {
+  if (myItEd == end(myEdges)) {
     myEdges.push_back(E);
     myParams.Append(RealLast());
   }
@@ -80,9 +81,9 @@ gp_Pnt& Draft_VertexInfo::ChangeGeometry ()
 Standard_Real Draft_VertexInfo::Parameter (const TopoDS_Edge& E)
 {
   TColStd_ListIteratorOfListOfReal itp(myParams);
-  myItEd.Initialize(myEdges);
-  for (; myItEd.More(); myItEd.Next(),itp.Next()) {
-    if (myItEd.Value().IsSame(E)) {
+  myItEd = begin(myEdges);
+  for (; myItEd != end(myEdges); ++myItEd,itp.Next()) {
+    if (myItEd->IsSame(E)) {
       return itp.Value();
     }
   }
@@ -98,9 +99,9 @@ Standard_Real Draft_VertexInfo::Parameter (const TopoDS_Edge& E)
 Standard_Real& Draft_VertexInfo::ChangeParameter (const TopoDS_Edge& E)
 {
   TColStd_ListIteratorOfListOfReal itp(myParams);
-  myItEd.Initialize(myEdges);
-  for (; myItEd.More(); myItEd.Next(),itp.Next()) {
-    if (myItEd.Value().IsSame(E)) {
+  myItEd = begin(myEdges);
+  for (; myItEd != end(myEdges); ++myItEd,itp.Next()) {
+    if (myItEd->IsSame(E)) {
       return itp.Value();
     }
   }
@@ -115,7 +116,7 @@ Standard_Real& Draft_VertexInfo::ChangeParameter (const TopoDS_Edge& E)
 
 void Draft_VertexInfo::InitEdgeIterator () 
 {
-  myItEd.Initialize(myEdges);
+  myItEd = begin(myEdges);
 }
 
 
@@ -126,7 +127,7 @@ void Draft_VertexInfo::InitEdgeIterator ()
 
 const TopoDS_Edge& Draft_VertexInfo::Edge () const
 {
-  return TopoDS::Edge(myItEd.Value());
+  return TopoDS::Edge(*myItEd);
 }
 
 
@@ -137,7 +138,7 @@ const TopoDS_Edge& Draft_VertexInfo::Edge () const
 
 Standard_Boolean Draft_VertexInfo::MoreEdge() const
 {
-  return myItEd.More();
+  return myItEd != end(myEdges);
 }
 
 
@@ -148,7 +149,5 @@ Standard_Boolean Draft_VertexInfo::MoreEdge() const
 
 void Draft_VertexInfo::NextEdge()
 {
-  myItEd.Next();
+  ++myItEd;
 }
-
-

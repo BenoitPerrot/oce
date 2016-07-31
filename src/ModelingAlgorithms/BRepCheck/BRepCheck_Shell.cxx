@@ -70,19 +70,19 @@ static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapEF,
   while(itf.More())
   {
     Standard_Boolean hasBeenAdded = Standard_False;
-    const TopoDS_Shape& fac = itf.Key();
+    const TopoDS_Shape& k = itf.Key();
     TopExp_Explorer ex;
-    for (ex.Init(fac,TopAbs_EDGE); ex.More(); ex.Next())
+    for (ex.Init(k,TopAbs_EDGE); ex.More(); ex.Next())
     {
       const TopoDS_Edge& edg = TopoDS::Edge(ex.Current());
       // test if the edge is in the map (only orienteed edges are present)
       if (mapEF.Contains(edg))
       {
-        for (TopTools_ListIteratorOfListOfShape itl(mapEF.FindFromKey(edg)); itl.More(); itl.Next())
+        for (auto S : mapEF.FindFromKey(edg))
         {
-          if (!itl.Value().IsSame(fac) && !mapF.Contains(itl.Value()))
+          if (!S.IsSame(k) && !mapF.Contains(S))
           {
-            mapF.Add(itl.Value());
+            mapF.Add(S);
             hasBeenAdded = Standard_True;
           }
         }
@@ -568,12 +568,11 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
     const TopoDS_Edge& edg = TopoDS::Edge(myMapEF.FindKey(i));
     if (BRep_Tool::Degenerated(edg)) continue;
     TopTools_ListOfShape& lface = myMapEF(i);
-    TopTools_ListIteratorOfListOfShape lite(lface);
 
     if (lface.size() <= 2)
       {
-	lite.Initialize(lface);
-	Fref = TopoDS::Face(lite.Value());
+	TopTools_ListIteratorOfListOfShape lite = begin(lface);
+	Fref = TopoDS::Face(*lite);
 	
 	if (!MapOfShapeOrientation.IsBound(Fref)) {
 	  myOstat = BRepCheck_SubshapeNotInShape;
@@ -583,9 +582,9 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	  // quit because no workaround for the incoherence is possible
 	  return myOstat;
 	}
-	lite.Next();
+	++lite;
 	
-	if (lite.More()) { // Edge of connectivity
+	if (lite != end(lface)) { // Edge of connectivity
 	  //JR/Hp :
 	  Standard_Integer iorf = MapOfShapeOrientation.Find(Fref);
 	  orf = (TopAbs_Orientation) iorf;
@@ -593,14 +592,14 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	  Fref.Orientation(orf);
 	  
 	  // edge is examined
-	  if (!lite.Value().IsSame(Fref)) { // edge non "closed"
+	  if (!lite->IsSame(Fref)) { // edge non "closed"
 	    for (ede.Init(Fref,TopAbs_EDGE); ede.More(); ede.Next()) {
 	      if (ede.Current().IsSame(edg)) {
 		break;
 	      }
 	    }
 	    TopAbs_Orientation orient = ede.Current().Orientation();
-	    TopoDS_Face Fcur= TopoDS::Face(lite.Value());
+	    TopoDS_Face Fcur= TopoDS::Face(*lite);
 	    
 	    if (!MapOfShapeOrientation.IsBound(Fcur)) {
 	      myOstat = BRepCheck_SubshapeNotInShape;
@@ -655,9 +654,9 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	Standard_Integer numF = 0, numR = 0;
 	TopTools_MapOfShape Fmap;
 
-	for (lite.Initialize(lface); lite.More(); lite.Next())
+	for (auto S : lface)
 	  {
-	    TopoDS_Face Fcur= TopoDS::Face(lite.Value());
+	    TopoDS_Face Fcur= TopoDS::Face(S);
 	    if (!MapOfShapeOrientation.IsBound(Fcur))
 	      {
 		myOstat = BRepCheck_SubshapeNotInShape;
@@ -747,13 +746,13 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	    const TopoDS_Edge& edg = TopoDS::Edge(ede.Current());
 	    TopAbs_Orientation orient = edg.Orientation();
 	    TopTools_ListOfShape& lface = myMapEF.ChangeFromKey(edg);
-	    TopTools_ListIteratorOfListOfShape lite(lface);
+	    TopTools_ListIteratorOfListOfShape lite = begin(lface);
 	  
-	    TopoDS_Face Fcur= TopoDS::Face(lite.Value());
+	    TopoDS_Face Fcur= TopoDS::Face(*lite);
 	    if (Fcur.IsSame(Fref)) {
-	      lite.Next();
-	      if (lite.More()) {
-		Fcur=TopoDS::Face(lite.Value());
+	      ++lite;
+	      if (lite != end(lface)) {
+		Fcur=TopoDS::Face(*lite);
 	      }
 	      else {
 		// from the free border one goes to the next edge
@@ -890,10 +889,9 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
 	Ed.Orientation()!=TopAbs_FORWARD) theUnOriEd.Add(Ed);
   }
   // Starting from multiconnected edges propagation by simple connections
-  TopTools_ListIteratorOfListOfShape lconx1, lconx2;
+  TopTools_ListIteratorOfListOfShape lconx2;
   TopTools_MapIteratorOfMapOfShape itmsh(theMultiEd);
   TopoDS_Shell CurShell;
-  TopoDS_Shape adFac;
   TopTools_ListOfShape lesCur;
   BRep_Builder BRB;
   Standard_Boolean newCur=Standard_True;
@@ -901,28 +899,27 @@ Standard_Integer BRepCheck_Shell::NbConnectedSet(TopTools_ListOfShape& theSets)
   for (; itmsh.More(); itmsh.Next()) {
     const TopoDS_Shape& Ed = itmsh.Key();
     if (!theUnOriEd.Contains(Ed)) {
-      for (lconx1.Initialize(parents.FindFromKey(Ed)); lconx1.More(); lconx1.Next()) {
-	if (theFaces.Contains(lconx1.Value())) {
-	  adFac=lconx1.Value();
+      for (auto adFac : parents.FindFromKey(Ed)) {
+	if (theFaces.Contains(adFac)) {
 	  BRB.Add(CurShell, adFac);
 	  theFaces.Remove(adFac);
 	  newCur=Standard_False;
 	  if (theFaces.IsEmpty()) break;
 	  lesCur.push_back(adFac);
+	  
 	  while (!lesCur.empty()) {
-	    adFac=lesCur.front();
+	    auto adFacX=lesCur.front();
 	    lesCur.pop_front();
-	    for (exsh.Init(adFac, TopAbs_EDGE); exsh.More(); exsh.Next()) {
+	    for (exsh.Init(adFacX, TopAbs_EDGE); exsh.More(); exsh.Next()) {
 	      const TopoDS_Shape& ced = exsh.Current();
 	      if (!theMultiEd.Contains(ced)) {
-		for (lconx2.Initialize(parents.FindFromKey(ced)); lconx2.More(); lconx2.Next()) {
-		  if (theFaces.Contains(lconx2.Value())) {
-		    adFac=lconx2.Value();
-		    BRB.Add(CurShell, adFac);
-		    theFaces.Remove(adFac);
+		for (auto adFac2 : parents.FindFromKey(ced)) {
+		  if (theFaces.Contains(adFac2)) {
+		    BRB.Add(CurShell, adFac2);
+		    theFaces.Remove(adFac2);
 		    newCur=Standard_False;
 		    if (theFaces.IsEmpty()) break;
-		    lesCur.push_back(adFac);
+		    lesCur.push_back(adFac2);
 		  }
 		}
 	      }

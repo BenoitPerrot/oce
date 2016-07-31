@@ -109,10 +109,10 @@ static TopoDS_Wire WireFromList(TopTools_ListOfShape& Edges)
     TopoDS_Wire CurWire = MW.Wire();
     TopoDS_Vertex V1, V2;
     TopExp::Vertices(CurWire, V1, V2);
-    TopTools_ListIteratorOfListOfShape itl(Edges);
-    for (; itl.More(); itl.Next())
+    TopTools_ListIteratorOfListOfShape itl = begin(Edges);
+    for (; itl != end(Edges); ++itl)
     {
-      anEdge = TopoDS::Edge(itl.Value());
+      anEdge = TopoDS::Edge(*itl);
       TopoDS_Vertex V3, V4;
       TopExp::Vertices(anEdge, V3, V4);
       if (V1.IsSame(V3) || V1.IsSame(V4) ||
@@ -413,9 +413,9 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
         TopoDS_Wire CurWire = MW.Wire();
         TopExp::Vertices(CurWire, V_wire[0], V_wire[1]);
         Standard_Boolean found = Standard_False;
-        for (Itl.Initialize( EdgeList ); Itl.More(); Itl.Next())
+        for (Itl = begin(EdgeList); Itl != end(EdgeList); ++Itl)
         {
-          TopoDS_Edge CurEdge = TopoDS::Edge(Itl.Value());
+          TopoDS_Edge CurEdge = TopoDS::Edge(*Itl);
           TopExp::Vertices(CurEdge, V_edge[0], V_edge[1]);
           for (i = 0; i < 2; i++)
           {
@@ -438,9 +438,9 @@ void BRepFill_Filling::BuildWires( TopTools_ListOfShape& EdgeList, TopTools_List
           gp_Pnt P_wire[2];
           P_wire[0] = BRep_Tool::Pnt(V_wire[0]);
           P_wire[1] = BRep_Tool::Pnt(V_wire[1]);
-          for (Itl.Initialize( EdgeList ); Itl.More(); Itl.Next())
+          for (Itl = begin(EdgeList); Itl != end(EdgeList); ++Itl)
           {
-            TopoDS_Edge CurEdge = TopoDS::Edge(Itl.Value());
+            TopoDS_Edge CurEdge = TopoDS::Edge(*Itl);
             TopExp::Vertices(CurEdge, V_edge[0], V_edge[1]);
             for (i = 0; i < 2; i++)
             {
@@ -481,9 +481,8 @@ void BRepFill_Filling::FindExtremitiesOfHoles(const TopTools_ListOfShape& WireLi
                                               TopTools_SequenceOfShape& VerSeq ) const
 {
   TopTools_SequenceOfShape WireSeq;
-  TopTools_ListIteratorOfListOfShape Itl(WireList);
-  for (; Itl.More(); Itl.Next())
-    WireSeq.Append(Itl.Value());
+  for (auto SW : WireList)
+    WireSeq.Append(SW);
        
   TopoDS_Wire theWire;
   theWire = TopoDS::Wire(WireSeq(1));
@@ -740,9 +739,11 @@ TopoDS_Face BRepFill_Filling::Face() const
 {
   myGenerated.clear();
   
-  if (myOldNewMap.IsBound(S))
-    myGenerated.Append(myOldNewMap(S));
-  
+  if (myOldNewMap.IsBound(S)) {
+    auto &l = myOldNewMap(S);
+    myGenerated.insert(end(myGenerated), begin(l), end(l));
+  }
+
   return myGenerated;
 }
 

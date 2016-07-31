@@ -14,7 +14,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/LocOpe/Handle_LocOpe_WiresOnShape.hxx>
 class StdFail_NotDone;
-class TopTools_ListOfShape;
 class LocOpe_WiresOnShape;
 
 

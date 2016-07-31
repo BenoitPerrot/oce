@@ -12,12 +12,12 @@
 
 #include <Foundation/TCollection/TCollection_BasicMapIterator.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_ShapeMapHasher;
 class TopTools_DataMapOfShapeListOfShape;
-class TopTools_DataMapNodeOfDataMapOfShapeListOfShape;
+#include <ModelingData/TopTools/TopTools_DataMapNodeOfDataMapOfShapeListOfShape.hxx>
 
 
 
@@ -37,6 +37,7 @@ public:
   Standard_EXPORT  const  TopoDS_Shape& Key()  const;
   
   Standard_EXPORT  const  TopTools_ListOfShape& Value()  const;
+  Standard_EXPORT  TopTools_ListOfShape& ChangeValue() { return ((TopTools_DataMapNodeOfDataMapOfShapeListOfShape*) myNode)->Value(); }
 
 
 

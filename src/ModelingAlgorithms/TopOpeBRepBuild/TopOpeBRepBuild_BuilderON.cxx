@@ -200,8 +200,7 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES1(const Handle(TopOpeBRepDS_Inter
 #ifdef OCCT_DEBUG
 //  Standard_Integer nEspON=lEspON.Extent();
 #endif
-  for(TopTools_ListIteratorOfListOfShape it(lEspON);it.More();it.Next()) {
-    const TopoDS_Shape& EspON=it.Value();
+  for (const TopoDS_Shape& EspON : lEspON) {
     GFillONPartsWES2(I,EspON);
   }
 } // GFillONPartsWES1
@@ -351,8 +350,8 @@ static Standard_Integer FUN_findeSD
   TopTools_ListOfShape lesdSD; 
   if (D == 3) FDS_HasSameDomain3d(BDS,EG,&lesdSD);
   if (D == 2) FDS_HasSameDomain2d(BDS,EG,&lesdSD);
-  for(TopTools_ListIteratorOfListOfShape it(lesdSD);it.More();it.Next()) {
-    TopoDS_Edge eSD = TopoDS::Edge(it.Value());
+  for (auto s : lesdSD) {
+    TopoDS_Edge eSD = TopoDS::Edge(s);
     TopAbs_Orientation oesd; Standard_Boolean eSDofFOR = FUN_tool_orientEinFFORWARD(eSD,FOR,oesd);
     if (!eSDofFOR) continue;
     TopAbs_State staeSD = FUN_tool_staPinE(ptON,eSD);
@@ -396,6 +395,7 @@ static Standard_Boolean ComputeFaceCrvtInSec(const TopoDS_Face& aFace,
 //=======================================================================
 void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Interference)& I,const TopoDS_Shape& EspON)
 {
+#warning refactor!
   const Handle(TopOpeBRepDS_HDataStructure)& HDS=myPB->DataStructure();
   const TopOpeBRepDS_DataStructure& BDS= HDS->DS();
   const Handle(TopOpeBRepDS_ShapeShapeInterference)& SSI=Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(I);
@@ -1019,16 +1019,15 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
   // FFinSO=appartenance de FOR a l'ensemble des faces sameoriented de FCX=LFSO2
   Standard_Boolean FFinSDSO=Standard_False;
   {
-    for(TopTools_ListIteratorOfListOfShape i(LFSO2);i.More();i.Next()) {
-      const TopoDS_Shape& F=i.Value();
+#warning TODO: C++ify
+    for (const TopoDS_Shape& F: LFSO2) {
       if (F.IsSame(FOR)) {FFinSDSO=Standard_True;break;}
     }
   }
   // FFinDO=appartenance de FOR a l'ensemble des faces difforiented de FCX=LFDO2
   Standard_Boolean FFinSDDO=Standard_False;
   {
-    for(TopTools_ListIteratorOfListOfShape i(LFDO2);i.More();i.Next()) {
-      const TopoDS_Shape& F=i.Value();
+    for (const TopoDS_Shape& F: LFDO2) {
       if (F.IsSame(FOR)) {FFinSDDO=Standard_True;break;}
     }
   }
@@ -1175,8 +1174,8 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 
     const TopoDS_Edge& e3 = TopoDS::Edge(le3.front()); Standard_Integer ie3 = BDS.Shape(e3);    
     Standard_Boolean ssif = Standard_False; Handle(TopOpeBRepDS_ShapeShapeInterference) ssie3;
-    for (auto x : BDS.ShapeInterferences(FCX)) {
-      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
+    for (auto si : BDS.ShapeInterferences(FCX)) {
+      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(si);
       if (ssi.IsNull())
         continue;
       TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1; FDS_data(ssi,GT1,G1,ST1,S1);
@@ -1862,8 +1861,8 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 	     cout<<"TB1=";TopAbs::Print(TB1,cout);cout<<" TB2=";TopAbs::Print(TB2,cout);cout<<endl;}
 #endif
     Standard_Boolean isbound = Standard_False;
-    for (TopTools_ListIteratorOfListOfShape it(BDS.ShapeSameDomain(iFOR)); it.More(); it.Next()){
-      TopExp_Explorer ex(it.Value(), TopAbs_EDGE);
+    for (auto s : BDS.ShapeSameDomain(iFOR)) {
+      TopExp_Explorer ex(s, TopAbs_EDGE);
       for (; ex.More(); ex.Next()) {
 	const TopoDS_Shape& E = ex.Current();
 	if (E.IsSame(EG)) {

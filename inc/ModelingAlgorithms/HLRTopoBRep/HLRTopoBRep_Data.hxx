@@ -23,7 +23,6 @@
 class TopoDS_Edge;
 class TopoDS_Face;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Vertex;
 
 

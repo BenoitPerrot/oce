@@ -33,7 +33,6 @@ class TopoDS_Shape;
 class TopoDS_Face;
 class gp_Dir;
 class gp_Pln;
-class TopTools_ListOfShape;
 class Geom_Surface;
 class TopLoc_Location;
 class TopoDS_Edge;

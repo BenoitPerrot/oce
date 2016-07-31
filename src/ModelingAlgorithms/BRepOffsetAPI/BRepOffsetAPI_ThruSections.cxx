@@ -474,7 +474,6 @@ void BRepOffsetAPI_ThruSections::CreateRuled()
   BRepTools_WireExplorer anExp1, anExp2;
   TopTools_IndexedDataMapOfShapeListOfShape M;
   TopExp::MapShapesAndAncestors(shell, TopAbs_EDGE, TopAbs_FACE, M);
-  TopTools_ListIteratorOfListOfShape it;
 
   TopTools_IndexedDataMapOfShapeListOfShape MV;
   TopExp::MapShapesAndAncestors(shell, TopAbs_VERTEX, TopAbs_FACE, MV);
@@ -499,20 +498,19 @@ void BRepOffsetAPI_ThruSections::CreateRuled()
       TopTools_MapOfShape MapFaces;
       if (degen2){
         TopoDS_Vertex Vdegen = TopExp::FirstVertex(TopoDS::Edge(edge2));
-        for (it.Initialize(MV.FindFromKey(Vdegen)); it.More(); it.Next()) {
-          MapFaces.Add(it.Value());
+        for (auto S : MV.FindFromKey(Vdegen)) {
+          MapFaces.Add(S);
         }
       }
       else {
-        for (it.Initialize(M.FindFromKey(edge2)); it.More(); it.Next()) {
-          MapFaces.Add(it.Value());
+        for (auto S : M.FindFromKey(edge2)) {
+          MapFaces.Add(S);
         }
       }
 
       if (degen1) {
         TopoDS_Vertex Vdegen = TopExp::FirstVertex(TopoDS::Edge(edge1));
-        for (it.Initialize(MV.FindFromKey(Vdegen)); it.More(); it.Next()) {
-          const TopoDS_Shape& Face = it.Value();
+        for (const TopoDS_Shape& Face : MV.FindFromKey(Vdegen)) {
           if (MapFaces.Contains(Face)) {
             myGenerated.Bind(edge1, Face);
             break;
@@ -520,8 +518,7 @@ void BRepOffsetAPI_ThruSections::CreateRuled()
         }
       }
       else {
-        for (it.Initialize(M.FindFromKey(edge1)); it.More(); it.Next()) {
-          const TopoDS_Shape& Face = it.Value();
+        for (const TopoDS_Shape& Face : M.FindFromKey(edge1)) {
           if (MapFaces.Contains(Face)) {
             myGenerated.Bind(edge1, Face);
             break;

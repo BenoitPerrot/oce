@@ -77,7 +77,6 @@
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Mathematics/Primitives/gp.hxx>
 #include <Mathematics/Primitives/gp_Pnt2d.hxx>
 #include <Mathematics/Primitives/gp_Lin2d.hxx>
@@ -201,10 +200,8 @@ static void Add(const TopoDS_Edge&         E,
       const TopoDS_Edge& IE = TopoDS::Edge(aLocalShape);
 //      const TopoDS_Edge& IE = TopoDS::Edge(OF.Generated(exp.Current()));
       if ( E.IsEqual(IE)) {
-	const TopTools_ListOfShape& L = Analyse.Ancestors(exp.Current());
-	TopTools_ListIteratorOfListOfShape it(L);
-	for ( ; it.More(); it.Next()) {
-	  Map.Add(it.Value());
+	for (auto ancS : Analyse.Ancestors(exp.Current())) {
+	  Map.Add(ancS);
 	}
 	break;
       }
@@ -593,10 +590,9 @@ static TopAbs_Orientation Orientation(const TopoDS_Edge& E,
 				      const TopTools_ListOfShape& L)
 {
   TopAbs_Orientation Orien = TopAbs_FORWARD;
-  TopTools_ListIteratorOfListOfShape itld;
-  for ( itld.Initialize(L); itld.More(); itld.Next()) {
-    if ( itld.Value().IsSame(E)) {
-      Orien = itld.Value().Orientation();
+  for (auto S : L) {
+    if (S.IsSame(E)) {
+      Orien = S.Orientation();
       break;
     }
   }
@@ -626,10 +622,10 @@ static TopoDS_Edge FindCreatedEdge
   TopTools_ListOfShape TangE;
   CenterAnalyse.TangentEdges(E,V1,TangE);
 
-  TopTools_ListIteratorOfListOfShape itl(TangE);
   Standard_Boolean Find = Standard_False;
-  for ( ; itl.More() && !Find; itl.Next()) {
-    const TopoDS_Edge& ET = TopoDS::Edge(itl.Value());
+  for (auto TangS : TangE) {
+    if (Find) break;
+    const TopoDS_Edge& ET = TopoDS::Edge(TangS);
     if ( MapSF.IsBound(ET)) {
       TopoDS_Shape aLocalShape = MapSF(ET).Generated(V1);
       E1 = TopoDS::Edge(aLocalShape);
@@ -656,9 +652,8 @@ static TopoDS_Edge FindCreatedEdge
       if ( U1.IsSame(V1)) U1 = U2;
       TopTools_ListOfShape Tang2;
       CenterAnalyse.TangentEdges(ET,U1,Tang2);
-      TopTools_ListIteratorOfListOfShape it2(Tang2);
-      for ( ; it2.More() ; it2.Next()) {
-	const TopoDS_Edge& ET2 = TopoDS::Edge(it2.Value());
+      for (auto TangS2 : Tang2) {
+	const TopoDS_Edge& ET2 = TopoDS::Edge(TangS2);
 	if ( MapSF.IsBound(ET2)) {
 	  TopoDS_Shape aLocalShape = MapSF(ET2).Generated(U1);
 	  MapOnV.Add(TopoDS::Edge(aLocalShape));
@@ -672,10 +667,9 @@ static TopoDS_Edge FindCreatedEdge
     //	CenterAnalyse.Edges(V1f, OT, TangE);
     if (CenterAnalyse.HasAncestor(V1)) {
       TangE = CenterAnalyse.Ancestors(V1);
-      itl.Initialize(TangE);
-      for ( ; itl.More() && !Find; itl.Next()) {
-	if ( MapSF.IsBound(itl.Value())) {
-	  MapOnV.Add(MapSF(itl.Value()).Generated(V1));
+      for (auto S : TangE) {
+	if ( MapSF.IsBound(S)) {
+	  MapOnV.Add(MapSF(S).Generated(V1));
 	}
       }
     }
@@ -733,11 +727,10 @@ static void CutEdge (const TopoDS_Edge&          E,
   Standard_Real                      U1,U2;
   TopoDS_Vertex                      V1,V2;
   TopTools_SequenceOfShape           SV;
-  TopTools_ListIteratorOfListOfShape it(VOnE);
   BRep_Builder                       B;
 
-  for ( ; it.More(); it.Next()) {
-    SV.Append(it.Value());
+  for (auto SOnE : VOnE) {
+    SV.Append(SOnE);
   }
   //--------------------------------
   // Parse vertices on the edge.
@@ -1532,10 +1525,9 @@ void BiTgte_Blend::ComputeCenters()
 	  myStopFaces.Add(E);
 	}
 	else {
-	  TopTools_ListIteratorOfListOfShape itl;
-	  for (itl.Initialize(L); itl.More(); itl.Next()) {
-	    const TopoDS_Shape& Sh = itl.Value();
-	    if ( !myStopFaces.Contains(Sh)) myFaces.Add(itl.Value());
+	  for (const TopoDS_Shape& Sh : L) {
+	    if ( !myStopFaces.Contains(Sh))
+	      myFaces.Add(Sh);
 	  }
 	}
       }
@@ -1573,10 +1565,8 @@ void BiTgte_Blend::ComputeCenters()
 	if ( AS.ShapeType() == TopAbs_FACE) { 
 	  myAnalyse.Edges(TopoDS::Face(AS),BRepOffset_Tangent,Let);
 	}
-	TopTools_ListIteratorOfListOfShape itlet(Let);
-    
-	for ( ; itlet.More(); itlet.Next()) {
-	  const TopoDS_Edge& Cur = TopoDS::Edge(itlet.Value());
+	for (auto st : Let) {
+	  const TopoDS_Edge& Cur = TopoDS::Edge(st);
 	  if ( !EdgeTgt.IsBound(Cur)) {
 	    TopoDS_Shape aLocalShape = OF1.Generated(Cur);
 	    const TopoDS_Edge& OTE = TopoDS::Edge(aLocalShape);
@@ -1664,11 +1654,12 @@ void BiTgte_Blend::ComputeCenters()
 	  TopTools_ListOfShape TangE;
 	  myAnalyse.TangentEdges(E,V1f,TangE);
 	  // find if the pipe on the tangent edges are soon created.
-	  TopTools_ListIteratorOfListOfShape itl(TangE);
+#warning find
 	  Standard_Boolean Find = Standard_False;
-	  for ( ; itl.More() && !Find; itl.Next()) {
-	    if ( myMapSF.IsBound(itl.Value())) {
-	      TopoDS_Shape aLocalShape = myMapSF(itl.Value()).Generated(V1f);
+	  for (auto S : TangE) {
+	    if (Find) break;
+	    if ( myMapSF.IsBound(S)) {
+	      TopoDS_Shape aLocalShape = myMapSF(S).Generated(V1f);
 	      E1f  = TopoDS::Edge(aLocalShape);
 //	      E1f  = TopoDS::Edge(myMapSF(itl.Value()).Generated(V1f));
 	      Find = Standard_True;
@@ -1677,11 +1668,12 @@ void BiTgte_Blend::ComputeCenters()
 	  TangE.clear();
 	  myAnalyse.TangentEdges(E,V1l,TangE);
 	  // find if the pipe on the tangent edges are soon created.
-	  itl.Initialize(TangE);
+#warning find
 	  Find = Standard_False;
-	  for ( ; itl.More() && !Find; itl.Next()) {
-	    if ( myMapSF.IsBound(itl.Value())) {
-	      TopoDS_Shape aLocalShape = myMapSF(itl.Value()).Generated(V1l);
+	  for (auto S : TangE) {
+	    if (Find) break;
+	    if ( myMapSF.IsBound(S)) {
+	      TopoDS_Shape aLocalShape = myMapSF(S).Generated(V1l);
 	      E1l  = TopoDS::Edge(aLocalShape);
 //	      E1l  = TopoDS::Edge(myMapSF(itl.Value()).Generated(V1l));
 	      Find = Standard_True;
@@ -1824,19 +1816,15 @@ void BiTgte_Blend::ComputeCenters()
   // Currently set the unwinded surfaces in <myResult>
   // --------------------------------------------------------------
   B.MakeCompound(TopoDS::Compound(myResult));
-  TopTools_ListIteratorOfListOfShape itLOF(LOF);
-  for ( ; itLOF.More(); itLOF.Next()) {
-    const TopoDS_Shape& CurLOF = itLOF.Value();
-
+  for (const TopoDS_Shape& CurLOF : LOF) {
+    
     if ( !myImageOffset.HasImage(CurLOF)) 
       continue;
     
     TopTools_ListOfShape Lim;
     myImageOffset.LastImage(CurLOF,Lim);
-    TopTools_ListIteratorOfListOfShape itLim(Lim);
-    for ( ;itLim.More(); itLim.Next()) {
+    for (const TopoDS_Shape& CurLIM : Lim) {
       // If a face is its own image, it is not set
-      const TopoDS_Shape& CurLIM = itLim.Value();
       if (CurLIM.IsSame(CurLOF)) break;
 
       B.Add(myResult,CurLIM);
@@ -1997,9 +1985,8 @@ void BiTgte_Blend::ComputeSurfaces()
     // ---------------------------------------------------------------
     // CurL = List of edges descending from CurE ( = Cuts of CurE)
     // ---------------------------------------------------------------
-    TopTools_ListIteratorOfListOfShape itl(CurL);
-    for ( ; itl.More(); itl.Next()) {
-      const TopoDS_Edge& CurCutE = TopoDS::Edge(itl.Value());
+    for (auto CurCutS : CurL) {
+      const TopoDS_Edge& CurCutE = TopoDS::Edge(CurCutS);
       
       Handle(Geom2d_Curve) PC1 = 
 	BRep_Tool::CurveOnSurface(CurCutE,F1,f1,l1);
@@ -2252,14 +2239,13 @@ void BiTgte_Blend::ComputeSurfaces()
     if ( Map(i).size() != 3) continue;
 
     TopTools_ListOfShape LOE;
-    TopTools_ListIteratorOfListOfShape it;
     
-    for (it.Initialize(Map(i)) ; it.More(); it.Next()) {
+    for (auto S : Map(i)) {
       Standard_Boolean Reverse = Standard_True;
       if ( Reverse) 
-	LOE.push_back(myMapSF(it.Value()).Generated(V).Reversed());
+	LOE.push_back(myMapSF(S).Generated(V).Reversed());
       else 
-	LOE.push_back(myMapSF(it.Value()).Generated(V));
+	LOE.push_back(myMapSF(S).Generated(V));
     }
     
     BRepOffset_Offset OFT(V,LOE,-myRadius,myNubs, myTol, GeomAbs_C2);
@@ -2407,10 +2393,9 @@ void BiTgte_Blend::ComputeShape()
       // List of faces generated by a face in the unwinding
       TopTools_ListOfShape Lim;
       myImageOffset.LastImage(CurOF,Lim);
-      TopTools_ListIteratorOfListOfShape itLim(Lim);
-      for ( ;itLim.More(); itLim.Next()) {
+      for (auto DeboucS : Lim) {
 	// DeboucFace = offset Face unwinded in "Debouc".
-	const TopoDS_Face& DeboucFace = TopoDS::Face(itLim.Value());
+	const TopoDS_Face& DeboucFace = TopoDS::Face(DeboucS);
 
 	TopLoc_Location L;
 	Handle(Geom_Surface) S = BRep_Tool::Surface(CurF,L);
@@ -2632,9 +2617,8 @@ Standard_Boolean BiTgte_Blend::Intersect
     TopTools_ListOfShape LInt;
     Done.Clear();
     if (myAsDes->HasCommonDescendant(Face,F2,LInt)) {
-      TopTools_ListIteratorOfListOfShape  itl2;
-      for (itl2.Initialize(LInt); itl2.More(); itl2.Next()) {
-	const TopoDS_Edge& CurE = TopoDS::Edge(itl2.Value());
+      for (auto CurS : LInt) {
+	const TopoDS_Edge& CurE = TopoDS::Edge(CurS);
 	TopoDS_Vertex V1,V2;
 	TopoDS_Edge   E1,E2;
 	TopExp::Vertices(CurE,V1,V2);

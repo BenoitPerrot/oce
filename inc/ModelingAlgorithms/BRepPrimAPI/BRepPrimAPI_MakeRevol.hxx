@@ -18,7 +18,6 @@
 class TopoDS_Shape;
 class gp_Ax1;
 class BRepSweep_Revol;
-class TopTools_ListOfShape;
 
 
 //! Class to make revolved sweep topologies.

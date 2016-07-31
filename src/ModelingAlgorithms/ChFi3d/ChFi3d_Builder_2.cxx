@@ -102,7 +102,6 @@
 #include <ModelingAlgorithms/BRepLib/BRepLib_MakeFace.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 
 #include <Geometry/Extrema/Extrema_ExtPC.hxx>
 #include <Geometry/Extrema/Extrema_LocateExtPC.hxx>
@@ -268,13 +267,12 @@ static Standard_Boolean BonVoisin(const gp_Pnt& Point,
 	gp_Pnt np = hc->Value(winter);
 	Standard_Real ndist = np.SquareDistance(papp);
 	if(ndist<dist){
-	  TopTools_ListIteratorOfListOfShape It;
 	  TopoDS_Face ff;  
 	  Standard_Boolean isclosed = BRep_Tool::IsClosed(ecur, F);
 	  Standard_Boolean isreallyclosed = 
 	    BRepTools::IsReallyClosed(ecur, F);
-	  for(It.Initialize(EFMap(ecur));It.More();It.Next()){  
-	    ff = TopoDS::Face(It.Value());
+	  for (auto scur : EFMap(ecur)) {
+	    ff = TopoDS::Face(scur);
 	    Standard_Boolean issame = ff.IsSame(F);
 //  Modified by Sergey KHROMOV - Fri Dec 21 17:12:48 2001 Begin
 // 	    Standard_Boolean istg = 
@@ -478,11 +476,10 @@ Standard_Boolean IsG1(const ChFiDS_Map&         TheMap,
 		      const TopoDS_Face&        FRef,
 		      TopoDS_Face&              FVoi) 
 {
-  TopTools_ListIteratorOfListOfShape It;    
   // Find a neighbor of E different from FRef (general case).
-  for(It.Initialize(TheMap(E));It.More();It.Next()) {
-    if (!TopoDS::Face(It.Value()).IsSame(FRef)) {
-      FVoi = TopoDS::Face(It.Value());
+  for (auto S : TheMap(E)) {
+    if (!TopoDS::Face(S).IsSame(FRef)) {
+      FVoi = TopoDS::Face(S);
 //  Modified by Sergey KHROMOV - Fri Dec 21 17:09:32 2001 Begin
 //    if (BRep_Tool::Continuity(E,FRef,FVoi) != GeomAbs_C0) {
       if (isTangentFaces(E,FRef,FVoi)) {
@@ -543,16 +540,17 @@ static Standard_Integer SearchFaceOnV(const ChFiDS_CommonPoint&    Pc,
   }
   Standard_Integer Num = 0;
   Standard_Boolean Trouve;
-  TopTools_ListIteratorOfListOfShape ItE, ItF;
   TopoDS_Edge E;
   TopoDS_Face FVoi;
 
-  for(ItE.Initialize(VEMap(Pc.Vertex()));
-      ItE.More() && (Num < 2); ItE.Next()) {
-    E = TopoDS::Edge(ItE.Value());
-    for(ItF.Initialize(EFMap(E)), Trouve=Standard_False;
-	ItF.More()&&(!Trouve); ItF.Next()) {
-      if (TopoDS::Face(ItF.Value()).IsSame(FRef)) {
+  for (auto SE : VEMap(Pc.Vertex())) {
+    if (2 <= Num) break;
+    E = TopoDS::Edge(SE);
+#warning find
+    Trouve=Standard_False;
+    for (auto SF : EFMap(E)) {
+      if (Trouve) break;
+      if (TopoDS::Face(SF).IsSame(FRef)) {
 	Trouve = Standard_True;
       }
     }
@@ -749,7 +747,6 @@ Standard_Boolean ChFi3d_Builder::StripeOrientations
  TopAbs_Orientation&         Or2,
  Standard_Integer&           ChoixConge) const 
 {
-  //TopTools_ListIteratorOfListOfShape It;
   BRepAdaptor_Surface Sb1,Sb2;
   TopAbs_Orientation Of1,Of2;
   TopoDS_Face ff1,ff2;
@@ -1391,14 +1388,14 @@ Standard_Boolean  ChFi3d_Builder::SearchFace
     
       // Otherwise one finds the next among shared Faces 
       // by a common edge G1
-      TopTools_ListIteratorOfListOfShape ItE, ItF;
-      for(ItE.Initialize(myVEMap(Pc.Vertex()));
-	  ItE.More() && (!FindFace); ItE.Next()) {
-	E = TopoDS::Edge(ItE.Value());
+      for (auto SE : myVEMap(Pc.Vertex())) {
+	if (FindFace) break;
+	E = TopoDS::Edge(SE);
+#warning find
 	Trouve=Standard_False;
-	for(ItF.Initialize(myEFMap(E));//, Trouve=Standard_False;           15.11.99 SVV
-	    ItF.More()&&(!Trouve); ItF.Next()) {
-	  if (TopoDS::Face(ItF.Value()).IsSame(FRef)) {
+	for (auto SF : myEFMap(E)) {
+	  if (Trouve) break;
+	  if (TopoDS::Face(SF).IsSame(FRef)) {
 	    Trouve = Standard_True;
 	  }
 	}
@@ -1423,9 +1420,10 @@ Standard_Boolean  ChFi3d_Builder::SearchFace
 	    E = Spine->Edges(IE);
 	    if (  (TopExp::FirstVertex(E).IsSame(Pc.Vertex())) 
 		||(TopExp::LastVertex(E) .IsSame(Pc.Vertex())) ) {
-	      for(ItF.Initialize(myEFMap(E)), Trouve=Standard_False;
-		  ItF.More()&&(!Trouve); ItF.Next()) {
-		if (TopoDS::Face(ItF.Value()).IsSame(FVoi)) {
+#warning find
+	      for (auto SF : myEFMap(E)) {
+		if (Trouve) break;
+		if (TopoDS::Face(SF).IsSame(FVoi)) {
 		  Trouve = Standard_True;
 		}
 	      }
@@ -1546,11 +1544,10 @@ static Standard_Boolean IsFree(const TopoDS_Shape& E,
 			       const ChFiDS_Map&   EFMap)
 {
   if(!EFMap.Contains(E)) return 0;
-  TopTools_ListIteratorOfListOfShape It;
   TopoDS_Shape Fref;
-  for(It.Initialize(EFMap(E)); It.More(); It.Next()){
-    if(Fref.IsNull()) Fref = It.Value();
-    else if(!Fref.IsSame(It.Value())) return 0;
+  for (auto S : EFMap(E)) {
+    if(Fref.IsNull()) Fref = S;
+    else if(!Fref.IsSame(S)) return 0;
   }
   return 1;
 }

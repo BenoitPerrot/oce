@@ -381,10 +381,11 @@ public:
   
   void lenames(const TopTools_ListOfShape& l,TCollection_AsciiString& stel) const {
     stel = "";Standard_Integer j = 0;
-    for (TopTools_ListIteratorOfListOfShape it(l);it.More();it.Next(),j++) {
+    for (auto s : l) {
       if (j) stel = stel + " ";
-      TCollection_AsciiString ste; ename(it.Value(),ste);
+      TCollection_AsciiString ste; ename(s,ste);
       stel = stel + ste;
+      j++;
     }
   }
   

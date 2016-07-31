@@ -20,7 +20,6 @@ class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class LocOpe_WiresOnShape;
-class TopTools_ListOfShape;
 
 
 

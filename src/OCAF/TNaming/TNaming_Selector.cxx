@@ -274,21 +274,18 @@ Standard_Boolean TNaming_Selector::IsIdentified (const TDF_Label& L,
       TopTools_MapOfShape MS;
       TNaming_NamingTool::CurrentShape(Valid,Forbiden,NS,MS);
       if(MS.Contains(Selection) && MS.Extent() == 1) {
-	const TopoDS_Shape& aS = Ident.ShapeArg();
 	TopTools_ListOfShape aList;
-	FindGenerated(NS, aS, aList);
+	FindGenerated(NS, Ident.ShapeArg(), aList);
 	Ident.NextArg();
 	while(Ident.MoreArgs()) {
-	  const TopoDS_Shape& aS = Ident.ShapeArg();
-	  FindGenerated(NS, aS, aList);
+	  FindGenerated(NS, Ident.ShapeArg(), aList);
 	  Ident.NextArg();
 	}
 	TopTools_MapIteratorOfMapOfShape itm(MS);
 	const TopoDS_Shape& aC = itm.Key();
 	Standard_Boolean isEq(Standard_False);
-	TopTools_ListIteratorOfListOfShape itl(aList);
-	for(;itl.More();itl.Next()) {
-	  if(itl.Value() == aC) 
+	for (auto S : aList) {
+	  if (S == aC) 
 	    isEq = Standard_True;
 	  else {
 	    isEq = Standard_False;

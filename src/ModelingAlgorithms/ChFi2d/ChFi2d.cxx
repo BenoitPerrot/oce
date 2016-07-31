@@ -66,19 +66,13 @@ ChFi2d_ConstructionError ChFi2d::FindConnectedEdges(const TopoDS_Face& F,
 				 TopAbs_EDGE, vertexMap);
   
   if (vertexMap.Contains(V)) {
-    TopTools_ListIteratorOfListOfShape iterator(vertexMap.FindFromKey(V));
-    if (iterator.More()) {
-      E1 = TopoDS::Edge(iterator.Value());
-      iterator.Next();
-    } // if ...
-    else  return ChFi2d_ConnexionError;
-    if (iterator.More()) {
-      E2 = TopoDS::Edge(iterator.Value());
-      iterator.Next();
-    } // if ...
-    else return ChFi2d_ConnexionError;
-    
-    if(iterator.More()) return ChFi2d_ConnexionError;
+    auto &l = vertexMap.FindFromKey(V);
+    if (l.size() != 2)
+      return ChFi2d_ConnexionError;
+
+    E1 = TopoDS::Edge(l.front());
+    E2 = TopoDS::Edge(*next(begin(l)));
+
   } // if (isFind)
   else return ChFi2d_ConnexionError;
   return ChFi2d_IsDone;

@@ -81,9 +81,9 @@ Standard_EXPORT Handle(TopOpeBRepDS_Interference) MakeEPVInterference
 
 static Standard_Boolean FUN_INlos(const TopoDS_Shape& S, const TopTools_ListOfShape& loS)
 {
-  TopTools_ListIteratorOfListOfShape it(loS);
-  for (; it.More(); it.Next())
-    if (it.Value().IsSame(S)) return Standard_True;
+#warning TODO: C++ify
+  for (auto s : loS)
+    if (s.IsSame(S)) return Standard_True;
   return Standard_False;
 }
 

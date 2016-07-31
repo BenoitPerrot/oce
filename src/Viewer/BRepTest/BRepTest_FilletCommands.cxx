@@ -183,7 +183,7 @@ static Standard_Integer BLEND(Draw_Interpretor& di, Standard_Integer narg, const
 }
 
 static void PrintHist(const TopoDS_Shape& S,
-		      TopTools_ListIteratorOfListOfShape& It,
+		      const TopTools_ListOfShape& L,
 		      Standard_Integer& nbgen)
 {
   TopoDS_Compound C;
@@ -200,8 +200,8 @@ static void PrintHist(const TopoDS_Shape& S,
   else {
     Sprintf(localname,"generated_%d", nbgen++);
   }
-  for(; It.More(); It.Next()){
-    B.Add(C,It.Value());
+  for (auto I : L) {
+    B.Add(C, I);
   }
   DBRep::Set(localname,C);
 }
@@ -226,17 +226,14 @@ static Standard_Integer CheckHist(Draw_Interpretor& di,
   TopoDS_Shape curshape;
   for(Standard_Integer i = 1; i <= nbc; i++){
     curshape = Rakk->FirstVertex(i);
-    It.Initialize(Rakk->Generated(curshape));
-    PrintHist(curshape,It,nbgen);
+    PrintHist(curshape,Rakk->Generated(curshape),nbgen);
     Standard_Integer nbe = Rakk->NbEdges(i);
     for(Standard_Integer j = 1; j <= nbe; j++){
       curshape = Rakk->Edge(i,j);
-      It.Initialize(Rakk->Generated(curshape));
-      PrintHist(curshape,It,nbgen);
+      PrintHist(curshape,Rakk->Generated(curshape),nbgen);
     }
     curshape = Rakk->LastVertex(i);
-    It.Initialize(Rakk->Generated(curshape));
-    PrintHist(curshape,It,nbgen);
+    PrintHist(curshape,Rakk->Generated(curshape),nbgen);
   }
   //cout<<"foreach g [lsort [dir gen*]] { wclick; puts [dname $g]; donl $g; }"<<endl;
   di<<"foreach g [lsort [dir gen*]] { wclick; puts [dname $g]; donl $g; }"<<"\n";
@@ -337,7 +334,6 @@ Standard_Integer topoblend(Draw_Interpretor& di, Standard_Integer narg, const ch
   TopoDS_Shape ShapeCut = BC->Shape();
   
   Handle(TopOpeBRepBuild_HBuilder) build = BC->Builder();
-  TopTools_ListIteratorOfListOfShape its;
   
   TopoDS_Compound result;
   BRep_Builder B; 
@@ -350,11 +346,9 @@ Standard_Integer topoblend(Draw_Interpretor& di, Standard_Integer narg, const ch
     BRepFilletAPI_MakeFillet fill(cutsol);
     fill.SetParams(ta,t3d,t2d,t3d,t2d,fl);
     fill.SetContinuity(blend_cont, tapp_angle);
-    its = build->Section();
-    while (its.More()) {
-      TopoDS_Edge E = TopoDS::Edge(its.Value());
+    for (auto S : build->Section()) {
+      TopoDS_Edge E = TopoDS::Edge(S);
       fill.Add(Rad,E);
-      its.Next();
     }
     
     fill.Build();

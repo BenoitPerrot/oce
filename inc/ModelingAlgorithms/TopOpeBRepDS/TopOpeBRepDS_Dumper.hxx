@@ -22,6 +22,7 @@
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_AsciiString.hxx>
 class TopOpeBRepDS_HDataStructure;
 class Geom_Curve;
@@ -33,7 +34,6 @@ class Geom2d_BSplineCurve;
 class TCollection_AsciiString;
 class TopoDS_Shape;
 class TopOpeBRepDS_Interference;
-class TopTools_ListOfShape;
 
 
 

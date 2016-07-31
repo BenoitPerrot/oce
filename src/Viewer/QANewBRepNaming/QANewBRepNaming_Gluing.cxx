@@ -239,10 +239,7 @@ void QANewBRepNaming_Gluing::LoadModifiedShapes(QANewModTopOpe_Glue& theMkGluing
       for (; ShapeExplorer.More(); ShapeExplorer.Next ()) { // argument-shapes subshapes cycle
 	const TopoDS_Shape& Root = ShapeExplorer.Current ();
 	if (!View.Add(Root)) continue;
-	const TopTools_ListOfShape& Shapes = theMkGluing.Modified(Root);
-	TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-	for (;ShapesIterator.More (); ShapesIterator.Next ()) { // argument-shapes subshapes parents cycle
-	  const TopoDS_Shape& newShape = ShapesIterator.Value ();
+	for (const TopoDS_Shape& newShape : theMkGluing.Modified(Root)) { // argument-shapes subshapes parents cycle
 	  if (!Root.IsSame (newShape) && !myUnique.Contains(newShape)) { // modifyed compound can't contains unique
 	    aBuilder.Modify(Root,newShape);
 	  }
@@ -308,11 +305,9 @@ void QANewBRepNaming_Gluing::RecomputeUnique(QANewModTopOpe_Glue& theMkGluing) {
   for(;anExp.More();anExp.Next()) {
     for(aNext=0;aNext<2;aNext++) {
       TopoDS_Edge aFullEdge = TopoDS::Edge(anExp.Current());
-      if (aNext == 0) anEdgesIterator.Initialize(theMkGluing.Generated(aFullEdge));
-      else anEdgesIterator.Initialize(theMkGluing.Modified(aFullEdge));
-      for (;anEdgesIterator.More();anEdgesIterator.Next())
-        if (anEdgesIterator.Value().ShapeType() == TopAbs_EDGE) {
-          TopoDS_Edge aDivEdge = TopoDS::Edge(anEdgesIterator.Value());
+      for (auto S : aNext == 0 ? theMkGluing.Generated(aFullEdge) : theMkGluing.Modified(aFullEdge))
+        if (S.ShapeType() == TopAbs_EDGE) {
+          TopoDS_Edge aDivEdge = TopoDS::Edge(S);
           if (!TopExp::FirstVertex(aDivEdge).IsNull()) { // divided edge must have at least one vertex
             if (TopExp::FirstVertex(aFullEdge).IsNull()) AddToTheUnique(aDivEdge,aFullEdge);
             else if (!TopExp::LastVertex(aDivEdge).IsNull()) {//if full edge have at least one vertex, subedges must have two
@@ -349,11 +344,10 @@ void QANewBRepNaming_Gluing::RecomputeUnique(QANewModTopOpe_Glue& theMkGluing) {
       if (aNext==2) ShapeExplorer1.Init(theMkGluing.Shape1(), aTypes[a]);
       else ShapeExplorer1.Init(theMkGluing.Shape2(), aTypes[a]);
       for (; ShapeExplorer1.More(); ShapeExplorer1.Next ()) {
-	TopTools_ListIteratorOfListOfShape ShapesIterator1(theMkGluing.Generated(ShapeExplorer1.Current()));
-	for (;ShapesIterator1.More (); ShapesIterator1.Next ()) {
-	  if (myUnique.Contains(ShapesIterator1.Value()))
-	    if (myUnique.FindIndex(ShapesIterator1.Value()) <= aDividedIndex) continue;
-	  AddToTheUnique(ShapesIterator1.Value(),ShapeExplorer1.Current());
+	for (auto S : theMkGluing.Generated(ShapeExplorer1.Current())) {
+	  if (myUnique.Contains(S))
+	    if (myUnique.FindIndex(S) <= aDividedIndex) continue;
+	  AddToTheUnique(S,ShapeExplorer1.Current());
 	}
       }
     }
@@ -391,16 +385,15 @@ void QANewBRepNaming_Gluing::LoadSourceShapes(TopTools_DataMapOfShapeInteger& th
   TopTools_ListOfShape aSortedShapes;
   Standard_Integer anIndex;
   for(anIndex=1;anIndex<=myUnique.Extent();anIndex++) {
-    TopTools_ListIteratorOfListOfShape anIter2(myUnique.FindFromIndex(anIndex));
-    for(;anIter2.More();anIter2.Next()) {
-      if (!aShapes.Contains(anIter2.Value())) {
-	aShapes.Add(anIter2.Value());
-	aSortedShapes.push_back(anIter2.Value());
+    for (auto S2 : myUnique.FindFromIndex(anIndex)) {
+      if (!aShapes.Contains(S2)) {
+	aShapes.Add(S2);
+	aSortedShapes.push_back(S2);
       }
     }
   }
   // put all source shapes to the sources label sublabels
-  TopTools_ListIteratorOfListOfShape aSortedIterator(aSortedShapes);
+  TopTools_ListIteratorOfListOfShape aSortedIterator = begin(aSortedShapes);
   for(aLabel = aLabel.NewChild();aShapes.Extent();aLabel = aLabel.Father().NewChild()) {
     Handle(TNaming_NamedShape) aNS;
     if (aLabel.FindAttribute(TNaming_NamedShape::GetID(), aNS)) {
@@ -416,8 +409,8 @@ void QANewBRepNaming_Gluing::LoadSourceShapes(TopTools_DataMapOfShapeInteger& th
       }
     } else {
       // add new shape
-      for(;aSortedIterator.More();aSortedIterator.Next()) {
-	TopoDS_Shape aShape = aSortedIterator.Value();;
+      for (; aSortedIterator != end(aSortedShapes); ++aSortedIterator) {
+	TopoDS_Shape aShape = *aSortedIterator;
 	if (aShapes.Contains(aShape)) {
 	  theSources.Bind(aShape,aLabel.Tag());
 	  aShapes.Remove(aShape);
@@ -456,10 +449,11 @@ void QANewBRepNaming_Gluing::LoadUniqueShapes(QANewModTopOpe_Glue& /*theMkGluing
 	  if (alreadyUsed.Contains(a)) continue;
 	  if (myUnique.FindFromIndex(a).size()!=anArray->Upper()) continue;
 // 	  cout<<"a="<<a<<endl;
-	  TopTools_ListIteratorOfListOfShape anIter2(myUnique.FindFromIndex(a));
+#warning find
 	  Standard_Boolean aEq = Standard_True;
-	  for(;anIter2.More() && aEq;anIter2.Next()) {
-	    Standard_Integer aValue = theSources.Find(anIter2.Value());
+	  for (auto S2 : myUnique.FindFromIndex(a)) {
+	    if (!aEq) break;
+	    Standard_Integer aValue = theSources.Find(S2);
 	    Standard_Integer a1;
 	    for(a1=anArray->Upper();a1>=1;a1--) if (anArray->Value(a1) == aValue) break;
 	    if (a1 == 0) aEq = Standard_False;
@@ -479,10 +473,10 @@ void QANewBRepNaming_Gluing::LoadUniqueShapes(QANewModTopOpe_Glue& /*theMkGluing
     while(alreadyUsed.Contains(anIndex)) anIndex++;
 //     cout<<"anIndex = "<<anIndex<<endl;
     Handle(TDataStd_IntegerArray) anArray=TDataStd_IntegerArray::Set(aLabel,1,myUnique.FindFromIndex(anIndex).size());
-    TopTools_ListIteratorOfListOfShape anIter(myUnique.FindFromIndex(anIndex));
-    Standard_Integer a;
-    for(a=1;anIter.More();anIter.Next(),a++) {
-      anArray->SetValue(a,theSources.Find(anIter.Value()));
+    Standard_Integer a = 1;
+    for (auto S : myUnique.FindFromIndex(anIndex)) {
+      anArray->SetValue(a,theSources.Find(S));
+      a++;
     }
     TNaming_Builder aBuilder(aLabel);
     aBuilder.Generated(myUnique.FindKey(anIndex));

@@ -103,8 +103,8 @@ Handle(TopTools_HSequenceOfShape) ShapeExtend_Explorer::SeqFromList
        (const TopTools_ListOfShape& lisval) const
 {
   Handle(TopTools_HSequenceOfShape) seqval = new TopTools_HSequenceOfShape();
-  TopTools_ListIteratorOfListOfShape it;
-  for (it.Initialize(lisval); it.More(); it.Next()) seqval->Append (it.Value());
+  for (auto S : lisval)
+    seqval->Append(S);
   return seqval;
 }
 

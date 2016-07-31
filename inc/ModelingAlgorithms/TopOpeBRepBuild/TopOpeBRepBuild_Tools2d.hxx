@@ -9,10 +9,10 @@
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 
 class TopoDS_Wire;
 class TopOpeBRepBuild_IndexedDataMapOfShapeVertexInfo;
-class TopTools_ListOfShape;
 
 
 

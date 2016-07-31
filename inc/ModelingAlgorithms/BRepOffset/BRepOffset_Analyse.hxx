@@ -13,13 +13,13 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_DataMapOfShapeListOfInterval.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepOffset/BRepOffset_Type.hxx>
 class TopoDS_Shape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
-class TopTools_ListOfShape;
 class TopoDS_Face;
 class TopoDS_Compound;
 class TopTools_MapOfShape;

@@ -120,12 +120,9 @@ void TopOpeBRepBuild_Builder::SplitEdge1(const TopoDS_Shape& Eoriented,
   TopTools_ListOfShape& EdgeList = ChangeMerged(Eforward,ToBuild1);
   MakeEdges(Eforward,EBU,EdgeList);
 
-  TopTools_ListIteratorOfListOfShape itLE1,itLE2;
-
   // connect new edges as edges built <ToBuild1> on LE1 edge
   // --------------------------------------------------------
-  for (itLE1.Initialize(LE1); itLE1.More(); itLE1.Next()) {
-    TopoDS_Shape Ecur = itLE1.Value();
+  for (TopoDS_Shape Ecur : LE1) {
     MarkSplit(Ecur,ToBuild1);
     TopTools_ListOfShape& EL = ChangeSplit(Ecur,ToBuild1);
     if ( ConnectTo1 ) EL = EdgeList;
@@ -133,8 +130,7 @@ void TopOpeBRepBuild_Builder::SplitEdge1(const TopoDS_Shape& Eoriented,
   
   // connect new edges as edges built <ToBuild2> on LE2 edges
   // --------------------------------------------------------
-  for (itLE2.Initialize(LE2); itLE2.More(); itLE2.Next()) {
-    TopoDS_Shape Ecur = itLE2.Value();
+  for (TopoDS_Shape Ecur : LE2) {
     MarkSplit(Ecur,ToBuild2);
     TopTools_ListOfShape& EL = ChangeSplit(Ecur,ToBuild2);
     if ( ConnectTo2 ) EL = EdgeList;

@@ -148,16 +148,16 @@ Standard_Integer regularize(Draw_Interpretor& di, Standard_Integer n, const char
   di<<"face gives "<<nfa<<" newfaces"<<"\n";
   
   Standard_Integer i = 0;
-  TopTools_ListIteratorOfListOfShape itlof(lof) ;
-  for ( ; itlof.More(); itlof.Next()) {
+  for (auto s : lof) {
     i++;
     TCollection_AsciiString aa = TCollection_AsciiString("fa_");
     aa += TCollection_AsciiString(i);
-    FUN_draw(aa,itlof.Value());        
+    FUN_draw(aa,s);        
   }
   BRep_Builder BB;
   TopoDS_Compound CC; BB.MakeCompound(CC);
-  for (itlof.Initialize(lof); itlof.More(); itlof.Next()) BB.Add(CC, itlof.Value());
+  for (auto s : lof)
+    BB.Add(CC, s);
   di<<"resulting compound is cmp"<<"\n";
   TCollection_AsciiString aa = TCollection_AsciiString("cmp");
   FUN_draw(aa,CC);  
@@ -178,11 +178,12 @@ static Standard_Integer splitF(Draw_Interpretor& di, Standard_Integer n, const c
   Standard_Boolean splitok = TopOpeBRepTool_REGUS::SplitF(fa,fsplits);
   
   if (!splitok) {di<<"no splits"<<"\n"; return 0;}
-  di<<"fa gives "<<fsplits.size()<<" splits"<<"\n";
+  di<<"fa gives "<< static_cast<Standard_Integer>(fsplits.size())<<" splits"<<"\n";
   
   BRep_Builder BB;
   TopoDS_Compound CC; BB.MakeCompound(CC);
-  for (TopTools_ListIteratorOfListOfShape it(fsplits); it.More(); it.Next()) BB.Add(CC, it.Value());
+  for (auto s : fsplits)
+    BB.Add(CC, s);
   
   di<<"resulting compound is cmp"<<"\n";
   TCollection_AsciiString aa = TCollection_AsciiString("cmp");
@@ -216,9 +217,10 @@ static Standard_Integer regush(Draw_Interpretor& di, Standard_Integer n, const c
       const TopTools_ListOfShape& newshells =  ite.Value();
       if (newshells.empty()) {BB.Add(CC,oldshe); nshe++;}
       else {
-	for (TopTools_ListIteratorOfListOfShape it(newshells); it.More(); it.Next()){
-	  BB.Add(CC,it.Value()); nshe++;
+	for (auto ns : newshells) {
+	  BB.Add(CC,ns);
 	}
+	nshe += newshells.size();
       }
     } // i = 1..noldshe
     di <<"noldshe = "<<noldshe<<" gives nshe = "<<nshe<<"\n";
@@ -251,10 +253,8 @@ Standard_Integer reguso(Draw_Interpretor& di, Standard_Integer n, const char** a
     
     TopOpeBRepBuild_ShellToSolid SheToSo;      
     for (; itm.More(); itm.Next()) {
-      const TopTools_ListOfShape& lns = itm.Value();
-      TopTools_ListIteratorOfListOfShape itsh(lns);
-      for (; itsh.More(); itsh.Next()) {
-	const TopoDS_Shell& she = TopoDS::Shell(itsh.Value());
+      for (auto ns : itm.Value()) {
+	const TopoDS_Shell& she = TopoDS::Shell(ns);
 	SheToSo.AddShell(she);
       }
     }
@@ -264,12 +264,10 @@ Standard_Integer reguso(Draw_Interpretor& di, Standard_Integer n, const char** a
     BRep_Builder BB;
     TopoDS_Compound CC; BB.MakeCompound(CC);
     Standard_Integer nSo = 0;
-    TopTools_ListIteratorOfListOfShape itSo(splits);
-    for (; itSo.More(); itSo.Next()) {
-      const TopoDS_Shape& spli = itSo.Value();
+    for (const TopoDS_Shape& spli : splits) {
       BB.Add(CC,spli);
-      nSo++;
-    } 
+    }
+    nSo += splits.size();
     di<<"so gives "<<nSo<<" new solids"<<"\n";
     di<<"resulting compound is cmp"<<"\n";
     TCollection_AsciiString aa = TCollection_AsciiString("cmp");
@@ -307,9 +305,8 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
     if (ok) {lWs.push_back(W); continue;}
 
     TopTools_ListOfShape cEds; 
-    TopTools_ListIteratorOfListOfShape ite(CORRISO.Eds());
-    for (; ite.More(); ite.Next()){
-      const TopoDS_Edge& E = TopoDS::Edge(ite.Value());
+    for (auto S : CORRISO.Eds()){
+      const TopoDS_Edge& E = TopoDS::Edge(S);
       Standard_Boolean closing = BRep_Tool::IsClosed(E,fa); 
       if (!closing) {// xpu231198 : pcurve modified, the information is lost
 	TopOpeBRepTool_C2DF C2DF; Standard_Boolean isb = CORRISO.UVRep(E,C2DF);
@@ -329,12 +326,10 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
     
     TopoDS_Wire Wi; BB.MakeWire(Wi); // Add une TShape
     Wi.Free(Standard_True);
-    ite.Initialize(CORRISO.Eds());
-    for (; ite.More(); ite.Next()) {
-      const TopoDS_Edge& ed = TopoDS::Edge(ite.Value());
+    for (auto S : CORRISO.Eds()) {
+      const TopoDS_Edge& ed = TopoDS::Edge(S);
       Standard_Boolean equ = Standard_False;
-      for (TopTools_ListIteratorOfListOfShape itlfyE(lfyE);itlfyE.More();itlfyE.Next()) {
-	const TopoDS_Shape& fyE = itlfyE.Value();
+      for (const TopoDS_Shape& fyE : lfyE) {
 	if (ed.IsEqual(fyE)) {
 	  equ = Standard_True; 
 	  break;
@@ -354,8 +349,8 @@ static Standard_Integer purge(Draw_Interpretor& di, Standard_Integer n, const ch
   aLocalShape = fa.EmptyCopied();
   TopoDS_Face newF = TopoDS::Face(aLocalShape);
 //  TopoDS_Face newF = TopoDS::Face(fa.EmptyCopied());
-  TopTools_ListIteratorOfListOfShape itw(lWs);  
-  for (; itw.More(); itw.Next()) BB.Add(newF, TopoDS::Wire(itw.Value()));
+  for (auto s : lWs)
+    BB.Add(newF, TopoDS::Wire(s));
 
   di <<"New face built is newF"<<"\n";
   TCollection_AsciiString aa("newF");

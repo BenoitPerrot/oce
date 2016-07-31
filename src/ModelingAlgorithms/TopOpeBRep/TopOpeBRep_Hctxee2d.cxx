@@ -131,9 +131,8 @@ void TopOpeBRep_Hctxee2d::SetEdges(const TopoDS_Edge& E1,const TopoDS_Edge& E2,
         TopoDS_Vertex v1 = onf ? vf : vl;
         TopTools_IndexedDataMapOfShapeListOfShape mapVE; TopExp::MapShapesAndAncestors(F1,TopAbs_VERTEX,TopAbs_EDGE,mapVE);
         const TopTools_ListOfShape& Edsanc = mapVE.FindFromKey(v1);
-        TopTools_ListIteratorOfListOfShape it(Edsanc);
-        for (; it.More(); it.Next()){
-          const TopoDS_Edge& ee = TopoDS::Edge(it.Value());
+        for (auto es : Edsanc) {
+          const TopoDS_Edge& ee = TopoDS::Edge(es);
           Standard_Boolean dgee = BRep_Tool::Degenerated(ee);
           if (!dgee) continue;
           PC2on1 = BRep_Tool::CurveOnSurface(ee,F1,first,last);

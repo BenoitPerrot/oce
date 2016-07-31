@@ -349,17 +349,13 @@ void TopOpeBRepTool_ShapeClassifier::Perform()
     myMapAvS.Clear();
     TopAbs_ShapeEnum tAvS = myPAvLS->front().ShapeType();
     if ( tAvS == TopAbs_FACE ) {
-      TopTools_ListIteratorOfListOfShape it((*myPAvLS));
-      for (; it.More(); it.Next() ) {
-	const TopoDS_Shape& S = it.Value();
+      for (const TopoDS_Shape& S : (*myPAvLS)) {
 	myMapAvS.Add(S);
 	TopExp::MapShapes(S,TopAbs_EDGE,myMapAvS);
       }
     }
     else if ( tAvS == TopAbs_EDGE ) {
-      TopTools_ListIteratorOfListOfShape it((*myPAvLS));
-      for (; it.More(); it.Next() ) {
-	const TopoDS_Shape& S = it.Value();
+      for (const TopoDS_Shape& S : (*myPAvLS)) {
 	TopExp::MapShapes(S,TopAbs_EDGE,myMapAvS);
       }
     }

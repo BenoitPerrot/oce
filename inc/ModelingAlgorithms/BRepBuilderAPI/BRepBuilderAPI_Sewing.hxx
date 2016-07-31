@@ -32,7 +32,6 @@ class Standard_NoSuchObject;
 class TopoDS_Shape;
 class Message_ProgressIndicator;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class TopoDS_Face;
 class TopTools_SequenceOfShape;
 class TColStd_IndexedMapOfInteger;

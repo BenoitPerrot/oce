@@ -327,10 +327,9 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
       if (!myMap.IsBound(exp.Current())) {
         TopTools_ListOfShape thelist1;
 	myMap.Bind(exp.Current(), thelist1);
-	for (itl.Initialize(splw.DescendantShapes(exp.Current())); 
-	     itl.More(); itl.Next()) {
-	  myMap(exp.Current()).push_back(itl.Value());
-	}
+	auto &current = myMap(exp.Current());
+	auto &descendantShapes = splw.DescendantShapes(exp.Current());
+	current.insert(end(current), begin(descendantShapes), end(descendantShapes));
 	for (exp2.Init(exp.Current(),TopAbs_VERTEX);exp2.More();exp2.Next()) {
 	  if (!myMap.IsBound(exp2.Current())) {
             TopTools_ListOfShape thelist2;
@@ -381,9 +380,9 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
   // Descendants
   for (exp.Init(myShape,TopAbs_FACE); exp.More(); exp.Next()) {
     const TopoDS_Shape& fac = exp.Current();
-    for (itl.Initialize(Spls.DescendantShapes(fac)); itl.More(); itl.Next()) {
-      myMap(fac).push_back(itl.Value());
-    }
+    auto &lfac = myMap(fac);
+    auto &descendantShapes = Spls.DescendantShapes(fac);
+    lfac.insert(end(lfac), begin(descendantShapes), end(descendantShapes));
   }
 
   TopTools_DataMapOfShapeShape MapW;
@@ -409,8 +408,8 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
   TopTools_DataMapOfShapeListOfShape MapSg,MapSd; // image a gauche et a droite
 
   Standard_Integer Nbedges,index;
-  for (itl.Initialize(myMap(F)); itl.More(); itl.Next()) {
-    const TopoDS_Shape& fac = TopoDS::Face(itl.Value());
+  for (auto S : myMap(F)) {
+    const TopoDS_Shape& fac = TopoDS::Face(S);
     for (exp.Init(fac,TopAbs_EDGE); exp.More(); exp.Next()) {
       const TopoDS_Shape& edg = exp.Current();
       if (MapEV.FindIndex(edg) != 0) {
@@ -651,9 +650,11 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
 	// il faut utiliser Plg ou Pld
 
 	Standard_Integer indedgf = theMapEF.FindIndex(edg1);
-	for (itl.Initialize(theMapEF(indedgf)); itl.More(); itl.Next()) {
-	  if (Contains(myMap(F),itl.Value())) {
-	    if (Contains(theLeft,itl.Value())) {
+#warning find
+	Standard_Boolean found = Standard_False;
+	for (auto s : theMapEF(indedgf)) {
+	  if (Contains(myMap(F), s)) {
+	    if (Contains(theLeft, s)) {
 	      AS.Load(NewSg);
 	      IsLeft = Standard_True;
 	    }
@@ -665,10 +666,11 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
 	    nbfois = 1;
 	    vtx2 = vtx;
 	    p2 = knownp;
+	    found = Standard_True;
 	    break;
 	  }
 	}
-	if (!itl.More()) {
+	if (!found) {
 	  cout << "LocOpe_SplitDrafts: betite probleme "<< endl;
 	  return;
 	}
@@ -1022,8 +1024,8 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
   TopTools_MapOfShape mapedgadded;
   TopTools_ListOfShape thefaces;
 
-  for (itl.Initialize(myMap(F)); itl.More(); itl.Next()) {
-    const TopoDS_Face& fac = TopoDS::Face(itl.Value());
+  for (auto SF : myMap(F)) {
+    const TopoDS_Face& fac = TopoDS::Face(SF);
     theMap.Clear();
     TopoDS_Face DrftFace; // elle est FORWARD
     Standard_Boolean IsLeft;
@@ -1049,19 +1051,12 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
 	  continue;
 	}
 	if (MapW.IsBound(edg)) { // edge du wire d`origine
-	  TopTools_ListIteratorOfListOfShape itld;
 	  TopAbs_Orientation ored = edg.Orientation();
-	  if (IsLeft) {
-	    itld.Initialize(MapSg(edg));
-	  }
-	  else {
-	    itld.Initialize(MapSd(edg));
-	  }
-	  for (; itld.More(); itld.Next()) {
-	    if (itld.Value().Orientation() == TopAbs_REVERSED) {
+	  for (auto S : IsLeft ? MapSg(edg) : MapSd(edg)) {
+	    if (S.Orientation() == TopAbs_REVERSED) {
 	      ored = TopAbs::Reverse(ored);
 	    }
-	    TopoDS_Shape aLocalEdge = itld.Value().Oriented(ored);
+	    TopoDS_Shape aLocalEdge = S.Oriented(ored);
 	    B.Add(NewWireOnF,TopoDS::Edge(aLocalEdge));
 //	    B.Add(NewWireOnF,TopoDS::Edge(itld.Value().Oriented(ored)));
 	  }
@@ -1244,38 +1239,35 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
     if (itdmsls.Key().ShapeType() == TopAbs_EDGE) {
       TopTools_ListOfShape thedesc;
       theMap.Clear();
-      for (itl.Initialize(itdmsls.Value());itl.More(); itl.Next()) {
-	if (theMap.Add(MapW(itl.Value()))) {
-	  thedesc.push_back(MapW(itl.Value()));
+      for (auto S : itdmsls.Value()) {
+	if (theMap.Add(MapW(S))) {
+	  thedesc.push_back(MapW(S));
 	}
       }
       myMap(itdmsls.Key()) = thedesc;
     }
     else if (itdmsls.Key().IsSame(F)) {
-      myMap(F).clear();
-      for (itl.Initialize(thefaces); itl.More(); itl.Next()) {
-	myMap(F).push_back(itl.Value());
-      }
+      myMap(F) = thefaces;
     }
     else {
       TopTools_ListOfShape thedesc;
       theMap.Clear();
-      for (itl.Initialize(itdmsls.Value());itl.More(); itl.Next()) {
-	if (theSubs.IsCopied(itl.Value())) {
-	  if (theSubs.Copy(itl.Value()).size() != 1) {
+      for (auto S : itdmsls.Value()) {
+	if (theSubs.IsCopied(S)) {
+	  if (theSubs.Copy(S).size() != 1) {
 #ifdef OCCT_DEBUG
 	    cout << "Invalid number of descendant" << endl;
 #endif
 	    return;
 	  }
 	  else {
-	    if (theMap.Add(theSubs.Copy(itl.Value()).front())) {
-	      thedesc.push_back(theSubs.Copy(itl.Value()).front());
+	    if (theMap.Add(theSubs.Copy(S).front())) {
+	      thedesc.push_back(theSubs.Copy(S).front());
 	    }
 	  }
 	}
-	else if (theMap.Add(itl.Value())) {
-	  thedesc.push_back(itl.Value());
+	else if (theMap.Add(S)) {
+	  thedesc.push_back(S);
 	}
       }
       myMap(itdmsls.Key()) = thedesc;
@@ -1285,10 +1277,9 @@ void LocOpe_SplitDrafts::Perform(const TopoDS_Face& F,
   theMap.Clear();
   thefaces.clear();
   for (itdmsls.Initialize(myMap);itdmsls.More(); itdmsls.Next()) {
-    for (itl.Initialize(itdmsls.Value());itl.More(); itl.Next()) {
-      if (itl.Value().ShapeType() == TopAbs_FACE &&
-	  theMap.Add(itl.Value())) {
-	thefaces.push_back(itl.Value());
+    for (auto s : itdmsls.Value()) {
+      if (s.ShapeType() == TopAbs_FACE && theMap.Add(s)) {
+	thefaces.push_back(s);
       }
     }
   }
@@ -1422,18 +1413,15 @@ static void MakeFace(TopoDS_Face& F,
 
   Standard_Real f,l;
 //  for (TopTools_ListIteratorOfListOfShape itl(ledg); 
-  TopTools_ListIteratorOfListOfShape itl(ledg) ;
-  for ( ; itl.More(); itl.Next()) {
-    TopoDS_Edge& edg = TopoDS::Edge(itl.Value());
+  for (auto s : ledg) {
+    TopoDS_Edge& edg = TopoDS::Edge(s);
     Handle(Geom2d_Curve) C2d = BRep_Tool::CurveOnSurface(edg,F,f,l);
     if (C2d.IsNull()) {
       BRep_Tool::Range(edg,f,l);
       TopoDS_Vertex V1,V2;
       TopExp::Vertices(edg,V1,V2);
-	TopTools_ListIteratorOfListOfShape itl2;
-      for (itl2.Initialize(ledg); 
-	   itl2.More(); itl2.Next()) {
-	const TopoDS_Edge& edg2 = TopoDS::Edge(itl2.Value());
+      for (auto s2 : ledg) {
+	const TopoDS_Edge& edg2 = TopoDS::Edge(s2);
 	if (edg2.IsSame(edg)) {
 	  continue;
 	}
@@ -1496,9 +1484,10 @@ static void MakeFace(TopoDS_Face& F,
       TopoDS_Vertex VF,VL;
 
       TopAbs_Orientation oredg = TopAbs_FORWARD;
-
-      for (itl.Initialize(ledg); itl.More(); itl.Next()) {
-	const TopoDS_Edge& edg2 = TopoDS::Edge(itl.Value());
+#warning find
+      TopTools_ListIteratorOfListOfShape itl;
+      for (itl = begin(ledg); itl != end(ledg); ++itl) {
+	const TopoDS_Edge& edg2 = TopoDS::Edge(*itl);
 	TopoDS_Shape aLocalShape  = edg2.Oriented(TopAbs_FORWARD);
 	TopExp::Vertices(TopoDS::Edge(aLocalShape),VF,VL);
 //	TopExp::Vertices(TopoDS::Edge(edg2.Oriented(TopAbs_FORWARD)),VF,VL);
@@ -1524,11 +1513,11 @@ static void MakeFace(TopoDS_Face& F,
 	}
 
       }
-      if (!itl.More()) {
+      if (itl == end(ledg)) {
 	wdone = Standard_True;
       }
       else {
-	TopoDS_Shape aLocalShape = itl.Value().Oriented(oredg);
+	TopoDS_Shape aLocalShape = itl->Oriented(oredg);
 	B.Add(Wnew,TopoDS::Edge(aLocalShape));
 //	B.Add(Wnew,TopoDS::Edge(itl.Value().Oriented(oredg)));
 	itl = ledg.erase(itl);
@@ -1543,15 +1532,15 @@ static void MakeFace(TopoDS_Face& F,
 
 
   F.Orientation(TopAbs_FORWARD);
-  for (itl.Initialize(lwires); itl.More(); itl.Next()) {
+  for (auto &s : lwires) {
     TopoDS_Shape aLocalShape = F.EmptyCopied();
     TopoDS_Face NewFace = TopoDS::Face(aLocalShape);
 //    TopoDS_Face NewFace = TopoDS::Face(F.EmptyCopied());
-    B.Add(NewFace,itl.Value());
+    B.Add(NewFace,s);
     GProp_GProps GP;
     BRepGProp::SurfaceProperties(NewFace,GP);
     if (GP.Mass() < 0) {
-      itl.Value().Reverse();
+      s.Reverse();
     }
   }
   if (lwires.size() == 1) {
@@ -1572,9 +1561,9 @@ static void MakeFace(TopoDS_Face& F,
 static Standard_Boolean Contains(const TopTools_ListOfShape& ll,
 				 const TopoDS_Shape& s)
 {
-  TopTools_ListIteratorOfListOfShape itl;
-  for (itl.Initialize(ll); itl.More(); itl.Next()) {
-    if (itl.Value().IsSame(s)) {
+#warning find
+  for (auto ss : ll) {
+    if (ss.IsSame(s)) {
       return Standard_True;
     }
   }

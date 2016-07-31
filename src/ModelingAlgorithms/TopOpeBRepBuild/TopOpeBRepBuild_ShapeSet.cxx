@@ -163,7 +163,7 @@ const TopTools_ListOfShape& TopOpeBRepBuild_ShapeSet::StartElements()const
 //=======================================================================
 void  TopOpeBRepBuild_ShapeSet::InitShapes()
 {
-  myShapesIter.Initialize(myShapes);
+  myShapesIter = begin(myShapes);
 }
 
 //=======================================================================
@@ -172,8 +172,7 @@ void  TopOpeBRepBuild_ShapeSet::InitShapes()
 //=======================================================================
 Standard_Boolean  TopOpeBRepBuild_ShapeSet::MoreShapes()const 
 {
-  Standard_Boolean b = myShapesIter.More();
-  return b;
+  return myShapesIter != end(myShapes);
 }
 
 //=======================================================================
@@ -182,7 +181,7 @@ Standard_Boolean  TopOpeBRepBuild_ShapeSet::MoreShapes()const
 //=======================================================================
 void  TopOpeBRepBuild_ShapeSet::NextShape()
 {
-  myShapesIter.Next();
+  ++myShapesIter;
 }
 
 //=======================================================================
@@ -191,8 +190,7 @@ void  TopOpeBRepBuild_ShapeSet::NextShape()
 //=======================================================================
 const TopoDS_Shape&  TopOpeBRepBuild_ShapeSet::Shape()const 
 {
-  const TopoDS_Shape& S = myShapesIter.Value();
-  return S;
+  return *myShapesIter;
 }
 
 //=======================================================================
@@ -201,7 +199,7 @@ const TopoDS_Shape&  TopOpeBRepBuild_ShapeSet::Shape()const
 //=======================================================================
 void  TopOpeBRepBuild_ShapeSet::InitStartElements()
 {
-  myStartShapesIter.Initialize(myStartShapes);
+  myStartShapesIter = begin(myStartShapes);
 }
 
 //=======================================================================
@@ -210,8 +208,7 @@ void  TopOpeBRepBuild_ShapeSet::InitStartElements()
 //=======================================================================
 Standard_Boolean  TopOpeBRepBuild_ShapeSet::MoreStartElements()const 
 {
-  Standard_Boolean b = myStartShapesIter.More();
-  return b;
+  return myStartShapesIter != end(myStartShapes);
 }
 
 //=======================================================================
@@ -220,7 +217,7 @@ Standard_Boolean  TopOpeBRepBuild_ShapeSet::MoreStartElements()const
 //=======================================================================
 void  TopOpeBRepBuild_ShapeSet::NextStartElement()
 {
-  myStartShapesIter.Next();
+  ++myStartShapesIter;
 }
 
 //=======================================================================
@@ -229,8 +226,7 @@ void  TopOpeBRepBuild_ShapeSet::NextStartElement()
 //=======================================================================
 const TopoDS_Shape& TopOpeBRepBuild_ShapeSet::StartElement()const 
 {
-  const TopoDS_Shape& S = myStartShapesIter.Value();
-  return S;
+  return *myStartShapesIter;
 }
 
 //=======================================================================
@@ -250,8 +246,7 @@ void  TopOpeBRepBuild_ShapeSet::InitNeighbours(const TopoDS_Shape& S)
 //=======================================================================
 Standard_Boolean TopOpeBRepBuild_ShapeSet::MoreNeighbours()
 {
-  Standard_Boolean b = myIncidentShapesIter.More();
-  return b;
+  return myIncidentShapesIter != myIncidentShapesEnd;
 }
 
 //=======================================================================
@@ -260,11 +255,9 @@ Standard_Boolean TopOpeBRepBuild_ShapeSet::MoreNeighbours()
 //=======================================================================
 void TopOpeBRepBuild_ShapeSet::NextNeighbour()
 {
-  myIncidentShapesIter.Next();
-  Standard_Boolean noisimore = ! myIncidentShapesIter.More();
-  if ( noisimore ) {
-    Standard_Boolean ssemore = mySubShapeExplorer.More();
-    if ( ssemore ) {
+  ++myIncidentShapesIter;
+  if (myIncidentShapesIter == myIncidentShapesEnd) {
+    if (mySubShapeExplorer.More()) {
       mySubShapeExplorer.Next();
       FindNeighbours();
     }
@@ -277,8 +270,7 @@ void TopOpeBRepBuild_ShapeSet::NextNeighbour()
 //=======================================================================
 const TopoDS_Shape&  TopOpeBRepBuild_ShapeSet::Neighbour()const 
 {
-  const TopoDS_Shape& S = myIncidentShapesIter.Value();
-  return S;
+  return *myIncidentShapesIter;
 }
 
 //=======================================================================
@@ -308,8 +300,9 @@ void TopOpeBRepBuild_ShapeSet::FindNeighbours()
     // given as InitNeighbours() argument (this edge has been stored 
     // in the field myCurrentShape).
     
-    myIncidentShapesIter.Initialize(l);
-    if (myIncidentShapesIter.More()) break;
+    myIncidentShapesIter = begin(l);
+    myIncidentShapesEnd = end(l);
+    if (myIncidentShapesIter != myIncidentShapesEnd) break;
     else mySubShapeExplorer.Next();
   }
 }
@@ -332,7 +325,6 @@ Standard_Integer TopOpeBRepBuild_ShapeSet::MaxNumberSubShape(const TopoDS_Shape&
 {
   Standard_Integer i, m = 0;
   TopOpeBRepTool_ShapeExplorer SE(Shape, mySubShapeType);
-  TopTools_ListIteratorOfListOfShape LI;
   while(SE.More()) {
     const TopoDS_Shape& SubShape = SE.Current();
     if(!mySubShapeMap.Contains(SubShape)) {
@@ -340,9 +332,7 @@ Standard_Integer TopOpeBRepBuild_ShapeSet::MaxNumberSubShape(const TopoDS_Shape&
       continue;
     }
     const TopTools_ListOfShape& l = mySubShapeMap.FindFromKey(SubShape);
-    LI.Initialize(l);
-    for(i = 0;LI.More();LI.Next(), i++) {}
-    m = Max(m, i);
+    m = Max(m, l.size());
     SE.Next();
   }
   return m;

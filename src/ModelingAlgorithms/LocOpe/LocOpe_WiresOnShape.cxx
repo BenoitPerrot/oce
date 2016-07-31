@@ -269,9 +269,8 @@ void LocOpe_WiresOnShape::BindAll()
     if (myMapEF.FindIndex(anEdge) != 0)
       myMapEF.Substitute(myMapEF.FindIndex(anEdge), LastEdge, LastFace);
     ////////////////////////////////
-    TopTools_ListIteratorOfListOfShape itl(Splits(Ind));
-    for (; itl.More(); itl.Next())
-      myMapEF.Add(itl.Value(), aFace);
+    for (auto s : Splits(Ind))
+      myMapEF.Add(s, aFace);
   }
   
   // Il faut s`occuper maintenant des vertex "de changement de face", 
@@ -827,9 +826,8 @@ void PutPCurves(const TopoDS_Edge& Efrom,
   TopLoc_Location Loc, LocFac;
 
   if (!Lfaces.front().IsSame(Lfaces.back())) {
-    TopTools_ListIteratorOfListOfShape itl(Lfaces);
-    for (; itl.More(); itl.Next()) {
-      const TopoDS_Face& Fac = TopoDS::Face(itl.Value());
+    for (auto s : Lfaces) {
+      const TopoDS_Face& Fac = TopoDS::Face(s);
 
       if (!BRep_Tool::CurveOnSurface(Efrom,Fac,f,l).IsNull()) {
 	continue;

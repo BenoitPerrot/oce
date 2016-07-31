@@ -43,7 +43,6 @@ class Standard_NoSuchObject;
 class TopOpeBRepBuild_HBuilder;
 class TopOpeBRepDS_BuildTool;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_MapOfShape;
 class TopTools_DataMapOfShapeShape;
 class TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State;

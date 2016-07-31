@@ -13,11 +13,11 @@
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_DataMapNodeOfDataMapOfIntegerListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
 class Standard_DomainError;
 class Standard_NoSuchObject;
-class TopTools_ListOfShape;
 class TColStd_MapIntegerHasher;
 class TopTools_DataMapNodeOfDataMapOfIntegerListOfShape;
 class TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape;
@@ -58,6 +58,9 @@ public:
 {
   return Find(K);
 }
+  Standard_EXPORT  TopTools_ListOfShape& Find (const Standard_Integer& K) {
+    return const_cast<TopTools_ListOfShape&>(const_cast<const TopTools_DataMapOfIntegerListOfShape*>(this)->Find(K));
+  }
   
   Standard_EXPORT   TopTools_ListOfShape& ChangeFind (const Standard_Integer& K) ;
   TopTools_ListOfShape& operator() (const Standard_Integer& K) 

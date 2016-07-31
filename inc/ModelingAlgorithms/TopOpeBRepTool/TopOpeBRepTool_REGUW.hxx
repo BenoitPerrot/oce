@@ -26,7 +26,6 @@
 class TopoDS_Face;
 class TopTools_DataMapOfShapeListOfShape;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopOpeBRepTool_connexity;

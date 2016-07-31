@@ -1350,12 +1350,11 @@ void  BRepLib::UpdateTolerances(const TopoDS_Shape& aShape,
   //Process edges
   TopTools_IndexedDataMapOfShapeListOfShape parents;
   TopExp::MapShapesAndAncestors(aShape, TopAbs_EDGE, TopAbs_FACE, parents);
-  TopTools_ListIteratorOfListOfShape lConx;
   Standard_Integer iCur;
   for (iCur=1; iCur<=parents.Extent(); iCur++) {
     tol=0;
-    for (lConx.Initialize(parents(iCur)); lConx.More(); lConx.Next()) {
-      tol=Max(tol, BRep_Tool::Tolerance(TopoDS::Face(lConx.Value())));
+    for (auto S : parents(iCur)) {
+      tol=Max(tol, BRep_Tool::Tolerance(TopoDS::Face(S)));
     }
     // Update can only increase tolerance, so if the edge has a greater
     //  tolerance than its faces it is not concerned
@@ -1375,8 +1374,8 @@ void  BRepLib::UpdateTolerances(const TopoDS_Shape& aShape,
     Bnd_Box box;
     box.Add(BRep_Tool::Pnt(V));
     gp_Pnt p3d;
-    for (lConx.Initialize(parents(iCur)); lConx.More(); lConx.Next()) {
-      const TopoDS_Edge& E = TopoDS::Edge(lConx.Value());
+    for (auto S : parents(iCur)) {
+      const TopoDS_Edge& E = TopoDS::Edge(S);
       if(!Done.Add(E)) continue;
       tol=Max(tol, BRep_Tool::Tolerance(E));
       if(!BRep_Tool::SameRange(E)) continue;
@@ -1576,7 +1575,6 @@ void BRepLib::EncodeRegularity(const TopoDS_Shape& S,
   BRep_Builder B;
   TopTools_IndexedDataMapOfShapeListOfShape M;
   TopExp::MapShapesAndAncestors(S,TopAbs_EDGE,TopAbs_FACE,M);
-  TopTools_ListIteratorOfListOfShape It;
   TopExp_Explorer Ex;
   TopoDS_Face F1,F2;
   Standard_Boolean found, couture;
@@ -1584,12 +1582,12 @@ void BRepLib::EncodeRegularity(const TopoDS_Shape& S,
     TopoDS_Edge E = TopoDS::Edge(M.FindKey(i));
     found = Standard_False; couture = Standard_False;
     F1.Nullify();
-    for(It.Initialize(M.FindFromIndex(i));It.More() && !found;It.Next()){
-      if(F1.IsNull()) { F1 = TopoDS::Face(It.Value()); }
+    for (auto I : M.FindFromIndex(i)) {
+      if(F1.IsNull()) { F1 = TopoDS::Face(I); }
       else {
-        if(!F1.IsSame(TopoDS::Face(It.Value()))){
+        if(!F1.IsSame(TopoDS::Face(S))){
           found = Standard_True;
-          F2 = TopoDS::Face(It.Value());
+          F2 = TopoDS::Face(S);
         }
       }
     }
@@ -1698,8 +1696,13 @@ void  BRepLib::SortFaces (const TopoDS_Shape& Sh,
     }
     else LTri.push_back(F);
   }
-  LF.Append(LPlan); LF.Append(LCyl  ); LF.Append(LCon); LF.Append(LSphere);
-  LF.Append(LTor ); LF.Append(LOther); LF.Append(LTri); 
+  LF.splice(end(LF), LPlan);
+  LF.splice(end(LF), LCyl  );
+  LF.splice(end(LF), LCon);
+  LF.splice(end(LF), LSphere);
+  LF.splice(end(LF), LTor );
+  LF.splice(end(LF), LOther);
+  LF.splice(end(LF), LTri); 
 }
 
 //=======================================================================
@@ -1710,6 +1713,7 @@ void  BRepLib::SortFaces (const TopoDS_Shape& Sh,
 void  BRepLib::ReverseSortFaces (const TopoDS_Shape& Sh,
   TopTools_ListOfShape& LF)
 {
+#warning: just sort then revert at end
   LF.clear();
   TopTools_ListOfShape LTri,LPlan,LCyl,LCon,LSphere,LTor,LOther;
   TopExp_Explorer exp(Sh,TopAbs_FACE);
@@ -1756,8 +1760,12 @@ void  BRepLib::ReverseSortFaces (const TopoDS_Shape& Sh,
     }
     else LTri.push_back(F);
   }
-  LF.Append(LTri); LF.Append(LOther); LF.Append(LTor ); LF.Append(LSphere);
-  LF.Append(LCon); LF.Append(LCyl  ); LF.Append(LPlan);
-
+  LF.splice(end(LF), LTri);
+  LF.splice(end(LF), LOther);
+  LF.splice(end(LF), LTor );
+  LF.splice(end(LF), LSphere);
+  LF.splice(end(LF), LCon);
+  LF.splice(end(LF), LCyl  );
+  LF.splice(end(LF), LPlan);
 }
 

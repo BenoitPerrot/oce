@@ -22,7 +22,6 @@
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepBuild/Handle_TopOpeBRepBuild_HBuilder.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 class TColGeom_SequenceOfCurve;
 class Geom_Curve;

@@ -98,13 +98,11 @@ static void ReverseModifiedEdges(TopoDS_Shape& aShape,
         Ledges.push_back(itw.Value());
 
       aWire.Free(Standard_True);
-      TopTools_ListIteratorOfListOfShape itl(Ledges);
-      for (; itl.More(); itl.Next())
-        BB.Remove(aWire, itl.Value());
+      for (auto anEdge : Ledges)
+        BB.Remove(aWire, anEdge);
         
-      for (itl.Initialize(Ledges); itl.More(); itl.Next())
+      for (TopoDS_Shape anEdge : Ledges)
       {
-        TopoDS_Shape anEdge = itl.Value();
         if (Emap.Contains(anEdge))
           anEdge.Reverse();
         BB.Add(aWire, anEdge);

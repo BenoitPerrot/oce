@@ -228,9 +228,9 @@ static void LoadC0Vertices(const TopoDS_Shape& S,
       const TopoDS_Shape& aVertex = explV.Current();
       if (!vertexNaborFaces.IsBound(aVertex)) vertexNaborFaces.Bind(aVertex, empty);
       Standard_Boolean faceIsNew = Standard_True;
-      TopTools_ListIteratorOfListOfShape itrF(vertexNaborFaces.Find(aVertex));
-      for (; itrF.More(); itrF.Next()) {
-	if (itrF.Value().IsSame(aFace)) {
+#warning find
+      for (auto X : vertexNaborFaces.Find(aVertex)) {
+	if (X.IsSame(aFace)) {
 	  faceIsNew = Standard_False;
 	  break;
 	}
@@ -268,10 +268,10 @@ static void LoadC0Edges(const TopoDS_Shape& S,
     for (; explV.More(); explV.Next()) {
       const TopoDS_Shape& anEdge = explV.Current();
       if (!edgeNaborFaces.IsBound(anEdge)) edgeNaborFaces.Bind(anEdge, empty);
+#warning find
       Standard_Boolean faceIsNew = Standard_True;
-      TopTools_ListIteratorOfListOfShape itrF(edgeNaborFaces.Find(anEdge));
-      for (; itrF.More(); itrF.Next()) {
-	if (itrF.Value().IsSame(aFace)) {
+      for (auto X : edgeNaborFaces.Find(anEdge)) {
+	if (X.IsSame(aFace)) {
 	  faceIsNew = Standard_False;
 	  break;
 	}
@@ -298,10 +298,12 @@ static void LoadC0Edges(const TopoDS_Shape& S,
 	const TopTools_ListOfShape& aList2 = itr.Value();
 	// compare lists of the neighbour faces of edge1 and edge2
 	if (aList1.size() == aList2.size()) {
+#warning multi_count?
 	  Standard_Integer aMatches = 0;
-	  for(TopTools_ListIteratorOfListOfShape aLIter1(aList1);aLIter1.More();aLIter1.Next())
-	    for(TopTools_ListIteratorOfListOfShape aLIter2(aList2);aLIter2.More();aLIter2.Next())
-	      if (aLIter1.Value().IsSame(aLIter2.Value())) aMatches++;
+	  for (auto S1 : aList1)
+	    for (auto S2 : aList2)
+	      if (S1.IsSame(S2))
+		aMatches++;
 	  if (aMatches == aList1.size()) {
 	    aC0=Standard_True;
 	    TNaming_Builder bC0Edge(Tagger->NewChild());
@@ -398,10 +400,8 @@ static void LoadNextLevels(const TopoDS_Shape& S,
 	TNaming_Builder bFreeEdges(Tagger->NewChild());
 	bFreeEdges.Generated(anEdgeAndNeighbourFaces.FindKey(i));
       } else {
-	TopTools_ListIteratorOfListOfShape anIter(aLL);
-	const TopoDS_Face& aFace = TopoDS::Face(anIter.Value());
-	anIter.Next();
-	if(aFace.IsEqual(anIter.Value())) {
+	const TopoDS_Face& aFace = TopoDS::Face(aLL.front());
+	if(aFace.IsEqual(*next(begin(aLL)))) {
 	  TNaming_Builder bFreeEdges(Tagger->NewChild());
 	  bFreeEdges.Generated(anEdgeAndNeighbourFaces.FindKey(i));
 	}
@@ -764,9 +764,7 @@ void DNaming::LoadAndOrientModifiedShapes (BRepBuilderAPI_MakeShape&    MS,
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Modified (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      TopoDS_Shape newShape = ShapesIterator.Value ();
+    for (TopoDS_Shape newShape : Shapes) {
       if (SubShapes.IsBound(newShape)) {
 	newShape.Orientation((SubShapes(newShape)).Orientation());
       }
@@ -811,9 +809,7 @@ void DNaming::LoadAndOrientGeneratedShapes (BRepBuilderAPI_MakeShape&     MS,
     const TopoDS_Shape& Root = ShapeExplorer.Current ();
     if (!View.Add(Root)) continue;
     const TopTools_ListOfShape& Shapes = MS.Generated (Root);
-    TopTools_ListIteratorOfListOfShape ShapesIterator (Shapes);
-    for (;ShapesIterator.More (); ShapesIterator.Next ()) {
-      TopoDS_Shape newShape = ShapesIterator.Value ();
+    for (TopoDS_Shape newShape : Shapes) {
       if (SubShapes.IsBound(newShape)) {
 	newShape.Orientation((SubShapes(newShape)).Orientation());
       }

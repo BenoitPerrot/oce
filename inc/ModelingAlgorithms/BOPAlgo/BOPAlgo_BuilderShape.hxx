@@ -18,7 +18,6 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Algo.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! Root class for algorithms that has shape as result

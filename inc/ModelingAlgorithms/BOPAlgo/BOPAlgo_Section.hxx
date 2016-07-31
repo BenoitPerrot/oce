@@ -13,7 +13,6 @@
 #include <ModelingAlgorithms/BOPAlgo/BOPAlgo_Builder.hxx>
 #include <ModelingAlgorithms/BOPCol/BOPCol_BaseAllocator.hxx>
 class BOPAlgo_PaveFiller;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

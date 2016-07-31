@@ -12,11 +12,11 @@
 
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shell.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class TopoDS_Wire;
 class TopoDS_Shell;
 class TopTools_DataMapOfShapeListOfShape;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

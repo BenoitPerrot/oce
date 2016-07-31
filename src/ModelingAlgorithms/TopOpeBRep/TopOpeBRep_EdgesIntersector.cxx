@@ -383,10 +383,8 @@ Standard_Boolean EdgesIntersector_checkT1D(const TopoDS_Edge& E1,const TopoDS_Ed
 	Standard_Boolean onf = (df < tolf);
 	TopoDS_Vertex v1 = onf ? vf : vl;
 	TopTools_IndexedDataMapOfShapeListOfShape mapVE; TopExp::MapShapesAndAncestors(myFace1,TopAbs_VERTEX,TopAbs_EDGE,mapVE);
-	const TopTools_ListOfShape& Edsanc = mapVE.FindFromKey(v1);
-	TopTools_ListIteratorOfListOfShape it(Edsanc);
-	for (; it.More(); it.Next()){
-	  const TopoDS_Edge& ee = TopoDS::Edge(it.Value());
+	for (auto es : mapVE.FindFromKey(v1)) {
+	  const TopoDS_Edge& ee = TopoDS::Edge(es);
 	  Standard_Boolean dgee = BRep_Tool::Degenerated(ee);
 	  if (!dgee) continue;
 //	  Standard_Real f,l;

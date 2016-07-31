@@ -664,9 +664,7 @@ Handle(Transfer_Binder) STEPControl_ActorWrite::TransferShape (const Handle(Tran
       TopTools_ListOfShape aListOfManifoldShapes;
       aListOfShapes.push_back(theShape);
 
-      TopTools_ListIteratorOfListOfShape itL(aListOfShapes);
-      for ( ; itL.More(); itL.Next() ) {
-        TopoDS_Shape aParentShape = itL.Value();
+      for (TopoDS_Shape aParentShape : aListOfShapes) {
         TopoDS_Iterator it(aParentShape);
         for ( ; it.More(); it.Next() ) {
           TopoDS_Shape aSubShape = it.Value();
@@ -682,8 +680,7 @@ Handle(Transfer_Binder) STEPControl_ActorWrite::TransferShape (const Handle(Tran
       // Group manifold topology together.
       // NOTE: there is no sense that initial Compound structure was lost as
       //       group mode is set to 0 (no Assemblies are mapped)
-      for ( itL.Initialize(aListOfManifoldShapes); itL.More(); itL.Next() ) {
-        TopoDS_Shape aCurrentManiShape = itL.Value();
+      for (TopoDS_Shape aCurrentManiShape : aListOfManifoldShapes) {
         brepBuilder.Add(aManifoldCompound, aCurrentManiShape);
       }
 

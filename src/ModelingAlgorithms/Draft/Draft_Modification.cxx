@@ -157,7 +157,6 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
   }
 
   conneF.clear();
-  TopTools_ListIteratorOfListOfShape ltod;
 
   curFace = myFMap(F).RootFace();
   Draft_DataMapIteratorOfDataMapOfFaceFaceInfo itf(myFMap);
@@ -172,10 +171,8 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
     itf.Next();
   }
 
-  ltod.Initialize(conneF);
-  while (ltod.More()) {
-    myFMap.UnBind(TopoDS::Face(ltod.Value()));
-    ltod.Next();
+  for (auto S : conneF) {
+    myFMap.UnBind(TopoDS::Face(S));
   }
 
   conneF.clear();
@@ -187,10 +184,8 @@ void Draft_Modification::Remove(const TopoDS_Face& F)
     }
     ite.Next();
   }
-  ltod.Initialize(conneF);
-  while (ltod.More()) {
-    myEMap.UnBind(TopoDS::Edge(ltod.Value()));
-    ltod.Next();
+  for (auto S : conneF) {
+    myEMap.UnBind(TopoDS::Edge(S));
   }
 }
 

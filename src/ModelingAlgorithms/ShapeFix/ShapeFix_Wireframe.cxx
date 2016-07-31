@@ -341,9 +341,9 @@ ShapeFix_Wireframe::ShapeFix_Wireframe(const TopoDS_Shape& shape)
     B.Range(newedge,newf,newl);
     
     //merging pcurves
-    for(TopTools_ListIteratorOfListOfShape iter(faces); iter.More(); iter.Next()) 
+    for(auto SF : faces)
     {
-      TopoDS_Face face = TopoDS::Face(iter.Value());
+      TopoDS_Face face = TopoDS::Face(SF);
       if(!sae.PCurve ( E1, face, c2d1, first1, last1, Standard_False )) return ReplaceFirst;  
       if(!sae.PCurve ( E2, face, c2d2, first2, last2, Standard_False )) return ReplaceFirst;
       
@@ -749,22 +749,25 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		Standard_Boolean same_set2 = (theList3.size()==theList2.size() && 
                                               ((!isSeam && !isSeam2)|| (isSeam && isSeam2)));
 		TopTools_MapOfShape theSetOfFaces;
-                for (TopTools_ListIteratorOfListOfShape itf1(theList2);
-                     itf1.More(); itf1.Next())
-                  theSetOfFaces.Add(itf1.Value());
+                for (auto S2 : theList2)
+                  theSetOfFaces.Add(S2);
 		if (same_set1) 
                 {
 		  // Add all faces of the first edge to the current set
-		  for (TopTools_ListIteratorOfListOfShape itf2(theList1);
-		       (itf2.More() && same_set1); itf2.Next())
-		    same_set1 = theSetOfFaces.Contains(itf2.Value());
+		  for (auto S1 : theList1) {
+		    same_set1 = theSetOfFaces.Contains(S1);
+		    if (!same_set1)
+		      break;
+		  }
 		}
 		if (same_set2) 
                 {
 		  // Add all faces of the first edge to the current set
-		  for (TopTools_ListIteratorOfListOfShape itf2(theList3);
-		       (itf2.More() && same_set2); itf2.Next())
-		    same_set2 = theSetOfFaces.Contains(itf2.Value());
+		  for (auto S3 : theList3) {
+		    same_set2 = theSetOfFaces.Contains(S3);
+		    if (!same_set2)
+		      break;
+		  }
 		}
 		if(same_set1 && same_set2) 
                 {
@@ -794,10 +797,10 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		  // Merge current pair of edges
                    //gka protection against crossing seem on second face
                   Standard_Boolean isNeedJoin = Standard_True;//Standard_False;
-                  for(TopTools_ListIteratorOfListOfShape aItF(theList2); aItF.More() && isNeedJoin; aItF.Next()) 
+                  for(auto S2 : theList2)
                   { 
-                    if(aItF.Value().IsSame(anExpf2.Current())) continue;
-                    TopoDS_Shape aF = Context()->Apply(aItF.Value());
+                    if(S2.IsSame(anExpf2.Current())) continue;
+                    TopoDS_Shape aF = Context()->Apply(S2);
                     //aF = aF.Oriented(TopAbs_FORWARD);
                     for(TopoDS_Iterator aIw(aF); aIw.More(); aIw.Next()) 
                     {
@@ -815,15 +818,17 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                         break;
                       }
                     }
+		    if (!isNeedJoin)
+		      break;
                   }
                   Standard_Boolean ReplaceFirst = Standard_True;
                   if(isNeedJoin) 
                   {
                     
                     TopTools_ListOfShape aListF;
-                    for(TopTools_ListIteratorOfListOfShape aItlF(theList2); aItlF.More(); aItlF.Next()) 
+                    for(auto S2 : theList2)
                     {
-                      TopoDS_Shape tmpF = Context()->Apply(aItlF.Value());
+                      TopoDS_Shape tmpF = Context()->Apply(S2);
                       aListF.push_back(tmpF);
                     }
                     ReplaceFirst = JoinEdges(edge1,edge2,edge3,aListF);
@@ -905,28 +910,27 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		    SFW->WireData()->Remove(index);
 		    // Process changes in maps
 		    TopTools_ListOfShape theList;
-		    theList.Append(theList2);
+		    theList.insert(end(theList), begin(theList2), end(theList2));
 		    theEdgeToFaces.UnBind(edge1);
 		    theEdgeToFaces.UnBind(edge2);
 		    theEdgeToFaces.Bind(edge3,theList);
 		    if (theSmallEdges.Contains(edge1)) theSmallEdges.Remove(edge1);
 		    if (theSmallEdges.Contains(edge2)) theSmallEdges.Remove(edge2);
 		    if (newsmall) theSmallEdges.Add(edge3);
-		    for (TopTools_ListIteratorOfListOfShape itlf(theList);
-			 itlf.More(); itlf.Next()) 
+		    for (auto curface : theList)
                     {
-		      TopoDS_Shape curface = itlf.Value();
 		      if (theFaceWithSmall.IsBound(curface)) 
                       {
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
 			if (newsmall) theEdges.push_back(edge3);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges)) 
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(edge1) || iedge.IsSame(edge2))
 			    ite = theEdges.erase(ite);
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 			// Remove face without small edges from the map
 			if (!theEdges.size()) theFaceWithSmall.UnBind(curface);
@@ -977,21 +981,20 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     {
 		      theSmallEdges.Remove(tmpedge1);
 		      theSmallEdges.Add(anewedge1);
-		      for (TopTools_ListIteratorOfListOfShape itlf(aL1);
-			 itlf.More(); itlf.Next()) 
+		      for (auto curface : aL1)
                       {
-			TopoDS_Shape curface = itlf.Value();
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges)) 
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(tmpedge1)) 
                           {
 			    ite = theEdges.erase(ite);
 			    theEdges.push_back(anewedge1);
 			  }
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 		      }
 		    }
@@ -999,24 +1002,24 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     {
 		      theSmallEdges.Remove(tmpedge2);
 		      theSmallEdges.Add(anewedge2);
-		      for (TopTools_ListIteratorOfListOfShape itlf(aL2);
-			 itlf.More(); itlf.Next()) 
+		      for (auto curface : aL2)
                       {
-			TopoDS_Shape curface = itlf.Value();
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges)) 
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(tmpedge2)) 
                           {
 			    ite = theEdges.erase(ite);
 			    theEdges.push_back(anewedge2);
 			  }
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 		      }
 		    }
+#warning factor aL1 & aL2
 		    myStatusSmallEdges |= ShapeExtend::EncodeStatus( ShapeExtend_DONE3 );
 		  }
 		  else index++;
@@ -1189,22 +1192,25 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		Standard_Boolean same_set2 = (theList3.size()==theList2.size() && 
                                               ((!isSeam && !isSeam2)|| (isSeam && isSeam2)));
 		TopTools_MapOfShape theSetOfFaces;
-                for (TopTools_ListIteratorOfListOfShape itf1(theList2);
-                     itf1.More(); itf1.Next())
-                  theSetOfFaces.Add(itf1.Value());
+                for (auto S2 : theList2)
+                  theSetOfFaces.Add(S2);
 		if (same_set1) 
                 {
 		  // Add all faces of the first edge to the current set
-		  for (TopTools_ListIteratorOfListOfShape itf2(theList1);
-		       (itf2.More() && same_set1); itf2.Next())
-		    same_set1 = theSetOfFaces.Contains(itf2.Value());
+		  for (auto S1 : theList1) {
+		    same_set1 = theSetOfFaces.Contains(S1);
+		    if (!same_set1)
+		      break;
+		  }
 		}
 		if (same_set2) 
                 {
 		  // Add all faces of the first edge to the current set
-		  for (TopTools_ListIteratorOfListOfShape itf2(theList3);
-		       (itf2.More() && same_set2); itf2.Next())
-		    same_set2 = theSetOfFaces.Contains(itf2.Value());
+		  for (auto S3 : theList3) {
+		    same_set2 = theSetOfFaces.Contains(S3);
+		    if (!same_set2)
+		      break;
+		  }
 		}
 		if(same_set1 && same_set2) 
                 {
@@ -1234,10 +1240,10 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		  // Merge current pair of edges
                    //gka protection against crossing seem on second face
                   Standard_Boolean isNeedJoin = Standard_True;//Standard_False;
-                  for(TopTools_ListIteratorOfListOfShape aItF(theList2); aItF.More() && isNeedJoin; aItF.Next()) 
+                  for(auto S2 : theList2)
                   { 
-                    if(aItF.Value().IsSame(anExpf2.Current())) continue;
-                    TopoDS_Shape aF = Context()->Apply(aItF.Value());
+                    if(S2.IsSame(anExpf2.Current())) continue;
+                    TopoDS_Shape aF = Context()->Apply(S2);
                     //aF = aF.Oriented(TopAbs_FORWARD);
                     for(TopoDS_Iterator aIw(aF); aIw.More(); aIw.Next()) 
                     {
@@ -1261,9 +1267,9 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                   {
                     
                     TopTools_ListOfShape aListF;
-                    for(TopTools_ListIteratorOfListOfShape aItlF(theList2); aItlF.More(); aItlF.Next()) 
+                    for(auto S2 : theList2)
                     {
-                      TopoDS_Shape tmpF = Context()->Apply(aItlF.Value());
+                      TopoDS_Shape tmpF = Context()->Apply(S2);
                       aListF.push_back(tmpF);
                     }
                     ReplaceFirst = JoinEdges(edge1,edge2,edge3,aListF);
@@ -1344,28 +1350,27 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
 		    SFW->WireData()->Remove(index);
 		    // Process changes in maps
 		    TopTools_ListOfShape theList;
-		    theList.Append(theList2);
+		    theList.insert(end(theList), begin(theList2), end(theList2));
 		    theEdgeToFaces.UnBind(edge1);
 		    theEdgeToFaces.UnBind(edge2);
 		    theEdgeToFaces.Bind(edge3,theList);
 		    if (theSmallEdges.Contains(edge1)) theSmallEdges.Remove(edge1);
 		    if (theSmallEdges.Contains(edge2)) theSmallEdges.Remove(edge2);
 		    if (newsmall) theSmallEdges.Add(edge3);
-		    for (TopTools_ListIteratorOfListOfShape itlf(theList);
-			 itlf.More(); itlf.Next()) 
+		    for (auto curface : theList)
                     {
-		      TopoDS_Shape curface = itlf.Value();
 		      if (theFaceWithSmall.IsBound(curface)) 
                       {
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
 			if (newsmall) theEdges.push_back(edge3);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges)) 
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(edge1) || iedge.IsSame(edge2))
 			    ite = theEdges.erase(ite);
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 			// Remove face without small edges from the map
 			if (!theEdges.size()) theFaceWithSmall.UnBind(curface);
@@ -1416,21 +1421,20 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     {
 		      theSmallEdges.Remove(tmpedge1);
 		      theSmallEdges.Add(anewedge1);
-		      for (TopTools_ListIteratorOfListOfShape itlf(aL1);
-			 itlf.More(); itlf.Next()) 
+		      for (auto curface : aL1)
                       {
-			TopoDS_Shape curface = itlf.Value();
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges))
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(tmpedge1)) 
                           {
 			    ite = theEdges.erase(ite);
 			    theEdges.push_back(anewedge1);
 			  }
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 		      }
 		    }
@@ -1438,23 +1442,23 @@ Standard_Boolean ShapeFix_Wireframe::MergeSmallEdges(TopTools_MapOfShape& theSma
                     {
 		      theSmallEdges.Remove(tmpedge2);
 		      theSmallEdges.Add(anewedge2);
-		      for (TopTools_ListIteratorOfListOfShape itlf(aL2);
-			 itlf.More(); itlf.Next()) 
+		      for (auto curface : aL2)
                       {
-			TopoDS_Shape curface = itlf.Value();
 			TopTools_ListOfShape& theEdges = theFaceWithSmall(curface);
-			TopTools_ListIteratorOfListOfShape ite(theEdges);
-			while (ite.More()) 
+			TopTools_ListIteratorOfListOfShape ite = begin(theEdges);
+			while (ite != end(theEdges))
                         {
-			  TopoDS_Shape iedge = ite.Value();
+			  TopoDS_Shape iedge = *ite;
 			  if (iedge.IsSame(tmpedge2)) 
                           {
 			    ite = theEdges.erase(ite);
 			    theEdges.push_back(anewedge2);
 			  }
-			  else ite.Next();
+			  else
+			    ++ite;
 			}
 		      }
+#warning factor last two loops
 		    }
 		    myStatusSmallEdges |= ShapeExtend::EncodeStatus( ShapeExtend_DONE3 );
 		  }

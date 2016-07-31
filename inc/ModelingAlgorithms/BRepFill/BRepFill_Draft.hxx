@@ -31,7 +31,6 @@ class TopoDS_Shape;
 class gp_Dir;
 class Geom_Surface;
 class TopoDS_Shell;
-class TopTools_ListOfShape;
 class Bnd_Box;
 
 

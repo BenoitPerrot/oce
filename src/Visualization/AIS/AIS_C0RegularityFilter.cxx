@@ -50,15 +50,15 @@ AIS_C0RegularityFilter::AIS_C0RegularityFilter(const TopoDS_Shape& aShape)
   Standard_Boolean Ok;
   for (Standard_Integer i = 1; i <= SubShapes.Extent(); i++) {
     Ok = Standard_False;
-    TopTools_ListIteratorOfListOfShape it(SubShapes(i));
-    TopoDS_Face Face1, Face2;
-    if (it.More()) {
-      Face1 = TopoDS::Face(it.Value());
-      it.Next();
-      if (it.More()) {
-	Face2 = TopoDS::Face(it.Value());
-	it.Next();
-	if (!it.More()) {
+    auto l = SubShapes(i);
+    TopTools_ListIteratorOfListOfShape it = begin(l);
+    if (it != end(l)) {
+      TopoDS_Face Face1 = TopoDS::Face(*it);
+      ++it;
+      if (it != end(l)) {
+	TopoDS_Face Face2 = TopoDS::Face(*it);
+	++it;
+	if (it != end(l)) {
 	  GeomAbs_Shape ShapeContinuity =
 	    BRep_Tool::Continuity(TopoDS::Edge(SubShapes.FindKey(i)),Face1,Face2);
 	  Ok = (ShapeContinuity == GeomAbs_C0);

@@ -12,6 +12,7 @@
 
 #include <Foundation/TCollection/TCollection_BasicMap.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_Address.hxx>
@@ -19,7 +20,6 @@ class Standard_DomainError;
 class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopTools_ShapeMapHasher;
 class TopTools_IndexedDataMapNodeOfIndexedDataMapOfShapeListOfShape;
 
@@ -75,6 +75,9 @@ public:
   Standard_EXPORT   Standard_Integer FindIndex (const TopoDS_Shape& K)  const;
   
   Standard_EXPORT  const  TopTools_ListOfShape& FindFromKey (const TopoDS_Shape& K)  const;
+  Standard_EXPORT   TopTools_ListOfShape& FindFromKey (const TopoDS_Shape& K) {
+    return const_cast<TopTools_ListOfShape&>(const_cast<const TopTools_IndexedDataMapOfShapeListOfShape*>(this)->FindFromKey(K));
+  }
   
   Standard_EXPORT   TopTools_ListOfShape& ChangeFromKey (const TopoDS_Shape& K) ;
   

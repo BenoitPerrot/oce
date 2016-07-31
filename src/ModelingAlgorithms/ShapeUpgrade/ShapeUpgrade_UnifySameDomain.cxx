@@ -849,9 +849,8 @@ void ShapeUpgrade_UnifySameDomain::UnifyFaces()
           continue;
 
         const TopTools_ListOfShape& aList = aMapEdgeFaces.FindFromKey(edge);
-        TopTools_ListIteratorOfListOfShape anIter(aList);
-        for (; anIter.More(); anIter.Next()) {
-          TopoDS_Face anCheckedFace = TopoDS::Face(anIter.Value().Oriented(TopAbs_FORWARD));
+        for (auto S : aList) {
+          TopoDS_Face anCheckedFace = TopoDS::Face(S.Oriented(TopAbs_FORWARD));
           if (anCheckedFace.IsSame(aFace))
             continue;
 
@@ -1206,11 +1205,10 @@ void ShapeUpgrade_UnifySameDomain::UnifyEdges()
         TopoDS_Edge edge = TopoDS::Edge(expe.Current());
         if (!aMapEdgeFaces.Contains(edge)) continue;
         const TopTools_ListOfShape& aList = aMapEdgeFaces.FindFromKey(edge);
-        TopTools_ListIteratorOfListOfShape anIter(aList);
-        for ( ; anIter.More(); anIter.Next()) {
-          TopoDS_Face face = TopoDS::Face(anIter.Value());
+        for (auto S : aList) {
+          TopoDS_Face face = TopoDS::Face(S);
           //TopoDS_Face face1 = TopoDS::Face(aContext->Apply(anIter.Value()));
-          TopoDS_Face face1 = TopoDS::Face(myContext->Apply(anIter.Value()));
+          TopoDS_Face face1 = TopoDS::Face(myContext->Apply(S));
           if (face1.IsSame(aFace)) continue;
           if (aMapFacesEdges.Contains(face)) {
             aMapFacesEdges.ChangeFromKey(face).push_back(edge);
@@ -1226,9 +1224,8 @@ void ShapeUpgrade_UnifySameDomain::UnifyEdges()
       for (Standard_Integer i=1; i<=aMapFacesEdges.Extent(); i++) {
         const TopTools_ListOfShape& ListEdges = aMapFacesEdges.FindFromIndex(i);
         TopTools_SequenceOfShape SeqEdges;
-        TopTools_ListIteratorOfListOfShape anIter(ListEdges);
-        for ( ; anIter.More(); anIter.Next()) {
-          SeqEdges.Append(anIter.Value());
+        for (auto S : ListEdges) {
+          SeqEdges.Append(S);
         }
         if (SeqEdges.Length()==1) continue;
         TopoDS_Edge E;

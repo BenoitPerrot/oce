@@ -164,10 +164,9 @@ void TopOpeBRepDS_GapFiller::FindAssociatedPoints(const Handle(TopOpeBRepDS_Inte
   // => pas d association a faire.
   //------------------------------------------------------------------------
 //   for (TopTools_ListIteratorOfListOfShape itLF(LF); itLF.More(); itLF.Next()) {
-   TopTools_ListIteratorOfListOfShape itLF(LF) ;
-   for ( ; itLF.More(); itLF.Next()) {
-    if (!itLF.Value().IsSame(F1)) {
-      if (IsOnFace(I,TopoDS::Face(itLF.Value()))) {
+  for (auto s : LF) {
+    if (!s.IsSame(F1)) {
+      if (IsOnFace(I,TopoDS::Face(s))) {
 	LI.clear(); return;
       }
     }
@@ -178,9 +177,9 @@ void TopOpeBRepDS_GapFiller::FindAssociatedPoints(const Handle(TopOpeBRepDS_Inte
   // la Face connexe par E} 
   //------------------------------------------------------------------------
 
-  for (itLF.Initialize(LF); itLF.More(); itLF.Next()) {
-    if (!itLF.Value().IsSame(F1)) {
-      FilterByFace(TopoDS::Face(itLF.Value()),LI);
+  for (auto s : LF) {
+    if (!s.IsSame(F1)) {
+      FilterByFace(TopoDS::Face(s),LI);
     }
   }
   //--------------------------------------------

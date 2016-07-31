@@ -1016,10 +1016,13 @@ TCollection_AsciiString TopOpeBRepDS_Dumper::SPrintShapeRefOri(const TopoDS_Shap
 
 TCollection_AsciiString TopOpeBRepDS_Dumper::SPrintShapeRefOri(const TopTools_ListOfShape& L,const TCollection_AsciiString& astr) const
 {
-  TCollection_AsciiString SS;TopTools_ListIteratorOfListOfShape it(L); if (!it.More()) return SS;
+  TCollection_AsciiString SS;
+  if (L.empty()) return SS;
   SS=SS+astr; TCollection_AsciiString bst(astr.Length(),' ');
-  for(Standard_Integer il = 0; it.More(); it.Next(),il++) {
-    TCollection_AsciiString ss=SPrintShapeRefOri(it.Value());if (il) ss=bst+ss; SS=SS+ss+"\n";
+  Standard_Integer il = 0;
+  for (auto s : L) {
+    TCollection_AsciiString ss=SPrintShapeRefOri(s);if (il) ss=bst+ss; SS=SS+ss+"\n";
+    il++;
   }
   return SS;
 }

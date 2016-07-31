@@ -101,8 +101,6 @@
 #include <ModelingData/TopExp/TopExp.hxx>
 #include <ModelingData/TopExp/TopExp_Explorer.hxx>
 
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
-
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Point.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Curve.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Surface.hxx>
@@ -298,10 +296,9 @@ Standard_Boolean ChFi3d_Builder::PerformTwoCornerbyInter(const Standard_Integer 
    
   TopoDS_Face FF1 = TopoDS::Face(DStr.Shape(Fd1->Index(IFaArc1)));
   TopoDS_Face FF2 = TopoDS::Face(DStr.Shape(Fd2->Index(IFaArc2)));
-  TopTools_ListIteratorOfListOfShape Kt;
   Standard_Boolean ok1 = Standard_False, ok2 = Standard_False;
-  for (Kt.Initialize(myEFMap(pivot)); Kt.More(); Kt.Next()){
-    TopoDS_Face F = TopoDS::Face(Kt.Value());
+  for (auto S : myEFMap(pivot)) {
+    TopoDS_Face F = TopoDS::Face(S);
     if(!ok1 && FF1.IsSame(F)){
       ok1 = Standard_True;
     }

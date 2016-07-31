@@ -359,9 +359,8 @@ static Handle(TNaming_NamedShape) CompareInModification (const Handle(TNaming_Na
   // searching for 1:n to the same label modifications (in this case current naming is insufficient)
   TopTools_ListOfShape aList;
   if (GetShapeEvolutions(S,aSource,aList) && aList.size() > 0) {
-    TopTools_ListIteratorOfListOfShape anIter(aList);
-    for(;anIter.More();anIter.Next()) {
-      aResult = TNaming_Tool::NamedShape(anIter.Value(),NS->Label());
+    for (auto anS : aList) {
+      aResult = TNaming_Tool::NamedShape(anS,NS->Label());
       if (aResult->Evolution()!=TNaming_MODIFY) { // evolution must be modify, otherwise everything is OK
 	aResult.Nullify();
 	return aResult;
@@ -370,14 +369,14 @@ static Handle(TNaming_NamedShape) CompareInModification (const Handle(TNaming_Na
       TNaming_Iterator aNIter1(aResult);
 
       for(;aNIter1.More();aNIter1.Next()) {
-	if (aNIter1.NewShape().IsSame(anIter.Value()))  {// if isSame 
+	if (aNIter1.NewShape().IsSame(anS))  {// if isSame 
 	  aMap.Add(aNIter1.OldShape());
 	}
       }
       TNaming_Iterator aNIter2(aResult); // if some another shapes has oldshape from map, return namedshape with this oldshape
 
       for(;aNIter2.More();aNIter2.Next()) {
-	if (aNIter2.NewShape().IsSame(anIter.Value())) continue;
+	if (aNIter2.NewShape().IsSame(anS)) continue;
 	if (aMap.Contains(aNIter2.OldShape())) { // if one shape was modified to the two at the shared label, return this one
 	  aResult = TNaming_Tool::NamedShape(aNIter2.OldShape(),NS->Label());
 	  if (!aResult.IsNull()) return aResult;
@@ -627,10 +626,9 @@ static Standard_Boolean IsMultipleCase(const TopoDS_Shape&        S,
     if(aDM.Contains(it.Key())) {
       TNaming_MapOfShape aMS;
       const TopTools_ListOfShape& aL = aDM.FindFromKey(it.Key());      
-      TopTools_ListIteratorOfListOfShape lit(aL);
-      for(;lit.More();lit.Next()) {
-	aM.Add(lit.Value());
-	aMS.Add(lit.Value());
+      for (auto anS : aL) {
+	aM.Add(anS);
+	aMS.Add(anS);
       }
       if(aMS.Extent())
 	aDMM.Bind(it.Key(), aMS);

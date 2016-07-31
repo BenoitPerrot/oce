@@ -92,13 +92,7 @@ static TopoDS_Face GetAdjacentFace
   TopoDS_Face aFace;
 
   if (theAncMap.Contains(theEdge)) {
-    const TopTools_ListOfShape         &aLOfFaces =
-                                              theAncMap.FindFromKey(theEdge);
-    TopTools_ListIteratorOfListOfShape  anIter(aLOfFaces);
-
-    for (; anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aLocalFace = anIter.Value();
-
+    for (const TopoDS_Shape &aLocalFace : theAncMap.FindFromKey(theEdge)) {
       if (!theFace.IsSame(aLocalFace)) {
 	aFace = TopoDS::Face(aLocalFace);
 	break;
@@ -124,12 +118,7 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 // If the first face is already splited, we use its splits
 // to recursively call this function.
   if (theMapOfChangedFaces.IsBound(theFirstSDFace)) {
-    const TopTools_ListOfShape &aLocalList = 
-                                theMapOfChangedFaces(theFirstSDFace);
-    TopTools_ListIteratorOfListOfShape anIter(aLocalList);
-
-    for (;anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aNewShape = anIter.Value();
+    for (const TopoDS_Shape &aNewShape : theMapOfChangedFaces(theFirstSDFace)) {
       if (!SubstitudeSDFaces(aNewShape,    theSecondSDFace,
 			     theNewSolid1, theNewSolid2,
 			     theMapOfChangedFaces))
@@ -141,12 +130,7 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 // If the second face is already splited, we use its splits
 // to recursively call this function.
   if (theMapOfChangedFaces.IsBound(theSecondSDFace)) {
-    const TopTools_ListOfShape &aLocalList = 
-                                theMapOfChangedFaces(theSecondSDFace);
-    TopTools_ListIteratorOfListOfShape anIter(aLocalList);
-
-    for (;anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aNewShape = anIter.Value();
+    for (const TopoDS_Shape &aNewShape : theMapOfChangedFaces(theSecondSDFace)) {
       if (!SubstitudeSDFaces(theFirstSDFace,    aNewShape,
 			     theNewSolid1, theNewSolid2,
 			     theMapOfChangedFaces))
@@ -195,14 +179,13 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
   for (i = 1; i <= aNbModifShape; i++) {
     TopTools_ListOfShape                aModifShapes;
     const TopoDS_Shape                 &anAncestor = aHistory.FindKey(i);
-    TopTools_ListIteratorOfListOfShape  anIter(aHistory.FindFromIndex(i));
 
     if (anAncestor.IsSame(theSecondSDFace)) {
-      for (; anIter.More(); anIter.Next())
-	aModifShapes.push_back(anIter.Value());
+      for (auto S : aHistory.FindFromIndex(i))
+	aModifShapes.push_back(S);
     } else {
-      for (; anIter.More(); anIter.Next())
-	aModifShapes.push_back(anIter.Value().Oriented(TopAbs_FORWARD));
+      for (auto &S : aHistory.FindFromIndex(i))
+	aModifShapes.push_back(S.Oriented(TopAbs_FORWARD));
     }
 
     if (anAncestor.ShapeType() == TopAbs_EDGE) {
@@ -217,9 +200,8 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	  Standard_Real aFirst;
 	  Standard_Real aLast;
 	  
-	  anIter.Initialize(aHistory.FindFromIndex(i));
-	  for (; anIter.More(); anIter.Next()) {
-	    TopoDS_Edge          aSplit  = TopoDS::Edge(anIter.Value());
+	  for (auto S : aHistory.FindFromIndex(i)) {
+	    TopoDS_Edge          aSplit  = TopoDS::Edge(S);
 	    Handle(Geom2d_Curve) aPCurve = BRep_Tool::CurveOnSurface
 	      (aSplit, aFace, aFirst, aLast);
 	    
@@ -236,9 +218,8 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	  Standard_Real aFirst;
 	  Standard_Real aLast;
 	  
-	  anIter.Initialize(aHistory.FindFromIndex(i));
-	  for (; anIter.More(); anIter.Next()) {
-	    TopoDS_Edge          aSplit  = TopoDS::Edge(anIter.Value());
+	  for (auto S : aHistory.FindFromIndex(i)) {
+	    TopoDS_Edge          aSplit  = TopoDS::Edge(S);
 	    Handle(Geom2d_Curve) aPCurve = BRep_Tool::CurveOnSurface
 	      (aSplit, aFace, aFirst, aLast);
 	    
@@ -275,10 +256,7 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	if (!theMapOfChangedFaces.IsBound(aFace))
 	  theMapOfChangedFaces.Bind(aFace, aNewList);
 	
-	TopTools_ListIteratorOfListOfShape anIter(aList);
-	for (; anIter.More(); anIter.Next()) {
-	  TopoDS_Shape aLocalFace = anIter.Value();
-
+	for (TopoDS_Shape aLocalFace : aList) {
 	  if (aSubstTool.IsCopied(aLocalFace))
 	    aLocalFace = aSubstTool.Copy(aLocalFace).front();
 
@@ -306,10 +284,7 @@ Standard_Boolean QANewModTopOpe_Glue::SubstitudeSDFaces
 	if (!theMapOfChangedFaces.IsBound(aFace))
 	  theMapOfChangedFaces.Bind(aFace, aNewList);
 	
-	TopTools_ListIteratorOfListOfShape anIter(aList);
-	for (; anIter.More(); anIter.Next()) {
-	  TopoDS_Shape aLocalFace = anIter.Value();
-
+	for (TopoDS_Shape aLocalFace : aList) {
 	  if (aSubstTool.IsCopied(aLocalFace))
 	    aLocalFace = aSubstTool.Copy(aLocalFace).front();
 
@@ -439,14 +414,8 @@ QANewModTopOpe_Glue::PerformSDFaces()
       if(!aHasSDF) aHasSDF = Standard_True;
 
       TopTools_ListOfShape               aLOfSDFace;
-      TopTools_ListIteratorOfListOfShape anIter;
-
       QANewModTopOpe_Tools::SameDomain(myBuilder, aFirstFace, aLOfSDFace);
-      anIter.Initialize(aLOfSDFace);
-
-      for(; anIter.More(); anIter.Next()) {
-	TopoDS_Shape aSecondFace = anIter.Value();
-
+      for (TopoDS_Shape aSecondFace : aLOfSDFace) {
 	if (!isAnalitic(aSecondFace))
 	  continue;
 
@@ -491,14 +460,13 @@ QANewModTopOpe_Glue::PerformSDFaces()
     }
 
     anIter.Initialize(myMapModif);
-    TopTools_ListIteratorOfListOfShape anI1;
     TopTools_MapIteratorOfMapOfShape anI2;
     for(; anIter.More(); anIter.Next()) {
       const TopoDS_Shape& aS = anIter.Key();
       if(aS.ShapeType() == TopAbs_FACE) {
-	anI1.Initialize(anIter.Value());
-	for(; anI1.More(); anI1.Next()) {
-	  const TopoDS_Shape& aSS1 = anI1.Value();
+	TopTools_ListOfShape::iterator anI1;
+	for (anI1 = begin(anIter.ChangeValue()); anI1 != end(anIter.ChangeValue()); ++anI1) {
+	  const TopoDS_Shape& aSS1 = *anI1;
 	  anI2.Initialize(aM);
 	  for(; anI2.More(); anI2.Next()) {
 	    const TopoDS_Shape& aSS2 = anI2.Key();
@@ -512,7 +480,7 @@ QANewModTopOpe_Glue::PerformSDFaces()
 	      anI1 = myMapModif(aS).erase(anI1);
 	    }
 	  }
-	  if(!anI1.More()) break;
+	  if (anI1 == end(anIter.ChangeValue())) break;
 	}
       }
       
@@ -551,9 +519,9 @@ QANewModTopOpe_Glue::PerformSDFaces()
       const TopoDS_Shape& aS = anIter.Key();
       if(aS.ShapeType() == TopAbs_EDGE) {
 	aLocVerMap.Clear();
-	anI1.Initialize(anIter.Value());
-	for(; anI1.More(); anI1.Next()) {
-	  const TopoDS_Shape& aSS1 = anI1.Value();
+	TopTools_ListOfShape::iterator anI1;
+	for (anI1 = begin(anIter.ChangeValue()); anI1 != end(anIter.ChangeValue()); ++anI1) {
+	  const TopoDS_Shape& aSS1 = *anI1;
 	  anI2.Initialize(aM);
 	  for(; anI2.More(); anI2.Next()) {
 	    const TopoDS_Shape& aSS2 = anI2.Key();
@@ -584,14 +552,14 @@ QANewModTopOpe_Glue::PerformSDFaces()
 	      }
 	    }
 	  }
-	  if(!anI1.More()) break;
+	  if (anI1 == end(anIter.ChangeValue())) break;
 	}
       }
     }
       
     // remove items from the data map
-    for(TopTools_ListIteratorOfListOfShape anIt(aShapesToRemove); anIt.More(); anIt.Next())
-      myMapModif.UnBind(anIt.Value());
+    for (auto S : aShapesToRemove)
+      myMapModif.UnBind(S);
 
     // Deleted vertices
     anExp1.Init(myShape, TopAbs_VERTEX);

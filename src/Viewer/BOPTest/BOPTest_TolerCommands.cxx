@@ -308,9 +308,8 @@ void ProcessVertex(const TopoDS_Vertex& aV,
   const gp_Pnt& aPV3D = TV->Pnt();
   aTol =BRep_Tool::Tolerance(aV);
   //
-  anIt.Initialize(aLE);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Edge& aE=TopoDS::Edge(anIt.Value());
+  for (auto anS : aLE) {
+    const TopoDS_Edge& aE=TopoDS::Edge(anS);
     //
     if (aProcessedEdges.Contains(aE)) {
       continue;
@@ -391,9 +390,8 @@ void ProcessVertex(const TopoDS_Vertex& aV,
   }
   //
   aProcessedEdges.Clear();
-  anIt.Initialize(aLE);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Edge& aE=TopoDS::Edge(anIt.Value());
+  for (auto anS : aLE) {
+    const TopoDS_Edge& aE=TopoDS::Edge(anS);
 
     if (aProcessedEdges.Contains(aE)) {
       continue;
@@ -407,9 +405,8 @@ void ProcessVertex(const TopoDS_Vertex& aV,
   }
   //
   aProcessedEdges.Clear();
-  anIt.Initialize(aLF);
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Face& aF=TopoDS::Face(anIt.Value());
+  for (auto anS : aLF) {
+    const TopoDS_Face& aF=TopoDS::Face(anS);
     
     if (aProcessedEdges.Contains(aF)) {
       continue;
@@ -515,10 +512,8 @@ void PreparePCurves(const TopoDS_Shape& aShape, Draw_Interpretor& di)
     }
     aTolE=BRep_Tool::Tolerance(aE);
     //
-    const TopTools_ListOfShape& aLF=aEFMap(i);
-    TopTools_ListIteratorOfListOfShape aFIt(aLF);
-    for (; aFIt.More(); aFIt.Next()) {
-      const TopoDS_Face& aF=TopoDS::Face(aFIt.Value());
+    for (auto anS : aEFMap(i)) {
+      const TopoDS_Face& aF=TopoDS::Face(anS);
       //
       // Map of surfaces on which the edge lays .
       TColStd_IndexedMapOfTransient aSCRMap;

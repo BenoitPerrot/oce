@@ -66,16 +66,17 @@ void ShapeFix_EdgeConnect::Add (const TopoDS_Edge& aFirst, const TopoDS_Edge& aS
 	// Concatenate lists
 	TopTools_ListOfShape& theFirstList = myLists( theFirstShared );
 	TopTools_ListOfShape& theSecondList = myLists( theSecondShared );
-	for ( TopTools_ListIteratorOfListOfShape theIterator( theSecondList );
-	      theIterator.More();
-	      theIterator.Next() ) {
+	for (TopTools_ListIteratorOfListOfShape theIterator = begin(theSecondList);
+	     theIterator != end(theSecondList);
+	     ++theIterator) {
 	  // Rebind shared vertex for current one
-	  myVertices( theIterator.Value() ) = theFirstShared;
+	  myVertices( *theIterator ) = theFirstShared;
 	  // Skip the following edge
-	  theIterator.Next();
+	  ++theIterator;
+#warning bound checking missing
 	}
 	// Append second list to the first one
-	theFirstList.Append( theSecondList );
+	theFirstList.insert(end(theFirstList), begin(theSecondList), end(theSecondList));
 	// Unbind the second shared vertex
 	myLists.UnBind( theSecondShared );
       }
@@ -160,17 +161,17 @@ void ShapeFix_EdgeConnect::Build ()
         theSIterator.More();
         theSIterator.Next() ) {
     TopoDS_Vertex theSharedVertex = TopoDS::Vertex( theSIterator.Key() );
-    const TopTools_ListOfShape& theList = theSIterator.Value();
+    TopTools_ListOfShape theList = theSIterator.Value();
 
     thePositions.Clear();
 
     // Iterate on edges, accumulating positions
-    for ( theLIterator.Initialize( theList );
-	  theLIterator.More();
-	  theLIterator.Next() ) {
-      TopoDS_Vertex& theVertex = TopoDS::Vertex( theLIterator.Value() );
-      theLIterator.Next();
-      TopoDS_Edge& theEdge = TopoDS::Edge( theLIterator.Value() );
+    for ( theLIterator = begin(theList);
+	  theLIterator != end(theList);
+	  ++theLIterator ) {
+      TopoDS_Vertex& theVertex = TopoDS::Vertex( *theLIterator );
+      ++theLIterator;
+      TopoDS_Edge& theEdge = TopoDS::Edge( *theLIterator );
 
       // Determine usage of curve bound points
       TopoDS_Vertex theStart, theEnd;
@@ -239,12 +240,12 @@ void ShapeFix_EdgeConnect::Build ()
     theBuilder.UpdateVertex( theSharedVertex, gp_Pnt(thePosition), theMaxDev );
 
     // Iterate on edges, adding shared vertex
-    for ( theLIterator.Initialize( theList );
-	  theLIterator.More();
-	  theLIterator.Next() ) {
-      TopoDS_Vertex& theVertex = TopoDS::Vertex( theLIterator.Value() );
-      theLIterator.Next();
-      TopoDS_Edge& theEdge = TopoDS::Edge( theLIterator.Value() );
+    for ( theLIterator = begin( theList );
+	  theLIterator != end(theList);
+	  ++theLIterator ) {
+      TopoDS_Vertex& theVertex = TopoDS::Vertex( *theLIterator );
+      ++theLIterator;
+      TopoDS_Edge& theEdge = TopoDS::Edge( *theLIterator );
 
       // Determine usage of old vertices
       TopoDS_Vertex theStart, theEnd;

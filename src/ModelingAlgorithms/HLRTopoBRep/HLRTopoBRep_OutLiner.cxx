@@ -144,11 +144,8 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
 	TopoDS_Edge E = TopoDS::Edge(exE.Current());
 	if (myDS.EdgeHasSplE(E)) {
 	  
-	  TopTools_ListIteratorOfListOfShape itS;
-	  for (itS.Initialize(myDS.EdgeSplE(E));
-	       itS.More();
-	       itS.Next()) {
-	    TopoDS_Edge newE = TopoDS::Edge(itS.Value());
+	  for (auto NewS : myDS.EdgeSplE(E)) {
+	    TopoDS_Edge newE = TopoDS::Edge(NewS);
 	    newE.Orientation(E.Orientation());
 	    myDS.AddOldS(newE,E);
 	    B.Add(W,newE);
@@ -167,11 +164,8 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
   if (myDS.FaceHasIntL(F)) { // get the InternalOutLines on face F
     TopoDS_Wire W;
     
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(myDS.FaceIntL(F));
-	itE.More();
-	itE.Next()) {
-      TopoDS_Edge E = TopoDS::Edge(itE.Value());
+    for(auto SInt : myDS.FaceIntL(F)) {
+      TopoDS_Edge E = TopoDS::Edge(SInt);
       E.Orientation(TopAbs_INTERNAL);
       //Check, if outline edge coincides real edge
 
@@ -184,9 +178,8 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
       Standard_Boolean SameEdge = Standard_False;
       if(!V1.IsNull() && aVEMap.Contains(V1)) {
 	const TopTools_ListOfShape& aEList = aVEMap.FindFromKey(V1);
-	TopTools_ListIteratorOfListOfShape it(aEList);
-	for(; it.More(); it.Next()) {
-	  const TopoDS_Edge& aE = TopoDS::Edge(it.Value());
+	for (auto S2 : aEList) {
+	  const TopoDS_Edge& aE = TopoDS::Edge(S2);
 	  TopExp::Vertices(aE, aV1, aV2);
 
 	  if((V1.IsSame(aV1) && V2.IsSame(aV2)) || (V1.IsSame(aV2) && V2.IsSame(aV1))) {
@@ -228,11 +221,7 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
 	      
       if (myDS.EdgeHasSplE(E)) { 
 	
-	TopTools_ListIteratorOfListOfShape itS;
-	for (itS.Initialize(myDS.EdgeSplE(E));
-	     itS.More();
-	     itS.Next()) {
-	  TopoDS_Shape newE = itS.Value();
+	for (auto newE : myDS.EdgeSplE(E)) {
 	  newE.Orientation(TopAbs_INTERNAL);
 	  if (W.IsNull()) B.MakeWire(W);
 	  myDS.AddOldS(newE,F);
@@ -251,19 +240,13 @@ void HLRTopoBRep_OutLiner::ProcessFace(const TopoDS_Face& F,
   if (myDS.FaceHasIsoL(F)) { // get the IsoLines on face F
     TopoDS_Wire W;
     
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(myDS.FaceIsoL(F));
-	itE.More();
-	itE.Next()) {
-      TopoDS_Edge E = TopoDS::Edge(itE.Value());
+    for(auto SIso : myDS.FaceIsoL(F)) {
+      TopoDS_Edge E = TopoDS::Edge(SIso);
       E.Orientation(TopAbs_INTERNAL);
       if (myDS.EdgeHasSplE(E)) { // normaly IsoLines are never splitted.
 	
-	TopTools_ListIteratorOfListOfShape itS;
-	for (itS.Initialize(myDS.EdgeSplE(E));
-	     itS.More();
-	     itS.Next()) {
-	  TopoDS_Shape newE = itS.Value();
+	for (auto S2 : myDS.EdgeSplE(E)) {
+	  TopoDS_Shape newE = S2;
 	  newE.Orientation(TopAbs_INTERNAL);
 	  if (W.IsNull()) B.MakeWire(W);
 	  myDS.AddOldS(newE,F);

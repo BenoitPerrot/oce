@@ -104,10 +104,7 @@ void BRepTools_Substitution::Build(const TopoDS_Shape& S)
       TopAbs_Orientation          OS = iteS.Value().Orientation();
       TopTools_ListOfShape L;
       L  = myMap(iteS.Value());
-      TopTools_ListIteratorOfListOfShape iteL(L);
-
-      for ( ; iteL.More(); iteL.Next()){
-	const TopoDS_Shape NSS = iteL.Value();
+      for (auto NSS : L){
 	//------------------------------------------
 	// Rebuild NSS and add its copy to NewS.
 	//------------------------------------------
@@ -115,10 +112,8 @@ void BRepTools_Substitution::Build(const TopoDS_Shape& S)
 
 	const TopTools_ListOfShape&  NL = myMap(NSS);
 	TopAbs_Orientation NewOr = TopAbs::Compose(OS,NSS.Orientation());		
-	TopTools_ListIteratorOfListOfShape iteNL(NL);
-
-	for ( ; iteNL.More(); iteNL.Next()){
-	  B.Add (NewS,iteNL.Value().Oriented(NewOr));
+	for (auto NLS : NL){
+	  B.Add (NewS,NLS.Oriented(NewOr));
 	  HasSubShape = Standard_True;
 	}
       }

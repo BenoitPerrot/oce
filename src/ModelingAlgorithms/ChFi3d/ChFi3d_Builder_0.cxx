@@ -298,9 +298,8 @@ void ChFi3d_EnlargeBox(const TopoDS_Edge&           E,
 {
   BRepAdaptor_Curve BC(E);
   box.Add(BC.Value(w));
-  TopTools_ListIteratorOfListOfShape It;
-  for(It.Initialize(LF); It.More(); It.Next()) {
-    TopoDS_Face F = TopoDS::Face(It.Value());
+  for (auto S : LF) {
+    TopoDS_Face F = TopoDS::Face(S);
     if(!F.IsNull()) {
       BC.Initialize(E,F);
       box.Add(BC.Value(w));
@@ -384,15 +383,14 @@ void ChFi3d_conexfaces(const TopoDS_Edge& E,
                        TopoDS_Face&       F2,
                        const ChFiDS_Map&  EFMap)
 {
-  TopTools_ListIteratorOfListOfShape It;
   F1.Nullify();
   F2.Nullify();
-  for(It.Initialize(EFMap(E));It.More();It.Next()) {  
+  for (auto S : EFMap(E)) {  
     if (F1.IsNull()) {
-      F1 = TopoDS::Face(It.Value());
+      F1 = TopoDS::Face(S);
     }
     else {
-      F2 = TopoDS::Face(It.Value());
+      F2 = TopoDS::Face(S);
       if(!F2.IsSame(F1) || BRep_Tool::IsClosed(E,F1)) {
 	break;
       }
@@ -4330,12 +4328,15 @@ void ChFi3d_cherche_face1 (const TopTools_ListOfShape & map,
 			   TopoDS_Face &  F)   
 { 
   TopoDS_Face Fcur;
-  Standard_Boolean trouve=Standard_False;
-  TopTools_ListIteratorOfListOfShape It;
-  for (It.Initialize(map);It.More()&&!trouve;It.Next()) { 
-    Fcur=TopoDS::Face (It.Value());
+#warning find
+  Standard_Boolean trouve = Standard_False;
+  for (auto S : map) {
+    if (trouve) break;
+    Fcur = TopoDS::Face(S);
     if (!Fcur.IsSame(F1)) {
-      F=Fcur;trouve=Standard_True;}
+      F=Fcur;
+      trouve=Standard_True;
+    }
   }
 } 
 //=======================================================================
@@ -4428,15 +4429,16 @@ void ChFi3d_cherche_edge(const TopoDS_Vertex & V,
 //           
 //=======================================================================
 Standard_Integer  ChFi3d_nbface (const TopTools_ListOfShape & mapVF )
-{ Standard_Integer nface=0;     
-  TopTools_ListIteratorOfListOfShape ItF,JtF;
+{
+  Standard_Integer nface=0;     
   Standard_Integer  fj = 0;
-  for (ItF.Initialize(mapVF); ItF.More(); ItF.Next()) {
+  for (const TopoDS_Shape& cur : mapVF) {
     fj++;
     Standard_Integer kf = 1;
-    const TopoDS_Shape& cur = ItF.Value();
-    for (JtF.Initialize(mapVF); JtF.More( )&&(kf<fj); JtF.Next(), kf++) {
-      if(cur.IsSame(JtF.Value())) break;
+    for (auto S2 : mapVF) {
+      if (fj <= kf) break;
+      if(cur.IsSame(S2)) break;
+      kf++;
     }
     if(kf == fj) nface++;
   }
@@ -4451,14 +4453,14 @@ Standard_Integer  ChFi3d_nbface (const TopTools_ListOfShape & mapVF )
 void ChFi3d_edge_common_faces (const TopTools_ListOfShape & mapEF,
                                TopoDS_Face & F1,
                                TopoDS_Face &  F2)   
-{ TopTools_ListIteratorOfListOfShape It;
+{
   TopoDS_Face F;
-  Standard_Boolean trouve;
-  It.Initialize(mapEF);  
-  F1=TopoDS::Face(It.Value());
-  trouve=Standard_False;
-  for(It.Initialize(mapEF);It.More()&&!trouve;It.Next()) { 
-     F=TopoDS::Face (It.Value());
+#warning find
+  F1=TopoDS::Face(mapEF.front());
+  Standard_Boolean trouve = Standard_False;
+  for(auto S : mapEF) {
+    if (trouve) break;
+     F=TopoDS::Face(S);
      if (!F.IsSame(F1)) {
        F2=F;trouve=Standard_True;
      }
@@ -4502,14 +4504,14 @@ void ChFi3d_ChercheBordsLibres(const  ChFiDS_Map & myVEMap,
 			       TopoDS_Edge & edgelibre2) 
 { 
   bordlibre=Standard_False;
-  TopTools_ListIteratorOfListOfShape ItE,ItE1;
   Standard_Integer nboccur;
-  for (ItE.Initialize(myVEMap(V1)); ItE.More()&&!bordlibre; ItE.Next()) {
+  for (auto S : myVEMap(V1)) {
+    if (bordlibre) break;
     nboccur=0;
-    const TopoDS_Edge& cur = TopoDS::Edge(ItE.Value());
+    const TopoDS_Edge& cur = TopoDS::Edge(S);
     if (!BRep_Tool::Degenerated(cur)) {
-      for (ItE1.Initialize(myVEMap(V1)); ItE1.More(); ItE1.Next()) {
-        const TopoDS_Edge& cur1 = TopoDS::Edge(ItE1.Value());
+      for (auto S1 : myVEMap(V1)) {
+        const TopoDS_Edge& cur1 = TopoDS::Edge(S1);
         if (cur1.IsSame(cur)) nboccur++;
       }
     }
@@ -4520,12 +4522,13 @@ void ChFi3d_ChercheBordsLibres(const  ChFiDS_Map & myVEMap,
   }
   if (bordlibre) {
     bordlibre=Standard_False;
-    for (ItE.Initialize(myVEMap(V1)); ItE.More()&&!bordlibre; ItE.Next()) {
+    for (auto S : myVEMap(V1)) {
+      if (bordlibre) break;
       nboccur=0;
-      const TopoDS_Edge& cur = TopoDS::Edge(ItE.Value());
+      const TopoDS_Edge& cur = TopoDS::Edge(S);
       if (!BRep_Tool::Degenerated(cur)&&!cur.IsSame(edgelibre1)) {
-	for (ItE1.Initialize(myVEMap(V1)); ItE1.More(); ItE1.Next()) {
-	  const TopoDS_Edge& cur1 = TopoDS::Edge(ItE1.Value());
+	for (auto S1 : myVEMap(V1)) {
+	  const TopoDS_Edge& cur1 = TopoDS::Edge(S1);
 	  if (cur1.IsSame(cur)) nboccur++;
 	}
       }
@@ -4545,10 +4548,9 @@ void ChFi3d_ChercheBordsLibres(const  ChFiDS_Map & myVEMap,
 Standard_Integer ChFi3d_NbNotDegeneratedEdges (const TopoDS_Vertex& Vtx,
 				      const ChFiDS_Map& VEMap)
 {
-  TopTools_ListIteratorOfListOfShape ItE;
   Standard_Integer nba=VEMap(Vtx).size();
-  for (ItE.Initialize(VEMap(Vtx)); ItE.More(); ItE.Next()) {
-    const TopoDS_Edge& cur = TopoDS::Edge(ItE.Value());
+  for (auto S : VEMap(Vtx)) {
+    const TopoDS_Edge& cur = TopoDS::Edge(S);
     if (BRep_Tool::Degenerated(cur)) nba--;
   }
   return nba;

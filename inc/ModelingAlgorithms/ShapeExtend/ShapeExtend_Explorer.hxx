@@ -11,12 +11,12 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopTools/Handle_TopTools_HSequenceOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_ShapeEnum.hxx>
 class Standard_TypeMismatch;
 class TopoDS_Shape;
 class TopTools_HSequenceOfShape;
-class TopTools_ListOfShape;
 
 
 //! This class is intended to

@@ -22,7 +22,6 @@
 class TopoDS_Face;
 class GeomAdaptor_Surface;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopTools_DataMapOfOrientedShapeInteger;
 class TopOpeBRepTool_C2DF;

@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_InternalBuilder.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_StatusDone.hxx>
 #include <ModelingAlgorithms/FilletSurf/FilletSurf_ErrorTypeStatus.hxx>
@@ -23,7 +24,6 @@
 class StdFail_NotDone;
 class Standard_OutOfRange;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class Geom_Surface;
 class TopoDS_Face;
 class Geom_Curve;

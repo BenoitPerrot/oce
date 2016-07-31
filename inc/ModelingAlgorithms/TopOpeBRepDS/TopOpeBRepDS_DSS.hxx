@@ -20,7 +20,6 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_Config.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopOpeBRepDS_MapOfIntegerShapeData;
 class TopOpeBRepDS_Interference;
 

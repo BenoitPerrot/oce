@@ -171,7 +171,7 @@ const TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::Modified(const TopoDS_
 
     if(myFuseEdges) {
       TopTools_ListOfShape theLS;
-      theLS.Assign(myGenerated);
+      theLS.assign(begin(myGenerated), end(myGenerated));
       //
       RefinedList(theLS);
     }
@@ -360,7 +360,7 @@ const  TopTools_ListOfShape& BRepAlgoAPI_BooleanOperation::SectionEdges()
   //
   if(myFuseEdges) {
     TopTools_ListOfShape theLS;
-    theLS.Assign(myGenerated);
+    theLS.assign(begin(myGenerated), end(myGenerated));
     //
     RefinedList(theLS);
   }
@@ -461,10 +461,8 @@ Standard_Boolean BRepAlgoAPI_BooleanOperation::HasDeleted() const
     Standard_Integer i;
     for(i = 1; i <= nle; ++i) {
       const TopoDS_Shape& aNewE = aResultEdges(i);
-      const TopTools_ListOfShape& aListOfOldEdges = aFusedEdges(i);
-      TopTools_ListIteratorOfListOfShape anIter(aListOfOldEdges);
-      for(; anIter.More(); anIter.Next()) {
-        myEdgeMap.Bind(anIter.Value(), aNewE);
+      for (auto S : aFusedEdges(i)) {
+        myEdgeMap.Bind(S, aNewE);
       }
     }
   }
@@ -480,10 +478,7 @@ const TopTools_ListOfShape&
   myGenerated.clear();
   TopTools_MapOfShape aMap;
 
-  TopTools_ListIteratorOfListOfShape anIter(theL);
-
-  for(; anIter.More(); anIter.Next()) {
-    const TopoDS_Shape& anS = anIter.Value();
+  for (auto anS : theL) {
 
     if(anS.ShapeType() == TopAbs_EDGE) {
       if(myEdgeMap.IsBound(anS)) {

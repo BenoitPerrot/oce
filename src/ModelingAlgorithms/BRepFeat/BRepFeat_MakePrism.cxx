@@ -180,7 +180,7 @@ void BRepFeat_MakePrism::Init(const TopoDS_Shape& Sbase,
 //function : Add
 //purpose  : add elements of sliding (edge on face)
 //=======================================================================
-
+#warning factor with MakeRevol,MakePipe::Add
 void BRepFeat_MakePrism::Add(const TopoDS_Edge& E,
 			     const TopoDS_Face& F)
 {
@@ -211,13 +211,15 @@ void BRepFeat_MakePrism::Add(const TopoDS_Edge& E,
     TopTools_ListOfShape thelist1;
     mySlface.Bind(F, thelist1);
   }
-  TopTools_ListIteratorOfListOfShape itl(mySlface(F));
-  for (; itl.More();itl.Next()) {
-    if (itl.Value().IsSame(E)) {
+#warning find
+  Standard_Boolean found = Standard_False;
+  for (auto S : mySlface(F)) {
+    if (S.IsSame(E)) {
+      found = Standard_True;
       break;
     }
   }
-  if (!itl.More()) {
+  if (!found) {
     mySlface(F).push_back(E);
   }
 }

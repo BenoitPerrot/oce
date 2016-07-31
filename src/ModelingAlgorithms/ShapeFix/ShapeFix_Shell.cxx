@@ -428,10 +428,9 @@ static Standard_Boolean AddMultiConexityFaces(TopTools_SequenceOfShape& Lface,
       else reve.Add(edge);
       TopTools_ListOfShape lf;
       lf = aMapEdgeFaces.FindFromKey(edge);
-      lfaces.Append(lf);
+      lfaces.insert(end(lfaces), begin(lf), end(lf));
     }
-    for(TopTools_ListIteratorOfListOfShape aItl(lfaces) ; aItl.More(); aItl.Next()) {
-      TopoDS_Shape aF = aItl.Value();
+    for(auto aF : lfaces) {
       if(!aMapFaceShells.IsBound( aF)) continue;
      
       TopoDS_Shape aOthershell;
@@ -734,16 +733,16 @@ static void CreateNonManifoldShells(TopTools_SequenceOfShape& SeqShells,
     TopTools_MapOfShape mapmerge;
     Standard_Boolean ismerged = Standard_False;
     Standard_Integer num = 1;
-    for(TopTools_ListIteratorOfListOfShape alit(LShells); alit.More();alit.Next(),num++) { 
-      if(!aMapShells.Contains(alit.Value())) {
-        for(TopExp_Explorer aEf(alit.Value(),TopAbs_FACE); aEf.More(); aEf.Next()) {
+    for(auto SS : LShells) { 
+      if(!aMapShells.Contains(SS)) {
+        for(TopExp_Explorer aEf(SS,TopAbs_FACE); aEf.More(); aEf.Next()) {
           aB.Add(aNewShell,aEf.Current());
         }
         ismerged = Standard_True;
-        mapmerge.Add(alit.Value());
+        mapmerge.Add(SS);
       }
       else if(ismerged) {
-        TopoDS_Shape arshell = aMapShells.FindFromKey(alit.Value());
+        TopoDS_Shape arshell = aMapShells.FindFromKey(SS);
         while(aMapShells.Contains(arshell)){
           TopoDS_Shape ss = aMapShells.FindFromKey(arshell);
           if(ss.IsSame(arshell)) break;
@@ -758,7 +757,7 @@ static void CreateNonManifoldShells(TopTools_SequenceOfShape& SeqShells,
         }
       }
       else {
-        TopoDS_Shape arshell = aMapShells.FindFromKey(alit.Value());
+        TopoDS_Shape arshell = aMapShells.FindFromKey(SS);
          while(aMapShells.Contains(arshell)) {
           TopoDS_Shape ss = aMapShells.FindFromKey(arshell);
           if(ss.IsSame(arshell)) break;
@@ -777,6 +776,7 @@ static void CreateNonManifoldShells(TopTools_SequenceOfShape& SeqShells,
           mapmerge.Add(arshell);
         }
       }
+      num++;
     }
     if(mapmerge.Extent() >1 || ismerged) {
       for(TopTools_MapIteratorOfMapOfShape alit1(mapmerge); alit1.More();alit1.Next()) {

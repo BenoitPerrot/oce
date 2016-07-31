@@ -25,7 +25,6 @@
 class IntTools_Context;
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;
-class TopTools_ListOfShape;
 
 
 

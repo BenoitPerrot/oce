@@ -49,7 +49,6 @@ class TopoDS_Shape;
 class TopoDS_Edge;
 class ChFiDS_Spine;
 class TopoDS_Vertex;
-class TopTools_ListOfShape;
 class Geom_Surface;
 class ChFiDS_SurfData;
 class ChFiDS_HElSpine;

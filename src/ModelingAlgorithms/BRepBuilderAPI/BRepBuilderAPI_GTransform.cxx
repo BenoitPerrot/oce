@@ -89,9 +89,11 @@ const TopTools_ListOfShape& BRepBuilderAPI_GTransform::Modified
   const TopTools_DataMapOfShapeListOfShape& M = myHist.Modification();
   if (M.IsBound(F)) { 
     TopTools_ListOfShape Li;
-    TopTools_ListIteratorOfListOfShape itL(M(F));
-    for (;itL.More();itL.Next())
-      Li.Assign(BRepBuilderAPI_ModifyShape::Modified(itL.Value()));
+    for (auto S : M(F)) {
+#warning supicious: only the last resulting list is actually in Li
+      auto x = BRepBuilderAPI_ModifyShape::Modified(S);
+      Li.assign(begin(x), end(x));
+    }
   }
   return myGenerated;
 }

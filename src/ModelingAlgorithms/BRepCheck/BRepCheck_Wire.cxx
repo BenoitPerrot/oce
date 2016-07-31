@@ -739,9 +739,8 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
         break;
       }
 
-      for (TopTools_ListIteratorOfListOfShape itls(myMapVE(ind));
-           itls.More(); itls.Next()) {
-        const TopoDS_Edge & edg = TopoDS::Edge(itls.Value());
+      for (auto S : myMapVE(ind)) {
+	const TopoDS_Edge & edg = TopoDS::Edge(S);
 
         orient = edg.Orientation();
         if (mapS.Contains(edg)) ortmp = GetOrientation(mapS,edg);
@@ -906,9 +905,8 @@ BRepCheck_Status BRepCheck_Wire::Orientation(const TopoDS_Face& F,
 	ledge.clear();
 // 	ind = myMapVE.FindIndex(VF);
 	ind = myMapVE.FindIndex(aVRef);
-	for (TopTools_ListIteratorOfListOfShape itlsh(myMapVE(ind));
-	     itlsh.More(); itlsh.Next()) {
-	  const TopoDS_Edge & edg = TopoDS::Edge(itlsh.Value());
+	for (auto S : myMapVE(ind)) {
+	  const TopoDS_Edge & edg = TopoDS::Edge(S);
 	  orient = edg.Orientation();
 	  if (!theRef.IsSame(edg)) {
 	    for (vte.Init(edg,TopAbs_VERTEX);vte.More(); vte.Next()) {
@@ -1204,12 +1202,11 @@ BRepCheck_Status BRepCheck_Wire::SelfIntersect(const TopoDS_Face& F,
 	      P3d2 = HS->Value(aP2d.X(), aP2d.Y());
 	    }
 	    //  Modified by Sergey KHROMOV - Mon Apr 15 12:34:22 2002 End
-	    itl.Initialize( CommonVertices );
-	    for (; itl.More(); itl.Next()) {
+	    for (auto S : CommonVertices) {
 	      Standard_Real p3dvttDistanceP3d, p3dvttDistanceP3d2;
 	      gp_Pnt p3dvtt;
 	      //
-	      const TopoDS_Vertex& vtt = TopoDS::Vertex(itl.Value());
+	      const TopoDS_Vertex& vtt = TopoDS::Vertex(S);
 	      p3dvtt = BRep_Tool::Pnt(vtt);
 	      tolvtt =  BRep_Tool::Tolerance(vtt);
 	      tolvtt=1.1*tolvtt;
@@ -1241,12 +1238,11 @@ BRepCheck_Status BRepCheck_Wire::SelfIntersect(const TopoDS_Face& F,
 	      VParaOnEdge2 =0.;
 	      distauvtxleplusproche=RealLast();
 	      //Find the nearest common vertex
-	      itl.Initialize( CommonVertices );
-	      for (; itl.More(); itl.Next())   {
+	      for (auto S : CommonVertices)   {
 		Standard_Real disptvtx;
 		gp_Pnt p3dvtt;
 		//
-		const TopoDS_Vertex& vtt = TopoDS::Vertex(itl.Value());
+		const TopoDS_Vertex& vtt = TopoDS::Vertex(S);
 		p3dvtt = BRep_Tool::Pnt(vtt);
 		disptvtx = P3d.Distance(p3dvtt);
 		if (disptvtx < distauvtxleplusproche)	{
@@ -1465,12 +1461,11 @@ BRepCheck_Status BRepCheck_Wire::SelfIntersect(const TopoDS_Face& F,
 		P3d2 = HS->Value(aP2d.X(), aP2d.Y());
 	      }
 	      //  Modified by Sergey KHROMOV - Mon Apr 15 12:34:22 2002 End
-	      itl.Initialize( CommonVertices );
-	      for (; itl.More(); itl.Next()) {
+	      for (auto S : CommonVertices) {
 		Standard_Real p3dvttDistanceP3d, p3dvttDistanceP3d2;
 		gp_Pnt p3dvtt;
 		//
-		const TopoDS_Vertex& vtt = TopoDS::Vertex(itl.Value());
+		const TopoDS_Vertex& vtt = TopoDS::Vertex(S);
 		p3dvtt = BRep_Tool::Pnt(vtt);
 		tolvtt =  BRep_Tool::Tolerance(vtt);
 		tolvtt=1.1*tolvtt;
@@ -1562,10 +1557,8 @@ static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapVE,
   do
   {
     TopTools_ListOfShape nextEdges;
-    TopTools_ListIteratorOfListOfShape itrc(currentEdges);
-    for (; itrc.More(); itrc.Next())
+    for (auto Edge : currentEdges)
     {
-      const TopoDS_Shape& Edge = itrc.Value();
       mapE.Add(Edge);
 
       TopExp_Explorer ex(Edge, TopAbs_VERTEX);
@@ -1577,10 +1570,8 @@ static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapVE,
         {
           const TopTools_ListOfShape& edges = mapVE(indv);
 
-          TopTools_ListIteratorOfListOfShape itl(edges);
-          for (; itl.More(); itl.Next())
+          for (auto E : edges)
           {
-            const TopoDS_Shape& E = itl.Value();
             if (!Edge.IsSame(E) && !mapE.Contains(E))
               nextEdges.push_back(E);
           }
@@ -1617,15 +1608,14 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
              const TopoDS_Edge& theEdge,
              const TopoDS_Face& theFace,
              TopTools_ListOfShape& theLOfShape)
-  {
-  TopTools_ListIteratorOfListOfShape It( theLOfShape );
-  while (It.More())
-    {
-    if (theEdge.IsSame( It.Value() ))
+{
+  TopTools_ListIteratorOfListOfShape It = begin(theLOfShape);
+  while (It != end(theLOfShape)) {
+    if (theEdge.IsSame(*It))
       It = theLOfShape.erase( It );
     else
-      It.Next();
-    }
+      ++It;
+  }
 
   Standard_Real aTol3d	= BRep_Tool::Tolerance(theVertex);
 
@@ -1655,12 +1645,10 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
   if (aVOrientation != anEdgOrientation)
     aDerRef.Reverse();
 
-  It.Initialize(theLOfShape);
-
-  for (; It.More(); It.Next())
+  for (auto S : theLOfShape)
     {
     anIndex++;
-    const TopoDS_Edge& anE=TopoDS::Edge(It.Value());
+    const TopoDS_Edge& anE=TopoDS::Edge(S);
     C2d = BRep_Tool::CurveOnSurface(anE, theFace, aFirstParam, aLastParam);
     if(C2d.IsNull())
       continue;
@@ -1751,13 +1739,9 @@ void ChoixUV(const TopoDS_Vertex& theVertex,
       anIndex++;
       }
 
-    It.Initialize(theLOfShape);
-    It.Next();
-
-    while (It.More())
-      It = theLOfShape.erase(It);
-    }
-  }//End of function
+    theLOfShape.erase(next(begin(theLOfShape)), end(theLOfShape));
+  }
+}//End of function
 
 
 //=======================================================================
@@ -1867,10 +1851,8 @@ static Standard_Boolean IsClosed2dForPeriodicFace
   Standard_Real       aDistP1P2 = theP1.Distance(theP2);
 
 
-  TopTools_ListIteratorOfListOfShape anIter(aSeamEdges);
-
-  for (; anIter.More(); anIter.Next()) {
-    TopoDS_Edge aSeamEdge = TopoDS::Edge(anIter.Value());
+  for (auto S : aSeamEdges) {
+    TopoDS_Edge aSeamEdge = TopoDS::Edge(S);
 
     anExp.Init(aSeamEdge, TopAbs_VERTEX);
     for (; anExp.More(); anExp.Next()) {

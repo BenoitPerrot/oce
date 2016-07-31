@@ -246,14 +246,10 @@ void LocOpe_Gluer::Perform()
 	 itd.More(); 
 	 itd.Next()) {
       TopTools_ListOfShape newDesc;
-      TopTools_ListIteratorOfListOfShape itl;
-      for (itl.Initialize(itd.Value());
-	   itl.More();
-	   itl.Next()) {
-	TopTools_ListIteratorOfListOfShape itl2
-	  (theGen.DescendantFace(TopoDS::Face(itl.Value())));
-	for (; itl2.More(); itl2.Next()) {
-	  const TopoDS_Face& descface =TopoDS::Face(itl2.Value());
+      for (auto s : itd.Value()) {
+	auto &descendantFaces = theGen.DescendantFace(TopoDS::Face(s));
+	for (auto s2 : descendantFaces) {
+	  const TopoDS_Face& descface =TopoDS::Face(s2);
 	  if (!descface.IsNull()) { // sinon la face a disparu
 	    newDesc.push_back(descface);
 	  }
@@ -439,11 +435,9 @@ static TopAbs_Orientation GetOrientation(const TopoDS_Face& Fn,
 static Standard_Boolean Contains(const TopTools_ListOfShape& L,
 				 const TopoDS_Shape& S)
 {
-  TopTools_ListIteratorOfListOfShape it;
-  for (it.Initialize(L);
-       it.More();
-       it.Next()) {
-    if (it.Value().IsSame(S)) {
+#warning find
+  for (auto I : L) {
+    if (I.IsSame(S)) {
       return Standard_True;
     }
   }

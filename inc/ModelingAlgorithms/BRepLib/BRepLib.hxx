@@ -15,12 +15,12 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class Geom_Plane;
 class TopoDS_Edge;
 class TopoDS_Shape;
 class TopoDS_Solid;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class BRepLib_Command;
 class BRepLib_MakeShape;
 class BRepLib_MakeVertex;

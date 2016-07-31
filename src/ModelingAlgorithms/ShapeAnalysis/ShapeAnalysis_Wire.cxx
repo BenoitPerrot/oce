@@ -1850,14 +1850,13 @@ Standard_Boolean isMultiVertex(const TopTools_ListOfShape& alshape,
                                const TopTools_MapOfShape& aMapSmallEdges,
                                const TopTools_MapOfShape& aMapSeemEdges)
 {
-  TopTools_ListIteratorOfListOfShape lIt1(alshape);
   Standard_Integer nbNotAccount =0;
   
-  for( ; lIt1.More() ; lIt1.Next()) 
+  for(auto S : alshape)
   {
-    if(aMapSmallEdges.Contains(lIt1.Value()))
+    if(aMapSmallEdges.Contains(S))
       nbNotAccount++;
-    else if(aMapSeemEdges.Contains(lIt1.Value()))
+    else if(aMapSeemEdges.Contains(S))
       nbNotAccount++;
   }
   return ((alshape.size() -nbNotAccount) >2); 

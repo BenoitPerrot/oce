@@ -16,7 +16,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class TopoDS_Shape;
 
 

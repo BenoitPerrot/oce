@@ -195,17 +195,16 @@ void BRepTools_Modifier::Perform(const Handle(BRepTools_Modification)& M, const 
 	MaxDeflection = Max(MaxDeflection,Po->Deflection());
       }
 */
-      TopTools_ListIteratorOfListOfShape it;
-      it.Initialize(theEFMap.FindFromKey(edg));
       TopoDS_Face F1,F2;
-      while (it.More() && F2.IsNull()) {
+      for (auto FFK : theEFMap.FindFromKey(edg)) {
         if (F1.IsNull()) {
-          F1 = TopoDS::Face(it.Value());
+          F1 = TopoDS::Face(FFK);
         }
         else {
-          F2 = TopoDS::Face(it.Value());
+          F2 = TopoDS::Face(FFK);
+	  if (!F2.IsNull())
+	    break;
         }
-        it.Next();
       }
       if (!F2.IsNull()) {
         const TopoDS_Edge& newedg = TopoDS::Edge(myMap(edg));

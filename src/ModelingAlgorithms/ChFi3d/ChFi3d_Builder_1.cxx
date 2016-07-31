@@ -351,13 +351,12 @@ Standard_Integer ChFi3d_Builder::NbFaultyVertices() const
 
 TopoDS_Vertex ChFi3d_Builder::FaultyVertex(const Standard_Integer IV) const
 {
-  TopTools_ListIteratorOfListOfShape it;
   TopoDS_Vertex V;
   Standard_Integer k = 0;
-  for(it.Initialize(badvertices);it.More(); it.Next()) {
+  for (auto S : badvertices) {
     k += 1;
     if(k == IV) {
-      V = TopoDS::Vertex(it.Value());
+      V = TopoDS::Vertex(S);
       break;
     }
   }
@@ -426,16 +425,18 @@ Standard_Boolean ChFi3d_Builder::FaceTangency(const TopoDS_Edge& E0,
 					      const TopoDS_Edge& E1,
 					      const TopoDS_Vertex& V) const
 {
-  TopTools_ListIteratorOfListOfShape It,Jt;
   TopoDS_Edge Ec;
   Standard_Integer Nbf;
   TopoDS_Face F[2];
 
   //It is checked if the connection is not on a regular edge.
-  for (It.Initialize(myEFMap(E1)), Nbf= 0 ;It.More();It.Next(), Nbf++) {
+  Nbf = 0;
+  for (auto S1 : myEFMap(E1)) {
+#warning simplify!
     if (Nbf>1) 
       Standard_ConstructionError::Raise("ChFi3d_Builder:only 2 faces");
-    F[Nbf] = TopoDS::Face(It.Value());
+    F[Nbf] = TopoDS::Face(S1);
+    Nbf++;
   }      
   if(Nbf < 2) return Standard_False;
 //  Modified by Sergey KHROMOV - Fri Dec 21 17:44:19 2001 Begin
@@ -445,16 +446,19 @@ Standard_Boolean ChFi3d_Builder::FaceTangency(const TopoDS_Edge& E0,
     return Standard_False;
   }
 
-  for (Jt.Initialize(myVEMap(V));Jt.More();Jt.Next()) {
-    Ec = TopoDS::Edge(Jt.Value());
+  for (auto S : myVEMap(V)) {
+    Ec = TopoDS::Edge(S);
     if (!Ec.IsSame(E0) && !Ec.IsSame(E1) && 
 	Ec.Orientation() != TopAbs_INTERNAL && 
 	Ec.Orientation() != TopAbs_EXTERNAL &&
 	!BRep_Tool::Degenerated(Ec)) {
-      for (It.Initialize(myEFMap(Ec)), Nbf= 0 ;It.More();It.Next(), Nbf++) {
+#warning simplify/factor!
+      Nbf = 0;
+      for (auto Sc : myEFMap(Ec)) {
 	if (Nbf>1) 
 	  Standard_ConstructionError::Raise("ChFi3d_Builder:only 2 faces");
-	F[Nbf] = TopoDS::Face(It.Value());
+	F[Nbf] = TopoDS::Face(S);
+	Nbf++;
       }      
       if(Nbf < 2) return Standard_False;
 //  Modified by Sergey KHROMOV - Tue Dec 18 18:10:40 2001 Begin
@@ -569,11 +573,10 @@ void ChFi3d_Builder::PerformExtremity (const Handle(ChFiDS_Spine)& Spine)
     }
 
     if(sst == ChFiDS_BreakPoint){
-      TopTools_ListIteratorOfListOfShape It;//,Jt;
       Standard_Integer i = 0, j;
       Standard_Boolean sommetpourri = Standard_False;
-      for (It.Initialize(myVEMap(V));It.More();It.Next()){
-	Ec = TopoDS::Edge(It.Value());
+      for (auto S : myVEMap(V)) {
+	Ec = TopoDS::Edge(S);
 	Standard_Boolean bonedge = !BRep_Tool::Degenerated(Ec);
 	if(bonedge){
 	  TopoDS_Vertex v1,v2;
@@ -612,14 +615,15 @@ void ChFi3d_Builder::PerformExtremity (const Handle(ChFiDS_Spine)& Spine)
   }
   
   if (!Spine->IsPeriodic()) {
-    TopTools_ListIteratorOfListOfShape It,Jt;
+    TopTools_ListIteratorOfListOfShape Jt;
     Standard_Integer nbf = 0, jf = 0;
-    for (It.Initialize(myVFMap(Spine->FirstVertex())); It.More(); It.Next()){
+    for (const TopoDS_Shape& cur : myVFMap(Spine->FirstVertex())) {
       jf++;
       Standard_Integer kf = 1;
-      const TopoDS_Shape& cur = It.Value();
-      for (Jt.Initialize(myVFMap(Spine->FirstVertex())); Jt.More() && (kf < jf); Jt.Next(), kf++){
-	if(cur.IsSame(Jt.Value())) break;
+      for (auto S : myVFMap(Spine->FirstVertex())) {
+	if (jf <= kf) break;
+	if(cur.IsSame(S)) break;
+	kf++;
       }
       if(kf == jf) nbf++;
     }
@@ -630,12 +634,13 @@ void ChFi3d_Builder::PerformExtremity (const Handle(ChFiDS_Spine)& Spine)
 #endif
     }
     nbf = 0, jf = 0;
-    for (It.Initialize(myVFMap(Spine->LastVertex())); It.More(); It.Next()){
+    for (const TopoDS_Shape& cur : myVFMap(Spine->LastVertex())) {
       jf++;
       Standard_Integer kf = 1;
-      const TopoDS_Shape& cur = It.Value();
-      for (Jt.Initialize(myVFMap(Spine->LastVertex())); Jt.More() && (kf < jf); Jt.Next(), kf++){
-	if(cur.IsSame(Jt.Value())) break;
+      for (auto S : myVFMap(Spine->LastVertex())) {
+	if (jf <= kf) break;
+	if(cur.IsSame(S)) break;
+	kf++;
       }
       if(kf == jf) nbf++;
     }
@@ -716,8 +721,8 @@ Standard_Boolean ChFi3d_Builder::PerformElement(const Handle(ChFiDS_Spine)& Spin
       CEc.D1(Wl,P2,V1);
       Nb = Spine->NbEdges();
 
-      for (It.Initialize(myVEMap(LVEc));It.More();It.Next()) {
-	Ev = TopoDS::Edge(It.Value());
+      for (auto S : myVEMap(LVEc)) {
+	Ev = TopoDS::Edge(S);
 	if (!Ev.IsSame(Ec) && !BRep_Tool::Degenerated(Ev)){
 	  TopExp::Vertices(Ev,FVEv,LVEv);
 	  if (LVEc.IsSame(LVEv)) {
@@ -764,8 +769,7 @@ Standard_Boolean ChFi3d_Builder::PerformElement(const Handle(ChFiDS_Spine)& Spin
 	    break;
 	  }
 	  else {
-	    for (Jt.Initialize(myEFMap(Ev)), Nbface= 0 ;Jt.More();Jt.Next(), 
-		 Nbface++) {}
+	    Nbface = myEFMap(Ev).size();
 	    if (Nbface> 1) CurSt = ChFiDS_BreakPoint;
 	    Fini = ((!rev && av1v2 < ta) || (rev && (M_PI - av1v2) < ta)); 
 	  }
@@ -790,8 +794,8 @@ Standard_Boolean ChFi3d_Builder::PerformElement(const Handle(ChFiDS_Spine)& Spin
 	CEc.D1(Wl,P2,V1);
 	Nb = Spine->NbEdges();
 
-	for (It.Initialize(myVEMap(FVEc));It.More();It.Next()) {
-	  Ev = TopoDS::Edge(It.Value());
+	for (auto S : myVEMap(FVEc)) {
+	  Ev = TopoDS::Edge(S);
 	  if (!Ev.IsSame(Ec) && !BRep_Tool::Degenerated(Ev)) {
 	    TopExp::Vertices(Ev,FVEv,LVEv);
 	    if (FVEc.IsSame(FVEv)) {
@@ -826,8 +830,7 @@ Standard_Boolean ChFi3d_Builder::PerformElement(const Handle(ChFiDS_Spine)& Spin
 	      break;
 	    }
 	    else {
-	      for(Jt.Initialize(myEFMap(Ev)),Nbface= 0 ;Jt.More();Jt.Next(), 
-		  Nbface++) {}
+	      Nbface = myEFMap(Ev).size();
 	      if (Nbface> 1) CurSt = ChFiDS_BreakPoint;
 	      Fini = ((!rev && av1v2 < ta) || (rev && (M_PI - av1v2) < ta));
 	    }

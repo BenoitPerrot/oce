@@ -197,15 +197,14 @@ void BRepMesh_IncrementalMesh::collectFaces()
   // make array of faces suitable for processing (excluding faces without surface)
   TopLoc_Location aDummyLoc;
   const TopLoc_Location aEmptyLoc;
-  TopTools_ListIteratorOfListOfShape aFaceIter(aFaceList);
-  for (; aFaceIter.More(); aFaceIter.Next())
+  for (TopTools_ListIteratorOfListOfShape aFaceIter = begin(aFaceList); aFaceIter != end(aFaceList); ++aFaceIter)
   {
-    TopoDS_Shape aFaceNoLoc = aFaceIter.Value();
+    TopoDS_Shape aFaceNoLoc = *aFaceIter;
     aFaceNoLoc.Location(aEmptyLoc);
     if (!aFaceMap.Add (aFaceNoLoc))
       continue; // already processed
 
-    TopoDS_Face aFace = TopoDS::Face(aFaceIter.Value());
+    TopoDS_Face aFace = TopoDS::Face(*aFaceIter);
     const Handle(Geom_Surface)& aSurf = BRep_Tool::Surface(aFace, aDummyLoc);
     if (aSurf.IsNull())
       continue;
@@ -477,10 +476,9 @@ void BRepMesh_IncrementalMesh::update(const TopoDS_Face& theFace)
       continue;
      
     const TopTools_ListOfShape& aSharedFaces = aMapOfSharedFaces.FindFromKey(aEdge);
-    TopTools_ListIteratorOfListOfShape aSharedFaceIt(aSharedFaces);
-    for (; aSharedFaceIt.More(); aSharedFaceIt.Next())
+    for (auto S : aSharedFaces)
     {
-      const TopoDS_Face& aFace = TopoDS::Face(aSharedFaceIt.Value());
+      const TopoDS_Face& aFace = TopoDS::Face(S);
       if (aUsedFaces.Contains(aFace))
         continue;
 

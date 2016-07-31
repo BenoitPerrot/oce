@@ -12,6 +12,7 @@
 
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
@@ -19,7 +20,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class TopTools_DataMapOfShapeListOfShape;
 class TopoDS_Edge;
 

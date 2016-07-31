@@ -14,7 +14,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_MapNode.hxx>
 #include <Foundation/TCollection/TCollection_MapNodePtr.hxx>
-class TopTools_ListOfShape;
 class TColStd_MapIntegerHasher;
 class TopTools_DataMapOfIntegerListOfShape;
 class TopTools_DataMapIteratorOfDataMapOfIntegerListOfShape;

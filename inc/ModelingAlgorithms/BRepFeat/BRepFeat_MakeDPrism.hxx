@@ -26,7 +26,6 @@ class TopoDS_Shape;
 class TopoDS_Face;
 class TopoDS_Edge;
 class TColGeom_SequenceOfCurve;
-class TopTools_ListOfShape;
 
 
 //! Describes functions to build draft

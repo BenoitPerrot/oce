@@ -184,9 +184,8 @@ TopOpeBRepBuild_VertexInfo::TopOpeBRepBuild_VertexInfo()
 
   TopTools_IndexedMapOfOrientedShape tmpMap;
   
-  TopTools_ListIteratorOfListOfShape anIt(aL);
-  for (; anIt.More(); anIt.Next()) {
-    tmpMap.Add(anIt.Value());
+  for (auto s : aL) {
+    tmpMap.Add(s);
   }
 
   Standard_Integer i = 1, nb = myEdgesOut.Extent();
@@ -210,9 +209,8 @@ TopOpeBRepBuild_VertexInfo::TopOpeBRepBuild_VertexInfo()
   aNbOut =myLocalEdgesOut.Extent();
   
   TopTools_IndexedMapOfOrientedShape aMapPassed;
-  TopTools_ListIteratorOfListOfShape anIt(myEdgesPassed);
-  for (; anIt.More(); anIt.Next()) {
-    aMapPassed.Add (anIt.Value());
+  for (auto s : myEdgesPassed) {
+    aMapPassed.Add (s);
   }
 
   for (i=1; i<=aNbOut; i++) {

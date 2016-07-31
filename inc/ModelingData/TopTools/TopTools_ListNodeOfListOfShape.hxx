@@ -6,6 +6,7 @@
 #ifndef _TopTools_ListNodeOfListOfShape_HeaderFile
 #define _TopTools_ListNodeOfListOfShape_HeaderFile
 
+#if 0
 #include <Foundation/Standard/Standard.hxx>
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <ModelingData/TopTools/Handle_TopTools_ListNodeOfListOfShape.hxx>
@@ -72,6 +73,6 @@ private:
 #undef TCollection_List_hxx
 
 
-
+#endif
 
 #endif // _TopTools_ListNodeOfListOfShape_HeaderFile

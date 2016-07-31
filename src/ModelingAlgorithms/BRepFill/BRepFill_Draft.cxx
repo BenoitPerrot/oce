@@ -663,15 +663,14 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
   if (NbPaquet > 1) {
     // It is required to select packs.
     TColStd_Array1OfReal Dist(1, NbPaquet);
-    TopTools_ListIteratorOfListOfShape it(List);
     Standard_Real D, Dmin = 1.e10;
-    Standard_Integer ii;
  
     //Classify the packs by distance.
     BRepExtrema_DistShapeShape Dist2;
     Dist2.LoadS1( myWire );
-    for (ii=1; it.More();it.Next(),ii++){
-      Dist2.LoadS2( it.Value() );
+    Standard_Integer ii = 1;
+    for (auto S : List){
+      Dist2.LoadS2(S);
       Dist2.Perform();
       if (Dist2.IsDone()) {
 	D = Dist2.Value();
@@ -680,18 +679,21 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
       }
       else
 	Dist(ii) = 1.e10;
+      ii++;
     }
 
     // remove edges "farther" than Dmin
-    for (ii=1, it.Initialize(List); it.More();it.Next(), ii++){
+    ii = 1;
+    for (auto S : List) {
       if (Dist(ii) > Dmin) {
-	DSA.SuppressEdgeSet(it.Value());
+	DSA.SuppressEdgeSet(S);
       }
 #if DRAW
      else if (Affich) {
-	DBRep::Set("KeepEdges", it.Value());
+	DBRep::Set("KeepEdges", S);
       }
 #endif
+      ii++;
     }
   }
 
@@ -700,8 +702,7 @@ static Standard_Boolean GoodOrientation(const Bnd_Box& B,
 
     //(1) Return an edge of section
     List  = DSA.GetSectionEdgeSet();// list of edges
-    TopTools_ListIteratorOfListOfShape it(List);
-    TopoDS_Iterator iter(it.Value());
+    TopoDS_Iterator iter(List.front());
     TopoDS_Edge E = TopoDS::Edge(iter.Value());
 
     //(2) Return geometry on StopShape

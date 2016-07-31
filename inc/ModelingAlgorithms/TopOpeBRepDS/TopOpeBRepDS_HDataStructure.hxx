@@ -22,6 +22,7 @@
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_Interference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListOfInterference.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/TopOpeBRepDS_ListIteratorOfListOfInterference.hxx>
+#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 class TopoDS_Shape;
 class TopOpeBRepDS_DataStructure;
 class TopOpeBRepDS_Surface;
@@ -29,7 +30,6 @@ class TopOpeBRepDS_CurveIterator;
 class TopOpeBRepDS_Curve;
 class TopOpeBRepDS_PointIterator;
 class TopOpeBRepDS_Point;
-class TopTools_ListIteratorOfListOfShape;
 class TopOpeBRepDS_SurfaceIterator;
 class TopOpeBRepDS_Interference;
 
@@ -110,7 +110,7 @@ public:
   
   //! Returns an iterator on the SameDomain shapes attached
   //! to the shape <S>.
-  Standard_EXPORT   TopTools_ListIteratorOfListOfShape SameDomain (const TopoDS_Shape& S)  const;
+  Standard_EXPORT   const TopTools_ListOfShape& SameDomain (const TopoDS_Shape& S)  const;
   
   //! Returns orientation of shape <S> compared with its
   //! reference shape

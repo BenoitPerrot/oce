@@ -120,10 +120,9 @@ HLRTopoBRep_Data::IsSplEEdgeEdge (const TopoDS_Edge& E1,
   if (EdgeHasSplE(E1)) {
     
     TopTools_ListIteratorOfListOfShape itS;
-    for (itS.Initialize(EdgeSplE(E1));
-	 itS.More() && !found;
-	 itS.Next())
-      found= itS.Value().IsSame(E2);
+    for (auto S : EdgeSplE(E1))
+      if (S.IsSame(E2))
+	return Standard_True;
   }
   else
     found = E1.IsSame(E2);
@@ -139,17 +138,15 @@ Standard_Boolean
 HLRTopoBRep_Data::IsIntLFaceEdge (const TopoDS_Face& F,
 				  const TopoDS_Edge& E) const 
 {
-  Standard_Boolean found = Standard_False;
   if (FaceHasIntL(F)) {
 
     TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(FaceIntL(F));
-	itE.More() && !found;
-	itE.Next()) {
-      found = IsSplEEdgeEdge(TopoDS::Edge(itE.Value()),E);
+    for(auto S : FaceIntL(F)) {
+      if (IsSplEEdgeEdge(TopoDS::Edge(S),E))
+	return Standard_True;
     }
   }
-  return found;
+  return Standard_False;
 }
 
 //=======================================================================
@@ -161,17 +158,14 @@ Standard_Boolean
 HLRTopoBRep_Data::IsOutLFaceEdge (const TopoDS_Face& F,
 				  const TopoDS_Edge& E) const 
 {
-  Standard_Boolean found = Standard_False;
   if (FaceHasOutL(F)) {
 
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(FaceOutL(F));
-	itE.More() && !found;
-	itE.Next()) {
-      found = IsSplEEdgeEdge(TopoDS::Edge(itE.Value()),E);
+    for(auto S : FaceOutL(F)) {
+      if (IsSplEEdgeEdge(TopoDS::Edge(S),E))
+	return Standard_True;
     }
   }
-  return found;
+  return Standard_False;
 }
 
 //=======================================================================
@@ -183,17 +177,14 @@ Standard_Boolean
 HLRTopoBRep_Data::IsIsoLFaceEdge (const TopoDS_Face& F,
 				  const TopoDS_Edge& E) const 
 {
-  Standard_Boolean found = Standard_False;
   if (FaceHasIsoL(F)) {
 
-    TopTools_ListIteratorOfListOfShape itE;
-    for(itE.Initialize(FaceIsoL(F));
-	itE.More() && !found;
-	itE.Next()) {
-      found = IsSplEEdgeEdge(TopoDS::Edge(itE.Value()),E);
+    for(auto S : FaceIsoL(F)) {
+      if (IsSplEEdgeEdge(TopoDS::Edge(S),E))
+	return Standard_True;
     }
   }
-  return found;
+  return Standard_False;
 }
 
 //=======================================================================

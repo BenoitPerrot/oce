@@ -435,22 +435,16 @@ const TopTools_ListOfShape& BRepFilletAPI_MakeChamfer::Modified
   myGenerated.clear();
 
   if (myBuilder.Builder()->IsSplit(F, TopAbs_OUT)) {
-    TopTools_ListIteratorOfListOfShape It(myBuilder.Builder()->Splits(F, TopAbs_OUT));
-    for(;It.More();It.Next()) {
-      myGenerated.push_back(It.Value());
-    }
+    auto &l = myBuilder.Builder()->Splits(F, TopAbs_OUT);
+    myGenerated.insert(end(myGenerated), begin(l), end(l));
   }
   if (myBuilder.Builder()->IsSplit(F, TopAbs_IN)) {
-    TopTools_ListIteratorOfListOfShape It(myBuilder.Builder()->Splits(F, TopAbs_IN));
-    for(;It.More();It.Next()) {
-      myGenerated.push_back(It.Value());
-    }
+    auto &l = myBuilder.Builder()->Splits(F, TopAbs_IN);
+    myGenerated.insert(end(myGenerated), begin(l), end(l));
   }
   if (myBuilder.Builder()->IsSplit(F, TopAbs_ON)) {
-    TopTools_ListIteratorOfListOfShape It(myBuilder.Builder()->Splits(F, TopAbs_ON));
-    for(;It.More();It.Next()) {
-      myGenerated.push_back(It.Value());
-    }
+    auto &l = myBuilder.Builder()->Splits(F, TopAbs_ON);
+    myGenerated.insert(end(myGenerated), begin(l), end(l));
   }
   return myGenerated;
 }

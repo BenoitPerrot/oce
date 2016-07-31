@@ -237,10 +237,8 @@ Handle(TopTools_HSequenceOfShape) Prs3d_ShapeTool::FacesOfEdge () const
 {
   Handle(TopTools_HSequenceOfShape) H = new TopTools_HSequenceOfShape;
 
-  const TopTools_ListOfShape& L = myEdgeMap.FindFromIndex(myEdge);
-  TopTools_ListIteratorOfListOfShape LI;
-
-  for (LI.Initialize(L); LI.More(); LI.Next()) H->Append(LI.Value());
+  for (auto s : myEdgeMap.FindFromIndex(myEdge))
+    H->Append(s);
   return H;
 }
 

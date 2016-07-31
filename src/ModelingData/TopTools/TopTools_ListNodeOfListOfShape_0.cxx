@@ -5,6 +5,8 @@
 
 #include <ModelingData/TopTools/TopTools_ListNodeOfListOfShape.hxx>
 
+#if 0
+
 #include <Foundation/Standard/Standard_Type.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
@@ -40,3 +42,4 @@ IMPLEMENT_STANDARD_RTTI(TopTools_ListNodeOfListOfShape)
 #define TCollection_List_hxx <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/TCollection/TCollection_ListNode.gxx>
 
+#endif

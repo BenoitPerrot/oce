@@ -231,7 +231,7 @@ void TopOpeBRepBuild_Builder::GWESMakeFaces
     TopTools_ListOfShape LOFF;
     Standard_Boolean puok = TopOpeBRepTool::MakeFaces(TopoDS::Face(FF),LOF,MshNOK,LOFF);
     if (!puok) Standard_Failure::Raise("TopOpeBRepBuild::GWESMakeFaces");
-    LOF.clear(); LOF.Assign(LOFF);
+    LOF = LOFF;
   }
 
   //1.  on periodic face F :
@@ -245,20 +245,20 @@ void TopOpeBRepBuild_Builder::GWESMakeFaces
   Standard_Boolean ffcloseds = FUN_tool_closedS(FF);
   corronISO = corronISO && ffcloseds;
   if (corronISO) {
-    TopTools_ListIteratorOfListOfShape itFF(LOF);
     TopTools_ListOfShape newLOF;
     const TopoDS_Face& FFa = TopoDS::Face(FF);
-    for (; itFF.More(); itFF.Next()){
-      TopoDS_Face Fa = TopoDS::Face(itFF.Value());
+    for (auto sFF : LOF) {
+      TopoDS_Face Fa = TopoDS::Face(sFF);
       TopOpeBRepTool::CorrectONUVISO(FFa,Fa);
       newLOF.push_back(Fa);
     }
-    LOF.clear(); LOF.Assign(newLOF);
+#warning TODO: use LOF directly
+    LOF = newLOF;
   }
 
   // xpu280898 : regularisation after GFABUMakeFaces,purge processings
   TopTools_ListOfShape newLOF; RegularizeFaces(FF,LOF,newLOF);
-  LOF.clear(); LOF.Assign(newLOF);
+  LOF = newLOF;
 
 } // GWESMakeFaces
 
@@ -492,10 +492,10 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
 			  for(Standard_Integer StepMap = 1; StepMap <= mapVOE.Extent(); StepMap++)
 			    {
 			      const TopTools_ListOfShape& LofE = mapVOE.FindFromIndex(StepMap);
-			      TopTools_ListIteratorOfListOfShape itLofE(LofE);
-			      TopoDS_Edge E1 = TopoDS::Edge(itLofE.Value());
-			      itLofE.Next();
-			      TopoDS_Edge E2 = TopoDS::Edge(itLofE.Value());
+			      TopTools_ListOfShape::const_iterator itLofE = begin(LofE);
+			      TopoDS_Edge E1 = TopoDS::Edge(*itLofE);
+			      ++itLofE;
+			      TopoDS_Edge E2 = TopoDS::Edge(*itLofE);
 			      TopAbs_Orientation O1 = E1.Orientation();
 			      TopAbs_Orientation O2 = E2.Orientation();
 			      Standard_Boolean IsSameE1 = BRep_Tool::IsClosed(E1,tdF);
@@ -504,10 +504,8 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
 			      Standard_Boolean AddE2 = Standard_True;
 
 			      //checking current edges in the list of added edges
-			      TopTools_ListIteratorOfListOfShape itLofAddE(LofAddE);
-			      for(; itLofAddE.More(); itLofAddE.Next() )
+			      for (const TopoDS_Shape& LE : LofAddE)
 				{
-				  const TopoDS_Shape& LE = itLofAddE.Value();
 				  TopAbs_Orientation OLE = LE.Orientation();
 				  if(E1.IsSame(LE) && !IsSameE1) { AddE1 = Standard_False; E1.Orientation(OLE); O1 = OLE; }
 				  if(E2.IsSame(LE) && !IsSameE2) { AddE2 = Standard_False; E2.Orientation(OLE); O2 = OLE; }
@@ -630,6 +628,6 @@ void TopOpeBRepBuild_Builder::GFABUMakeFaces(const TopoDS_Shape& FF,TopOpeBRepBu
   // xpu281098 : regularisation after purge processings (cto009L2,f4ou)
 //  RegularizeFaces(FF,lnewFace,LOF);
 //  Standard_Integer nLOF = LOF.Extent(); // DEB
-  LOF.Append(lnewFace);
+  LOF.insert(end(LOF), begin(lnewFace), end(lnewFace));
 
 } // GFABUMakeFaces

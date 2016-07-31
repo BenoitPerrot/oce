@@ -60,24 +60,16 @@ void TopOpeBRepBuild_Builder::SplitShapes(TopOpeBRepTool_ShapeExplorer& Ex,
     else continue;
 
     if ( IsSplit(aShape,ToBuild1) ) {
-      TopoDS_Shape newShape;
-      TopTools_ListIteratorOfListOfShape It;
       //----------------------- IFV
       Standard_Boolean IsLSon = Standard_False;
       //----------------------- IFV
       const TopTools_ListOfShape& LS = Splits(aShape,ToBuild1);
       //----------------------- IFV
       if(t == TopAbs_EDGE && ToBuild1 == TopAbs_IN && LS.size() == 0) {
-	const TopTools_ListOfShape& LSon = Splits(aShape,TopAbs_ON);
-	It.Initialize(LSon);
 	IsLSon = Standard_True;
       }
-      else {
-	It.Initialize(LS);
-      }
       //----------------------- IFV
-      for (; It.More(); It.Next()) {
-	newShape = It.Value();
+      for (TopoDS_Shape newShape: IsLSon ? Splits(aShape,TopAbs_ON) : LS) {
 	myBuildTool.Orientation(newShape,newori);
 #ifdef OCCT_DEBUG
 //	TopAbs_ShapeEnum tns = TopType(newShape);

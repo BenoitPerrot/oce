@@ -147,11 +147,11 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
 
   BRep_Builder BB;
   BB.MakeCompound(TopoDS::Compound(myShape));
-  TopTools_ListIteratorOfListOfShape itloe(SectionEdges());
+  auto &sectionEdges = SectionEdges();
+  if (!sectionEdges.empty()) {
 
-  if(itloe.More()) {
-
-    for(; itloe.More(); itloe.Next()) BB.Add(myShape,itloe.Value());
+    for (auto S : sectionEdges)
+      BB.Add(myShape, S);
 
     // try to make wire from set of edges
     TopTools_ListOfShape LOEdge;
@@ -170,9 +170,8 @@ QANewModTopOpe_Intersection::QANewModTopOpe_Intersection( const TopoDS_Shape& th
     EC.Add(LOEdge);
     EC.AddStart(LOSEdge);
     const TopTools_ListOfShape& LOWire = EC.MakeBlock();
-    TopTools_ListIteratorOfListOfShape its;
-    for(its.Initialize(LOWire);its.More();its.Next()) {
-      BB.Add(aux,its.Value());
+    for (auto S : LOWire) {
+      BB.Add(aux, S);
     }
     for(Ex.Init(aux,TopAbs_EDGE); Ex.More(); Ex.Next()) {
       nbe--;
@@ -267,13 +266,7 @@ const TopTools_ListOfShape& QANewModTopOpe_Intersection::Generated(const TopoDS_
 
   if(theS.ShapeType() == TopAbs_FACE || theS.ShapeType() == TopAbs_EDGE) {
     if (BRepAlgoAPI_BooleanOperation::HasGenerated()) {
-      const TopTools_ListOfShape         &aLOfShape = 
-	                          BRepAlgoAPI_BooleanOperation::Generated(theS);
-      TopTools_ListIteratorOfListOfShape  anIter(aLOfShape);
-
-      for (; anIter.More(); anIter.Next()) {
-	const TopoDS_Shape &aGenShape = anIter.Value();
-
+      for (const TopoDS_Shape &aGenShape : BRepAlgoAPI_BooleanOperation::Generated(theS)) {
 	if (aGenShape.ShapeType() == TopAbs_VERTEX)
 	  continue;
 
@@ -282,10 +275,8 @@ const TopTools_ListOfShape& QANewModTopOpe_Intersection::Generated(const TopoDS_
     }
 
     if(myMapGener.IsBound(theS)) {
-      TopTools_ListIteratorOfListOfShape anIter(myMapGener(theS));
-
-      for(; anIter.More(); anIter.Next())
-	myGenerated.push_back(anIter.Value());
+      auto &l = myMapGener(theS);
+      myGenerated.insert(end(myGenerated), begin(l), end(l));
     }
   }
 

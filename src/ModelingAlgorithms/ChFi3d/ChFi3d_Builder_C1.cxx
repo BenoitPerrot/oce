@@ -711,11 +711,11 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     Arcpiv = Fd->Vertex(isfirst,IFadArc).Arc();
     Fad = TopoDS::Face(DStr.Shape(Fd->Index(IFadArc)));
     Fop = TopoDS::Face(DStr.Shape(Fd->Index(IFopArc)));
-    TopTools_ListIteratorOfListOfShape It;
+
     // The face at end is returned without check of its unicity.
-    for(It.Initialize(myEFMap(Arcpiv));It.More();It.Next()) {
-      if (!Fad.IsSame(It.Value())) {
-	Fv = TopoDS::Face(It.Value());
+    for (auto S : myEFMap(Arcpiv)) {
+      if (!Fad.IsSame(S)) {
+	Fv = TopoDS::Face(S);
 	break;
       }
     }
@@ -736,9 +736,9 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
       Fop = TopoDS::Face(DStr.Shape(Fd->Index(IFopArc)));
       //TopTools_ListIteratorOfListOfShape It;
      // The face at end is returned without check of its unicity.
-      for(It.Initialize(myEFMap(Arcpiv));It.More();It.Next()) {
-	if (!Fad.IsSame(It.Value())) {
-	  Fv = TopoDS::Face(It.Value());
+      for (auto S : myEFMap(Arcpiv)) {
+	if (!Fad.IsSame(S)) {
+	  Fv = TopoDS::Face(S);
 	  break;
 	}
       }
@@ -752,11 +752,12 @@ void ChFi3d_Builder::PerformOneCorner(const Standard_Integer Index,
     Fop.Orientation(TopAbs_FORWARD);
 
     // The edge that will be extended is returned.
-    for(It.Initialize(myVEMap(Vtx));It.More() && Arcprol.IsNull();It.Next()) {
-      if (!Arcpiv.IsSame(It.Value())) {
+    for (auto S : myVEMap(Vtx)) {
+      if (!Arcprol.IsNull()) break;
+      if (!Arcpiv.IsSame(S)) {
 	for(ex.Init(Fv,TopAbs_EDGE); ex.More(); ex.Next()) {
-	  if (It.Value().IsSame(ex.Current())) {
-	    Arcprol = TopoDS::Edge(It.Value());
+	  if (S.IsSame(ex.Current())) {
+	    Arcprol = TopoDS::Edge(S);
 	    OArcprolv = ex.Current().Orientation();
 	    break;
 	  }
@@ -1463,10 +1464,9 @@ static void cherche_face (const TopTools_ListOfShape & map,
                           TopoDS_Face &  F)
 { TopoDS_Face Fcur;
   Standard_Boolean trouve=Standard_False;
-  TopTools_ListIteratorOfListOfShape It;
   Standard_Integer ie;
-  for (It.Initialize(map);It.More()&&!trouve;It.Next())
-  { Fcur=TopoDS::Face (It.Value());
+  for (auto S : map) {
+    Fcur=TopoDS::Face(S);
     if (!Fcur.IsSame(F1) && !Fcur.IsSame(F2)&& !Fcur.IsSame(F3) )
     { TopTools_IndexedMapOfShape  MapE;
       TopExp::MapShapes( Fcur,TopAbs_EDGE,MapE);
@@ -1644,8 +1644,9 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
   TopoDS_Edge edgecouture;
 
   Standard_Boolean trouve=Standard_False;
-  for(ItF.Initialize(myVFMap(Vtx));ItF.More()&&!couture;ItF.Next()) {
-    TopoDS_Face fcur = TopoDS::Face(ItF.Value());
+  for (auto S : myVFMap(Vtx)) {
+    if (couture) break;
+    TopoDS_Face fcur = TopoDS::Face(S);
     ChFi3d_CoutureOnVertex(fcur,Vtx,couture,edgecouture);
     if (couture)
       facecouture=fcur;
@@ -1874,8 +1875,10 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
   if (CV1.IsVertex()) {
     trouve=Standard_False;
     /*TopoDS_Vertex */V=CV1.Vertex();
-    for (It3.Initialize(myVEMap(V));It3.More()&&!trouve;It3.Next()) {
-      E=TopoDS::Edge (It3.Value());
+#warning find
+    for (auto S3 : myVEMap(V)) {
+      if (trouve) break;
+      E=TopoDS::Edge (S3);
       if (!E.IsSame(Edge[0])&&(containE(F1,E)))
 	trouve=Standard_True;
     }
@@ -1904,8 +1907,10 @@ void ChFi3d_Builder::PerformIntersectionAtEnd(const Standard_Integer Index)
   if (CV2.IsVertex()) {
     trouve=Standard_False;
     /*TopoDS_Vertex*/ V=CV2.Vertex();
-    for (It3.Initialize(myVEMap(V));It3.More()&&!trouve;It3.Next()) {
-      E=TopoDS::Edge (It3.Value());
+#warning find
+    for (auto S3 : myVEMap(V)) {
+      if (trouve) break;
+      E=TopoDS::Edge (S3);
       if (!E.IsSame(Edge[2])&&(containE(F2,E)))
 	trouve=Standard_True;
     }
@@ -3040,21 +3045,22 @@ void ChFi3d_Builder::PerformMoreSurfdata(const Standard_Integer Index)
 
   TopoDS_Edge                        anArc1;
   TopoDS_Edge                        anArc2;
-  TopTools_ListIteratorOfListOfShape anIter(myVEMap(aVtx));
   Standard_Boolean                   isFound = Standard_False;
 
-  for(; anIter.More() && !isFound; anIter.Next()) {
-    anArc1 = TopoDS::Edge(anIter.Value());
+#warning find
+  for (auto anS : myVEMap(aVtx)) {
+    if (isFound) break;
+    anArc1 = TopoDS::Edge(anS);
 
     if (containE(aFace, anArc1))
       isFound = Standard_True;
   }
 
+#warning find
   isFound = Standard_False;
-  anIter.Initialize(myVEMap(aVtx));
-
-  for(; anIter.More() && !isFound; anIter.Next()) {
-    anArc2 = TopoDS::Edge(anIter.Value());
+  for (auto anS : myVEMap(aVtx)) {
+    if (isFound) break;
+    anArc2 = TopoDS::Edge(anS);
 
     if (containE(aFace,anArc2) && !anArc2.IsSame(anArc1))
       isFound = Standard_True;
@@ -3661,21 +3667,22 @@ Standard_Boolean ChFi3d_Builder::FindFace(const TopoDS_Vertex& V,
   if (!(P1.IsOnArc() && P2.IsOnArc())) {
     return Standard_False;
   }
-  TopTools_ListIteratorOfListOfShape It,Jt;
   Standard_Boolean Found = Standard_False;
-  for(It.Initialize(myEFMap(P1.Arc()));It.More() && !Found;It.Next()) {
-    Fv = TopoDS::Face(It.Value());
+  for (auto S1 : myEFMap(P1.Arc())) {
+    if (Found) break;
+    Fv = TopoDS::Face(S1);
     if(!Fv.IsSame(Favoid)){
-      for(Jt.Initialize(myEFMap(P2.Arc()));Jt.More() && !Found ;Jt.Next()) {
-	if (TopoDS::Face(Jt.Value()).IsSame(Fv)) Found = Standard_True;
+      for (auto S2 : myEFMap(P2.Arc())) {
+	if (Found) break;
+	if (TopoDS::Face(S2).IsSame(Fv)) Found = Standard_True;
       }
     }
   }
 #ifdef OCCT_DEBUG
   Standard_Boolean ContainsV = Standard_False;
   if (Found) {
-    for(It.Initialize(myVFMap(V));It.More();It.Next()) {
-      if (TopoDS::Face(It.Value()).IsSame(Fv)) {
+    for (auto S : myVFMap(V)) {
+      if (TopoDS::Face(S).IsSame(Fv)) {
 	ContainsV = Standard_True;
 	break;
       }
@@ -3734,15 +3741,17 @@ Standard_Boolean ChFi3d_Builder::MoreSurfdata(const Standard_Integer Index) cons
     // determination of arc1 and arc2 intersection of the fillet and the face at end
 
     TopoDS_Edge arc1,arc2;
-    TopTools_ListIteratorOfListOfShape ItE;
     Standard_Boolean trouve=Standard_False;
-    for(ItE.Initialize(myVEMap(Vtx));ItE.More()&&!trouve;ItE.Next()) {
-      arc1=TopoDS::Edge(ItE.Value());
+#warning find
+    for (auto S : myVEMap(Vtx)) {
+      if (trouve) break;
+      arc1=TopoDS::Edge(S);
       if (containE(Fv,arc1)) trouve=Standard_True;
     }
     trouve=Standard_False;
-    for(ItE.Initialize(myVEMap(Vtx));ItE.More()&&!trouve;ItE.Next()) {
-      arc2=TopoDS::Edge(ItE.Value());
+    for (auto S : myVEMap(Vtx)) {
+      if (trouve) break;
+      arc2=TopoDS::Edge(S);
       if (containE(Fv,arc2)&& !arc2.IsSame(arc1)) trouve=Standard_True;
     }
 
@@ -3875,9 +3884,9 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     Fop = TopoDS::Face(DStr.Shape(Fd->Index(IFopArc)));
     TopTools_ListIteratorOfListOfShape It;
     // The face at end is returned without control of its unicity.
-    for(It.Initialize(myEFMap(Arcpiv));It.More();It.Next()) {
-      if(!Fad.IsSame(It.Value())){
-	Fv = TopoDS::Face(It.Value());
+    for (auto S : myEFMap(Arcpiv)) {
+      if(!Fad.IsSame(S)){
+	Fv = TopoDS::Face(S);
 	break;
       }
     }
@@ -3898,9 +3907,9 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
       Fop = TopoDS::Face(DStr.Shape(Fd->Index(IFopArc)));
       //TopTools_ListIteratorOfListOfShape It;
     // The face at end is returned without control of its unicity.
-     for(It.Initialize(myEFMap(Arcpiv));It.More();It.Next()) {
-	if(!Fad.IsSame(It.Value())){
-	  Fv = TopoDS::Face(It.Value());
+      for (auto S : myEFMap(Arcpiv)) {
+	if(!Fad.IsSame(S)){
+	  Fv = TopoDS::Face(S);
 	  break;
 	}
       }
@@ -3913,11 +3922,12 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
     Fad.Orientation(TopAbs_FORWARD);
 
     // In the same way the edge to be extended is returned.
-    for(It.Initialize(myVEMap(Vtx));It.More() && Arcprol.IsNull();It.Next()){
-      if(!Arcpiv.IsSame(It.Value())){
+    for (auto S : myVEMap(Vtx)) {
+      if (!Arcprol.IsNull()) break;
+      if(!Arcpiv.IsSame(S)){
 	for(ex.Init(Fv,TopAbs_EDGE); ex.More(); ex.Next()){
-	  if(It.Value().IsSame(ex.Current())) {
-	    Arcprol = TopoDS::Edge(It.Value());
+	  if (S.IsSame(ex.Current())) {
+	    Arcprol = TopoDS::Edge(S);
 	    OArcprolv = ex.Current().Orientation();
 	    break;
 	  }
@@ -4251,12 +4261,12 @@ void ChFi3d_Builder::IntersectMoreCorner(const Standard_Integer Index)
 
     //Modif of lvt to find the suite of Arcprol in the other face
     {
-      TopTools_ListIteratorOfListOfShape It;
-      for (It.Initialize(myVEMap(Vtx)); It.More(); It.Next()){
-	if (!(Arcprol.IsSame(It.Value()) ||
-	      Arcspine.IsSame(It.Value()) ||
-	      Arcpiv.IsSame(It.Value()))) {
-	  Arcprolbis = TopoDS::Edge(It.Value());
+#warning find
+      for (auto S : myVEMap(Vtx)) {
+	if (!(Arcprol.IsSame(S) ||
+	      Arcspine.IsSame(S) ||
+	      Arcpiv.IsSame(S))) {
+	  Arcprolbis = TopoDS::Edge(S);
 	  break;
 	}
       }

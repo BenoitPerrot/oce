@@ -15,6 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Geometry/GeomAbs/GeomAbs_Shape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 class Standard_ConstructionError;
@@ -22,7 +23,6 @@ class Standard_NoSuchObject;
 class StdFail_NotDone;
 class TopoDS_Shape;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class Adaptor3d_Curve;
 
 

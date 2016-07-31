@@ -18,7 +18,6 @@ class BRepTools_Modification;
 class Standard_NullObject;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! Implements   the  methods   of MakeShape for   the

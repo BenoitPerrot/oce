@@ -322,11 +322,10 @@ Standard_Boolean  TopOpeBRepDS_HDataStructure::HasSameDomain
 //function : SameDomain
 //purpose  : 
 //=======================================================================
-TopTools_ListIteratorOfListOfShape TopOpeBRepDS_HDataStructure::SameDomain
+const TopTools_ListOfShape& TopOpeBRepDS_HDataStructure::SameDomain
 (const TopoDS_Shape& S)const 
 {
-  const TopTools_ListOfShape& L = myDS.ShapeSameDomain(S);
-  return TopTools_ListIteratorOfListOfShape(L);
+  return myDS.ShapeSameDomain(S);
 }
 
 //=======================================================================

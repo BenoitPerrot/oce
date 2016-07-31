@@ -12,6 +12,7 @@
 
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfOrientedShapeInteger.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfOrientedShape.hxx>
@@ -26,7 +27,6 @@ class TopOpeBRepBuild_HBuilder;
 class TopOpeBRepDS_BuildTool;
 class TopOpeBRepDS_HDataStructure;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopOpeBRepBuild_GTopo;
 class TopOpeBRepBuild_ShellFaceSet;
 class TopOpeBRepBuild_WireEdgeSet;

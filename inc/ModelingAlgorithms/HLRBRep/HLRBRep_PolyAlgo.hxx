@@ -15,6 +15,7 @@
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_IndexedMapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/HLRAlgo/Handle_HLRAlgo_PolyAlgo.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/Geom/Handle_Geom_Surface.hxx>
@@ -35,7 +36,6 @@ class TColStd_Array1OfTransient;
 class TColStd_Array1OfInteger;
 class TopTools_MapOfShape;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 class HLRAlgo_PolyInternalData;
 class HLRAlgo_EdgeStatus;
 

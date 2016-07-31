@@ -199,10 +199,9 @@ Standard_Boolean StepToTopoDS_NMTool::IsPureNMShell(const TopoDS_Shape& Shell) {
 // ============================================================================
 
 Standard_Boolean StepToTopoDS_NMTool::isEdgeRegisteredAsNM(const TopoDS_Shape& Edge) {
+#warning TODO: C++ify
   Standard_Boolean result = Standard_False;
-  TopTools_ListIteratorOfListOfShape it(myNMEdges);
-  for ( ; it.More(); it.Next() ) {
-    TopoDS_Shape currentShape = it.Value();
+  for (TopoDS_Shape currentShape : myNMEdges) {
     if ( currentShape.IsSame(Edge) ) {
       result =  Standard_True;
       break;

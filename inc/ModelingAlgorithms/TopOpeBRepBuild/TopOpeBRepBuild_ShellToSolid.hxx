@@ -13,7 +13,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 class TopoDS_Shell;
 class TopoDS_Solid;
-class TopTools_ListOfShape;
 
 
 

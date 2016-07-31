@@ -79,15 +79,13 @@ void TopOpeBRepBuild_Builder::RegularizeSolids
   LOSO.clear();
   myMemoSplit.Clear();
 
-  TopTools_ListIteratorOfListOfShape itl(lnewSolid);
-  for (;itl.More();itl.Next()) {
-    const TopoDS_Shape& newSolid = itl.Value();
+  for (const TopoDS_Shape& newSolid : lnewSolid) {
     TopTools_ListOfShape newSolidLOSO;
     RegularizeSolid(SO,newSolid,newSolidLOSO);
 #ifdef OCCT_DEBUG
 //    Standard_Integer nnewSolidLOSO = newSolidLOSO.Extent(); // DEB
 #endif
-    LOSO.Append(newSolidLOSO);
+    LOSO.insert(end(LOSO), begin(newSolidLOSO), end(newSolidLOSO));
   }
 #ifdef OCCT_DEBUG
 //  Standard_Integer nLOSO = LOSO.Extent(); // DEB
@@ -98,12 +96,10 @@ void TopOpeBRepBuild_Builder::RegularizeSolids
   // lsosdSO = solids SameDomain de SO
   TopTools_ListOfShape lsosdSO,lsosdSO1,lsosdSO2;
   GFindSamDom(SO,lsosdSO1,lsosdSO2);
-  lsosdSO.Append(lsosdSO1);
-  lsosdSO.Append(lsosdSO2);
+  lsosdSO.insert(end(lsosdSO), begin(lsosdSO1), end(lsosdSO1));
+  lsosdSO.insert(end(lsosdSO), begin(lsosdSO2), end(lsosdSO2));
   
-  TopTools_ListIteratorOfListOfShape itlsosdSO(lsosdSO);
-  for (; itlsosdSO.More(); itlsosdSO.Next()) {
-    const TopoDS_Shape& sosdSO = itlsosdSO.Value();
+  for (const TopoDS_Shape& sosdSO : lsosdSO) {
     // au moins une arete de SO dont le Split() est lui meme Split()
     TopExp_Explorer x;
     for (x.Init(sosdSO,TopAbs_FACE);x.More();x.Next()) {
@@ -118,8 +114,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolids
 #ifdef OCCT_DEBUG
 //      Standard_Integer nlspf = lspf.Extent(); // DEB
 #endif
-      for (TopTools_ListIteratorOfListOfShape itl1(lspf);itl1.More();itl1.Next()) {
-	const TopoDS_Shape& fsp = itl1.Value();
+      for (const TopoDS_Shape& fsp : lspf) {
 	Standard_Boolean fspmemo = myMemoSplit.Contains(fsp);
 	if (!fspmemo) newlspf.push_back(fsp);
 	else {
@@ -207,9 +202,8 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
       // fin solution1
 */
 
-      const TopTools_ListOfShape& lns = itosns.Value();
-      for(TopTools_ListIteratorOfListOfShape iw(lns);iw.More();iw.Next()) {
-	stos.AddShell(TopoDS::Shell(iw.Value()));
+      for (auto s : itosns.Value()) {
+	stos.AddShell(TopoDS::Shell(s));
       }
     }
     stos.MakeSolids(newSolid,newSolids);
@@ -233,9 +227,8 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
 #endif
   
   // LOSO = nouvelles Solids regularisees de newSolid
-  TopTools_ListIteratorOfListOfShape itlnf(newSolids);
-  for (; itlnf.More(); itlnf.Next()) 
-    LOSO.push_back(TopoDS::Solid(itlnf.Value()));
+  for (auto s : newSolids)
+    LOSO.push_back(TopoDS::Solid(s));
   
   // mise a jour des faces decoupees
   // Face(SS) = {E}, E-->Split(E) = {E'}, E'-->myFSplits(E') = {E''}
@@ -251,14 +244,12 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
   // lssdSS = Solids SameDomain de SS
   TopTools_ListOfShape lssdSS,lssdSS1,lssdSS2;
   GFindSamDom(SS,lssdSS1,lssdSS2);
-  lssdSS.Append(lssdSS1);
-  lssdSS.Append(lssdSS2);
+  lssdSS.insert(end(lssdSS), begin(lssdSS1), end(lssdSS1));
+  lssdSS.insert(end(lssdSS), begin(lssdSS2), end(lssdSS2));
   
   TopTools_DataMapOfShapeShape manc;
   
-  TopTools_ListIteratorOfListOfShape itlssdSS(lssdSS);
-  for (; itlssdSS.More(); itlssdSS.Next()) {
-    const TopoDS_Shape& ssdSS = itlssdSS.Value();
+  for (const TopoDS_Shape& ssdSS : lssdSS) {
 #ifdef OCCT_DEBUG
 //    Standard_Integer issdSS = myDataStructure->Shape(ssdSS); // DEB
 #endif
@@ -292,8 +283,7 @@ void TopOpeBRepBuild_Builder::RegularizeSolid
 
       TopTools_ListOfShape newlspssdSSf; // nouvel ensemble de faces splittees de ssdSSf
 
-      for (TopTools_ListIteratorOfListOfShape it(lspssdSSf);it.More();it.Next()) {
-	const TopoDS_Shape& fspssdSSf = it.Value();
+      for (const TopoDS_Shape& fspssdSSf : lspssdSSf) {
 	
 	Standard_Boolean inmfns = mfns.Contains(fspssdSSf);
 	if (!inmfns) continue;

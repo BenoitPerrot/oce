@@ -14,13 +14,13 @@
 #include <Mathematics/Primitives/gp_Ax1.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class Standard_NoSuchObject;
 class StdFail_NotDone;
 class TopoDS_Shape;
 class gp_Ax1;
-class TopTools_ListOfShape;
 class TColGeom_SequenceOfCurve;
 class Geom_Curve;
 

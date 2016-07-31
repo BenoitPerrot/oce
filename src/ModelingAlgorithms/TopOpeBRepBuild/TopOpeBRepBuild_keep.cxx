@@ -143,9 +143,7 @@ void TopOpeBRepBuild_Builder::GKeepShapes
 #ifdef OCCT_DEBUG
   Standard_Integer n = 0;
 #endif
-  TopTools_ListIteratorOfListOfShape it(Lin);
-  for (; it.More(); it.Next() ) {
-    const TopoDS_Shape& SL = it.Value();
+  for (const TopoDS_Shape& SL : Lin) {
     
     Standard_Boolean keep = Standard_True;
     if ( ! LSclass.empty() ) {

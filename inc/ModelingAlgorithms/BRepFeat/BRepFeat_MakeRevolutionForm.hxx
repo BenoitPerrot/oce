@@ -25,7 +25,6 @@ class TopoDS_Wire;
 class gp_Ax1;
 class TopoDS_Edge;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class gp_Pnt;
 
 

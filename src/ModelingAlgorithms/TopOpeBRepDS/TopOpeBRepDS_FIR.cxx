@@ -422,10 +422,8 @@ const TopOpeBRepDS_DataMapOfShapeListOfShapeOn1State& MEsp)
       
       if ( isEGsp ) {
 	const TopTools_ListOfShape& los = MEsp.Find(EG).ListOnState();
-	TopTools_ListIteratorOfListOfShape itlos(los);
-	for(;itlos.More();itlos.Next()) {
+	for (const TopoDS_Shape& EGsp : los) {
 	  // EGsp est une arete splitee de EG.
-	  const TopoDS_Shape& EGsp = itlos.Value();
 	  
 	  // LISFIN = liste des interferences de LI dont le Support()
 	  // est une face contenant geometriquement l'arete EGsp

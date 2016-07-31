@@ -27,7 +27,6 @@ class TopTools_MapOfShape;
 class TopoDS_Shape;
 class TopTools_IndexedDataMapOfShapeListOfShape;
 class TDF_Label;
-class TopTools_ListOfShape;
 class TNaming_NamedShape;
 class TNaming_MapOfNamedShape;
 

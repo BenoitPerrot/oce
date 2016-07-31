@@ -1511,8 +1511,8 @@ void BRepOffset_Offset::Init(const TopoDS_Vertex&        Vertex,
   Standard_Integer CO = 1;
 #endif
 
-  for ( it.Initialize(LEdge); it.More(); it.Next()) {
-    TopoDS_Edge E = TopoDS::Edge(it.Value());
+  for (auto SEdge : LEdge) {
+    TopoDS_Edge E = TopoDS::Edge(SEdge);
 
     Handle(Geom_Curve) C = BRep_Tool::Curve(E,Loc,f,l);
     if ( C.IsNull()) {

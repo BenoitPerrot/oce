@@ -155,9 +155,7 @@ static void BuildDomains(TopoDS_Face&               myFace,
     if ((aWire1.Orientation() == aWire2.Orientation() && isPositive) ||
       (aWire1.Orientation() == TopAbs::Complement(aWire2.Orientation()) && !isPositive)) {
         TopTools_ListOfShape LWires;
-        TopTools_ListIteratorOfListOfShape itl;
-        for (itl.Initialize(WorkWires); itl.More(); itl.Next()) {
-          const TopoDS_Shape& W = itl.Value();
+        for (const TopoDS_Shape& W : WorkWires) {
           LWires.push_back(W.Reversed());
         }
         WorkWires = LWires;
@@ -168,9 +166,8 @@ static void BuildDomains(TopoDS_Face&               myFace,
   //====================================================
   // Construction of faces limited by closed wires.
   //====================================================
-  TopTools_ListIteratorOfListOfShape itl(WorkWires);
-  for (; itl.More(); itl.Next()) {
-    TopoDS_Wire& W = TopoDS::Wire(itl.Value());
+  for (auto S : WorkWires) {
+    TopoDS_Wire& W = TopoDS::Wire(S);
     if (W.Closed()){
       FR.Add(W);
       continue;
@@ -199,9 +196,8 @@ static void BuildDomains(TopoDS_Face&               myFace,
     TopoDS_Shape aLocalShape = myFace.EmptyCopied();
     TopoDS_Face F = TopoDS::Face(aLocalShape);
 //    TopoDS_Face F = TopoDS::Face(myFace.EmptyCopied());
-    TopTools_ListIteratorOfListOfShape itW(LOW);
-    for ( ; itW.More(); itW.Next()) {
-      B.Add(F,itW.Value());
+    for (auto S : LOW) {
+      B.Add(F,S);
     }
     BRepFill_OffsetWire Algo(F, myJoin, myIsOpenResult);
     myAlgos.push_back(Algo);
@@ -212,17 +208,16 @@ static void BuildDomains(TopoDS_Face&               myFace,
   // Classification of open wires.
   //====================================================  
 //  for (TopTools_ListIteratorOfListOfShape itF(Faces); itF.More(); itF.Next()) {
-  TopTools_ListIteratorOfListOfShape itF;
-  for (itF.Initialize(Faces) ; itF.More(); itF.Next()) {
-    TopoDS_Face&          F = TopoDS::Face(itF.Value());
+  for (auto SF : Faces) {
+    TopoDS_Face&          F = TopoDS::Face(SF);
     BRepAdaptor_Surface   S(F,0);
     Standard_Real         Tol = BRep_Tool::Tolerance(F); 
 
     BRepTopAdaptor_FClass2d CL(F,Precision::Confusion());
 
-    TopTools_ListIteratorOfListOfShape itW(LOW);
-    while (itW.More()) {
-      TopoDS_Wire& W = TopoDS::Wire(itW.Value());
+    TopTools_ListIteratorOfListOfShape itW = begin(LOW);
+    while (itW != end(LOW)) {
+      TopoDS_Wire& W = TopoDS::Wire(*itW);
       //=======================================================
       // Choice of a point on the wire. + projection on the face.
       //=======================================================
@@ -248,15 +243,15 @@ static void BuildDomains(TopoDS_Face&               myFace,
         itW = LOW.erase(itW);
       }
       else {
-        itW.Next();
+        ++itW;
       }
     }
   }
   //========================================
   // Creation of algorithms on each domain.
   //========================================
-  for (itF.Initialize(Faces); itF.More(); itF.Next()) {
-    BRepFill_OffsetWire Algo(TopoDS::Face(itF.Value()), myJoin, myIsOpenResult);
+  for (auto S : Faces) {
+    BRepFill_OffsetWire Algo(TopoDS::Face(S), myJoin, myIsOpenResult);
     myAlgos.push_back(Algo);
   }
 }
@@ -376,9 +371,9 @@ const TopTools_ListOfShape& BRepOffsetAPI_MakeOffset::Generated
   for (BRepFill_OffsetWire &OW : *Algos) {
     TopTools_ListOfShape L;
     L =  OW.GeneratedShapes(S.Oriented(TopAbs_FORWARD));
-    myGenerated.Append(L);
+    myGenerated.splice(end(myGenerated), L);
     L =  OW.GeneratedShapes(S.Oriented(TopAbs_REVERSED));
-    myGenerated.Append(L);
+    myGenerated.splice(end(myGenerated), L);
   }
   return myGenerated;
 }

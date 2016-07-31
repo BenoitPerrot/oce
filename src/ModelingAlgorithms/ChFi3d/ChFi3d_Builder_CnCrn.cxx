@@ -1097,7 +1097,6 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
   TopTools_SequenceOfShape Fproj;
   Standard_Integer num;
   TopoDS_Edge Ecur; 
-  TopTools_ListIteratorOfListOfShape ItF;
 #ifdef OCCT_DEBUG
 //  Standard_Integer nface=ChFi3d_nbface(myVFMap(V1));
 #endif
@@ -1108,8 +1107,9 @@ void  ChFi3d_Builder::PerformMoreThreeCorner(const Standard_Integer Jndex,
   Standard_Boolean couture=Standard_False;
   TopoDS_Face facecouture;
   TopoDS_Edge edgecouture;
-  for(ItF.Initialize(myVFMap(V1));ItF.More()&&!couture;ItF.Next()) {
-    TopoDS_Face fcur = TopoDS::Face(ItF.Value());
+  for (auto S : myVFMap(V1)) {
+    if (couture) break;
+    TopoDS_Face fcur = TopoDS::Face(S);
     ChFi3d_CoutureOnVertex(fcur,V1,couture,edgecouture);
     if (couture)
       facecouture=fcur;

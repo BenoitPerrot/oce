@@ -2138,7 +2138,6 @@ TopoDS_Shape OCC1077_boolbl(BRepAlgoAPI_BooleanOperation& aBoolenaOperation,cons
 //#ifdef OCC40 
 //  Handle(TopOpeBRepBuild_HBuilder) build = aBoolenaOperation.Builder();
 //#endif 
-  TopTools_ListIteratorOfListOfShape its;
 
   TopoDS_Compound result;
   BRep_Builder B;
@@ -2155,13 +2154,11 @@ TopoDS_Shape OCC1077_boolbl(BRepAlgoAPI_BooleanOperation& aBoolenaOperation,cons
 //#ifdef OCC40
 //      its = build->Section();
 //#else //OCC40DEV
-      its = aBoolenaOperation.SectionEdges();
+      for (auto S : aBoolenaOperation.SectionEdges())
 //#endif
-      while (its.More())
 	{
-	  TopoDS_Edge E = TopoDS::Edge(its.Value());
+	  TopoDS_Edge E = TopoDS::Edge(S);
 	  fill.Add(aRadius, E);
-	  its.Next();
 	}
 
       fill.Build();

@@ -25,7 +25,6 @@
 #include <Foundation/TColStd/TColStd_MapOfInteger.hxx>
 
 #include <ModelingData/TopTools/TopTools_DataMapIteratorOfDataMapOfShapeListOfShape.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <Foundation/TColStd/TColStd_MapIteratorOfMapOfInteger.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Compound.hxx>
@@ -79,13 +78,11 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
   B.MakeCompound(C);
 
   TopTools_IndexedMapOfShape mapF;
-  TopTools_ListIteratorOfListOfShape itl;
 
-  for (itl.Initialize(L); itl.More(); itl.Next()) {
-    if (itl.Value().ShapeType() == TopAbs_FACE &&
-	!mapF.Contains(itl.Value())) {
-      mapF.Add(itl.Value());
-      B.Add(C,itl.Value());
+  for (auto s : L) {
+    if (s.ShapeType() == TopAbs_FACE && !mapF.Contains(s)) {
+      mapF.Add(s);
+      B.Add(C,s);
     }
   }
 
@@ -202,19 +199,14 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
   TopTools_DataMapOfShapeListOfShape imbSh;
   TopTools_ListOfShape LIntern;
 
-  for (itl.Initialize(lresult); itl.More(); itl.Next()) {
-    const TopoDS_Shape& sh = itl.Value();
+  for (const TopoDS_Shape& sh : lresult) {
     TopoDS_Solid tempo;
     B.MakeSolid(tempo);
     B.Add(tempo,sh);
 
     TopTools_ListOfShape thelist;    
     imbSh.Bind(sh, thelist);
-    TopTools_ListIteratorOfListOfShape itl2;
-    for (itl2.Initialize(lresult);
-//    for (TopTools_ListIteratorOfListOfShape itl2(lresult);
-	 itl2.More(); itl2.Next()) {
-      const TopoDS_Shape& sh2 = itl2.Value();  
+    for (const TopoDS_Shape& sh2 : lresult) {
       if (!sh2.IsSame(sh)) {
 	if (IsInside(sh2, tempo)) {
 	  LIntern.push_back(sh2);
@@ -227,8 +219,7 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
 
   // LPA 07/10/98: on vire les shells imbriques comme
   // etant aussi des solides a part entiere.
-  for (itl.Initialize(LIntern); itl.More(); itl.Next()) {
-    const TopoDS_Shape& sh = itl.Value();
+  for (const TopoDS_Shape& sh : LIntern) {
     if (imbSh.IsBound(sh)) {
       imbSh.UnBind(sh);
     }
@@ -249,8 +240,8 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
       TopoDS_Solid newSo;
       B.MakeSolid(newSo);
       B.Add(newSo,itdm.Key());
-      for (itl.Initialize(itdm.Value()); itl.More(); itl.Next()) {
-	B.Add(newSo,itl.Value().Reversed());
+      for (auto s : itdm.Value()) {
+	B.Add(newSo,s.Reversed());
       }
       lsolid.push_back(newSo);
       imbSh.UnBind(itdm.Key());
@@ -277,11 +268,11 @@ void LocOpe_BuildShape::Perform(const TopTools_ListOfShape& L)
   }
   else {
     B.MakeCompound(TopoDS::Compound(myRes));
-    for (itl.Initialize(lsolid); itl.More(); itl.Next()) {
-      B.Add(myRes,itl.Value());
+    for (auto s : lsolid) {
+      B.Add(myRes, s);
     }
-    for (itl.Initialize(lshell); itl.More(); itl.Next()) {
-      B.Add(myRes,itl.Value());
+    for (auto s : lshell) {
+      B.Add(myRes, s);
     }
   }
 }
@@ -305,12 +296,11 @@ static void Add(const Standard_Integer ind,
     Standard_ConstructionError::Raise();
   }
 
-  TopTools_ListIteratorOfListOfShape itl(mapEF(ind));
-  for (; itl.More(); itl.Next()) {
-    if (!mapF.Contains(itl.Value())) {
-      mapF.Add(itl.Value());
+  for (auto s : mapEF(ind)) {
+    if (!mapF.Contains(s)) {
+      mapF.Add(s);
       TopExp_Explorer exp;
-      for (exp.Init(itl.Value(),TopAbs_EDGE);
+      for (exp.Init(s,TopAbs_EDGE);
 //      for (TopExp_Explorer exp(itl.Value(),TopAbs_EDGE);
 	   exp.More(); exp.Next()) {
 	const TopoDS_Shape& edg = exp.Current();

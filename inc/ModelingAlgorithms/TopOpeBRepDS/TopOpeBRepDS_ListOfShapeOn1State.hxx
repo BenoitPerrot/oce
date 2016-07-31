@@ -13,7 +13,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
-class TopTools_ListOfShape;
 
 
 //! represent a list of shape

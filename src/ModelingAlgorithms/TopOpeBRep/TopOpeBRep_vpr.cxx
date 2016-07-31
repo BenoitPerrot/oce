@@ -125,9 +125,9 @@ Standard_EXPORT Standard_Boolean FUN_GetGonParameter
 
 static Standard_Boolean FUN_INlos(const TopoDS_Shape& S, const TopTools_ListOfShape& loS)
 {
-  TopTools_ListIteratorOfListOfShape it(loS);
-  for (; it.More(); it.Next())
-    if (it.Value().IsSame(S)) return Standard_True;
+#warning TODO: C++ify
+  for (auto s : loS)
+    if (s.IsSame(S)) return Standard_True;
   return Standard_False;
 }
  
@@ -357,16 +357,12 @@ static Standard_Boolean FUN_LineRestF
   // prequesitory : <L> is on edge
   TopTools_IndexedMapOfShape mapE;
   TopExp::MapShapes(F,TopAbs_EDGE,mapE);
-  TopTools_ListIteratorOfListOfShape itER(ERL);
   TopTools_ListOfShape ERLonF;
-  for (; itER.More(); itER.Next()){
-    const TopoDS_Shape& e = itER.Value();
+  for (const TopoDS_Shape& e : ERL) {
     if (mapE.Contains(e)) ERLonF.push_back(e);
   }
-  itER.Initialize(ERLonF);
   TopTools_ListOfShape ERLonFonL;
-  for (; itER.More(); itER.Next()){
-    const TopoDS_Shape& e = itER.Value();
+  for (const TopoDS_Shape& e : ERLonF) {
     TopTools_ListOfShape eL; eL.push_back(e);
     Standard_Boolean isonL = TopOpeBRep_FacesFiller::LSameDomainERL(L,eL);
     if (isonL) ERLonFonL.push_back(e);

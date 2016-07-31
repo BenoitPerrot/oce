@@ -88,9 +88,7 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
   B.MakeCompound(C);
 
   TopTools_MapOfShape theMap;
-  TopTools_ListIteratorOfListOfShape itl(L);
-  for (; itl.More(); itl.Next()) {
-    const TopoDS_Shape& edg = itl.Value();
+  for (const TopoDS_Shape& edg : L) {
     if (theMap.Add(edg) && edg.ShapeType() == TopAbs_EDGE) {
       B.Add(C,edg.Oriented(TopAbs_FORWARD)); // orientation importante pour
       // appel a TopExp::Vertices
@@ -138,17 +136,19 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
     
     while (!(mapV.Contains(VL) || Bords.Contains(VL))) {
       Standard_Integer ind = theMapVE.FindIndex(VL);
-      TopTools_ListIteratorOfListOfShape itl(theMapVE(ind));
-      for (; itl.More(); itl.Next()) {
-	if (!mapE.Contains(itl.Value())) {
+#warning find
+      auto &l = theMapVE(ind);
+      TopTools_ListIteratorOfListOfShape itl;
+      for (itl = begin(l); itl != end(l); ++itl) {
+	if (!mapE.Contains(*itl)) {
 	  break;
 	}
       }
 
-      if (!itl.More()) {
+      if (itl == end(l)) {
 	Standard_ConstructionError::Raise();
       }
-      const TopoDS_Edge& theEdge = TopoDS::Edge(itl.Value());
+      const TopoDS_Edge& theEdge = TopoDS::Edge(*itl);
       TopoDS_Vertex Vf,Vl;
       TopExp::Vertices(theEdge,Vf,Vl);
       mapV.Add(VL);
@@ -202,13 +202,15 @@ void LocOpe_BuildWires::Perform(const TopTools_ListOfShape& L,
       const TopoDS_Vertex& vtx = TopoDS::Vertex(itm.Key());
       Bords.Add(vtx);
       Standard_Integer ind = theMapVE.FindIndex(vtx);
-      itl.Initialize(theMapVE(ind));
-      while (itl.More()) {
-	if (mapE.Contains(itl.Value())) {
-	  itl = theMapVE(ind).erase(itl);
+#warning remove_if
+      auto &l = theMapVE(ind);
+      TopTools_ListIteratorOfListOfShape itl = begin(l);
+      while (itl != end(l)) {
+	if (mapE.Contains(*itl)) {
+	  itl = l.erase(itl);
 	}
 	else {
-	  itl.Next();
+	  ++itl;
 	}
       }
     }

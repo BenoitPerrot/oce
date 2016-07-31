@@ -30,7 +30,6 @@ class TopOpeBRepBuild_HBuilder;
 class BRepAlgo_EdgeConnector;
 class BRepAlgo_BooleanOperations;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TopoDS_Vertex;
 class TColStd_ListOfInteger;
 

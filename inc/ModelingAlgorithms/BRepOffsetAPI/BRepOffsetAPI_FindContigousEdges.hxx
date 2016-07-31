@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineAlloc.hxx>
 #include <Foundation/Standard/Standard_Macro.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepBuilderAPI/Handle_BRepBuilderAPI_Sewing.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -19,7 +20,6 @@ class Standard_OutOfRange;
 class Standard_NoSuchObject;
 class TopoDS_Shape;
 class TopoDS_Edge;
-class TopTools_ListOfShape;
 
 
 //! Provides methods to identify contigous boundaries

@@ -22,7 +22,6 @@
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Foundation/Standard/Standard_OStream.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TCollection_AsciiString;
 
 
@@ -163,7 +162,8 @@ protected:
   TopTools_ListOfShape myStartShapes;
   TopTools_ListIteratorOfListOfShape myStartShapesIter;
   TopTools_IndexedDataMapOfShapeListOfShape mySubShapeMap;
-  TopTools_ListIteratorOfListOfShape myIncidentShapesIter;
+  TopTools_ListOfShape::const_iterator myIncidentShapesIter;
+  TopTools_ListOfShape::const_iterator myIncidentShapesEnd;
   TopTools_ListOfShape myShapes;
   TopTools_ListIteratorOfListOfShape myShapesIter;
   TopoDS_Shape myCurrentShape;

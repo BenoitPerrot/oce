@@ -13,13 +13,13 @@
 #include <ModelingData/TopAbs/TopAbs_Orientation.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <ModelingAlgorithms/BRepAlgo/Handle_BRepAlgo_AsDes.hxx>
 #include <Geometry/Geom/Handle_Geom_Curve.hxx>
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class BRepOffset_Analyse;
 class TopTools_DataMapOfShapeShape;
 class TopoDS_Wire;

@@ -145,12 +145,8 @@ static void CompleteDS(TopOpeBRepDS_DataStructure& DStr,
     const TopoDS_Edge& E = TopoDS::Edge(ExpE.Current());
     Standard_Boolean hasgeom = DStr.HasGeometry(E);
     if (hasgeom) {
-      const TopTools_ListOfShape& WireListAnc = MapEW(E);
-      TopTools_ListIteratorOfListOfShape itaW(WireListAnc);
-      while (itaW.More()) {
-	const TopoDS_Shape& WireAnc = itaW.Value();
+      for (const TopoDS_Shape& WireAnc : MapEW(E)) {
 	DStr.AddShape(WireAnc);
-	itaW.Next();
       }
     }
   }
@@ -160,12 +156,8 @@ static void CompleteDS(TopOpeBRepDS_DataStructure& DStr,
     const TopoDS_Face& F = TopoDS::Face(ExpF.Current());
     Standard_Boolean hasgeom = DStr.HasGeometry(F);
     if (hasgeom) {
-      const TopTools_ListOfShape& ShellListAnc = MapFS(F);
-      TopTools_ListIteratorOfListOfShape itaS(ShellListAnc);
-      while (itaS.More()) {
-	const TopoDS_Shape& ShellAnc = itaS.Value();
+      for (const TopoDS_Shape& ShellAnc : MapFS(F)) {
 	DStr.AddShape(ShellAnc);
-	itaS.Next();
       }
     }
   }
@@ -438,9 +430,8 @@ void  ChFi3d_Builder::Compute()
 	if (S.ShapeType() != TopAbs_EDGE) continue;
 	Standard_Boolean issplitIN = myCoup->IsSplit(S,TopAbs_IN);
 	if ( !issplitIN ) continue;
-	TopTools_ListIteratorOfListOfShape it(myCoup->Splits(S,TopAbs_IN));
-	for (; it.More(); it.Next() ) {
-	  const TopoDS_Edge& newE = TopoDS::Edge(it.Value());
+	for (auto newS : myCoup->Splits(S,TopAbs_IN)) {
+	  const TopoDS_Edge& newE = TopoDS::Edge(newS);
 	  Standard_Real tole = BRep_Tool::Tolerance(newE);
 	  TopExp_Explorer exv(newE,TopAbs_VERTEX);
 	  for (; exv.More(); exv.Next() ) {
@@ -455,24 +446,21 @@ void  ChFi3d_Builder::Compute()
       for(It.Reset(); It.More(); It.Next()){
 	Standard_Integer indsol = It.Key();
 	const TopoDS_Shape& curshape = DStr.Shape(indsol);
-	TopTools_ListIteratorOfListOfShape 
-	  its = myCoup->Merged(curshape,TopAbs_IN);
-	if(!its.More()) B1.Add(myShapeResult,curshape);
+	auto &lMerged = myCoup->Merged(curshape,TopAbs_IN);
+	if (lMerged.empty()) B1.Add(myShapeResult,curshape);
 	else {
 	  //If the old type of Shape is Shell, Shell is placed instead of Solid, 
           //However there is a problem for compound of open Shell.
-	  while (its.More()) {
+	  for (auto sMerged : lMerged) {
 	    const TopAbs_ShapeEnum letype = curshape.ShapeType();
 	    if (letype == TopAbs_SHELL){
-	      TopExp_Explorer expsh2(its.Value(),TopAbs_SHELL);
+	      TopExp_Explorer expsh2(sMerged,TopAbs_SHELL);
 	      const TopoDS_Shape& cursh = expsh2.Current();
 	      TopoDS_Shape tt = cursh;
 	      B1.Add(myShapeResult,cursh);
-	      its.Next();
 	    }
 	    else {
-	      B1.Add(myShapeResult,its.Value());
-	      its.Next();
+	      B1.Add(myShapeResult,sMerged);
 	    }
 	  }
 	}
@@ -484,13 +472,11 @@ void  ChFi3d_Builder::Compute()
       for(It.Reset(); It.More(); It.Next()){
 	Standard_Integer indsol = It.Key();
 	const TopoDS_Shape& curshape = DStr.Shape(indsol);
-	TopTools_ListIteratorOfListOfShape 
-	  its = myCoup->Merged(curshape,TopAbs_IN);
-	if(!its.More()) B1.Add(badShape,curshape);
+	auto &lMerged = myCoup->Merged(curshape,TopAbs_IN);
+	if (lMerged.empty()) B1.Add(badShape,curshape);
 	else {
-	  while (its.More()) { 
-	    B1.Add(badShape,its.Value());
-	    its.Next();
+	  for (auto sMerged : lMerged) { 
+	    B1.Add(badShape, sMerged);
 	  }
 	}
       }
@@ -588,15 +574,12 @@ void  ChFi3d_Builder::Compute()
   {
     Standard_Real SameParTol = Precision::Confusion();
     Standard_Integer aNbSurfaces, iF;
-    TopTools_ListIteratorOfListOfShape aIt;
     //
     aNbSurfaces=myDS->NbSurfaces();
     
     for (iF=1; iF<=aNbSurfaces; ++iF) {
       const TopTools_ListOfShape& aLF=myCoup->NewFaces(iF);
-      aIt.Initialize(aLF);
-      for (; aIt.More(); aIt.Next()) {
-	const TopoDS_Shape& aF=aIt.Value();
+      for (const TopoDS_Shape& aF : aLF) {
 	BRepLib::SameParameter(aF, SameParTol, Standard_True);
 	ShapeFix::SameParameter(aF, Standard_False, SameParTol);
       }
@@ -848,12 +831,8 @@ const TopTools_ListOfShape& ChFi3d_Builder::Generated(const TopoDS_Shape& EouV)
     const TColStd_ListOfInteger& L = myEVIMap.Find(EouV);
     TColStd_ListIteratorOfListOfInteger IL;
     for(IL.Initialize(L); IL.More(); IL.Next()){
-      Standard_Integer I = IL.Value();
-      const TopTools_ListOfShape& LS =  myCoup->NewFaces(I);
-      TopTools_ListIteratorOfListOfShape ILS;
-      for(ILS.Initialize(LS); ILS.More(); ILS.Next()){
-	myGenerated.push_back(ILS.Value());
-      }
+      const TopTools_ListOfShape& LS =  myCoup->NewFaces(IL.Value());
+      myGenerated.insert(end(myGenerated), begin(LS), end(LS));
     }
   }
   return myGenerated;

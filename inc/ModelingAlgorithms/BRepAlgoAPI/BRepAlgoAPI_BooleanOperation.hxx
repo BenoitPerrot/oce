@@ -20,7 +20,6 @@
 #include <ModelingAlgorithms/BRepBuilderAPI/BRepBuilderAPI_MakeShape.hxx>
 class TopoDS_Shape;
 class BOPAlgo_PaveFiller;
-class TopTools_ListOfShape;
 
 
 //! The abstract class BooleanOperation is the root

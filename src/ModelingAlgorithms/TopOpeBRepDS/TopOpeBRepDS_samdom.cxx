@@ -96,13 +96,11 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
   
   while ( nl1 > 0 || nl2 > 0 )  {
     
-    TopTools_ListIteratorOfListOfShape it1(L1);
+    TopTools_ListIteratorOfListOfShape it1 = begin(L1);
     for (i=1 ; i<=nl1; i++) {
-      const TopoDS_Shape& S1 = it1.Value();
+      const TopoDS_Shape& S1 = *it1;
 //                HDS->Shape(S1);
-      TopTools_ListIteratorOfListOfShape itsd(HDS->SameDomain(S1));
-      for (; itsd.More(); itsd.Next() ) {
-	const TopoDS_Shape& S2 = itsd.Value();
+      for (const TopoDS_Shape& S2 : HDS->SameDomain(S1)) {
 //                  HDS->Shape(S2);
 	Standard_Boolean found = FDSSDM_contains(S2,L2);
 	if ( ! found ) {
@@ -110,17 +108,15 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
 	  nl2++;
 	}
       }
-      it1.Next();
+      ++it1;
     }
     nl1 = 0;
     
-    TopTools_ListIteratorOfListOfShape it2(L2);
+    TopTools_ListIteratorOfListOfShape it2 = begin(L2);
     for (i=1 ; i<=nl2; i++) {
-      const TopoDS_Shape& S2 = it2.Value();
+      const TopoDS_Shape& S2 = *it2;
 //      HDS->Shape(S2);
-      TopTools_ListIteratorOfListOfShape itsd(HDS->SameDomain(S2));
-      for (; itsd.More(); itsd.Next() ) {
-	const TopoDS_Shape& S1 = itsd.Value();
+      for (const TopoDS_Shape& S1 : HDS->SameDomain(S2)) {
 //                  HDS->Shape(S1);
 	Standard_Boolean found = FDSSDM_contains(S1,L1);
 	if ( ! found ) {
@@ -128,7 +124,7 @@ Standard_EXPORT void FDSSDM_makes1s2(const TopoDS_Shape& S,
 	  nl1++;
 	}
       }
-      it2.Next();
+      ++it2;
     }
 
     nl2 = 0;
@@ -147,24 +143,22 @@ Standard_EXPORT void FDSSDM_s1s2makesordor(const TopTools_ListOfShape& LS1,
   //const Handle(TopOpeBRepDS_HDataStructure)& HDS = Ghds;  
   const Handle(TopOpeBRepDS_HDataStructure)& HDS = *Ghds;  
   //modified by NIZNHY-PKV Sun Dec 15 17:59:43 2002 t
-  TopTools_ListIteratorOfListOfShape it(LS1); if (!it.More()) return;
-  const TopoDS_Shape& sref = it.Value();
+  if (LS1.empty()) return;
+  const TopoDS_Shape& sref = LS1.front();
 #ifdef OCCT_DEBUG
 //  Standard_Integer  iref =
 #endif
               HDS->SameDomainReference(sref);
   TopOpeBRepDS_Config oref = HDS->SameDomainOrientation(sref);
   
-  for (it.Initialize(LS1); it.More(); it.Next() ) {
-    const TopoDS_Shape& s = it.Value();
+  for (const TopoDS_Shape& s : LS1) {
     TopOpeBRepDS_Config o = HDS->SameDomainOrientation(s);
 //  HDS->Shape(s);
     if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.push_back(s);
     else if ( o != oref && !FDSSDM_contains(s,LDO) ) LDO.push_back(s);
   }
   
-  for (it.Initialize(LS2); it.More(); it.Next() ) {
-    const TopoDS_Shape& s = it.Value();
+  for (const TopoDS_Shape& s : LS2) {
     TopOpeBRepDS_Config o = HDS->SameDomainOrientation(s);
 //             HDS->Shape(s);
     if      ( o == oref && !FDSSDM_contains(s,LSO) ) LSO.push_back(s);
@@ -205,10 +199,9 @@ Standard_EXPORT void FDSSDM_sordor(const TopoDS_Shape& S,TopTools_ListOfShape& L
 Standard_EXPORT Standard_Boolean FDSSDM_contains(const TopoDS_Shape& S,const TopTools_ListOfShape& L)
 // True if S IsSame a shape of list L.
 {
-  for (TopTools_ListIteratorOfListOfShape it(L); it.More(); it.Next() ) {
-    const TopoDS_Shape& SL = it.Value();
-    Standard_Boolean issame = SL.IsSame(S);
-    if ( issame ) return Standard_True;
+#warning TODO: C++ify
+  for (const TopoDS_Shape& SL : L) {
+    if (SL.IsSame(S)) return Standard_True;
   }
   return Standard_False;
 } // contains
@@ -216,14 +209,14 @@ Standard_EXPORT Standard_Boolean FDSSDM_contains(const TopoDS_Shape& S,const Top
 Standard_EXPORT void FDSSDM_copylist(const TopTools_ListOfShape& Lin,const Standard_Integer I1,const Standard_Integer I2,TopTools_ListOfShape& Lou)
 // copie des elements [i1..i2] de Lin dans Lou. 1er element de Lin = index 1 
 {
-  TopTools_ListIteratorOfListOfShape it(Lin);
   Standard_Integer nadd = 0;
-  for ( Standard_Integer i = 1; it.More(); it.Next(),i++ ) {
-    const TopoDS_Shape& EL = it.Value();
+  Standard_Integer i = 1;
+  for (const TopoDS_Shape& EL : Lin) {
     if ( i >= I1 && i <= I2 ) {
       Lou.push_back(EL);
       nadd++;
     }
+    i++;
   }
 } // copylist
 

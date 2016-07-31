@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingAlgorithms/ChFi3d/ChFi3d_ChBuilder.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
 #include <ModelingAlgorithms/BRepFilletAPI/BRepFilletAPI_LocalOperation.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
@@ -24,7 +25,6 @@ class TopoDS_Edge;
 class TopoDS_Face;
 class TopoDS_Vertex;
 class TopOpeBRepBuild_HBuilder;
-class TopTools_ListOfShape;
 class ChFiDS_SecHArray1;
 
 

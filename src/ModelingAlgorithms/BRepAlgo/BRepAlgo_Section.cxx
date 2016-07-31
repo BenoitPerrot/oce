@@ -280,8 +280,8 @@ static TopoDS_Shape MakeShape(const Handle(Geom_Surface)& );
     BRep_Builder BB;
     BB.MakeCompound(TopoDS::Compound(myShape));
     Handle(TopOpeBRepBuild_HBuilder) HB = Builder();
-    TopTools_ListIteratorOfListOfShape itloe = HB->Section();
-    for(; itloe.More(); itloe.Next()) BB.Add(myShape,itloe.Value());
+    for(auto soe : HB->Section())
+      BB.Add(myShape,soe);
     
     TopOpeBRepBuild_Tools::CorrectTolerances(myShape);
     

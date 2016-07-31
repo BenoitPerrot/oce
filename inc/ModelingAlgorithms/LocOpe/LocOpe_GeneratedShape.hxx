@@ -12,7 +12,6 @@
 
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/MMgt/MMgt_TShared.hxx>
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Face;

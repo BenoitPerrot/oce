@@ -113,11 +113,8 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 
   TopTools_MapOfShape GEdg,GVtx; // Edges et vertex generateurs
 
-  TopTools_ListIteratorOfListOfShape itl,itl2;
-
-
-  for (itl.Initialize(ledges); itl.More(); itl.Next()) {
-    const TopoDS_Edge& edg = TopoDS::Edge(itl.Value());
+  for (auto s : ledges) {
+    const TopoDS_Edge& edg = TopoDS::Edge(s);
     
     GEdg.Add(edg);
     for (exp2.Init(edg,TopAbs_VERTEX); exp2.More(); exp2.Next()) {
@@ -160,15 +157,18 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
     if (!theEFMap.Contains(edg)) {
       continue;
     }
-    for (itl2.Initialize(theEFMap.FindFromKey(edg));itl2.More();itl2.Next()){
-      if (!theLeft.Contains(itl2.Value())) {
+#warning find
+    TopTools_ListIteratorOfListOfShape itl2;
+    auto &l = theEFMap.FindFromKey(edg);
+    for (itl2 = begin(l); itl2 != end(l); ++itl2) {
+      if (!theLeft.Contains(*itl2)) {
 	break;
       }
     }
-    if (!itl2.More()) { // edge "interne" au shell, ou bord libre
+    if (itl2 == end(l)) { // edge "interne" au shell, ou bord libre
     }
     else {
-      const TopoDS_Face& fac = TopoDS::Face(itl2.Value());
+      const TopoDS_Face& fac = TopoDS::Face(*itl2);
       TopoDS_Face facbis = G->Generated(edg);
       if (ToFuse(fac,facbis)) {
 	// On recherche si une face a deja fusionne avec facbis
@@ -177,8 +177,9 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	  if (itf.Key().IsSame(fac)) {
 	    continue;
 	  }
-	  for (itl.Initialize(itf.Value()); itl.More(); itl.Next()) {
-	    if (itl.Value().IsSame(facbis)) {
+#warning find
+	  for (auto s : itf.Value()) {
+	    if (s.IsSame(facbis)) {
 	      facbisfound = Standard_True;
 	      break;
 	    }
@@ -196,12 +197,15 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
             TopTools_ListOfShape thelist;
  	    theFFMap.Bind(fac, thelist);
 	  }
-	  for (itl.Initialize(theFFMap(fac)); itl.More(); itl.Next()) {
-	    if (itl.Value().IsSame(facbis)) {
+#warning find
+	  Standard_Boolean found = Standard_False;
+	  for (auto s : theFFMap(fac)) {
+	    if (s.IsSame(facbis)) {
+	      found = Standard_True;
 	      break;
 	    }
 	  }
-	  if (!itl.More()) {
+	  if (!found) {
 	    theFFMap(fac).push_back(facbis);
 	  }
 	  toRemove.Add(edg);
@@ -221,15 +225,15 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 //  TopTools_DataMapIteratorOfDataMapOfShapeListOfShape itf(theFFMap);
   itf.Initialize(theFFMap);
   for (; itf.More(); itf.Next()) {
-    for (itl.Initialize(itf.Value()); itl.More(); itl.Next()) {
-      for (exp.Init(itl.Value(),TopAbs_EDGE); exp.More(); exp.Next()) {
+    for (auto s : itf.Value()) {
+      for (exp.Init(s,TopAbs_EDGE); exp.More(); exp.Next()) {
 	const TopoDS_Edge& ed = TopoDS::Edge(exp.Current());
 	if (toRemove.Contains(ed)) {
 	  continue;
 	}
-	for (itl2.Initialize(itf.Value()); itl2.More(); itl2.Next()) {
-	  if (!itl2.Value().IsSame(itl.Value())) {
-	    for (exp2.Init(itl2.Value(),TopAbs_EDGE);exp2.More();exp2.Next()) {
+	for (auto s2 : itf.Value()) {
+	  if (!s2.IsSame(s)) {
+	    for (exp2.Init(s2,TopAbs_EDGE);exp2.More();exp2.Next()) {
 	      if (ed.IsSame(exp2.Current())) {
 		toRemove.Add(ed);
 		break;
@@ -328,26 +332,25 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	    }
 	    theEEMap(edg).push_back(edgbis);
 	    const TopTools_ListOfShape& L = theEEMap(edg);
-	    TopTools_ListIteratorOfListOfShape Lit(L);
+#warning find
 	    Standard_Boolean OK = Standard_True;
-	    for (; Lit.More(); Lit.Next()) {
-	      if (Lit.Value().IsSame(edgbis)) {
+	    for (auto S : L) {
+	      if (S.IsSame(edgbis)) {
 		OK = Standard_False;
 		break;
 	      }
 	    }
 	    if (OK) theEEMap(edg).push_back(edgbis);
 	    
-	    itl.Initialize(theEFMap.FindFromKey(edg));
 	    Standard_Boolean FuseEdge = ToFuse(edg,fac,vtx,toRemove);
 	    if (!FuseEdge) {
 	      DontFuse.Bind(edg,fac);
 	    }
 	    else {
-	      for (; itl.More(); itl.Next()) {
-		if (!itl.Value().IsSame(fac)) {
-		  if (theFFMap.IsBound(itl.Value())) { 
-		    FuseEdge = ToFuse(edg,TopoDS::Face(itl.Value()),
+	      for (auto s : theEFMap.FindFromKey(edg)) {
+		if (!s.IsSame(fac)) {
+		  if (theFFMap.IsBound(s)) { 
+		    FuseEdge = ToFuse(edg,TopoDS::Face(s),
 				      vtx,toRemove);
 		    // edge a fusionner
 		    if (FuseEdge) {
@@ -357,15 +360,15 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 		      if (toRemove.Contains(vtx)) {
 			toRemove.Remove(vtx);
 		      }
-		      DontFuse.Bind(edg,itl.Value());
+		      DontFuse.Bind(edg, s);
 		    }
 		  }
 		  else { // on marque comme face a reconstruire
-		    RebuildFace.push_back(itl.Value());
+		    RebuildFace.push_back(s);
 		    if (toRemove.Contains(vtx)) {
 		      toRemove.Remove(vtx);
 		    }
-		    DontFuse.Bind(edg,itl.Value());
+		    DontFuse.Bind(edg, s);
 		  }
 		  
 		  break;
@@ -380,9 +383,9 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 
 
 
-  for (itl.Initialize(RebuildFace); itl.More(); itl.Next()) {
+  for (auto s : RebuildFace) {
     TopTools_ListOfShape thelist3;
-    theFFMap.Bind(itl.Value(), thelist3);
+    theFFMap.Bind(s, thelist3);
   }
 
   BRep_Builder B;
@@ -414,8 +417,11 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
       prm = BRep_Tool::Parameter(vtx,edg);
 
       newvtx.Nullify();
-      for (itl.Initialize(theEEMap(edg)); itl.More(); itl.Next()) {
-	const TopoDS_Edge& edgbis = TopoDS::Edge(itl.Value());
+#warning find
+      auto &edges = theEEMap(edg);
+      TopTools_ListIteratorOfListOfShape itl = begin(edges);
+      for (; itl != end(edges); ++itl) {
+	const TopoDS_Edge& edgbis = TopoDS::Edge(*itl);
 	for (exp2.Init(edgbis,TopAbs_VERTEX); exp2.More(); exp2.Next()) {
 	  if (exp2.Current().IsSame(vtx)) {
 	    break;
@@ -438,7 +444,8 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	B.Add(newedg,newvtx.Oriented(vtx.Orientation()));
 	tol = BRep_Tool::Tolerance(newvtx);
 	B.UpdateVertex(newvtx,prm,newedg,tol);
-	toRemove.Add(itl.Value()); // i-e edgbis
+#warning no check on itl
+	toRemove.Add(*itl); // i-e edgbis
 	KeepNewEdge = Standard_True;
       }
       else {
@@ -511,15 +518,18 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	  // premier passage : on met les wires non touches des faces 
 	  // en vis a vis
 
-	  for (itl.Initialize(itf.Value()); itl.More(); itl.Next()) {
-	    TopoDS_Face facbis = TopoDS::Face(itl.Value());
-	    for (itl2.Initialize(G->OrientedFaces());itl2.More();itl2.Next()) {
-	      if (itl2.Value().IsSame(facbis)) {
+	  for (auto s : itf.Value()) {
+	    TopoDS_Face facbis = TopoDS::Face(s);
+#warning find
+	    TopTools_ListOfShape::const_iterator itl2;
+	    auto &orientedFaces = G->OrientedFaces();
+	    for (itl2 = begin(orientedFaces); itl2 != end(orientedFaces); ++itl2) {
+	      if (itl2->IsSame(facbis)) {
 		break;
 	      }
 	    }
-	    if (itl2.More()) {
-	      orient = itl2.Value().Orientation();
+	    if (itl2 != end(orientedFaces)) {
+	      orient = itl2->Orientation();
 	      facbis.Orientation(orient);
 	    }
 	    else { // on fusionne avec une autre face du shape...
@@ -685,13 +695,15 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 	      }
 	    }  
 	    if (AddPart) {
-	      itl2.Initialize(theEEMap(edg));
+#warning find
+	      auto &edges = theEEMap(edg);
 	      gp_Vec dir1,dir2;
-	      for (; itl2.More(); itl2.Next()) {
-		if (EdgAdded.Contains(itl2.Value())) {
+	      TopTools_ListOfShape::const_iterator itl2;
+	      for (itl2 = begin(edges); itl2 != end(edges); ++itl2) {
+		if (EdgAdded.Contains(*itl2)) {
 		  continue;
 		}
-		const TopoDS_Edge& edgbis = TopoDS::Edge(itl2.Value());
+		const TopoDS_Edge& edgbis = TopoDS::Edge(*itl2);
 		TopoDS_Iterator it1(newedg),it2;
 		for (; it1.More(); it1.Next()) {
 		  for (it2.Initialize(edgbis); it2.More(); it2.Next()) {
@@ -794,16 +806,19 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 //	orface = TopAbs::Compose(orsav,orface);
 
 	Standard_Boolean includeinw = Standard_False;
-	for (itl.Initialize(itf.Value()); itl.More(); itl.Next()) {
-	  TopoDS_Face facbis = TopoDS::Face(itl.Value());
+	for (auto s : itf.Value()) {
+	  TopoDS_Face facbis = TopoDS::Face(s);
+#warning find
 	  Standard_Boolean genface = Standard_True;
-	  for (itl2.Initialize(G->OrientedFaces()); itl2.More(); itl2.Next()) {
-	    if (itl2.Value().IsSame(facbis)) {
+	  auto &orientedFaces = G->OrientedFaces();
+	  TopTools_ListOfShape::const_iterator itl2;
+	  for (itl2 = begin(orientedFaces); itl2 != end(orientedFaces); ++itl2) {
+	    if (itl2->IsSame(facbis)) {
 	      break;
 	    }
 	  }
-	  if (itl2.More()) {
-	    orient = itl2.Value().Orientation();
+	  if (itl2 != end(orientedFaces)) {
+	    orient = itl2->Orientation();
 	    facbis.Orientation(orient);
 	  }
 	  else { // on fusionne avec une autre face du shape...
@@ -920,8 +935,8 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
       //	newface.Nullify();
       //      }
       myModShapes.Bind(fac,listoffaces);
-      for (itl.Initialize(itf.Value()); itl.More(); itl.Next()) {
-	myModShapes.Bind(itl.Value(),listoffaces);
+      for (auto s : itf.Value()) {
+	myModShapes.Bind(s,listoffaces);
       }
     }
   }
@@ -995,8 +1010,8 @@ void LocOpe_Generator::Perform(const Handle(LocOpe_GeneratedShape)& G)
 
 
   TopAbs_Orientation orsolid = myShape.Orientation();
-  for (itl.Initialize(G->OrientedFaces()); itl.More(); itl.Next()) {
-    const TopoDS_Face& fac = TopoDS::Face(itl.Value());
+  for (auto s : G->OrientedFaces()) {
+    const TopoDS_Face& fac = TopoDS::Face(s);
     if (toRemove.Contains(fac)) {
       continue;
     }

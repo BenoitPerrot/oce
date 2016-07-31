@@ -24,7 +24,6 @@ class TopoDS_Edge;
 class TopoDS_Vertex;
 class TopoDS_Wire;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 
 
 //! Provides a tool to cut  :

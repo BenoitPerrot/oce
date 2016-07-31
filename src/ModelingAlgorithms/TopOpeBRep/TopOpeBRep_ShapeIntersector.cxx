@@ -258,10 +258,9 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
       for(; ExpRF.More(); ExpRF.Next() )
 	{
 	  const TopoDS_Edge& edgef = TopoDS::Edge( ExpRF.Current() );
-	  TopTools_ListIteratorOfListOfShape it( aListOfShape );
-	  for(; it.More(); it.Next() )
+	  for (TopTools_ListIteratorOfListOfShape it = begin(aListOfShape); it != end(aListOfShape); ++it)
 	    {
-	      const TopoDS_Shape& shape = it.Value();
+	      const TopoDS_Shape& shape = *it;
 
 	      if( shape.ShapeType() != TopAbs_EDGE )
 		continue;
@@ -274,10 +273,9 @@ void TopOpeBRep_ShapeIntersector::RejectedFaces (const TopoDS_Shape& anObj,
 		}
 	    }
 	}
-      TopTools_ListIteratorOfListOfShape it( aListOfShape );
-      for(; it.More(); it.Next() )
+      for (TopTools_ListIteratorOfListOfShape it = begin(aListOfShape); it != end(aListOfShape); ++it)
 	{
-	  const TopoDS_Shape& shape = it.Value();
+	  const TopoDS_Shape& shape = *it;
 
 	  if( shape.ShapeType() != TopAbs_FACE )
 	    continue;

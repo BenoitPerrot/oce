@@ -299,16 +299,12 @@ Standard_Boolean TopOpeBRepDS_Check::ChkIntgSamDom()
       // sauf si Sind == Sref
       if(i != Curr) {
 	const TopTools_ListOfShape& losr = BDS.ShapeSameDomain(Sref);
-	TopTools_ListIteratorOfListOfShape liolos;
-	liolos.Initialize(losr);
-	while (liolos.More() ) {
-	  const TopoDS_Shape& Sh = liolos.Value();
+	for (const TopoDS_Shape& Sh : losr) {
 	  Loc = myHDS->Shape(Sh);
 	  if(Loc == i) {
 	    bb = Standard_True;
 	    break;
 	  }
-	  liolos.Next();
 	}
 	if(!bb) {
 #ifdef OCCT_DEBUG
@@ -334,12 +330,9 @@ Standard_Boolean TopOpeBRepDS_Check::CheckShapes
 (const TopTools_ListOfShape& LS ) const
 {
   Standard_Integer index;
-  TopTools_ListIteratorOfListOfShape it(LS);
-  while (it.More()) {
-    const TopoDS_Shape& itS = it.Value();
+  for (const TopoDS_Shape& itS : LS) {
     index = myHDS->Shape(itS);
     if (!index) return Standard_False;
-    it.Next();
   }
   return Standard_True;
 }

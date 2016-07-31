@@ -319,17 +319,14 @@ Standard_Boolean Draft_Modification::InternalAdd(const TopoDS_Face& F,
       }
       else {
 	// Find the other face containing the edge.
-	TopTools_ListIteratorOfListOfShape it;
-	it.Initialize(myEFMap.FindFromKey(edg));
 	Standard_Integer nbother = 0;
-	while (it.More()) {
-	  if (!it.Value().IsSame(F)) {
+	for (auto FFK : myEFMap.FindFromKey(edg)) {
+	  if (!FFK.IsSame(F)) {
 	    if (OtherF.IsNull()) {
-	      OtherF = TopoDS::Face(it.Value());
+	      OtherF = TopoDS::Face(FFK);
 	    }
 	    nbother++;
 	  }
-	  it.Next();
 	}	  
 	if (nbother >=2) {
 	  badShape = edg;
@@ -520,9 +517,8 @@ Standard_Boolean Draft_Modification::Propagate ()
 
   while (ite.More()) {
     const TopoDS_Edge& Ed = ite.Key();
-    TopTools_ListIteratorOfListOfShape it;
-    for (it.Initialize(myEFMap.FindFromKey(Ed)); it.More(); it.Next()) {
-      F = TopoDS::Face(it.Value());
+    for (auto FFK : myEFMap.FindFromKey(Ed)) {
+      F = TopoDS::Face(FFK);
       if (!myFMap.IsBound(F)) {
 	TopLoc_Location L;
 	Handle(Geom_Surface) S = BRep_Tool::Surface(F,L);

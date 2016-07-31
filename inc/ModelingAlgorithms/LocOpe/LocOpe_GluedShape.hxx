@@ -12,11 +12,11 @@
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <ModelingData/TopTools/TopTools_MapOfShape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeShape.hxx>
 #include <ModelingAlgorithms/LocOpe/LocOpe_GeneratedShape.hxx>
 class TopoDS_Shape;
 class TopoDS_Face;
-class TopTools_ListOfShape;
 class TopoDS_Edge;
 class TopoDS_Vertex;
 

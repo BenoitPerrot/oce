@@ -367,24 +367,21 @@ const TopTools_ListOfShape&
 QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
 {
   if (IsDone() && (myMapGener.IsBound(theS) || myMapModif.IsBound(theS))) {
-    TopTools_ListIteratorOfListOfShape anItl;
-    if(myMapGener.IsBound(theS)) anItl.Initialize(myMapGener(theS));
-    TopTools_ListIteratorOfListOfShape anItl1;
+    TopTools_ListOfShape aL1, aL;
+    if(myMapGener.IsBound(theS))
+      aL = myMapGener(theS);
+
     myGenerated.clear();
     Standard_Boolean aNonEmpty = Standard_False;
-    TopTools_ListOfShape aL1, aL;
-
-    for(; anItl.More(); anItl.Next()) aL.push_back(anItl.Value());
 
     TopTools_MapOfShape aMapModif;
-    anItl.Initialize(Modified(theS));
-    for(; anItl.More(); anItl.Next()) aMapModif.Add(anItl.Value());
+    for (auto S : Modified(theS))
+      aMapModif.Add(S);
     myGenerated.clear();
 
-    anItl.Initialize(myMapModif(theS));
-    for(; anItl.More(); anItl.Next()) {
-      if(!aMapModif.Contains(anItl.Value())) {
-	aL.push_back(anItl.Value());
+    for (auto S : myMapModif(theS)) {
+      if(!aMapModif.Contains(S)) {
+	aL.push_back(S);
       }
     }
 
@@ -392,35 +389,31 @@ QANewModTopOpe_Glue::Generated (const TopoDS_Shape& theS)
       {
 
 	aNonEmpty = Standard_False;
-	anItl.Initialize(aL);
+	for (auto S : aL) {
 
-	for(; anItl.More(); anItl.Next()) {
-
-	  if(myMapGener.IsBound(anItl.Value())) {
+	  if(myMapGener.IsBound(S)) {
 	    aNonEmpty = Standard_True;
-	    anItl1.Initialize(myMapGener(anItl.Value()));
-	    for(; anItl1.More(); anItl1.Next()) {
-	      if(!anItl.Value().IsSame(anItl1.Value()))  aL1.push_back(anItl1.Value());
+#warning copy_if?
+	    for (auto S1 : myMapGener(S)) {
+	      if(!S.IsSame(S1))  aL1.push_back(S1);
 	    }
 	  }
 	  else {
-	    if(myMapModif.IsBound(anItl.Value())) {
+	    if(myMapModif.IsBound(S)) {
 	      aNonEmpty = Standard_True;
-	      anItl1.Initialize(myMapModif(anItl.Value()));
-	      for(; anItl1.More(); anItl1.Next()) {
-		if(!anItl.Value().IsSame(anItl1.Value())) aL1.push_back(anItl1.Value());
+	      for (auto S1 : myMapModif(S)) {
+		if(!S.IsSame(S1)) aL1.push_back(S1);
 	      }
 	    }
 	    else {
-	      if(!aMapModif.Contains(anItl.Value())) myGenerated.push_back(anItl.Value());
+	      if(!aMapModif.Contains(S)) myGenerated.push_back(S);
 	    }
 	  }
 
 	}
 
 	if(!aL1.empty()) {
-	  aL.clear();
-	  aL.Append(aL1);
+	  aL = aL1;
 	  aL1.clear();
 	}
 	else aNonEmpty = Standard_False;
@@ -446,12 +439,9 @@ const TopTools_ListOfShape&
 QANewModTopOpe_Glue::Modified (const TopoDS_Shape& theS)
 {
   if (IsDone() && myMapModif.IsBound(theS)) {
-    TopTools_ListIteratorOfListOfShape anItl(myMapModif(theS));
-    TopTools_ListIteratorOfListOfShape anItl1;
     myGenerated.clear();
     Standard_Boolean aNonEmpty = Standard_False;
-    TopTools_ListOfShape aL1, aL;
-    for(; anItl.More(); anItl.Next()) aL.push_back(anItl.Value());
+    TopTools_ListOfShape aL1, aL(myMapModif(theS));
 
     myGenerated.clear();
 
@@ -459,24 +449,21 @@ QANewModTopOpe_Glue::Modified (const TopoDS_Shape& theS)
       {
 
 	aNonEmpty = Standard_False;
-	anItl.Initialize(aL);
-
-	for(; anItl.More(); anItl.Next()) {
-	  if(myMapModif.IsBound(anItl.Value())) {
+	for (auto S : aL) {
+	  if(myMapModif.IsBound(S)) {
 	    aNonEmpty = Standard_True;
-	    anItl1.Initialize(myMapModif(anItl.Value()));
-	    for(; anItl1.More(); anItl1.Next()) {
-	      if(!anItl.Value().IsSame(anItl1.Value())) aL1.push_back(anItl1.Value());
+#warning copy_if?
+	    for (auto S1 : myMapModif(S)) {
+	      if(!S.IsSame(S1)) aL1.push_back(S1);
 	    }
 	  }
 	  else {
-	    myGenerated.push_back(anItl.Value());
+	    myGenerated.push_back(S);
 	  }
 	}
 
 	if(!aL1.empty()) {
-	  aL.clear();
-	  aL.Append(aL1);
+	  aL = aL1;
 	  aL1.clear();
 	}
 	else aNonEmpty = Standard_False;
@@ -506,11 +493,7 @@ QANewModTopOpe_Glue::IsDeleted (const TopoDS_Shape& theS)
     if (aList.empty())
       return Standard_True;
 
-    TopTools_ListIteratorOfListOfShape anIter(aList);
-
-    for (; anIter.More(); anIter.Next()) {
-      const TopoDS_Shape &aSplit = anIter.Value();
-
+    for (const TopoDS_Shape &aSplit : aList) {
       if (!IsDeleted(aSplit))
 	return Standard_False;
     }

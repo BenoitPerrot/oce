@@ -10,6 +10,7 @@
 #include <Foundation/Standard/Standard_DefineHandle.hxx>
 #include <DataExchange/STEPControl/Handle_STEPControl_ActorRead.hxx>
 
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <DataExchange/StepToTopoDS/StepToTopoDS_NMTool.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <DataExchange/StepRepr/Handle_StepRepr_Representation.hxx>
@@ -47,7 +48,6 @@ class StepGeom_GeometricRepresentationItem;
 class StepRepr_MappedItem;
 class StepShape_FaceSurface;
 class TopoDS_Shell;
-class TopTools_ListOfShape;
 class TopoDS_Compound;
 class TopTools_IndexedDataMapOfShapeListOfShape;
 

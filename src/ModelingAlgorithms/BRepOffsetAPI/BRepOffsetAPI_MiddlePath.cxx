@@ -33,7 +33,6 @@
 #include <ModelingData/TopTools/TopTools_IndexedDataMapOfShapeListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_MapIteratorOfMapOfShape.hxx>
 #include <ModelingData/TopExp/TopExp.hxx>
-#include <ModelingData/TopTools/TopTools_ListIteratorOfListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS.hxx>
 #include <ModelingData/BRepTools/BRepTools.hxx>
 #include <ModelingData/TopTools/TopTools_SequenceOfShape.hxx>
@@ -325,8 +324,6 @@ BRepOffsetAPI_MiddlePath::BRepOffsetAPI_MiddlePath(const TopoDS_Shape& aShape,
 
 void BRepOffsetAPI_MiddlePath::Build()
 {
-  TopTools_ListIteratorOfListOfShape itl;
-  
   TopTools_SequenceOfShape StartVertices;
   TopTools_MapOfShape EndVertices;
   TopTools_MapOfShape EndEdges;
@@ -372,10 +369,9 @@ void BRepOffsetAPI_MiddlePath::Build()
   for (i = 1; i <= StartVertices.Length(); i++)
   {
     TopTools_SequenceOfShape Edges;
-    const TopTools_ListOfShape& LE = VEmap.FindFromKey(StartVertices(i));
-    for (itl.Initialize(LE); itl.More(); itl.Next())
+    for (auto S : VEmap.FindFromKey(StartVertices(i)))
     {
-      anEdge = TopoDS::Edge(itl.Value());
+      anEdge = TopoDS::Edge(S);
       if (!myStartWireEdges.Contains(anEdge))
       {
         TopExp::Vertices(anEdge, V1, V2, Standard_True);
@@ -395,6 +391,7 @@ void BRepOffsetAPI_MiddlePath::Build()
 
   //Filling of "myPaths"
   TopTools_ListOfShape NextVertices;
+#warning odd
   for (;;)
   {
     for (i = 1; i <= myPaths.Length(); i++)
@@ -415,11 +412,10 @@ void BRepOffsetAPI_MiddlePath::Build()
       
       if (EndVertices.Contains(theVertex))
         continue;
-      const TopTools_ListOfShape& LE = VEmap.FindFromKey(theVertex);
       TopTools_MapOfShape NextEdgeCandidates;
-      for (itl.Initialize(LE); itl.More(); itl.Next())
+      for (auto S : VEmap.FindFromKey(theVertex))
       {
-        anEdge = TopoDS::Edge(itl.Value());
+        anEdge = TopoDS::Edge(S);
         if (anEdge.IsSame(theEdge))
           continue;
         TopExp::Vertices(anEdge, V1, V2, Standard_True);
@@ -449,8 +445,8 @@ void BRepOffsetAPI_MiddlePath::Build()
     }
     if (NextVertices.empty())
       break;
-    for (itl.Initialize(NextVertices); itl.More(); itl.Next())
-      CurVertices.Add(itl.Value());
+    for (auto S : NextVertices)
+      CurVertices.Add(S);
     NextVertices.clear();
   }
 
@@ -543,14 +539,10 @@ void BRepOffsetAPI_MiddlePath::Build()
       }
       const TopTools_ListOfShape& LF = EFmap.FindFromKey(E1orE2);
       TopoDS_Face theFace;
-      for (itl.Initialize(LF); itl.More(); itl.Next())
-      {
-        const TopoDS_Shape& aFace = itl.Value();
+      for (const TopoDS_Shape& aFace : LF) {
         const TopTools_ListOfShape& LF2 = EFmap.FindFromKey(E12);
-        TopTools_ListIteratorOfListOfShape itl2(LF2);
-        for (; itl2.More(); itl2.Next())
+        for (const TopoDS_Shape& aFace2 : LF2)
         {
-          const TopoDS_Shape& aFace2 = itl2.Value();
           if (aFace.IsSame(aFace2))
           {
             theFace = TopoDS::Face(aFace);
@@ -573,9 +565,9 @@ void BRepOffsetAPI_MiddlePath::Build()
       ///////////
       TopTools_IndexedMapOfShape EdgesOfTheFace;
       TopExp::MapShapes(theFace, TopAbs_EDGE, EdgesOfTheFace);
-      for (itl.Initialize(LE); itl.More(); itl.Next())
+      for (auto S : LE)
       {
-        anEdge = TopoDS::Edge(itl.Value());
+        anEdge = TopoDS::Edge(S);
         TopExp::Vertices(anEdge, V1, V2);
         if (((V1.IsSame(PrevVertex) && V2.IsSame(CurVertex)) ||
              (V1.IsSame(CurVertex) && V2.IsSame(PrevVertex))) &&

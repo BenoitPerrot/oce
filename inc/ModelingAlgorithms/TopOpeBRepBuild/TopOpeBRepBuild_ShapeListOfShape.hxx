@@ -13,7 +13,6 @@
 #include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! represent shape + a list of shape

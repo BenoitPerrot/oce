@@ -263,9 +263,7 @@ static
     const TopoDS_Edge& e1 = TopoDS::Edge(ex1.Current());
     Standard_Boolean hsd1 = HDS->HasSameDomain(e1);
     if (hsd1) {
-      TopTools_ListIteratorOfListOfShape itsd1(HDS->SameDomain(e1));
-      for (; itsd1.More(); itsd1.Next()){
-	const TopoDS_Shape& e2 = itsd1.Value();
+      for (const TopoDS_Shape& e2 : HDS->SameDomain(e1)) {
 	if (map2.Contains(e2)) return Standard_False;
       }
     }
@@ -412,16 +410,11 @@ void TopOpeBRep_DSFiller::InsertIntersection(const TopoDS_Shape& aS1,
   //modified by NIZHNY-MKK  Fri Apr 14 09:37:32 2000.END
  
   // 2.Insert all rejected faces, wires, edges of Object in DS:
-  TopTools_ListIteratorOfListOfShape anIt(aListObj);
-  
-  for (; anIt.More(); anIt.Next()) {
-    const TopoDS_Shape& aS=anIt.Value();
+  for (const TopoDS_Shape& aS : aListObj) {
     aMapOfRejectedShapesObj.Add(aS);
   }
 
-  TopTools_ListIteratorOfListOfShape anIt1(aListTool);
-  for (; anIt1.More(); anIt1.Next()) {
-    const TopoDS_Shape& aS=anIt1.Value();
+  for (const TopoDS_Shape& aS : aListTool) {
     aMapOfRejectedShapesTool.Add(aS);
   }
  
@@ -671,9 +664,7 @@ void TopOpeBRep_DSFiller::RemoveUnsharedGeometry(const Handle(TopOpeBRepDS_HData
     Standard_Integer rkS = BDS.AncestorRank(S);
     if (rkS != 1) continue;
     const TopTools_ListOfShape& lSsd = BDS.ShapeSameDomain(S);
-    TopTools_ListIteratorOfListOfShape itsd(lSsd);
-    for (; itsd.More(); itsd.Next()){
-      TopoDS_Shape Ssd = itsd.Value(); //xpuxpu
+    for (TopoDS_Shape Ssd : lSsd) {
       Standard_Integer rkSsd = BDS.AncestorRank(Ssd);
       if (rkSsd == 1) continue;
       

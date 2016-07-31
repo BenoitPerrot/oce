@@ -551,10 +551,7 @@ Standard_Boolean MakeFacesNonSec(const Standard_Integer                     theI
 
       BOPDS_ListOfPave aLP;
       theDS->Paves(anEIndex, aLP);
-      BOPDS_ListIteratorOfListOfPave aIt;
-      aIt.Initialize(aLP);
-      for ( ; aIt.More(); aIt.Next()) {
-        const BOPDS_Pave& aPave = aIt.Value();
+      for (const BOPDS_Pave& aPave : aLP) {
         TopoDS_Shape aV = theDS->Shape(aPave.Index());
         
         if(aV.IsSame(alonevertices.front())) {
@@ -631,10 +628,8 @@ Standard_Boolean MakeFacesNonSec(const Standard_Integer                     theI
     if(!aOrderedList.empty()) {
       TopoDS_Wire aW;
       aBB.MakeWire(aW);
-      TopTools_ListIteratorOfListOfShape anItE(aOrderedList);
-
-      for(; anItE.More(); anItE.Next()) {
-        aBB.Add(aW, anItE.Value());
+      for (auto S : aOrderedList) {
+        aBB.Add(aW, S);
       }
       if(fit == 1)
         aSubstitutor->Replace(aE1.Oriented(TopAbs_FORWARD), aW);
@@ -778,7 +773,7 @@ Standard_Boolean MakeFacesSec(const Standard_Integer                     theInde
       if(!bisSectionFound && aListOfWireEdges.empty()) {
         return Standard_False;
       }
-      aListOfWireEdges.Append(aSecondListOfEdges);
+      aListOfWireEdges.splice(end(aListOfWireEdges), aSecondListOfEdges);
     }
     else {
       return Standard_False;
@@ -787,11 +782,9 @@ Standard_Boolean MakeFacesSec(const Standard_Integer                     theInde
     if(!aListOfWireEdges.empty()) {
       TopoDS_Wire aW;
       aBB.MakeWire(aW);
-      TopTools_ListIteratorOfListOfShape aEIt(aListOfWireEdges);
-
-      for(; aEIt.More(); aEIt.Next()) {
-        if(!aBoundEdge.IsSame(aEIt.Value()))
-          aBB.Add(aW, aEIt.Value());
+      for (auto S : aListOfWireEdges) {
+        if(!aBoundEdge.IsSame(S))
+          aBB.Add(aW, S);
       }
       aSubstitutor->Replace(aBoundEdge.Oriented(TopAbs_FORWARD), aW);
     }
@@ -1105,10 +1098,7 @@ Standard_Boolean FindNextEdge(const TopoDS_Vertex&   theFirstVertex,
     const TopTools_ListOfShape& lste = theMapVE.FindFromKey(aCurVertex);
     Standard_Boolean befound = Standard_False;
 
-    TopTools_ListIteratorOfListOfShape anIt(lste);
-
-    for(; anIt.More(); anIt.Next()) {
-      TopoDS_Shape anEdge = anIt.Value();
+    for (TopoDS_Shape anEdge : lste) {
       TopoDS_Vertex aSaveCurVertex = aCurVertex;
 
       if(!aMapToAvoid.Contains(anEdge)) {
@@ -1134,8 +1124,8 @@ Standard_Boolean FindNextEdge(const TopoDS_Vertex&   theFirstVertex,
             continue;
           }
           else {
-            aListOfEdge.Append(aListtmp);
-            theOrderedList.Append(aListOfEdge);
+            aListOfEdge.splice(end(aListOfEdge), aListtmp);
+            theOrderedList.splice(end(theOrderedList), aListOfEdge);
             return Standard_True;
           }
         }
@@ -1152,7 +1142,7 @@ Standard_Boolean FindNextEdge(const TopoDS_Vertex&   theFirstVertex,
   }
 
   if(aCurVertex.IsSame(theLastVertex)) {
-    theOrderedList.Append(aListOfEdge);
+    theOrderedList.splice(end(theOrderedList), aListOfEdge);
     return Standard_True;
   }
   return Standard_False;
@@ -1167,14 +1157,13 @@ Standard_Boolean CheckAndOrientEdges(const TopTools_ListOfShape&  theOrderedList
                                      const gp_Pnt2d&              theLastPoint,
                                      const TopoDS_Face&           theFace,
                                      TopTools_ListOfShape&        theOrientedList) {
-  TopTools_ListIteratorOfListOfShape anIt(theOrderedList);
-
-  if(!anIt.More())
+  if (theOrientedList.empty())
     return Standard_True;
 
-  Standard_Real f, l;  
-  TopoDS_Edge aEPrev = TopoDS::Edge(anIt.Value());
-  anIt.Next();
+  Standard_Real f, l;
+  TopTools_ListOfShape::const_iterator anIt = begin(theOrderedList);
+  TopoDS_Edge aEPrev = TopoDS::Edge(*anIt);
+  ++anIt;
 
   Handle(Geom2d_Curve) aCurve = BRep_Tool::CurveOnSurface(aEPrev, theFace, f, l);
   TopoDS_Vertex Vf, Vl;
@@ -1224,8 +1213,8 @@ Standard_Boolean CheckAndOrientEdges(const TopTools_ListOfShape&  theOrderedList
     bFirstFound = Standard_True;
   }
 
-  for(; anIt.More(); anIt.Next()) {
-    const TopoDS_Edge& aE = TopoDS::Edge(anIt.Value());
+  for (; anIt != end(theOrderedList); ++anIt) {
+    const TopoDS_Edge& aE = TopoDS::Edge(*anIt);
     TopoDS_Vertex aV11, aV12;
     TopExp::Vertices(aEPrev, aV11, aV12);
     TopoDS_Vertex aV21, aV22;
@@ -1455,7 +1444,7 @@ Standard_Boolean FindFromUEdge(const TopoDS_Edge&                        theUE1O
       TopoDS_Compound aComp;
       RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
       aCompOfSecEdges = aComp;
-      aListOfWireEdges.Append(aOrderedList);
+      aListOfWireEdges.splice(end(aListOfWireEdges), aOrderedList);
       afoundpave = aPave2;
       isOnUEdge = Standard_False;
       bSecFound = Standard_True;
@@ -1478,7 +1467,7 @@ Standard_Boolean FindFromUEdge(const TopoDS_Edge&                        theUE1O
 
       RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
       aCompOfSecEdges = aComp;
-      aListOfWireEdges.Append(aOrderedList);
+      aListOfWireEdges.splice(end(aListOfWireEdges), aOrderedList);
       afoundpave = aPave2;
       bSecFound = Standard_True;
       isOnUEdge = Standard_True;
@@ -1588,7 +1577,8 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
         RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
         aCompOfSecEdges = aComp;
 
-        anArrayOfListOfSec(apaircounter++).Append(aOrderedList);
+	auto &ls = anArrayOfListOfSec(apaircounter++);
+	ls.splice(end(ls), aOrderedList);
         aFirstPaves.Append(aFirstPave);
         aLastPaves.Append(aPave2);
         aListOfFlags.Append(1);
@@ -1615,7 +1605,8 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
         TopoDS_Compound aComp;
         RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
         aCompOfSecEdges = aComp;
-        anArrayOfListOfSec(apaircounter++).Append(aOrderedList);
+	auto &l = anArrayOfListOfSec(apaircounter++);
+	l.splice(end(l), aOrderedList);
         aFirstPaves.Append(aFirstPave);
         aLastPaves.Append(aPave2);
         aListOfFlags.Append(0);
@@ -1716,7 +1707,7 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
         TopoDS_Compound aComp;
         RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
         aCompOfSecEdges = aComp;
-        aListOfWireEdges.Append(aOrderedList);
+        aListOfWireEdges.splice(end(aListOfWireEdges), aOrderedList);
 
         bSecFound = Standard_True;
       }
@@ -1745,7 +1736,7 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
     else {
       if(apbindex > 0) {
         TopTools_ListOfShape& aListOfSec = anArrayOfListOfSec(apbindex);
-        aListOfWireEdges.Append(aListOfSec);
+        aListOfWireEdges.insert(end(aListOfWireEdges), begin(aListOfSec), end(aListOfSec));
       }
     }
     aPave1 = aPave2;
@@ -1808,7 +1799,7 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
         TopoDS_Compound aComp;
         RemoveEdges(aCompOfSecEdges, aOrderedList, aComp);
         aCompOfSecEdges = aComp;
-        aListOfWireEdges.Append(aOrderedList);
+        aListOfWireEdges.splice(end(aListOfWireEdges), aOrderedList);
 
         bSecFound = Standard_True;
       }
@@ -1840,7 +1831,7 @@ Standard_Boolean FindFromVEdge(const BOPDS_Pave&                         thePrev
     else {
       if(apbindex > 0) {
         TopTools_ListOfShape& aListOfSec = anArrayOfListOfSec(apbindex);
-        aListOfWireEdges.Append(aListOfSec);
+        aListOfWireEdges.insert(end(aListOfWireEdges), begin(aListOfSec), end(aListOfSec));
       }
     }
   }
@@ -1889,11 +1880,11 @@ void RemoveEdges(const TopoDS_Compound&      theSourceComp,
   TopExp_Explorer anExp(theSourceComp, TopAbs_EDGE);
 
   for(; anExp.More(); anExp.Next()) {
+#warning find
     Standard_Boolean bfound = Standard_False;
-    TopTools_ListIteratorOfListOfShape anIt(theListToRemove);
-    
-    for(; !bfound && anIt.More(); anIt.Next()) {
-      bfound = anExp.Current().IsSame(anIt.Value());
+    for (auto S : theListToRemove) {
+      bfound = anExp.Current().IsSame(S);
+      if (bfound) break;
     }
 
     if(!bfound) {
@@ -2040,6 +2031,7 @@ static Standard_Boolean ChooseSection(const TopoDS_Shape& Comp,
   Standard_Boolean anError = Standard_False;
   //TopoDS_Wire NewWire [2];
   TopTools_SequenceOfShape Wseq;
+#warning simplify control flow
   for (;;)
     {
       TopExp_Explorer explo( OldComp, TopAbs_EDGE );
@@ -2087,9 +2079,8 @@ static Standard_Boolean ChooseSection(const TopoDS_Shape& Comp,
             {
               ind = (Vedges[0].empty())? 1 : 0;
               TopTools_SequenceOfShape Edges;
-              TopTools_ListIteratorOfListOfShape itl( Vedges[ind] );
-              for (; itl.More(); itl.Next())
-                Edges.Append( itl.Value() );
+              for (auto S : Vedges[ind])
+                Edges.Append(S);
               Standard_Integer theind=0;
               Standard_Real MinDeviation = RealLast();
               for (j = 1; j <= Edges.Length(); j++)

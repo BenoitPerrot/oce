@@ -287,9 +287,7 @@ const TopTools_ListOfShape& BRepAlgo_DSAccess::GetSectionEdgeSet
 	  LE.push_back(lEdge.front());
 	} else {
 	  const TopTools_ListOfShape& lEdge = Builder.Splits(geosha, TopAbs_ON);
-	  TopTools_ListIteratorOfListOfShape it(lEdge);
-	  for(; it.More(); it.Next()) {
-	    const TopoDS_Shape& CurrEdge = it.Value();
+	  for (const TopoDS_Shape& CurrEdge : lEdge) {
 	    Standard_Integer ipv1, ipv2;
 	    TopOpeBRepDS_Kind pvk1, pvk2;
 	    PntVtxOnSectEdge(CurrEdge, ipv1, pvk1, ipv2, pvk2);
@@ -322,12 +320,8 @@ const TopTools_ListOfShape& BRepAlgo_DSAccess::GetSectionEdgeSet
   ME.Clear();
   TopTools_ListIteratorOfListOfShape ILC;
   TopExp_Explorer ECE;
-  ILE.Initialize(LE);
-  for(;ILE.More();ILE.Next()) {
-    const TopoDS_Shape& E = ILE.Value();
-    ILC.Initialize(myListOfCompoundOfEdgeConnected);
-    for(;ILC.More();ILC.Next()) {
-      const TopoDS_Shape& Com = ILC.Value();
+  for (const TopoDS_Shape& E : LE) {
+    for (const TopoDS_Shape& Com : myListOfCompoundOfEdgeConnected) {
       ECE.Init(Com, TopAbs_EDGE);
       for(;ECE.More();ECE.Next()) {
 	if(ECE.Current().IsSame(E)) {
@@ -389,19 +383,18 @@ const TopTools_ListOfShape& BRepAlgo_DSAccess::GetSectionEdgeSet()
   // the wires are tranformed into compounds.
   myCompoundWireMap.Clear();
   BRep_Builder BB;
-  TopTools_ListIteratorOfListOfShape ILW(LW);
   TopExp_Explorer Explor;
-  for(;ILW.More();ILW.Next()) {
+  for (auto S : LW) {
       TopoDS_Compound Compound;
 //POP
       BB.MakeCompound(Compound);
 //      BB.MakeCompound(TopoDS::Compound(Compound));
-      Explor.Init(ILW.Value(), TopAbs_EDGE);
+      Explor.Init(S, TopAbs_EDGE);
       for(;Explor.More(); Explor.Next()) {
 	BB.Add(Compound, Explor.Current());
       }
       myListOfCompoundOfEdgeConnected.push_back(Compound);
-      myCompoundWireMap.Bind(Compound,ILW.Value());
+      myCompoundWireMap.Bind(Compound,S);
     }
   return myListOfCompoundOfEdgeConnected;
 }
@@ -488,19 +481,18 @@ const TopTools_ListOfShape& BRepAlgo_DSAccess::SectionVertex
 //purpose  : 
 //=======================================================================
 
-void BRepAlgo_DSAccess::SuppressEdgeSet
-(const TopoDS_Shape& C)
+void BRepAlgo_DSAccess::SuppressEdgeSet(const TopoDS_Shape& C)
 {
   // It is checked if C really is a Coumpound of connected Edges
 
   myHB->InitExtendedSectionDS();
 //  myGetSectionIsDone = Standard_False;
-
-  TopTools_ListIteratorOfListOfShape LLS(myListOfCompoundOfEdgeConnected);
-  for(;LLS.More(); LLS.Next())
-    if(C == LLS.Value())
+#warning find
+  TopTools_ListIteratorOfListOfShape LLS = begin(myListOfCompoundOfEdgeConnected);
+  for (; LLS != end(myListOfCompoundOfEdgeConnected); ++LLS)
+    if (C == *LLS)
       break;
-  if(!LLS.More())
+  if (LLS == end(myListOfCompoundOfEdgeConnected))
     return;
   
   // Cleaning
@@ -521,12 +513,12 @@ void BRepAlgo_DSAccess::ChangeEdgeSet
   // It is checked if Old is a Coumpound of connected Edges
 
   myHB->InitExtendedSectionDS();
-
-  TopTools_ListIteratorOfListOfShape LLS(myListOfCompoundOfEdgeConnected);
-  for(;LLS.More(); LLS.Next())
-    if(Old == LLS.Value())
+#warning find
+  TopTools_ListIteratorOfListOfShape LLS;
+  for (LLS = begin(myListOfCompoundOfEdgeConnected); LLS != end(myListOfCompoundOfEdgeConnected); ++LLS)
+    if (Old == *LLS)
       break;
-  if(!LLS.More())
+  if (LLS == end(myListOfCompoundOfEdgeConnected))
     return;
 
   // The compound of Edges to be rotated is constructed
@@ -612,7 +604,7 @@ void BRepAlgo_DSAccess::ChangeEdgeSet
   }
 
   // The old is replaced by new
-  LLS.Value() = New;
+  (*LLS) = New;
 }
 
 
@@ -812,14 +804,12 @@ const TopoDS_Shape& BRepAlgo_DSAccess::Merge
   
   myHB->Clear();
   myHB->MergeShapes(myS1,state1,myS2,state2);
-  const TopTools_ListOfShape& L1 = myHB->Merged(myS1,state1);
   
   BRep_Builder BB;
   myResultShape.Nullify();
   BB.MakeCompound(TopoDS::Compound(myResultShape));
-  TopTools_ListIteratorOfListOfShape it(L1);
-  for(;it.More(); it.Next()) {
-    BB.Add(myResultShape, it.Value());
+  for (auto S1 : myHB->Merged(myS1,state1)) {
+    BB.Add(myResultShape, S1);
   }
   return myResultShape;
 }
@@ -839,14 +829,12 @@ const TopoDS_Shape& BRepAlgo_DSAccess::Merge
 
   myHB->Clear();
   myHB->MergeSolid(myS1,state1);
-  const TopTools_ListOfShape& L1 = myHB->Merged(myS1,state1);
   
   BRep_Builder BB;
   myResultShape.Nullify();
   BB.MakeCompound(TopoDS::Compound(myResultShape));
-  TopTools_ListIteratorOfListOfShape it(L1);
-  for(;it.More(); it.Next()) {
-    BB.Add(myResultShape, it.Value());
+  for (auto S1 : myHB->Merged(myS1,state1)) {
+    BB.Add(myResultShape, S1);
   }
   return myResultShape;
 }
@@ -883,10 +871,8 @@ const TopoDS_Shape& BRepAlgo_DSAccess::PropagateFromSection
 (const TopoDS_Shape& SectionShape)
 {
   GetSectionEdgeSet();
-  TopTools_ListIteratorOfListOfShape ils(myListOfCompoundOfEdgeConnected);
   TopExp_Explorer exp;
-  for(; ils.More(); ils.Next()) {
-    const TopoDS_Shape& SetEdgSet = ils.Value();
+  for (const TopoDS_Shape& SetEdgSet : myListOfCompoundOfEdgeConnected) {
     exp.Init(SetEdgSet, TopAbs_EDGE);
     for(; exp.More(); exp.Next()) {
       if(SectionShape.IsSame(exp.Current()))
@@ -905,51 +891,33 @@ const TopTools_ListOfShape& BRepAlgo_DSAccess::Modified (const TopoDS_Shape& Sha
 {
   myModified.clear() ;
 
+#warning factor?
 //  Handle(TopOpeBRepBuild_HBuilder)& HBuilder = myDSA.myHB ;
-  TopTools_ListIteratorOfListOfShape Iterator ;
   
   if (myHB->IsSplit (Shape, TopAbs_OUT)) {
-    for (Iterator.Initialize (myHB->Splits (Shape, TopAbs_OUT)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Splits (Shape, TopAbs_OUT);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
   if (myHB->IsSplit (Shape, TopAbs_IN)) {
-    for (Iterator.Initialize (myHB->Splits (Shape, TopAbs_IN)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Splits (Shape, TopAbs_IN);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
   if (myHB->IsSplit (Shape, TopAbs_ON)) {
-    for (Iterator.Initialize (myHB->Splits (Shape, TopAbs_ON)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Splits (Shape, TopAbs_ON);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
 
   if (myHB->IsMerged (Shape, TopAbs_OUT)) {
-    for (Iterator.Initialize (myHB->Merged (Shape, TopAbs_OUT)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Merged (Shape, TopAbs_OUT);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
   if (myHB->IsMerged(Shape, TopAbs_IN)) {
-    for (Iterator.Initialize (myHB->Merged (Shape, TopAbs_IN)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Merged (Shape, TopAbs_IN);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
   if (myHB->IsMerged(Shape, TopAbs_ON)) {
-    for (Iterator.Initialize (myHB->Merged (Shape, TopAbs_ON)) ;
-	 Iterator.More() ;
-	 Iterator.Next()) {
-      myModified.push_back (Iterator.Value()) ;
-    }
+    auto &l = myHB->Merged (Shape, TopAbs_ON);
+    myModified.insert(end(myModified), begin(l), end(l));
   }
 
   return myModified ;
@@ -1175,10 +1143,8 @@ void BRepAlgo_DSAccess::RemoveFaceInterferences
 	const TopoDS_Shape& Edge = DS.Shape(iCurrE1, FindKeep);
 	if(Edge.IsNull())
 	  continue;
-	const TopTools_ListOfShape& loe = DS.ShapeSameDomain(Edge);
 	RemInterf = Standard_True;
-	for(liolos.Initialize(loe); liolos.More(); liolos.Next()) {
-	  const TopoDS_Shape& ESD = liolos.Value();
+	for (const TopoDS_Shape& ESD : DS.ShapeSameDomain(Edge)) {
 	  for(exp.Init(DSFace, TopAbs_EDGE); exp.More(); exp.Next()) {
 	    if(ESD.IsSame(exp.Current())) {
 	      RemInterf = Standard_False;
@@ -1581,10 +1547,10 @@ void BRepAlgo_DSAccess::RemoveFaceSameDomain
     if(FSD.IsNull()) 
       return;
     TopTools_ListOfShape& ssd = DS.ChangeShapeSameDomain(FSD);
-    TopTools_ListIteratorOfListOfShape itssd(ssd);
+    TopTools_ListIteratorOfListOfShape itssd = begin(ssd);
     TopExp_Explorer exp2;
-    for(; itssd.More(); itssd.Next()) {
-      exp2.Init(itssd.Value(), TopAbs_VERTEX);
+    for (; itssd != end(ssd); ++itssd) {
+      exp2.Init(*itssd, TopAbs_VERTEX);
       for(; exp2.More(); exp2.Next()) {
 	const TopoDS_Shape& exp2Curr = exp2.Current();
 	exp.Init(C, TopAbs_VERTEX);
@@ -1600,7 +1566,7 @@ void BRepAlgo_DSAccess::RemoveFaceSameDomain
     }
     
     if(exp2.More()) {
-      const TopoDS_Shape& FSD2 = itssd.Value();
+      const TopoDS_Shape& FSD2 = *itssd;
       Standard_Integer iFSD = DS.Shape(FSD), iFSD2 = DS.Shape(FSD2);
       RemoveFaceSameDomain(iFSD, iFSD2);      
 //      DS.UnfillShapesSameDomain(FSD, FSD2);
@@ -1687,9 +1653,8 @@ void BRepAlgo_DSAccess::RemoveFaceSameDomain
       const TopoDS_Shape& SNSD = DS.Shape(icurr);
       DS.SameDomainRef(SNSD, 0);
     }
-    TopTools_ListIteratorOfListOfShape li(los);
-    for(; li.More(); li.Next()) {
-      Standard_Integer iCurrShap = DS.Shape(li.Value(), FindKeep);
+    for (auto s : los) {
+      Standard_Integer iCurrShap = DS.Shape(s, FindKeep);
       if(!iCurrShap)
 	return;
       if(iCurrShap == iend)
@@ -1710,9 +1675,8 @@ void BRepAlgo_DSAccess::RemoveFaceSameDomain
 	const TopoDS_Shape& SNSD = DS.Shape(icurr);
 	DS.SameDomainRef(SNSD, 0);
       }
-      TopTools_ListIteratorOfListOfShape li(los);
-      for(; li.More(); li.Next()) {
-	Standard_Integer iCurrShap = DS.Shape(li.Value(), FindKeep);
+      for (auto s : los) {
+	Standard_Integer iCurrShap = DS.Shape(s, FindKeep);
 	if(!iCurrShap)
 	  return;
 	moi.Add(iCurrShap);

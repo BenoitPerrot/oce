@@ -643,7 +643,6 @@ void CorrectWires(const TopoDS_Face& aFx)
   TopoDS_Face aF;
   TopoDS_Vertex aV11, aV12, aV21, aV22;;
   TopTools_IndexedDataMapOfShapeListOfShape aMVE;
-  TopTools_ListIteratorOfListOfShape aIt, aIt1;
   //
   aF=aFx;
   aF.Orientation(TopAbs_FORWARD);
@@ -665,9 +664,8 @@ void CorrectWires(const TopoDS_Face& aFx)
     //
     aD2max=-1.;
     const TopTools_ListOfShape& aLE=aMVE.FindFromIndex(i);
-    aIt.Initialize(aLE);
-    for (; aIt.More(); aIt.Next()) {
-      const TopoDS_Edge& aE=*(TopoDS_Edge*)(&aIt.Value());
+    for (TopTools_ListOfShape::const_iterator aIt = begin(aLE); aIt != end(aLE); ++aIt) {
+      const TopoDS_Edge& aE=*(const TopoDS_Edge*)(& (*aIt));
       const Handle(Geom2d_Curve)& aC2D=
         BRep_Tool::CurveOnSurface(aE, aF, aT1, aT2);
       aT=BRep_Tool::Parameter(aV, aE);
@@ -689,10 +687,10 @@ void CorrectWires(const TopoDS_Face& aFx)
       //
       TopExp::Vertices(aE, aV11, aV12);
       //
-      aIt1 = aIt;
-      aIt1.Next();
-      for (; aIt1.More(); aIt1.Next()) {
-        const TopoDS_Edge& aE1=*(TopoDS_Edge*)(&aIt1.Value());
+      TopTools_ListOfShape::const_iterator aIt1 = aIt;
+      ++aIt1;
+      for (; aIt1 != end(aLE); ++aIt1) {
+        const TopoDS_Edge& aE1=*(const TopoDS_Edge*)(& (*aIt1));
         //
         //do not perform check for edges that have two common vertices
         TopExp::Vertices(aE1, aV21, aV22);

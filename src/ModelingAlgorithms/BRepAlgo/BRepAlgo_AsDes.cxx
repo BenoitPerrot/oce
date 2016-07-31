@@ -67,9 +67,8 @@ void BRepAlgo_AsDes::Add(const TopoDS_Shape& S, const TopoDS_Shape& SS)
 
 void BRepAlgo_AsDes::Add(const TopoDS_Shape& S, const TopTools_ListOfShape& SS)
 {
-  TopTools_ListIteratorOfListOfShape it(SS);
-  for ( ; it.More(); it.Next()) {
-    Add(S,it.Value());
+  for (auto X : SS) {
+    Add(S,X);
   }
 }
 
@@ -152,36 +151,37 @@ TopTools_ListOfShape& BRepAlgo_AsDes::ChangeDescendant(const TopoDS_Shape& S)
 //purpose  : 
 //=======================================================================
 
+#warning C++ify
 static void ReplaceInList(const TopoDS_Shape&   OldS,
 			  const TopoDS_Shape&   NewS,
 			  TopTools_ListOfShape& L)
 {
-  TopTools_ListIteratorOfListOfShape it(L);
-  
-  while(it.More()) {
-    if (it.Value().IsSame(OldS)) {
-      TopAbs_Orientation O = it.Value().Orientation();
-      L.InsertBefore(NewS.Oriented(O),it);
+  TopTools_ListIteratorOfListOfShape it = begin(L);
+  while (it != end(L)) {
+    if (it->IsSame(OldS)) {
+      TopAbs_Orientation O = it->Orientation();
+      L.insert(it, NewS.Oriented(O));
       it = L.erase(it);
     }
-    else it.Next();
+    else
+      ++it;
   }
 }
 //=======================================================================
 //function : RemoveInList
 //purpose  : 
 //=======================================================================
-
+#warning C++ify
 static void RemoveInList(const TopoDS_Shape&   S,
 			 TopTools_ListOfShape& L)
 {
-  TopTools_ListIteratorOfListOfShape it(L);
-  while(it.More()) {
-    if (it.Value().IsSame(S)) {
+  TopTools_ListIteratorOfListOfShape it = begin(L);
+  while (it != end(L)) {
+    if (it->IsSame(S)) {
       it = L.erase(it);
       break;
     }
-    it.Next();
+    ++it;
   }
 }
 
@@ -192,17 +192,12 @@ static void RemoveInList(const TopoDS_Shape&   S,
 
 Standard_Boolean BRepAlgo_AsDes::HasCommonDescendant(const TopoDS_Shape& S1, 
 						       const TopoDS_Shape& S2, 
-						       TopTools_ListOfShape& LC)
-const 
+						       TopTools_ListOfShape& LC) const 
 {
   LC.clear();
   if (HasDescendant (S1) && HasDescendant (S2)) {
-    TopTools_ListIteratorOfListOfShape it1(Descendant(S1));
-    for (; it1.More(); it1.Next()) {
-      const TopoDS_Shape& DS1 = it1.Value();
-      TopTools_ListIteratorOfListOfShape it2(Ascendant(DS1));
-      for (; it2.More(); it2.Next()) {
-	const TopoDS_Shape& ADS1 = it2.Value();
+    for (const TopoDS_Shape& DS1 : Descendant(S1)) {
+      for (const TopoDS_Shape& ADS1 : Ascendant(DS1)) {
 	if (ADS1.IsSame(S2)) {
 	  LC.push_back(DS1);
 	}
@@ -222,9 +217,7 @@ void BRepAlgo_AsDes::BackReplace(const TopoDS_Shape&         OldS,
 				   const TopTools_ListOfShape& L,
 				   const Standard_Boolean      InUp)
 {
-  TopTools_ListIteratorOfListOfShape it(L);
-  for ( ; it.More(); it.Next()) {
-    const TopoDS_Shape& S = it.Value();
+  for (const TopoDS_Shape& S : L) {
     if (InUp) {
       if (up.IsBound(S)) {
 	ReplaceInList(OldS,NewS,up.ChangeFind(S));
@@ -252,7 +245,9 @@ void BRepAlgo_AsDes::Replace(const TopoDS_Shape& OldS,
     InUp = Standard_False;
     BackReplace (OldS,NewS,up(OldS),InUp);
     if (up.IsBound(NewS)) {
-      up(NewS).Append(up(OldS));
+      auto &upNew = up(NewS);
+      auto &upOld = up(OldS);
+      upNew.insert(end(upNew), begin(upOld), end(upOld));
     }
     else {
       up.Bind(NewS,up(OldS));
@@ -264,7 +259,9 @@ void BRepAlgo_AsDes::Replace(const TopoDS_Shape& OldS,
     InUp = Standard_True;
     BackReplace(OldS,NewS,down (OldS),InUp);
     if (down.IsBound(NewS)) {
-      down(NewS).Append(down(OldS));
+      auto &downNew = down(NewS);
+      auto &downOld = down(OldS);
+      downNew.insert(end(downNew), begin(downOld), end(downOld));
     }
     else {
       down.Bind(NewS,down(OldS));
@@ -286,9 +283,8 @@ void BRepAlgo_AsDes::Remove(const TopoDS_Shape& SS)
   if (!up.IsBound(SS)) {
     Standard_ConstructionError::Raise(" BRepAlgo_AsDes::Remove");
   }
-  TopTools_ListIteratorOfListOfShape it(up(SS));
-  for (; it.More(); it.Next()) {
-    RemoveInList(SS,down.ChangeFind((it.Value())));
+  for (auto S : up(SS)) {
+    RemoveInList(SS,down.ChangeFind(S));
   }
   up.UnBind(SS);
 }

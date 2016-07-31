@@ -103,9 +103,7 @@ void TopOpeBRepBuild_Builder::GFillCurveTopologyWES(const TopoDS_Shape& F1,const
   Standard_Boolean hsd = myDataStructure->HasSameDomain(F1);
   TopTools_IndexedMapOfShape aSDMap;
   if(hsd) {
-    TopTools_ListIteratorOfListOfShape it = myDataStructure -> SameDomain(F1);
-    for(; it.More(); it.Next()) {
-      const TopoDS_Shape& SDF = it.Value();
+    for (const TopoDS_Shape& SDF : myDataStructure->SameDomain(F1)) {
       aSDMap.Add(SDF);
     }
   }
@@ -185,9 +183,7 @@ void TopOpeBRepBuild_Builder::GFillCurveTopologyWES(const TopOpeBRepDS_CurveIter
 
   Standard_Integer iG = FCit.Current();
   const TopTools_ListOfShape& LnewE = NewEdges(iG);
-  TopTools_ListIteratorOfListOfShape Iti(LnewE);
-  for (; Iti.More(); Iti.Next()) {
-    TopoDS_Shape EE = Iti.Value();
+  for (TopoDS_Shape EE : LnewE) {
     TopoDS_Edge& E = TopoDS::Edge(EE);
 
     //modified by NIZHNY-MZV  Fri Mar 17 12:51:03 2000

@@ -19,12 +19,12 @@
 #include <Foundation/MMgt/MMgt_TShared.hxx>
 #include <ModelingAlgorithms/TopOpeBRepDS/Handle_TopOpeBRepDS_HDataStructure.hxx>
 #include <ModelingData/TopAbs/TopAbs_State.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <Foundation/Standard/Standard_Integer.hxx>
 class Standard_NoSuchObject;
 class TopOpeBRepDS_BuildTool;
 class TopOpeBRepDS_HDataStructure;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class TColStd_ListOfInteger;
 class TopOpeBRepBuild_Builder;
 

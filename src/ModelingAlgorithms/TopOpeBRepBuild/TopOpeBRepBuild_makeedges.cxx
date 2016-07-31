@@ -191,7 +191,7 @@ void TopOpeBRepBuild_Builder::GEDBUMakeEdges
       if (tosplit) {
 	TopTools_ListOfShape loe; Standard_Boolean ok = TopOpeBRepTool_TOOL::SplitE(TopoDS::Edge(newEdge),loe);
 	if (!ok) tosplit = Standard_False;
-	else     LOE.Append(loe);
+	else     LOE.insert(end(LOE), begin(loe), end(loe));
       }
       if (!tosplit) LOE.push_back(newEdge);
     }    

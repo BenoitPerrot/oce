@@ -57,21 +57,18 @@ void BRepFill_OffsetAncestors::Perform(BRepFill_OffsetWire& Paral)
   TopoDS_Face Spine = Paral.Spine();
   
   TopExp_Explorer                    Exp;
-  TopTools_ListIteratorOfListOfShape it;
 
   // on itere sur les edges.
   for ( Exp.Init(Spine, TopAbs_EDGE); Exp.More(); Exp.Next()) {
-    for (it.Initialize(Paral.GeneratedShapes(Exp.Current()));
-	 it.More(); it.Next()) {
-      myMap.Bind( it.Value(), Exp.Current());
+    for (auto s : Paral.GeneratedShapes(Exp.Current())) {
+      myMap.Bind(s, Exp.Current());
     }
   }
 
   // on itere sur les vertex.
   for ( Exp.Init(Spine, TopAbs_VERTEX); Exp.More(); Exp.Next()) {
-    for (it.Initialize(Paral.GeneratedShapes(Exp.Current()));
-	 it.More(); it.Next()) {
-      myMap.Bind( it.Value(), Exp.Current());
+    for (auto s : Paral.GeneratedShapes(Exp.Current())) {
+      myMap.Bind(s, Exp.Current());
     }
   }
 

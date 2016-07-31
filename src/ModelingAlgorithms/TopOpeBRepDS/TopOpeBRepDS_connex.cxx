@@ -158,8 +158,7 @@ Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const Topo
   // verifier que E est une arete de connexite de F
   Standard_Boolean EofF = Standard_False;
   const TopTools_ListOfShape& loe = FDSCNX_EdgeConnexitySameShape(F,HDS); if (loe.empty()) return;
-  for (TopTools_ListIteratorOfListOfShape i(loe);i.More();i.Next()) {
-    const TopoDS_Shape& e = i.Value();
+  for (const TopoDS_Shape& e : loe) {
 //             HDS->Shape(e);
     Standard_Boolean b = e.IsSame(E);
     if (b) {
@@ -170,8 +169,7 @@ Standard_EXPORT void FDSCNX_FaceEdgeConnexFaces(const TopoDS_Shape& F,const Topo
   if (!EofF) return;
   
   const TopTools_ListOfShape& lof = FDSCNX_EdgeConnexitySameShape(E,HDS); if (lof.empty()) return;
-  for (TopTools_ListIteratorOfListOfShape it(lof);it.More();it.Next()) {
-    const TopoDS_Shape& f = it.Value();
+  for (const TopoDS_Shape& f : lof) {
 #ifdef OCCT_DEBUG
 //    Standard_Integer fi =
 #endif
@@ -197,20 +195,22 @@ Standard_EXPORT void FDSCNX_DumpIndex(const Handle(TopOpeBRepDS_HDataStructure)&
   TopAbs_ShapeEnum ts=s.ShapeType();
   const TopTools_ListOfShape& ls=FDSCNX_EdgeConnexitySameShape(s,HDS);
   if      (ts == TopAbs_EDGE) {
-    TopTools_ListIteratorOfListOfShape ils(ls);if(!ils.More())return;
-    for(;ils.More();ils.Next())cout<<BDS.Shape(ils.Value())<<" ";
+    if (ls.empty()) return;
+    for (auto xs : ls)
+      cout << BDS.Shape(xs) << " ";
   }
   else if (ts == TopAbs_FACE) {
-    TopTools_ListIteratorOfListOfShape ils(ls);if(!ils.More())return;
-    for(;ils.More();ils.Next()) {
-      const TopoDS_Shape& e=ils.Value();
+    if (ls.empty()) return;
+    for (const TopoDS_Shape& e : ls) {
 #ifdef OCCT_DEBUG
 //      Standard_Integer ie=BDS.Shape(e);
 //      TopAbs_ShapeEnum te=e.ShapeType();
 #endif
       TopTools_ListOfShape lf;FDSCNX_FaceEdgeConnexFaces(s,e,HDS,lf);
-      TopTools_ListIteratorOfListOfShape ilf(lf);if(!ilf.More())continue;
-      for(;ilf.More();ilf.Next())cout<<BDS.Shape(ilf.Value())<<" ";
+      if (lf.empty())
+	continue;
+      for (auto xs : lf)
+	cout << BDS.Shape(xs) <<" ";
     }
   }
 }
@@ -224,22 +224,27 @@ Standard_EXPORT void FDSCNX_Dump(const Handle(TopOpeBRepDS_HDataStructure)& HDS,
   const TopoDS_Shape& s=BDS.Shape(i);Standard_Integer is=BDS.Shape(s);TopAbs_ShapeEnum ts=s.ShapeType();
   const TopTools_ListOfShape& ls=FDSCNX_EdgeConnexitySameShape(s,HDS);
   if      (ts == TopAbs_EDGE) {
-    TopTools_ListIteratorOfListOfShape ils(ls);if(!ils.More())return;
+    if (ls.empty())
+      return;
     cout<<"clear;";
-    for(;ils.More();ils.Next())cout<<"tsee f "<<BDS.Shape(ils.Value())<<";";
+    for (auto xs : ls)
+      cout<<"tsee f "<<BDS.Shape(xs)<<";";
     cout<<"tsee e "<<is<<";### edge "<<is<<" connexity"<<endl;
   }
   else if (ts == TopAbs_FACE) {
-    TopTools_ListIteratorOfListOfShape ils(ls);if(!ils.More())return;
-    for(;ils.More();ils.Next()) {
-      const TopoDS_Shape& e=ils.Value();Standard_Integer ie=BDS.Shape(e);
+    if (ls.empty())
+      return;
+    for (const TopoDS_Shape& e : ls) {
+      Standard_Integer ie=BDS.Shape(e);
 #ifdef OCCT_DEBUG
 //      TopAbs_ShapeEnum te=e.ShapeType();
 #endif
       TopTools_ListOfShape lf;FDSCNX_FaceEdgeConnexFaces(s,e,HDS,lf);
-      TopTools_ListIteratorOfListOfShape ilf(lf);if(!ilf.More())continue;
+      if (lf.empty())
+	continue;
       cout<<"clear;";cout<<"tsee f "<<is<<";";
-      for(;ilf.More();ilf.Next())cout<<"tsee f "<<BDS.Shape(ilf.Value())<<";";
+      for (auto xs : lf)
+	cout<<"tsee f " << BDS.Shape(xs) << ";";
       cout<<"tsee e "<<ie<<";### face "<<is<<" connexity"<<endl;
     }
   }

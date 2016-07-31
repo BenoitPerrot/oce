@@ -17,7 +17,6 @@
 class Standard_NoSuchObject;
 class gp_GTrsf;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 
 
 //! Geometric transformation on a shape.

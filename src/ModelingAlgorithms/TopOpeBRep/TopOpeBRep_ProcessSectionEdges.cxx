@@ -308,9 +308,8 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
   GetESL(LES);
 
   // add LES edges as section edges in the DS.
-  TopTools_ListIteratorOfListOfShape itLES;
-  for (itLES.Initialize(LES); itLES.More(); itLES.Next()) {
-    const TopoDS_Edge& E = TopoDS::Edge(itLES.Value());
+  for (auto es : LES) {
+    const TopoDS_Edge& E = TopoDS::Edge(es);
 
     Standard_Boolean isdg = BRep_Tool::Degenerated(E); //xpu290698
     if (isdg) continue;                   //xpu290698
@@ -335,8 +334,8 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
   TColStd_ListOfInteger LOI; TColStd_ListIteratorOfListOfInteger itLOI;
 
   // LOI = liste des rank (1 ou 2 ) des aretes de section (liste LES)
-  for( itLES.Initialize(LES); itLES.More(); itLES.Next()) {
-    const TopoDS_Edge& ELES = TopoDS::Edge(itLES.Value());
+  for (auto es : LES) {
+    const TopoDS_Edge& ELES = TopoDS::Edge(es);
     Standard_Boolean is1 = Standard_False;
     Standard_Boolean is2 = Standard_False;
     myFacesIntersector->InitLine();
@@ -359,29 +358,29 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
   }
   
   // ajout des aretes de section dans la DS de shape,connaissant leur rank
-  for (itLES.Initialize(LES),itLOI.Initialize(LOI);
-       itLES.More(),itLOI.More();
-       itLES.Next(),itLOI.Next()) {
-    const TopoDS_Shape& E1 = itLES.Value();
+  itLOI.Initialize(LOI);
+  for (const TopoDS_Shape& E1 : LES) {
+    if (!itLOI.More())
+      break;
     Standard_Integer rE1 = itLOI.Value();
     myDS->AddShape(E1,rE1);
+    itLOI.Next();
   }
   
   // determination des aretes SameDomain en 3d pur
   // mapELE(arete(1)) -> {arete(2)}
   // mapELE(arete(2)) -> {arete(1)}
   TopTools_DataMapOfShapeListOfShape mapELE;
-  for( itLES.Initialize(LES); itLES.More(); itLES.Next()) {
-    const TopoDS_Edge& E1 = TopoDS::Edge(itLES.Value());
+  for(auto es : LES) {
+    const TopoDS_Edge& E1 = TopoDS::Edge(es);
     Standard_Integer iE1 = myDS->Shape(E1);
     Standard_Integer rE1 = myDS->AncestorRank(iE1);
     if (rE1 != 1) continue;
     TopTools_ListOfShape thelist;
     mapELE.Bind(E1, thelist);
 
-    TopTools_ListIteratorOfListOfShape itLES2;
-    for (itLES2.Initialize(LES); itLES2.More(); itLES2.Next()) {
-      const TopoDS_Edge& E2 = TopoDS::Edge(itLES2.Value());
+    for (auto es2 : LES) {
+      const TopoDS_Edge& E2 = TopoDS::Edge(es2);
       Standard_Integer iE2 = myDS->Shape(E2);
       Standard_Integer rE2 = myDS->AncestorRank(iE2);
       if ( rE2 == 0 || iE1 == iE2 || rE2 == rE1 ) continue;
@@ -402,9 +401,8 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
       Standard_Integer iE1 = myDS->Shape(E1);
       Standard_Integer rE1 = myDS->AncestorRank(iE1);
       cout<<"sd3d edge "<<iE1<<"("<<rE1<<") : ";
-      TopTools_ListIteratorOfListOfShape itL(itmapELE.Value());
-      for (; itL.More(); itL.Next()) {
-	const TopoDS_Edge& E2 = TopoDS::Edge(itL.Value());
+      for (auto s : itmapELE.Value()) {
+	const TopoDS_Edge& E2 = TopoDS::Edge(s);
 	Standard_Integer iE2 = myDS->Shape(E2);
 	Standard_Integer rE2 = myDS->AncestorRank(iE2);
 	cout<<iE2<<"("<<rE2<<") ";
@@ -420,9 +418,8 @@ void TopOpeBRep_FacesFiller::ProcessSectionEdges()
     Standard_Integer rE1 = myDS->AncestorRank(iE1);
     const TopoDS_Face& aFace1 = TopoDS::Face(myFacesIntersector->Face(rE1));
     Standard_Boolean isClosing1 = BRep_Tool::IsClosed(E1,aFace1);
-    TopTools_ListIteratorOfListOfShape itL(itmapELE.Value());
-    for (; itL.More(); itL.Next()) {
-      const TopoDS_Edge& E2 = TopoDS::Edge(itL.Value());
+    for (auto s : itmapELE.Value()) {
+      const TopoDS_Edge& E2 = TopoDS::Edge(s);
       Standard_Integer iE2 = myDS->Shape(E2);
       Standard_Integer rE2 = myDS->AncestorRank(iE2);
       const TopoDS_Face& aFace2 = TopoDS::Face(myFacesIntersector->Face(rE2));

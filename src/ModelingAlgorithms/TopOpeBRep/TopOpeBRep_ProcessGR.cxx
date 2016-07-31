@@ -272,9 +272,8 @@ Standard_Boolean TopOpeBRep_FacesFiller::LSameDomainERL(const TopOpeBRep_LineInt
   Standard_Real t = 0.417789; Standard_Real p = (1-t)*f + t*l;
   gp_Pnt Pm = CL->Value(p);
 
-  TopTools_ListIteratorOfListOfShape it; it.Initialize(ERL);
-  for(; it.More(); it.Next()) {
-    const TopoDS_Edge& E = TopoDS::Edge(it.Value());
+  for (auto s : ERL) {
+    const TopoDS_Edge& E = TopoDS::Edge(s);
     Standard_Real tolE = BRep_Tool::Tolerance(E);
     Standard_Real maxtol = Max(tolE,GLOBAL_tolFF);
     BRepAdaptor_Curve BAC(E);

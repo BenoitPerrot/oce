@@ -99,10 +99,7 @@ void TopOpeBRepBuild_Builder::BuildFaces(const Standard_Integer iS,
     if (tSE) cout<<endl<<"BuildFaces : C "<<iC<<" on S "<<iS<<endl;
     if (tCU) { CDS.Dump(cout,iC,NtCUV); cout<<endl; }
 #endif
-    TopoDS_Shape anEdge;
-    TopTools_ListIteratorOfListOfShape Iti(NewEdges(iC)); 
-    for (;  Iti.More();  Iti.Next()) {
-      anEdge = Iti.Value();
+    for (TopoDS_Shape anEdge : NewEdges(iC)) {
       //modified by NIZNHY-PKV Mon Dec 13 10:09:38 2010f
       TopoDS_Edge& aE=*((TopoDS_Edge*)&anEdge);
       aTBCTol=BRep_Tool::Tolerance(aE);

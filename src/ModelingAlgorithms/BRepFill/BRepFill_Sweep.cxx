@@ -2782,9 +2782,7 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 	    (face.ShapeType() == TopAbs_FACE) ) B.Add(shell, face);
       }
 
-    TopTools_ListIteratorOfListOfShape It(myAuxShape);
-    for (; It.More(); It.Next()) {
-       const TopoDS_Shape& face = It.Value();
+    for (const TopoDS_Shape& face : myAuxShape) {
        if (!face.IsNull() && 
 	    (face.ShapeType() == TopAbs_FACE) ) B.Add(shell, face);
     }
@@ -3104,13 +3102,13 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
       KeepEdge(myFaces->Value(ii, I1), Bounds->Value(ii, 1), list1);
       KeepEdge(myFaces->Value(ii, I2), Bounds->Value(ii, 2), list2);
       if (list1.size() == list2.size()) {
-	TopTools_ListIteratorOfListOfShape It1(list1);
-	TopTools_ListIteratorOfListOfShape It2(list2);
+	TopTools_ListIteratorOfListOfShape It1 = begin(list1);
+	TopTools_ListIteratorOfListOfShape It2 = begin(list2);
 	Standard_Boolean B;
-	for (; It1.More(); It1.Next(), It2.Next()) {
+	for (; It1 != end(list1); ++It1, ++It2) {
 	  if (HasFilling) { // Transversal choice of constraints
 	    TopoDS_Vertex VF, VL, VC;
-	    TopoDS_Edge E = TopoDS::Edge(It1.Value());
+	    TopoDS_Edge E = TopoDS::Edge(*It1);
 	    TopoDS_Edge E1, E2;
 	    E1.Nullify();
 	    E2.Nullify();
@@ -3135,8 +3133,8 @@ void BRepFill_Sweep::Build(TopTools_MapOfShape& ReversedEdges,
 	  }
 	  
 	  // Filling
-	  B = Filling(It1.Value(), myFaces->Value(ii, I1),
-		      It2.Value(), myFaces->Value(ii, I2),
+	  B = Filling(*It1, myFaces->Value(ii, I1),
+		      *It2, myFaces->Value(ii, I2),
 		      myVEdgesModified, myTol3d, Axe, T1, Bord1, Bord2, FF);
 	  
 	  if (B) {

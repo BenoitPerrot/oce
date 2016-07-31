@@ -15,6 +15,7 @@
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
 #include <Geometry/GeomAbs/GeomAbs_JoinType.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingAlgorithms/BRepFill/BRepFill_DataMapOfShapeDataMapOfShapeListOfShape.hxx>
 class Standard_ConstructionError;
 class Standard_NoSuchObject;
@@ -22,7 +23,6 @@ class TopoDS_Wire;
 class gp_Ax3;
 class TopoDS_Face;
 class TopoDS_Shape;
-class TopTools_ListOfShape;
 class BRepMAT2d_BisectingLocus;
 class BRepMAT2d_LinkTopoBilo;
 class BRepFill_DataMapOfShapeDataMapOfShapeListOfShape;

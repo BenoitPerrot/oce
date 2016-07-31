@@ -91,8 +91,7 @@ void TopOpeBRepBuild_BuilderON::Perform2d
 #ifdef OCCT_DEBUG
 //    Standard_Integer nEspON=lEspON.Extent();
 #endif
-    for(TopTools_ListIteratorOfListOfShape it(lEspON);it.More();it.Next()) {
-      const TopoDS_Shape& EspON=it.Value();
+    for (const TopoDS_Shape& EspON : lEspON) {
       GFillONParts2dWES2(I,EspON);
     }
   }

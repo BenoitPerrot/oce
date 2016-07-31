@@ -11,6 +11,7 @@
 #include <Foundation/Standard/Standard_Macro.hxx>
 
 #include <ModelingData/TopoDS/TopoDS_Shape.hxx>
+#include <ModelingData/TopTools/TopTools_ListOfShape.hxx>
 #include <ModelingData/TopTools/TopTools_DataMapOfShapeListOfShape.hxx>
 #include <Foundation/Standard/Standard_Real.hxx>
 #include <Foundation/Standard/Standard_Boolean.hxx>
@@ -23,7 +24,6 @@ class TopoDS_Face;
 class TopoDS_Wire;
 class gp_Dir;
 class gp_Pln;
-class TopTools_ListOfShape;
 
 
 //! This  class  provides  a    tool to   realize  the

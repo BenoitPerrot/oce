@@ -82,16 +82,15 @@ Standard_Boolean Voxel_CollisionDetection::ReplaceShape(const Standard_Integer i
     myShapes.push_front(shape);
     return Standard_True;
   }
-
+#warning TODO: should be more easy
   Standard_Integer i = 1;
   Standard_Boolean is_replaced = Standard_False;
-  TopTools_ListIteratorOfListOfShape itr(myShapes);
-  for (; itr.More(); itr.Next(), i++)
+  for (TopTools_ListIteratorOfListOfShape itr = begin(myShapes); itr != end(myShapes); ++itr, i++)
   {
     if (i == ishape)
     {
       itr = myShapes.erase(itr);
-      myShapes.InsertBefore(shape, itr);
+      myShapes.insert(itr, shape);
       is_replaced = Standard_True;
       break;
     }
@@ -151,10 +150,8 @@ Standard_Boolean Voxel_CollisionDetection::Voxelize(const Standard_Integer ishap
   if (myXLen < 0.0)
   {
     Bnd_Box B, b;
-    TopTools_ListIteratorOfListOfShape itrs(myShapes);
-    for (; itrs.More(); itrs.Next())
+    for (TopoDS_Shape S : myShapes)
     {
-      TopoDS_Shape S = itrs.Value();
       BRepBndLib::Add(S, b);
       B.Add(b);
     }
@@ -163,8 +160,7 @@ Standard_Boolean Voxel_CollisionDetection::Voxelize(const Standard_Integer ishap
 
   // Voxelize the shapes
   Standard_Integer progress, ithread = 1, i = 1;
-  TopTools_ListIteratorOfListOfShape itrs(myShapes);
-  for (; itrs.More(); itrs.Next(), i++)
+  for (TopTools_ListIteratorOfListOfShape itrs = begin(myShapes); itrs != end(myShapes); ++itrs, i++)
   {
     if (ishape != -1 && i != ishape)
       continue;
@@ -181,8 +177,7 @@ Standard_Boolean Voxel_CollisionDetection::Voxelize(const Standard_Integer ishap
       voxels.SetZero();
     }
 
-    TopoDS_Shape S = itrs.Value();
-    Voxel_FastConverter voxelizer(S, voxels, myDeflection, myNbX, myNbY, myNbZ, 1 /*number of threads */);
+    Voxel_FastConverter voxelizer(*itrs, voxels, myDeflection, myNbX, myNbY, myNbZ, 1 /*number of threads */);
     if (!voxelizer.Convert(progress, ithread))
       return Standard_False;
     if (myUsageOfVolume && !voxelizer.FillInVolume(1, ithread))
