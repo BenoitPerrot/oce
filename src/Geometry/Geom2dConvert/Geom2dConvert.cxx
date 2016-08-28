@@ -86,7 +86,7 @@ typedef gp_Pnt2d   Pnt2d;
 typedef gp_Trsf2d  Trsf2d;
 
 typedef Geom2d_Curve                Curve;
-typedef Geom2d_BSplineCurve         BSplineCurve;
+// typedef Geom2d_BSplineCurve         BSplineCurve;
 typedef Handle(Geom2d_Curve)        Handle(Curve);
 typedef Handle(Geom2d_Conic)        Handle(Conic);
 typedef Handle(Geom2d_Circle)       Handle(Circle);
@@ -96,7 +96,7 @@ typedef Handle(Geom2d_Parabola)     Handle(Parabola);
 typedef Handle(Geom2d_Geometry)     Handle(Geometry);
 typedef Handle(Geom2d_BezierCurve)  Handle(BezierCurve);
 typedef Handle(Geom2d_TrimmedCurve) Handle(TrimmedCurve);
-typedef Handle(Geom2d_BSplineCurve) Handle(BSplineCurve);
+// typedef Handle(Geom2d_BSplineCurve) Handle(Geom2d_BSplineCurve);
 
 
 typedef TColStd_Array1OfReal                 Array1OfReal;
@@ -110,13 +110,13 @@ typedef TColgp_Array1OfPnt2d                 Array1OfPnt2d;
 //purpose  : 
 //=======================================================================
 
-static Handle(BSplineCurve) BSplineCurveBuilder (
+static Handle(Geom2d_BSplineCurve) BSplineCurveBuilder (
 
 const Handle(Conic)&                TheConic,
 const Convert_ConicToBSplineCurve&  Convert
 ) {
 
-   Handle(BSplineCurve) TheCurve;
+   Handle(Geom2d_BSplineCurve) TheCurve;
    Standard_Integer NbPoles = Convert.NbPoles();
    Standard_Integer NbKnots = Convert.NbKnots();
    Array1OfPnt2d   Poles   (1, NbPoles);
@@ -132,7 +132,7 @@ const Convert_ConicToBSplineCurve&  Convert
      Knots (i) = Convert.Knot (i);
      Mults (i) = Convert.Multiplicity (i);
    }
-   TheCurve = new BSplineCurve (
+   TheCurve = new Geom2d_BSplineCurve (
                   Poles, Weights, Knots, Mults, 
 		  Convert.Degree(), Convert.IsPeriodic());
 
@@ -146,8 +146,8 @@ const Convert_ConicToBSplineCurve&  Convert
 
    Trsf2d T;
    T.SetTransformation (TheConic->XAxis(), gp::OX2d());
-   Handle(BSplineCurve) Cres = 
-     Handle(BSplineCurve)::DownCast(TheCurve->Transformed (T));
+   Handle(Geom2d_BSplineCurve) Cres = 
+     Handle(Geom2d_BSplineCurve)::DownCast(TheCurve->Transformed (T));
    return Cres;
 }
 
@@ -157,9 +157,9 @@ const Convert_ConicToBSplineCurve&  Convert
 //purpose  : 
 //=======================================================================
 
-Handle(BSplineCurve) Geom2dConvert::SplitBSplineCurve (
+Handle(Geom2d_BSplineCurve) Geom2dConvert::SplitBSplineCurve (
 
-const Handle(BSplineCurve)& C,
+const Handle(Geom2d_BSplineCurve)& C,
 const Standard_Integer               FromK1, 
 const Standard_Integer               ToK2,
 const Standard_Boolean               SameOrientation
@@ -172,7 +172,7 @@ const Standard_Boolean               SameOrientation
   Standard_Integer LastK  = Max (FromK1, ToK2);
   if (FirstK < TheFirst || LastK > TheLast) Standard_OutOfRange::Raise();
 
-  Handle(BSplineCurve) NewCurve = Handle(BSplineCurve)::DownCast(C->Copy());
+  Handle(Geom2d_BSplineCurve) NewCurve = Handle(Geom2d_BSplineCurve)::DownCast(C->Copy());
 
   NewCurve->Segment(C->Knot(FirstK),C->Knot(LastK));
 
@@ -191,9 +191,9 @@ const Standard_Boolean               SameOrientation
 //purpose  : 
 //=======================================================================
 
-Handle(BSplineCurve) Geom2dConvert::SplitBSplineCurve (
+Handle(Geom2d_BSplineCurve) Geom2dConvert::SplitBSplineCurve (
 
-const Handle(BSplineCurve)& C, 
+const Handle(Geom2d_BSplineCurve)& C, 
 const Standard_Real                  FromU1, 
 const Standard_Real                  ToU2,
 const Standard_Real, // ParametricTolerance,
@@ -224,13 +224,13 @@ const Standard_Boolean               SameOrientation
 //purpose  : 
 //=======================================================================
 
-Handle(BSplineCurve)  Geom2dConvert::CurveToBSplineCurve (
+Handle(Geom2d_BSplineCurve)  Geom2dConvert::CurveToBSplineCurve (
 
 const Handle(Curve)& C,
 const Convert_ParameterisationType  Parameterisation) 
 {
     
-  Handle (BSplineCurve) TheCurve;
+  Handle (Geom2d_BSplineCurve) TheCurve;
     
   if (C->IsKind(STANDARD_TYPE(Geom2d_TrimmedCurve))) {
     Handle (Curve) Curv;
@@ -291,14 +291,14 @@ const Convert_ParameterisationType  Parameterisation)
 						 Umed, 
 						 Parameterisation);
 
-	  Handle (BSplineCurve) TheCurve1 = BSplineCurveBuilder (TheConic, Convert1);
+	  Handle (Geom2d_BSplineCurve) TheCurve1 = BSplineCurveBuilder (TheConic, Convert1);
 
 	  Convert_CircleToBSplineCurve Convert2 (C2d, 
 						 Umed, 
 						 U2, 
 						 Parameterisation);
 
-	  Handle (BSplineCurve) TheCurve2 = BSplineCurveBuilder (TheConic, Convert2);
+	  Handle (Geom2d_BSplineCurve) TheCurve2 = BSplineCurveBuilder (TheConic, Convert2);
 
 	  Geom2dConvert_CompCurveToBSplineCurve CCTBSpl(TheCurve1,
 							Parameterisation);
@@ -341,14 +341,14 @@ const Convert_ParameterisationType  Parameterisation)
 						  Umed, 
 						  Parameterisation);
 
-	  Handle (BSplineCurve) TheCurve1 = BSplineCurveBuilder (TheConic, Convert1);
+	  Handle (Geom2d_BSplineCurve) TheCurve1 = BSplineCurveBuilder (TheConic, Convert1);
 
 	  Convert_EllipseToBSplineCurve Convert2 (E2d, 
 						  Umed, 
 						  U2, 
 						  Parameterisation);
 
-	  Handle (BSplineCurve) TheCurve2 = BSplineCurveBuilder (TheConic, Convert2);
+	  Handle (Geom2d_BSplineCurve) TheCurve2 = BSplineCurveBuilder (TheConic, Convert2);
 
 	  Geom2dConvert_CompCurveToBSplineCurve CCTBSpl(TheCurve1,
 							Parameterisation);
@@ -396,10 +396,10 @@ const Convert_ParameterisationType  Parameterisation)
       if (CBez->IsRational()) {    
         Array1OfReal    Weights (1, NbPoles);
         CBez->Weights (Weights);
-        TheCurve = new BSplineCurve (Poles, Weights, Knots, Mults, Degree);
+        TheCurve = new Geom2d_BSplineCurve (Poles, Weights, Knots, Mults, Degree);
       }
       else {
-        TheCurve = new BSplineCurve (Poles, Knots, Mults, Degree);
+        TheCurve = new Geom2d_BSplineCurve (Poles, Knots, Mults, Degree);
       }
     }
     
@@ -464,10 +464,10 @@ const Convert_ParameterisationType  Parameterisation)
       if (CBez->IsRational()) {    
 	Array1OfReal    Weights (1, NbPoles);
 	CBez->Weights (Weights);
-	TheCurve = new BSplineCurve (Poles, Weights, Knots, Mults, Degree);
+	TheCurve = new Geom2d_BSplineCurve (Poles, Weights, Knots, Mults, Degree);
       }
       else {
-	TheCurve = new BSplineCurve (Poles, Knots, Mults, Degree);
+	TheCurve = new Geom2d_BSplineCurve (Poles, Knots, Mults, Degree);
       }
     }
     else if (C->IsKind (STANDARD_TYPE(Geom2d_BSplineCurve))) {

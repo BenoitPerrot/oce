@@ -115,8 +115,8 @@ Standard_Boolean TopOpeBRepDS_GapTool::Curve(const Handle(TopOpeBRepDS_Interfere
       C = myHDS->Curve(S);
       return 1;
     }
-    for (auto I : myGToI(G)) {
-      I->GKGSKS(GK,G,SK,S);
+    for (auto GI : myGToI(G)) {
+      GI->GKGSKS(GK,G,SK,S);
       if (SK == TopOpeBRepDS_CURVE) {
 	C = myHDS->Curve(S);
 	return 1;

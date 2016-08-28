@@ -82,7 +82,7 @@ const Handle(TopoDS_TShape)& VrmlData_IndexedFaceSet::TShape ()
     myTShape.Nullify();
   else if (myIsModified) {
     // Create an empty topological Face
-    const gp_XYZ * arrNodes = myCoords->Values();
+    const gp_XYZ * arrNodeCoords = myCoords->Values();
     Standard_Integer i, nTri(0);
 
     NCollection_DataMap <int, int> mapNodeId;
@@ -101,8 +101,8 @@ const Handle(TopoDS_TShape)& VrmlData_IndexedFaceSet::TShape ()
             continue;
         }
         const gp_XYZ aVec[2] = {
-          arrNodes[arrIndice[1]] - arrNodes[arrIndice[0]],
-          arrNodes[arrIndice[2]] - arrNodes[arrIndice[0]]
+          arrNodeCoords[arrIndice[1]] - arrNodeCoords[arrIndice[0]],
+          arrNodeCoords[arrIndice[2]] - arrNodeCoords[arrIndice[0]]
         };
         if ((aVec[0] ^ aVec[1]).SquareModulus() >
             Precision::SquareConfusion())
@@ -138,7 +138,7 @@ const Handle(TopoDS_TShape)& VrmlData_IndexedFaceSet::TShape ()
     NCollection_DataMap <int, int>::Iterator anIterN(mapNodeId);
     for (i = 1; anIterN.More(); anIterN.Next()) {
       const int aKey = anIterN.Key();
-      const gp_XYZ& aNodePnt = arrNodes[aKey];
+      const gp_XYZ& aNodePnt = arrNodeCoords[aKey];
       aNodes(i) = gp_Pnt (aNodePnt);
       anIterN.ChangeValue() = i++;
     }

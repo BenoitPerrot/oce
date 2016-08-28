@@ -250,9 +250,11 @@ void Extrema_GenExtCS::Perform (const Adaptor3d_Curve& C,
   // Pre-compute curve sample points.
   TColgp_HArray1OfPnt aCurvPnts (0, mytsample);
 
-  Standard_Real aCU = aMinTUV(1);
-  for (Standard_Integer aCUI = 0; aCUI <= mytsample; aCUI++, aCU += aStepCU)
-    aCurvPnts.SetValue (aCUI, C.Value (aCU));
+  {
+    Standard_Real aCU = aMinTUV(1);
+    for (Standard_Integer aCUI = 0; aCUI <= mytsample; aCUI++, aCU += aStepCU)
+      aCurvPnts.SetValue (aCUI, C.Value (aCU));
+  }
 
   PSO_Particle* aParticle = aParticles.GetWorstParticle();
   // Select specified number of particles from pre-computed set of samples

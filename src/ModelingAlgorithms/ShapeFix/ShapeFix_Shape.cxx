@@ -152,7 +152,7 @@ Standard_Boolean ShapeFix_Shape::Perform(const Handle(Message_ProgressIndicator)
   // Open progress indication scope for the following fix stages:
   // - Fix on Solid or Shell;
   // - Fix same parameterization;
-  Message_ProgressSentry aPSentry(theProgress, "Fixing stage", 0, 2, 1);
+  Message_ProgressSentry aPSentry1(theProgress, "Fixing stage", 0, 2, 1);
 
   switch ( st ) {
   case TopAbs_COMPOUND:  
@@ -166,14 +166,14 @@ Standard_Boolean ShapeFix_Shape::Perform(const Handle(Message_ProgressIndicator)
       ++aShapesNb;
 
     // Open progress indication scope for sub-shape fixing
-    Message_ProgressSentry aPSentry(theProgress, "Fixing sub-shape", 0, aShapesNb, 1);
-    for ( TopoDS_Iterator anIter(S); anIter.More() && aPSentry.More(); anIter.Next(), aPSentry.Next() )
+    Message_ProgressSentry aPSentry2(theProgress, "Fixing sub-shape", 0, aShapesNb, 1);
+    for ( TopoDS_Iterator anIter(S); anIter.More() && aPSentry2.More(); anIter.Next(), aPSentry2.Next() )
     {
       myShape = anIter.Value();
       if ( Perform(theProgress) )
         status = Standard_True;
     }
-    if ( !aPSentry.More() )
+    if ( !aPSentry2.More() )
       return Standard_False; // aborted execution
 
     myFixSameParameterMode = savFixSameParameterMode;
@@ -252,7 +252,7 @@ Standard_Boolean ShapeFix_Shape::Perform(const Handle(Message_ProgressIndicator)
   }
 
   // Switch to the second progress indication scope if it exists
-  aPSentry.Next();
+  aPSentry1.Next();
   
   myResult = Context()->Apply(S);  
 

@@ -405,18 +405,17 @@ Standard_Boolean FairCurve_MinimalVariation::Compute(const gp_Vec2d& DeltaP1,
    for (ii=1; ii<=NbKnots; ii++) {
        NKnots->ChangeValue(ii) = (double) (ii-1) / (NbKnots-1);
    } 
-
-   NewBS -> InsertKnots(NKnots->Array1(), &NMults->Array1(), 1.e-10); // FIXME: inelegant
-   Handle(TColgp_HArray1OfPnt2d) NPoles = 
-      new  TColgp_HArray1OfPnt2d(1, NewBS->NbPoles());
-   NewBS -> Poles( NPoles->ChangeArray1() );
+#warning inelegant &Array
+   NewBS -> InsertKnots(NKnots->Array1(), &NMults->Array1(), 1.e-10);
+   Handle(TColgp_HArray1OfPnt2d) NPoles_ = new TColgp_HArray1OfPnt2d(1, NewBS->NbPoles());
+   NewBS -> Poles( NPoles_->ChangeArray1() );
    NewBS -> Multiplicities( NMults->ChangeArray1() );
    NewBS -> Knots( NKnots->ChangeArray1() );
    Handle(TColStd_HArray1OfReal) FKnots  =
       new TColStd_HArray1OfReal (1, NewBS->NbPoles() + Degree+1);
    NewBS -> KnotSequence( FKnots->ChangeArray1()); 
 
-   Poles = NPoles;
+   Poles = NPoles_;
    Mults = NMults;
    Knots = NKnots;
    Flatknots = FKnots;		      

@@ -1812,7 +1812,7 @@ void BOPAlgo_PaveFiller::RemoveUsedVertices(BOPDS_Curve& aNC,
 {
   Standard_Integer nE;
   Standard_Boolean bCB;
-  Handle(BOPDS_PaveBlock) aPB, aPB1, aPB2, aPB2n;
+  Handle(BOPDS_PaveBlock) aPB1, aPB2, aPB2n;
   Handle(BOPDS_CommonBlock) aCB;
   BOPDS_ListIteratorOfListOfPaveBlock aIt, aIt1, aIt2;
   BOPDS_IndexedMapOfPaveBlock aMPB;
@@ -1820,7 +1820,7 @@ void BOPAlgo_PaveFiller::RemoveUsedVertices(BOPDS_Curve& aNC,
   //remove micro edges from aLPB
   aIt.Initialize(aLPB);
   for (; aIt.More();) {
-    aPB = aIt.Value();
+    Handle(BOPDS_PaveBlock) aPB = aIt.Value();
     const TopoDS_Edge& aE = *(TopoDS_Edge*)&myDS->Shape(aPB->Edge());
     if (BOPTools_AlgoTools::IsMicroEdge(aE, myContext)) {
       aLPB.Remove(aIt);
@@ -1941,7 +1941,7 @@ void BOPAlgo_PaveFiller::RemoveUsedVertices(BOPDS_Curve& aNC,
   //
   aNbPB=aMPB.Extent();
   for (i=1; i<=aNbPB; ++i) {
-    aPB = aMPB(i);
+    Handle(BOPDS_PaveBlock) aPB = aMPB(i);
     if (!bIn1) {
       aMPBIn1.Add(aPB);
     }

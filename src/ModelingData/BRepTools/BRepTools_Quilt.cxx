@@ -389,17 +389,13 @@ TopoDS_Shape BRepTools_Quilt::Shells() const
 	EdgesFaces.Add(aExpEdg.Current());
       
       TopoDS_Shell       SH;
-      TopAbs_Orientation NewO;
 
       TopExp_Explorer itf1( Shape,TopAbs_EDGE);
       for ( ; itf1.More(); itf1.Next()) {
 	const TopoDS_Shape& E = itf1.Current();
 	if (M.IsBound(E)) {
 	  SH = TopoDS::Shell(M(E));
-	  if (SH.Orientation() == E.Orientation())
-	    NewO = TopAbs::Reverse(Shape.Orientation());
-	  else
-	    NewO = Shape.Orientation(); 
+	  const TopAbs_Orientation NewO = SH.Orientation() == E.Orientation() ? TopAbs::Reverse(Shape.Orientation()) : Shape.Orientation(); 
 
 	  MF.Bind (Shape,SH.Oriented(NewO));
 	  break;
@@ -418,8 +414,10 @@ TopoDS_Shape BRepTools_Quilt::Shells() const
       // Add the face to the shell
       SH.Free(Standard_True);
 //      B.Add(SH.Oriented(TopAbs_FORWARD), F .Oriented(MF(F).Orientation()));
-      TopoDS_Shape arefShape = SH.Oriented(TopAbs_FORWARD) ;
-      B.Add( arefShape , Shape.Oriented(MF(Shape).Orientation()));
+      {
+	TopoDS_Shape arefShape = SH.Oriented(TopAbs_FORWARD) ;
+	B.Add( arefShape , Shape.Oriented(MF(Shape).Orientation()));
+      }
 
       TopExp_Explorer itf(Shape.Oriented(TopAbs_FORWARD),TopAbs_EDGE);
 
@@ -441,17 +439,16 @@ TopoDS_Shape BRepTools_Quilt::Shells() const
 	    // Add the faces of oldShell in SH.
 	    for (TopoDS_Iterator its(oldShell); its.More(); its.Next()) {
 	      const TopoDS_Face Fo = TopoDS::Face(its.Value());
-	      TopAbs_Orientation NewO;
 	      // update the orientation of Fo in SH.
-	      if (Rev) 
-		NewO = TopAbs::Reverse(MF(Fo).Orientation());
-	      else
-		NewO = MF(Fo).Orientation();
+	      const TopAbs_Orientation NewO = Rev ? TopAbs::Reverse(MF(Fo).Orientation()) : MF(Fo).Orientation();
 
 	      MF.Bind(Fo,SH.Oriented(NewO));
+	      {
+#warning why is this commented? is the intermediate TopoDS_Shape (arefShape) _required_?
 //	      B.Add  (SH.Oriented(TopAbs_FORWARD),Fo.Oriented(NewO));
-              TopoDS_Shape arefShape = SH.Oriented(TopAbs_FORWARD) ;
-	      B.Add  ( arefShape ,Fo.Oriented(NewO));
+		TopoDS_Shape arefShape = SH.Oriented(TopAbs_FORWARD) ;
+		B.Add  ( arefShape ,Fo.Oriented(NewO));
+	      }
 	    }
 	    // Rebind the free edges of the old shell to the new shell
             //gka BUG 6491
@@ -465,10 +462,7 @@ TopoDS_Shape BRepTools_Quilt::Shells() const
               TopoDS_Shape as = M.Find(ae);
 	      if (as.IsSame(oldShell)) {
 		// update the orientation of free edges in SH.
-		if (Rev)
-		  NewO = TopAbs::Reverse(as.Orientation());
-		else
-		  NewO = as.Orientation();
+		const TopAbs_Orientation NewO = Rev ? TopAbs::Reverse(as.Orientation()) : as.Orientation();
 		
 		M.Bind(ae,SH.Oriented(NewO));
 	      }
@@ -488,9 +482,7 @@ TopoDS_Shape BRepTools_Quilt::Shells() const
 	  M.UnBind(E);
 	}
 	else {
-	  NewO = E.Orientation();
-	  if (MF(Shape).Orientation() == TopAbs_REVERSED)
-	    NewO = TopAbs::Reverse(NewO);
+	  const TopAbs_Orientation NewO = MF(Shape).Orientation() == TopAbs_REVERSED ? TopAbs::Reverse(E.Orientation()) : E.Orientation();
 	  if(!E.IsNull())
             M.Bind(E,SH.Oriented(NewO));
           else

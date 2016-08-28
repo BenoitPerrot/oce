@@ -127,13 +127,13 @@ myKPart(0)
 
   TopExp_Explorer Exp;
   Standard_Real Umin = 0.,Vmin = 0.,Umax = 0.,Vmax = 0.,U,V;
-  gp_Pnt2d P1,P2;
   gp_Vec DZ;
   gp_Pnt P;
 
   // Result on Face1
   Standard_Boolean First = Standard_True;
   for (Exp.Init(myFace1,TopAbs_EDGE);Exp.More(); Exp.Next()) {
+    gp_Pnt2d P1,P2;
     TopoDS_Edge CurEdge = TopoDS::Edge(Exp.Current());
     BRep_Tool::UVPoints(CurEdge,myFace1,P1,P2);
     if ( First) {
@@ -252,6 +252,7 @@ myKPart(0)
 
   First = Standard_True;
   for (Exp.Init(myFace2,TopAbs_EDGE);Exp.More(); Exp.Next()) {
+    gp_Pnt2d P1,P2;
     TopoDS_Edge CurEdge = TopoDS::Edge(Exp.Current());
     BRep_Tool::UVPoints(CurEdge,myFace2,P1,P2);
     if ( First) {

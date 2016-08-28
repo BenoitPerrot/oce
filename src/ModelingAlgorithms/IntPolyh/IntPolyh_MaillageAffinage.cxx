@@ -632,8 +632,7 @@ void IntPolyh_MaillageAffinage::FillArrayOfEdges
   
   //maillage surU=u0
   Standard_Integer PntInit=1;
-  Standard_Integer BoucleMeshV;
-  for(BoucleMeshV=1; BoucleMeshV<NbSamplesV-1;BoucleMeshV++){
+  for (Standard_Integer BoucleMeshV=1; BoucleMeshV<NbSamplesV-1;BoucleMeshV++){
     TEdges[CpteurTabEdges].SetFirstPoint(PntInit);                // U V
     TEdges[CpteurTabEdges].SetSecondPoint(PntInit+1);             // U V+1
     //    TEdges[CpteurTabEdges].SetFirstTriangle(-1);
@@ -656,7 +655,7 @@ void IntPolyh_MaillageAffinage::FillArrayOfEdges
         
   //maillage sur V=v0
   PntInit=NbSamplesV;
-  for(BoucleMeshV=1; BoucleMeshV<NbSamplesU-1;BoucleMeshV++){      
+  for (Standard_Integer BoucleMeshV=1; BoucleMeshV<NbSamplesU-1;BoucleMeshV++){      
     TEdges[CpteurTabEdges].SetFirstPoint(PntInit);    // U V
     TEdges[CpteurTabEdges].SetSecondPoint(PntInit+1); // U V+1
     TEdges[CpteurTabEdges].SetFirstTriangle((BoucleMeshV-1)*(NbSamplesV-1)*2+1);
@@ -706,7 +705,7 @@ void IntPolyh_MaillageAffinage::FillArrayOfEdges
         
   //close mesh on U=u1
   PntInit=(NbSamplesU-1)*NbSamplesV; //point U=u1 V=0
-  for(BoucleMeshV=0; BoucleMeshV<NbSamplesV-1; BoucleMeshV++){
+  for(Standard_Integer BoucleMeshV=0; BoucleMeshV<NbSamplesV-1; BoucleMeshV++){
     TEdges[CpteurTabEdges].SetFirstPoint(PntInit);           //U=u1 V
     TEdges[CpteurTabEdges].SetSecondPoint(PntInit+1);        //U=u1 V+1
     TEdges[CpteurTabEdges].SetFirstTriangle((NbSamplesU-2)*(NbSamplesV-1)*2+BoucleMeshV*2+1);
@@ -716,7 +715,7 @@ void IntPolyh_MaillageAffinage::FillArrayOfEdges
   }
   
   //close mesh on V=v1
-  for(BoucleMeshV=0; BoucleMeshV<NbSamplesU-1;BoucleMeshV++){      
+  for(Standard_Integer BoucleMeshV=0; BoucleMeshV<NbSamplesU-1;BoucleMeshV++){      
     TEdges[CpteurTabEdges].SetFirstPoint(NbSamplesV-1+BoucleMeshV*NbSamplesV);       // U V=v1
     TEdges[CpteurTabEdges].SetSecondPoint(NbSamplesV-1+(BoucleMeshV+1)*NbSamplesV);  //U+1 V=v1
     //    TEdges[CpteurTabEdges].SetFirstTriangle(-1);
@@ -937,22 +936,28 @@ void IntPolyh_MaillageAffinage::TrianglesDeflectionsRefinementBSB()
   //Bounding boxes
   Bnd_BoundSortBox BndBSB;
   Standard_Real diag1,diag2;
-  Standard_Real x0,y0,z0,x1,y1,z1;
   
   //The greatest of two bounding boxes created in FillArrayOfPoints is found.
   //Then this value is weighted depending on the discretization 
   //(NbSamplesU and NbSamplesV)
-  MyBox1.Get(x0,y0,z0,x1,y1,z1);
-  x0-=x1; y0-=y1; z0-=z1;
-  diag1=x0*x0+y0*y0+z0*z0;
-  const Standard_Real NbSamplesUV1=Standard_Real(NbSamplesU1) * Standard_Real(NbSamplesV1);
-  diag1/=NbSamplesUV1;
+#warning need dedicated method for computing diag
+  {
+    Standard_Real x0,y0,z0,x1,y1,z1;
+    MyBox1.Get(x0,y0,z0,x1,y1,z1);
+    x0-=x1; y0-=y1; z0-=z1;
+    diag1=x0*x0+y0*y0+z0*z0;
+    const Standard_Real NbSamplesUV1=Standard_Real(NbSamplesU1) * Standard_Real(NbSamplesV1);
+    diag1/=NbSamplesUV1;
+  }
 
-  MyBox2.Get(x0,y0,z0,x1,y1,z1);
-  x0-=x1; y0-=y1; z0-=z1;
-  diag2=x0*x0+y0*y0+z0*z0;
-  const Standard_Real NbSamplesUV2=Standard_Real(NbSamplesU2) * Standard_Real(NbSamplesV2);
-  diag2/=NbSamplesUV2;
+  {
+    Standard_Real x0,y0,z0,x1,y1,z1;
+    MyBox2.Get(x0,y0,z0,x1,y1,z1);
+    x0-=x1; y0-=y1; z0-=z1;
+    diag2=x0*x0+y0*y0+z0*z0;
+    const Standard_Real NbSamplesUV2=Standard_Real(NbSamplesU2) * Standard_Real(NbSamplesV2);
+    diag2/=NbSamplesUV2;
+  }
   
   //-- The surface with the greatest bounding box is "discretized"
   

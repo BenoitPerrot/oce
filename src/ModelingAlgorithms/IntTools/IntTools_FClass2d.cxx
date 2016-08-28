@@ -84,7 +84,7 @@ IntTools_FClass2d::IntTools_FClass2d()
   Standard_Boolean WireIsNotEmpty, Ancienpnt3dinitialise, degenerated;
   Standard_Integer nbpnts, firstpoint, NbEdges;
   Standard_Integer iX, aNbs1, nbs, Avant, BadWire;
-  Standard_Real u, du, Tole, Tol, pfbid, plbid;
+  Standard_Real du, Tole, Tol, pfbid, plbid;
   Standard_Real FlecheU, FlecheV, TolVertex1, TolVertex;
   Standard_Real uFirst, uLast;
   Standard_Real aPrCf, aPrCf2;
@@ -225,6 +225,7 @@ IntTools_FClass2d::IntTools_FClass2d()
       }
       du = (plbid-pfbid)/(Standard_Real)(nbs-1);
       //
+      Standard_Real u;
       if(Or==TopAbs_FORWARD) { 
         u = pfbid;
         uFirst=pfbid;

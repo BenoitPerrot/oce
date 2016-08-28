@@ -337,8 +337,7 @@ void BRepFill_TrimShellCorner::Perform()
       //
       BOPDS_VectorOfPoint& aVP=aFFi.ChangePoints();
       aNbP=aVP.Extent();
-      BOPDS_VectorOfCurve& aVC=aFFi.ChangeCurves();
-      aNbC=aVC.Extent();
+      aNbC=aFFi.ChangeCurves().Extent();
       if (!aNbP && !aNbC) {
 	if (!theDS->HasInterfSubShapes(nF1, nF2)) {
           continue;

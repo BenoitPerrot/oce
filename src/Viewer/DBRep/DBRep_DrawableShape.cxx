@@ -386,14 +386,11 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
   GeomAbs_IsoType T;
   Standard_Real Par,T1,T2;
-  Standard_Real U1,U2,V1,V2,stepU=0.,stepV=0.;
+  Standard_Real V1,V2,stepU=0.,stepV=0.;
 //  gp_Pnt P, P1;
-  gp_Pnt P;
   Standard_Integer i,j;
 
   // Faces
-  Handle(Poly_Triangulation) Tr;
-  TopLoc_Location l;
   TopLoc_Location loc;
 
   for (const Handle(DBRep_Face)& F : myFaces) {
@@ -402,7 +399,8 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
     dis.SetColor(F->Color());
 
-    const Handle(Geom_Surface)& S = BRep_Tool::Surface(F->Face(),l);
+    TopLoc_Location loc_;
+    const Handle(Geom_Surface)& S = BRep_Tool::Surface(F->Face(),loc_);
 
     if (!S.IsNull()) {
 
@@ -434,11 +432,11 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
           restriction = Standard_False;
       }
 
-      BRepAdaptor_Surface S(F->Face(),restriction);
+      BRepAdaptor_Surface aS(F->Face(),restriction);
 
       //BRepAdaptor_Surface S(F->Face(),Standard_False);
       
-      GeomAbs_SurfaceType SurfType = S.GetType();
+      GeomAbs_SurfaceType SurfType = aS.GetType();
 
 // If the type of the surface is GeomAbs_SurfaceOfExtrusion or GeomAbs_SurfaceOfRevolution
 #ifdef OCCT_DEBUG
@@ -450,15 +448,16 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
       Standard_Integer N = F->NbIsos();
 
       Standard_Integer Intrv, nbIntv;
-      Standard_Integer nbUIntv = S.NbUIntervals(GeomAbs_CN);
-      Standard_Integer nbVIntv = S.NbVIntervals(GeomAbs_CN);
+      Standard_Integer nbUIntv = aS.NbUIntervals(GeomAbs_CN);
+      Standard_Integer nbVIntv = aS.NbVIntervals(GeomAbs_CN);
       TColStd_Array1OfReal TI(1,Max(nbUIntv, nbVIntv)+1);
 
       for (i = 1; i <= N; i++) {
 
+	Standard_Real U1,U2;
 	F->GetIso(i,T,Par,T1,T2);
 	if (T == GeomAbs_IsoU) {
-	  S.VIntervals(TI, GeomAbs_CN);
+	  aS.VIntervals(TI, GeomAbs_CN);
 	  V1 = Max(T1, TI(1));
 	  V2 = Min(T2, TI(2));
 	  U1 = Par;
@@ -467,7 +466,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	  nbIntv = nbVIntv;
 	}
 	else {
-	  S.UIntervals(TI, GeomAbs_CN);
+	  aS.UIntervals(TI, GeomAbs_CN);
 	  U1 = Max(T1, TI(1));
 	  U2 = Min(T2, TI(2));
 	  V1 = Par;
@@ -475,8 +474,9 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	  stepV = 0;
 	  nbIntv = nbUIntv;
 	}	
-	
-	S.D0(U1,V1,P);
+
+	gp_Pnt P;
+	aS.D0(U1,V1,P);
 	dis.MoveTo(P);
 
  	for (Intrv = 1; Intrv <= nbIntv; Intrv++) {
@@ -507,7 +507,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	      for (j = 1; j < myDiscret; j++) {
 		U1 += stepU;
 		V1 += stepV;
-		S.D0(U1,V1,P);
+		aS.D0(U1,V1,P);
 		dis.DrawTo(P);
 		if (dis.HasPicked()) {
 		  pickshape = F->Face();
@@ -527,7 +527,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	    for (j = 1; j < myDiscret; j++) {
 	      U1 += stepU;
 	      V1 += stepV;
-	      S.D0(U1,V1,P);
+	      aS.D0(U1,V1,P);
 	      dis.DrawTo(P);
 	      if (dis.HasPicked()) {
 		pickshape = F->Face();
@@ -545,7 +545,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
 	      PlotCount = 0;
 
-	      PlotIso (dis, aLocalFace , S, T, U1, V1, (T == GeomAbs_IsoV) ? stepU*2. : stepV*2., halt);
+	      PlotIso (dis, aLocalFace , aS, T, U1, V1, (T == GeomAbs_IsoV) ? stepU*2. : stepV*2., halt);
 	      U1 += stepU*2.;
 	      V1 += stepV*2.;
 	    }
@@ -560,7 +560,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	      for (j = 1; j < myDiscret; j++) {
 		U1 += stepU;
 		V1 += stepV;
-		S.D0(U1,V1,P);
+		aS.D0(U1,V1,P);
 		dis.DrawTo(P);
 		if (dis.HasPicked()) {
 		  pickshape = F->Face();
@@ -570,7 +570,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 		}
 	      }
 	    } else {
-	      CurvType = (S.BasisCurve())->GetType();
+	      CurvType = (aS.BasisCurve())->GetType();
 	      switch (CurvType) {
 	      case GeomAbs_Line :
 		break;
@@ -579,7 +579,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 		for (j = 1; j < myDiscret; j++) {
 		  U1 += stepU;
 		  V1 += stepV;
-		  S.D0(U1,V1,P);
+		  aS.D0(U1,V1,P);
 		  dis.DrawTo(P);
 		  if (dis.HasPicked()) {
 		    pickshape = F->Face();
@@ -599,7 +599,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
 		  PlotCount = 0;
 
-		  PlotIso (dis, aLocalFace, S, T, U1, V1,
+		  PlotIso (dis, aLocalFace, aS, T, U1, V1,
 			   (T == GeomAbs_IsoV) ? stepU*2. : stepV*2., halt);
 		  U1 += stepU*2.;
 		  V1 += stepV*2.;
@@ -609,7 +609,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	    }
 	  }
 	}
-	S.D0(U2,V2,P);
+	aS.D0(U2,V2,P);
 	dis.DrawTo(P);
 	if (dis.HasPicked()) {
 	  pickshape = F->Face();
@@ -625,7 +625,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
     //=====================================
 
     if (S.IsNull() || mytriangulations) {
-      Tr = BRep_Tool::Triangulation(F->Face(), loc);
+      Handle(Poly_Triangulation) Tr = BRep_Tool::Triangulation(F->Face(), loc);
       if (!Tr.IsNull()) {
 	Display(Tr, loc.Transformation(), dis);
       }
@@ -645,10 +645,10 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 
     // display geometrical curve if exists.
     Standard_Boolean isgeom = BRep_Tool::IsGeometric(E->Edge());
-    Standard_Real U1,U2;
-
+    
     if (isgeom) {
       // check the range (to report bad edges)
+      Standard_Real U1,U2;
       BRep_Tool::Range(E->Edge(),U1,U2);
       if (U2 < U1) {
 	// bad orientation
@@ -685,8 +685,11 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
       TColStd_Array1OfReal TI(1,nbintv+1);
       HC->Intervals(TI,GeomAbs_CN);
 
-      HC->D0(HC->FirstParameter(), P);
-      dis.MoveTo(P);
+      {
+	gp_Pnt P;
+	HC->D0(HC->FirstParameter(), P);
+	dis.MoveTo(P);
+      }
 
       for (intrv = 1; intrv <= nbintv; intrv++) {
 	Standard_Real t = TI(intrv);
@@ -699,6 +702,7 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	case GeomAbs_Ellipse :
 	  for (j = 1; j < myDiscret; j++) {
 	    t += step;
+	    gp_Pnt P;
 	    C.D0(t,P);
 	    dis.DrawTo(P);
 	    if (dis.HasPicked()) {
@@ -724,14 +728,17 @@ void  DBRep_DrawableShape::DrawOn(Draw_Display& dis) const
 	}
       }
 
+      {
+	gp_Pnt P;
 	C.D0(HC->LastParameter(),P);
 	dis.DrawTo(P);
-	if (dis.HasPicked()) {
+      }
+        if (dis.HasPicked()) {
 	  pickshape = E->Edge();
 	  upick = l;
 	  vpick = 0;
 	  halt = Standard_True;
-	}
+        }
       
       if (myDispOr) {
 	// display an arrow at the end

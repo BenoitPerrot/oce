@@ -1315,11 +1315,9 @@ void IntPatch_Intersection::GeomGeomPerfom(const Handle(Adaptor3d_HSurface)& the
         const Handle(IntPatch_Line)& line = interii.Line(i);
         if (line->ArcType() == IntPatch_Analytic)
         {
-          const GeomAbs_SurfaceType typs1 = theS1->GetType();
-          const GeomAbs_SurfaceType typs2 = theS2->GetType();
           IntSurf_Quadric Quad1,Quad2;
           
-          switch(typs1)
+          switch(theS1->GetType())
           {
           case GeomAbs_Plane:
             Quad1.SetValue(theS1->Plane());
@@ -1345,7 +1343,7 @@ void IntPatch_Intersection::GeomGeomPerfom(const Handle(Adaptor3d_HSurface)& the
             break;
           }
 
-          switch(typs2)
+          switch(theS2->GetType())
           {
           case GeomAbs_Plane:
             Quad2.SetValue(theS2->Plane());

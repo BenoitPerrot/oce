@@ -298,9 +298,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
         anUIsoArray->AddVertex (aPoints->Value (anI));
       }
     }
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->UIsoAspect()->Aspect());
-    aGroup->AddPrimitiveArray (anUIsoArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->UIsoAspect()->Aspect());
+    newGroup->AddPrimitiveArray (anUIsoArray);
   }
 
   // NOTE: THIS BLOCK WILL NEVER EXECUTE AS aVIsoCurves IS NOT FILLED!!
@@ -322,9 +322,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
         VIsoArray->AddVertex (aPoints->Value (anI));
       }
     }
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->VIsoAspect()->Aspect());
-    aGroup->AddPrimitiveArray (VIsoArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->VIsoAspect()->Aspect());
+    newGroup->AddPrimitiveArray (VIsoArray);
   }
 
   TopLoc_Location aLocation;
@@ -415,9 +415,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
       aSurfArray->AddVertex (aSurfPoints.Value (anI));
       aSurfArray->AddVertex (aSurfPoints.Value (anI + 1));
     }
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->FreeBoundaryAspect()->Aspect());
-    aGroup->AddPrimitiveArray (aSurfArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->FreeBoundaryAspect()->Aspect());
+    newGroup->AddPrimitiveArray (aSurfArray);
   }
 
   TopTools_ListIteratorOfListOfShape anIt;
@@ -529,70 +529,70 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
   if (aWireCurves.Size() > 0)
   {
     aNbBounds = aWireCurves.Size();
-    Prs3d_NListIteratorOfListOfSequenceOfPnt anIt;
-    for (anIt.Init (aWireCurves); anIt.More(); anIt.Next())
+    Prs3d_NListIteratorOfListOfSequenceOfPnt aPIt;
+    for (aPIt.Init (aWireCurves); aPIt.More(); aPIt.Next())
     {
-      aNbVertices += anIt.Value()->Length();
+      aNbVertices += aPIt.Value()->Length();
     }
     Handle(Graphic3d_ArrayOfPolylines) WireArray = new Graphic3d_ArrayOfPolylines (aNbVertices, aNbBounds);
-    for (anIt.Init (aWireCurves); anIt.More(); anIt.Next())
+    for (aPIt.Init (aWireCurves); aPIt.More(); aPIt.Next())
     {
-      const Handle(TColgp_HSequenceOfPnt)& aPoints = anIt.Value();
+      const Handle(TColgp_HSequenceOfPnt)& aPoints = aPIt.Value();
       WireArray->AddBound (aPoints->Length());
       for (anI = 1; anI <= aPoints->Length(); ++anI)
       {
         WireArray->AddVertex (aPoints->Value (anI));
       }
     }
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->WireAspect()->Aspect());
-    aGroup->AddPrimitiveArray (WireArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->WireAspect()->Aspect());
+    newGroup->AddPrimitiveArray (WireArray);
   }
 
   if (aFreeCurves.Size() > 0)
   {
     aNbBounds = aFreeCurves.Size();
-    Prs3d_NListIteratorOfListOfSequenceOfPnt anIt;
-    for (anIt.Init (aFreeCurves); anIt.More(); anIt.Next())
+    Prs3d_NListIteratorOfListOfSequenceOfPnt aPIt;
+    for (aPIt.Init (aFreeCurves); aPIt.More(); aPIt.Next())
     {
-      aNbVertices += anIt.Value()->Length();
+      aNbVertices += aPIt.Value()->Length();
     }
     Handle(Graphic3d_ArrayOfPolylines) aFreeArray = new Graphic3d_ArrayOfPolylines (aNbVertices, aNbBounds);
-    for (anIt.Init(aFreeCurves); anIt.More(); anIt.Next())
+    for (aPIt.Init(aFreeCurves); aPIt.More(); aPIt.Next())
     {
-      const Handle(TColgp_HSequenceOfPnt)& aPoints = anIt.Value();
+      const Handle(TColgp_HSequenceOfPnt)& aPoints = aPIt.Value();
       aFreeArray->AddBound (aPoints->Length());
       for (anI = 1; anI <= aPoints->Length(); ++anI)
       {
         aFreeArray->AddVertex (aPoints->Value (anI));
       }
     }  
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->FreeBoundaryAspect()->Aspect());
-    aGroup->AddPrimitiveArray (aFreeArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->FreeBoundaryAspect()->Aspect());
+    newGroup->AddPrimitiveArray (aFreeArray);
   }
 
   if (anUnFreeCurves.Size() > 0)
   {
     aNbBounds = anUnFreeCurves.Size();
-    Prs3d_NListIteratorOfListOfSequenceOfPnt anIt;
-    for (anIt.Init (anUnFreeCurves); anIt.More(); anIt.Next())
+    Prs3d_NListIteratorOfListOfSequenceOfPnt aPIt;
+    for (aPIt.Init (anUnFreeCurves); aPIt.More(); aPIt.Next())
     {
-      aNbVertices += anIt.Value()->Length();
+      aNbVertices += aPIt.Value()->Length();
     }
     Handle(Graphic3d_ArrayOfPolylines) anUnFreeArray = new Graphic3d_ArrayOfPolylines (aNbVertices, aNbBounds);
-    for (anIt.Init (anUnFreeCurves); anIt.More(); anIt.Next())
+    for (aPIt.Init (anUnFreeCurves); aPIt.More(); aPIt.Next())
     {
-      const Handle(TColgp_HSequenceOfPnt)& aPoints = anIt.Value();
+      const Handle(TColgp_HSequenceOfPnt)& aPoints = aPIt.Value();
       anUnFreeArray->AddBound (aPoints->Length());
       for (anI = 1; anI <= aPoints->Length(); ++anI)
       {
         anUnFreeArray->AddVertex (aPoints->Value (anI));
       }
     }
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->UnFreeBoundaryAspect()->Aspect());
-    aGroup->AddPrimitiveArray (anUnFreeArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->UnFreeBoundaryAspect()->Aspect());
+    newGroup->AddPrimitiveArray (anUnFreeArray);
   }
 
   // Points
@@ -611,9 +611,9 @@ void Prs3d_WFShape::Add (const Handle (Prs3d_Presentation)& thePresentation,
       aPointArray->AddVertex (aShapePoints.Value (anI));
     }
 
-    Handle(Graphic3d_Group) aGroup = Prs3d_Root::NewGroup (thePresentation);
-    aGroup->SetPrimitivesAspect (theDrawer->PointAspect()->Aspect());
-    aGroup->AddPrimitiveArray (aPointArray);
+    Handle(Graphic3d_Group) newGroup = Prs3d_Root::NewGroup (thePresentation);
+    newGroup->SetPrimitivesAspect (theDrawer->PointAspect()->Aspect());
+    newGroup->AddPrimitiveArray (aPointArray);
   }
 }
 

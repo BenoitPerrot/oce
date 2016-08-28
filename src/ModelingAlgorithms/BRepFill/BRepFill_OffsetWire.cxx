@@ -738,9 +738,12 @@ void BRepFill_OffsetWire::PerformWithBiLo
  const Standard_Real             Alt)
 {
   myIsDone     = Standard_False;
-  TopoDS_Shape aLocalShape = Spine.Oriented(TopAbs_FORWARD);
-  myWorkSpine  = TopoDS::Face(aLocalShape);
+  {
+    TopoDS_Shape aLocalShape = Spine.Oriented(TopAbs_FORWARD);
+    myWorkSpine  = TopoDS::Face(aLocalShape);
+#warning why commented? is the intermediate aLocalShape required?
 //  myWorkSpine  = TopoDS::Face(Spine.Oriented(TopAbs_FORWARD));
+  }
   myJoinType   = Join;
   myOffset     = Offset ;
   myShape.Nullify();
@@ -843,8 +846,8 @@ void BRepFill_OffsetWire::PerformWithBiLo
   Handle(Geom_Curve)     CBis;
   Standard_Boolean       Reverse;
   TopoDS_Edge            CurrentEdge;
-  TopoDS_Shape           S       [2];
-  TopoDS_Edge            E       [2];
+  // TopoDS_Shape           S       [2];
+  // TopoDS_Edge            E       [2];
   TopLoc_Location        L;
   Standard_Integer       j, k;
 
@@ -854,18 +857,18 @@ void BRepFill_OffsetWire::PerformWithBiLo
     Bisector_Bisec Bisec = Locus.GeomBis(CurrentArc,Reverse);
     
 #ifdef DRAW
-  if ( AffichGeom) {
-    char name[256];
-    sprintf(name,"BISSEC_%d",NbBISSEC++);
-    DrawTrSurf::Set(name,Bisec.Value());
-  }
+    if ( AffichGeom) {
+      char name[256];
+      sprintf(name,"BISSEC_%d",NbBISSEC++);
+      DrawTrSurf::Set(name,Bisec.Value());
+    }
 #endif
 
     //-------------------------------------------------------------------
     // Return elements of the spine corresponding to separate basicElts.
     //-------------------------------------------------------------------
-    S [0] = Link.GeneratingShape(CurrentArc->FirstElement());
-    S [1] = Link.GeneratingShape(CurrentArc->SecondElement());
+    TopoDS_Shape S0 = Link.GeneratingShape(CurrentArc->FirstElement());
+    TopoDS_Shape S1 = Link.GeneratingShape(CurrentArc->SecondElement());
 
     TopTools_SequenceOfShape Vertices;
     TColgp_SequenceOfPnt     Params;
@@ -877,11 +880,10 @@ void BRepFill_OffsetWire::PerformWithBiLo
     // Return parallel edges on each face.
     // If no offset generated => move to the next bissectrice. 
     //--------------------------------------------------------------
-    if (myMap.Contains(S[0]) && myMap.Contains(S[1])) {
-      E [0] = TopoDS::Edge(myMap.FindFromKey(S[0]).First());
-      E [1] = TopoDS::Edge(myMap.FindFromKey(S[1]).First());
-    }
-    else continue;
+    if (! (myMap.Contains(S0) && myMap.Contains(S1))) continue;
+    TopoDS_Edge E[2];
+    E[0] = TopoDS::Edge(myMap.FindFromKey(S0).First());
+    E[1] = TopoDS::Edge(myMap.FindFromKey(S1).First());
 
     //-----------------------------------------------------------
     // Construction of vertices corresponding to the node of the map.
@@ -926,7 +928,7 @@ void BRepFill_OffsetWire::PerformWithBiLo
     // Construction of vertices on edges parallel to the spine.
     //-----------------------------------------------------------
 
-    Trim.IntersectWith(E [0], E [1], Params);
+    Trim.IntersectWith(E[0], E[1], Params);
 
     for (Standard_Integer s = 1; s <= Params.Length(); s++) {
       TopoDS_Vertex VC;
@@ -966,11 +968,11 @@ void BRepFill_OffsetWire::PerformWithBiLo
     // the parts of the bissectrices located between the spine and the 
     // offset.
     //------------------------------------------------------------
-    if (!Detromp.IsBound(S[0])) Detromp.Bind(S[0],EmptyList);
-    if (!Detromp.IsBound(S[1])) Detromp.Bind(S[1],EmptyList);
+    if (!Detromp.IsBound(S0)) Detromp.Bind(S0,EmptyList);
+    if (!Detromp.IsBound(S1)) Detromp.Bind(S1,EmptyList);
 
     
-    UpdateDetromp (Detromp, S[0], S[1], Vertices, Params, 
+    UpdateDetromp (Detromp, S0, S1, Vertices, Params, 
 		   Bisec, StartOnEdge, EndOnEdge, Trim);
     //----------------------------------------------
     // Storage of vertices on parallel edges.
@@ -1498,7 +1500,6 @@ void BRepFill_OffsetWire::FixHoles()
   TopTools_SequenceOfShape ClosedWires, UnclosedWires, IsolatedWires;
 
   Standard_Real MaxTol = 0.;
-  Standard_Integer i;
   BRep_Builder BB;
 
   TopExp_Explorer Explo( mySpine, TopAbs_VERTEX );
@@ -1757,9 +1758,9 @@ void BRepFill_OffsetWire::FixHoles()
   {
     TopoDS_Compound R;
     BB.MakeCompound( R );
-    for (i = 1; i <= ClosedWires.Length(); i++)
+    for (Standard_Integer i = 1; i <= ClosedWires.Length(); i++)
       BB.Add( R, ClosedWires(i) );
-    for (i = 1; i <= IsolatedWires.Length(); i++)
+    for (Standard_Integer i = 1; i <= IsolatedWires.Length(); i++)
       BB.Add( R, IsolatedWires(i) );
     myShape = R;
   }

@@ -508,8 +508,7 @@ static Standard_Boolean TestSolution(const TNaming_Scope&      MDF,
     Standard_Boolean isHom = FillSMap(S, MS);
     TopAbs_ShapeEnum aType(TopAbs_SHAPE); 
     TColStd_MapOfInteger aView;
-    TopTools_MapIteratorOfMapOfShape itm(MS);
-    for(;itm.More();itm.Next()) {
+    for (TopTools_MapIteratorOfMapOfShape itm(MS);itm.More();itm.Next()) {
       aType = itm.Key().ShapeType();
       if(isHom) 
 	break;
@@ -532,10 +531,8 @@ static Standard_Boolean TestSolution(const TNaming_Scope&      MDF,
 	      MS.Remove(exp.Current());
 	    }
 	  } else {
-	    TColStd_MapIteratorOfMapOfInteger itm(aView);
-	    for(;itm.More();itm.Next()) {
-	      TopAbs_ShapeEnum aType = (TopAbs_ShapeEnum)itm.Key();
-	      for (exp.Init(Res,aType) ; exp.More(); exp.Next()) {
+	    for (TColStd_MapIteratorOfMapOfInteger itm(aView);itm.More();itm.Next()) {
+	      for (exp.Init(Res,(TopAbs_ShapeEnum)itm.Key()) ; exp.More(); exp.Next()) {
 		if (MS.Contains(exp.Current())) {
 		  MS.Remove(exp.Current());
 		}
@@ -1727,8 +1724,8 @@ Handle(TNaming_NamedShape) TNaming_Naming::Name (const TDF_Label&       F,
 						 const Standard_Boolean BNProblem)
 
 {
-  Handle(TNaming_NamedShape) NS;
   if (KeepOrientation) {
+    Handle(TNaming_NamedShape) NS;
 #ifdef OCCT_DEBUG_INNS
     cout <<"KeepOR = 1: "; Print_Entry(F);
 #endif

@@ -4120,12 +4120,11 @@ void BRepBuilderAPI_Sewing::CreateSewedShape()
           if (IndexMerged.Contains(i)) continue;
           TopoDS_Shell shell = TopoDS::Shell(OldShells.FindKey(i));
           if (NewShell.IsNull()) {
-            BRep_Builder aB;
-            aB.MakeShell(NewShell);
+            BRep_Builder aB_;
+            aB_.MakeShell(NewShell);
             TopoDS_Iterator aItSS(shell) ;
             for( ; aItSS.More(); aItSS.Next())
-              aB.Add(NewShell,aItSS.Value())
-              ;
+              aB_.Add(NewShell,aItSS.Value());
             // Fill map of edges
             for (TopExp_Explorer eexp(shell,TopAbs_EDGE); eexp.More(); eexp.Next()) {
               TopoDS_Shape edge = eexp.Current();

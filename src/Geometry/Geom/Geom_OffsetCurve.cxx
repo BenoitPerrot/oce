@@ -400,16 +400,16 @@ const {
   XYZ DNdir     = (V2.XYZ()).Crossed (OffsetDir);
   XYZ D2Ndir    = (V3.XYZ()).Crossed (OffsetDir);
   XYZ D3Ndir    = (V4.XYZ()).Crossed (OffsetDir);
-  Standard_Real R2  = Ndir.SquareModulus();
-  Standard_Real R   = Sqrt (R2);
-  Standard_Real R3  = R2 * R;
-  Standard_Real R4  = R2 * R2;
-  Standard_Real R5  = R3 * R2;
-  Standard_Real R6  = R3 * R3;
-  Standard_Real R7  = R5 * R2;
-  Standard_Real Dr  = Ndir.Dot (DNdir);
-  Standard_Real D2r = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
-  Standard_Real D3r = Ndir.Dot (D3Ndir) + 3.0 * DNdir.Dot (D2Ndir);
+  const Standard_Real R2  = Ndir.SquareModulus();
+  const Standard_Real R   = Sqrt (R2);
+  const Standard_Real R3  = R2 * R;
+  const Standard_Real R4  = R2 * R2;
+  const Standard_Real R5  = R3 * R2;
+  const Standard_Real R6  = R3 * R3;
+  const Standard_Real R7  = R5 * R2;
+  const Standard_Real Dr  = Ndir.Dot (DNdir);
+  const Standard_Real D2r = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
+  const Standard_Real D3r = Ndir.Dot (D3Ndir) + 3.0 * DNdir.Dot (D2Ndir);
   if (R7 <= gp::Resolution()) {
     if (R6 <= gp::Resolution())  Geom_UndefinedDerivative::Raise();
     // V3 = P"' (U) :
@@ -425,7 +425,6 @@ const {
     V3.Add (Vec(D3Ndir));
 
     // V2 = P" (U) :
-    Standard_Real R4 = R2 * R2;
     D2Ndir.Subtract (DNdir.Multiplied (2.0 * Dr / R2));
     D2Ndir.Subtract (Ndir.Multiplied ((3.0 * Dr * Dr / R4) - (D2r / R2)));
     D2Ndir.Multiply (offsetValue / R);
@@ -756,20 +755,19 @@ void Geom_OffsetCurve::D2 (const Standard_Real theU,
   XYZ Ndir   = (theV1.XYZ()).Crossed (OffsetDir);
   XYZ DNdir  = (V2.XYZ()).Crossed (OffsetDir);
   XYZ D2Ndir = (V3.XYZ()).Crossed (OffsetDir);
-  Standard_Real R2    = Ndir.SquareModulus();
-  Standard_Real R     = Sqrt (R2);
-  Standard_Real R3    = R2 * R;
-  Standard_Real R4    = R2 * R2;
-  Standard_Real R5    = R3 * R2;
-  Standard_Real Dr    = Ndir.Dot (DNdir);
-  Standard_Real D2r   = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
+  const Standard_Real R2    = Ndir.SquareModulus();
+  const Standard_Real R     = Sqrt (R2);
+  const Standard_Real R3    = R2 * R;
+  const Standard_Real R4    = R2 * R2;
+  const Standard_Real R5    = R3 * R2;
+  const Standard_Real Dr    = Ndir.Dot (DNdir);
+  const Standard_Real D2r   = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
   
   if (R5 <= gp::Resolution()) {
     //We try another computation but the stability is not very good
     //dixit ISG.
     if (R4 <= gp::Resolution())  Geom_UndefinedDerivative::Raise();
     // V2 = P" (U) :
-    Standard_Real R4 = R2 * R2;
     D2Ndir.Subtract (DNdir.Multiplied (2.0 * Dr / R2));
     D2Ndir.Add (Ndir.Multiplied (((3.0 * Dr * Dr)/R4) - (D2r/R2)));
     D2Ndir.Multiply (offsetValue / R);

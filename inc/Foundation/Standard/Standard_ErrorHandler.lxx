@@ -49,11 +49,11 @@ inline Standard_JmpBuf& Standard_ErrorHandler::Label()
 #elif defined(OCC_CONVERT_SIGNALS)
 /* Exceptions are raied as usual, signal are converted into jumps and 
    raused in the proper point.*/
-  #define OCC_CATCH_SIGNALS   Standard_ErrorHandler _aHandler; \
+  #define OCC_CATCH_SIGNALS   { Standard_ErrorHandler _aHandler; \
                               if(!DoesNotAbort(_aHandler)) { \
 				_aHandler.Catches(STANDARD_TYPE(Standard_Failure)); \
 				_aHandler.Error()->Reraise(); \
-			      }
+			      } }
 #else
 /*Normal Exceptions (for example WNT)*/
   #define OCC_CATCH_SIGNALS

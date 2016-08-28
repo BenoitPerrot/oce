@@ -772,9 +772,9 @@ void TopOpeBRep_DSFiller::InsertIntersection2d
 	unfill = Standard_False;
       }
       if (unfill) {
-	TopOpeBRepDS_DataStructure& BDS = HDS->ChangeDS();
+	TopOpeBRepDS_DataStructure& DS = HDS->ChangeDS();
 	if(!lFF1.IsNull() && !lFF2.IsNull())
-	  BDS.UnfillShapesSameDomain(lFF1,lFF2);
+	  DS.UnfillShapesSameDomain(lFF1,lFF2);
       }
     }
     

@@ -306,12 +306,12 @@ static Standard_Boolean FindPlane ( const Handle(Adaptor3d_HCurve)& c,
       {
 	//control = Controle(TabP->Array1(), P,  myTolerance);
 //	Standard_Boolean isOnPlane;
-	Standard_Real a,b,c,d, dist;
+	Standard_Real c0,c1,c2,c3, dist;
 	Standard_Integer ii;
-	P->Coefficients(a,b,c,d);
+	P->Coefficients(c0,c1,c2,c3);
 	for (ii=1; ii<=TabP->Length() && found; ii++) {
 	  const gp_XYZ& xyz = TabP->Value(ii).XYZ();
-	  dist = a*xyz.X() + b*xyz.Y() + c*xyz.Z() + d;
+	  dist = c0*xyz.X() + c1*xyz.Y() + c2*xyz.Z() + c3;
 	  found = (Abs(dist) <= Precision::Confusion());
 	}
 	return found;

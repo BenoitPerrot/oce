@@ -224,8 +224,8 @@ Standard_Integer GeomAdaptor_Curve::NbIntervals(const GeomAbs_Shape S)
   Standard_Integer myNbIntervals = 1;
   Standard_Integer NbSplit;
   if (myTypeCurve == GeomAbs_BSplineCurve) {
-    Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
-    Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
+    const Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
+    const Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
     TColStd_Array1OfInteger Inter (1, LastIndex-FirstIndex+1);
     if ( S > Continuity()) {
       Standard_Integer Cont;
@@ -246,8 +246,6 @@ Standard_Integer GeomAdaptor_Curve::NbIntervals(const GeomAbs_Shape S)
           else if ( S == GeomAbs_C2) Cont = 2;
           else if ( S == GeomAbs_C3) Cont = 3;
           else                       Cont = myBspl->Degree();
-          Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
-          Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
           Standard_Integer Degree = myBspl->Degree();
           Standard_Integer NbKnots = myBspl->NbKnots();
           TColStd_Array1OfInteger Mults (1, NbKnots);
@@ -347,8 +345,8 @@ void GeomAdaptor_Curve::Intervals(TColStd_Array1OfReal& T,
 
   if (myTypeCurve == GeomAbs_BSplineCurve) 
     {
-      Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
-      Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
+      const Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
+      const Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
       TColStd_Array1OfInteger Inter (1, LastIndex-FirstIndex+1);
       
       if ( S > Continuity()) {
@@ -370,8 +368,6 @@ void GeomAdaptor_Curve::Intervals(TColStd_Array1OfReal& T,
 	    else if ( S == GeomAbs_C2) Cont = 2;
 	    else if ( S == GeomAbs_C3) Cont = 3;
 	    else                       Cont = myBspl->Degree();
-	    Standard_Integer FirstIndex = myBspl->FirstUKnotIndex();
-	    Standard_Integer LastIndex  = myBspl->LastUKnotIndex();
 	    Standard_Integer Degree = myBspl->Degree();
 	    Standard_Integer NbKnots = myBspl->NbKnots();
 	    TColStd_Array1OfInteger Mults (1, NbKnots);

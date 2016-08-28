@@ -80,7 +80,7 @@ endif(CMAKE_BUILD_TOOL STREQUAL "nmake")
 
 # TODO: make this portable?
 # <<
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Werror=shadow")
 # >>
 
 if(MSVC)

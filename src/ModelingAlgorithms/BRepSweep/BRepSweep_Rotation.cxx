@@ -439,7 +439,6 @@ void  BRepSweep_Rotation::SetGeneratingPCurve
   TopLoc_Location Loc;
   GeomAdaptor_Surface AS(BRep_Tool::Surface(TopoDS::Face(aNewFace),Loc));
   Standard_Real First,Last;
-  Standard_Real u,v;
   gp_Pnt point;
   gp_Pnt2d pnt2d;
   gp_Dir2d dir2d;
@@ -453,6 +452,7 @@ void  BRepSweep_Rotation::SetGeneratingPCurve
     gl.Transform(Loc.Transformation());
     point = gl.Location();
     gp_Dir dir = gl.Direction();
+    Standard_Real u,v;
     ElSLib::PlaneParameters(ax3,point,u,v);
     pnt2d.SetCoord(u,v);
     dir2d.SetCoord(dir.Dot(ax3.XDirection()),dir.Dot(ax3.YDirection()));
@@ -464,6 +464,7 @@ void  BRepSweep_Rotation::SetGeneratingPCurve
     BRepAdaptor_Curve BC(TopoDS::Edge(aNewEdge));
     Standard_Real U = BC.FirstParameter();
     point = BC.Value(U);
+    Standard_Real u,v;
     if (point.Distance(tor.Location()) < Precision::Confusion()) {
       v = M_PI;
 //  modified by NIZHNY-EAP Wed Mar  1 17:49:29 2000 ___BEGIN___
@@ -494,6 +495,7 @@ void  BRepSweep_Rotation::SetGeneratingPCurve
     BRepAdaptor_Curve BC(TopoDS::Edge(aNewEdge));
     Standard_Real U = BC.FirstParameter();
     point = BC.Value(U);
+    Standard_Real u,v;
     ElSLib::SphereParameters(sph.Position(),sph.Radius(),point,u,v);
     u = 0.;
     if (aDirV.Index() == 2) u = myAng;

@@ -91,10 +91,12 @@ void TopOpeBRep_Hctxee2d::SetEdges(const TopoDS_Edge& E1,const TopoDS_Edge& E2,
 
   Standard_Boolean memesfaces = F1.IsSame(F2);
   Standard_Boolean memesupport = Standard_False;
-  TopLoc_Location L1,L2;
-  const Handle(Geom_Surface) S1 = BRep_Tool::Surface(F1,L1);
-  const Handle(Geom_Surface) S2 = BRep_Tool::Surface(F2,L2);
-  if (S1 == S2 && L1 == L2) memesupport=Standard_True;
+  {
+    TopLoc_Location L1,L2;
+    const Handle(Geom_Surface) S1 = BRep_Tool::Surface(F1,L1);
+    const Handle(Geom_Surface) S2 = BRep_Tool::Surface(F2,L2);
+    if (S1 == S2 && L1 == L2) memesupport=Standard_True;
+  }
   
   if ( ST1 == GeomAbs_Plane || memesfaces || memesupport) {    
     Handle(Geom2d_Curve) PC2 = FC2D_CurveOnSurface(myEdge2,F1,first,last,tolpc);

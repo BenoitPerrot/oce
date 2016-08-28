@@ -279,8 +279,7 @@ Standard_Boolean TNaming_Selector::IsIdentified (const TDF_Label& L,
 	FindGenerated(NS, aS, aList);
 	Ident.NextArg();
 	while(Ident.MoreArgs()) {
-	  const TopoDS_Shape& aS = Ident.ShapeArg();
-	  FindGenerated(NS, aS, aList);
+	  FindGenerated(NS, Ident.ShapeArg(), aList);
 	  Ident.NextArg();
 	}
 	TopTools_MapIteratorOfMapOfShape itm(MS);

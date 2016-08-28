@@ -301,9 +301,9 @@ void BRepAlgo_Image::Filter(const TopoDS_Shape&     S,
     Change = Standard_False;
     TopTools_DataMapIteratorOfDataMapOfShapeShape mit(up);
     for (; mit.More(); mit.Next()) {
-      const TopoDS_Shape& S = mit.Key();
-      if (S.ShapeType() == T && !M.Contains(S)) {
-	Remove(S);
+      const TopoDS_Shape& SK = mit.Key();
+      if (SK.ShapeType() == T && !M.Contains(SK)) {
+	Remove(SK);
 	Change = Standard_True;
 	break;
       }

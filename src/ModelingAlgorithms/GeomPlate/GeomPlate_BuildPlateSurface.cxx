@@ -318,7 +318,6 @@ Handle(Geom2d_Curve)  GeomPlate_BuildPlateSurface::ProjectCurve(const Handle(Ada
  else {
    GeomAbs_Shape Continuity = GeomAbs_C1;
    Standard_Integer MaxDegree = 10, MaxSeg;
-   Standard_Real Udeb, Ufin;
    Handle(ProjLib_HCompProjectedCurve) HProjector = 
      new ProjLib_HCompProjectedCurve();
    HProjector->Set(Projector);
@@ -525,18 +524,19 @@ void GeomPlate_BuildPlateSurface::Perform()
 
   Standard_Real u1,v1,u2,v2;
   mySurfInit->Bounds(u1,v1,u2,v2);
-  GeomAdaptor_Surface Surf(mySurfInit);
-  myTolU = Surf.UResolution(myTol3d);
-  myTolV = Surf.VResolution(myTol3d);
-  myProj.Initialize(Surf,u1,v1,u2,v2,
-		    myTolU,myTolV);
+  {
+    GeomAdaptor_Surface Surf(mySurfInit);
+    myTolU = Surf.UResolution(myTol3d);
+    myTolV = Surf.VResolution(myTol3d);
+    myProj.Initialize(Surf,u1,v1,u2,v2,
+		      myTolU,myTolV);
+  }
 
   //======================================================================
   // Projection des courbes
   //======================================================================
-  Standard_Integer i;
   Standard_Boolean Ok = Standard_True;
-  for (i = 1; i <= NTLinCont; i++)
+  for (Standard_Integer i = 1; i <= NTLinCont; i++)
     if(myLinCont->Value(i)->Curve2dOnSurf().IsNull())
       {
 	Handle( Geom2d_Curve ) Curve2d = ProjectCurve( myLinCont->Value(i)->Curve3d() );
@@ -555,16 +555,17 @@ void GeomPlate_BuildPlateSurface::Perform()
 			       -1, GeomAbs_C0,
 			       1.3); 
       mySurfInit =  App.Surface();
-
       mySurfInit->Bounds(u1,v1,u2,v2);
-      GeomAdaptor_Surface Surf(mySurfInit);
-      myTolU = Surf.UResolution(myTol3d);
-      myTolV = Surf.VResolution(myTol3d);
-      myProj.Initialize(Surf,u1,v1,u2,v2,
-			myTolU,myTolV);
+      {
+	GeomAdaptor_Surface Surf(mySurfInit);
+	myTolU = Surf.UResolution(myTol3d);
+	myTolV = Surf.VResolution(myTol3d);
+	myProj.Initialize(Surf,u1,v1,u2,v2,
+			  myTolU,myTolV);
+      }
 
       Ok = Standard_True;
-      for (i = 1; i <= NTLinCont; i++)
+      for (Standard_Integer i = 1; i <= NTLinCont; i++)
 	{
 	  Handle( Geom2d_Curve ) Curve2d = ProjectCurve( myLinCont->Value(i)->Curve3d() );
 	  if (Curve2d.IsNull())
@@ -579,18 +580,20 @@ void GeomPlate_BuildPlateSurface::Perform()
 	  mySurfInit = myPlanarSurfInit;
 
 	  mySurfInit->Bounds(u1,v1,u2,v2);
-	  GeomAdaptor_Surface Surf(mySurfInit);
-	  myTolU = Surf.UResolution(myTol3d);
-	  myTolV = Surf.VResolution(myTol3d);
-	  myProj.Initialize(Surf,u1,v1,u2,v2,
-			    myTolU,myTolV);
+	  {
+	    GeomAdaptor_Surface Surf(mySurfInit);
+	    myTolU = Surf.UResolution(myTol3d);
+	    myTolV = Surf.VResolution(myTol3d);
+	    myProj.Initialize(Surf,u1,v1,u2,v2,
+			      myTolU,myTolV);
+	  }
 
-	  for (i = 1; i <= NTLinCont; i++)
+	  for (Standard_Integer i = 1; i <= NTLinCont; i++)
 	    myLinCont->ChangeValue(i)->
 	      SetCurve2dOnSurf(ProjectCurve( myLinCont->Value(i)->Curve3d() ) );
 	}
       else { // Project the points
-	for ( i=1;i<=NTPntCont;i++) { 
+	for (Standard_Integer i=1;i<=NTPntCont;i++) { 
 	  gp_Pnt P;
 	  myPntCont->Value(i)->D0(P);
 	  myPntCont->ChangeValue(i)->SetPnt2dOnSurf(ProjectPoint(P));
@@ -601,7 +604,7 @@ void GeomPlate_BuildPlateSurface::Perform()
   //======================================================================
   // Projection des points
   //======================================================================
-  for ( i=1;i<=NTPntCont;i++) {
+  for (Standard_Integer i=1;i<=NTPntCont;i++) {
     if (! myPntCont->Value(i)->HasPnt2dOnSurf()) {
       gp_Pnt P;
       myPntCont->Value(i)->D0(P);
@@ -1827,10 +1830,10 @@ Intersect(Handle(GeomPlate_HArray1OfSequenceOfReal)& PntInter,
 			    { Standard_Real coin;
 			      Standard_Real Tol= 100 * myTol3d;
 			      Standard_Real A1;
-			      gp_Pnt2d P1,P2;
+			      gp_Pnt2d P1_,P2_;
 			      gp_Vec2d V1,V2;
-			      myLinCont->Value(i)->Curve2dOnSurf()->D1( int2d.ParamOnFirst(), P1, V1);
-			      myLinCont->Value(j)->Curve2dOnSurf()->D1( int2d.ParamOnSecond(), P2, V2);
+			      myLinCont->Value(i)->Curve2dOnSurf()->D1( int2d.ParamOnFirst(), P1_, V1);
+			      myLinCont->Value(j)->Curve2dOnSurf()->D1( int2d.ParamOnSecond(), P2_, V2);
 			      A1 = V1.Angle(V2);
 			      if (A1>(M_PI/2))
 				A1= M_PI - A1;
@@ -1881,10 +1884,10 @@ Intersect(Handle(GeomPlate_HArray1OfSequenceOfReal)& PntInter,
 			      Standard_Real coin;
 			      Standard_Real Tol= 100 * myTol3d;
 			      Standard_Real A1;
-			      gp_Pnt2d P1,P2;
+			      gp_Pnt2d P1_,P2_;
 			      gp_Vec2d V1,V2;
-			      myLinCont->Value(i)->Curve2dOnSurf()->D1( int2d.ParamOnFirst(), P1, V1);
-			      myLinCont->Value(j)->Curve2dOnSurf()->D1( int2d.ParamOnSecond(), P2, V2);
+			      myLinCont->Value(i)->Curve2dOnSurf()->D1( int2d.ParamOnFirst(), P1_, V1);
+			      myLinCont->Value(j)->Curve2dOnSurf()->D1( int2d.ParamOnSecond(), P2_, V2);
 			      A1 = V1.Angle( V2 );
 			      if (A1 > M_PI/2)
 				A1= M_PI - A1;
@@ -2317,7 +2320,6 @@ void GeomPlate_BuildPlateSurface::LoadPoint(const Standard_Integer ,
   Standard_Integer NTPntCont=myPntCont->Length();
   Standard_Integer Tang, i;
 //  gp_Vec  V1,V2,V3,V4,V5,V6,V7,V8,V9,V10;
-  gp_Vec  V1,V2,V3,V4;
  
   // Chargement des points de contraintes ponctuel
   for (i=1;i<=NTPntCont;i++) { 
@@ -2331,6 +2333,7 @@ void GeomPlate_BuildPlateSurface::LoadPoint(const Standard_Integer ,
     myPlate.Load(PC);
     Tang = Min(myPntCont->Value(i)->Order(), OrderMax);
     if (Tang==1) {// ==1
+      gp_Vec  V1,V2,V3,V4;
       myPntCont->Value(i)->D1(PP,V1,V2);
       mySurfInit->D1(P2d.Coord(1),P2d.Coord(2),PP,V3,V4);
       Plate_D1 D1final(V1.XYZ(),V2.XYZ());

@@ -471,12 +471,11 @@ void GeomFill_SectionPlacement::Perform(const Handle(Adaptor3d_HCurve)& Path,
 	if (Intersector.IsDone())
 	  {
 	    Standard_Real w;
-	    gp_Pnt P;
 	    Standard_Real aDist;
 	    for (ii=1; ii<=Intersector.NbPoints(); ii++)
 	      {
 		w = Intersector.Point(ii).W();
-		P = Path->Value( w );
+		gp_Pnt p(Path->Value( w ));
 		aDist = P.Distance( TheAxe.Location() );
 		if (aDist < DistCenter)
 		  {

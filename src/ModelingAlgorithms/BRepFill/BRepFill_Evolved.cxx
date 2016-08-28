@@ -409,12 +409,15 @@ void BRepFill_Evolved::PrivatePerform(const TopoDS_Face&     Spine,
 				      const GeomAbs_JoinType Join,
 				      const Standard_Boolean Solid)
 {
-  TopoDS_Shape aLocalShape = Spine.Oriented(TopAbs_FORWARD);
-  mySpine    = TopoDS::Face(aLocalShape);
-//  mySpine    = TopoDS::Face(Spine.Oriented(TopAbs_FORWARD));
-  aLocalShape = Profile.Oriented(TopAbs_FORWARD);
-  myProfile  = TopoDS::Wire(aLocalShape);
-//  myProfile  = TopoDS::Wire(Profile.Oriented(TopAbs_FORWARD));
+  {
+#warning is intermediate variable required?
+    TopoDS_Shape aLocalShape = Spine.Oriented(TopAbs_FORWARD);
+    mySpine    = TopoDS::Face(aLocalShape);
+    //  mySpine    = TopoDS::Face(Spine.Oriented(TopAbs_FORWARD));
+    aLocalShape = Profile.Oriented(TopAbs_FORWARD);
+    myProfile  = TopoDS::Wire(aLocalShape);
+    //  myProfile  = TopoDS::Wire(Profile.Oriented(TopAbs_FORWARD));
+  }
   myJoinType = Join;
   myMap.Clear();
   
@@ -774,8 +777,6 @@ void BRepFill_Evolved::ElementaryPerform (const TopoDS_Face&              Sp,
   }
 #endif
 
-  TopoDS_Vertex  VF,VL;
-  
   //---------------------------------------------------
   // Construction of edges associated to bissectrices.
   //---------------------------------------------------
@@ -1133,20 +1134,20 @@ void BRepFill_Evolved::ElementaryPerform (const TopoDS_Face&              Sp,
 	  //------------------------------------------------------------
 	  // No connected face in the volevo => no parallel edge.
 	  //------------------------------------------------------------
-	  TopTools_SequenceOfShape S;
+	  TopTools_SequenceOfShape Ss;
 	  TrimEdge (CurrentEdge,
 		    MapBis   (FaceControle), 
 		    MapBis   (CurrentEdge) ,  
-		    MapVerPar(CurrentEdge) , S);
+		    MapVerPar(CurrentEdge) , Ss);
 	  
-	  for ( k = 1; k <= S.Length(); k++) {
-	    myMap(CurrentSpine)(VCF).Append(S.Value(k));
+	  for ( k = 1; k <= Ss.Length(); k++) {
+	    myMap(CurrentSpine)(VCF).Append(Ss.Value(k));
 	    
 #ifdef DRAW	    
 	    if (AffichEdge) {
               char name[100];
 	      sprintf(name,"PAREDGE_%d_%d",++NbEDGES,k);	
-	      DBRep::Set(name,S.Value(k));
+	      DBRep::Set(name,Ss.Value(k));
 	    }
 #endif	    
 	  }
@@ -1171,20 +1172,20 @@ void BRepFill_Evolved::ElementaryPerform (const TopoDS_Face&              Sp,
       // the number of element of the list allows to know
       // if the edges have already been done (closed profile) .
       if (YaFace && myMap(CurrentSpine)(VCL).Extent()<= 1) {
-	TopTools_SequenceOfShape S;
+	TopTools_SequenceOfShape Ss;
 	TrimEdge (CurrentEdge, 
 		  MapBis   (FaceControle), 
 		  MapBis   (CurrentEdge) , 
-		  MapVerPar(CurrentEdge) , S);
+		  MapVerPar(CurrentEdge) , Ss);
 	
-	for ( k = 1; k <= S.Length(); k++) {
-	  myMap(CurrentSpine)(VCL).Append(S.Value(k));
+	for ( k = 1; k <= Ss.Length(); k++) {
+	  myMap(CurrentSpine)(VCL).Append(Ss.Value(k));
 	  
 #ifdef DRAW	    
 	  if (AffichEdge) {	  
             char name[100];
 	    sprintf(name,"PAREDGE_%d_%d",++NbEDGES,k);	
-	    DBRep::Set(name,S.Value(k));
+	    DBRep::Set(name,Ss.Value(k));
 	  }
 #endif
 	}
@@ -1238,13 +1239,13 @@ void BRepFill_Evolved::ElementaryPerform (const TopoDS_Face&              Sp,
 	}
 	
 	//Cut of the face.
-	TopTools_SequenceOfShape  S;
+	TopTools_SequenceOfShape  Ss;
 
-	TrimFace (CurrentFace, MapBis(CurrentFace), S);
+	TrimFace (CurrentFace, MapBis(CurrentFace), Ss);
 
-	for (Standard_Integer ii = 1; ii <= S.Length(); ii++) {
-	  myBuilder.Add (myShape,S.Value(ii));
-	  myMap(CurrentSpine)(CurrentProf).Append(S.Value(ii));
+	for (Standard_Integer ii = 1; ii <= Ss.Length(); ii++) {
+	  myBuilder.Add (myShape,Ss.Value(ii));
+	  myMap(CurrentSpine)(CurrentProf).Append(Ss.Value(ii));
 	}
       }
     }
@@ -1295,7 +1296,6 @@ void BRepFill_Evolved::PlanarPerform (const TopoDS_Face&              Sp,
    
   BRepTools_WireExplorer             ProfExp;
   TopExp_Explorer                    Exp,exp1,exp2;
-  TopoDS_Shape                       Rest;
   TopTools_DataMapOfShapeListOfShape EmptyMap;
   TopTools_ListOfShape               EmptyList;
   TopTools_DataMapOfShapeShape       MapVP;
@@ -1346,8 +1346,9 @@ void BRepFill_Evolved::PlanarPerform (const TopoDS_Face&              Sp,
       if (!Rest.IsNull()) {
 	if (Rest.ShapeType() == TopAbs_WIRE) {
 	  if ( ToReverse){
-	    TopoDS_Shape aLocalShape  = Rest.Reversed();
-	    TopoDS_Wire aWire = TopoDS::Wire(aLocalShape);
+#warning intermediate variable required?
+	    TopoDS_Shape RestReversed  = Rest.Reversed();
+	    TopoDS_Wire aWire = TopoDS::Wire(RestReversed);
 	    FR.Add(aWire);
 	  }	  
 	  else
@@ -1357,8 +1358,9 @@ void BRepFill_Evolved::PlanarPerform (const TopoDS_Face&              Sp,
 	  for (Exp.Init(Rest,TopAbs_WIRE);Exp.More();Exp.Next()) {
 	    TopoDS_Wire WCop = TopoDS::Wire(Exp.Current());
 	    if ( ToReverse){
-	      TopoDS_Shape aLocalShape = WCop.Reversed();
-	      TopoDS_Wire bWire =   TopoDS::Wire(aLocalShape);
+#warning intermediate variable required?
+	      TopoDS_Shape WCopReversed = WCop.Reversed();
+	      TopoDS_Wire bWire =   TopoDS::Wire(WCopReversed);
 //	      TopoDS_Wire bWire =   TopoDS::Wire(WCop.Reversed());
 	      FR.Add(bWire);
 	    }	    
@@ -1386,9 +1388,12 @@ void BRepFill_Evolved::PlanarPerform (const TopoDS_Face&              Sp,
     //----------------------------------------------------
     gp_Trsf T; T.SetTranslation(gp_Vec(0,0,Alt));
     TopLoc_Location LT(T);
-    TopoDS_Shape aLocalShape = mySpine.Moved(LT);
-    FR.Init(TopoDS::Face(aLocalShape));
+#warning intermediate variable required?
+    {
+      TopoDS_Shape MySpineMoved = mySpine.Moved(LT);
+      FR.Init(TopoDS::Face(MySpineMoved));
 //    FR.Init(TopoDS::Face(mySpine.Moved(LT)));
+    }
     FR.Perform();
 
     for ( ;FR.More(); FR.Next()) {
@@ -1460,8 +1465,8 @@ void BRepFill_Evolved::VerticalPerform (const TopoDS_Face&              Sp,
       
       // MAJ myMap
       for (Exp.Init(Base,TopAbs_EDGE); Exp.More(); Exp.Next()) {
-	const TopoDS_Edge&  E  = TopoDS::Edge(Exp.Current());
-	const TopoDS_Shape& AE =  OffAnc.Ancestor(E);
+	const TopoDS_Edge&  CurE  = TopoDS::Edge(Exp.Current());
+	const TopoDS_Shape& AE =  OffAnc.Ancestor(CurE);
 	if (!myMap.IsBound(AE)) {
 	  myMap.Bind(AE,EmptyMap);
 	}
@@ -1469,7 +1474,7 @@ void BRepFill_Evolved::VerticalPerform (const TopoDS_Face&              Sp,
 	  TopTools_ListOfShape L;
 	  myMap(AE).Bind(V1,L);
 	}
-	myMap(AE)(V1).Append(E);
+	myMap(AE)(V1).Append(CurE);
       }
       First = Standard_False;
     }
@@ -2055,7 +2060,6 @@ void BRepFill_Evolved::AddTopAndBottom(BRepTools_Quilt& Glue)
   TopExp::Vertices (myProfile,V[0],V[1]);
   if (V[0].IsSame(V[1])) return;
 
-  TopTools_ListIteratorOfListOfShape itL;
   Standard_Boolean ToReverse=Standard_False;
   for (Standard_Integer i = 0; i<=1; i++) {
     
@@ -2073,7 +2077,7 @@ void BRepFill_Evolved::AddTopAndBottom(BRepTools_Quilt& Glue)
       const TopTools_ListOfShape& L = GeneratedShapes(ES,V[i]);
       Standard_Boolean ComputeOrientation = 0;
 
-      for (itL.Initialize(L); itL.More(); itL.Next()) {
+      for (TopTools_ListIteratorOfListOfShape itL(L); itL.More(); itL.Next()) {
 	const TopoDS_Edge& E = TopoDS::Edge(itL.Value());
 	
 	if (!ComputeOrientation) {
@@ -2106,7 +2110,7 @@ void BRepFill_Evolved::AddTopAndBottom(BRepTools_Quilt& Glue)
       const TopoDS_Vertex& ES = TopoDS::Vertex(ExpSpine.Current());
       if (View.Add(ES)) {
 	const TopTools_ListOfShape& L = GeneratedShapes(ES,V[i]);
-	for (itL.Initialize(L); itL.More(); itL.Next()) {
+	for (TopTools_ListIteratorOfListOfShape itL(L); itL.More(); itL.Next()) {
 	  const TopoDS_Edge& E = TopoDS::Edge(itL.Value());
 	  if (!BRep_Tool::Degenerated(E)){
 	    // the center of circle (ie vertex) is IN the cap if vertex IsOut
@@ -2139,8 +2143,6 @@ void BRepFill_Evolved::AddTopAndBottom(BRepTools_Quilt& Glue)
     
     Loop.Perform();
     Loop.WiresToFaces();
-    const TopTools_ListOfShape& L = Loop.NewFaces();
-    TopTools_ListIteratorOfListOfShape itL(L);
     
     // Maj of myTop and myBottom for the history
     // and addition of constructed faces.
@@ -2149,7 +2151,7 @@ void BRepFill_Evolved::AddTopAndBottom(BRepTools_Quilt& Glue)
     B.MakeCompound(Bouchon);
     Standard_Integer j = 0;
 
-    for (itL.Initialize(L); itL.More(); itL.Next()) {
+    for (TopTools_ListIteratorOfListOfShape itL(Loop.NewFaces()); itL.More(); itL.Next()) {
       j++;
       Glue.Add(itL.Value());
       if (j ==1 && i == 0) myTop    = itL.Value();

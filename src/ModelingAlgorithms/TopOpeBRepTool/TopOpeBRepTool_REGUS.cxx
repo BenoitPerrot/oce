@@ -256,8 +256,8 @@ Standard_Boolean TopOpeBRepTool_REGUS::SplitF(const TopoDS_Face& Fanc, TopTools_
   // prequesitory : All edges have already been splitted, there is no 
   //                internal vertex on edge, except for internal edge.
   TopAbs_Orientation oAnc = Fanc.Orientation();
-  TopoDS_Shape aLocalShape = Fanc.Oriented(TopAbs_FORWARD);
-  TopoDS_Face aFace = TopoDS::Face(aLocalShape);
+  TopoDS_Shape FancForward = Fanc.Oriented(TopAbs_FORWARD);
+  TopoDS_Face aFace = TopoDS::Face(FancForward);
 //  TopoDS_Face aFace = TopoDS::Face(Fanc.Oriented(TopAbs_FORWARD));
   
   FSplits.Clear();
@@ -617,8 +617,10 @@ Standard_Boolean TopOpeBRepTool_REGUS::NextinBlock()
 	TopoDS_Face fref;
 	for (; itff.More(); itff.Next()) {
 	  const TopoDS_Face& fc = TopoDS::Face(itff.Value());
-	  Standard_Boolean isb = mapf.Contains(fc);
-	  if (isb) {fref = fc; break;}
+	  if (mapf.Contains(fc)) {
+	    fref = fc;
+	    break;
+	  }
 	} // itff(lofc)
 	if (fref.IsNull()) {
 	  return Standard_False; // !!!!!!!!!! a revoir 130499

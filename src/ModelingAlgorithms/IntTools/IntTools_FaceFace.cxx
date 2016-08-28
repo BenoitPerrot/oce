@@ -776,8 +776,7 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
       myListOfPnts.clear(); // to use LineConstructor
     }
     //
-    const Standard_Integer aNbLin = myIntersector.NbLines();
-    for (Standard_Integer i=1; i <= aNbLin; ++i) {
+    for (Standard_Integer i=1; i <= myIntersector.NbLines(); ++i) {
       MakeCurve(i, dom1, dom2);
     }
     //
@@ -786,8 +785,7 @@ static Standard_Boolean isTreatAnalityc(const TopoDS_Face& theF1,
     if (bReverse) {
       Handle(Geom2d_Curve) aC2D1, aC2D2;
       //
-      const Standard_Integer aNbLin=mySeqOfCurve.Length();
-      for (Standard_Integer i=1; i<=aNbLin; ++i)
+      for (Standard_Integer i=1; i <= mySeqOfCurve.Length(); ++i)
       {
         IntTools_Curve& aIC=mySeqOfCurve(i);
         aC2D1=aIC.FirstCurve2d();

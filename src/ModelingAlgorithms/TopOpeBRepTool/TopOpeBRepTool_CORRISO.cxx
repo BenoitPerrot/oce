@@ -520,8 +520,8 @@ Standard_Boolean TopOpeBRepTool_CORRISO::PurgeFyClosingE(const TopTools_ListOfSh
 	if (mapcl.Contains(E)) continue; // do NOT check connexity on closing edges 
 	                                  // xpu090399 cto016E1
 
-	TopOpeBRepTool_C2DF E2d; Standard_Boolean isb = UVRep(E,E2d);
-	if (!isb) return Standard_False; // NYIRAISE
+	TopOpeBRepTool_C2DF E2d;
+	if (!UVRep(E,E2d)) return Standard_False; // NYIRAISE
 	
 	Standard_Real tttolE = BRep_Tool::Tolerance(E);
 	Standard_Real tttuvE = Max(Tol(1,tttolE),Tol(2,tttolE));
@@ -753,9 +753,9 @@ Standard_Boolean TopOpeBRepTool_CORRISO::EdgeWithFaultyUV(const TopoDS_Edge& E, 
     // <vE> (boundary of <E>):      
     const TopoDS_Vertex& vE = TopoDS::Vertex(vEs(ivE)); 
     Standard_Real parvE = TopOpeBRepTool_TOOL::ParE(ivE,E);
-    TopOpeBRepTool_C2DF C2DF; Standard_Boolean isb = UVRep(E,C2DF);
-    if (!isb) return Standard_False; //NYIRAISE
-    gp_Pnt2d UVvE = TopOpeBRepTool_TOOL::UVF(parvE,C2DF);
+    TopOpeBRepTool_C2DF C2DF_;
+    if (!UVRep(E,C2DF_)) return Standard_False; //NYIRAISE
+    gp_Pnt2d UVvE = TopOpeBRepTool_TOOL::UVF(parvE,C2DF_);
 #ifdef OCCT_DEBUG
       // recall in one wire, there are 2 vertices for one non-degenerated closing edge
     Standard_Integer ivmapv = STATIC_PURGE_mapv.Add(vE);
@@ -787,8 +787,7 @@ Standard_Boolean TopOpeBRepTool_CORRISO::EdgeWithFaultyUV(const TopoDS_Edge& E, 
       if (e.IsSame(E)) continue;      
       if (M_INTERNAL(oe) || M_EXTERNAL(oe)) continue;
       
-      Standard_Boolean isb = myERep2d.IsBound(e);
-      if (!isb) {FUN_RaiseError(); return Standard_False;}
+      if (!myERep2d.IsBound(e)) {FUN_RaiseError(); return Standard_False;}
       const TopOpeBRepTool_C2DF& C2DF = myERep2d.Find(e);
       
       TopTools_Array1OfShape ves(1,2); TopOpeBRepTool_TOOL::Vertices(e,ves);	
@@ -1053,8 +1052,7 @@ Standard_Boolean TopOpeBRepTool_CORRISO::RemoveOldConnexity(const TopoDS_Vertex&
   TopExp_Explorer exv(E, TopAbs_VERTEX);
   for (; exv.More(); exv.Next()){
     const TopoDS_Vertex& v = TopoDS::Vertex(exv.Current()); 
-    Standard_Boolean isb = myVEds.IsBound(v); 
-    if (!isb) return Standard_False;
+    if (!myVEds.IsBound(v)) return Standard_False;
     TopTools_ListOfShape& loe = myVEds.ChangeFind(v);
     TopTools_ListIteratorOfListOfShape ite(loe);
     while (ite.More()) {

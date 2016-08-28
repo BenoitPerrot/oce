@@ -221,12 +221,12 @@ HLRBRep_ShapeToHLR::ExploreFace(const Handle(HLRTopoBRep_OutLiner)& S,
         continue;
       ne++;
       Standard_Integer ie   = EM.FindIndex(E);
-      TopAbs_Orientation orient = E.Orientation();
+      TopAbs_Orientation Eorient = E.Orientation();
       Standard_Boolean Int  = TopDS.IsIntLFaceEdge(F,E);
       Standard_Boolean Iso  = TopDS.IsIsoLFaceEdge(F,E);
       Standard_Boolean Out  = TopDS.IsOutLFaceEdge(F,E);
       Standard_Boolean Dbl  = BRepTools::IsReallyClosed(TopoDS::Edge(E),theFace);
-      fd.SetWEdge(nw, ne, ie, orient, Out, Int, Dbl, Iso);
+      fd.SetWEdge(nw, ne, ie, Eorient, Out, Int, Dbl, Iso);
     }
   }
   DS->FaceMap().Add(theFace);

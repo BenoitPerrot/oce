@@ -1175,8 +1175,8 @@ void TopOpeBRepBuild_BuilderON::GFillONPartsWES2(const Handle(TopOpeBRepDS_Inter
 
     const TopoDS_Edge& e3 = TopoDS::Edge(le3.First()); Standard_Integer ie3 = BDS.Shape(e3);    
     Standard_Boolean ssif = Standard_False; Handle(TopOpeBRepDS_ShapeShapeInterference) ssie3;
-    for (auto x : BDS.ShapeInterferences(FCX)) {
-      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(x);
+    for (auto Int : BDS.ShapeInterferences(FCX)) {
+      const Handle(TopOpeBRepDS_ShapeShapeInterference)& ssi = Handle(TopOpeBRepDS_ShapeShapeInterference)::DownCast(Int);
       if (ssi.IsNull())
         continue;
       TopOpeBRepDS_Kind GT1,ST1; Standard_Integer G1,S1; FDS_data(ssi,GT1,G1,ST1,S1);

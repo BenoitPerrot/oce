@@ -263,7 +263,6 @@ void TNaming_TranslateTool::UpdateEdge
   // Representations
   BRep_ListOfCurveRepresentation& lcr = TTE2->ChangeCurves();
   lcr.clear();
-  Handle(BRep_CurveRepresentation) CR;
 
   Standard_Real f, l;
 

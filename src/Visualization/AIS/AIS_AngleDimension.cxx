@@ -853,7 +853,6 @@ Standard_Boolean AIS_AngleDimension::InitTwoEdgesAngle (gp_Pln& theComputedPlane
     // Compute geometry for this plane and edges
   Standard_Boolean isInfinite1,isInfinite2;
   gp_Pnt aFirstPoint1, aLastPoint1, aFirstPoint2, aLastPoint2;
-  gp_Lin2d aFirstLin2d, aSecondLin2d;
 
   if (!AIS::ComputeGeometry (aFirstEdge, aSecondEdge,
                              aFirstLine, aSecondLine,
@@ -939,8 +938,9 @@ Standard_Boolean AIS_AngleDimension::InitTwoFacesAngle()
   if (aFirstSurfType == AIS_KOS_Plane && aSecondSurfType == AIS_KOS_Plane)
   {
     //Planar faces angle
-    Handle(Geom_Plane) aFirstPlane = Handle(Geom_Plane)::DownCast (aFirstBasisSurf);
-    Handle(Geom_Plane) aSecondPlane = Handle(Geom_Plane)::DownCast (aSecondBasisSurf);
+#warning hFirstPlane hSecondPlane unused
+    Handle(Geom_Plane) hFirstPlane = Handle(Geom_Plane)::DownCast (aFirstBasisSurf);
+    Handle(Geom_Plane) hSecondPlane = Handle(Geom_Plane)::DownCast (aSecondBasisSurf);
     return AIS::InitAngleBetweenPlanarFaces (aFirstFace,
                                              aSecondFace,
                                              myCenterPoint,
@@ -991,8 +991,9 @@ Standard_Boolean AIS_AngleDimension::InitTwoFacesAngle (const gp_Pnt thePointOnF
   if (aFirstSurfType == AIS_KOS_Plane && aSecondSurfType == AIS_KOS_Plane)
   {
     //Planar faces angle
-    Handle(Geom_Plane) aFirstPlane = Handle(Geom_Plane)::DownCast (aFirstBasisSurf);
-    Handle(Geom_Plane) aSecondPlane = Handle(Geom_Plane)::DownCast (aSecondBasisSurf);
+#warning hFirstPlane hSecondPlane unused
+    Handle(Geom_Plane) hFirstPlane = Handle(Geom_Plane)::DownCast (aFirstBasisSurf);
+    Handle(Geom_Plane) hSecondPlane = Handle(Geom_Plane)::DownCast (aSecondBasisSurf);
     return AIS::InitAngleBetweenPlanarFaces (aFirstFace,
                                              aSecondFace,
                                              myCenterPoint,

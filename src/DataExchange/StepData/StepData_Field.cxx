@@ -390,8 +390,7 @@ static Standard_Integer TrueKind (const Standard_Integer kind)
 }
 
 
-    void  StepData_Field::SetString
-  (const Standard_Integer num, const Standard_CString val)
+void  StepData_Field::SetString(const Standard_Integer num, const Standard_CString val)
 {
   DeclareAndCast(Interface_HArray1OfHAsciiString,hs,theany);
   if (!hs.IsNull()) { hs->SetValue (num,new TCollection_HAsciiString(val)); return; }
@@ -403,11 +402,12 @@ static Standard_Integer TrueKind (const Standard_Integer kind)
 }
 
 
-    void  StepData_Field::SetEntity
-  (const Standard_Integer num, const Handle(Standard_Transient)& val)
+void  StepData_Field::SetEntity(const Standard_Integer num, const Handle(Standard_Transient)& val)
 {
-  DeclareAndCast(TColStd_HArray1OfTransient,ht,theany);
-  if (!ht.IsNull()) { ht->SetValue (num,val); return; }
+  {
+    DeclareAndCast(TColStd_HArray1OfTransient,ht,theany);
+    if (!ht.IsNull()) { ht->SetValue (num,val); return; }
+  }
   DeclareAndCast(TColStd_HArray1OfInteger,hi,theany);
   if (!hi.IsNull()) {
     Standard_Integer low = hi->Lower(), up = hi->Upper();

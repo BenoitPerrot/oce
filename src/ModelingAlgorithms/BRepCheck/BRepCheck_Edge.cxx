@@ -619,9 +619,9 @@ BRepCheck_Status BRepCheck_Edge::
       {
         const Standard_Real aParam = aPOnTriag->Parameters()->Value(i);
         const gp_Pnt  aPE(aBC.Value(aParam)), 
-                      aPT(Nodes(anIndices(i)).Transformed(aLL));
+                      aPTi(Nodes(anIndices(i)).Transformed(aLL));
 
-        const Standard_Real aSQDist = aPE.SquareDistance(aPT);
+        const Standard_Real aSQDist = aPE.SquareDistance(aPTi);
         if(aSQDist > aTol*aTol)
         {
           return BRepCheck_InvalidPolygonOnTriangulation;

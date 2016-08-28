@@ -376,8 +376,8 @@ Standard_Boolean TopOpeBRepTool_CLASSI::Classilist(const TopTools_ListOfShape& l
 
   TopTools_ListOfShape lw; lw.Assign(lS);
   mapgreasma.Clear();
-  TopTools_ListIteratorOfListOfShape itw(lS);
-  for (; itw.More(); itw.Next()) mapgreasma.Bind(itw.Value(),null);
+  for (TopTools_ListIteratorOfListOfShape itw(lS); itw.More(); itw.Next())
+    mapgreasma.Bind(itw.Value(),null);
   
   Standard_Integer nw = lw.Extent();
   if (nw <= 1) return Standard_True;

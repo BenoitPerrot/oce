@@ -47,9 +47,9 @@ Interface_EntityList::Interface_EntityList ()    {  }
     Handle(Interface_EntityCluster)::DownCast(theval);
   if (!ec.IsNull()) ec->Append(ent);    // EntityCluster
   else {                                // reste InterfaceEntity ...
-    Handle(Interface_EntityCluster) ec = new Interface_EntityCluster(theval);
-    ec->Append(ent);
-    theval = ec;
+    Handle(Interface_EntityCluster) ec_ = new Interface_EntityCluster(theval);
+    ec_->Append(ent);
+    theval = ec_;
   }
 }
 
@@ -69,9 +69,9 @@ Interface_EntityList::Interface_EntityList ()    {  }
     if (ec->IsLocalFull()) theval = new Interface_EntityCluster(ent,ec);
     else ec->Append (ent);
   } else {                          // reste InterfaceEntity ...
-    Handle(Interface_EntityCluster) ec = new Interface_EntityCluster(theval);
-    ec->Append(ent);
-    theval = ec;
+    Handle(Interface_EntityCluster) ec_ = new Interface_EntityCluster(theval);
+    ec_->Append(ent);
+    theval = ec_;
   }
 }
 

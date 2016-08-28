@@ -755,7 +755,7 @@ gp_Pnt2d Bisector_BisecCC::ValueByInt (const Standard_Real  U,
   //-------------------------------------------------------------------
   U1 = LinkBisCurve(U);
 
-  gp_Pnt2d P1,P2,P,PSol;
+  gp_Pnt2d P1,P,PSol;
   gp_Vec2d Tan1,Tan2;
   curve1->D1(U1,P1,Tan1);
   gp_Vec2d N1(  Tan1.Y(), - Tan1.X());
@@ -765,6 +765,7 @@ gp_Pnt2d Bisector_BisecCC::ValueByInt (const Standard_Real  U,
   //--------------------------------------------------------------------------
   if (P1.Distance(curve2->Value(curve2->FirstParameter())) < Precision::Confusion()) {
     U2   = curve2->FirstParameter();
+    gp_Pnt2d P2;
     curve2->D1(U2,P2,Tan2);	  
     if ( isConvex1 && isConvex2 ) {
       Dist = 0.;
@@ -777,6 +778,7 @@ gp_Pnt2d Bisector_BisecCC::ValueByInt (const Standard_Real  U,
   }
   if (P1.Distance(curve2->Value(curve2->LastParameter())) < Precision::Confusion()) {
     U2   = curve2->LastParameter();  
+    gp_Pnt2d P2;
     curve2->D1(U2,P2,Tan2);    
     if ( isConvex1 && isConvex2 ) {
       Dist = 0.;
@@ -887,7 +889,7 @@ gp_Pnt2d Bisector_BisecCC::ValueByInt (const Standard_Real  U,
     //--------------------------------------------------------------
     // Point found => Test curve distance + Angular Test 
     //---------------------------------------------------------------
-    P2 = curve2->Value(U2);
+    gp_Pnt2d P2 = curve2->Value(U2);
     gp_Vec2d PP1(P1.X() - PSol.X(),P1.Y() - PSol.Y());
     gp_Vec2d PP2(P2.X() - PSol.X(),P2.Y() - PSol.Y());
  

@@ -337,8 +337,7 @@ Standard_Boolean TopOpeBRepTool_makeTransition::MkT2donE(TopAbs_State& Stb,TopAb
   if (quadE && quadES) { // should return INT/EXT
     TopAbs_State sta = TopAbs_UNKNOWN;
     Standard_Integer mkt = FUN_mkT2dquad(curvE,curvES);
-    Standard_Boolean ok  = FUN_mkT2dquad(myE,mypb,mypa,mypE, myES,mypES, mkt,xxES,myfactor,sta);
-    if (ok) {
+    if (FUN_mkT2dquad(myE,mypb,mypa,mypE, myES,mypES, mkt,xxES,myfactor,sta)) {
       Stb = Sta = sta;
       return Standard_True;
     }
@@ -518,11 +517,11 @@ Standard_Boolean TopOpeBRepTool_makeTransition::MkT3dproj(TopAbs_State& Stb,TopA
 Standard_Boolean TopOpeBRepTool_makeTransition::MkT3onE(TopAbs_State& Stb,TopAbs_State& Sta) const
 {
   if (isT2d) return Standard_False;
-  gp_Vec tmp; Standard_Boolean ok = TopOpeBRepTool_TOOL::TggeomE(mypE,myE,tmp);
-  if (!ok) return Standard_False;
+  gp_Vec tmp;
+  if (!TopOpeBRepTool_TOOL::TggeomE(mypE,myE,tmp)) return Standard_False;
   gp_Dir tgE(tmp); 
-  gp_Dir ntFS; ok = TopOpeBRepTool_TOOL::Nt(myuv,myFS,ntFS);
-  if (!ok) return Standard_False; 
+  gp_Dir ntFS;
+  if (!TopOpeBRepTool_TOOL::Nt(myuv,myFS,ntFS)) return Standard_False; 
   
   Standard_Real tola = FUN_tolang();
   Standard_Real dot = tgE.Dot(ntFS);
@@ -537,21 +536,20 @@ Standard_Boolean TopOpeBRepTool_makeTransition::MkT3onE(TopAbs_State& Stb,TopAbs
   
   //E is tangent to FS at interference point
   gp_Dir tg0 = ntFS.Crossed(tgE);
-  Standard_Real curE; ok = TopOpeBRepTool_TOOL::CurvE(myE,mypE,tg0, curE);
-  if (!ok) return Standard_False;
-  Standard_Real curFS; Standard_Boolean direct; ok = TopOpeBRepTool_TOOL::CurvF(myFS,myuv,tg0, curFS,direct);
-  if (!ok) return Standard_False;
+  Standard_Real curE;
+  if (!TopOpeBRepTool_TOOL::CurvE(myE,mypE,tg0, curE)) return Standard_False;
+  Standard_Real curFS; Standard_Boolean direct;
+  if (!TopOpeBRepTool_TOOL::CurvF(myFS,myuv,tg0, curFS,direct)) return Standard_False;
     
   Standard_Boolean quadE   = TopOpeBRepTool_TOOL::IsQuad(myE);
   Standard_Boolean quadFS  = TopOpeBRepTool_TOOL::IsQuad(myFS);
   if (quadE && quadFS) { // should return INT/EXT
     Standard_Integer mkt = FUN_mkT2dquad(curE,curFS);    
     TopAbs_State sta = TopAbs_UNKNOWN;
-    ok = FUN_mkT3dquad(myE,mypb,mypa,mypE, myFS,myuv, tgE,ntFS, mkt,myfactor,sta); 
-    if (ok) {
+    if (FUN_mkT3dquad(myE,mypb,mypa,mypE, myFS,myuv, tgE,ntFS, mkt,myfactor,sta)) {
       if (hasES) {
-	gp_Dir xxES; Standard_Boolean ok = TopOpeBRepTool_TOOL::XX(myuv,myFS, mypES,myES, xxES);
-	if (!ok) return Standard_False;
+	gp_Dir xxES;
+	if (!TopOpeBRepTool_TOOL::XX(myuv,myFS, mypES,myES, xxES)) return Standard_False;
 	Stb = FUN_stawithES(tgE,xxES,BEFORE,sta);
 	Sta = FUN_stawithES(tgE,xxES,AFTER,sta);
       }

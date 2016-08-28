@@ -496,8 +496,8 @@ void  HLRTopoBRep_DSFiller::InsertFace (const Standard_Integer /*FI*/,
               B.Range(E,first,last);
 
               if (!C2d.IsNull()) {
-                BRep_Builder B;
-                B.UpdateEdge(E,C2d,F,BRep_Tool::Tolerance(F));
+                BRep_Builder B_;
+                B_.UpdateEdge(E,C2d,F,BRep_Tool::Tolerance(F));
               }
 	      
               // add the edge in the DS

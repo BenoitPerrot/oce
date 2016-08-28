@@ -345,13 +345,15 @@ void Select3D_SensitiveTriangle::Dump(Standard_OStream& S,const Standard_Boolean
   if(HasLocation())
     S<<"\t\tExisting Location"<<endl;
 
-  gp_Pnt aPnt1, aPnt2, aPnt3;
-  aPnt1 = mypolyg.Pnt(0);
-  aPnt2 = mypolyg.Pnt(1);
-  aPnt3 = mypolyg.Pnt(2);
-  S<<"\t\t P0 [ "<<aPnt1.X()<<" , "<<aPnt1.Y()<<" , "<<aPnt1.Z()<<" ]"<<endl;
-  S<<"\t\t P1 [ "<<aPnt2.X()<<" , "<<aPnt2.Y()<<" , "<<aPnt2.Z()<<" ]"<<endl;
-  S<<"\t\t P2 [ "<<aPnt3.X()<<" , "<<aPnt3.Y()<<" , "<<aPnt3.Z()<<" ]"<<endl;
+  {
+    gp_Pnt aPnt1, aPnt2, aPnt3;
+    aPnt1 = mypolyg.Pnt(0);
+    aPnt2 = mypolyg.Pnt(1);
+    aPnt3 = mypolyg.Pnt(2);
+    S<<"\t\t P0 [ "<<aPnt1.X()<<" , "<<aPnt1.Y()<<" , "<<aPnt1.Z()<<" ]"<<endl;
+    S<<"\t\t P1 [ "<<aPnt2.X()<<" , "<<aPnt2.Y()<<" , "<<aPnt2.Z()<<" ]"<<endl;
+    S<<"\t\t P2 [ "<<aPnt3.X()<<" , "<<aPnt3.Y()<<" , "<<aPnt3.Z()<<" ]"<<endl;
+  }
 
   if(FullDump)
   {

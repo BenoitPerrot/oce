@@ -447,11 +447,11 @@ void Geom2d_OffsetCurve::D2 (const Standard_Real theU,
   XY Ndir (theV1.Y(), -theV1.X());
   XY DNdir (V2.Y(), -V2.X());
   XY D2Ndir (V3.Y(), -V3.X());
-  Standard_Real R2  = Ndir.SquareModulus();
-  Standard_Real R   = Sqrt (R2);
-  Standard_Real R3  = R2 * R;
-  Standard_Real R4  = R2 * R2;
-  Standard_Real R5  = R3 * R2;
+  const Standard_Real R2  = Ndir.SquareModulus();
+  const Standard_Real R   = Sqrt (R2);
+  const Standard_Real R3  = R2 * R;
+  const Standard_Real R4  = R2 * R2;
+  const Standard_Real R5  = R3 * R2;
   Standard_Real Dr  = Ndir.Dot (DNdir);
   Standard_Real D2r = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
   if (R5 <= gp::Resolution())
@@ -463,7 +463,6 @@ void Geom2d_OffsetCurve::D2 (const Standard_Real theU,
       Geom2d_UndefinedDerivative::Raise();
       }
     // V2 = P" (U) :
-    Standard_Real R4 = R2 * R2;
     D2Ndir.Subtract (DNdir.Multiplied (2.0 * Dr / R2));
     D2Ndir.Add (Ndir.Multiplied (((3.0 * Dr * Dr)/R4) - (D2r/R2)));
     D2Ndir.Multiply (offsetValue / R);
@@ -595,13 +594,13 @@ void Geom2d_OffsetCurve::D3 (const Standard_Real theU,
   XY DNdir  (V2.Y(), -V2.X());
   XY D2Ndir (V3.Y(), -V3.X());
   XY D3Ndir (V4.Y(), -V4.X());
-  Standard_Real R2  = Ndir.SquareModulus();
-  Standard_Real R   = Sqrt (R2);
-  Standard_Real R3  = R2 * R;
-  Standard_Real R4  = R2 * R2;
-  Standard_Real R5  = R3 * R2;
-  Standard_Real R6  = R3 * R3;
-  Standard_Real R7  = R5 * R2;
+  const Standard_Real R2  = Ndir.SquareModulus();
+  const Standard_Real R   = Sqrt (R2);
+  const Standard_Real R3  = R2 * R;
+  const Standard_Real R4  = R2 * R2;
+  const Standard_Real R5  = R3 * R2;
+  const Standard_Real R6  = R3 * R3;
+  const Standard_Real R7  = R5 * R2;
   Standard_Real Dr  = Ndir.Dot (DNdir);
   Standard_Real D2r = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
   Standard_Real D3r = Ndir.Dot (D3Ndir) + 3.0 * DNdir.Dot (D2Ndir);
@@ -629,7 +628,6 @@ void Geom2d_OffsetCurve::D3 (const Standard_Real theU,
 
 
     // V2 = P" (U) :
-    Standard_Real R4 = R2 * R2;
     D2Ndir.Subtract (DNdir.Multiplied (2.0 * Dr / R2));
     D2Ndir.Subtract (Ndir.Multiplied (((3.0 * Dr * Dr)/R4) - (D2r/R2)));
     D2Ndir.Multiply (offsetValue / R);
@@ -799,11 +797,11 @@ void Geom2d_OffsetCurve::D2 (const Standard_Real U,
   XY Ndir (V1.Y(), -V1.X());
   XY DNdir (V2.Y(), -V2.X());
   XY D2Ndir (V3.Y(), -V3.X());
-  Standard_Real R2  = Ndir.SquareModulus();
-  Standard_Real R   = Sqrt (R2);
-  Standard_Real R3  = R2 * R;
-  Standard_Real R4  = R2 * R2;
-  Standard_Real R5  = R3 * R2;
+  const Standard_Real R2  = Ndir.SquareModulus();
+  const Standard_Real R   = Sqrt (R2);
+  const Standard_Real R3  = R2 * R;
+  const Standard_Real R4  = R2 * R2;
+  const Standard_Real R5  = R3 * R2;
   Standard_Real Dr  = Ndir.Dot (DNdir);
   Standard_Real D2r = Ndir.Dot (D2Ndir) + DNdir.Dot (DNdir);
   if (R5 <= gp::Resolution()) {
@@ -811,7 +809,6 @@ void Geom2d_OffsetCurve::D2 (const Standard_Real U,
      //dixit ISG.
      if (R4 <= gp::Resolution()) { Geom2d_UndefinedDerivative::Raise(); }
      // V2 = P" (U) :
-     Standard_Real R4 = R2 * R2;
      D2Ndir.Subtract (DNdir.Multiplied (2.0 * Dr / R2));
      D2Ndir.Subtract (Ndir.Multiplied (((3.0 * Dr * Dr)/R4) - (D2r/R2)));
      D2Ndir.Multiply (offsetValue / R);

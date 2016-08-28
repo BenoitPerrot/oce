@@ -63,7 +63,7 @@ void HLRTopoBRep_FaceIsoLiner::Perform (const Standard_Integer FI,
 {
   (void)FI; // avoid compiler warning
 
-  Standard_Real UMin, UMax, VMin, VMax, U1, U2;
+  Standard_Real UMin, UMax, VMin, VMax;
   Standard_Integer ne = 0;
   //BRep_Builder Builder;
   TopoDS_Edge Edge;
@@ -124,6 +124,7 @@ void HLRTopoBRep_FaceIsoLiner::Perform (const Standard_Integer FI,
        ExpEdges.Next()) {
     Standard_Integer IndE;
     const TopoDS_Edge& newE = TopoDS::Edge(ExpEdges.Current());
+    Standard_Real U1, U2;
     const Handle(Geom2d_Curve) PC =
       BRep_Tool::CurveOnSurface (newE, TF, U1, U2);
     if(   Abs(PC->FirstParameter() - U1) <= Precision::PConfusion() 
@@ -147,6 +148,7 @@ void HLRTopoBRep_FaceIsoLiner::Perform (const Standard_Integer FI,
 	itE.Next()) {
       Standard_Integer IndE;
       const TopoDS_Edge& newE = TopoDS::Edge(itE.Value());
+      Standard_Real U1, U2;
       const Handle(Geom2d_Curve) PC =
 	BRep_Tool::CurveOnSurface (newE, TF, U1, U2);
       if(   Abs(PC->FirstParameter() - U1) <= Precision::PConfusion() 

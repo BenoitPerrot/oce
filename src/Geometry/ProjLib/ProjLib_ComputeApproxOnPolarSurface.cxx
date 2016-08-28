@@ -732,11 +732,10 @@ Handle(Adaptor2d_HCurve2d)
   Mult.Init(1);
   Mult(1) = Mult(NbOfPnts) = 2;
   
-  Standard_Real Uinf, Usup, Vinf, Vsup;
-  Uinf = Surf->Surface().FirstUParameter();
-  Usup = Surf->Surface().LastUParameter();
-  Vinf = Surf->Surface().FirstVParameter();
-  Vsup = Surf->Surface().LastVParameter();
+  const Standard_Real Uinf = Surf->Surface().FirstUParameter();
+  const Standard_Real Usup = Surf->Surface().LastUParameter();
+  const Standard_Real Vinf = Surf->Surface().FirstVParameter();
+  const Standard_Real Vsup = Surf->Surface().LastVParameter();
   GeomAbs_SurfaceType Type = Surf->GetType();
   if((Type != GeomAbs_BSplineSurface) && (Type != GeomAbs_BezierSurface) &&
      (Type != GeomAbs_OffsetSurface)) {
@@ -1143,13 +1142,14 @@ Handle(Adaptor2d_HCurve2d)
             }
           }
 	  if(!myProjIsDone && uperiod) {
-	    Standard_Real Uinf, Usup, Uaux;
-	    Uinf = Surf->Surface().FirstUParameter();
-	    Usup = Surf->Surface().LastUParameter();
-	    if((Usup - U0) > (U0 - Uinf)) 
-	      Uaux = 2*Uinf - U0 + uperiod;
+#warning Uinf and Uinf_ are the same if the surface is not modified
+	    Standard_Real Uinf_, Usup_, Uaux;
+	    Uinf_ = Surf->Surface().FirstUParameter();
+	    Usup_ = Surf->Surface().LastUParameter();
+	    if((Usup_ - U0) > (U0 - Uinf_)) 
+	      Uaux = 2*Uinf_ - U0 + uperiod;
 	    else 
-	      Uaux = 2*Usup - U0 - uperiod;
+	      Uaux = 2*Usup_ - U0 - uperiod;
 	    Extrema_GenLocateExtPS  locext(pntproj, 
 					   Surf->Surface(), 
 					   Uaux, V0, TolU, TolV);
@@ -1157,7 +1157,7 @@ Handle(Adaptor2d_HCurve2d)
 	      if (locext.SquareDistance() < DistTol3d * DistTol3d) {  //OCC217
 	      //if (locext.SquareDistance() < Tol3d * Tol3d) {
 		(locext.Point()).Parameter(u,v);
-		if((Usup - U0) > (U0 - Uinf)) 
+		if((Usup_ - U0) > (U0 - Uinf_)) 
 		  usens--;
 		else 
 		  usens++;
@@ -1169,13 +1169,14 @@ Handle(Adaptor2d_HCurve2d)
 	      }
 	  }
 	  if(!myProjIsDone && vperiod) {
-	    Standard_Real Vinf, Vsup, Vaux;
-	    Vinf = Surf->Surface().FirstVParameter();
-	    Vsup = Surf->Surface().LastVParameter();
-	    if((Vsup - V0) > (V0 - Vinf)) 
-	      Vaux = 2*Vinf - V0 + vperiod;
+#warning Vinf and Vinf_ are the same if the surface is not modified
+	    Standard_Real Vinf_, Vsup_, Vaux;
+	    Vinf_ = Surf->Surface().FirstVParameter();
+	    Vsup_ = Surf->Surface().LastVParameter();
+	    if((Vsup_ - V0) > (V0 - Vinf_)) 
+	      Vaux = 2*Vinf_ - V0 + vperiod;
 	    else 
-	      Vaux = 2*Vsup - V0 - vperiod;
+	      Vaux = 2*Vsup_ - V0 - vperiod;
 	    Extrema_GenLocateExtPS  locext(pntproj, 
 					   Surf->Surface(), 
 					   U0, Vaux, TolU, TolV) ;
@@ -1183,7 +1184,7 @@ Handle(Adaptor2d_HCurve2d)
 	      if (locext.SquareDistance() < DistTol3d * DistTol3d) {  //OCC217
 	      //if (locext.SquareDistance() < Tol3d * Tol3d) {
 		(locext.Point()).Parameter(u,v);
-		if((Vsup - V0) > (V0 - Vinf)) 
+		if((Vsup_ - V0) > (V0 - Vinf_)) 
 		  vsens--;
 		else 
 		  vsens++;
@@ -1230,15 +1231,15 @@ Handle(Adaptor2d_HCurve2d)
 	    Extrema_ExtPS ext(pntproj, Surf->Surface(), TolU, TolV) ;
 	    if (ext.IsDone()) {
 	      Dist2Min = ext.SquareDistance(1);
-	      Standard_Integer GoodValue = 1;
+	      Standard_Integer GoodValueJ = 1;
 	      for ( j = 2 ; j <= ext.NbExt() ; j++ )
 		if( Dist2Min > ext.SquareDistance(j)) {
 		  Dist2Min = ext.SquareDistance(j);
-		  GoodValue = j;
+		  GoodValueJ = j;
 		}
 	      if (Dist2Min < DistTol3d * DistTol3d) {
 	      //if (Dist2Min < Tol3d * Tol3d) {
-		(ext.Point(GoodValue)).Parameter(u,v);
+		(ext.Point(GoodValueJ)).Parameter(u,v);
 		if(uperiod) {
 		  if((U0 - u) > (2*uperiod/3)) {
 		    usens++;
@@ -1340,7 +1341,6 @@ Handle(Geom2d_BSplineCurve)
   Standard_Real TolU = Surf->UResolution(Tol3d), TolV = Surf->VResolution(Tol3d);
   Standard_Real Tol2d = Sqrt(TolU*TolU + TolV*TolV);
 
-  Standard_Integer i;
   GeomAbs_SurfaceType TheTypeS = Surf->GetType();
   GeomAbs_CurveType TheTypeC = Curve->GetType();
 //  Handle(Standard_Type) TheTypeS = Surf->DynamicType();
@@ -1352,7 +1352,7 @@ Handle(Geom2d_BSplineCurve)
     if(TheTypeC == GeomAbs_BSplineCurve) {
       Handle(Geom_BSplineCurve) BSC = Curve->BSpline();
       TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-      for(i = 1;i <= Curve->NbPoles();i++) {
+      for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	ElSLib::Parameters( Plane, BSC->Pole(i), S, T);
 	Poles2d(i).SetCoord(S,T);
       }
@@ -1373,7 +1373,7 @@ Handle(Geom2d_BSplineCurve)
     if(TheTypeC == GeomAbs_BezierCurve) {
       Handle(Geom_BezierCurve) BC = Curve->Bezier();
       TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-      for(i = 1;i <= Curve->NbPoles();i++) {
+      for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	ElSLib::Parameters( Plane, BC->Pole(i), S, T);
 	Poles2d(i).SetCoord(S,T);
       }
@@ -1416,7 +1416,7 @@ Handle(Geom2d_BSplineCurve)
 	if(TheTypeC == GeomAbs_BSplineCurve) {
 	  Handle(Geom_BSplineCurve) BSC = Curve->BSpline();
 	  TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-	  for(i = 1;i <= Curve->NbPoles();i++) {
+	  for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	    myProjIsDone = Standard_False;
 	    Dist2Min = IntegerLast();
 	    Extrema_GenLocateExtPS  extrloc(BSC->Pole(i),Surf->Surface(),(p11.X()+p22.X())/2,
@@ -1455,7 +1455,7 @@ Handle(Geom2d_BSplineCurve)
 	if(TheTypeC == GeomAbs_BezierCurve) {
 	  Handle(Geom_BezierCurve) BC = Curve->Bezier();
 	  TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-	  for(i = 1;i <= Curve->NbPoles();i++) {
+	  for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	    Dist2Min = IntegerLast();
 	    Extrema_GenLocateExtPS  extrloc(BC->Pole(i),Surf->Surface(),0.5,
 					    0.5,TolU,TolV) ;
@@ -1517,7 +1517,7 @@ Handle(Geom2d_BSplineCurve)
 	if(TheTypeC == GeomAbs_BSplineCurve) {
 	  Handle(Geom_BSplineCurve) BSC = Curve->BSpline();
 	  TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-	  for(i = 1;i <= Curve->NbPoles();i++) {
+	  for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	    myProjIsDone = Standard_False;
 	    Dist2Min = IntegerLast();
 	    Extrema_GenLocateExtPS  extrloc(BSC->Pole(i),Surf->Surface(),(p11.X()+p22.X())/2,
@@ -1556,7 +1556,7 @@ Handle(Geom2d_BSplineCurve)
 	if(TheTypeC == GeomAbs_BezierCurve) {
 	  Handle(Geom_BezierCurve) BC = Curve->Bezier();
 	  TColgp_Array1OfPnt2d Poles2d(1,Curve->NbPoles());
-	  for(i = 1;i <= Curve->NbPoles();i++) {
+	  for (Standard_Integer i = 1;i <= Curve->NbPoles();i++) {
 	    Dist2Min = IntegerLast();
 	    Extrema_GenLocateExtPS  extrloc(BC->Pole(i),Surf->Surface(),0.5,
 					    0.5,TolU,TolV) ;

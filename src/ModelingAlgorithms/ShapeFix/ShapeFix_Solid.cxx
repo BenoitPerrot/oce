@@ -395,15 +395,15 @@ Standard_Boolean ShapeFix_Solid::Perform(const Handle(Message_ProgressIndicator)
     aNbShells++;
 
   // Start progress scope (no need to check if progress exists -- it is safe)
-  Message_ProgressSentry aPSentry(theProgress, "Fixing solid stage", 0, 2, 1);
+  Message_ProgressSentry aPSentry1(theProgress, "Fixing solid stage", 0, 2, 1);
 
   if ( NeedFix(myFixShellMode) )
   {
     // Start progress scope (no need to check if progress exists -- it is safe)
-    Message_ProgressSentry aPSentry(theProgress, "Fixing shell", 0, aNbShells, 1);
+    Message_ProgressSentry aPSentry2(theProgress, "Fixing shell", 0, aNbShells, 1);
 
     // Fix shell by shell using ShapeFix_Shell tool
-    for ( TopExp_Explorer aExpSh(S, TopAbs_SHELL); aExpSh.More() && aPSentry.More(); aExpSh.Next(), aPSentry.Next() )
+    for ( TopExp_Explorer aExpSh(S, TopAbs_SHELL); aExpSh.More() && aPSentry2.More(); aExpSh.Next(), aPSentry2.Next() )
     { 
       TopoDS_Shape sh = aExpSh.Current();
 
@@ -417,7 +417,7 @@ Standard_Boolean ShapeFix_Solid::Perform(const Handle(Message_ProgressIndicator)
     }
 
     // Halt algorithm in case of user's abort
-    if ( !aPSentry.More() )
+    if ( !aPSentry2.More() )
       return Standard_False;
   }
   else 
@@ -426,7 +426,7 @@ Standard_Boolean ShapeFix_Solid::Perform(const Handle(Message_ProgressIndicator)
   }
 
   // Switch to the second stage
-  aPSentry.Next();
+  aPSentry1.Next();
     
   if(NbShells ==1) {
     TopoDS_Shape tmpShape = Context()->Apply(myShape);
@@ -497,10 +497,10 @@ Standard_Boolean ShapeFix_Solid::Perform(const Handle(Message_ProgressIndicator)
         BRep_Builder aB;
         TopoDS_Compound aComp;
         aB.MakeCompound(aComp);
-        Message_ProgressSentry aPSentry(theProgress, "Creating solid",
+        Message_ProgressSentry aPSentry2(theProgress, "Creating solid",
                                         0, aMapSolids.Extent(), 1);
-        for(Standard_Integer i =1; (i <= aMapSolids.Extent()) && (aPSentry.More()); 
-            i++, aPSentry.Next()) 
+        for(Standard_Integer i =1; (i <= aMapSolids.Extent()) && (aPSentry2.More()); 
+            i++, aPSentry2.Next()) 
         {
           TopoDS_Shape aResSh =aMapSolids.FindKey(i);
           if(aResShape.ShapeType() == TopAbs_SHELL && myCreateOpenSolidMode) {
@@ -516,7 +516,7 @@ Standard_Boolean ShapeFix_Solid::Perform(const Handle(Message_ProgressIndicator)
           aB.Add(aComp,aResSh);
           
         }
-        if ( !aPSentry.More() )
+        if ( !aPSentry2.More() )
           return Standard_False; // aborted execution
         Context()->Replace(aResShape,aComp);
       }

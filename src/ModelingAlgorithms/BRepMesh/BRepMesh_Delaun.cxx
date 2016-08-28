@@ -302,10 +302,10 @@ void BRepMesh_Delaun::createTriangles(const Standard_Integer         theVertexIn
   BRepMesh::ListOfInteger aLoopEdges, anExternalEdges;
   const gp_XY& aVertexCoord = myMeshData->GetNode( theVertexIndex ).Coord();
   
-  BRepMesh::MapOfIntegerInteger::Iterator anEdges( thePoly );
-  for ( ; anEdges.More(); anEdges.Next() )
+  BRepMesh::MapOfIntegerInteger::Iterator anEdgesIt( thePoly );
+  for ( ; anEdgesIt.More(); anEdgesIt.Next() )
   {
-    Standard_Integer     anEdgeId = anEdges.Key();
+    Standard_Integer     anEdgeId = anEdgesIt.Key();
     const BRepMesh_Edge& anEdge   = GetEdge( anEdgeId );
 
     Standard_Boolean isPositive = (0 != thePoly( anEdgeId ));
@@ -370,9 +370,9 @@ void BRepMesh_Delaun::createTriangles(const Standard_Integer         theVertexIn
     else
     {
       if ( isPositive )
-        aLoopEdges.Append(  anEdges.Key() );
+        aLoopEdges.Append(  anEdgesIt.Key() );
       else
-        aLoopEdges.Append( -anEdges.Key() );
+        aLoopEdges.Append( -anEdgesIt.Key() );
         
       if ( aFirstLinkDir.SquareModulus() > aLastLinkDir.SquareModulus() )
         anExternalEdges.Append( Abs( anEdgesInfo[0] ) );
@@ -394,10 +394,10 @@ void BRepMesh_Delaun::createTriangles(const Standard_Integer         theVertexIn
     anExternalEdges.RemoveFirst();
   }
 
-  for ( anEdges.Initialize( thePoly ); anEdges.More(); anEdges.Next() )
+  for ( anEdgesIt.Initialize( thePoly ); anEdgesIt.More(); anEdgesIt.Next() )
   {
-    if ( myMeshData->ElementsConnectedTo( anEdges.Key() ).IsEmpty() )
-      myMeshData->RemoveLink( anEdges.Key() );
+    if ( myMeshData->ElementsConnectedTo( anEdgesIt.Key() ).IsEmpty() )
+      myMeshData->RemoveLink( anEdgesIt.Key() );
   }
 
   while ( !aLoopEdges.IsEmpty() )

@@ -72,17 +72,17 @@ void BRepFill_ApproxSeewing::Perform(const BRepFill_MultiLine& ML)
   Standard_Real U1 = myML.FirstParameter();
   Standard_Real U2 = myML.LastParameter();
   Standard_Integer NbPoints = 50;
-  Standard_Real Dist, dU = (U2 - U1) / ( 2*NbPoints - 1);
+  Standard_Real Dist, dU21 = (U2 - U1) / ( 2*NbPoints - 1);
 
   TColgp_Array1OfPnt2d LP(1,2*NbPoints); // tableau Longueur <-> Param 
   gp_Pnt P1, P2;
   P1 = myML.Value(U1);
 
   for ( i = 0; i < 2*NbPoints ; i++) {
-    P2      = myML.Value(U1 + i*dU);
+    P2      = myML.Value(U1 + i*dU21);
     Dist    = P1.Distance(P2);
     Length += Dist;
-    LP(i+1) = gp_Pnt2d( Length, U1 + (i*dU));
+    LP(i+1) = gp_Pnt2d( Length, U1 + (i*dU21));
     P1      = P2;
   }
 
@@ -138,31 +138,31 @@ void BRepFill_ApproxSeewing::Perform(const BRepFill_MultiLine& ML)
     Mults.Init(1);
     Mults(1) = Mults(NbPoints) =  2;
     TColgp_Array1OfPnt   P (1,NbPoints);
-    TColgp_Array1OfPnt2d P1(1,NbPoints);
-    TColgp_Array1OfPnt2d P2(1,NbPoints);
+    TColgp_Array1OfPnt2d A1(1,NbPoints);
+    TColgp_Array1OfPnt2d A2(1,NbPoints);
     
     Standard_Real Uf = ML.FirstParameter();
     Standard_Real Ul = ML.LastParameter();
-    Standard_Real dU = (Ul-Uf)/(NbPoints-1);
+    Standard_Real dUlf = (Ul-Uf)/(NbPoints-1);
     AppDef_MultiPointConstraint MPC;
     for ( i = 1; i<= NbPoints-1; i++) {
       MPC = MLS.Value(i);
-      U = Uf + (i-1) * dU;
+      U = Uf + (i-1) * dUlf;
       P (i) = MPC.Point(1);
-      P1(i) = MPC.Point2d(2);
-      P2(i) = MPC.Point2d(3);
+      A1(i) = MPC.Point2d(2);
+      A2(i) = MPC.Point2d(3);
       Knots(i) = U;
     }
     // eval the last point on Ul
     MPC = MLS.Value(NbPoints);
     P (NbPoints)    = MPC.Point(1);
-    P1(NbPoints)    = MPC.Point2d(2);
-    P2(NbPoints)    = MPC.Point2d(3);
+    A1(NbPoints)    = MPC.Point2d(2);
+    A2(NbPoints)    = MPC.Point2d(3);
     Knots(NbPoints) = Ul;
     
     myCurve   = new Geom_BSplineCurve  ( P , Knots, Mults, 1);
-    myPCurve1 = new Geom2d_BSplineCurve( P1, Knots, Mults, 1);
-    myPCurve2 = new Geom2d_BSplineCurve( P2, Knots, Mults, 1);
+    myPCurve1 = new Geom2d_BSplineCurve( A1, Knots, Mults, 1);
+    myPCurve2 = new Geom2d_BSplineCurve( A2, Knots, Mults, 1);
     
     myIsDone  = Standard_True;
     

@@ -2404,11 +2404,13 @@ void ShapeFix_ComposeShell::MakeFacesOnPatch (TopTools_SequenceOfShape &faces,
 	break;
     }
     if ( ! ew.More() ) continue;
-    Standard_Real cf, cl;
-    Handle(Geom2d_Curve) cw = BRep_Tool::CurveOnSurface ( ed, pf, cf, cl );
-    if ( cw.IsNull() ) continue;
-    unp = cw->Value ( 0.5 * ( cf + cl ) );
-    
+    {
+      Standard_Real cf, cl;
+      Handle(Geom2d_Curve) cw = BRep_Tool::CurveOnSurface ( ed, pf, cf, cl );
+      if ( cw.IsNull() ) continue;
+      unp = cw->Value ( 0.5 * ( cf + cl ) );
+    }
+        
     Standard_Integer j; // svv #1
     for ( j = 1; j <= loops.Length(); j++ ) {
       if ( i == j ) continue;
@@ -2440,9 +2442,9 @@ void ShapeFix_ComposeShell::MakeFacesOnPatch (TopTools_SequenceOfShape &faces,
       TopAbs_State stPoint = clas.Perform (unp,Standard_False);
       if(stPoint == TopAbs_ON || stPoint == TopAbs_UNKNOWN) {
 
-        TopoDS_Edge ed = TopoDS::Edge ( ew.Value() );
+        TopoDS_Edge e = TopoDS::Edge ( ew.Value() );
         Standard_Real cf, cl;
-        Handle(Geom2d_Curve) cw = BRep_Tool::CurveOnSurface ( ed, pf, cf, cl );
+        Handle(Geom2d_Curve) cw = BRep_Tool::CurveOnSurface ( e, pf, cf, cl );
         // handle tangential case (ON)
         while ( stPoint == TopAbs_ON || stPoint == TopAbs_UNKNOWN ) {
           stPoint = clas.Perform ( cw->Value(cl), Standard_False );

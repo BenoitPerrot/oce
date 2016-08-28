@@ -82,7 +82,6 @@ void MDataStd_ExpressionRetrievalDriver::Paste(const Handle(PDF_Attribute)& Sour
   T->SetExpression (Expression);  
   
   Handle(PDF_Attribute) PV; 
-  Handle(TDF_Attribute) TV;
 
   Handle(PDF_HAttributeArray1) PVARS = S->GetVariables ();
   if (PVARS.IsNull()) return;

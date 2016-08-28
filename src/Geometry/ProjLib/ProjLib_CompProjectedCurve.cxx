@@ -715,7 +715,6 @@ void ProjLib_CompProjectedCurve::Init()
         {
           //Search for exact boundary point
           Tol = Min(myTolU, myTolV);
-          gp_Vec2d D;
           d1(Triple.X(), Triple.Y(), Triple.Z(), D, myCurve, mySurface);
           Tol /= Max(Abs(D.X()), Abs(D.Y()));
 
@@ -889,11 +888,11 @@ void ProjLib_CompProjectedCurve::Init()
   for(i = 1; i <= myNbCurves; i++)
     for(j = 1; j <= mySequence->Value(i)->Length(); j++) 
     {
-      gp_Pnt POnC, POnS, Triple;
+      gp_Pnt POnC, POnS, Triple_;
       Standard_Real Distance;
-      Triple = mySequence->Value(i)->Value(j);
-      myCurve->D0(Triple.X(), POnC);
-      mySurface->D0(Triple.Y(), Triple.Z(), POnS);
+      Triple_ = mySequence->Value(i)->Value(j);
+      myCurve->D0(Triple_.X(), POnC);
+      mySurface->D0(Triple_.Y(), Triple_.Z(), POnS);
       Distance = POnC.Distance(POnS);
       if (myMaxDistance->Value(i) < Distance)
         myMaxDistance->ChangeValue(i) = Distance;

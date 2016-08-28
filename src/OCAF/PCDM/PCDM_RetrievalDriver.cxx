@@ -188,10 +188,10 @@ void PCDM_RetrievalDriver::Read(const TCollection_ExtendedString& theFileName,
   }
   
   if(theDocument.IsNull()) {
-    Standard_SStream aMsg;
-    aMsg << "could not find any document in this file" << (char) 0;
+    Standard_SStream msg;
+    msg << "could not find any document in this file" << (char) 0;
     myReaderStatus = PCDM_RS_NoDocument;
-    Standard_Failure::Raise(aMsg);
+    Standard_Failure::Raise(msg);
   }
   Handle(Standard_Persistent) theObject=theDocument->Object();
   Handle(PCDM_Document) thePDocument = *((Handle(PCDM_Document)*)&theObject);

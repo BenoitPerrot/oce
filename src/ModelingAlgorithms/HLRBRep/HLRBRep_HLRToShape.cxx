@@ -68,15 +68,16 @@ HLRBRep_HLRToShape::InternalCompound (const Standard_Integer typ,
     }
     BRep_Builder B;
     B.MakeCompound(TopoDS::Compound(Result));
-    HLRBRep_EdgeData* ed = &(DS->EDataArray().ChangeValue(e1 - 1));
-    
-    for (Standard_Integer ie = e1; ie <= e2; ie++) {
-      ed++;
-      if (ed->Selected() && !ed->Vertical()) {
-	ed->Used(Standard_False);
-	ed->HideCount(0);
+    {
+      HLRBRep_EdgeData* ed = &(DS->EDataArray().ChangeValue(e1 - 1));
+      for (Standard_Integer ie = e1; ie <= e2; ie++) {
+	ed++;
+	if (ed->Selected() && !ed->Vertical()) {
+	  ed->Used(Standard_False);
+	  ed->HideCount(0);
+	}
+	else ed->Used(Standard_True);
       }
-      else ed->Used(Standard_True);
     }
     if (explor) {
       TopTools_IndexedMapOfShape& Edges = DS->EdgeMap();

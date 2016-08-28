@@ -181,12 +181,12 @@ void BRepCheck_Analyzer::Perform(const TopoDS_Shape& S)
           if ( ! myMap(S).IsNull() )
             myMap(S)->SetFailStatus(S);
 
-          Handle(BRepCheck_Result) aRes = myMap(aVertex);
+          Handle(BRepCheck_Result) res = myMap(aVertex);
 
-          if ( ! aRes.IsNull() ) 
+          if ( ! res.IsNull() ) 
           {
-            aRes->SetFailStatus(aVertex);
-            aRes->SetFailStatus(S);
+            res->SetFailStatus(aVertex);
+            res->SetFailStatus(S);
           }
         }//catch(Standard_Failure)
       }//for (exp.Init(S,TopAbs_VERTEX);exp.More(); exp.Next())

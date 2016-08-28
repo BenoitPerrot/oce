@@ -228,14 +228,14 @@ Standard_Boolean Voxel_CollisionDetection::Compute()
   if (nb_shapes)
   {
     Standard_Integer ix, iy, iz;
-    Voxel_BoolDS& voxels = ((Voxel_BoolDS*)myVoxels)[0]; // 1st shape
+    Voxel_BoolDS& voxels0 = ((Voxel_BoolDS*)myVoxels)[0]; // 1st shape
     for (ix = 0; ix < myNbX; ix++)
     {
       for (iy = 0; iy < myNbY; iy++)
       {
 	for (iz = 0; iz < myNbZ; iz++)
 	{
-	  if (voxels.Get(ix, iy, iz))
+	  if (voxels0.Get(ix, iy, iz))
 	  {
 	    for (ishape = 1; ishape < nb_shapes; ishape++) // start with second shape
 	    {

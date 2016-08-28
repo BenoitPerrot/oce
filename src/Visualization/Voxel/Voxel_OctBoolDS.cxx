@@ -267,12 +267,11 @@ void Voxel_OctBoolDS::OptimizeMemory()
   if (!mySubVoxels)
     return;
 
-  Standard_Byte value;
   TColStd_ListOfInteger ixs, iys, izs, values;
   iXYZBool::Iterator itr(*((iXYZBool*)mySubVoxels));
   for (; itr.More(); itr.Next())
   {
-    value = itr.Value();
+    Standard_Byte value = itr.Value();
     if (value == 0 || value == 255)
     {
       xyz = itr.Key();

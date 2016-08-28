@@ -217,8 +217,7 @@ void MeshVS_NodalColorPrsBuilder::Build ( const Handle(Prs3d_Presentation)& Prs,
   Graphic3d_MaterialAspect aMaterial[ 2 ];
   aMaterial[ 0 ] = Graphic3d_MaterialAspect( Graphic3d_NOM_PLASTIC );
   aMaterial[ 1 ] = Graphic3d_MaterialAspect( Graphic3d_NOM_PLASTIC );
-  Standard_Integer i;
-  for ( i = 0; i < 2; i++ )
+  for (Standard_Integer i = 0; i < 2; i++ )
   {
     if ( !IsReflect )
     {
@@ -322,16 +321,15 @@ void MeshVS_NodalColorPrsBuilder::Build ( const Handle(Prs3d_Presentation)& Prs,
       Quantity_Color aNColor;
 
       Standard_Boolean isValid = Standard_True;
-      Standard_Integer i;
       
       if (myUseTexture)
       {
-        for (i = 1; i <= NbNodes && isValid; ++i)
+        for (Standard_Integer i = 1; i <= NbNodes && isValid; ++i)
           isValid = myTextureCoords.IsBound (aNodes (i));
       }
       else
       {
-        for (i = 1; i <= NbNodes && isValid; ++i)
+        for (Standard_Integer i = 1; i <= NbNodes && isValid; ++i)
           isValid = GetColor (aNodes (i), aNColor);
       }
 

@@ -215,10 +215,10 @@ Standard_Boolean math_GlobOptMin::computeLocalExtremum(const math_Vector& thePnt
   //Newton method
   if (dynamic_cast<math_MultipleVarFunctionWithHessian*>(myFunc))
   {
-    math_MultipleVarFunctionWithHessian* myTmp = 
+    math_MultipleVarFunctionWithHessian* tmp = 
       dynamic_cast<math_MultipleVarFunctionWithHessian*> (myFunc);
     
-    math_NewtonMinimum newtonMinimum(*myTmp, thePnt);
+    math_NewtonMinimum newtonMinimum(*tmp, thePnt);
     if (newtonMinimum.IsDone())
     {
       newtonMinimum.Location(theOutPnt);
@@ -230,9 +230,9 @@ Standard_Boolean math_GlobOptMin::computeLocalExtremum(const math_Vector& thePnt
   // BFGS method used.
   if (dynamic_cast<math_MultipleVarFunctionWithGradient*>(myFunc))
   {
-    math_MultipleVarFunctionWithGradient* myTmp = 
+    math_MultipleVarFunctionWithGradient* tmp = 
       dynamic_cast<math_MultipleVarFunctionWithGradient*> (myFunc);
-    math_BFGS bfgs(*myTmp, thePnt);
+    math_BFGS bfgs(*tmp, thePnt);
     if (bfgs.IsDone())
     {
       bfgs.Location(theOutPnt);

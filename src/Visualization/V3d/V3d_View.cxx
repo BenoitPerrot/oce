@@ -3110,9 +3110,9 @@ Standard_Boolean V3d_View::FitMinMax (const Handle(Graphic3d_Camera)& theCamera,
     Bnd_Box aRelativeBBox = aBBox.Transformed (aPlaneTrsf);
 
     Standard_Real aDummy = 0.0;
-    Standard_Real aZmin  = 0.0;
-    Standard_Real aZmax  = 0.0;
-    aRelativeBBox.Get (aDummy, aDummy, aZmin, aDummy, aDummy, aZmax);
+    Standard_Real aDummyZmin  = 0.0;
+    Standard_Real aDummyZmax  = 0.0;
+    aRelativeBBox.Get (aDummy, aDummy, aDummyZmin, aDummy, aDummy, aDummyZmax);
     aMatchDistance[anIt] = -aZmin;
   }
   // The center of camera is placed on the same line with center of bounding box.

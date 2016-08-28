@@ -2074,14 +2074,13 @@ BRepFill_Sweep::BRepFill_Sweep(const Handle(BRepFill_SectionLaw)& Section,
   Handle(Geom_Surface) S;
 
   // (2.0) return preexisting Edges and vertices
-  TopoDS_Edge E;
   TColStd_Array1OfBoolean IsBuilt(1, NbLaw);
   IsBuilt.Init(Standard_False);
   TopTools_Array1OfShape StartEdges(1, NbLaw);
   if (! FirstShape.IsNull() && (IFirst==1)) {
     mySec->Init(FirstShape);
     for (isec=1; isec<=NbLaw; isec++) {
-      E = mySec->CurrentEdge();
+      TopoDS_Edge E = mySec->CurrentEdge();
       TopoDS_Vertex Vfirst, Vlast;
       TopExp::Vertices(E, Vfirst, Vlast);
       VEdge(isec, 1) = E;
@@ -2221,7 +2220,7 @@ BRepFill_Sweep::BRepFill_Sweep(const Handle(BRepFill_SectionLaw)& Section,
   if (! LastShape.IsNull() && (ILast==myLoc->NbLaw()+1) ) {
     mySec->Init(LastShape);
     for (isec=1; isec<=NbLaw; isec++) {
-      E = mySec->CurrentEdge();
+      TopoDS_Edge E = mySec->CurrentEdge();
       if (VEdge(isec, NbPath+1).IsNull())
         VEdge(isec, NbPath+1) = E;
 
@@ -2313,12 +2312,12 @@ BRepFill_Sweep::BRepFill_Sweep(const Handle(BRepFill_SectionLaw)& Section,
       exuv = (0 != ExchUV(isec, ipath));
       S->Bounds(UFirst, ULast, VFirst, VLast);
       if (UReverse(isec, ipath)) {
-	Standard_Real aux;
+	Standard_Real tmp;
 	if (exuv) {
-	  aux = VFirst; VFirst = VLast; VLast = aux;	  
+	  tmp = VFirst; VFirst = VLast; VLast = tmp;	  
 	}
 	else {
-	  aux = UFirst; UFirst = ULast; ULast = aux;
+	  tmp = UFirst; UFirst = ULast; ULast = tmp;
 	}
       }
 

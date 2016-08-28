@@ -864,19 +864,22 @@ void Law_BSpline::Segment(const Standard_Real U1,
   
   Standard_Real NewU1, NewU2;
   Standard_Real U;
-  Standard_Integer index;
   
   TColStd_Array1OfReal    Knots(1,2);
   TColStd_Array1OfInteger Mults(1,2);
-  
-  index = 0;
-  BSplCLib::LocateParameter(deg,knots->Array1(),mults->Array1(),
-			    U1,periodic,knots->Lower(),knots->Upper(),
-			    index,NewU1);
-  index = 0;
-  BSplCLib::LocateParameter(deg,knots->Array1(),mults->Array1(),
-			    U2,periodic,knots->Lower(),knots->Upper(),
-			    index,NewU2);
+#warning design flaw: index is never read but required
+  {
+    Standard_Integer index;
+
+    index = 0;
+    BSplCLib::LocateParameter(deg,knots->Array1(),mults->Array1(),
+			      U1,periodic,knots->Lower(),knots->Upper(),
+			      index,NewU1);
+    index = 0;
+    BSplCLib::LocateParameter(deg,knots->Array1(),mults->Array1(),
+			      U2,periodic,knots->Lower(),knots->Upper(),
+			      index,NewU2);
+  }
   Knots( 1) = Min( NewU1, NewU2);
   Knots( 2) = Max( NewU1, NewU2);
   Mults( 1) = Mults( 2) = deg;

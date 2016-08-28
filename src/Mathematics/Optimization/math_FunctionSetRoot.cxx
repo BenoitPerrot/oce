@@ -437,8 +437,8 @@ static void SearchDirection(const math_Matrix& DF,
       Direction, Dy);
   }
   else if (Cons == Ninc) { // il n'y a plus rien a faire...
-    for(Standard_Integer i = Direction.Lower(); i <= Direction.Upper(); i++) {
-      Direction(i) = 0;
+    for(Standard_Integer d = Direction.Lower(); d <= Direction.Upper(); d++) {
+      Direction(d) = 0;
     }
     Dy = 0;
   }

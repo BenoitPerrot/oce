@@ -265,6 +265,7 @@ Standard_Boolean FUNBREP_topowalki_new
   Standard_Boolean keep = Standard_True;
   if  (LITdefinie) {
 
+    {
     Handle(TopOpeBRepDS_Interference) I = DSCIL.back();
     TopOpeBRepDS_Transition LIT = I->Transition();
     Standard_Boolean LITonsort = M_FORWARD( LIT.Orientation(TopAbs_OUT) );
@@ -285,6 +286,7 @@ Standard_Boolean FUNBREP_topowalki_new
 	if (trc) cout<<"is same vp on couture";
 #endif
       }
+    }
     }
 
     { // kpart JYL 971204 for closing walking, first and current VP same parameter,

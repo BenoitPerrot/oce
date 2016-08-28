@@ -1361,7 +1361,7 @@ void IntCurve_IntConicConic::Perform(const gp_Lin2d& L1
 	  Pos1a=FindPositionLL(Res1inf,Domain1);
 	  Pos1b=FindPositionLL(Res1sup,Domain1);	  
 	  
-	  IntRes2d_Transition T1a,T2a,T1b,T2b;
+	  IntRes2d_Transition T1a,T2a;
 	  
 	  if(ProdVectTan>=TOLERANCE_ANGULAIRE) {  // &&&&&&&&&&&&&&&
 	    T1a.SetValue(Standard_False,Pos1a,IntRes2d_Out);      
@@ -1512,6 +1512,7 @@ void IntCurve_IntConicConic::Perform(const gp_Lin2d& L1
 	    if(Pos1b==IntRes2d_Middle) Pos1b=Pos1a;
 	    if(Pos2b==IntRes2d_Middle) Pos2b=Pos2a;
 	    if(ResultIsAPoint) {
+	      IntRes2d_Transition T1b,T2b;
 	      //-- Middle sur le segment A 
 	      //-- 
 	      if(Pos1b!=IntRes2d_Middle || Pos2b!=IntRes2d_Middle) {

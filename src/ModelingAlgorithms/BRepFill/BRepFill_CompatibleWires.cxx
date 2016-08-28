@@ -857,7 +857,6 @@ void BRepFill_CompatibleWires::
   // initialisation 
   Standard_Integer NbSects=myWork.Length();
   BRepTools_WireExplorer anExp;
-  TopoDS_Vertex V1, V2;
   
   Standard_Boolean allClosed = Standard_True;
   Standard_Integer i,ii,ideb=1,ifin=NbSects;
@@ -951,7 +950,7 @@ void BRepFill_CompatibleWires::
       Standard_NoSuchObject::Raise("BRepFill::SameNumberByPolarMethod failed");
     
     // extremity of the first wire
-    V1 = TopoDS::Vertex(SeqV.Value(1));	
+    TopoDS_Vertex V1 = TopoDS::Vertex(SeqV.Value(1));	
     // loop on vertices of wire1
     for (ii=1;ii<=SeqV.Length();ii++) {
       
@@ -1028,7 +1027,7 @@ void BRepFill_CompatibleWires::
       Standard_NoSuchObject::Raise("BRepFill::SameNumberByPolarMethod failed");
     
     // extremity of the first wire
-    V1 = TopoDS::Vertex(SeqV.Value(1));
+    TopoDS_Vertex V1 = TopoDS::Vertex(SeqV.Value(1));
 
     // next wire 
     const TopoDS_Wire& wire2 = TopoDS::Wire(myWork(i+1));
@@ -1115,11 +1114,11 @@ void BRepFill_CompatibleWires::
 	// parse candidate edges
 	Standard_Real scal1,scal2;
 	if ( (V1.IsSame(VVF)&&V2.IsSame(VVL)) || (V2.IsSame(VVF)&&V1.IsSame(VVL)) ) {
-	  Standard_Real U1 = BRep_Tool::Parameter(VVF,E);
-	  Standard_Real U2 = BRep_Tool::Parameter(VVL,E);
-	  BRepAdaptor_Curve Curve(E);
-	  gp_Pnt PP1 = Curve.Value(0.1*(U1+9*U2));
-	  gp_Pnt PP2 = Curve.Value(0.1*(9*U1+U2));
+	  Standard_Real U1_ = BRep_Tool::Parameter(VVF,E);
+	  Standard_Real U2_ = BRep_Tool::Parameter(VVL,E);
+	  BRepAdaptor_Curve Curve_(E);
+	  gp_Pnt PP1 = Curve_.Value(0.1*(U1_+9*U2_));
+	  gp_Pnt PP2 = Curve_.Value(0.1*(9*U1_+U2_));
   
 	  for (rang=i;rang>ideb;rang--) {
 	    Transform(WithRotation, PP1,
@@ -1473,8 +1472,7 @@ void BRepFill_CompatibleWires::ComputeOrigin(const  Standard_Boolean /*polar*/ )
   TopTools_SequenceOfShape PrevSeq;
   TopTools_SequenceOfShape PrevEseq;
   Standard_Integer theLength = 0;
-  const TopoDS_Wire& wire = TopoDS::Wire( myWork(ideb) );
-  for (anExp.Init(wire); anExp.More(); anExp.Next())
+  for (anExp.Init(TopoDS::Wire( myWork(ideb) )); anExp.More(); anExp.Next())
     {
       PrevSeq.Append(anExp.CurrentVertex());
       PrevEseq.Append(anExp.Current());

@@ -952,9 +952,10 @@ void HLRBRep_PolyAlgo::StoreShell (const TopoDS_Shape& Shape,
 	  if (ShapeMap1.Add(E)) {
 	    Standard_Integer e = myEMap.FindIndex(E);
 	    ES(e) = iShell;
-	    Standard_Integer i = EF.FindIndex(E);
-	    if (i > 0) {
-	      TopTools_ListOfShape& LS = EF(i);
+#warning suspicious
+	    Standard_Integer iE = EF.FindIndex(E);
+	    if (iE > 0) {
+	      TopTools_ListOfShape& LS = EF(iE);
 	      InitBiPointsWithConnexity(e,E,List,PID,LS,Standard_True);
 	    }
 	    else {
@@ -1241,7 +1242,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 			   TopTools_ListOfShape& LS,
 			   const Standard_Boolean connex)
 {
-  Standard_Integer iPol,nbPol,i1,i1p1,i1p2,i2,i2p1,i2p2;
+  Standard_Integer i1,i1p1,i1p2,i2,i2p1,i2p2;
   Standard_Real X1  ,Y1  ,Z1  ,X2  ,Y2  ,Z2  ;
   Standard_Real XTI1,YTI1,ZTI1,XTI2,YTI2,ZTI2;
   Standard_Real U1,U2 = 0.;
@@ -1262,7 +1263,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	myPC.Initialize(E,F1);
 	const Handle(TColStd_HArray1OfReal)& par = HPol[0]->Parameters();
 	const TColStd_Array1OfInteger&      Pol1 = HPol[0]->Nodes();
-	nbPol = Pol1.Upper();
+	Standard_Integer nbPol = Pol1.Upper();
 	Standard_Address TData1 = &pid1->TData();
 	Standard_Address PISeg1 = &pid1->PISeg();
 	Standard_Address PINod1 = &pid1->PINod();
@@ -1272,14 +1273,16 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	  &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(1    )));
 	Nod11Indices = (*pi1p1)->Indices();
 	Nod11RValues = (*pi1p1)->RValues();
-	const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
-	  &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(nbPol)));
-	Nod12Indices = (*pi1p2)->Indices();
-	Nod12RValues = (*pi1p2)->RValues();
+	{
+	  const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
+	    &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(nbPol)));
+	  Nod12Indices = (*pi1p2)->Indices();
+	  Nod12RValues = (*pi1p2)->RValues();
+	}
 	Nod11Flag |=  NMskVert;
 	Nod12Flag |=  NMskVert;
 	
-	for (iPol = 1; iPol <= nbPol; iPol++) {
+	for (Standard_Integer iPol = 1; iPol <= nbPol; iPol++) {
 	  const Handle(HLRAlgo_PolyInternalNode)* pi1pA =
 	    &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
 	  Standard_Address Nod1AIndices = (*pi1pA)->Indices();
@@ -1321,15 +1324,17 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	}
 	else {
 
-	  for (iPol = 2; iPol <= nbPol; iPol++) {
+	  for (Standard_Integer iPol = 2; iPol <= nbPol; iPol++) {
 	    i1p1 = i1p2;
 	    Nod11Indices = Nod12Indices;
 	    Nod11RValues = Nod12RValues;
 	    i1p2 = Pol1(iPol);
-	    const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
-	      &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
-	    Nod12Indices = (*pi1p2)->Indices();
-	    Nod12RValues = (*pi1p2)->RValues();
+	    {
+	      const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
+		&(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
+	      Nod12Indices = (*pi1p2)->Indices();
+	      Nod12RValues = (*pi1p2)->RValues();
+	    }
 #ifdef OCCT_DEBUG
 	    if (DoError) {
 	      if (Nod11NrmX*Nod12NrmX +
@@ -1416,24 +1421,26 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	  &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(1    )));
 	Nod11Indices = (*pi1p1)->Indices();
 	Nod11RValues = (*pi1p1)->RValues();
-	const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
-	  &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(nbPol)));
-	Nod12Indices = (*pi1p2)->Indices();
-	Nod12RValues = (*pi1p2)->RValues();
-	const Handle(HLRAlgo_PolyInternalNode)* pi2p1 =
-	  &(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(1    )));
-	Nod21Indices = (*pi2p1)->Indices();
-	Nod21RValues = (*pi2p1)->RValues();
-	const Handle(HLRAlgo_PolyInternalNode)* pi2p2 =
-	  &(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(nbPol)));
-	Nod22Indices = (*pi2p2)->Indices();
-	Nod22RValues = (*pi2p2)->RValues();
+	{
+	  const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
+	    &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(nbPol)));
+	  Nod12Indices = (*pi1p2)->Indices();
+	  Nod12RValues = (*pi1p2)->RValues();
+	  const Handle(HLRAlgo_PolyInternalNode)* pi2p1 =
+	    &(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(1    )));
+	  Nod21Indices = (*pi2p1)->Indices();
+	  Nod21RValues = (*pi2p1)->RValues();
+	  const Handle(HLRAlgo_PolyInternalNode)* pi2p2 =
+	    &(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(nbPol)));
+	  Nod22Indices = (*pi2p2)->Indices();
+	  Nod22RValues = (*pi2p2)->RValues();
+	}
 	Nod11Flag |=  NMskVert;
 	Nod12Flag |=  NMskVert;
 	Nod21Flag |=  NMskVert;
 	Nod22Flag |=  NMskVert;
 	
-	for (iPol = 1; iPol <= nbPol; iPol++) {
+	for (Standard_Integer iPol = 1; iPol <= nbPol; iPol++) {
 	  const Handle(HLRAlgo_PolyInternalNode)* pi1pA =
 	    &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
 	  Standard_Address Nod1AIndices = (*pi1pA)->Indices();
@@ -1496,7 +1503,7 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	}
 	else {
 
-	  for (iPol = 2; iPol <= nbPol; iPol++) {
+	  for (Standard_Integer iPol = 2; iPol <= nbPol; iPol++) {
 	    i1p1 = i1p2;
 	    Nod11Indices = Nod12Indices;
 	    Nod11RValues = Nod12RValues;
@@ -1504,15 +1511,19 @@ InitBiPointsWithConnexity (const Standard_Integer e,
 	    Nod21Indices = Nod22Indices;
 	    Nod21RValues = Nod22RValues;
 	    i1p2 = Pol1(iPol);
-	    const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
-	      &(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
-	    Nod12Indices = (*pi1p2)->Indices();
-	    Nod12RValues = (*pi1p2)->RValues();
+	    {
+	      const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
+		&(((HLRAlgo_Array1OfPINod*)PINod1)->ChangeValue(Pol1(iPol)));
+	      Nod12Indices = (*pi1p2)->Indices();
+	      Nod12RValues = (*pi1p2)->RValues();
+	    }
 	    i2p2 = Pol2(iPol);
-	    const Handle(HLRAlgo_PolyInternalNode)* pi2p2 =
-	      &(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(iPol)));
-	    Nod22Indices = (*pi2p2)->Indices();
-	    Nod22RValues = (*pi2p2)->RValues();
+	    {
+	      const Handle(HLRAlgo_PolyInternalNode)* pi2p2 =
+		&(((HLRAlgo_Array1OfPINod*)PINod2)->ChangeValue(Pol2(iPol)));
+	      Nod22Indices = (*pi2p2)->Indices();
+	      Nod22RValues = (*pi2p2)->RValues();
+	    }
 #ifdef OCCT_DEBUG
 	    if (DoError) {
 	      if (Nod11NrmX*Nod12NrmX +
@@ -2709,10 +2720,12 @@ HLRBRep_PolyAlgo::CheckFrBackTriangles (HLRAlgo_ListOfBPoint& List,
 	      &(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node1));
 	    Nod11Indices = (*pi1p1)->Indices();
 	    Nod11RValues = (*pi1p1)->RValues();
-	    const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
-	      &(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node2));
-	    Nod12Indices = (*pi1p2)->Indices();
-	    Nod12RValues = (*pi1p2)->RValues();
+	    {
+	      const Handle(HLRAlgo_PolyInternalNode)* pi1p2 =
+		&(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node2));
+	      Nod12Indices = (*pi1p2)->Indices();
+	      Nod12RValues = (*pi1p2)->RValues();
+	    }
 	    const Handle(HLRAlgo_PolyInternalNode)* pi1p3 =
 	      &(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node3));
 	    Nod13Indices = (*pi1p3)->Indices();
@@ -3092,7 +3105,7 @@ void HLRBRep_PolyAlgo::ChangeNode (const Standard_Integer ip1,
 //function : UpdateAroundNode
 //purpose  : 
 //=======================================================================
-
+#warning Nod1Indices_ unused
 void HLRBRep_PolyAlgo::
 UpdateAroundNode (const Standard_Integer iNode,
 		  const Standard_Address Nod1Indices,
@@ -3117,14 +3130,14 @@ UpdateAroundNode (const Standard_Integer iNode,
 	&(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node2));
       const Handle(HLRAlgo_PolyInternalNode)* PN3 = 
 	&(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri1Node3));
-      const Standard_Address Nod1Indices = (*PN1)->Indices();
+      const Standard_Address PN1Indices = (*PN1)->Indices();
       const Standard_Address Nod2Indices = (*PN2)->Indices();
       const Standard_Address Nod3Indices = (*PN3)->Indices();
       const Standard_Address Nod1RValues = (*PN1)->RValues();
       const Standard_Address Nod2RValues = (*PN2)->RValues();
       const Standard_Address Nod3RValues = (*PN3)->RValues();
       OrientTriangle(iTri1,Tri1Indices,
-		     Nod1Indices,Nod1RValues,
+		     PN1Indices,Nod1RValues,
 		     Nod2Indices,Nod2RValues,
 		     Nod3Indices,Nod3RValues);
     }
@@ -3137,14 +3150,14 @@ UpdateAroundNode (const Standard_Integer iNode,
 	&(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri2Node2));
       const Handle(HLRAlgo_PolyInternalNode)* PN3 = 
 	&(((HLRAlgo_Array1OfPINod*)PINod)->ChangeValue(Tri2Node3));
-      const Standard_Address Nod1Indices = (*PN1)->Indices();
+      const Standard_Address PN1Indices = (*PN1)->Indices();
       const Standard_Address Nod2Indices = (*PN2)->Indices();
       const Standard_Address Nod3Indices = (*PN3)->Indices();
       const Standard_Address Nod1RValues = (*PN1)->RValues();
       const Standard_Address Nod2RValues = (*PN2)->RValues();
       const Standard_Address Nod3RValues = (*PN3)->RValues();
       OrientTriangle(iTri2,Tri2Indices,
-		     Nod1Indices,Nod1RValues,
+		     PN1Indices,Nod1RValues,
 		     Nod2Indices,Nod2RValues,
 		     Nod3Indices,Nod3RValues);
     }

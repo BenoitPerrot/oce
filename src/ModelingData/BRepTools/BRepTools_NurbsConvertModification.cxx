@@ -368,12 +368,16 @@ Standard_Boolean BRepTools_NurbsConvertModification::NewCurve2d
   Tol = BRep_Tool::Tolerance(E);
   Standard_Real f2d,l2d;
   Handle(Geom2d_Curve) C2d = BRep_Tool::CurveOnSurface(E,F,f2d,l2d);
-  Standard_Real f3d,l3d;
-  TopLoc_Location Loc;
-  Handle(Geom_Curve) C3d = BRep_Tool::Curve(E, Loc, f3d,l3d);
-  Standard_Boolean isConvert2d = ((!C3d.IsNull() && !C3d->IsKind(STANDARD_TYPE(Geom_BSplineCurve)) &&
-    !C3d->IsKind(STANDARD_TYPE(Geom_BezierCurve))) ||
-    IsConvert(E));
+  Standard_Boolean isConvert2d;
+  {
+#warning Design flaw in ::Curve: Loc, f3d and l3d are never read
+    Standard_Real f3d,l3d;
+    TopLoc_Location Loc;
+    Handle(Geom_Curve) C3d = BRep_Tool::Curve(E, Loc, f3d,l3d);
+    isConvert2d = ((!C3d.IsNull() && !C3d->IsKind(STANDARD_TYPE(Geom_BSplineCurve)) &&
+		    !C3d->IsKind(STANDARD_TYPE(Geom_BezierCurve))) ||
+		   IsConvert(E));
+  }
 
   if(BRep_Tool::Degenerated(E)) {
     //Curve2d = C2d;
@@ -404,14 +408,11 @@ Standard_Boolean BRepTools_NurbsConvertModification::NewCurve2d
 
     Geom2dAdaptor_Curve   G2dAC(C2d, f2d, l2d);
     Handle(Geom2dAdaptor_HCurve) G2dAHC = new Geom2dAdaptor_HCurve(G2dAC);
-    
-    TopLoc_Location Loc;
-    Handle(Geom_Curve) C3d = BRep_Tool::Curve(E, Loc, f3d,l3d);
+
+    Standard_Real f3d,l3d;
+    Handle(Geom_Curve) C3d = BRep_Tool::Curve(E, f3d,l3d);
     if(!newE.IsNull()) {
       C3d = BRep_Tool::Curve(newE, f3d, l3d);
-    }
-    else {
-      C3d = BRep_Tool::Curve(E,f3d,l3d);
     }
     GeomAdaptor_Curve   G3dAC(C3d, f3d, l3d);
     Handle(GeomAdaptor_HCurve) G3dAHC = new GeomAdaptor_HCurve(G3dAC);
@@ -514,7 +515,6 @@ Standard_Boolean BRepTools_NurbsConvertModification::NewCurve2d
       Geom2dAdaptor_Curve   G2dACBis(C2dBis, f2dBis, l2dBis); 
       Handle(Geom2dAdaptor_HCurve) G2dAHCBis = new Geom2dAdaptor_HCurve(G2dACBis);
       
-      TopLoc_Location Loc;
       Handle(Geom_Curve) C3d = BRep_Tool::Curve(E, f3d,l3d);
       if(C3d.IsNull()) {
          if(isConvert2d) {

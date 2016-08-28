@@ -247,15 +247,17 @@ void V3d_CircularGrid::DefineLines ()
   Standard_Integer nbpnts = 2 * Division;
   // diametres
   Standard_Real alpha = M_PI / aDivision;
-  LineAttrib->SetColor (myTenthColor);
-  myGroup->SetGroupPrimitivesAspect (LineAttrib);
-  Handle(Graphic3d_ArrayOfSegments) aPrims = new Graphic3d_ArrayOfSegments(2*nbpnts);
-  const gp_Pnt p0(0., 0., -myOffSet);
-  for (Standard_Integer i=1; i<=nbpnts; i++) {
-    aPrims->AddVertex(p0);
-    aPrims->AddVertex(Cos(alpha*i)*myRadius, Sin(alpha*i)*myRadius, -myOffSet);
+  {
+    LineAttrib->SetColor (myTenthColor);
+    myGroup->SetGroupPrimitivesAspect (LineAttrib);
+    Handle(Graphic3d_ArrayOfSegments) aPrims = new Graphic3d_ArrayOfSegments(2*nbpnts);
+    const gp_Pnt p0(0., 0., -myOffSet);
+    for (Standard_Integer i=1; i<=nbpnts; i++) {
+      aPrims->AddVertex(p0);
+      aPrims->AddVertex(Cos(alpha*i)*myRadius, Sin(alpha*i)*myRadius, -myOffSet);
+    }
+    myGroup->AddPrimitiveArray(aPrims, Standard_False);
   }
-  myGroup->AddPrimitiveArray(aPrims, Standard_False);
 
   // circles
   nbpnts = 2 * Division + 1;

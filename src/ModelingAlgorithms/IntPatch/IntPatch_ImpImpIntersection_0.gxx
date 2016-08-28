@@ -1067,8 +1067,7 @@ Standard_Boolean FindLine (gp_Pnt& Psurf,
     case IntPatch_Analytic :
       {
 	const Handle(IntPatch_ALine)& alin = (*((Handle(IntPatch_ALine)*)&lin));
-	Standard_Boolean ok = alin->FindParameter(Psurf,para);
-	if (ok) {
+	if (alin->FindParameter(Psurf,para)) {
 	  pt = alin->Value(para);
 	  dist = Psurf.Distance(pt);
 	  if (dist< distmin) {

@@ -35,11 +35,12 @@ static int cefait = 0;
 // On commence la serie avec celui-la
 
 
-    IFSelect_SessionDumper::IFSelect_SessionDumper ()
+IFSelect_SessionDumper::IFSelect_SessionDumper ()
 {
+#warning suspicious
   Handle(IFSelect_BasicDumper) bid;
   if (!cefait)
-    { cefait = 1;  Handle(IFSelect_BasicDumper) bid = new IFSelect_BasicDumper; }
+    { cefait = 1;  Handle(IFSelect_BasicDumper) bid_ = new IFSelect_BasicDumper; }
   else thenext  = thefirst;
   thefirst = this;    // as Handle
 }

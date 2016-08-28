@@ -496,7 +496,6 @@ void BOPAlgo_BOP::BuildRC()
   Standard_Integer aDmin;
   TopAbs_ShapeEnum aTmin;
   TopoDS_Compound aC;
-  TopoDS_Shape aSAIm, aSTIm;
   BRep_Builder aBB;
   TopExp_Explorer aExp;
   BOPCol_DataMapOfShapeShape aDMSSA;
@@ -624,12 +623,12 @@ void BOPAlgo_BOP::BuildRC()
           }
           else {
              if (aTmin==TopAbs_SOLID) {
-               BOPTools_Set aST;
+               BOPTools_Set aST_;
                //
-               aST.Add(aSIm, TopAbs_FACE);
+               aST_.Add(aSIm, TopAbs_FACE);
                //
-               if (aDMSTS.IsBound(aST)) {
-                 const TopoDS_Shape& aSImA=aDMSTS.Find(aST);
+               if (aDMSTS.IsBound(aST_)) {
+                 const TopoDS_Shape& aSImA=aDMSTS.Find(aST_);
                  aBB.Add(aC, aSImA);
                }
              }
@@ -638,11 +637,11 @@ void BOPAlgo_BOP::BuildRC()
         else {// ie cut or cut21
           if (!bIsBound) {
             if (aTmin==TopAbs_SOLID) {
-              BOPTools_Set aST;
+              BOPTools_Set aST_;
               //
-              aST.Add(aSIm, TopAbs_FACE);
+              aST_.Add(aSIm, TopAbs_FACE);
               //
-              bIsBound=aDMSTS.IsBound(aST); 
+              bIsBound=aDMSTS.IsBound(aST_); 
             }
             //
             if (!bIsBound) {
@@ -862,12 +861,12 @@ void BOPAlgo_BOP::BuildSolid()
         // to the result as is. 
         // The solid aSx will not participate 
         // in creation of a new solid(s).
-        BOPTools_Set aST;
+        BOPTools_Set aST_;
         //
-        aST.Add(aSx, TopAbs_FACE);
+        aST_.Add(aSx, TopAbs_FACE);
         //
-        if (!aDMSTS.IsBound(aST)) {
-          aDMSTS.Bind(aST, aSx);
+        if (!aDMSTS.IsBound(aST_)) {
+          aDMSTS.Bind(aST_, aSx);
         }
         
         continue; 

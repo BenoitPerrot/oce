@@ -746,9 +746,7 @@ void BOPAlgo_Builder::FillImagesFaces1()
     //
     iFlag=aVFI.Flag();
     if (!iFlag) {
-      TopoDS_Vertex& aVx=aVFI.Vertex();
-      TopoDS_Face& aFy=aVFI.Face(); 
-      aBB.Add(aFy, aVx);
+      aBB.Add(aVFI.Face(), aVFI.Vertex());
     }
   }
 }

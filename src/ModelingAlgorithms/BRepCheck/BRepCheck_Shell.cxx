@@ -56,14 +56,14 @@ IMPLEMENT_STANDARD_RTTI(BRepCheck_Shell)
 //purpose  : 
 //=======================================================================
 static void Propagate(const TopTools_IndexedDataMapOfShapeListOfShape& mapEF,
-		      const TopoDS_Shape& fac,
+		      const TopoDS_Shape& f,
 		      TopTools_MapOfShape& mapF)
 {
-  if (mapF.Contains(fac))
+  if (mapF.Contains(f))
   {
     return;
   }
-  mapF.Add(fac);  // attention, if oriented == Standard_True, fac should
+  mapF.Add(f);  // attention, if oriented == Standard_True, fac should
                   // be FORWARD or REVERSED. It is not checked.
 
   TopTools_MapIteratorOfMapOfShape itf(mapF);
@@ -587,8 +587,7 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	
 	if (lite.More()) { // Edge of connectivity
 	  //JR/Hp :
-	  Standard_Integer iorf = MapOfShapeOrientation.Find(Fref);
-	  orf = (TopAbs_Orientation) iorf;
+	  orf = (TopAbs_Orientation) MapOfShapeOrientation.Find(Fref);
 	  //orf = (TopAbs_Orientation)MapOfShapeOrientation.Find(Fref);
 	  Fref.Orientation(orf);
 	  
@@ -728,8 +727,7 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	    return myOstat;
 	  }
 //JR/Hp :
-          Standard_Integer iorf = MapOfShapeOrientation.Find(Fref) ;
-	  orf = (TopAbs_Orientation) iorf ;
+	  orf = (TopAbs_Orientation) MapOfShapeOrientation.Find(Fref);
 //	  orf = (TopAbs_Orientation)MapOfShapeOrientation.Find(Fref);
 	  Fref.Orientation(orf);
 
@@ -771,8 +769,7 @@ BRepCheck_Status BRepCheck_Shell::Orientation(const Standard_Boolean Update)
 	    }
 
 //JR/Hp :
-            Standard_Integer iorf = MapOfShapeOrientation.Find(Fcur) ;
-	    orf = (TopAbs_Orientation) iorf ;
+	    orf = (TopAbs_Orientation) MapOfShapeOrientation.Find(Fcur);
 //	    orf = (TopAbs_Orientation)MapOfShapeOrientation.Find(Fcur);
 	    Fcur.Orientation(orf);
 

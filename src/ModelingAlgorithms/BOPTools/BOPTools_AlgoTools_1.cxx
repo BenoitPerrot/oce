@@ -1308,12 +1308,13 @@ Standard_Boolean BOPTools_AlgoTools::ComputeTolerance
     }
     isPCurveFound = Standard_True;
     //
-    Handle(Geom2d_Curve) aC2d = Handle(Geom2d_Curve)::
+#warning same as below if no side effect in ComputeTolerance
+    Handle(Geom2d_Curve) aC2d_ = Handle(Geom2d_Curve)::
       DownCast(cr->PCurve()->Copy());
-    aC2d = new Geom2d_TrimmedCurve(aC2d, aFirst, aLast);
+    aC2d_ = new Geom2d_TrimmedCurve(aC2d_, aFirst, aLast);
       //
     if(BOPTools_AlgoTools::ComputeTolerance
-       (aC, aC2d, aSurf, aD, aT)) {
+       (aC, aC2d_, aSurf, aD, aT)) {
       bRet = Standard_True;
       if (aD > theMaxDist) {
         theMaxDist = aD;

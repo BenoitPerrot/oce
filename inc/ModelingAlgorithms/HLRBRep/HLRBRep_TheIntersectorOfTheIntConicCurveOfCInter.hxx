@@ -54,7 +54,18 @@ protected:
 
 
 private:
-
+  Standard_EXPORT void ComputeAllTransitions(Standard_Integer NbResultats,
+					     const TColStd_Array1OfReal &Resultat1,
+					     const TColStd_Array1OfReal &Resultat2,
+					     const IntCurve_IConicTool& TheImpTool,
+					     const IntRes2d_Domain& TheImpCurveDomain,
+					     const Standard_Address& TheParCurve,
+					     const IntRes2d_Domain& TheParCurveDomain,
+					     const Standard_Real TolConf,
+					     Standard_Boolean &HeadOnImp,
+					     Standard_Boolean &EndOnImp,
+					     Standard_Boolean &HeadOnPar,
+					     Standard_Boolean &EndOnPar);
 
 
 

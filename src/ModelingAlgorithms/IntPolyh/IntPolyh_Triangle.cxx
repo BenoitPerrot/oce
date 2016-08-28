@@ -381,7 +381,7 @@ void IntPolyh_Triangle::TriangleDeflection(const Handle(Adaptor3d_HSurface)& MyS
 	Milieu.Middle( MySurface,P3, P1);
 	
 	
-      gp_Pnt PtXYZ = (MySurface)->Value( Milieu.U(), Milieu.V());
+      PtXYZ = (MySurface)->Value( Milieu.U(), Milieu.V());
       IntPolyh_Point MilieuReel(PtXYZ.X(), PtXYZ.Y(), PtXYZ.Z(), Milieu.U(), Milieu.V());
       Fleche = sqrt(Milieu.SquareDistance(MilieuReel));
     }

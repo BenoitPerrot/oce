@@ -726,7 +726,7 @@ void HLRBRep_InternalAlgo::Hide (const Standard_Integer I,
 void HLRBRep_InternalAlgo::HideSelected (const Standard_Integer I,
 					 const Standard_Boolean SideFace)
 {
-  Standard_Integer e,f,j,nbVisEdges,nbSelEdges,nbSelFaces,nbCache;
+  Standard_Integer e,f,nbVisEdges,nbSelEdges,nbSelFaces,nbCache;
   Standard_Integer nbFSide,nbFSimp;
 
 #ifdef OCCT_DEBUG
@@ -799,7 +799,7 @@ void HLRBRep_InternalAlgo::HideSelected (const Standard_Integer I,
     QWEQWE=nf/10;
 
     if (SideFace) {
-      j = 0;
+      Standard_Integer j = 0;
       fd = &(myDS->FDataArray().ChangeValue(1));
       
       for (f = 1; f <= nf; f++) {
@@ -872,6 +872,7 @@ void HLRBRep_InternalAlgo::HideSelected (const Standard_Integer I,
     }
     while(TriOk==Standard_False);
 */
+#warning unreadable
     //-- ======================================================================
     if(nf>2)  {
       Standard_Integer i,ir,j,l;
@@ -919,7 +920,7 @@ void HLRBRep_InternalAlgo::HideSelected (const Standard_Integer I,
       }
     }
 
-    j = 0;
+    Standard_Integer j = 0;
     HLRBRep_Array1OfFData& FD = myDS->FDataArray();
     
     QWE=0;

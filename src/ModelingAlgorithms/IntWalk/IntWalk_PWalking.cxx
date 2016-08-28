@@ -1900,12 +1900,12 @@ DistanceMinimizeByGradient( const Handle(Adaptor3d_HSurface)& theASurf1,
 
   Standard_Real aSQDistPrev = aP1.SquareDistance(aP2);
 
-  gp_Vec aP12(aP1, aP2);
+  gp_Vec P12(aP1, aP2);
 
-  Standard_Real aGradFu(-aP12.Dot(aD1u));
-  Standard_Real aGradFv(-aP12.Dot(aD1v));
-  Standard_Real aGradFU( aP12.Dot(aD2U));
-  Standard_Real aGradFV( aP12.Dot(aD2V));
+  Standard_Real aGradFu(-P12.Dot(aD1u));
+  Standard_Real aGradFv(-P12.Dot(aD1v));
+  Standard_Real aGradFU( P12.Dot(aD2U));
+  Standard_Real aGradFV( P12.Dot(aD2V));
 
   Standard_Real aSTEPuv = theStep0U1V1, aStepUV = theStep0U2V2;
 

@@ -281,17 +281,19 @@ void MAT_Graph::FusionOfBasicElts(const Standard_Integer  IndexElt1,
   Handle(MAT_Arc) EA1 = Elt1->EndArc();
   Handle(MAT_Arc) SA2 = Elt2->StartArc();
 
-  Handle(MAT_BasicElt) E1 = EA1->FirstElement();
-  Handle(MAT_BasicElt) E2 = EA1->SecondElement();
-  Handle(MAT_BasicElt) E3 = SA2->FirstElement();
-  Handle(MAT_BasicElt) E4 = SA2->SecondElement();
-  MergeArc1 = Standard_False;
+  {
+    Handle(MAT_BasicElt) E1 = EA1->FirstElement();
+    Handle(MAT_BasicElt) E2 = EA1->SecondElement();
+    Handle(MAT_BasicElt) E3 = SA2->FirstElement();
+    Handle(MAT_BasicElt) E4 = SA2->SecondElement();
+    MergeArc1 = Standard_False;
 
-  if ( (E1 == E3 || E1 == E4) && (E2 == E3 || E2 == E4)) {
-    FusionOfArcs(theArcs(EA1->Index()),theArcs(SA2->Index()));
-    MergeArc1 = Standard_True;
-    IGeomArc1 = EA1->GeomIndex();
-    IGeomArc2 = SA2->GeomIndex();
+    if ( (E1 == E3 || E1 == E4) && (E2 == E3 || E2 == E4)) {
+      FusionOfArcs(theArcs(EA1->Index()),theArcs(SA2->Index()));
+      MergeArc1 = Standard_True;
+      IGeomArc1 = EA1->GeomIndex();
+      IGeomArc2 = SA2->GeomIndex();
+    }
   }
   
   //-------------------------------------------------

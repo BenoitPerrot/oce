@@ -852,9 +852,9 @@ void TopOpeBRep_FacesFiller::ProcessVPonR
 
   // <Transori> = INTERNAL or EXTERNAL (tangent cases), compute <transEdge>
   Standard_Boolean newtransEdge = (Transori == TopAbs_INTERNAL) || (Transori == TopAbs_EXTERNAL);
-  TopAbs_Orientation otransEdge = transEdge.Orientation(TopAbs_IN);
-  Standard_Boolean allINT = (Transori == TopAbs_INTERNAL) || (otransEdge == TopAbs_INTERNAL);
-  Standard_Boolean allEXT = (Transori == TopAbs_EXTERNAL) || (otransEdge == TopAbs_EXTERNAL);
+  TopAbs_Orientation otransEdge_ = transEdge.Orientation(TopAbs_IN);
+  Standard_Boolean allINT = (Transori == TopAbs_INTERNAL) || (otransEdge_ == TopAbs_INTERNAL);
+  Standard_Boolean allEXT = (Transori == TopAbs_EXTERNAL) || (otransEdge_ == TopAbs_EXTERNAL);
 
 
   newtransEdge = newtransEdge && (!allINT) && (!allEXT);

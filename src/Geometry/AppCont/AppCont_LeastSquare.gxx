@@ -181,13 +181,13 @@ AppCont_LeastSquare::AppCont_LeastSquare
   if (myFirstC == AppParCurves_NoConstraint &&
       myLastC  == AppParCurves_NoConstraint) {
 
-    math_Matrix InvM(1, classe, 1, classe);
-    InvMMatrix(classe, InvM);
+    math_Matrix InvM1(1, classe, 1, classe);
+    InvMMatrix(classe, InvM1);
     // Calcul direct des poles:
 
     for (i = 1; i <= classe; i++) {
       for (j = 1; j <= classe; j++) {
-	IBij = InvM(i, j);
+	IBij = InvM1(i, j);
 	for (k = 1; k <= nbcol; k++) {
 	  Poles(i, k)   += IBij * B(j, k);
 	}

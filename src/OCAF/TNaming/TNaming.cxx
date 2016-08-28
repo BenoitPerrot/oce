@@ -862,8 +862,7 @@ TopoDS_Shape TNaming::FindUniqueContextSet(const TopoDS_Shape& Selection, const 
     TopTools_DataMapOfOrientedShapeShape aMap;
     Standard_Integer Up(0);
     TopAbs_ShapeEnum aStopType(TopAbs_COMPOUND);
-    TopoDS_Iterator it(Selection);
-    for(;it.More(); it.Next()) {
+    for(TopoDS_Iterator it(Selection);it.More(); it.Next()) {
       const TopoDS_Shape& aS = it.Value(); 
       if(aS.ShapeType() > aStopType)
 	aStopType = aS.ShapeType();	
@@ -881,9 +880,8 @@ TopoDS_Shape TNaming::FindUniqueContextSet(const TopoDS_Shape& Selection, const 
       TopoDS_Compound CompShape;
       BRep_Builder    B;
       B.MakeCompound(CompShape);
-      TopoDS_Iterator it(Selection);
       TopTools_MapOfShape aView;
-      for(;it.More(); it.Next(),num1++) {
+      for(TopoDS_Iterator it(Selection);it.More(); it.Next(),num1++) {
 	if(aMap.IsBound(it.Value())) {
 	  if(aView.Add(aMap.Find(it.Value()))) {
 	    B.Add(CompShape, aMap.Find(it.Value()));	    
@@ -898,10 +896,9 @@ TopoDS_Shape TNaming::FindUniqueContextSet(const TopoDS_Shape& Selection, const 
       if(num1 == num2 && num2)
 	return Context;
       else {
-	TopoDS_Iterator it(CompShape);
 	Standard_Integer n(0);
 	TopoDS_Shape aCmp;
-	for(;it.More();it.Next()) {
+	for(TopoDS_Iterator it(CompShape);it.More();it.Next()) {
 	    n++;
 	    aCmp = it.Value();
 	}

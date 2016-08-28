@@ -119,7 +119,7 @@ void BOPAlgo_WireSplitter::Perform()
 void BOPAlgo_WireSplitter::MakeConnexityBlocks()
 {
   Standard_Boolean bRegular, bClosed;
-  Standard_Integer i, j, aNbV, aNbVS, aNbVP, k;
+  Standard_Integer i, j, aNbV, aNbVS, aNbVP;
   TopoDS_Iterator aItE;
   TopoDS_Shape aER;
   BOPCol_ListIteratorOfListOfShape aIt;
@@ -171,7 +171,7 @@ void BOPAlgo_WireSplitter::MakeConnexityBlocks()
     //
     for(;;) {
       aNbVP=aMVP.Extent();
-      for (k=1; k<=aNbVP; ++k) {
+      for (Standard_Integer k=1; k<=aNbVP; ++k) {
         const TopoDS_Shape& aVP=aMVP(k);
         const BOPCol_ListOfShape& aLE=aMVE.FindFromKey(aVP);
         aIt.Initialize(aLE);
@@ -196,7 +196,7 @@ void BOPAlgo_WireSplitter::MakeConnexityBlocks()
       //
       aMVP.Clear();
       //
-      for (k=1; k<=aNbVP; ++k) {
+      for (Standard_Integer k=1; k<=aNbVP; ++k) {
         const TopoDS_Shape& aVE=aMVAdd(k);
         aMVP.Add(aVE);
       }
@@ -231,10 +231,10 @@ void BOPAlgo_WireSplitter::MakeConnexityBlocks()
     }
     //
     if (bRegular) {
-      Standard_Integer k, aNbVR, aNbER;
+      Standard_Integer aNbVR, aNbER;
       //
       aNbVR=aMVER.Extent();
-      for (k=1; k<=aNbVR; ++k) {
+      for (Standard_Integer k=1; k<=aNbVR; ++k) {
         const BOPCol_ListOfShape& aLER=aMVER(k);
         aNbER=aLER.Extent();
         if (aNbER==1) {

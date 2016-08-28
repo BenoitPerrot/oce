@@ -543,8 +543,8 @@ static Standard_Boolean MergeEdges(const TopTools_SequenceOfShape& SeqEdges,
   Standard_Integer j;
   for (j = 1; j <= SeqEdges.Length(); j++)
   {
-    TopoDS_Edge anEdge = TopoDS::Edge(SeqEdges(j));
-    if (BRep_Tool::Degenerated(anEdge))
+    TopoDS_Edge ej = TopoDS::Edge(SeqEdges(j));
+    if (BRep_Tool::Degenerated(ej))
       return Standard_False;
   }
   

@@ -255,13 +255,11 @@ Standard_Integer DetectKPart(const TopoDS_Edge& Edge1,
 	  pos = AdC.Line().Location();
 	  dist = AdC.Value(first2).Distance(AdC.Value(last2));
 	  gp_Vec vec(AdC.Value(first2),AdC.Value(last2));
-	  gp_Dir dir(vec);
-	  axe = gp_Ax1(AdC.Value(first2),dir);
+	  axe = gp_Ax1(AdC.Value(first2),gp_Dir(vec));
 	  if (axe.IsParallel(axe1,Precision::Angular())) {
 	    // parallel straight line
 	    if (Abs(dist-dist1)<Precision::Confusion()) {
-	      gp_Dir dir(gp_Vec(AdC1.Value(first1),AdC.Value(first2)));
-	      if (dir.IsNormal(gp_Dir(vec),Precision::Angular())) {
+	      if (gp_Dir(gp_Vec(AdC1.Value(first1),AdC.Value(first2))).IsNormal(gp_Dir(vec),Precision::Angular())) {
 		// plane
 		IType = 4;
 	      }

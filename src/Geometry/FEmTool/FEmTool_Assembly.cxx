@@ -302,10 +302,10 @@ Standard_Boolean FEmTool_Assembly::Solve()
     
     for(i = 1; i <= G.Length(); i++) {
 
-      const FEmTool_ListOfVectors& L = G.Value(i);
+      const FEmTool_ListOfVectors& Li = G.Value(i);
       gi.Init(0.);
       // preparing i-th line of G (or column of Gt) 
-      for(Iter.Initialize(L); Iter.More(); Iter.Next()) {
+      for(Iter.Initialize(Li); Iter.More(); Iter.Next()) {
 
 	const Handle(TColStd_HArray1OfReal)& a = Iter.Value();
 
@@ -324,9 +324,9 @@ Standard_Boolean FEmTool_Assembly::Solve()
 	if(GHGt->IsInProfile(k, i)) {
 	  Standard_Real m = 0.; // m = M(k,i)
 	
-	  const FEmTool_ListOfVectors& L = G.Value(k);
+	  const FEmTool_ListOfVectors& Lk = G.Value(k);
 	
-	  for(Iter.Initialize(L); Iter.More(); Iter.Next()) {
+	  for(Iter.Initialize(Lk); Iter.More(); Iter.Next()) {
 
 	    const Handle(TColStd_HArray1OfReal)& a = Iter.Value();
 	    for(j = a->Lower(); j <= a->Upper(); j++) m += qi(j) * a->Value(j); // scalar product of
@@ -472,9 +472,9 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
   FEmTool_ListOfVectors& L = G.ChangeValue(IndexofConstraint);
   
   Handle(TColStd_HArray1OfInteger) Indexes = myRefTable->Value(Dimension,Element);
-  Standard_Integer i, Imax = 0, Imin = NbGlobVar();
+  Standard_Integer Imax = 0, Imin = NbGlobVar();
 
-  for(i = Indexes->Lower(); i <= Indexes->Upper(); i++) {
+  for (Standard_Integer i = Indexes->Lower(); i <= Indexes->Upper(); i++) {
     Imin = Min(Imin, Indexes->Value(i));
     Imax = Max(Imax, Indexes->Value(i));
   }
@@ -488,10 +488,9 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
   }
   else {
     FEmTool_ListIteratorOfListOfVectors Iter(L);
-    Standard_Integer i;
     Standard_Real  s1 = 0, s2 = 0;
     Handle(TColStd_HArray1OfReal) Aux1, Aux2;
-    for(i=1; Iter.More(); Iter.Next(), i++) {
+    for (Standard_Integer i=1; Iter.More(); Iter.Next(), i++) {
       if(Imin >= Iter.Value()->Lower()) {
 	s1 = i;
 	Aux1 = Iter.Value();
@@ -519,8 +518,8 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
 	else {
 	  // merge new and first segment
 	  Coeff = new TColStd_HArray1OfReal(Imin, Aux2->Upper());
-	  for(i = Imin; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
-	  for(i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
+	  for (Standard_Integer i = Imin; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
+	  for (Standard_Integer i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
 	  L.First() = Coeff;
 	}
       }
@@ -534,27 +533,27 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
 	else {
 	  // merge new and last segment
 	  Coeff = new TColStd_HArray1OfReal(Aux1->Lower(), Imax);
-	  for(i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
-	  for(i = Aux1->Upper() + 1; i <= Imax; i++) Coeff->SetValue(i, 0.);
+	  for (Standard_Integer i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
+	  for (Standard_Integer i = Aux1->Upper() + 1; i <= Imax; i++) Coeff->SetValue(i, 0.);
 	  L.Last() = Coeff;
 	}
       }
       else if(Imin <= Aux1->Upper() && Imax < Aux2->Lower()) {
 	// merge s1 and new
 	Coeff = new TColStd_HArray1OfReal(Aux1->Lower(), Imax);
-	for(i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
-	for(i = Aux1->Upper() + 1; i <= Imax; i++) Coeff->SetValue(i, 0.);
+	for (Standard_Integer i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
+	for (Standard_Integer i = Aux1->Upper() + 1; i <= Imax; i++) Coeff->SetValue(i, 0.);
 	Iter.Initialize(L);
-	for(i = 1; i < s1; Iter.Next(), i++) {}
+	for (Standard_Integer i = 1; i < s1; Iter.Next(), i++) {}
 	Iter.Value() = Coeff;
       }
       else if(Imin > Aux1->Upper() && Imax >= Aux2->Lower()) { 
 	// merge new and first segment
 	Coeff = new TColStd_HArray1OfReal(Imin, Aux2->Upper());
-	for(i = Imin; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
-	for(i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
+	for (Standard_Integer i = Imin; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
+	for (Standard_Integer i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
 	Iter.Initialize(L);
-	for(i = 1; i < s2; Iter.Next(), i++) {}
+	for (Standard_Integer i = 1; i < s2; Iter.Next(), i++) {}
 	Iter.Value() = Coeff;
      }
       else if(Imin > Aux1->Upper() && Imax < Aux2->Lower()) {
@@ -562,17 +561,17 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
 	Coeff = new TColStd_HArray1OfReal(Imin,Imax);
 	Coeff->Init(0.);
 	Iter.Initialize(L);
-	for(i = 1; i < s1; Iter.Next(), i++) {}
+	for (Standard_Integer i = 1; i < s1; Iter.Next(), i++) {}
 	L.InsertAfter(Coeff,Iter);
       }
       else {
 	// merge s1, new, s2 and remove s2 
 	Coeff = new TColStd_HArray1OfReal(Aux1->Lower(), Aux2->Upper());
-	for(i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
-	for(i = Aux1->Upper() + 1; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
-	for(i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
+	for (Standard_Integer i = Aux1->Lower(); i <= Aux1->Upper(); i++) Coeff->SetValue(i, Aux1->Value(i));
+	for (Standard_Integer i = Aux1->Upper() + 1; i <= Aux2->Lower() - 1; i++) Coeff->SetValue(i, 0.);
+	for (Standard_Integer i = Aux2->Lower(); i <= Aux2->Upper(); i++) Coeff->SetValue(i, Aux2->Value(i));
 	Iter.Initialize(L);
-	for(i = 1; i < s1; Iter.Next(), i++) {}
+	for (Standard_Integer i = 1; i < s1; Iter.Next(), i++) {}
 	Iter.Value() = Coeff;
 	Iter.Next();
 	L.Remove(Iter);
@@ -582,7 +581,7 @@ void FEmTool_Assembly::AddConstraint(const Standard_Integer IndexofConstraint,
 
   // adding 
   Standard_Integer j = LinearForm.Lower();
-  for(i = Indexes->Lower(); i <= Indexes->Upper(); i++, j++) {
+  for (Standard_Integer i = Indexes->Lower(); i <= Indexes->Upper(); i++, j++) {
     Coeff->ChangeValue(Indexes->Value(i)) += LinearForm(j);
   }
   

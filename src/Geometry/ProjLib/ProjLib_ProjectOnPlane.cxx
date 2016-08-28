@@ -713,9 +713,7 @@ void ProjLib_ProjectOnPlane::Load(const Handle(Adaptor3d_HCurve)&    C,
 	else if ( Xc.IsNormal(Yc,Precision::Angular())) {
 	  myType = GeomAbs_Parabola;
 	  Standard_Real F = Parab.Focal() / Xc.Magnitude();
-	  gp_Parab Parab = gp_Parab( gp_Ax2(P,Xc^Yc,Xc), F);
-          Handle(Geom_Parabola) GeomParabolaPtr =
-	    new Geom_Parabola(Parab) ;
+          Handle(Geom_Parabola) GeomParabolaPtr = new Geom_Parabola(gp_Parab( gp_Ax2(P,Xc^Yc,Xc), F));
 //  Modified by Sergey KHROMOV - Tue Jan 29 16:57:29 2002 Begin
 	  GeomAdaptor_Curve aGACurve(GeomParabolaPtr);
 	  myResult = new GeomAdaptor_HCurve(aGACurve);
@@ -736,23 +734,23 @@ void ProjLib_ProjectOnPlane::Load(const Handle(Adaptor3d_HCurve)&    C,
     break;
   case GeomAbs_Hyperbola:
     {
-      //     P(u) = O + R1 * Cosh(u) * Xc + R2 * Sinh(u) * Yc
+      //     P(u) = O + MajorRadius * Cosh(u) * Xc + MinorRadius * Sinh(u) * Yc
       // ==> Q(u) = f(P(u)) 
-      //          = f(O) + R1 * Cosh(u) * f(Xc) + R2 * Sinh(u) * f(Yc)
+      //          = f(O) + MajorRadius * Cosh(u) * f(Xc) + MinorRadius * Sinh(u) * f(Yc)
 
       gp_Hypr Hypr  = myCurve->Hyperbola();
       gp_Ax2 AxeRef = Hypr.Position();
       gp_Vec Xc = ProjectVec(myPlane,myDirection,gp_Vec(AxeRef.XDirection()));
       gp_Vec Yc = ProjectVec(myPlane,myDirection,gp_Vec(AxeRef.YDirection()));
       gp_Pnt P  = ProjectPnt(myPlane,myDirection,AxeRef.Location());
-      Standard_Real R1 = Hypr.MajorRadius();
-      Standard_Real R2 = Hypr.MinorRadius();
+      Standard_Real MajorRadius = Hypr.MajorRadius();
+      Standard_Real MinorRadius = Hypr.MinorRadius();
       gp_Dir Z = myPlane.Direction();
 
       if ( Xc.Magnitude() < Precision::Confusion()) {
 	myType   = GeomAbs_Hyperbola;
 	gp_Dir X = gp_Dir(Yc) ^ Z;
-	Hypr   = gp_Hypr(gp_Ax2( P, Z, X), 0., R2 * Yc.Magnitude());
+	Hypr   = gp_Hypr(gp_Ax2( P, Z, X), 0., MinorRadius * Yc.Magnitude());
         GeomHyperbolaPtr =
 	  new Geom_Hyperbola(Hypr) ;
 //  Modified by Sergey KHROMOV - Tue Jan 29 16:57:29 2002 Begin
@@ -763,7 +761,7 @@ void ProjLib_ProjectOnPlane::Load(const Handle(Adaptor3d_HCurve)&    C,
       else if ( Yc.Magnitude() < Precision::Confusion()) {
 	myType = GeomAbs_Hyperbola;
 	Hypr = 
-	   gp_Hypr(gp_Ax2(P, Z, gp_Dir(Xc)), R1 * Xc.Magnitude(), 0.);
+	   gp_Hypr(gp_Ax2(P, Z, gp_Dir(Xc)), MajorRadius * Xc.Magnitude(), 0.);
         GeomHyperbolaPtr =
 	  new Geom_Hyperbola(Hypr) ;
 //  Modified by Sergey KHROMOV - Tue Jan 29 16:57:29 2002 Begin
@@ -774,7 +772,7 @@ void ProjLib_ProjectOnPlane::Load(const Handle(Adaptor3d_HCurve)&    C,
       else if ( Xc.IsNormal(Yc,Precision::Angular())) {
 	myType = GeomAbs_Hyperbola;
 	Hypr = gp_Hypr( gp_Ax2( P, gp_Dir( Xc ^ Yc), gp_Dir( Xc)),
-		       R1 * Xc.Magnitude(), R2 * Yc.Magnitude() );
+		       MajorRadius * Xc.Magnitude(), MinorRadius * Yc.Magnitude() );
 	GeomHyperbolaPtr =
 	  new Geom_Hyperbola(Hypr) ;
 //  Modified by Sergey KHROMOV - Tue Jan 29 16:57:29 2002 Begin

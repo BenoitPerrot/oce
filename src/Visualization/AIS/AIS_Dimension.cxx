@@ -967,8 +967,8 @@ void AIS_Dimension::DrawLinearDimension (const Handle(Prs3d_Presentation)& thePr
     aPrimSegments->AddVertex (theSecondPoint);
     aPrimSegments->AddVertex (aLineEndPoint);
 
-    Handle(Prs3d_DimensionAspect) aDimensionAspect = myDrawer->DimensionAspect();
-    Prs3d_Root::CurrentGroup (thePresentation)->SetPrimitivesAspect (aDimensionAspect->LineAspect()->Aspect());
+    Handle(Prs3d_DimensionAspect) dimensionAspect = myDrawer->DimensionAspect();
+    Prs3d_Root::CurrentGroup (thePresentation)->SetPrimitivesAspect (dimensionAspect->LineAspect()->Aspect());
     Prs3d_Root::CurrentGroup (thePresentation)->AddPrimitiveArray (aPrimSegments);
   }
 

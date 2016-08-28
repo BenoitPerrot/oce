@@ -293,7 +293,7 @@ void BOPAlgo_PaveFiller::PerformEE()
   }
   //
   Standard_Boolean bJustAdd;
-  Standard_Integer i, iX, nE1, nE2, aNbCPrts, k, aNbFdgeEdge;
+  Standard_Integer i, iX, nE1, nE2, aNbCPrts, aNbFdgeEdge;
   Standard_Real aTS11, aTS12, aTS21, aTS22, aT11, aT12, aT21, aT22;
   TopAbs_ShapeEnum aType;
   BOPDS_ListIteratorOfListOfPaveBlock aIt1, aIt2;
@@ -376,7 +376,7 @@ void BOPAlgo_PaveFiller::PerformEE()
   BOPAlgo_EdgeEdgeCnt::Perform(myRunParallel, aVEdgeEdge);
   //======================================================
   //
-  for (k=0; k < aNbFdgeEdge; ++k) {
+  for (Standard_Integer k=0; k < aNbFdgeEdge; ++k) {
     Bnd_Box aBB1, aBB2;
     //
     BOPAlgo_EdgeEdge& anEdgeEdge=aVEdgeEdge(k);
@@ -458,7 +458,7 @@ void BOPAlgo_PaveFiller::PerformEE()
           BOPTools_AlgoTools::MakeNewVertex(aE1, aT1, aE2, aT2, aVnew);
           // <-LXBR
           {
-            Standard_Integer nVS[2], iFound, k;
+            Standard_Integer nVS[2], iFound;
             Standard_Real aTolVx, aTolVnew, aD2, aDT2;
             BOPCol_MapOfInteger aMV;
             gp_Pnt aPnew, aPx;
@@ -480,8 +480,8 @@ void BOPAlgo_PaveFiller::PerformEE()
             aTolVnew=BRep_Tool::Tolerance(aVnew);
             aPnew=BRep_Tool::Pnt(aVnew);
             //
-            for (k=0; k<=j; ++k) {
-              const TopoDS_Vertex& aVx= *(TopoDS_Vertex*)&(myDS->Shape(nVS[k]));
+            for (Standard_Integer l=0; l<=j; ++l) {
+              const TopoDS_Vertex& aVx= *(TopoDS_Vertex*)&(myDS->Shape(nVS[l]));
               aTolVx=BRep_Tool::Tolerance(aVx);
               aPx=BRep_Tool::Pnt(aVx);
               aD2=aPnew.SquareDistance(aPx);
@@ -614,15 +614,15 @@ Standard_Integer BOPAlgo_PaveFiller::PerformVerticesEE
   //   connect indices to CPB structure
   aNb = aImages.Extent();
   for (i=1; i<=aNb; ++i) {
-    const TopoDS_Vertex& aV=(*(TopoDS_Vertex*)(&aImages.FindKey(i)));
+    const TopoDS_Vertex& Vi=(*(TopoDS_Vertex*)(&aImages.FindKey(i)));
     const BOPCol_ListOfShape& aLVSD=aImages.FindFromIndex(i);
     //
-    aSI.SetShape(aV);
+    aSI.SetShape(Vi);
     iV=myDS->Append(aSI);
     //
     BOPDS_ShapeInfo& aSIDS=myDS->ChangeShapeInfo(iV);
     Bnd_Box& aBox=aSIDS.ChangeBox();
-    BRepBndLib::Add(aV, aBox);
+    BRepBndLib::Add(Vi, aBox);
     //
     aItLS.Initialize(aLVSD);
     for (; aItLS.More(); aItLS.Next()) {
